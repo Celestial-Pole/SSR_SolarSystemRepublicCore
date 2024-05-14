@@ -96,90 +96,36 @@
     </comps>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_ArmouredEmbrasure</defName>
-    <label>装甲射击墙</label>
-    <description>装甲射击墙</description>
-    <thingClass>Building</thingClass>
-    <category>Building</category>
-    <graphicData>
-      <texPath>Things/Building/Structure/SSREmbrasure</texPath>
-      <graphicClass>Graphic_Appearances</graphicClass>
-      <linkType>CornerFiller</linkType>
-      <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
-      </linkFlags>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-        <edgeTop>Damage/Edge</edgeTop>
-        <edgeBot>Damage/Edge</edgeBot>
-        <edgeLeft>Damage/Edge</edgeLeft>
-        <edgeRight>Damage/Edge</edgeRight>
-      </damageData>
-    </graphicData>
-    <uiIconPath>Things/Building/Structure/SSREmbrasure/SSR_EmbrasureSmooth_Icon</uiIconPath>
-    <uiIconPathsStuff>
-      <li>
-        <appearance>Planks</appearance>
-        <iconPath>Things/Building/Structure/SSREmbrasure/SSR_EmbrasurePlanks_Icon</iconPath>
-      </li>
-      <li>
-        <appearance>Bricks</appearance>
-        <iconPath>Things/Building/Structure/SSREmbrasure/SSR_EmbrasureBricks_Icon</iconPath>
-      </li>
-    </uiIconPathsStuff>
-    <statBases>
-      <MaxHitPoints>240</MaxHitPoints>
-      <WorkToBuild>190</WorkToBuild>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <costStuffCount>5</costStuffCount>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.70</fillPercent>
-    <coversFloor>true</coversFloor>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
-    <tickerType>Never</tickerType>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <neverMultiSelect>true</neverMultiSelect>
-    <useStuffTerrainAffordance>true</useStuffTerrainAffordance>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <holdsRoof>true</holdsRoof>
-    <designationCategory>Structure</designationCategory>
-    <staticSunShadowHeight>1</staticSunShadowHeight>
-    <blockLight>false</blockLight>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-      <isInert>true</isInert>
-      <canPlaceOverWall>true</canPlaceOverWall>
-      <blueprintGraphicData>
-        <texPath>Things/Building/Structure/SSR_Embrasure_Blueprint</texPath>
-      </blueprintGraphicData>
-      <paintable MayRequire="Rimworld.Biotech">true</paintable>
-    </building>
-    <researchPrerequisites>
-      <li>SSRBasicDefenseStructure</li>
-    </researchPrerequisites>
-    <comps>
-      <li Class="CompProperties_MeditationFocus">
-        <statDef>MeditationFocusStrength</statDef>
-        <focusTypes>
-          <li>Minimal</li>
-        </focusTypes>
-      </li>
-    </comps>
-  </ThingDef>
+
+	<ThingDef ParentName="Wall">
+		<defName>SSR_Embrasure</defName>
+		<label>ssr embrasure (hole)</label>
+		<description>An impassable embrasure. Capable of holding up a roof, weapons can be fired through.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Building/Linked/Wall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    	<fillPercent>0.80</fillPercent>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<comps>
+		</comps>
+	</ThingDef>
 
 </Defs>
