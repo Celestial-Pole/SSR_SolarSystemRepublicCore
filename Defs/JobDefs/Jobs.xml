@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>SSR_Job_BuildUpgradableBuilding</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_ConstructUpgradableBuilding</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>SSR_Job_FillUpgradableBuilding</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_FillUpgradableBuilding</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<!-- ==================================== 火力发电站 =====================================-->
+	
+	<JobDef>
+		<defName>SSR_Job_Refuel</defName>
+		<driverClass>FS_SSR.JobDriver_RefuelMultiFuel</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<!-- ==================================== 矿井 =====================================-->
+
+	<JobDef>
+		<defName>SSR_Job_PalmineDeliverMaterial</defName>
+		<driverClass>FS_SSR.Palmine.JobDriver_PalmineDeliverMaterial</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>SSR_Job_EnterPalmine</defName>
+		<driverClass>FS_SSR.Palmine.JobDriver_EnterMine</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<!-- ==================================== 洗衣机 =====================================-->
+
+	<JobDef>
+		<defName>SSR_Job_FillLaundry</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundry</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	<JobDef>
+		<defName>SSR_Job_FillLaundryII</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryII</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+</Defs>

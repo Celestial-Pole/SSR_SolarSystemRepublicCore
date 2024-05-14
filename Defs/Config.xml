@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<Def Class="FS_SSR.ConfigDef">
+		<defName>SSR_Config</defName>
+		<predictableIncidents>
+			<li>ToxicFallout</li>
+		</predictableIncidents>
+		<particleSatelliteAwards>
+			<li>
+				<item>Steel</item>
+				<amount>20</amount>
+				<weight>1</weight>
+			</li>
+		</particleSatelliteAwards>
+		<interceptableSkyfaller>
+			<li>DropPodIncomingMechanoid</li>
+			<li>ShipChunkIncoming</li>
+		</interceptableSkyfaller>
+	</Def>
+
+</Defs>

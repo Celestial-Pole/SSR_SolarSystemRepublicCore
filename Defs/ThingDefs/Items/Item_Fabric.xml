@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase" Name="SSR_FabricBase" Abstract="True">
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <minRewardCount>30</minRewardCount>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <stuffProps>
+            <categories>
+                <li>Fabric</li>
+            </categories>
+            <statFactors>
+                <Flammability>0</Flammability>
+            </statFactors>
+            <commonality>0</commonality>
+            <allowColorGenerators>false</allowColorGenerators>
+            <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+        </stuffProps>
+        <thingCategories>
+            <li>SSR_Material</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- ==================================== Tech Level 1 =====================================-->
+
+    <ThingDef ParentName="SSR_FabricBase">
+        <defName>SSR_Graphene</defName>
+        <label>石墨烯</label>
+        <description>石墨烯是一种强度极高的材料，同时还具有很好的韧性。</description>
+        <graphicData>
+            <texPath>Things/Item/Fabric/Graphene</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
+            <MaxHitPoints>300</MaxHitPoints>
+            <MarketValue>15</MarketValue>
+            <Mass>0.001</Mass>
+        </statBases>
+        <stuffProps>
+            <statFactors>
+                <MaxHitPoints>3.25</MaxHitPoints>
+                <Beauty>6.5</Beauty>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <!-- ==================================== Tech Level 2 =====================================-->
+
+    <ThingDef ParentName="SSR_FabricBase">
+        <defName>SSR_Nanofabrics</defName>
+        <label>纳米织物</label>
+        <description>纳米织物。</description>
+        <graphicData>
+            <texPath>Things/Item/Fabric/Nanofabrics</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <StuffPower_Armor_Sharp>4.5</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>125</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>5</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>45</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>45</StuffPower_Insulation_Heat>
+            <MaxHitPoints>300</MaxHitPoints>
+            <MarketValue>20</MarketValue>
+            <Mass>0.001</Mass>
+        </statBases>
+        <stuffProps>
+            <statFactors>
+                <MaxHitPoints>5</MaxHitPoints>
+                <Beauty>7.5</Beauty>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<FS_SSR.FontDef>
+		<defName>SSR_Font_YouYuan</defName>
+		<label>YouYuan_CHSCHTJP</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>youyuanSDF_CHSCHTJP</modelName>
+	</FS_SSR.FontDef>
+	
+	<FS_SSR.FontDef>
+		<defName>SSR_Font_GulimKR</defName>
+		<label>Gulim_KR</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>fontgulimkr</assetBundle>
+		<modelName>gulimSDF</modelName>
+	</FS_SSR.FontDef>
+	
+</Defs>

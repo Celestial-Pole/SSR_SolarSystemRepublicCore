@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>SSR_Material</defName>
+		<label>太阳系共和国材料</label>
+		<parent>ResourcesRaw</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Manufactured</defName>
+		<label>太阳系共和国制成品</label>
+		<parent>Manufactured</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Furniture</defName>
+		<label>太阳系共和国家具</label>
+		<parent>BuildingsFurniture</parent>
+	</ThingCategoryDef>
+
+</Defs>

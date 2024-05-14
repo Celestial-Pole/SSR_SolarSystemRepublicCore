@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+		<defName>SSR_Satellite_GeoScan</defName>
+		<label>地质扫描卫星</label>
+		<description>卫星</description>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
+		<stuffProps>
+			<statFactors>
+				<MaxHitPoints>3.25</MaxHitPoints>
+				<Beauty>6.5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<satelliteSize>1</satelliteSize>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+		<defName>SSR_Satellite_SolarPowerGenerator</defName>
+		<label>太阳能发电卫星</label>
+		<description>就要在这发电</description>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
+		<stuffProps>
+			<statFactors>
+				<MaxHitPoints>3.25</MaxHitPoints>
+				<Beauty>6.5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<satelliteSize>3</satelliteSize>
+	</ThingDef>
+
+</Defs>
