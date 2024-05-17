@@ -2,6 +2,122 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
+    <defName>SSR_Medium-levelSolarGenerator</defName>
+    <label>中级太阳能板</label>
+    <description>中级太阳能板</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/Medium-levelSolarGenerator/Medium-levelSolarGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <shadowData>
+        <volume>(3.5,0.75,3.4)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.6,4,2.8)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(4,4)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantSolar</compClass>
+        <basePowerConsumption>-2500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <designationHotKey>Misc5</designationHotKey>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>SSRMedium-levelCleanEnergyGeneration</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_AdvancedSolarGenerator</defName>
+    <label>高级太阳能板</label>
+    <description>高级太阳能板</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/AdvancedSolarGenerator/AdvancedSolarGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <shadowData>
+        <volume>(3.5,0.75,3.4)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.6,4,2.8)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(4,4)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantSolar</compClass>
+        <basePowerConsumption>-3200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <designationHotKey>Misc5</designationHotKey>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>SSRAdvancedCleanEnergyGeneration</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
     <defName>SSR_NuclearFusionReactor</defName>
     <label>核聚变反应堆</label>
     <description>核聚变反应堆</description>
@@ -136,7 +252,7 @@
       <li Class="CompProperties_Power">
         <compClass>FS_SSR.TC_LocalWirelessPowerBroadcast</compClass>
         <transmitsPower>true</transmitsPower>
-        <basePowerConsumption>-20000</basePowerConsumption>
+        <basePowerConsumption>-5000</basePowerConsumption>
       </li>
       <li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
       <li Class="FS_SSR.Generic.TCP_DrawOverlay">
@@ -155,136 +271,6 @@
     <placeWorkers>
       <li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
     </placeWorkers>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_SolarGeneratorI</defName>
-    <label>SSR的太阳能板I</label>
-    <description>SSR的太阳能板I</description>
-    <thingClass>Building</thingClass>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <graphicData>
-      <texPath>Things/Building/Power/SolarCollector</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
-      <shadowData>
-        <volume>(3.5,0.75,3.4)</volume>
-        <offset>(0,0,0)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0,0.6,4,2.8)</rect>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <rotatable>false</rotatable>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <fillPercent>0.5</fillPercent>
-    <canOverlapZones>false</canOverlapZones>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <WorkToBuild>2500</WorkToBuild>
-      <Flammability>0.7</Flammability>
-    </statBases>
-    <tickerType>Normal</tickerType>
-    <size>(4,4)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
-    <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlantSolar</compClass>
-        <basePowerConsumption>-2500</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
-      </li>
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Stunnable">
-        <useLargeEMPEffecter>true</useLargeEMPEffecter>
-        <empChancePerTick>0.03</empChancePerTick>
-        <affectedDamageDefs>
-          <li>EMP</li>
-        </affectedDamageDefs>
-      </li>
-    </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2100</uiOrder>
-    <designationHotKey>Misc5</designationHotKey>
-    <constructEffect>ConstructMetal</constructEffect>
-    <researchPrerequisites>
-      <li>SolarPanels</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_SolarGeneratorII</defName>
-    <label>SSR的太阳能板II</label>
-    <description>SSR的太阳能板II</description>
-    <thingClass>Building</thingClass>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <graphicData>
-      <texPath>Things/Building/Power/SolarCollector</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
-      <shadowData>
-        <volume>(3.5,0.75,3.4)</volume>
-        <offset>(0,0,0)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0,0.6,4,2.8)</rect>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <rotatable>false</rotatable>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <fillPercent>0.5</fillPercent>
-    <canOverlapZones>false</canOverlapZones>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <WorkToBuild>2500</WorkToBuild>
-      <Flammability>0.7</Flammability>
-    </statBases>
-    <tickerType>Normal</tickerType>
-    <size>(4,4)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
-    <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlantSolar</compClass>
-        <basePowerConsumption>-1700</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
-      </li>
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Stunnable">
-        <useLargeEMPEffecter>true</useLargeEMPEffecter>
-        <empChancePerTick>0.03</empChancePerTick>
-        <affectedDamageDefs>
-          <li>EMP</li>
-        </affectedDamageDefs>
-      </li>
-    </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2100</uiOrder>
-    <designationHotKey>Misc5</designationHotKey>
-    <constructEffect>ConstructMetal</constructEffect>
-    <researchPrerequisites>
-      <li>SolarPanels</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
 
   <!--  原版风力发电
