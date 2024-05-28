@@ -52,7 +52,7 @@
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				
 			</li>
-			<li Class="FS_SSR.TCP_RuinInsteadOfKill" >
+			<li Class="FS_SSR.RuinableBuilding.TCP_RuinInsteadOfKill" >
 				<ruinGraphic>
 					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
