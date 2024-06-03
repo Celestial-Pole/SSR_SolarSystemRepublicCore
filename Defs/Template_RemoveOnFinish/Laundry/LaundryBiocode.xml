@@ -61,40 +61,5 @@
 			</li>
 		</modExtensions>
 	</ThingDef>	
-		
-	<WorkGiverDef>
-		<defName>SSR_WorkGiver_FillLaundryBiocode</defName>
-		<label>fill awb</label>
-		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundryBiocode</giverClass>
-		<workType>Hauling</workType>
-		<emergency>false</emergency>
-		<verb>fill awb...</verb>
-		<gerund>filling awb...</gerund>
-		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
-		<priorityInType>1000</priorityInType>
-		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
-	
-	<JobDef>
-		<defName>SSR_Job_FillLaundryII</defName>
-		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryII</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-	<WorkGiverDef>
-		<defName>SSR_WorkGiver_FillLaundryRepair</defName>
-		<label>repair this</label>
-		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundryRepair</giverClass>
-		<workType>Hauling</workType>
-		<emergency>false</emergency>
-		<verb>fill awb...</verb>
-		<gerund>filling awb...</gerund>
-		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
-		<priorityInType>1000</priorityInType>
-		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
 	
 </Defs>
