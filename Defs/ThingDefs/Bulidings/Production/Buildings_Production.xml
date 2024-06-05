@@ -312,11 +312,15 @@
 		<tickerType>Long</tickerType>
 		<description>可以把人当成帕鲁丢进去挖矿的矿场</description>
 		<graphicData>
-			<texPath>UI/TempIcon</texPath>
+			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>3.2</drawSize>
+			<drawSize>7</drawSize>
+      <shadowData>
+        <volume>(0.6, 1.0, 1.6)</volume>
+        <offset>(-0.1,0,-0.08)</offset>
+      </shadowData>
 		</graphicData>
-		<size>(2,2)</size>
+		<size>(7,7)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
