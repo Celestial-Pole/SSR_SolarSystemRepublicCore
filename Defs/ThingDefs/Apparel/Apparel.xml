@@ -446,6 +446,9 @@
 	    <layers>
         <li>Overhead</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
 	  <recipeMaker>
 	  	<researchPrerequisite>EFClothing</researchPrerequisite>
@@ -500,6 +503,9 @@
 	    <layers>
         <li>Overhead</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
 	  <recipeMaker>
 	  	<researchPrerequisite>EFClothing</researchPrerequisite>
@@ -554,6 +560,9 @@
 	    <layers>
         <li>Overhead</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
 	  <recipeMaker>
 	  	<researchPrerequisite>EFClothing</researchPrerequisite>
@@ -608,6 +617,9 @@
 	    <layers>
         <li>Overhead</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
 	  <recipeMaker>
 	  	<researchPrerequisite>EFClothing</researchPrerequisite>

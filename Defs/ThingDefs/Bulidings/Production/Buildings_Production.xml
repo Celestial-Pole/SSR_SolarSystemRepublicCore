@@ -114,7 +114,7 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-      <li>SSRElementaryMaterialsScience</li>
+      <li>SSRBasicManufacturingTechnology</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -184,7 +184,7 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-      <li>SSRElementaryMaterialsScience</li>
+      <li>SSRBasicManufacturingTechnology</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -348,6 +348,9 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+    <researchPrerequisites>
+      <li>SSRStandardizedMineConstruction</li>
+    </researchPrerequisites>
 		<comps>
 		</comps>
 		<costPerLayer>
