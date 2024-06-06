@@ -325,7 +325,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
+		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
