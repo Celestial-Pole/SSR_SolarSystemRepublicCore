@@ -109,6 +109,35 @@
 			  <maxQuality>Legendary</maxQuality>
         <!--<productionFactor>5</productionFactor>-->
 		  </li>
+      <!-- <li Class="FS_SSR.TCP_Upgradable">
+        <levels>
+          <li>
+            <key>1<key>
+            <value>
+              <requireMaterial>true</requireMaterial>
+              <materials>
+                <li>
+                  <item>Silver</item>
+                  <amount>20</amount>
+                </li>
+                <li>
+                  <item>Gold</item>
+                  <amount>5</amount>
+                </li>
+              </materials>
+              <workAmout>200</workAmout>
+              <requirePawnWork>true</requirePawnWork>
+              <graphicData>
+                <texPath>UI/TempIcon</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(2,2)</drawSize>
+              </graphicData>
+              <requireResearch></requireResearch>
+              <showUpgradeGizmo>true</showUpgradeGizmo>
+            </value>
+          </li>
+        </levels>
+      </li> -->
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
