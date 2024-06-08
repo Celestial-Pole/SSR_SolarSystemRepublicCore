@@ -208,6 +208,23 @@
 		<allowedRocketCapacity>6</allowedRocketCapacity>
 	</ThingDef>
 	
+	<Def Class="FS_SSR.Satellite.RocketDef">
+		<defName>SSR_Rocket_SpaceElevator</defName>
+		<label>太空电梯内置火箭</label>
+		<capacity>50</capacity>
+		<description>我是泡</description>
+		<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+		<buildParams>
+			<materials>
+				<li>
+					<item>Steel</item>
+					<amount>15</amount>
+				</li>
+			</materials>
+			<workAmt>50</workAmt>
+		</buildParams>
+	</Def>
+	
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="SSR_LaunchStation">
 		<defName>SSR_SpaceElevator</defName>
 		<label>太空电梯</label>
@@ -216,6 +233,7 @@
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 		</placeWorkers>
+		<allowedRocketCapacity>60</allowedRocketCapacity>
 	</ThingDef>
   
     <ThingDef ParentName="BuildingBase">

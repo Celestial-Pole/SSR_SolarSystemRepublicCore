@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase" Name="_satellitebase">
 		<defName>SSR_Satellite_GeoScan</defName>
 		<label>地质扫描卫星</label>
 		<description>卫星</description>
@@ -28,6 +28,41 @@
 		<satelliteSize>1</satelliteSize>
 	</ThingDef>
 
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Recon</defName>
+		<label>侦查卫星</label>
+	</ThingDef>
+	
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Weather</defName>
+		<label>气象卫星</label>
+	</ThingDef>
+	
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Bombard</defName>
+		<label>轰炸卫星</label>
+	</ThingDef>	
+	
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_ElevatorCore</defName>
+		<label>太空电梯平台核心</label>
+	</ThingDef>
+	
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_OrbitalDefense</defName>
+		<label>防御平台</label>
+	</ThingDef>
+	
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_ParticleCollect</defName>
+		<label>粒子收集平台</label>
+	</ThingDef>
+		
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_ShuttleBay</defName>
+		<label>穿梭机库</label>
+	</ThingDef>
+	
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
 		<defName>SSR_Satellite_SolarPowerGenerator</defName>
 		<label>太阳能发电卫星</label>

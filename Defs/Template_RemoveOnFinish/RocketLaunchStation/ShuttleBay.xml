@@ -155,4 +155,9 @@
 	</comps>
   </ThingDef>
 
+  <ShipJobDef>
+    <defName>SSR_ShipJob_NewLoop</defName>
+    <jobClass>FS_SSR.Satellite.Shuttle.ShipJob_NewLoop</jobClass>
+  </ShipJobDef>
+
 </Defs>
