@@ -109,10 +109,10 @@
 			  <maxQuality>Legendary</maxQuality>
         <!--<productionFactor>5</productionFactor>-->
 		  </li>
-      <!-- <li Class="FS_SSR.TCP_Upgradable">
+      <li Class="FS_SSR.Generic.TCP_Upgradable">
         <levels>
           <li>
-            <key>1<key>
+            <key>1</key>
             <value>
               <requireMaterial>true</requireMaterial>
               <materials>
@@ -125,19 +125,19 @@
                   <amount>5</amount>
                 </li>
               </materials>
-              <workAmout>200</workAmout>
+              <workAmt>200</workAmt>
               <requirePawnWork>true</requirePawnWork>
               <graphicData>
-                <texPath>UI/TempIcon</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <drawSize>(2,2)</drawSize>
+                <texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,2)</drawSize>
               </graphicData>
-              <requireResearch></requireResearch>
+              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
               <showUpgradeGizmo>true</showUpgradeGizmo>
             </value>
           </li>
         </levels>
-      </li> -->
+      </li>
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -208,6 +208,35 @@
       <li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
 			</li>
+      <li Class="FS_SSR.Generic.TCP_Upgradable">
+        <levels>
+          <li>
+            <key>1</key>
+            <value>
+              <requireMaterial>true</requireMaterial>
+              <materials>
+                <li>
+                  <item>Silver</item>
+                  <amount>20</amount>
+                </li>
+                <li>
+                  <item>Gold</item>
+                  <amount>5</amount>
+                </li>
+              </materials>
+              <workAmt>200</workAmt>
+              <requirePawnWork>true</requirePawnWork>
+              <graphicData>
+                <texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,2)</drawSize>
+              </graphicData>
+              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+              <showUpgradeGizmo>true</showUpgradeGizmo>
+            </value>
+          </li>
+        </levels>
+      </li>
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -279,6 +308,35 @@
 				<maxQuality>Legendary</maxQuality>
         <productionFactor>5</productionFactor>
 			</li>
+      <li Class="FS_SSR.Generic.TCP_Upgradable">
+        <levels>
+          <li>
+            <key>1</key>
+            <value>
+              <requireMaterial>true</requireMaterial>
+              <materials>
+                <li>
+                  <item>Silver</item>
+                  <amount>20</amount>
+                </li>
+                <li>
+                  <item>Gold</item>
+                  <amount>5</amount>
+                </li>
+              </materials>
+              <workAmt>200</workAmt>
+              <requirePawnWork>true</requirePawnWork>
+              <graphicData>
+                <texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,2)</drawSize>
+              </graphicData>
+              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+              <showUpgradeGizmo>true</showUpgradeGizmo>
+            </value>
+          </li>
+        </levels>
+      </li>
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
