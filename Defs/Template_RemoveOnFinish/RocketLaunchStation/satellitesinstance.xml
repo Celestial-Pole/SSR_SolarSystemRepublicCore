@@ -90,4 +90,34 @@
 		<satelliteSize>3</satelliteSize>
 	</ThingDef>
 
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_GeoScanSpeed</defName>
+		<label>地质扫描卫星扫描加速组件</label>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_GeoScanRange</defName>
+		<label>地质扫描卫星扫描范围升级组件</label>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_BombCD</defName>
+		<label>轨道轰炸卫星冷却升级组件</label>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_BombLaser</defName>
+		<label>轨道轰炸卫星重型激光组件</label>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_BombNeutron</defName>
+		<label>轨道轰炸卫星中子灭杀组件</label>
+	</ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+		<defName>SSR_Satellite_Addon_SolarPowerOutput</defName>
+		<label>太阳能发电卫星发电效率升级组件</label>
+	</ThingDef>
+
 </Defs>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <JobDef>
+	<JobDef>
 		<defName>SSR_Job_FillAutobench</defName>
 		<driverClass>FS_SSR.JobDriver_FillAutoBench</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
-		
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillAutobench</defName>
 		<label>fill awb</label>
@@ -23,337 +23,337 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_MaterialSynthesizer</defName>
-    <label>材料合成机</label>
-    <description>材料合成机</description>
-    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,2)</drawSize>
-      <damageData>
-      <cornerTL>Damage/Corner</cornerTL>
-      <cornerTR>Damage/Corner</cornerTR>
-      <cornerBL>Damage/Corner</cornerBL>
-      <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costList>
-      <Plasteel>350</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </costList>
-    <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToBuild>3000</WorkToBuild>
-      <MaxHitPoints>500</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Cleanliness>0</Cleanliness>
-	    <Mass>200</Mass>
-    </statBases>
-    <size>(3,2)</size>
-    <designationCategory>Production</designationCategory>
-	  <canOverlapZones>false</canOverlapZones>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <passability>PassThroughOnly</passability>
-	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <pathCost>50</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <recipes>
-		  <li>SSR_Recipe_HundredPlasteel</li>
-		  <li>SSR_Recipe_Synthread</li>
-	  	<li>SSR_Recipe_TenSynthread</li>
-	  	<li>SSR_Recipe_HundredSynthread</li>
-	  	<li>SSR_Recipe_Hyperweave</li>
-	  	<li>SSR_Recipe_TenHyperweave</li>
-	  	<li>SSR_Recipe_HundredHyperweave</li>
-	  	<li>SSR_Recipe_Graphene</li>
-	  	<li>SSR_Recipe_TenGraphene</li>
-  		<li>SSR_Recipe_HundredGraphene</li>
-      <li>SSR_Recipe_Nanofabrics</li>
-      <li>SSR_Recipe_TenNanofabrics</li>
-      <li>SSR_Recipe_HundredNanofabrics</li>
-      <li>SSR_Recipe_Carbyne</li>
-      <li>SSR_Recipe_TenCarbyne</li>
-      <li>SSR_Recipe_HundredCarbyne</li>
-      <li>SSR_Recipe_StandardConstructionElement</li>
-      <li>SSR_Recipe_TenStandardConstructionElement</li>
-      <li>SSR_Recipe_HundredStandardConstructionElement</li>
-      <li>SSR_Recipe_ArmourSteel</li>
-      <li>SSR_Recipe_TenArmourSteel</li>
-      <li>SSR_Recipe_HundredArmourSteel</li>
-      <li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
-      <li>SSR_Recipe_FermiMaterial</li>
-      <li>SSR_Recipe_PrecisionLens</li>
-      <li>SSR_Recipe_SuperconductingMaterial</li>
-      <li>SSR_Recipe_StrongElectromagnet</li>
-    </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-	  <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <comps>
-      <li Class="FS_SSR.TCP_AutoBenchAddon">
-			  <maxQuality>Legendary</maxQuality>
-        <!--<productionFactor>5</productionFactor>-->
-		  </li>
-      <li Class="FS_SSR.Generic.TCP_Upgradable">
-        <levels>
-          <li>
-            <key>1</key>
-            <value>
-              <requireMaterial>true</requireMaterial>
-              <materials>
-                <li>
-                  <item>Silver</item>
-                  <amount>20</amount>
-                </li>
-                <li>
-                  <item>Gold</item>
-                  <amount>5</amount>
-                </li>
-              </materials>
-              <workAmt>200</workAmt>
-              <requirePawnWork>true</requirePawnWork>
-              <graphicData>
-                <texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
-                <graphicClass>Graphic_Multi</graphicClass>
-                <drawSize>(3,2)</drawSize>
-              </graphicData>
-              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
-              <showUpgradeGizmo>true</showUpgradeGizmo>
-            </value>
-          </li>
-        </levels>
-      </li>
-	  <li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
-		<extraRecipe>
-			<li />
-			<li>
-				<li>SSR_Recipe_Plasteel</li>
-				<li>SSR_Recipe_TenPlasteel</li>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_MaterialSynthesizer</defName>
+		<label>材料合成机</label>
+		<description>材料合成机</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>SSR_Recipe_HundredPlasteel</li>
+			<li>SSR_Recipe_Synthread</li>
+			<li>SSR_Recipe_TenSynthread</li>
+			<li>SSR_Recipe_HundredSynthread</li>
+			<li>SSR_Recipe_Hyperweave</li>
+			<li>SSR_Recipe_TenHyperweave</li>
+			<li>SSR_Recipe_HundredHyperweave</li>
+			<li>SSR_Recipe_Graphene</li>
+			<li>SSR_Recipe_TenGraphene</li>
+			<li>SSR_Recipe_HundredGraphene</li>
+			<li>SSR_Recipe_Nanofabrics</li>
+			<li>SSR_Recipe_TenNanofabrics</li>
+			<li>SSR_Recipe_HundredNanofabrics</li>
+			<li>SSR_Recipe_Carbyne</li>
+			<li>SSR_Recipe_TenCarbyne</li>
+			<li>SSR_Recipe_HundredCarbyne</li>
+			<li>SSR_Recipe_StandardConstructionElement</li>
+			<li>SSR_Recipe_TenStandardConstructionElement</li>
+			<li>SSR_Recipe_HundredStandardConstructionElement</li>
+			<li>SSR_Recipe_ArmourSteel</li>
+			<li>SSR_Recipe_TenArmourSteel</li>
+			<li>SSR_Recipe_HundredArmourSteel</li>
+			<li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
+			<li>SSR_Recipe_FermiMaterial</li>
+			<li>SSR_Recipe_PrecisionLens</li>
+			<li>SSR_Recipe_SuperconductingMaterial</li>
+			<li>SSR_Recipe_StrongElectromagnet</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+				<!--<productionFactor>5</productionFactor>-->
 			</li>
-		</extraRecipe>
-	  </li>
-    </comps>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-    </building>
-    <researchPrerequisites>
-      <li>SSRBasicManufacturingTechnology</li>
-    </researchPrerequisites>
-  </ThingDef>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
+				<extraRecipe>
+					<li />
+					<li>
+						<li>SSR_Recipe_Plasteel</li>
+						<li>SSR_Recipe_TenPlasteel</li>
+					</li>
+				</extraRecipe>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+			<li>SSRBasicManufacturingTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
 
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_NumericalControlledMachineTool</defName>
-    <label>数控加工中心</label>
-    <description>数控加工中心</description>
-    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costList>
-      <Plasteel>350</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </costList>
-    <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToBuild>3000</WorkToBuild>
-      <MaxHitPoints>500</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Cleanliness>0</Cleanliness>
-	  <Mass>200</Mass>
-    </statBases>
-    <size>(3,2)</size>
-    <designationCategory>Production</designationCategory>
-	  <canOverlapZones>false</canOverlapZones>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <passability>PassThroughOnly</passability>
-	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <pathCost>50</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <recipes>
-      <li>SSR_Recipe_HighDensityBattery</li>
-      <li>SSR_Recipe_HighenergyLaserEmitter</li>
-      <li>SSR_Recipe_ExtremeComponent</li>
-      <li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
-      <li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
-    </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-	  <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <comps>
-      <li Class="FS_SSR.TCP_AutoBenchAddon">
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_NumericalControlledMachineTool</defName>
+		<label>数控加工中心</label>
+		<description>数控加工中心</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>SSR_Recipe_HighDensityBattery</li>
+			<li>SSR_Recipe_HighenergyLaserEmitter</li>
+			<li>SSR_Recipe_ExtremeComponent</li>
+			<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+			<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
 			</li>
-      <li Class="FS_SSR.Generic.TCP_Upgradable">
-        <levels>
-          <li>
-            <key>1</key>
-            <value>
-              <requireMaterial>true</requireMaterial>
-              <materials>
-                <li>
-                  <item>Silver</item>
-                  <amount>20</amount>
-                </li>
-                <li>
-                  <item>Gold</item>
-                  <amount>5</amount>
-                </li>
-              </materials>
-              <workAmt>200</workAmt>
-              <requirePawnWork>true</requirePawnWork>
-              <graphicData>
-                <texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
-                <graphicClass>Graphic_Multi</graphicClass>
-                <drawSize>(3,2)</drawSize>
-              </graphicData>
-              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
-              <showUpgradeGizmo>true</showUpgradeGizmo>
-            </value>
-          </li>
-        </levels>
-      </li>
-    </comps>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-    </building>
-    <researchPrerequisites>
-      <li>SSRBasicManufacturingTechnology</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>SSR_IntegratedChipManufacturingMachine</defName>
-    <label>集成化芯片制造机</label>
-    <description>集成化芯片制造机</description>
-    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4.5,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costList>
-      <Plasteel>350</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </costList>
-    <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToBuild>3000</WorkToBuild>
-      <MaxHitPoints>500</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Cleanliness>0</Cleanliness>
-	    <Mass>200</Mass>
-    </statBases>
-    <size>(3,2)</size>
-    <designationCategory>Production</designationCategory>
-	  <canOverlapZones>false</canOverlapZones>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <passability>PassThroughOnly</passability>
-	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <pathCost>50</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <recipes>
-      <li>SSR_Recipe_QuantumComputingCore</li>
-      <li>SSR_Recipe_ArtificialIntelligenceChip</li>
-      <li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
-      <li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
-      <li>SSR_Recipe_PhotonComputingCore</li>
-    </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-	  <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <comps>
-      <li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
-        <productionFactor>5</productionFactor>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
 			</li>
-      <li Class="FS_SSR.Generic.TCP_Upgradable">
-        <levels>
-          <li>
-            <key>1</key>
-            <value>
-              <requireMaterial>true</requireMaterial>
-              <materials>
-                <li>
-                  <item>Silver</item>
-                  <amount>20</amount>
-                </li>
-                <li>
-                  <item>Gold</item>
-                  <amount>5</amount>
-                </li>
-              </materials>
-              <workAmt>200</workAmt>
-              <requirePawnWork>true</requirePawnWork>
-              <graphicData>
-                <texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
-                <graphicClass>Graphic_Multi</graphicClass>
-                <drawSize>(3,2)</drawSize>
-              </graphicData>
-              <requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
-              <showUpgradeGizmo>true</showUpgradeGizmo>
-            </value>
-          </li>
-        </levels>
-      </li>
-    </comps>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-    </building>
-    <researchPrerequisites>
-      <li>SSRBasicComputationalScience</li>
-    </researchPrerequisites>
-  </ThingDef>
-  
-  <!--<ThingDef ParentName="BuildingBase">
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+			<li>SSRBasicManufacturingTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_IntegratedChipManufacturingMachine</defName>
+		<label>集成化芯片制造机</label>
+		<description>集成化芯片制造机</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>SSR_Recipe_QuantumComputingCore</li>
+			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_PhotonComputingCore</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+				<productionFactor>5</productionFactor>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+			<li>SSRBasicComputationalScience</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<!--<ThingDef ParentName="BuildingBase">
     <defName>SSR_NeutroamineSynthesizer</defName>
     <label>中性胺合成仪</label>
     <description>中性胺合成仪</description>
@@ -377,8 +377,8 @@
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Flammability>0</Flammability>
-	    <Mass>30</Mass>
-	    <WorkToBuild>20000</WorkToBuild>
+	  <Mass>30</Mass>
+	  <WorkToBuild>20000</WorkToBuild>
     </statBases>
     <pathCost>42</pathCost>
     <receivesSignals>true</receivesSignals>
@@ -399,7 +399,7 @@
     </researchPrerequisites>
   </ThingDef>-->
 
-  <ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
+	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
 		<label>帕鲁矿场</label>
 		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
@@ -409,10 +409,10 @@
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>7</drawSize>
-      <shadowData>
-        <volume>(0.6, 1.0, 1.6)</volume>
-        <offset>(-0.1,0,-0.08)</offset>
-      </shadowData>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
 		</graphicData>
 		<size>(7,7)</size>
 		<rotatable>false</rotatable>
@@ -428,7 +428,7 @@
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<thingCategories>
 			<li>BuildingsMisc</li>
-		</thingCategories>   
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>10</WorkToBuild>
@@ -442,9 +442,9 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
-    <researchPrerequisites>
-      <li>SSRStandardizedMineConstruction</li>
-    </researchPrerequisites>
+		<researchPrerequisites>
+			<li>SSRStandardizedMineConstruction</li>
+		</researchPrerequisites>
 		<comps>
 		</comps>
 		<costPerLayer>
@@ -468,16 +468,40 @@
 		<autoTunnelDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
+			<li>3</li>
+			<li>5</li>
 		</autoTunnelDiggerEfficiency>
 		<autoLayerDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
+			<li>3</li>
+			<li>5</li>
 		</autoLayerDiggerEfficiency>
 		<autoMineralDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
+			<li>3</li>
+			<li>5</li>
 		</autoMineralDiggerEfficiency>
 		<autoTunnelDiggerCost>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
 			<li>
 				<materials>
 					<li>
@@ -498,8 +522,44 @@
 				</materials>
 				<workAmt>50</workAmt>
 			</li>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
 		</autoLayerDiggerCost>
 		<autoMineralDiggerCost>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
+			<li>
+				<materials>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+					</li>
+				</materials>
+				<workAmt>50</workAmt>
+			</li>
 			<li>
 				<materials>
 					<li>
@@ -524,7 +584,7 @@
 				<value>15</value>
 				<stockPerTunnel>1000</stockPerTunnel>
 			</li>
-      <li>
+			<li>
 				<def>SSR_Carbon</def>
 				<workAmout>1</workAmout>
 				<yield>75</yield>
@@ -533,5 +593,5 @@
 			</li>
 		</manualMineralProperties>
 	</ThingDef>
-  
+
 </Defs>
