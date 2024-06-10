@@ -68,6 +68,8 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>SSR_Recipe_Plasteel</li>
+			<li>SSR_Recipe_TenPlasteel</li>
 			<li>SSR_Recipe_HundredPlasteel</li>
 			<li>SSR_Recipe_Synthread</li>
 			<li>SSR_Recipe_TenSynthread</li>
@@ -81,17 +83,12 @@
 			<li>SSR_Recipe_Nanofabrics</li>
 			<li>SSR_Recipe_TenNanofabrics</li>
 			<li>SSR_Recipe_HundredNanofabrics</li>
-			<li>SSR_Recipe_Carbyne</li>
-			<li>SSR_Recipe_TenCarbyne</li>
-			<li>SSR_Recipe_HundredCarbyne</li>
 			<li>SSR_Recipe_StandardConstructionElement</li>
 			<li>SSR_Recipe_TenStandardConstructionElement</li>
 			<li>SSR_Recipe_HundredStandardConstructionElement</li>
 			<li>SSR_Recipe_ArmourSteel</li>
 			<li>SSR_Recipe_TenArmourSteel</li>
 			<li>SSR_Recipe_HundredArmourSteel</li>
-			<li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
-			<li>SSR_Recipe_FermiMaterial</li>
 			<li>SSR_Recipe_PrecisionLens</li>
 			<li>SSR_Recipe_SuperconductingMaterial</li>
 			<li>SSR_Recipe_StrongElectromagnet</li>
@@ -104,8 +101,12 @@
 		</thingCategories>
 		<comps>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
+				<!--<maxQuality>Legendary</maxQuality>-->
 				<!--<productionFactor>5</productionFactor>-->
+				<productionFactorsUpgraded>
+					<li>0</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
 				<levels>
@@ -140,8 +141,20 @@
 				<extraRecipe>
 					<li />
 					<li>
-						<li>SSR_Recipe_Plasteel</li>
-						<li>SSR_Recipe_TenPlasteel</li>
+						<li>SSR_Recipe_Carbyne</li>
+						<li>SSR_Recipe_TenCarbyne</li>
+						<li>SSR_Recipe_HundredCarbyne</li>
+						<li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Recipe_TenNanoandMicroMechanicalComposite</li>
+						<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
+						<li>SSR_Recipe_HighDensityBattery</li>
+						<li>SSR_Recipe_HighenergyLaserEmitter</li>
+						<li>SSR_Recipe_FermiMaterial</li>
+						<li>SSR_Recipe_TenFermiMaterial</li>
+						<li>SSR_Recipe_HundredFermiMaterial</li>
+						<li>SSR_Recipe_ExtremeComponent</li>
+						<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+						<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
 					</li>
 				</extraRecipe>
 			</li>
@@ -199,11 +212,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-			<li>SSR_Recipe_HighDensityBattery</li>
-			<li>SSR_Recipe_HighenergyLaserEmitter</li>
-			<li>SSR_Recipe_ExtremeComponent</li>
-			<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
-			<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
+			
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -214,6 +223,10 @@
 		<comps>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
+				<productionFactorsUpgraded>
+					<li>0</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
 				<levels>
@@ -299,10 +312,6 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>SSR_Recipe_QuantumComputingCore</li>
-			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
-			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
-			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
-			<li>SSR_Recipe_PhotonComputingCore</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -312,8 +321,10 @@
 		</thingCategories>
 		<comps>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
-				<productionFactor>5</productionFactor>
+				<productionFactorsUpgraded>
+					<li>0</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
 				<levels>
@@ -343,6 +354,17 @@
 						</value>
 					</li>
 				</levels>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
+				<extraRecipe>
+					<li />
+					<li>
+						<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+						<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_PhotonComputingCore</li>
+					</li>
+				</extraRecipe>
 			</li>
 		</comps>
 		<building>

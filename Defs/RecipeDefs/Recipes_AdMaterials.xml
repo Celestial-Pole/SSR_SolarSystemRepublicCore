@@ -243,7 +243,7 @@
             <SSR_IntegratedQuantumComputingFramework>1</SSR_IntegratedQuantumComputingFramework>
         </products>
         <researchPrerequisites>
-            <li>SSRStandardizedArtificialIntelligence</li>
+            <li>SSRMedium-levelComputationalScience</li>
         </researchPrerequisites>
     </RecipeDef>
 
@@ -281,7 +281,7 @@
             <SSR_HighDensityBattery>1</SSR_HighDensityBattery>
         </products>
         <researchPrerequisites>
-            <li>SSRStandardizedArtificialIntelligence</li>
+            <li>SSRHighDensityBattery</li>
         </researchPrerequisites>
     </RecipeDef>
 
@@ -337,7 +337,7 @@
             <SSR_HighenergyLaserEmitter>1</SSR_HighenergyLaserEmitter>
         </products>
         <researchPrerequisites>
-            <li>SSRStandardizedArtificialIntelligence</li>
+            <li>SSRHighEnergyLaserArray</li>
         </researchPrerequisites>
     </RecipeDef>
 
