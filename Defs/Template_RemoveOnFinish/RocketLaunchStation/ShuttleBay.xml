@@ -81,6 +81,8 @@
         <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
         <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
       </li>
+	  <li Class="FS_SSR.Generic.TCP_Alias" />
+	  <li Class="FS_SSR.Satellite.TCP_ShuttleAddon" />
     </comps>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
