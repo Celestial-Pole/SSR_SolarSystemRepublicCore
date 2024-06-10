@@ -68,8 +68,6 @@
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
-	    <li>SSR_Recipe_Plasteel</li>
-		  <li>SSR_Recipe_TenPlasteel</li>
 		  <li>SSR_Recipe_HundredPlasteel</li>
 		  <li>SSR_Recipe_Synthread</li>
 	  	<li>SSR_Recipe_TenSynthread</li>
@@ -138,6 +136,15 @@
           </li>
         </levels>
       </li>
+	  <li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
+		<extraRecipe>
+			<li />
+			<li>
+				<li>SSR_Recipe_Plasteel</li>
+				<li>SSR_Recipe_TenPlasteel</li>
+			</li>
+		</extraRecipe>
+	  </li>
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
