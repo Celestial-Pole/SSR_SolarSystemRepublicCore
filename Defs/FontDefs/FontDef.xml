@@ -17,4 +17,12 @@
 		<modelName>gulimSDF</modelName>
 	</FS_SSR.FontDef>
 	
+	<FS_SSR.FontDef>
+		<defName>SSR_Font_HeitiBold</defName>
+		<label>HeiTi</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>heitibold</assetBundle>
+		<modelName>SanJiYingLangHeiJianTi-Cu-2 SDF</modelName>
+	</FS_SSR.FontDef>
+	
 </Defs>
