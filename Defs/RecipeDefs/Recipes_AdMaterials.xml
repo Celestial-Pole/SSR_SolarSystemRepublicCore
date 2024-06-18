@@ -431,7 +431,7 @@
             <SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
         </products>
         <researchPrerequisites>
-            <li>SSRAdvancedArtificialIntelligence</li>
+            <li>SSRAdvancedComputationalScience</li>
         </researchPrerequisites>
     </RecipeDef>
 
@@ -469,7 +469,7 @@
             <SSR_ExtremeComponent>1</SSR_ExtremeComponent>
         </products>
         <researchPrerequisites>
-            <li>SSRAdvancedArtificialIntelligence</li>
+            <li>SSRAdvancedManufacturingTechnology</li>
         </researchPrerequisites>
     </RecipeDef>
 
@@ -525,7 +525,7 @@
             <SSR_MiniatureNuclearFusionDevice>1</SSR_MiniatureNuclearFusionDevice>
         </products>
         <researchPrerequisites>
-            <li>SSRAdvancedArtificialIntelligence</li>
+            <li>SSRAdvancedEnergyTechnology</li>
         </researchPrerequisites>
     </RecipeDef>
 
@@ -572,7 +572,7 @@
             <SSR_HighenergyParticleConfinementDevice>1</SSR_HighenergyParticleConfinementDevice>
         </products>
         <researchPrerequisites>
-            <li>SSRAdvancedArtificialIntelligence</li>
+            <li>SSRParticleConfinementTechnology</li>
         </researchPrerequisites>
     </RecipeDef>
 </Defs>
