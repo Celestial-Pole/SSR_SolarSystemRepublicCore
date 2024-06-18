@@ -267,13 +267,13 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_AutomaticSlaughterhouseCenter</defName>
-		<label>自动屠宰中心</label>
-		<description>自动屠宰中心</description>
+		<defName>SSR_SlaughterMachine</defName>
+		<label>自动屠宰机</label>
+		<description>自动屠宰机</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Production/AutomaticSlaughterhouseCenter/AutomaticSlaughterhouseCenter</texPath>
+			<texPath>Things/Building/Production/SlaughterMachine/SlaughterMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 			<damageData>
@@ -322,7 +322,6 @@
 		</thingCategories>
 		<comps>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
@@ -361,9 +360,9 @@
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
-		<!-- <researchPrerequisites>
+		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
-		</researchPrerequisites> -->
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -538,6 +537,9 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc6</designationHotKey>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRControlledNuclearFusion</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">

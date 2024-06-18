@@ -1399,6 +1399,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLHC</li>
@@ -1421,6 +1422,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPhysics</li>
@@ -1437,6 +1439,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -1453,6 +1456,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -1469,6 +1473,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedManufacturingTechnology</li>
@@ -1486,6 +1491,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1502,6 +1508,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleConfinementTechnology</li>
@@ -1518,6 +1525,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1534,6 +1542,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1551,6 +1560,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleConfinementTechnology</li>
@@ -1567,6 +1577,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1583,6 +1594,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1600,6 +1612,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1616,6 +1629,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -1633,6 +1647,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRAdvancedEnergyTechnology</li>
@@ -1652,6 +1667,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRMedium-levelAutomaticGunCharger</li>
@@ -1669,6 +1685,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRHighEnergyLaserWeapon</li>
@@ -1686,6 +1703,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleBeamWeapon</li>
@@ -1703,6 +1721,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBallLightningWeapon</li>
@@ -1720,6 +1739,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1736,6 +1756,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedArtificialIntelligence</li>
@@ -1754,6 +1775,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRAdvancedEnergyTechnology</li>
@@ -1772,6 +1794,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPowerArmor</li>
@@ -1789,6 +1812,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedAutomaton</li>
@@ -1806,6 +1830,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleBeamWeapon</li>
@@ -1825,9 +1850,11 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRSpaceElevator</li>
+			<li>SSRAdvancedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>28</researchViewX>
@@ -1841,6 +1868,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRSpaceElevator</li>
@@ -1858,6 +1886,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRMedium-levelMineMiningAutomation</li>
@@ -1875,6 +1904,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRMedium-levelTunnelMiningAutomation</li>
@@ -1892,6 +1922,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRBasicMiningAutomation</li>
@@ -1909,6 +1940,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1926,6 +1958,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1943,6 +1976,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
+			<li>SSR_LHC</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMedicine</li>
