@@ -163,7 +163,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>9</drawSize>
 		</graphicData>
-		<uiIconScale>0.85</uiIconScale>>
+		<uiIconScale>0.85</uiIconScale>
 		<size>(9,9)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
