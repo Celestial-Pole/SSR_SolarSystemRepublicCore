@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<FS_SSR.FontDef>
+	<FS_UGUIFramework.FontDef>
 		<defName>SSR_Font_YouYuan</defName>
 		<label>YouYuan_CHSCHTJP</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>youyuanSDF_CHSCHTJP</modelName>
-	</FS_SSR.FontDef>
+	</FS_UGUIFramework.FontDef>
 	
-	<FS_SSR.FontDef>
+	<FS_UGUIFramework.FontDef>
 		<defName>SSR_Font_GulimKR</defName>
 		<label>Gulim_KR</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>fontgulimkr</assetBundle>
 		<modelName>gulimSDF</modelName>
-	</FS_SSR.FontDef>
+	</FS_UGUIFramework.FontDef>
 	
-	<FS_SSR.FontDef>
+	<FS_UGUIFramework.FontDef>
 		<defName>SSR_Font_HeitiBold</defName>
 		<label>HeiTi</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>heitibold</assetBundle>
 		<modelName>SanJiYingLangHeiJianTi-Cu-2 SDF</modelName>
-	</FS_SSR.FontDef>
+	</FS_UGUIFramework.FontDef>
 	
 </Defs>
