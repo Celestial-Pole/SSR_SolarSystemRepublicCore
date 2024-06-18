@@ -104,7 +104,7 @@
 				<!--<maxQuality>Legendary</maxQuality>-->
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
-					<li>0</li>
+					<li>1</li>
 					<li>3</li>
 				</productionFactorsUpgraded>
 			</li>
@@ -212,7 +212,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-
+			<li>Make_StoneBlocksAny</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -224,7 +224,7 @@
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
 				<productionFactorsUpgraded>
-					<li>0</li>
+					<li>1</li>
 					<li>3</li>
 				</productionFactorsUpgraded>
 			</li>
@@ -264,6 +264,106 @@
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_AutomaticSlaughterhouseCenter</defName>
+		<label>自动屠宰中心</label>
+		<description>自动屠宰中心</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AutomaticSlaughterhouseCenter/AutomaticSlaughterhouseCenter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>ButcherCorpseFlesh</li>
+			<li>Make_Kibble</li>
+		  </recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+				<productionFactorsUpgraded>
+					<li>1</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/AutomaticSlaughterhouseCenter/T2AutomaticSlaughterhouseCenter</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<!-- <researchPrerequisites>
+			<li>SSRBasicManufacturingTechnology</li>
+		</researchPrerequisites> -->
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -322,7 +422,7 @@
 		<comps>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>0</li>
+					<li>1</li>
 					<li>3</li>
 				</productionFactorsUpgraded>
 			</li>
