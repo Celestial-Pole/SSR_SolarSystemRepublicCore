@@ -382,7 +382,7 @@
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Things/Building/Production/Station/StationGE</texPath>
+			<texPath>Things/Building/Production/NuclearFusionFuelExtractionStation/NuclearFusionFuelExtractionStationGE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
@@ -447,7 +447,7 @@
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Things/Building/Production/Station/StationW</texPath>
+			<texPath>Things/Building/Production/NuclearFusionFuelExtractionStation/StationW</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(5,6)</drawSize>
 			<shadowData>
