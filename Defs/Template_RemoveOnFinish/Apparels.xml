@@ -83,6 +83,12 @@
 					<li>AKA_Ability_Jump</li>
 				</AKAbilities>
 			</li>
+			<li Class="FS_SSR_Combat.TCP_MagAmmoChangable">
+				<ammoCandidates>
+					<li>Steel</li>
+					<li>Chemfuel</li>
+				</ammoCandidates>
+			</li>
 		</comps>
 	</ThingDef>
 		<AKA_Ability.AKAbilityDef>
