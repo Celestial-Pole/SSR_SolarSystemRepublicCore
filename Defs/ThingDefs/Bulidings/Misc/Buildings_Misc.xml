@@ -100,7 +100,7 @@
 		<graphicData>
 			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2.5</drawSize>
+			<drawSize>2</drawSize>
 		</graphicData>
 		<uiIconScale>0.85</uiIconScale>
 		<size>(2,2)</size>

@@ -668,7 +668,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4.5,3)</drawSize>
+			<drawSize>(3,2)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -905,7 +905,7 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<!--<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
     <defName>SSR_NeutroamineSynthesizer</defName>
     <label>中性胺合成仪</label>
     <description>中性胺合成仪</description>
