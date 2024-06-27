@@ -213,6 +213,7 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_StoneBlocksAny</li>
+			<li>ButcherCorpseMechanoid</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -313,7 +314,7 @@
 		<recipes>
 			<li>ButcherCorpseFlesh</li>
 			<li>Make_Kibble</li>
-		  </recipes>
+		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -410,7 +411,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-			
+			<li>Make_Patchleather</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -508,7 +509,26 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-			
+			<li>CookMealSimple</li>
+			<li>CookMealFine</li>
+			<li>CookMealFine_Veg</li>
+			<li>CookMealFine_Meat</li>
+			<li>CookMealLavish</li>
+			<li>CookMealLavish_Veg</li>
+			<li>CookMealLavish_Meat</li>
+			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican</li>
+			<li>Make_PemmicanBulk</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -906,50 +926,50 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-    <defName>SSR_NeutroamineSynthesizer</defName>
-    <label>中性胺合成仪</label>
-    <description>中性胺合成仪</description>
-    <thingClass>Building</thingClass>
-    <graphicData>
-      <texPath>Things/Building/Production/NeutroamineSynthesizer</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>2.5</drawSize>
-    </graphicData>
-	  <size>(2,2)</size>
-	  <costList>
-	    <Plasteel>100</Plasteel>
-      <Steel>150</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <uiIconScale>0.65</uiIconScale>
-    <altitudeLayer>Building</altitudeLayer>
-	  <designationCategory>Production</designationCategory>
-    <rotatable>true</rotatable>
-    <fillPercent>0.5</fillPercent>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Flammability>0</Flammability>
-	  <Mass>30</Mass>
-	  <WorkToBuild>20000</WorkToBuild>
-    </statBases>
-    <pathCost>42</pathCost>
-    <receivesSignals>true</receivesSignals>
-    <blockWind>true</blockWind>
-    <tickerType>Normal</tickerType>
-    <passability>PassThroughOnly</passability>
-    <comps>
-      <li Class="CompProperties_Spawner">
-        <thingToSpawn>Neutroamine</thingToSpawn>
-        <spawnCount>5</spawnCount>
-        <spawnIntervalRange>18000</spawnIntervalRange>
-        <spawnMaxAdjacent>100</spawnMaxAdjacent>
-        <spawnForbidden>true</spawnForbidden>
-      </li>
-    </comps>
-	  <researchPrerequisites>
-      <li>SSRBasicMedicine</li>
-    </researchPrerequisites>
-  </ThingDef>-->
+		<defName>SSR_NeutroamineSynthesizer</defName>
+		<label>中性胺合成仪</label>
+		<description>中性胺合成仪</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/NeutroamineSynthesizer</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2.5</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Plasteel>100</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.65</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<designationCategory>Production</designationCategory>
+		<rotatable>true</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>30</Mass>
+			<WorkToBuild>20000</WorkToBuild>
+		</statBases>
+		<pathCost>42</pathCost>
+		<receivesSignals>true</receivesSignals>
+		<blockWind>true</blockWind>
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<comps>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>Neutroamine</thingToSpawn>
+				<spawnCount>5</spawnCount>
+				<spawnIntervalRange>18000</spawnIntervalRange>
+				<spawnMaxAdjacent>100</spawnMaxAdjacent>
+				<spawnForbidden>true</spawnForbidden>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>SSRBasicMedicine</li>
+		</researchPrerequisites>
+	</ThingDef>-->
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
