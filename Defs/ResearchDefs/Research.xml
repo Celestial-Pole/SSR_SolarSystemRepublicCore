@@ -636,7 +636,7 @@
         <researchViewY>5</researchViewY>
     </ResearchProjectDef>
 	
-	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+	<!-- <ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRBasicAviation</defName>
         <label>基础航空技术</label>
         <description>基础航空技术</description>
@@ -650,9 +650,9 @@
         <baseCost>7000</baseCost>
         <researchViewX>8</researchViewX>
         <researchViewY>1.5</researchViewY>
-    </ResearchProjectDef>-->
+    </ResearchProjectDef>
 	
-	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRScientificPlantingTechnology</defName>
         <label>科学种植技术</label>
         <description>科学种植技术</description>
@@ -682,7 +682,7 @@
         <baseCost>4000</baseCost>
         <researchViewX>6</researchViewX>
         <researchViewY>3</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRBasicMedicine</defName>
@@ -700,7 +700,7 @@
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+	<!-- <ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRRadiology</defName>
         <label>放射学</label>
         <description>放射学</description>
@@ -747,7 +747,7 @@
         <baseCost>3000</baseCost>
         <researchViewX>6</researchViewX>
         <researchViewY>4</researchViewY>
-    </ResearchProjectDef>-->
+    </ResearchProjectDef> -->
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
         <defName>SSRSupercomputer</defName>

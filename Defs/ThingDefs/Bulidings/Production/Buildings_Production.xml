@@ -412,6 +412,19 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_Patchleather</li>
+      <li>Make_Apparel_KidTribal</li>
+      <li>Make_Apparel_ClothMask</li>
+      <li>Make_Apparel_TribalHeaddress</li>
+      <li>Make_Apparel_WarVeil</li>
+      <li>Make_Apparel_TribalA</li>
+      <li>Make_Apparel_Parka</li>
+      <li>Make_Apparel_Pants</li>
+      <li>Make_Apparel_BasicShirt</li>
+      <li>Make_Apparel_CollarShirt</li>
+      <li>Make_Apparel_Duster</li>
+      <li>Make_Apparel_Jacket</li>
+      <li>Make_Apparel_Cape</li>
+      <li>Make_Apparel_Robe</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -626,7 +639,13 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-
+      <li>Make_GoJuice</li>
+      <li>Make_Penoxycyline</li>
+      <li>Make_Flake</li>
+      <li>Make_Yayo</li>
+      <li>Make_SmokeleafJoint</li>
+      <li>Make_WakeUp</li>
+      <li>Make_MedicineIndustrial</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
