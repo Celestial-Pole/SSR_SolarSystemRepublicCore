@@ -68,6 +68,15 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>Make_StoneBlocksAny</li>
+			<li>Make_StoneBlocksSandstone</li>
+			<li>Make_StoneBlocksGranite</li>
+			<li>Make_StoneBlocksLimestone</li>
+			<li>Make_StoneBlocksSlate</li>
+			<li>Make_StoneBlocksMarble</li>
+			<li>SSR_Recipe_Sand</li>
+			<li>SSR_Recipe_TenSand</li>
+			<li>SSR_Recipe_HundredSand</li>
 			<li>SSR_Recipe_Plasteel</li>
 			<li>SSR_Recipe_TenPlasteel</li>
 			<li>SSR_Recipe_HundredPlasteel</li>
@@ -92,6 +101,20 @@
 			<li>SSR_Recipe_PrecisionLens</li>
 			<li>SSR_Recipe_SuperconductingMaterial</li>
 			<li>SSR_Recipe_StrongElectromagnet</li>
+			<!--tech level 2-->
+			<li>SSR_Recipe_Carbyne</li>
+			<li>SSR_Recipe_TenCarbyne</li>
+			<li>SSR_Recipe_HundredCarbyne</li>
+			<li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
+			<li>SSR_Recipe_TenNanoandMicroMechanicalComposite</li>
+			<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
+			<li>SSR_Recipe_HighDensityBattery</li>
+			<li>SSR_Recipe_HighenergyLaserEmitter</li>
+			<li>SSR_Recipe_FermiMaterial</li>
+			<li>SSR_Recipe_TenFermiMaterial</li>
+			<li>SSR_Recipe_HundredFermiMaterial</li>
+			<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+			<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -152,7 +175,6 @@
 						<li>SSR_Recipe_FermiMaterial</li>
 						<li>SSR_Recipe_TenFermiMaterial</li>
 						<li>SSR_Recipe_HundredFermiMaterial</li>
-						<li>SSR_Recipe_ExtremeComponent</li>
 						<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
 						<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
 					</li>
@@ -212,8 +234,11 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-			<li>Make_StoneBlocksAny</li>
 			<li>ButcherCorpseMechanoid</li>
+			<li>SSR_Recipe_ReinforcedBarrel</li>
+			<li>Make_ComponentIndustrial</li>
+			<li>Make_ComponentSpacer</li>
+			<li>SSR_Recipe_ExtremeComponent</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -257,6 +282,14 @@
 						</value>
 					</li>
 				</levels>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
+				<extraRecipe>
+					<li />
+					<li>
+						<li>SSR_Recipe_ExtremeComponent</li>
+					</li>
+				</extraRecipe>
 			</li>
 		</comps>
 		<building>
@@ -412,19 +445,19 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_Patchleather</li>
-      <li>Make_Apparel_KidTribal</li>
-      <li>Make_Apparel_ClothMask</li>
-      <li>Make_Apparel_TribalHeaddress</li>
-      <li>Make_Apparel_WarVeil</li>
-      <li>Make_Apparel_TribalA</li>
-      <li>Make_Apparel_Parka</li>
-      <li>Make_Apparel_Pants</li>
-      <li>Make_Apparel_BasicShirt</li>
-      <li>Make_Apparel_CollarShirt</li>
-      <li>Make_Apparel_Duster</li>
-      <li>Make_Apparel_Jacket</li>
-      <li>Make_Apparel_Cape</li>
-      <li>Make_Apparel_Robe</li>
+			<li>Make_Apparel_KidTribal</li>
+			<li>Make_Apparel_ClothMask</li>
+			<li>Make_Apparel_TribalHeaddress</li>
+			<li>Make_Apparel_WarVeil</li>
+			<li>Make_Apparel_TribalA</li>
+			<li>Make_Apparel_Parka</li>
+			<li>Make_Apparel_Pants</li>
+			<li>Make_Apparel_BasicShirt</li>
+			<li>Make_Apparel_CollarShirt</li>
+			<li>Make_Apparel_Duster</li>
+			<li>Make_Apparel_Jacket</li>
+			<li>Make_Apparel_Cape</li>
+			<li>Make_Apparel_Robe</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -639,13 +672,13 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-      <li>Make_GoJuice</li>
-      <li>Make_Penoxycyline</li>
-      <li>Make_Flake</li>
-      <li>Make_Yayo</li>
-      <li>Make_SmokeleafJoint</li>
-      <li>Make_WakeUp</li>
-      <li>Make_MedicineIndustrial</li>
+			<li>Make_GoJuice</li>
+			<li>Make_Penoxycyline</li>
+			<li>Make_Flake</li>
+			<li>Make_Yayo</li>
+			<li>Make_SmokeleafJoint</li>
+			<li>Make_WakeUp</li>
+			<li>Make_MedicineIndustrial</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

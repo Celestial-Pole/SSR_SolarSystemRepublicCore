@@ -683,8 +683,8 @@
         <researchViewX>6</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef> -->
-	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+
+	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRBasicMedicine</defName>
         <label>基础医学</label>
         <description>基础医学</description>
@@ -700,7 +700,7 @@
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+	 <ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRRadiology</defName>
         <label>放射学</label>
         <description>放射学</description>
