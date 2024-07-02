@@ -445,8 +445,6 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_Patchleather</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidTribal</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_ClothMask</li>
 			<li>Make_Apparel_TribalHeaddress</li>
 			<li>Make_Apparel_WarVeil</li>
 			<li>Make_Apparel_TribalA</li>
@@ -458,7 +456,45 @@
 			<li>Make_Apparel_Jacket</li>
 			<li>Make_Apparel_Cape</li>
 			<li>Make_Apparel_Robe</li>
+			<li>Make_Apparel_BowlerHat</li>
+			<li>Make_Apparel_AdvancedHelmet</li>
+			<li>Make_Apparel_CowboyHat</li>
+			<li>Make_Apparel_FlakPants</li>
+			<li>Make_Apparel_FlakVest</li>
+			<li>Make_Apparel_Tuque</li>
+			<li>Make_Apparel_WarMask</li>
+			<li>Make_Apparel_HatHood</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Blindfold</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Headwrap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Broadwrap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_VisageMask</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Slicecap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Collar</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_AuthorityCap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Shadecone</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Flophat</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Tailcap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_BodyStrap</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Make_Apparel_Burka</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_HatLadies</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_HatTop</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ShirtRuffle</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_Corset</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_VestRoyal</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_RobeRoyal</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_Beret</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Bandolier</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Sash</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_AirwireHeadset</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_ArrayHeadset</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Sash</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_ClothMask</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidTribal</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidRomper</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidShirt</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidPants</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidParka</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_LabCoat</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
