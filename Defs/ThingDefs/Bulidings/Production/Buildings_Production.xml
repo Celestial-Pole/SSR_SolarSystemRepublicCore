@@ -717,6 +717,14 @@
 			<li>Make_WakeUp</li>
 			<li>Make_MedicineIndustrial</li>
 			<li>Make_PsychiteTea</li>
+			<li>Make_GoJuiceBulk</li>
+			<li>Make_PenoxycylineBulk</li>
+			<li>Make_FlakeBulk</li>
+			<li>Make_YayoBulk</li>
+			<li>Make_SmokeleafJointBulk</li>
+			<li>Make_WakeUpBulk</li>
+			<li>Make_MedicineIndustrialBulk</li>
+			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
