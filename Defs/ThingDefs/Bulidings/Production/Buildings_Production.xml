@@ -185,7 +185,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
-			<li>SSRBasicManufacturingTechnology</li>
+			<li>SSRElementaryMaterialsScience</li>
 		</researchPrerequisites>
 	</ThingDef>
 
