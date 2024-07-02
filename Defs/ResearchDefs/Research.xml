@@ -1486,8 +1486,8 @@
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
 		<defName>SSRParticleConfinementTechnology</defName>
-		<label>粒子约束技术</label>
-		<description>粒子约束技术</description>
+		<label>粒子储存技术</label>
+		<description>粒子储存技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>

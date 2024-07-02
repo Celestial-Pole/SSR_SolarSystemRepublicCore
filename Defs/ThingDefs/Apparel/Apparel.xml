@@ -128,8 +128,8 @@
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_EF_LandForce_TrainingClothes</defName>
-		<label>陆军作训服</label>
-		<description>陆军作训服</description>
+		<label>地球联邦陆军作训服</label>
+		<description>地球联邦陆军作训服</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_TrainingClothes/EF_LandForce_TrainingClothes</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -142,10 +142,10 @@
 			<WorkToMake>1600</WorkToMake>
 			<Mass>0.25</Mass>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<Insulation_Cold>3</Insulation_Cold>
-			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>0.25</EquipDelay>
 		</statBases>
 		<apparel>
@@ -164,17 +164,22 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<modExtensions>
+			<li Class = "FS_SSR.DefExt_CarryWeightOffset">
+				<offset>10</offset>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_EF_SpaceForce_TrainingClothes</defName>
-		<label>太空军作训服</label>
-		<description>太空军作训服</description>
+		<label>地球联邦太空军作训服</label>
+		<description>地球联邦太空军作训服</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_TrainingClothes/EF_SpaceForce_TrainingClothes</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -187,10 +192,10 @@
 			<WorkToMake>1600</WorkToMake>
 			<Mass>0.25</Mass>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<Insulation_Cold>3</Insulation_Cold>
-			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>0.25</EquipDelay>
 		</statBases>
 		<apparel>
@@ -209,17 +214,22 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<modExtensions>
+			<li Class = "FS_SSR.DefExt_CarryWeightOffset">
+				<offset>10</offset>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_EF_LandForce_DressUniform</defName>
-		<label>陆军军礼服</label>
-		<description>陆军军礼服</description>
+		<label>地球联邦陆军军礼服</label>
+		<description>地球联邦陆军军礼服</description>
 		<costList>
 			<SSR_Graphene>7</SSR_Graphene>
 		</costList>
@@ -232,10 +242,10 @@
 			<WorkToMake>2300</WorkToMake>
 			<Mass>0.5</Mass>
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<Insulation_Cold>5</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>7</Insulation_Heat>
 			<EquipDelay>0.35</EquipDelay>
 		</statBases>
 		<apparel>
@@ -255,17 +265,22 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<modExtensions>
+			<li Class = "FS_SSR.DefExt_CarryWeightOffset">
+				<offset>10</offset>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_EF_SpaceForce_DressUniform</defName>
-		<label>太空军军礼服</label>
-		<description>太空军军礼服</description>
+		<label>地球联邦太空军军礼服</label>
+		<description>地球联邦太空军军礼服</description>
 		<costList>
 			<SSR_Graphene>7</SSR_Graphene>
 		</costList>
@@ -278,10 +293,10 @@
 			<WorkToMake>2300</WorkToMake>
 			<Mass>0.5</Mass>
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<Insulation_Cold>5</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>7</Insulation_Heat>
 			<EquipDelay>0.35</EquipDelay>
 		</statBases>
 		<apparel>
@@ -301,11 +316,72 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<modExtensions>
+			<li Class = "FS_SSR.DefExt_CarryWeightOffset">
+				<offset>10</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_ApparelCustomBase">
+		<defName>SSR_EF_MedicalClothing</defName>
+		<label>外科手术衣</label>
+		<description>外科手术衣</description>
+		<costList>
+			<SSR_Graphene>7</SSR_Graphene>
+		</costList>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MedicalClothing/EF_MedicalClothing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/EF_MedicalClothing/EF_MedicalClothing</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
 			<researchPrerequisite>EFClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 治疗速度 -->
+			<MedicalTendSpeed>0.20</MedicalTendSpeed>
+			<!-- 治疗质量 -->
+			<MedicalTendQuality>0.20</MedicalTendQuality>
+			<!-- 手术速度 -->
+			<MedicalOperationSpeed>0.20</MedicalOperationSpeed>
+			<!-- 手术成功率 -->
+			<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
 	</ThingDef>
 
 	<!-- ==================================== Headgear =====================================-->
@@ -342,6 +418,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
+				<li>SSR_AutomaticSewingMachine</li>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
@@ -394,7 +471,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>FabricationBench</li>
+				<li>SSR_NumericalControlledMachineTool</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
@@ -415,8 +492,8 @@
 
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_EF_LandForce_TrainingClothes_helmet</defName>
-		<label>陆军作训服帽子</label>
-		<description>陆军作训服帽子</description>
+		<label>地球联邦陆军作训服帽子</label>
+		<description>地球联邦陆军作训服帽子</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_TrainingClothes_helmet/EF_LandForce_TrainingClothes_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -426,12 +503,13 @@
 			<SSR_Graphene>3</SSR_Graphene>
 		</costList>
 		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>900</WorkToMake>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>0.3</Insulation_Cold>
-			<Insulation_Heat>0.3</Insulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
@@ -452,7 +530,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -472,8 +550,8 @@
 
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_EF_SpaceForce_TrainingClothes_helmet</defName>
-		<label>太空军作训服帽子</label>
-		<description>太空军作训服帽子</description>
+		<label>地球联邦太空军作训服帽子</label>
+		<description>地球联邦太空军作训服帽子</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_TrainingClothes_helmet/EF_SpaceForce_TrainingClothes_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -483,12 +561,13 @@
 			<SSR_Graphene>3</SSR_Graphene>
 		</costList>
 		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>900</WorkToMake>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>0.3</Insulation_Cold>
-			<Insulation_Heat>0.3</Insulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
@@ -509,7 +588,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -529,8 +608,8 @@
 
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_EF_LandForce_DressUniform_helmet</defName>
-		<label>陆军军礼服帽子</label>
-		<description>陆军军礼服帽子</description>
+		<label>地球联邦陆军军礼服帽子</label>
+		<description>地球联邦陆军军礼服帽子</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_DressUniform_helmet/EF_LandForce_DressUniform_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -540,12 +619,13 @@
 			<SSR_Graphene>3</SSR_Graphene>
 		</costList>
 		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>900</WorkToMake>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>0.3</Insulation_Cold>
-			<Insulation_Heat>0.3</Insulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
@@ -566,7 +646,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -586,8 +666,8 @@
 
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_EF_SpaceForce_DressUniform_helmet</defName>
-		<label>太空军军礼服帽子</label>
-		<description>太空军军礼服帽子</description>
+		<label>地球联邦太空军军礼服帽子</label>
+		<description>地球联邦太空军军礼服帽子</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_DressUniform_helmet/EF_SpaceForce_DressUniform_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -597,12 +677,13 @@
 			<SSR_Graphene>3</SSR_Graphene>
 		</costList>
 		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>900</WorkToMake>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>0.3</Insulation_Cold>
-			<Insulation_Heat>0.3</Insulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
@@ -623,7 +704,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -639,6 +720,124 @@
 				</hediffs>
 			</li>
 		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_HatBase">
+		<defName>SSR_EF_MedicalClothing_helmet</defName>
+		<label>外科手术衣帽子</label>
+		<description>外科手术衣帽子</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MedicalClothing_helmet/EF_MedicalClothing_helmet</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<SSR_Graphene>3</SSR_Graphene>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>900</WorkToMake>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>0.3</Insulation_Cold>
+			<Insulation_Heat>0.3</Insulation_Heat>
+			<Mass>0.1</Mass>
+			<EquipDelay>0.01</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/EF_MedicalClothing_helmet/EF_MedicalClothing_helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 治疗速度 -->
+			<MedicalTendSpeed>0.10</MedicalTendSpeed>
+			<!-- 治疗质量 -->
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<!-- 手术速度 -->
+			<MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+			<!-- 手术成功率 -->
+			<MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<modExtensions>
+			<li Class="SolarSystemRepublicFramework.DefModExtension_DefendHediff">
+				<hediffs>
+					<li>DirtInEyes</li>
+					<li>GravelInEyes</li>
+					<li>MudInEyes</li>
+					<li>SandInEyes</li>
+					<li>WaterInEyes</li>
+				</hediffs>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ==================================== Equipment =====================================-->
+
+	<ThingDef ParentName="SSR_HelmetBase">
+		<defName>SSR_EF_MedicaUAV</defName>
+		<label>医疗无人机</label>
+		<description>医疗无人机</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>0</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 治疗速度 -->
+			<MedicalTendSpeed>0.25</MedicalTendSpeed>
+			<!-- 治疗质量 -->
+			<MedicalTendQuality>0.25</MedicalTendQuality>
+			<!-- 手术速度 -->
+			<MedicalOperationSpeed>0.25</MedicalOperationSpeed>
+			<!-- 手术成功率 -->
+			<MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
 	</ThingDef>
 
 </Defs>
