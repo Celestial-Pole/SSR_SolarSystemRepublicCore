@@ -249,11 +249,9 @@
 			<li>Make_Apparel_FirefoampopPack</li>
 			<li>Make_Apparel_FlakVest</li>
 			<li>Make_Apparel_FlakPants</li>
-			<li>Make_Apparel_PowerArmor</li>
 			<li>Make_Apparel_ArmorRecon</li>
 			<li>Make_Apparel_SimpleHelmet</li>
 			<li>Make_Apparel_AdvancedHelmet</li>
-			<li>Make_Apparel_PowerArmorHelmet</li>
 			<li>Make_Apparel_PowerArmorHelmet</li>
 			<li>Make_Apparel_PowerArmor</li>
 			<li>Make_Apparel_ArmorRecon</li>
@@ -273,8 +271,6 @@
 			<li>Make_Gun_Minigun</li>
 			<li>Make_Gun_ChargeRifle</li>
 			<li>Make_Gun_ChargeLance</li>
-			<li>Make_Gun_ChargeRifle</li>
-			<li>Make_Gun_ChargeLance</li>
 			<li>Make_Weapon_GrenadeFrag</li>
 			<li>Make_Weapon_GrenadeMolotov</li>
 			<li>Make_Weapon_GrenadeEMP</li>
@@ -287,23 +283,18 @@
 			<li>Make_BionicEar</li>
 			<li>Make_BionicTongue</li>
 			<li>Make_BionicJaw</li>
-			<li>Make_ComponentIndustrial</li>
-			<li>Make_ComponentSpacer</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_AirwireHeadset</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArrayHeadset</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechCommander</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_GasMask</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackControl</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackBandwidth</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackTox</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_KidHelmet</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_MechlordSuit</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechlordHelmet</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_IntegratorHeadset</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechCommander</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechlordHelmet</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetRecon</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_MechlordSuit</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Shell_Toxic</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_DetoxifierLung</li>
 			<li MayRequire="Ludeon.Rimworld.Biotech">Make_DetoxifierKidney</li>
@@ -324,12 +315,6 @@
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarineHelmetPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetReconPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_Gunlink</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarinePrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarineGrenadier</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorLocust</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphract</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphractPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphractPhoenix</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetCataphract</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetCataphractPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Neurocalculator</li>
@@ -1002,8 +987,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
-				<volume>(6.03,1.0,5.25)</volume>
-				<offset>(0,0,-0.25)</offset>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 			<damageData>
 				<rect>(0.3,0,5.4,6)</rect>
