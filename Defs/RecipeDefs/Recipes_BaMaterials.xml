@@ -48,7 +48,7 @@
 		<products>
 			<SSR_StandardConstructionElement>1</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -99,7 +99,7 @@
 		<products>
 			<SSR_StandardConstructionElement>10</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -150,7 +150,7 @@
 		<products>
 			<SSR_StandardConstructionElement>100</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -181,7 +181,7 @@
 		<products>
 			<SSR_ArmourSteel>1</SSR_ArmourSteel>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -212,7 +212,7 @@
 		<products>
 			<SSR_ArmourSteel>10</SSR_ArmourSteel>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -243,7 +243,7 @@
 		<products>
 			<SSR_ArmourSteel>100</SSR_ArmourSteel>
 		</products>
-		<researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 

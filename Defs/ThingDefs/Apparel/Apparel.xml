@@ -367,7 +367,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -759,7 +759,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -823,7 +823,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>EFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
