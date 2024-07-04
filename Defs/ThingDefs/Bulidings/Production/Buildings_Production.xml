@@ -457,10 +457,7 @@
 			<li>Make_Apparel_Cape</li>
 			<li>Make_Apparel_Robe</li>
 			<li>Make_Apparel_BowlerHat</li>
-			<li>Make_Apparel_AdvancedHelmet</li>
 			<li>Make_Apparel_CowboyHat</li>
-			<li>Make_Apparel_FlakPants</li>
-			<li>Make_Apparel_FlakVest</li>
 			<li>Make_Apparel_Tuque</li>
 			<li>Make_Apparel_WarMask</li>
 			<li>Make_Apparel_HatHood</li>
@@ -485,8 +482,6 @@
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_Beret</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Bandolier</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Sash</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_AirwireHeadset</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_ArrayHeadset</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_Sash</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_ClothMask</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidTribal</li>
