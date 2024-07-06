@@ -249,7 +249,6 @@
 			<li>Make_Apparel_FirefoampopPack</li>
 			<li>Make_Apparel_FlakVest</li>
 			<li>Make_Apparel_FlakPants</li>
-			<li>Make_Apparel_ArmorRecon</li>
 			<li>Make_Apparel_SimpleHelmet</li>
 			<li>Make_Apparel_AdvancedHelmet</li>
 			<li>Make_Apparel_PowerArmorHelmet</li>
@@ -304,7 +303,6 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_Incinerator</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_ToxbombLauncher</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_RevenantVertebrae</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarineHelmetPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarinePrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorReconPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorLocust</li>
