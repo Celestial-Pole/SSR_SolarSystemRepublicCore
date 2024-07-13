@@ -110,6 +110,7 @@
 			<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
 			<li>SSR_Recipe_HighDensityBattery</li>
 			<li>SSR_Recipe_HighenergyLaserEmitter</li>
+			<!--tech level 3-->
 			<li>SSR_Recipe_FermiMaterial</li>
 			<li>SSR_Recipe_TenFermiMaterial</li>
 			<li>SSR_Recipe_HundredFermiMaterial</li>
@@ -158,6 +159,31 @@
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedMaterialsScience</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
 				</levels>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
@@ -172,6 +198,13 @@
 						<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
 						<li>SSR_Recipe_HighDensityBattery</li>
 						<li>SSR_Recipe_HighenergyLaserEmitter</li>
+						<li>SSR_Recipe_FermiMaterial</li>
+						<li>SSR_Recipe_TenFermiMaterial</li>
+						<li>SSR_Recipe_HundredFermiMaterial</li>
+						<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+						<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
+					</li>
+					<li>
 						<li>SSR_Recipe_FermiMaterial</li>
 						<li>SSR_Recipe_TenFermiMaterial</li>
 						<li>SSR_Recipe_HundredFermiMaterial</li>
@@ -404,10 +437,36 @@
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
 				</levels>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
 				<extraRecipe>
+					<li />
 					<li />
 					<li>
 						<li>SSR_Recipe_ExtremeComponent</li>
