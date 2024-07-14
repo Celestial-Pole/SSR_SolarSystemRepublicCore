@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DataCenter</defName>
-		<label>数据中心</label>
-		<description>数据中心</description>
+		<label>数据处理中心</label>
+		<description>数据处理中心</description>
 		<thingClass>FS_SSR.Research.Building_DataCenter</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -51,6 +51,9 @@
 		<comps>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				
+			</li>
+			<li Class="FS_SSR.TCP_FacilityAutoResearch">
+				<researchSpeed>1</researchSpeed>
 			</li>
 			<li Class="FS_SSR.RuinableBuilding.TCP_RuinInsteadOfKill" >
 				<ruinGraphic>
