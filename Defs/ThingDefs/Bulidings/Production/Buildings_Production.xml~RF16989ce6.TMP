@@ -319,7 +319,7 @@
 			<li>Make_SimpleProstheticLeg</li>
 			<li>Make_SimpleProstheticArm</li>
 			<li>Make_SimpleProstheticHeart</li>
-			<!--<li>Make_SochlearImplant</li>-->
+			<li>Make_SochlearImplant</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_PackTurret</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Shell_Deadlife</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_HellcatRifle</li>
