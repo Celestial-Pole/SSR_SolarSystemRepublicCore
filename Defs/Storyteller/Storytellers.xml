@@ -277,8 +277,9 @@
 
   <StorytellerDef ParentName="BaseStoryteller">
     <defName>SSR_Athena</defName>
-    <label>人工智能雅典娜</label>
-    <description>建造于太阳系共和国时代初期的超级计算机苍穹阵列的控制核心人工智能雅典娜，自诞生起就肩负着协助人类文明前进的重任，科研、军事、政治……整个文明的方方面面都在雅典娜的协助下以惊人的效率运转着。当她的注意力与影响力跨越宇宙的壁障投射到边缘世界时，那些对科学技术的重视与有益于文明发展的行为与品质将更容易获得她的青睐，不过你的敌人也会尝试通过展示更加强大的力量来获得她的支持，尽管这实际上不会产生任何效果，不过他们并不知道这点，而雅典娜也乐于用这种方式考验你的殖民地。</description>
+    <label>「文明主脑」雅典娜</label>
+    <description>建造于太阳系共和国时代初期的超级计算机苍穹阵列的控制核心人工智能雅典娜，自诞生起就肩负着协助人类文明在以光年为单位的广大星宇中前进的重任，科研、军事、政治……整个文明的方方面面都在雅典娜的协助下以惊人的效率运转着。\n
+		当她的注意力与影响力跨越宇宙的壁障投射到边缘世界时，那些对科学技术的重视与有益于文明发展的行为与品质将更容易获得她的青睐，相反，野蛮与腐朽的行为品质则被她所厌弃。你的敌人也会尝试以展示更加强大的力量来宣扬自我的优越，企图以如此的方式获得她的“宠爱”。尽管这实际上不会产生任何效果，但是他们并不知道这点，而雅典娜也乐于用这种方式考验你的殖民地。</description>
     <portraitLarge>UI/HeroArt/Storytellers/CassandraClassic</portraitLarge>
     <portraitTiny>UI/HeroArt/Storytellers/CassandraClassicTiny</portraitTiny>
     <listOrder>70</listOrder>
