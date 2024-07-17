@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="SSR_RecipeCoreBase" Abstract="True">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef Name="SSR_RecipeCoreSmith" ParentName="SSR_RecipeCoreBase" Abstract="True">
+		<soundWorking>Recipe_Smith</soundWorking>
+	</RecipeDef>
+
+	<RecipeDef Name="SSR_RecipeCoreMachining" ParentName="SSR_RecipeCoreBase" Abstract="True">
+		<soundWorking>Recipe_Machining</soundWorking>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SSR_RecipeCoreSmith">
+		<defName>SSR_Recipe_TenSand</defName>
+		<label>制作沙子 x10</label>
+		<description>制作十单位沙子。</description>
+		<jobString>正在制作十单位沙子。</jobString>
+		<workAmount>1600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_Sand>100</SSR_Sand>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SSR_RecipeCoreMachining">
+		<defName>SSR_Recipe_HundredSand</defName>
+		<label>制作沙子 x100</label>
+		<description>制作一百单位沙子。</description>
+		<jobString>正在制作一百单位沙子。</jobString>
+		<workAmount>16000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_Sand>1000</SSR_Sand>
+		</products>
+	</RecipeDef>
+
+</Defs>
