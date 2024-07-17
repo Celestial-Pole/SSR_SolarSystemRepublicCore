@@ -4,7 +4,7 @@
 	<ThingDef Class="FS_SSR.Roof.RoofBuilderDef_Extinguisher" ParentName="BuildingNaturalBase">
 		<defName>SSR_SprayFireExtinguishingDevice</defName>
 		<label>消防喷淋器</label>
-		<description>消防喷淋器</description>
+		<description>消防喷淋器是一种自动灭火系统，通过检测火灾时的高温或烟雾来触发喷水，</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<withFoam>true</withFoam>
 		<graphicData>
@@ -51,7 +51,7 @@
 	<ThingDef ParentName="BuildingNaturalBase">
 		<defName>SSR_DeconsSprayFireExtinguishingDevice</defName>
 		<label>拆除消防喷淋器</label>
-		<description>拆除消防喷淋器</description>
+		<description>拆除消防喷淋器。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Power/WoodFiredGenerator</texPath>
@@ -96,13 +96,12 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DataTerminal</defName>
 		<label>数据终端</label>
-		<description>数据终端</description>
+		<description>数据终端是一种科研专用设备，通过共和国标准通讯协议接收来自公共科研数据库的信息。</description>
 		<graphicData>
 			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
-		<uiIconScale>0.85</uiIconScale>
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -155,9 +154,202 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_QuantumComputingCluster</defName>
+		<label>量子计算机组</label>
+		<description>量子计算机组实现了更大规模的量子信息处理和存储。它们通过量子纠缠和量子通信技术协同工作，大幅提升计算能力和效率。</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationHotKey>Misc4</designationHotKey>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
+			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
+				<researchSpeedOffset>1</researchSpeedOffset>
+				<researchSpdFactorCGL>
+					<li>0.3</li><!--0级倍率-->
+					<li>1</li><!--1级倍率-->
+					<li>1</li><!--2级倍率-->
+				</researchSpdFactorCGL>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRSupercomputer</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_PhotonicComputingCluster</defName>
+		<label>光子计算机组</label>
+		<description>光子计算机组实现了更强大的并行处理能力。它们利用光子的高速和低能耗特性，实现超快速的数据处理能力,通过分布式计算架构，增加了系统的可靠性和灵活性。</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationHotKey>Misc4</designationHotKey>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
+			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
+				<researchSpeedOffset>1</researchSpeedOffset>
+				<researchSpdFactorCGL>
+					<li>0.3</li><!--0级倍率-->
+					<li>1</li><!--1级倍率-->
+					<li>1</li><!--2级倍率-->
+				</researchSpdFactorCGL>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRSupercomputer</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_DataProcessingHub</defName>
+		<label>数据处理中枢</label>
+		<description>数据处理中枢是专门设计用来汇总和整理计算机组处理过的数据的关键设施。它们确保复杂计算结果的高效管理和分析，为科学研究提供支持。</description>
+		<thingClass>FS_SSR.Research.Building_DataCenter</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+			<JoyGainFactor>1.75</JoyGainFactor>
+		</statBases>
+		<building>
+			<joyKind>Social</joyKind>
+			<buildingSizeCategory>Medium</buildingSizeCategory>
+			<paintable>false</paintable>
+		</building>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<comps>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+
+			</li>
+			<li Class="FS_SSR.TCP_FacilityAutoResearch">
+				<researchSpeed>1</researchSpeed>
+			</li>
+			<li Class="FS_SSR.RuinableBuilding.TCP_RuinInsteadOfKill" >
+				<ruinGraphic>
+					<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</ruinGraphic>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_LHC</defName>
 		<label>强子对撞机</label>
-		<description>强子对撞机</description>
+		<description>强子对撞机是一种高能物理实验设备，用于加速并使原子核中的粒子相互碰撞，以推进对基本粒子和力的理解。</description>
 		<graphicData>
 			<texPath>Things/Building/Misc/LHC/LHC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

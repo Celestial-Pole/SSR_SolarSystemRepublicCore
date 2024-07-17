@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <RecipeDef ParentName="SurgeryFlesh">
+  <!--<RecipeDef ParentName="SurgeryFlesh">
     <defName>CureLuciferiumAddiction</defName>
     <label>治疗魔鬼素渴求</label>
     <description>治疗魔鬼素渴求</description>
@@ -31,6 +31,6 @@
         <li>MedicineHerbal</li>
       </disallowedThingDefs>
     </fixedIngredientFilter>
-  </RecipeDef>
+  </RecipeDef>-->
   
 </Defs>

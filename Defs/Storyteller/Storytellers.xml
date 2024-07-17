@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <StorytellerDef Name="BaseStoryteller" Abstract="True">
+  <StorytellerDef Name="SSR_BaseStoryteller" Abstract="True">
     <populationIntentFactorFromPopCurve>
       <points>
         <li>0,  8.0</li>

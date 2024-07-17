@@ -24,7 +24,7 @@
     <ThingDef ParentName="SSR_ResourceBase">
         <defName>SSR_Sand</defName>
         <label>沙子</label>
-        <description>沙子</description>
+        <description>沙子是一种细小的岩石或矿物颗粒，广泛存在于海滩、沙漠和河流中。</description>
         <graphicData>
             <texPath>Things/Item/Resource/Sand</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -40,7 +40,7 @@
     <ThingDef ParentName="SSR_ResourceBase">
         <defName>SSR_Silicon</defName>
         <label>硅</label>
-        <description>硅</description>
+        <description>硅是一种非金属，具有半导体特性。它是制造电子设备和太阳能电池的关键材料。</description>
         <graphicData>
             <texPath>Things/Item/Resource/Silicon</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -55,7 +55,7 @@
     <ThingDef ParentName="SSR_ResourceBase">
         <defName>SSR_Carbon</defName>
         <label>碳</label>
-        <description>碳</description>
+        <description>碳以其多样性和稳定性在自然界和工业中扮演着重要角色，因其独特的物理和化学性质，被用于开发先进的材料和纳米技术。</description>
         <graphicData>
             <texPath>Things/Item/Resource/Carbon</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
