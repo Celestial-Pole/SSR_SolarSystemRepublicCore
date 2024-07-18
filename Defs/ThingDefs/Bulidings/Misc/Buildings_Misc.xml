@@ -8,7 +8,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<withFoam>true</withFoam>
 		<graphicData>
-			<texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+			<texPath>UI/SprayFireExtinguishingDevice</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -54,7 +54,7 @@
 		<description>拆除消防喷淋器。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+			<texPath>UI/DeconsSprayFireExtinguishingDevice</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -92,6 +92,67 @@
 			<li>FS_SSR.Roof.PW_UnderRoofExtinguisher</li>
 		</placeWorkers>
 	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_WashingMachine</defName>
+		<label>洗衣机</label>
+		<description>一台可以洗去死者衣物标记的洗衣机。</description>
+		<thingClass>FS_SSR.Laundry.Building_Laundry</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/WashingMachine/WashingMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<inspectorTabs>
+			<li>FS_SSR.Generic.ITab_ThingContainer</li>
+		</inspectorTabs>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Laundry.DefExt_Laundry">
+				<tickToComplete>3000</tickToComplete>
+			</li>
+			<li Class="FS_SSR.DefExt_DmgReciveMult">
+				<multipler>0</multipler>
+			</li>
+		</modExtensions>
+	</ThingDef>	
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DataTerminal</defName>
