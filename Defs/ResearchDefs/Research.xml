@@ -135,6 +135,22 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+		<defName>SSRCoalLiquefactionTechnology</defName>
+		<label>煤炭炼油技术</label>
+		<description>煤炭炼油技术是一种将煤炭转化为液态燃料的化学过程。它通过加氢裂化等方法，使煤炭中的有机物质转化为油品。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRBasicManufacturingTechnology</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSRRoomTemperatureSuperconductivity</defName>
 		<label>室温超导</label>
 		<description>室温超导材料及其商业化应用技术。</description>
@@ -164,6 +180,22 @@
 		<baseCost>3000</baseCost>
 		<researchViewX>6</researchViewX>
 		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+		<defName>SSRWasteGasTreatmentTechnology</defName>
+		<label>废气处理技术</label>
+		<description>废气处理技术用于处理火力发电站排放废气中的污染物，以避免污染物对环境造成破坏。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRBasicPowerTechnology</li>
+		</prerequisites>
+		<baseCost>1500</baseCost>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">

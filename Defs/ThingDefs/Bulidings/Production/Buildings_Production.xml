@@ -26,7 +26,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
-		<description>材料合成机</description>
+		<description>材料合成机是一种先进的工业设备，能够通过精确控制化学反应和物理过程，制造出具有特定属性的复合材料。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -225,7 +225,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_NumericalControlledMachineTool</defName>
 		<label>数控加工中心</label>
-		<description>数控加工中心</description>
+		<description>数控加工中心是一种高度自动化的机床，能够通过计算机程序乃至人工智能控制进行复杂的金属加工。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -485,7 +485,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
-		<description>自动屠宰机</description>
+		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -584,7 +584,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_AutomaticSewingMachine</defName>
 		<label>自动缝纫机</label>
-		<description>自动缝纫机</description>
+		<description>自动缝纫机是一种高效的缝纫设备，能够自动完成复杂的缝纫任务。它广泛应用于服装制造和纺织品生产。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -727,7 +727,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
-		<description>自动烹饪机</description>
+		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -844,7 +844,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_MultifunctionalChemicalSynthesizer</defName>
 		<label>多功能化学合成仪</label>
-		<description>多功能化学合成仪</description>
+		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -957,7 +957,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_IntegratedChipManufacturingMachine</defName>
 		<label>集成化芯片制造机</label>
-		<description>集成化芯片制造机</description>
+		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -1065,8 +1065,8 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_FMIAExtractStationGE</defName>
-		<label>聚变材料提取站（地热）</label>
-		<description>聚变材料提取站（地热）。</description>
+		<label>地热聚变材料提取站</label>
+		<description>地热聚变材料提取站是一种先进的设施，专门设计用于从地热资源中提取聚变反应所需的材料。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -1131,7 +1131,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR_FMIAExtractStationW</defName>
 		<label>聚变材料提取站（水力）</label>
 		<description>聚变材料提取站（水力）</description>
@@ -1185,9 +1185,9 @@
 			</li>
 		</comps>
 		<rotatable>true</rotatable>
-		<terrainAffordanceNeeded />
+		<terrainAffordanceNeeded />-->
 		<!-- handled by the placeworker -->
-		<designationCategory>Production</designationCategory>
+		<!--<designationCategory>Production</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_WatermillGenerator</li>
@@ -1198,12 +1198,12 @@
 		</building>
 		<constructEffect>ConstructWood</constructEffect>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-	</ThingDef>
+	</ThingDef>-->
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_NeutroamineSynthesizer</defName>
 		<label>中性胺合成仪</label>
-		<description>中性胺合成仪</description>
+		<description>中性胺合成仪是一种专用化学设备，用于批量合成中性胺。</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/NeutroamineSynthesizer</texPath>
@@ -1248,10 +1248,10 @@
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
-		<label>帕鲁矿场</label>
+		<label>标准化垂直矿井</label>
+		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
 		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
 		<tickerType>Long</tickerType>
-		<description>可以把人当成帕鲁丢进去挖矿的矿场</description>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

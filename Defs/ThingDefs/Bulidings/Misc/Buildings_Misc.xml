@@ -272,7 +272,7 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRSupercomputer</li>
+			<li>SSRAdvancedComputationalScience</li>
 		</researchPrerequisites>
 	</ThingDef>
 

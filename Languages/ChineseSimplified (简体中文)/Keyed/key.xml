@@ -55,13 +55,15 @@
 	<SSR_Palminer_Layer>帕鲁矿场-等级：{0}</SSR_Palminer_Layer>
 	<SSR_Palminer_Palmine>帕鲁矿场-帕鲁：{0}</SSR_Palminer_Palmine>
 	<SSR_Palminer_TunnelDig>帕鲁矿场-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
-	<SSR_RemoveMechDesc>移除机器</SSR_RemoveMechDesc>
-	<SSR_SelectMechAllDesc>选择所有机器</SSR_SelectMechAllDesc>
-	<SSR_SelectMechDesc>选择机器</SSR_SelectMechDesc>
-	<SSR_RemoveMech>移除机器</SSR_RemoveMech>
-	<SSR_SelectMechAll>选择所有机器</SSR_SelectMechAll>
+	<SSR_RemoveMechDesc>移除机械族</SSR_RemoveMechDesc>
+	<SSR_SelectMechAllDesc>选择全部机械族</SSR_SelectMechAllDesc>
+	<SSR_SelectMechDesc>选择机械族</SSR_SelectMechDesc>
+	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
+	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
+	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
 	<SSR_DataCenterOverseerName>数据中心监督员姓名</SSR_DataCenterOverseerName>
-	<SSR_SelectMech>选择机器：{0}</SSR_SelectMech>
+	<SSR_SelectMech>选择机械族</SSR_SelectMech>
+	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
 	<SSR_SatelliteFoundDeepMineDesc>卫星发现深矿井</SSR_SatelliteFoundDeepMineDesc>
 	<SSR_RocketSelected>已选择火箭：{0}</SSR_RocketSelected>
