@@ -356,6 +356,11 @@
   <!-- CN: 符合“共和国人工智能规范标准”的强人工智能制造技术。 -->
   <SSRStandardizedArtificialIntelligence.description>TODO</SSRStandardizedArtificialIntelligence.description>
   
+  <!-- CN: 标准化维护作业技术 -->
+  <SSRStandardizedMaintenanceOperationsTechnology.label>TODO</SSRStandardizedMaintenanceOperationsTechnology.label>
+  <!-- CN: 标准化维护作业技术通过规范化流程和自动化工具对各类机械或电子设备进行高效维修。 -->
+  <SSRStandardizedMaintenanceOperationsTechnology.description>TODO</SSRStandardizedMaintenanceOperationsTechnology.description>
+  
   <!-- CN: 标准化矿井建设 -->
   <SSRStandardizedMineConstruction.label>TODO</SSRStandardizedMineConstruction.label>
   <!-- CN: 标准化矿井建设。 -->

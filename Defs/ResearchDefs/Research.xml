@@ -151,6 +151,22 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+		<defName>SSRStandardizedMaintenanceOperationsTechnology</defName>
+		<label>标准化维护作业技术</label>
+		<description>标准化维护作业技术通过规范化流程和自动化工具对各类机械或电子设备进行高效维修。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRBasicManufacturingTechnology</li>
+		</prerequisites>
+		<baseCost>4000</baseCost>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSRRoomTemperatureSuperconductivity</defName>
 		<label>室温超导</label>
 		<description>室温超导材料及其商业化应用技术。</description>

@@ -62,7 +62,7 @@
         </graphicData>
         <useHitPoints>true</useHitPoints>
         <stackLimit>150</stackLimit>
-        <smallVolume>true</smallVolume>
+        <smallVolume>false</smallVolume>
         <statBases>
             <MarketValue>1.2</MarketValue>
             <Mass>0.03</Mass>

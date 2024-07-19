@@ -1041,6 +1041,31 @@
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
 				</levels>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
@@ -1049,6 +1074,8 @@
 					<li>
 						<li>SSR_Recipe_ArtificialIntelligenceChip</li>
 						<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+					</li>
+					<li>
 						<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
 						<li>SSR_Recipe_PhotonComputingCore</li>
 					</li>
@@ -1060,6 +1087,137 @@
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicComputationalScience</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_CoalLiquefactionMachine</defName>
+		<label>煤炭液化机</label>
+		<description>煤炭液化机用于将固态煤炭转化为液态燃料，这种转化过程通常涉及高温高压和催化剂，以改变煤炭的化学结构。</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/CoalLiquefactionMachine/CoalLiquefactionMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>SSR_Recipe_CoalLiquefaction</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+			<li>SSRBasicComputationalScience</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_EquipmentPreparationStation</defName>
+		<label>装备整备台</label>
+		<description>装备整备台维修你损坏的装备，在升级后还能能够使用量子计算机暴力破解装备上的生物编码加密与人格武器绑定。</description>
+		<thingClass>FS_SSR.Laundry.Building_LaundryBiocode</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<inspectorTabs>
+			<li>FS_SSR.Generic.ITab_ThingContainerII</li>
+			<li>FS_SSR.Generic.ITab_ThingContainer</li>
+		</inspectorTabs>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainerII">
+				<capacity>7</capacity>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Laundry.DefExt_Laundry">
+				<tickToComplete>3000</tickToComplete>
+			</li>
+			<li Class="FS_SSR.Laundry.DefExt_LaundryRepairSpeed">
+				<hpPerTick>1</hpPerTick>
+			</li>
+		</modExtensions>
+		<researchPrerequisites>
+			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
 	</ThingDef>
 
