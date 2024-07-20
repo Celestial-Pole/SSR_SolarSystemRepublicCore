@@ -48,18 +48,25 @@
 	<!-- ==================================== 洗衣机 =====================================-->
 
 	<JobDef>
-		<defName>SSR_Job_FillLaundry</defName>
-		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundry</driverClass>
+		<defName>SSR_Job_FillLaundryStain</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryStain</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
 	<JobDef>
-		<defName>SSR_Job_FillLaundryII</defName>
-		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryII</driverClass>
+		<defName>SSR_Job_FillLaundryBiocode</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryBiocode</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
 
+	<JobDef>
+		<defName>SSR_Job_FillLaundryRepair</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryRepair</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 </Defs>

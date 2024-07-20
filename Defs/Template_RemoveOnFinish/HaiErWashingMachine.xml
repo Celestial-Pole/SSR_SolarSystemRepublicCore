@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR__washingmachine</defName>
+		<label>海尔洗衣机</label>
+		<tickerType>Normal</tickerType>
+		<description>超级三合一洗衣机</description>
+		<graphicData>
+			<texPath>UI/TempIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3.2</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingClass>Building</thingClass>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
+				<interval>500</interval>
+				<effect>1</effect>
+				<requiredLevel>0</requiredLevel>
+				<containerIndex>1</containerIndex>
+			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryBiocode</compClass>
+				<containerIndex>2</containerIndex>
+			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryDeathStain</compClass>
+				<containerIndex>3</containerIndex>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+				<showEjectGizmo>true</showEjectGizmo>
+				<uniqueID>1</uniqueID>
+				<gizmoEjectLabel>弹出内容物1</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出内容物desc</gizmoEjectDesc>
+				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<btnITabLabel>左下按钮1</btnITabLabel>
+				<btnITabItemKey>左下点进去抬头</btnITabItemKey>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<uniqueID>2</uniqueID>
+				<gizmoEjectLabel>弹出内容物2</gizmoEjectLabel>
+				<btnITabLabel>左下按钮2</btnITabLabel>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<uniqueID>3</uniqueID>
+				<gizmoEjectLabel>弹出内容物3</gizmoEjectLabel>
+				<btnITabLabel>左下按钮3</btnITabLabel>
+			</li>
+		</comps>
+	</ThingDef>	
+	
+</Defs>

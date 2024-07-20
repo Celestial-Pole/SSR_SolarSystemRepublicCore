@@ -76,13 +76,27 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillLaundryRepair</defName>
+		<label>修理衣物</label>
+		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundryRepair</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>修理衣物</verb>
+		<gerund>修理衣物</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
 
 	<!-- ==================================== 装备整备台 =====================================-->
 
 	<WorkGiverDef>
-		<defName>SSR_WorkGiver_FillLaundry</defName>
+		<defName>SSR_WorkGiver_FillLaundryStain</defName>
 		<label>清洗衣物</label>
-		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundry</giverClass>
+		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundryStain</giverClass>
 		<workType>Hauling</workType>
 		<emergency>false</emergency>
 		<verb>清洗衣物</verb>
