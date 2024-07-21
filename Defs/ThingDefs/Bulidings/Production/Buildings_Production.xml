@@ -1154,13 +1154,13 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentPreparationStation</defName>
-		<label>装备整备台</label>
-		<description>装备整备台维修你损坏的装备，在升级后还能能够使用量子计算机暴力破解装备上的生物编码加密与人格武器绑定。</description>
-		<thingClass>FS_SSR.Laundry.Building_LaundryBiocode</thingClass>
+		<defName>SSR_EquipmentRepairStation</defName>
+		<label>装备维修台</label>
+		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
+		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+			<texPath>Things/Building/Production/EquipmentRepairStation/EquipmentRepairStation</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 		</graphicData>
@@ -1184,10 +1184,6 @@
 			<Mass>10</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<inspectorTabs>
-			<li>FS_SSR.Generic.ITab_ThingContainerII</li>
-			<li>FS_SSR.Generic.ITab_ThingContainer</li>
-		</inspectorTabs>
 		<costList>
 			<Steel>10</Steel>
 		</costList>
@@ -1201,21 +1197,24 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
+				<interval>500</interval>
+				<effect>10</effect>
+				<requiredLevel>0</requiredLevel>
+				<containerIndex>1</containerIndex>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainer">
 				<capacity>5</capacity>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ThingContainerII">
-				<capacity>7</capacity>
+				<showEjectGizmo>true</showEjectGizmo>
+				<uniqueID>1</uniqueID>
+				<gizmoEjectLabel>弹出维修平台内容物</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出维修平台内容物</gizmoEjectDesc>
+				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<btnITabLabel>维修平台</btnITabLabel>
+				<btnITabItemKey>左下点进去抬头</btnITabItemKey>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="FS_SSR.Laundry.DefExt_Laundry">
-				<tickToComplete>3000</tickToComplete>
-			</li>
-			<li Class="FS_SSR.Laundry.DefExt_LaundryRepairSpeed">
-				<hpPerTick>1</hpPerTick>
-			</li>
-		</modExtensions>
 		<researchPrerequisites>
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>

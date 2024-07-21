@@ -97,7 +97,7 @@
 		<defName>SSR_WashingMachine</defName>
 		<label>洗衣机</label>
 		<description>一台可以洗去死者衣物标记的洗衣机。</description>
-		<thingClass>FS_SSR.Laundry.Building_Laundry</thingClass>
+		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Misc/WashingMachine/WashingMachine</texPath>
@@ -140,18 +140,21 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryDeathStain</compClass>
+				<interval>500</interval>
+				<effect>10</effect>
+				<requiredLevel>0</requiredLevel>
+				<containerIndex>1</containerIndex>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainer">
-				<capacity>5</capacity>
+				<uniqueID>1</uniqueID>
+				<gizmoEjectLabel>弹出洗衣机内容物</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出洗衣机内容物</gizmoEjectDesc>
+				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<btnITabLabel>洗衣机</btnITabLabel>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="FS_SSR.Laundry.DefExt_Laundry">
-				<tickToComplete>3000</tickToComplete>
-			</li>
-			<li Class="FS_SSR.DefExt_DmgReciveMult">
-				<multipler>0</multipler>
-			</li>
-		</modExtensions>
 	</ThingDef>	
 
 	<ThingDef ParentName="BuildingBase">
