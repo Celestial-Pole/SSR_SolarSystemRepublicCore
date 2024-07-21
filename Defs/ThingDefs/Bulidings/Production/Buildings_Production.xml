@@ -1219,6 +1219,73 @@
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
 	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_EquipmentPreparationStation</defName>
+		<label>装备整备台</label>
+		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
+		<thingClass>Building</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryBiocode</compClass>
+				<interval>500</interval>
+				<effect>10</effect>
+				<requiredLevel>0</requiredLevel>
+				<containerIndex>1</containerIndex>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+				<showEjectGizmo>true</showEjectGizmo>
+				<uniqueID>1</uniqueID>
+				<gizmoEjectLabel>弹出整备台内容物</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出整备台内容物</gizmoEjectDesc>
+				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<btnITabLabel>整备台</btnITabLabel>
+				<btnITabItemKey>左下点进去抬头</btnITabItemKey>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>SSREncryptionSystemCracking</li>
+		</researchPrerequisites>
+	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_FMIAExtractStationGE</defName>
