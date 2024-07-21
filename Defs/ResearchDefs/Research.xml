@@ -79,8 +79,8 @@
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
-			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
-				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Industrial</techLevel>
 			</li>
 		</modExtensions>
@@ -828,8 +828,8 @@
 		<researchViewX>12</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
-			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
-				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Spacer</techLevel>
 			</li>
 		</modExtensions>
@@ -1456,8 +1456,8 @@
 		<researchViewX>22</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
-			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
-				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Ultra</techLevel>
 			</li>
 		</modExtensions>
