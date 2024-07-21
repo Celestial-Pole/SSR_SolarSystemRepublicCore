@@ -160,10 +160,7 @@
         <skillRequirements>
             <Crafting>6</Crafting>
         </skillRequirements>
-		<researchPrerequisite>
-            <li>ReconArmor</li>
-            <li>JumpPack</li>
-        </researchPrerequisite>
+		<researchPrerequisite>ReconArmor</researchPrerequisite>
 	</RecipeDef>
 
     <RecipeDef ParentName="SSR_RecipeCoreMachining">

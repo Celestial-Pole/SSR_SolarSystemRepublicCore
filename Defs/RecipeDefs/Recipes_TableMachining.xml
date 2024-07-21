@@ -163,7 +163,7 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_RecipeCoreMachining">
-		<defName>SSR_Recipe_Shell_Firefoam</defName>
+		<defName>SSR_Recipe_Shell_Smoke</defName>
 		<label>制作烟雾弹</label>
 		<description>制作烟雾弹。</description>
 		<jobString>正在制作烟雾弹。</jobString>
@@ -241,7 +241,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>ResourcesRaw</li>
 					</categories>
 				</filter>
 				<count>40</count>
@@ -249,7 +249,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>Metallic</li>
+				<li>ResourcesRaw</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -268,7 +268,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>ResourcesRaw</li>
 					</categories>
 				</filter>
 				<count>40</count>
@@ -296,7 +296,7 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-				<li>Metallic</li>
+				<li>ResourcesRaw</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -318,7 +318,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>ResourcesRaw</li>
 					</categories>
 				</filter>
 				<count>20</count>
@@ -326,7 +326,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>Metallic</li>
+				<li>ResourcesRaw</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -1295,45 +1295,6 @@
             <Crafting>4</Crafting>
         </skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SSR_RecipeCoreMachining">
-		<defName>SSR_Recipe_Gun_EmpLauncher</defName>
-		<label>制作EMP发射器</label>
-		<description>制作EMP发射器。</description>
-		<jobString>正在制作EMP发射器。</jobString>
-		<workAmount>30000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-            <li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>8</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-                <li>ComponentIndustrial</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Gun_EmpLauncher>1</Gun_EmpLauncher>
-		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
-		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_RecipeCoreMachining">

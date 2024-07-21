@@ -270,8 +270,8 @@
 			<li>ButcherCorpseMechanoid</li>
 			<li>SSR_Recipe_ReinforcedBarrel</li>
 			<li>SSR_Recipe_ExtremeComponent</li>
-			<li>SSR_Recipe_ComponentIndustrial</li>
-			<li>SSR_Recipe_ComponentSpacer</li>
+			<li>Make_ComponentIndustrial</li>
+			<li>Make_ComponentSpacer</li>
 			<li>SSR_Recipe_Shell_HighExplosive</li>
 			<li>SSR_Recipe_Shell_Incendiary</li>
 			<li>SSR_Recipe_Shell_EMP</li>
