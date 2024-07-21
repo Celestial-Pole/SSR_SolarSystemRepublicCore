@@ -94,6 +94,97 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_VerticalDrillingRig</defName>
+		<label>垂直钻井机</label>
+		<description>垂直钻井机是一种用于钻探深井的重型设备，具有高塔架和旋转钻头，能够钻探出深层的地热资源。</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="FS_SSR.TCP_SteamSpringMaker">
+				<interval>5</interval>
+			</li>
+		</comps>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_DeepWellFillBurialMachine</defName>
+		<label>深井填埋机</label>
+		<description></description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="FS_SSR.TCP_SteamGeyserClear">
+				<interval>5</interval>
+			</li>
+		</comps>
+		<placeWorkers>
+		  <li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_WashingMachine</defName>
 		<label>洗衣机</label>
 		<description>一台可以洗去死者衣物标记的洗衣机。</description>
