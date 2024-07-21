@@ -25,6 +25,8 @@
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
+		<inspectorTabs>
+		</inspectorTabs>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>10</WorkToBuild>
@@ -75,6 +77,7 @@
 				<gizmoEjectLabel>弹出内容物3</gizmoEjectLabel>
 				<btnITabLabel>左下按钮3</btnITabLabel>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 		</comps>
 	</ThingDef>	
 	
