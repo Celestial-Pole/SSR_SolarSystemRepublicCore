@@ -815,7 +815,6 @@
 			<bodyPartGroups>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<layers>
@@ -838,6 +837,18 @@
 			<!-- 手术成功率 -->
 			<MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
+		<comps>
+			<li Class="FS_SSR.TCP_FloatingDrone_Sin">
+				<wornGraphics>
+					<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
+					<graphicClass>Graphic_multi</graphicClass>
+					<drawSize>1.5</drawSize>
+				</wornGraphics>
+				<speedZ>0.005</speedZ>
+				<distanceZ>0.01</distanceZ>
+				<cycleX>0.0005</cycleX>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>

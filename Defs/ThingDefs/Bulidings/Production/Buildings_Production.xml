@@ -1230,6 +1230,8 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
+			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />--><!--单建筑多内容栏时需要-->
+			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
 				<interval>500</interval>
@@ -1245,7 +1247,7 @@
 				<gizmoEjectDesc>弹出维修平台内容物</gizmoEjectDesc>
 				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
 				<btnITabLabel>维修平台</btnITabLabel>
-				<btnITabItemKey>左下点进去抬头</btnITabItemKey>
+				<btnITabItemKey>装备维修平台</btnITabItemKey>
 			</li>
 		</comps>
 		<researchPrerequisites>
@@ -1297,6 +1299,7 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryBiocode</compClass>
 				<interval>500</interval>
@@ -1312,7 +1315,7 @@
 				<gizmoEjectDesc>弹出整备台内容物</gizmoEjectDesc>
 				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
 				<btnITabLabel>整备台</btnITabLabel>
-				<btnITabItemKey>左下点进去抬头</btnITabItemKey>
+				<btnITabItemKey>装备整备台</btnITabItemKey>
 			</li>
 		</comps>
 		<researchPrerequisites>

@@ -215,9 +215,6 @@
 			<Mass>10</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<inspectorTabs>
-			<li>FS_SSR.Generic.ITab_ThingContainer</li>
-		</inspectorTabs>
 		<costList>
 			<Steel>10</Steel>
 		</costList>
@@ -231,6 +228,7 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryDeathStain</compClass>
 				<interval>500</interval>
@@ -239,11 +237,14 @@
 				<containerIndex>1</containerIndex>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+				<showEjectGizmo>true</showEjectGizmo>
 				<uniqueID>1</uniqueID>
 				<gizmoEjectLabel>弹出洗衣机内容物</gizmoEjectLabel>
 				<gizmoEjectDesc>弹出洗衣机内容物</gizmoEjectDesc>
 				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
 				<btnITabLabel>洗衣机</btnITabLabel>
+				<btnITabItemKey>洗衣机</btnITabItemKey>
 			</li>
 		</comps>
 	</ThingDef>	
