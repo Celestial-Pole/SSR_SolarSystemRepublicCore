@@ -843,10 +843,12 @@
 					<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
 					<graphicClass>Graphic_multi</graphicClass>
 					<drawSize>1.5</drawSize>
+					<drawOffset>(0, 0, 0)</drawOffset>
 				</wornGraphics>
 				<speedZ>0.005</speedZ>
-				<distanceZ>0.01</distanceZ>
-				<cycleX>0.0005</cycleX>
+				<distanceZ>0.2</distanceZ>
+				<cycleX>0.03</cycleX>
+				<distanceX>0.1</distanceX>
 			</li>
 		</comps>
 	</ThingDef>
