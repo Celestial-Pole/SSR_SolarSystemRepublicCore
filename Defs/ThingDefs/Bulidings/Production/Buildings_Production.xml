@@ -203,11 +203,6 @@
 						<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
 						<li>SSR_Recipe_HighDensityBattery</li>
 						<li>SSR_Recipe_HighenergyLaserEmitter</li>
-						<li>SSR_Recipe_FermiMaterial</li>
-						<li>SSR_Recipe_TenFermiMaterial</li>
-						<li>SSR_Recipe_HundredFermiMaterial</li>
-						<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
-						<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
 					</li>
 					<li>
 						<li>SSR_Recipe_FermiMaterial</li>
