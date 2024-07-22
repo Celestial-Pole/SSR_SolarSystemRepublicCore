@@ -82,10 +82,12 @@
 					<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>0.90</drawSize>
+					<drawOffset>(-0.03, 0, 0.03)</drawOffset>
 				</wornGraphics>
 				<speedZ>0.0005</speedZ>
-				<distanceZ>0.08</distanceZ>
-				<cycleX>0.0004</cycleX>
+				<distanceZ>0.2</distanceZ>
+				<cycleX>0.03</cycleX>
+				<distanceX>0.1</distanceX>
 			</li>
 		</comps>
 	</ThingDef>
