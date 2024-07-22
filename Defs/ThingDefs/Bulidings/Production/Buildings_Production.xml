@@ -124,6 +124,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<!--<maxQuality>Legendary</maxQuality>-->
 				<!--<productionFactor>5</productionFactor>-->
@@ -540,6 +545,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -683,6 +693,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -800,6 +815,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -913,6 +933,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -1011,6 +1036,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -1147,6 +1177,11 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1198,7 +1233,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>1200</basePowerConsumption>
+				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
@@ -1265,7 +1300,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>1200</basePowerConsumption>
+				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryBiocode</compClass>
@@ -1329,6 +1364,11 @@
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
@@ -1460,6 +1500,11 @@
 		<tickerType>Normal</tickerType>
 		<passability>PassThroughOnly</passability>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>300</basePowerConsumption>
+			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>Neutroamine</thingToSpawn>
 				<spawnCount>5</spawnCount>
@@ -1520,6 +1565,11 @@
 			<li>SSRStandardizedMineConstruction</li>
 		</researchPrerequisites>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>2000</basePowerConsumption>
+			</li>
 		</comps>
 		<costPerLayer>
 			<materials>
