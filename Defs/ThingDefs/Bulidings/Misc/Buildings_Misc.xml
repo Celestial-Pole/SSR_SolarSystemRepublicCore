@@ -140,7 +140,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DeepWellFillBurialMachine</defName>
 		<label>深井填埋机</label>
-		<description></description>
+		<description>深井填埋机是用于填埋蒸汽间歇喷泉的专用设备。</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Base</texPath>
