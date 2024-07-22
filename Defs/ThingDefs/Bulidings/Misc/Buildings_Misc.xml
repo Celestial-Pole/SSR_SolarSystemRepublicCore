@@ -413,7 +413,7 @@
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
-				<researchSpeedOffset>1</researchSpeedOffset>
+				<researchSpeedOffset>3</researchSpeedOffset>
 				<researchSpdFactorCGL>
 					<li>0.3</li><!--0级倍率-->
 					<li>1</li><!--1级倍率-->
@@ -539,16 +539,15 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>200000</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Facility">
-				<statOffsets>
-					<ResearchSpeedFactor>5</ResearchSpeedFactor>
-				</statOffsets>
-				<maxSimultaneous>1</maxSimultaneous>
+			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
+				<researchSpeedOffset>5</researchSpeedOffset>
+				<researchSpdFactorCGL>
+					<li>0.65</li><!--0级倍率-->
+					<li>1</li><!--1级倍率-->
+					<li>1</li><!--2级倍率-->
+				</researchSpdFactorCGL>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
 			<li>SSRLHC</li>

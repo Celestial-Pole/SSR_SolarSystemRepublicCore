@@ -83,6 +83,9 @@
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Industrial</techLevel>
 			</li>
+			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
+				<bonus>1</bonus>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -832,6 +835,19 @@
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Spacer</techLevel>
 			</li>
+			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
+				<bonus>2</bonus>
+			</li>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -849,6 +865,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>13</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -865,6 +893,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -881,6 +921,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -897,6 +949,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -913,6 +977,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -931,6 +1007,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -947,6 +1035,18 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>0.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -963,6 +1063,18 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>0.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -980,6 +1092,18 @@
 		<baseCost>9000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>0.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -996,6 +1120,18 @@
         <baseCost>7000</baseCost>
         <researchViewX>19</researchViewX>
         <researchViewY>0.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1012,6 +1148,18 @@
         <baseCost>7000</baseCost>
         <researchViewX>18</researchViewX>
         <researchViewY>1</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1028,6 +1176,18 @@
         <baseCost>4000</baseCost>
         <researchViewX>19</researchViewX>
         <researchViewY>1</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1044,6 +1204,18 @@
 		<baseCost>12000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1061,6 +1233,18 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1080,6 +1264,18 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1097,6 +1293,18 @@
         <baseCost>12000</baseCost>
         <researchViewX>18</researchViewX>
         <researchViewY>2</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1115,6 +1323,18 @@
         <baseCost>9000</baseCost>
         <researchViewX>19</researchViewX>
         <researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1133,6 +1353,18 @@
         <baseCost>9000</baseCost>
         <researchViewX>19</researchViewX>
         <researchViewY>2</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1150,6 +1382,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>2.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1167,6 +1411,18 @@
         <baseCost>13000</baseCost>
         <researchViewX>17</researchViewX>
         <researchViewY>2.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1184,6 +1440,18 @@
         <baseCost>10000</baseCost>
         <researchViewX>18</researchViewX>
         <researchViewY>2.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1201,6 +1469,18 @@
         <baseCost>12000</baseCost>
         <researchViewX>19</researchViewX>
         <researchViewY>2.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1220,6 +1500,18 @@
         <baseCost>12000</baseCost>
         <researchViewX>17</researchViewX>
         <researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -1237,6 +1529,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>3</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -1253,6 +1557,18 @@
 		<baseCost>8500</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>3</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1270,6 +1586,18 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>3.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1287,6 +1615,18 @@
 		<baseCost>9000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>4</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1304,6 +1644,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>4.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1321,6 +1673,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1338,6 +1702,18 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>5.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1438,6 +1814,18 @@
 		<baseCost>12000</baseCost>
 		<researchViewX>21</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -1448,6 +1836,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLHC</li>
@@ -1460,6 +1849,9 @@
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
 				<techLevel>Ultra</techLevel>
 			</li>
+			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
+				<bonus>3.5</bonus>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -1471,6 +1863,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPhysics</li>
@@ -1488,6 +1881,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -1505,6 +1899,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1522,6 +1917,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedManufacturingTechnology</li>
@@ -1540,6 +1936,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1557,6 +1954,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicSpaceApplication</li>
@@ -1574,6 +1972,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicGravitationalControlTechnology</li>
@@ -1591,6 +1990,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleConfinementTechnology</li>
@@ -1608,6 +2008,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1626,6 +2027,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1643,6 +2045,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleConfinementTechnology</li>
@@ -1660,6 +2063,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedManufacturingTechnology</li>
@@ -1678,6 +2082,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedManufacturingTechnology</li>
@@ -1695,6 +2100,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -1713,6 +2119,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1733,6 +2140,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRMedium-levelAutomaticGunCharger</li>
@@ -1751,6 +2159,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRHighEnergyLaserWeapon</li>
@@ -1769,6 +2178,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleBeamWeapon</li>
@@ -1787,6 +2197,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBallLightningWeapon</li>
@@ -1805,6 +2216,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedManufacturingTechnology</li>
@@ -1822,6 +2234,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRClothing</li>
@@ -1841,6 +2254,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRAdvancedEnergyTechnology</li>
@@ -1860,6 +2274,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPowerArmor</li>
@@ -1878,6 +2293,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedAutomaton</li>
@@ -1896,6 +2312,7 @@
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRParticleBeamWeapon</li>
@@ -1916,6 +2333,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRMedium-levelMineMiningAutomation</li>
@@ -1934,6 +2352,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRMedium-levelTunnelMiningAutomation</li>
@@ -1952,6 +2371,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicMiningAutomation</li>
@@ -1970,6 +2390,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRSpaceElevator</li>
@@ -1988,6 +2409,7 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
+			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRSpaceElevator</li>
