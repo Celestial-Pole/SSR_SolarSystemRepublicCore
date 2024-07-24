@@ -1514,7 +1514,7 @@
 		<researchPrerequisites>
 			<li>SSRBasicMedicine</li>
 		</researchPrerequisites>
-	</ThingDef>-->
+	</ThingDef>
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>

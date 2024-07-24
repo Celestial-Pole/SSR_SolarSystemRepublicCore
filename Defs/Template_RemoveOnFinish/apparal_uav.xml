@@ -85,8 +85,8 @@
 					<drawOffset>(-0.03, 0, 0.03)</drawOffset>
 				</wornGraphics>
 				<speedZ>0.0005</speedZ>
-				<distanceZ>0.2</distanceZ>
-				<cycleX>0.03</cycleX>
+				<distanceZ>0.04</distanceZ>
+				<cycleX>0.00003</cycleX>
 				<distanceX>0.1</distanceX>
 			</li>
 		</comps>

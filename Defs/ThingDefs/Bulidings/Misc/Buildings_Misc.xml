@@ -548,6 +548,11 @@
 					<li>1</li><!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ssr__lhcLinkableParticleCollector</li>
+				</linkableFacilities>
+			</li>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
