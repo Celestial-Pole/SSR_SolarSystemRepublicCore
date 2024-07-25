@@ -1,0 +1,23 @@
+using UnityEngine;
+using Verse;
+
+
+namespace SSR.Effect
+{
+    public class Graphic_Perfab : Graphic_Single
+    {
+        public override void DrawWorker(Vector3 loc, Rot4 rot, ThingDef thingDef, Thing thing, float extraRotation)
+        {
+            CompUnityGameObject compUnityGameObject = thing.TryGetComp<CompUnityGameObject>();
+            if(compUnityGameObject != null)
+            {
+                compUnityGameObject.Transform.position = new Vector3(loc.x,0,loc.z);
+                compUnityGameObject.Transform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
+                compUnityGameObject.Transform.rotation = Quaternion.Euler(0,extraRotation,0);
+                compUnityGameObject.MaskTransform.localPosition = new Vector3(0,loc.y,0);
+                compUnityGameObject.SetVisibility(true);
+            }
+            else base.DrawWorker(loc, rot, thingDef, thing, extraRotation);
+        }
+    }
+}

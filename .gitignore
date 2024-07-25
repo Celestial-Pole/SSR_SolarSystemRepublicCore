@@ -1,2 +1,11 @@
 
 *.lnk
+**/BUILD.*/
+**/BUILD_*/
+**/obj/
+**/Temp/
+**/AB_Pack/
+**/Library/
+**/.vs/
+**/log/
+# **/*_UnitTest/

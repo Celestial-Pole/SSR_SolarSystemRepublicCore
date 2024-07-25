@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main.csproj", "{6DB3F668-730C-4D1C-9775-871A68088DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSR.UnityComponent", "SSR.UnityComponent.csproj", "{DD1944B8-BF76-E7AF-7C96-1C6F9900282F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB3F668-730C-4D1C-9775-871A68088DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB3F668-730C-4D1C-9775-871A68088DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB3F668-730C-4D1C-9775-871A68088DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB3F668-730C-4D1C-9775-871A68088DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1944B8-BF76-E7AF-7C96-1C6F9900282F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1944B8-BF76-E7AF-7C96-1C6F9900282F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1944B8-BF76-E7AF-7C96-1C6F9900282F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1944B8-BF76-E7AF-7C96-1C6F9900282F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

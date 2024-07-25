@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 3639588055
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c692572ae947894f46c2f9526fc8b8cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0265c59e9b5119b0acf586c8e042897c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f187fbf806e497544b882684d8578620, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/SSR/Texture/MinerT2/Cable.png
+- Assets/SSR/Texture/MinerT1/CableA.png
+- Assets/SSR/Mesh/Mesh_Plane.asset
+- Assets/SSR/Material/MinerT2/Hook_1.mat
+- Assets/SSR/Texture/MinerT1/Lifter.png
+- Assets/SSR/Material/MinerT1/CableA.mat
+- Assets/SSR/Texture/MinerT2/Foundation.png
+- Assets/SSR/Perfab/MinerT1.prefab
+- Assets/SSR/CutOut.shader
+- Assets/SSR/Material/MinerT1/CableB.mat
+- Assets/SSR/Material/MinerT2/Cargo.mat
+- Assets/SSR/Material/MinerT1/DepthMask.mat
+- Assets/SSR/Texture/MinerT1/HookB.png
+- Assets/SSR/Texture/MinerT1/Foundation.png
+- Assets/SSR/Material/MinerT1/HookA.mat
+- Assets/SSR/Animate/MinerT2/Working.anim
+- Assets/SSR/Texture/MinerT2/Hook_0.png
+- Assets/SSR/Texture/MinerT2/Hook_2.png
+- Assets/SSR/Material/MinerT2/Spot.mat
+- Assets/SSR/Material/MinerT2/Foundation.mat
+- Assets/SSR/DepthMask.shader
+- Assets/SSR/Material/MinerT2/Hook_0.mat
+- Assets/SSR/Material/MinerT1/MaskFinal.mat
+- Assets/SSR/Texture/MinerT2/CargoDepth.png
+- Assets/SSR/Animate/MinerT1/AnimateController.controller
+- Assets/SSR/Material/MinerT2/Hook_2.mat
+- Assets/SSR/Texture/MinerT1/Cargo.png
+- Assets/SSR/Texture/MinerT1/MaskFinal.png
+- Assets/SSR/Material/MinerT1/HookB.mat
+- Assets/SSR/Animate/MinerT2/StartFocus.anim
+- Assets/SSR/DepthMaskForce.shader
+- Assets/SSR/Texture/MinerT1/Mask.png
+- Assets/SSR/Texture/MinerT2/Hook_1.png
+- Assets/SSR/Material/MinerT1/HookAWithCargo.mat
+- Assets/SSR/Material/MinerT1/Foundation.mat
+- Assets/SSR/Texture/MinerT2/Spot.png
+- Assets/SSR/Texture/MinerT1/CableB.png
+- Assets/SSR/Material/MinerT2/Lifter.mat
+- Assets/SSR/Animate/MinerT1/HookWave.anim
+- Assets/SSR/Material/MinerT2/Cable.mat
+- Assets/SSR/Animate/MinerT1/HookDown_Cargo.anim
+- Assets/SSR/Animate/MinerT2/AnimateController.controller
+- Assets/SSR/Material/Empty.mat
+- Assets/SSR/Material/MinerT2/MaskFinal.mat
+- Assets/SSR/Texture/MinerT2/Mask.png
+- Assets/SSR/Animate/MinerT1/HookWave_Cargo.anim
+- Assets/SSR/Animate/MinerT1/HookDown.anim
+- Assets/SSR/Texture/MinerT2/MaskFinal.png
+- Assets/SSR/Perfab/MinerT2.prefab
+- Assets/SSR/Material/MinerT1/Lifter.mat
+- Assets/SSR/Animate/MinerT2/EndWorking.anim
+- Assets/SSR/Material/MinerT2/DepthMask.mat
+- Assets/SSR/Texture/MinerT1/HookA.png
+- Assets/SSR/Texture/MinerT2/Cargo.png
+- Assets/SSR/Add.shader
+- Assets/SSR/Texture/MinerT2/Lifter.png
+Dependencies: []
