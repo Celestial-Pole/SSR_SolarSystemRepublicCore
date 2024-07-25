@@ -134,6 +134,18 @@
 			<li Class="FS_SSR.TCP_SteamSpringMaker">
 				<interval>5</interval>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				<overlay>
+					<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0,0,2.25)</drawOffset>
+					<shadowData>
+						<volume>(0.6, 1.0, 1.6)</volume>
+						<offset>(-0.1,0,-0.08)</offset>
+					</shadowData>
+				</overlay>
+			</li>
 		</comps>
 	</ThingDef>	
 	
@@ -177,6 +189,18 @@
 		<comps>
 			<li Class="FS_SSR.TCP_SteamGeyserClear">
 				<interval>5</interval>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				<overlay>
+					<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0,0,2.25)</drawOffset>
+					<shadowData>
+						<volume>(0.6, 1.0, 1.6)</volume>
+						<offset>(-0.1,0,-0.08)</offset>
+					</shadowData>
+				</overlay>
 			</li>
 		</comps>
 		<placeWorkers>
