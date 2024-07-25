@@ -103,6 +103,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
+		<uiIconPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig</uiIconPath>
 		<size>(4,4)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -159,6 +160,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
+		<uiIconPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine</uiIconPath>
 		<size>(4,4)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
