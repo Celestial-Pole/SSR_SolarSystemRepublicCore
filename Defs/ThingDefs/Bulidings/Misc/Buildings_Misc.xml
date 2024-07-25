@@ -271,7 +271,59 @@
 				<btnITabItemKey>洗衣机</btnITabItemKey>
 			</li>
 		</comps>
-	</ThingDef>	
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_TeleportationBeacon</defName>
+		<label>传送信标</label>
+		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
+		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationHotKey>Misc4</designationHotKey>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRBasicSpaceApplication</li>
+		</researchPrerequisites>
+	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DataTerminal</defName>
