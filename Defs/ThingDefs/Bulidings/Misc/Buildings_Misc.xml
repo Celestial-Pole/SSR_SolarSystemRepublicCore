@@ -105,11 +105,12 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig</uiIconPath>
 		<size>(4,4)</size>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -139,12 +140,8 @@
 				<overlay>
 					<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
-					<shadowData>
-						<volume>(0.6, 1.0, 1.6)</volume>
-						<offset>(-0.1,0,-0.08)</offset>
-					</shadowData>
+					<drawSize>(4,8)</drawSize>
+					<drawOffset>(0,0,5.99)</drawOffset>
 				</overlay>
 			</li>
 		</comps>
@@ -162,11 +159,12 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine</uiIconPath>
 		<size>(4,4)</size>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -196,12 +194,8 @@
 				<overlay>
 					<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
-					<shadowData>
-						<volume>(0.6, 1.0, 1.6)</volume>
-						<offset>(-0.1,0,-0.08)</offset>
-					</shadowData>
+					<drawSize>(4,8)</drawSize>
+					<drawOffset>(0,0,5.99)</drawOffset>
 				</overlay>
 			</li>
 		</comps>
