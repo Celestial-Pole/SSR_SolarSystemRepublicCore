@@ -82,7 +82,7 @@ namespace SSR.Effect
             compClass = typeof(CompUnityGameObject);
         }
 
-        internal static AssetBundle assetBundle
+        internal AssetBundle assetBundle
         {
             get
             {
@@ -91,11 +91,11 @@ namespace SSR.Effect
                     List<ModContentPack> runningModsListForReading = LoadedModManager.RunningModsListForReading;
                     foreach (ModContentPack pack in runningModsListForReading)
                     {
-                        if (pack.PackageId.Equals("SSR.Core") && !pack.assetBundles.loadedAssetBundles.NullOrEmpty())
+                        if (pack.PackageId.Equals("ssr.core") && !pack.assetBundles.loadedAssetBundles.NullOrEmpty())
                         {
                             foreach (AssetBundle assetBundle in pack.assetBundles.loadedAssetBundles)
                             {
-                                Shader shader = assetBundle.LoadAsset<Shader>(@"Assets/SSR/DepthMask.shader");
+                                Shader shader = assetBundle.LoadAsset<Shader>(@"Assets/SSR/DepthMaskForce.shader");
                                 if (shader != null && shader.isSupported)
                                 {
                                     // Log.Message($"pass {assetBundle.name}.{shader.name}");
@@ -135,6 +135,6 @@ namespace SSR.Effect
 
         public string perfabPath;
         private GameObject gameObject;
-        private static AssetBundle currentAssetBundle;
+        private AssetBundle currentAssetBundle;
     }
 }
