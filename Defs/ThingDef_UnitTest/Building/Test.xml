@@ -105,7 +105,7 @@
             <texPath>WindTurbine</texPath>
             <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
             <drawSize>(5,5)</drawSize>
-            <drawOffset>(2.5,0,2.5)</drawOffset>
+            <drawOffset>(0,0,2)</drawOffset>
             <damageData>
             <cornerTL>Damage/Corner</cornerTL>
             <cornerTR>Damage/Corner</cornerTR>
