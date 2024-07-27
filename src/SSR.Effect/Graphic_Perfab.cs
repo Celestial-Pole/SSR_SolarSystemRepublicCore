@@ -14,8 +14,8 @@ namespace SSR.Effect
                 compUnityGameObject.Transform.position = new Vector3(loc.x,0,loc.z);
                 compUnityGameObject.Transform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
                 compUnityGameObject.Transform.rotation = Quaternion.Euler(0,extraRotation,0);
-                compUnityGameObject.MaskTransform.localPosition = new Vector3(0,loc.y,0);
                 compUnityGameObject.SetVisibility(true);
+                if(compUnityGameObject.MaskTransform) compUnityGameObject.MaskTransform.localPosition = new Vector3(0,loc.y,0);
             }
             else base.DrawWorker(loc, rot, thingDef, thing, extraRotation);
         }

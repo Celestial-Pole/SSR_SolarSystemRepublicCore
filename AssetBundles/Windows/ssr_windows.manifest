@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3648706003
+CRC: 3451370381
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c2c07c2f6e70817a3735f202dcb8dce9
+    Hash: c61c4b0bb80352b9e0ef99c32215f284
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca418655f8aff062c4e6037afd195edd
@@ -74,7 +74,6 @@ Assets:
 - Assets/SSR/Animate/MinerT1/AnimateController.controller
 - Assets/SSR/Material/MinerT2/Hook_2.mat
 - Assets/SSR/Texture/MinerT1/Cargo.png
-- Assets/SSR/Material/WindTurbine/FinalMask.mat
 - Assets/SSR/Texture/MinerT1/MaskFinal.png
 - Assets/SSR/Animate/WindTurbine/Working.anim
 - Assets/SSR/Material/MinerT1/HookB.mat
