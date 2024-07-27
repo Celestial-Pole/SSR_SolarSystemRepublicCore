@@ -12,11 +12,18 @@ namespace SSR.Effect
             loc += data.drawOffset;
             if(compUnityGameObject != null)
             {
-                compUnityGameObject.Transform.position = new Vector3(loc.x,0,loc.z);
+                if(compUnityGameObject.MaskTransform)
+                {
+                    compUnityGameObject.MaskTransform.localPosition = new Vector3(0,loc.y,0);
+                    compUnityGameObject.Transform.position = new Vector3(loc.x,0,loc.z);
+                }
+                else
+                {
+                    compUnityGameObject.Transform.position = loc;
+                }
                 compUnityGameObject.Transform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
                 compUnityGameObject.Transform.rotation = Quaternion.Euler(0,extraRotation,0);
                 compUnityGameObject.SetVisibility(true);
-                if(compUnityGameObject.MaskTransform) compUnityGameObject.MaskTransform.localPosition = new Vector3(0,loc.y,0);
             }
             else base.DrawWorker(loc, rot, thingDef, thing, extraRotation);
         }
