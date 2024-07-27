@@ -35,8 +35,8 @@ namespace SSR.UnityComponent
         void Start()
         {
             _MaskTransIndex = Shader.PropertyToID("_MaskTrans");
-            //mesh = new Mesh();
-            //mesh.name = "Mesh_Turbine";
+            //turbineMesh = new Mesh();
+            //turbineMesh.name = "Mesh_Turbine";
 
             //List<Vector3> postions = new List<Vector3>(16);
             //List<Vector2> uvs = new List<Vector2>(16);
@@ -89,11 +89,11 @@ namespace SSR.UnityComponent
             //    combineInstances[i] = combineInstance;
             //}
 
-            //mesh.CombineMeshes(combineInstances);
-            //mesh.RecalculateNormals();
-            //mesh.RecalculateTangents();
-            //mesh.RecalculateBounds();
-            //mesh.UploadMeshData(false);
+            //turbineMesh.CombineMeshes(combineInstances);
+            //turbineMesh.RecalculateNormals();
+            //turbineMesh.RecalculateTangents();
+            //turbineMesh.RecalculateBounds();
+            //turbineMesh.UploadMeshData(false);
 
 
 
@@ -170,7 +170,7 @@ namespace SSR.UnityComponent
         //{
         //    if(GUI.Button(new Rect(0,0,96,32),"SaveMesh"))
         //    {
-        //        AssetDatabase.CreateAsset(mesh, "Assets/SSR/Mesh/Mesh_Turbine.asset");
+        //        AssetDatabase.CreateAsset(turbineMesh, "Assets/SSR/Mesh/Mesh_Turbine.asset");
         //    }
 
         //}
