@@ -96,4 +96,50 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="BuildingBase">
+        <defName>PerfabTestC</defName>
+        <label>Perfab Test 3</label>
+        <description>Perfab Test</description>
+        <thingClass>Building</thingClass>
+        <graphicData>
+            <texPath>WindTurbine</texPath>
+            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <costList>
+            <Steel>1000</Steel>
+            <ComponentIndustrial>20</ComponentIndustrial>
+        </costList>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Cleanliness>-2</Cleanliness>
+        </statBases>
+        <size>(5,5)</size>
+        <designationCategory>Production</designationCategory>
+        <uiOrder>2520</uiOrder>
+        <passability>PassThroughOnly</passability>
+        <drawerType>RealtimeOnly</drawerType>
+        <pathCost>50</pathCost>
+        <surfaceType>Item</surfaceType>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <recipes>
+            <li>ButcherCorpseMechanoid</li>
+        </recipes>
+        <comps>
+            <li Class="SSR.Effect.CompProperties_UnityGameObject">
+                <perfabPath>Assets/SSR/Perfab/WindTurbine.prefab</perfabPath>
+            </li>
+        </comps>
+    </ThingDef>
 </Defs>

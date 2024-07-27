@@ -217,14 +217,14 @@ namespace SSR.UnityComponent
         }
 
 #if UNITY_EDITOR
-        void OnGUI()
-        {
-            if(GUI.Button(new Rect(0,0,96,32),"SaveMesh"))
-            {
-                AssetDatabase.CreateAsset(mesh, "Assets/SSR/Mesh/Mesh_Plane.asset");
-            }
+        //void OnGUI()
+        //{
+        //    if(GUI.Button(new Rect(0,0,96,32),"SaveMesh"))
+        //    {
+        //        AssetDatabase.CreateAsset(mesh, "Assets/SSR/Mesh/Mesh_Plane.asset");
+        //    }
 
-        }
+        //}
 #endif
     }
 }

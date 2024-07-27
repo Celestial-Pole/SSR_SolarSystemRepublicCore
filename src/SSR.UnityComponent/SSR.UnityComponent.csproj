@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SSR\Script\SSRLiffter.cs" />
+     <Compile Include="Assets\SSR\Script\SSRTurbine.cs" />
      <None Include="Assets\SSR\DepthMask.shader" />
      <None Include="Assets\SSR\SSR.UnityComponent.asmdef" />
      <None Include="Assets\SSR\DepthMaskForce.shader" />
@@ -266,16 +267,16 @@
  <HintPath>E:/UnityEngine/2019.4.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/PackageCache/com.unity.collab-proxy@1.8.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>E:/UnityEngine/2019.4.30f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -623,10 +624,10 @@
  <HintPath>E:/UnityEngine/2019.4.30f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>F:/c#/SSR/src/SSR.UnityComponent/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/c#/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

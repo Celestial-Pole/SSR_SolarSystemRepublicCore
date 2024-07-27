@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "black" {}
-        _DepthTex ("Depth Texture", 2D) = "black" {}
+        _DepthTex ("Depth Texture", 2D) = "gray" {}
     }
     SubShader
     {
@@ -60,7 +60,7 @@
                 UNITY_SETUP_INSTANCE_ID(i);
                 float4 col = tex2D(_MainTex, i.uv);
                 if(col.a <= 0.0) discard;
-                i.model.y -= tex2D(_DepthTex, i.uvDepth) * 0.5;
+                i.model.y -= tex2D(_DepthTex, i.uvDepth).x - 0.5;
                 i.model = UnityObjectToClipPos(i.model);
                 depth = i.model.z / i.model.w;
 
