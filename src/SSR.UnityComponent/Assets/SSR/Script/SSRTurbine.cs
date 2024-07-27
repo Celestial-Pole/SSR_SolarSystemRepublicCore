@@ -9,6 +9,7 @@ namespace SSR.UnityComponent
 
     public class SSRTurbine : MonoBehaviour
     {
+        public float poleAngle = 55f;
         public float holderLowPos = -0.225f;
         public float holderTopPos = 0.225f;
         public float turbinePos = 0.15f;
@@ -107,9 +108,9 @@ namespace SSR.UnityComponent
             poleRenderer.material = pole;
             poleTransform = obj.transform;
             poleTransform.SetParent(transformCache);
-            poleTransform.localPosition = Vector3.up * 0.5f * Mathf.Tan(Mathf.PI / 4f);
-            poleTransform.localScale = new Vector3(1,1,1 / Mathf.Cos(Mathf.PI / 4f));
-            poleTransform.localRotation = Quaternion.Euler(-45, 0, 0);
+            poleTransform.localPosition = Vector3.up * 0.5f * Mathf.Tan(Mathf.PI * poleAngle / 180f);
+            poleTransform.localScale = new Vector3(1,1,1 / Mathf.Cos(Mathf.PI * poleAngle / 180f));
+            poleTransform.localRotation = Quaternion.Euler(-poleAngle, 0, 0);
 
             obj = new GameObject("turbine");
             meshFilter = obj.AddComponent<MeshFilter>();
@@ -150,6 +151,10 @@ namespace SSR.UnityComponent
         {
             if (turbineMesh != null && planeMesh != null)
             {
+                poleTransform.localPosition = Vector3.up * 0.5f * Mathf.Tan(Mathf.PI * poleAngle / 180f);
+                poleTransform.localScale = new Vector3(1, 1, 1 / Mathf.Cos(Mathf.PI * poleAngle / 180f));
+                poleTransform.localRotation = Quaternion.Euler(-poleAngle, 0, 0);
+
                 turbineTransform.localPosition = Vector3.forward * turbinePos;
                 turbineTransform.localScale = new Vector3(turbineSize.x, turbineSize.x, turbineSize.y);
                 turbineTransform.localRotation = Quaternion.Euler(0, 0, turbineRotation);

@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab91cade07454a94a9d5b1f5a997b9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poleAngle: 55
   holderLowPos: -0.275
   holderTopPos: 0.275
   turbinePos: 0.15
