@@ -91,7 +91,7 @@ namespace SSR.Effect
                     List<ModContentPack> runningModsListForReading = LoadedModManager.RunningModsListForReading;
                     foreach (ModContentPack pack in runningModsListForReading)
                     {
-                        if (pack.PackageId.Equals("ssr.core") && !pack.assetBundles.loadedAssetBundles.NullOrEmpty())
+                        if (pack.PackageId.Equals("SSR.Core") && !pack.assetBundles.loadedAssetBundles.NullOrEmpty())
                         {
                             foreach (AssetBundle assetBundle in pack.assetBundles.loadedAssetBundles)
                             {
