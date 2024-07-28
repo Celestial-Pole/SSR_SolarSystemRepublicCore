@@ -74,6 +74,7 @@ namespace SSR.UnityComponent
             liftterTransform = obj.transform;
             liftterTransform.SetParent(transformCache);
             liftterTransform.localPosition = Vector3.up * 0.05f;
+            liftterTransform.localRotation = Quaternion.identity;
             liftterTransform.localScale = Vector3.one;
 
 
@@ -85,6 +86,7 @@ namespace SSR.UnityComponent
             depthMaskTransform = obj.transform;
             depthMaskTransform.SetParent(transformCache);
             depthMaskTransform.localPosition = Vector3.zero;
+            depthMaskTransform.localRotation = Quaternion.identity;
             depthMaskTransform.localScale = Vector3.one;
 
             postion = new Vector3(cableEnd.x - cableEndDefault.x, 0, cableEnd.y - cableEndDefault.y);
