@@ -54,8 +54,8 @@
                 // sample the texture
                 UNITY_SETUP_INSTANCE_ID(i);
                 float4 col = tex2D(_MainTex, i.uv);
-                if(col.w < 0.5) discard;
-                i.model.y -= col.x - 0.5;
+                if(col.w <= 0.0) discard;
+                i.model.y -= (col.x - 0.5) * col.w; 
                 i.model = UnityObjectToClipPos(i.model);
                 depth = i.model.z / i.model.w;
                 // apply fog

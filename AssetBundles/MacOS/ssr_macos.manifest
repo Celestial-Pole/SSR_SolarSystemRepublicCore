@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2318774169
+CRC: 1561911822
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5d3bd2869b27a3345cc730ef0d8633af
+    Hash: ce7b1dd36c469e6bedfea8625dbecfca
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca418655f8aff062c4e6037afd195edd
@@ -55,6 +55,7 @@ Assets:
 - Assets/SSR/Material/MinerT1/CableB.mat
 - Assets/SSR/Material/MinerT2/Cargo.mat
 - Assets/SSR/Material/MinerT1/DepthMask.mat
+- Assets/SSR/Material/EmptyMask.mat
 - Assets/SSR/Texture/MinerT1/HookB.png
 - Assets/SSR/Texture/MinerT1/Foundation.png
 - Assets/SSR/Material/MinerT1/HookA.mat
