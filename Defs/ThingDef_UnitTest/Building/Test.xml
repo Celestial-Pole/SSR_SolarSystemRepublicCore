@@ -39,9 +39,6 @@
         <pathCost>50</pathCost>
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-        <recipes>
-            <li>ButcherCorpseMechanoid</li>
-        </recipes>
         <comps>
             <li Class="SSR.Effect.CompProperties_UnityGameObject">
                 <perfabPath>Assets/SSR/Perfab/MinerT1.prefab</perfabPath>
@@ -86,9 +83,6 @@
         <pathCost>50</pathCost>
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-        <recipes>
-            <li>ButcherCorpseMechanoid</li>
-        </recipes>
         <comps>
             <li Class="SSR.Effect.CompProperties_UnityGameObject">
                 <perfabPath>Assets/SSR/Perfab/MinerT2.prefab</perfabPath>
@@ -114,8 +108,8 @@
             </damageData>
         </graphicData>
         <costList>
-            <Steel>1000</Steel>
-            <ComponentIndustrial>20</ComponentIndustrial>
+            <Steel>200</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <altitudeLayer>Building</altitudeLayer>
         <fillPercent>0.5</fillPercent>
@@ -134,9 +128,6 @@
         <pathCost>50</pathCost>
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-        <recipes>
-            <li>ButcherCorpseMechanoid</li>
-        </recipes>
         <comps>
             <li Class="SSR.Effect.CompProperties_UnityGameObject">
                 <perfabPath>Assets/SSR/Perfab/WindTurbine.prefab</perfabPath>
