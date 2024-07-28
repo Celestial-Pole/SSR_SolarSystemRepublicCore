@@ -140,8 +140,8 @@
 				<overlay>
 					<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(4,8)</drawSize>
-					<drawOffset>(0,0,5.99)</drawOffset>
+					<drawSize>(12,12)</drawSize>
+					<drawOffset>(-0.1,0,4.45)</drawOffset>
 				</overlay>
 			</li>
 		</comps>
@@ -194,8 +194,8 @@
 				<overlay>
 					<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(4,8)</drawSize>
-					<drawOffset>(0,0,5.99)</drawOffset>
+					<drawSize>(12,12)</drawSize>
+					<drawOffset>(-0.1,0,4.45)</drawOffset>
 				</overlay>
 			</li>
 		</comps>
