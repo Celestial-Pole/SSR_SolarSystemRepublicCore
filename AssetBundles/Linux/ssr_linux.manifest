@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2557319973
+CRC: 2401781468
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 67278af7b6b3927183f87b1d53151d1c
+    Hash: 4fe4f4eb43c9af929d2eef6f1b2e4594
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca418655f8aff062c4e6037afd195edd
@@ -49,7 +49,6 @@ Assets:
 - Assets/SSR/Material/MinerT1/CableA.mat
 - Assets/SSR/Texture/MinerT2/Foundation.png
 - Assets/SSR/Material/WindTurbine/HolderTop.mat
-- Assets/SSR/Texture/WindTurbine/FinalMask.png
 - Assets/SSR/Perfab/MinerT1.prefab
 - Assets/SSR/Texture/WindTurbine/HolderTop.png
 - Assets/SSR/CutOut.shader
