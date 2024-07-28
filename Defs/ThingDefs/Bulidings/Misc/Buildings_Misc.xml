@@ -275,7 +275,7 @@
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
 		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<texPath>Things/Building/Misc/TeleportationBeacon/TeleportationBeacon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -386,7 +386,7 @@
 		<label>量子计算机组</label>
 		<description>量子计算机组实现了更大规模的量子信息处理和存储。它们通过量子纠缠和量子通信技术协同工作，大幅提升计算能力和效率。</description>
 		<graphicData>
-			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<texPath>Things/Building/Misc/QuantumComputingCluster/QuantumComputingCluster</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -446,7 +446,7 @@
 		<label>光子计算机组</label>
 		<description>光子计算机组实现了更强大的并行处理能力。它们利用光子的高速和低能耗特性，实现超快速的数据处理能力,通过分布式计算架构，增加了系统的可靠性和灵活性。</description>
 		<graphicData>
-			<texPath>Things/Building/Misc/DataTerminal/DataTerminal</texPath>
+			<texPath>Things/Building/Misc/PhotonicComputingCluster/PhotonicComputingCluster</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -630,6 +630,74 @@
 		<researchPrerequisites>
 			<li>SSRLHC</li>
 		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_ParticleCollectionDevice</defName>
+		<label>粒子收集装置</label>
+		<description>粒子收集装置。</description>
+		<graphicData>
+			<texPath>Things/UI/TempIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,1)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationHotKey>Misc4</designationHotKey>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>1</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>FS_SSR.Generic.PW_Adjacent</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRParticleConfinementTechnology</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li class="FS_SSR.Generic.DefExt_PlaceAdjacent">
+				<thingDef>SSR_LHC</thingDef>
+				<failReason>连接建立失败</failReason>
+				<!--填如果不满足条件时左上的提示。这里填的翻译遵照别的def的翻译格式。默认是SSR_PlaceAdjacentFailReason，默认需要用keyed翻译。-->
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>

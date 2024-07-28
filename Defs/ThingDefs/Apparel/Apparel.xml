@@ -383,6 +383,62 @@
 			<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
 	</ThingDef>
+	
+	<ThingDef ParentName="SSR_ApparelCustomBase">
+		<defName>SSR_EF_MiningCothing</defName>
+		<label>矿工制服</label>
+		<description>矿工制服</description>
+		<costList>
+			<SSR_Graphene>7</SSR_Graphene>
+		</costList>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MiningCothing/EF_MiningCothing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/EF_MiningCothing/EF_MiningCothing</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 携带能力 -->
+			<CarryingCapacity>10</CarryingCapacity>
+			<!-- 采矿速度 -->
+			<MiningSpeed>0.25</MiningSpeed>
+			<!-- 采矿效率 -->
+			<MiningYield>0.10</MiningYield>
+			<!-- 深钻井操作速度 -->
+			<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
 
 	<!-- ==================================== Headgear =====================================-->
 
@@ -738,7 +794,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>900</WorkToMake>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<Insulation_Cold>0.3</Insulation_Cold>
 			<Insulation_Heat>0.3</Insulation_Heat>
@@ -788,9 +844,123 @@
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="SSR_HelmetBase">
+		<defName>SSR_EF_MiningCothing_helmet</defName>
+		<label>矿工头盔</label>
+		<description>矿工头盔</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MiningCothing_helmet/EF_MiningCothing_helmet</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<SSR_Graphene>3</SSR_Graphene>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>900</WorkToMake>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>0.45</Insulation_Cold>
+			<Insulation_Heat>0.45</Insulation_Heat>
+			<Mass>0.3</Mass>
+			<EquipDelay>0.03</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/EF_MiningCothing_helmet/EF_MiningCothing_helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 采矿速度 -->
+			<MiningSpeed>0.15</MiningSpeed>
+			<!-- 采矿效率 -->
+			<MiningYield>0.05</MiningYield>
+			<!-- 深钻井操作速度 -->
+			<DeepDrillingSpeed>0.15</DeepDrillingSpeed>
+		</equippedStatOffsets>
+		<modExtensions>
+			<li Class="SolarSystemRepublicFramework.DefModExtension_DefendHediff">
+				<hediffs>
+					<li>DirtInEyes</li>
+					<li>GravelInEyes</li>
+					<li>MudInEyes</li>
+					<li>SandInEyes</li>
+					<li>WaterInEyes</li>
+				</hediffs>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<!-- ==================================== Equipment =====================================-->
 
-	<ThingDef ParentName="SSR_HelmetBase">
+	<ThingDef Name="SSR_UAVBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>True</selectable>
+		<pathCost>14</pathCost>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<SellPriceFactor>1</SellPriceFactor>
+		</statBases>
+		<thingCategories>
+			<li>SSR_Apparel</li>
+		</thingCategories>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>SSR_NumericalControlledMachineTool</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SSR_UAVBase">
 		<defName>SSR_EF_MedicaUAV</defName>
 		<label>医疗无人机</label>
 		<description>医疗无人机</description>
@@ -841,6 +1011,67 @@
 			<li Class="FS_SSR.TCP_FloatingDrone_Sin">
 				<wornGraphics>
 					<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
+					<graphicClass>Graphic_multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<drawOffset>(0, 0, 0)</drawOffset>
+				</wornGraphics>
+				<speedZ>0.0002</speedZ>
+				<distanceZ>0.03</distanceZ>
+				<cycleX>0.0002</cycleX>
+				<distanceX>0.03</distanceX>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_UAVBase">
+		<defName>SSR_EF_MiningUAV</defName>
+		<label>采矿无人机</label>
+		<description>采矿无人机</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MiningUAV/EF_MiningUAV</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>0</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 采矿速度 -->
+			<MiningSpeed>0.3</MiningSpeed>
+			<!-- 采矿效率 -->
+			<MiningYield>0.2</MiningYield>
+			<!-- 深钻井操作速度 -->
+			<DeepDrillingSpeed>0.05</DeepDrillingSpeed>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="FS_SSR.TCP_FloatingDrone_Sin">
+				<wornGraphics>
+					<texPath>Things/Apparel/EF_MiningUAV/EF_MiningUAV</texPath>
 					<graphicClass>Graphic_multi</graphicClass>
 					<drawSize>1.5</drawSize>
 					<drawOffset>(0, 0, 0)</drawOffset>
