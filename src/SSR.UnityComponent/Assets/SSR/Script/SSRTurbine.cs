@@ -39,18 +39,22 @@ namespace SSR.UnityComponent
             //turbineMesh = new Mesh();
             //turbineMesh.name = "Mesh_Turbine";
 
-            //List<Vector3> postions = new List<Vector3>(16);
-            //List<Vector2> uvs = new List<Vector2>(16);
-            //List<int> index = new List<int>(36);
-            //for(int i = 0; i < 4; i++)
+            //List<Vector3> postions = new List<Vector3>(40);
+            //List<Vector2> uvs = new List<Vector2>(40);
+            //List<int> index = new List<int>(84);
+            //for (int i = 0; i < 4; i++)
             //{
-            //    Vector3 p = new Vector3(Mathf.Cos((i + 3) * Mathf.PI / 9f) * 0.5f, -Mathf.Sin((i + 3) * Mathf.PI / 9f) * 0.5f);
+            //    float scaledIndex = (i - 1.5f) * 0.618f + 1.5f;
+            //    Vector3 p = new Vector3(Mathf.Cos((scaledIndex + 3) * Mathf.PI / 9f) * 0.5f, -Mathf.Sin((scaledIndex + 3) * Mathf.PI / 9f) * 0.5f);
+            //    Vector3 ps = p * 0.9375f;
             //    p.z = 0.5f;
+            //    ps.z = 0.5f;
             //    postions.Add(p);
-            //    postions.Add(p);
+            //    postions.Add(ps);
             //    p.z = -0.5f;
+            //    ps.z = -0.5f;
             //    postions.Add(p);
-            //    postions.Add(p);
+            //    postions.Add(ps);
             //    float uv_x0 = i / 6f;
             //    float uv_x1 = uv_x0 + 0.5f;
             //    uvs.Add(new Vector2(uv_x0, 1));
@@ -58,42 +62,82 @@ namespace SSR.UnityComponent
             //    uvs.Add(new Vector2(uv_x0, 0));
             //    uvs.Add(new Vector2(uv_x1, 0));
             //}
-
-            //for(int i = 0; i < 3; i++)
+            //postions.AddRange(postions);
+            //for (int i = 0; i < 4; i++)
             //{
+            //    postions.Add(postions[i]);
+            //    postions.Add(postions[i + 12]);
+            //}
+
+            //for (int i = 0; i < 24; i++)
+            //{
+            //    uvs.Add(Vector2.zero);
+            //}
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    //outside
             //    index.Add(i * 4);
             //    index.Add(i * 4 + 4);
             //    index.Add(i * 4 + 2);
             //    index.Add(i * 4 + 6);
             //    index.Add(i * 4 + 2);
             //    index.Add(i * 4 + 4);
-
+            //    //inside
             //    index.Add(i * 4 + 5);
             //    index.Add(i * 4 + 1);
             //    index.Add(i * 4 + 3);
             //    index.Add(i * 4 + 3);
             //    index.Add(i * 4 + 7);
             //    index.Add(i * 4 + 5);
+            //    //top
+            //    index.Add(i * 4 + 16);
+            //    index.Add(i * 4 + 17);
+            //    index.Add(i * 4 + 20);
+            //    index.Add(i * 4 + 17);
+            //    index.Add(i * 4 + 21);
+            //    index.Add(i * 4 + 20);
+            //    //low
+            //    index.Add(i * 4 + 19);
+            //    index.Add(i * 4 + 18);
+            //    index.Add(i * 4 + 22);
+            //    index.Add(i * 4 + 19);
+            //    index.Add(i * 4 + 22);
+            //    index.Add(i * 4 + 23);
             //}
+
+            //index.Add(36);
+            //index.Add(34);
+            //index.Add(32);
+            //index.Add(36);
+            //index.Add(38);
+            //index.Add(34);
+
+            //index.Add(33);
+            //index.Add(35);
+            //index.Add(37);
+            //index.Add(35);
+            //index.Add(39);
+            //index.Add(37);
 
             //Mesh mesh_part = new Mesh();
             //mesh_part.vertices = postions.ToArray();
             //mesh_part.uv = uvs.ToArray();
             //mesh_part.triangles = index.ToArray();
+            //mesh_part.RecalculateNormals();
+            //mesh_part.RecalculateTangents();
+            //mesh_part.RecalculateBounds();
 
             //CombineInstance combineInstance = new CombineInstance();
             //combineInstance.mesh = mesh_part;
             //CombineInstance[] combineInstances = new CombineInstance[3];
-            //for(int i = 0; i < combineInstances.Length; i++)
+            //for (int i = 0; i < combineInstances.Length; i++)
             //{
             //    combineInstance.transform = Matrix4x4.Rotate(Quaternion.Euler(Vector3.forward * 120 * i));
             //    combineInstances[i] = combineInstance;
             //}
 
             //turbineMesh.CombineMeshes(combineInstances);
-            //turbineMesh.RecalculateNormals();
-            //turbineMesh.RecalculateTangents();
-            //turbineMesh.RecalculateBounds();
             //turbineMesh.UploadMeshData(false);
 
 
@@ -173,7 +217,7 @@ namespace SSR.UnityComponent
 #if UNITY_EDITOR
         //void OnGUI()
         //{
-        //    if(GUI.Button(new Rect(0,0,96,32),"SaveMesh"))
+        //    if (GUI.Button(new Rect(0, 0, 96, 32), "SaveMesh"))
         //    {
         //        AssetDatabase.CreateAsset(turbineMesh, "Assets/SSR/Mesh/Mesh_Turbine.asset");
         //    }
