@@ -130,6 +130,7 @@
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
+			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
@@ -187,6 +188,7 @@
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
+			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
