@@ -1198,7 +1198,7 @@
 			<drawSize>(3,2)</drawSize>
 		</graphicData>
 		<size>(3,2)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
@@ -1267,7 +1267,7 @@
 			<drawSize>(3,2)</drawSize>
 		</graphicData>
 		<size>(3,2)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>

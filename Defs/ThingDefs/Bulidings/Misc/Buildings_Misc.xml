@@ -222,7 +222,7 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
@@ -400,7 +400,7 @@
 			<drawSize>2</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
@@ -460,7 +460,7 @@
 			<drawSize>2</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
@@ -651,7 +651,7 @@
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
 		<size>(3,1)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
@@ -701,7 +701,7 @@
 			<li>SSRParticleConfinementTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li class="FS_SSR.Generic.DefExt_PlaceAdjacent">
+			<li Class="FS_SSR.Generic.DefExt_PlaceAdjacent">
 				<thingDef>SSR_LHC</thingDef>
 				<failReason>连接建立失败</failReason>
 				<!--填如果不满足条件时左上的提示。这里填的翻译遵照别的def的翻译格式。默认是SSR_PlaceAdjacentFailReason，默认需要用keyed翻译。-->
