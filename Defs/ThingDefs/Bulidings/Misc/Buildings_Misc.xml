@@ -145,6 +145,9 @@
 				</overlay>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>SSRVerticalDrillingTechnology</li>
+		</researchPrerequisites>
 	</ThingDef>	
 	
 	<ThingDef ParentName="BuildingBase">
@@ -202,6 +205,9 @@
 		<placeWorkers>
 		  <li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRVerticalDrillingTechnology</li>
+		</researchPrerequisites>
 	</ThingDef>	
 	
 	<ThingDef ParentName="BuildingBase">
@@ -267,6 +273,9 @@
 				<btnITabItemKey>洗衣机</btnITabItemKey>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>EFBuilding</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -387,7 +396,7 @@
 		<description>量子计算机组实现了更大规模的量子信息处理和存储。它们通过量子纠缠和量子通信技术协同工作，大幅提升计算能力和效率。</description>
 		<graphicData>
 			<texPath>Things/Building/Misc/QuantumComputingCluster/QuantumComputingCluster</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
@@ -447,7 +456,7 @@
 		<description>光子计算机组实现了更强大的并行处理能力。它们利用光子的高速和低能耗特性，实现超快速的数据处理能力,通过分布式计算架构，增加了系统的可靠性和灵活性。</description>
 		<graphicData>
 			<texPath>Things/Building/Misc/PhotonicComputingCluster/PhotonicComputingCluster</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
@@ -638,7 +647,7 @@
 		<description>粒子收集装置。</description>
 		<graphicData>
 			<texPath>Things/UI/TempIcon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
 		<size>(3,1)</size>
