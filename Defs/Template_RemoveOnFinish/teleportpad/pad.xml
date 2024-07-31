@@ -38,12 +38,16 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
-		<comps>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	   <placeWorkers>
+		  <li>FS_SSR.PW_TeleportPadRadius</li>
+		</placeWorkers>
+		<modExtensions>
 			<li Class="FS_SSR.DefExt_TeleportPadRadius">
-				<radiusRetrieve>5</radiusRetrieve><!--回收时的范围-->
-				<radiusThrow>5</radiusThrow><!--从板子上往外面传的范围-->
+				<radiusThrow>(4,8)</radiusThrow>
+				<radiusRetrieve>(9,-1)</radiusRetrieve>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>	
 	
 </Defs>
