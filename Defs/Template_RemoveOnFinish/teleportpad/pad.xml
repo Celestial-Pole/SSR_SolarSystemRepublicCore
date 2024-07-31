@@ -39,6 +39,10 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
+			<li Class="FS_SSR.DefExt_TeleportPadRadius">
+				<radiusRetrieve>5</radiusRetrieve><!--回收时的范围-->
+				<radiusThrow>5</radiusThrow><!--从板子上往外面传的范围-->
+			</li>
 		</comps>
 	</ThingDef>	
 	
