@@ -1,467 +1,522 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <StorytellerDef Name="SSR_BaseStoryteller" Abstract="True">
-    <populationIntentFactorFromPopCurve>
-      <points>
-        <li>0,  8.0</li>
-        <li>1,  2.0</li>
-        <li>4,  1.0</li>
-        <li>7,  0.35</li>
-        <li>11, 0.0</li>
-        <li>20,-1.0</li>
-      </points>
-    </populationIntentFactorFromPopCurve>
-    <populationIntentFactorFromPopAdaptDaysCurve>
-      <points>
-        <li>( 0, 0)</li>
-        <li>( 8, 1)</li>
-      </points>
-    </populationIntentFactorFromPopAdaptDaysCurve>
-    <pointsFactorFromDaysPassed>
-      <points>
-        <li>(10, 0.70)</li>
-        <li>(40, 1.00)</li>
-      </points>
-    </pointsFactorFromDaysPassed>
-    <adaptDaysMin>-60</adaptDaysMin>
-    <adaptDaysMax>100</adaptDaysMax>
-    <adaptDaysGameStartGraceDays>30</adaptDaysGameStartGraceDays> <!-- only applies to adaptDays past 0 -->
-    <adaptDaysLossFromColonistLostByPostPopulation>
-      <points>
-        <li>( 0, 30)</li> <!-- 30 days at normal pops; lower at really high pop -->
-        <li>(11, 30)</li>
-        <li>(20, 20)</li>
-      </points>
-    </adaptDaysLossFromColonistLostByPostPopulation>
-    <adaptDaysLossFromColonistViolentlyDownedByPopulation>
-      <points>
-        <li>(1,  8)</li>
-        <li>(2,  6)</li>
-        <li>(3,  6)</li>
-        <li>(11, 5)</li>
-        <li>(20, 3.5)</li>
-      </points>
-    </adaptDaysLossFromColonistViolentlyDownedByPopulation>
-    <adaptDaysGrowthRateCurve>
-      <points>
-        <li>(-30.01, 6)</li>   <!-- under: 8.00 -->
-        <li>(-30,    3)</li>   <!--   -30: 3.00 -->
-        <li>(-0.01,  3)</li>
-        <li>(0,      1)</li>   <!--     0: 1.00 -->
-        <li>(59.99,  1)</li>
-        <li>(60,     0.5)</li> <!--    60: 0.50 -->
-        <li>(119.99, 0.5)</li>
-        <li>(120,    0.25)</li> <!--  120: 0.25 -->
-      </points>
-    </adaptDaysGrowthRateCurve>
-    <pointsFactorFromAdaptDays>
-      <points>
-        <li>(-30, 0.40)</li>  <!-- recover in 10 days -->
-        <li>(  0, 0.80)</li>  <!-- start at     0.80  -->
-        <li>( 30, 1.00)</li>  <!-- 0.5 years to 1.00  -->
-        <li>( 60, 1.20)</li>  <!-- 0.5 years to 1.20  -->
-        <li>(120, 1.60)</li>  <!-- 2   years to 1.60  -->
-        <li>(180, 2.00)</li>  <!-- 4   years to 2.00  -->
-      </points>
-    </pointsFactorFromAdaptDays>
-    <comps>
-      <!-- Endgame - ship escape quest -->
-      <li Class="StorytellerCompProperties_SingleOnceFixed">
-        <fireAfterDaysPassed>20</fireAfterDaysPassed>
-        <incident>GiveQuest_EndGame_ShipEscape</incident>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-      </li>
-      <!-- Endgame - archonexus victory quest -->
-      <li Class="StorytellerCompProperties_RefiringUniqueQuest">
-        <minColonyWealth>150000</minColonyWealth>
-        <minDaysPassed>0</minDaysPassed>
-        <incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_EndGame_ArchonexusVictory</incident>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Ideology</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Endgame - royal ascent quest (Royalty only) -->
-      <li Class="StorytellerCompProperties_RefiringUniqueQuest">
-        <minDaysPassed>35</minDaysPassed>
-        <refireEveryDays>22</refireEveryDays>
-        <incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_EndGame_RoyalAscent</incident>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Infestations from deep drilling -->
-      <li Class="StorytellerCompProperties_DeepDrillInfestation">
-        <baseMtbDaysPerDrill>20</baseMtbDaysPerDrill>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-          <li>Map_TempIncident</li>
-          <li>Map_Misc</li>
-          <li>Map_RaidBeacon</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_WorkSite">
-        <incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_WorkSite</incident>
-      </li>
-      <!-- Royalty intro quests -->
-      <li Class="StorytellerCompProperties_SingleOnceFixed">
-        <fireAfterDaysPassed>8</fireAfterDaysPassed>
-        <incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_Intro_Wimp</incident>
-        <skipIfColonistHasMinTitle MayRequire="Ludeon.RimWorld.Royalty">Yeoman</skipIfColonistHasMinTitle>
-        <skipIfOnExtremeBiome>true</skipIfOnExtremeBiome>
-        <minColonistCount>3</minColonistCount>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </enableIfAnyModActive>
-      </li>
-      <li Class="StorytellerCompProperties_SingleOnceFixed">
-        <fireAfterDaysPassed>26</fireAfterDaysPassed>
-        <incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_Intro_Deserter</incident>
-        <skipIfOnExtremeBiome>true</skipIfOnExtremeBiome>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Royalty tribute collector -->
-      <li Class="StorytellerCompProperties_FactionInteraction">
-        <incident MayRequire="Ludeon.RimWorld.Royalty">CaravanArrivalTributeCollector</incident>
-        <minDaysPassed>20</minDaysPassed>
-        <baseIncidentsPerYear>2</baseIncidentsPerYear>
-        <minSpacingDays>30</minSpacingDays>
-        <minWealth>20000</minWealth>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </enableIfAnyModActive>
-      </li>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <incident MayRequire="Ludeon.RimWorld.Royalty">AnimaTreeSpawn</incident>
-        <onDays>15</onDays>
-        <offDays>15</offDays>
-        <numIncidentsRange>1</numIncidentsRange>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_GauranlenPodSpawn" MayRequire="Ludeon.RimWorld.Ideology">
-        <incident MayRequire="Ludeon.RimWorld.Ideology">GauranlenPodSpawn</incident>
-        <minDaysPassed>4</minDaysPassed>
-        <daysBetweenPodSpawns>60</daysBetweenPodSpawns>
-        <countdownFactorAnyConnectors>2</countdownFactorAnyConnectors>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Ideology</li>
-        </enableIfAnyModActive>
-      </li>
-      <li Class="StorytellerCompProperties_MonolithMigration" MayRequire="Ludeon.RimWorld.Anomaly">
-        <incident MayRequire="Ludeon.RimWorld.Anomaly">MonolithMigration</incident>
-        <mtbDays>4</mtbDays>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Anomaly</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Charity beggars -->
-      <li Class="StorytellerCompProperties_OnOffCycle" MayRequire="Ludeon.RimWorld.Ideology">
-        <incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_Beggars</incident>
-        <onDays>60</onDays>
-        <offDays>0</offDays>
-        <minSpacingDays>20</minSpacingDays>
-        <numIncidentsRange>1</numIncidentsRange>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Ideology</li>
-        </enableIfAnyModActive>
-      </li>
-       <!-- Epic quests -->
-      <li Class="StorytellerCompProperties_RandomEpicQuest">
-        <category>GiveQuest</category>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <onDays>40</onDays>
-        <offDays>0</offDays>
-        <minDaysPassed>30</minDaysPassed>
-        <numIncidentsRange>1</numIncidentsRange>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Ideology</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Reliquary pilgrims -->
-      <li Class="StorytellerCompProperties_OnOffCycle" MayRequire="Ludeon.RimWorld.Ideology">
-        <incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_ReliquaryPilgrims</incident>
-        <onDays>40</onDays>
-        <offDays>0</offDays>
-        <minSpacingDays>20</minSpacingDays>
-        <numIncidentsRange>1</numIncidentsRange>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Ideology</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Mechanitor ancient complex -->
-      <li Class="StorytellerCompProperties_MechanitorComplexQuest" MayRequire="Ludeon.RimWorld.Biotech">
-        <incident MayRequire="Ludeon.RimWorld.Biotech">GiveQuest_AncientComplex_Mechanitor</incident>
-        <mtbDays>60</mtbDays>
-        <existingMechanitorOrMechlinkMTBFactor>4</existingMechanitorOrMechlinkMTBFactor>
-        <minSpacingDays>60</minSpacingDays>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Biotech</li>
-        </enableIfAnyModActive>
-        <blockedByQueuedOrActiveQuests>
-          <li>OpportunitySite_AncientComplex_Mechanitor</li>
-          <li>MechanitorShip</li>
-        </blockedByQueuedOrActiveQuests>
-      </li>
-      <!-- Dissolution triggered -->
-      <li Class="StorytellerCompProperties_DissolutionTriggered" MayRequire="Ludeon.RimWorld.Biotech">
-        <incident>WastepackInfestation</incident>
-        <thing>Wastepack</thing>
-        <delayTicks>120</delayTicks>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-          <li>Map_Misc</li>
-        </allowedTargetTags>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Biotech</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- Noxious haze -->
-      <li Class="StorytellerCompProperties_NoxiousHaze" MayRequire="Ludeon.RimWorld.Biotech">
-        <lastFireMinMTBThreshold>0.5</lastFireMinMTBThreshold>
-        <lastFireMaxMTBThreshold>2</lastFireMaxMTBThreshold>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-          <li>Map_Misc</li>
-        </allowedTargetTags>
-      </li>
-      <!-- Polux tree -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <incident MayRequire="Ludeon.RimWorld.Biotech">PoluxTreeSpawn</incident>
-        <onDays>15</onDays>
-        <offDays>15</offDays>
-        <numIncidentsRange>1</numIncidentsRange>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-      </li>
-    </comps>
-  </StorytellerDef>
+	<StorytellerDef Name="SSR_BaseStoryteller" Abstract="false">
+		<populationIntentFactorFromPopCurve>
+			<points>
+				<li>0,  8.0</li>
+				<li>1,  2.0</li>
+				<li>4,  1.0</li>
+				<li>7,  0.35</li>
+				<li>11, 0.0</li>
+				<li>20,-1.0</li>
+			</points>
+		</populationIntentFactorFromPopCurve>
+		<populationIntentFactorFromPopAdaptDaysCurve>
+			<points>
+				<li>( 0, 0)</li>
+				<li>( 8, 1)</li>
+			</points>
+		</populationIntentFactorFromPopAdaptDaysCurve>
+		<pointsFactorFromDaysPassed>
+			<points>
+				<li>(10, 0.70)</li>
+				<li>(40, 1.00)</li>
+			</points>
+		</pointsFactorFromDaysPassed>
+		<adaptDaysMin>-60</adaptDaysMin>
+		<adaptDaysMax>100</adaptDaysMax>
+		<adaptDaysGameStartGraceDays>30</adaptDaysGameStartGraceDays>
+		<!-- only applies to adaptDays past 0 -->
+		<adaptDaysLossFromColonistLostByPostPopulation>
+			<points>
+				<li>( 0, 30)</li>
+				<!-- 30 days at normal pops; lower at really high pop -->
+				<li>(11, 30)</li>
+				<li>(20, 20)</li>
+			</points>
+		</adaptDaysLossFromColonistLostByPostPopulation>
+		<adaptDaysLossFromColonistViolentlyDownedByPopulation>
+			<points>
+				<li>(1,  8)</li>
+				<li>(2,  6)</li>
+				<li>(3,  6)</li>
+				<li>(11, 5)</li>
+				<li>(20, 3.5)</li>
+			</points>
+		</adaptDaysLossFromColonistViolentlyDownedByPopulation>
+		<adaptDaysGrowthRateCurve>
+			<points>
+				<li>(-30.01, 6)</li>
+				<!-- under: 8.00 -->
+				<li>(-30,    3)</li>
+				<!--   -30: 3.00 -->
+				<li>(-0.01,  3)</li>
+				<li>(0,      1)</li>
+				<!--     0: 1.00 -->
+				<li>(59.99,  1)</li>
+				<li>(60,     0.5)</li>
+				<!--    60: 0.50 -->
+				<li>(119.99, 0.5)</li>
+				<li>(120,    0.25)</li>
+				<!--  120: 0.25 -->
+			</points>
+		</adaptDaysGrowthRateCurve>
+		<pointsFactorFromAdaptDays>
+			<points>
+				<li>(-30, 0.40)</li>
+				<!-- recover in 10 days -->
+				<li>(  0, 0.80)</li>
+				<!-- start at     0.80  -->
+				<li>( 30, 1.00)</li>
+				<!-- 0.5 years to 1.00  -->
+				<li>( 60, 1.20)</li>
+				<!-- 0.5 years to 1.20  -->
+				<li>(120, 1.60)</li>
+				<!-- 2   years to 1.60  -->
+				<li>(180, 2.00)</li>
+				<!-- 4   years to 2.00  -->
+			</points>
+		</pointsFactorFromAdaptDays>
+		<comps>
+			<!-- Endgame - ship escape quest -->
+			<li Class="StorytellerCompProperties_SingleOnceFixed">
+				<fireAfterDaysPassed>20</fireAfterDaysPassed>
+				<incident>GiveQuest_EndGame_ShipEscape</incident>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Endgame - archonexus victory quest -->
+			<li Class="StorytellerCompProperties_RefiringUniqueQuest">
+				<minColonyWealth>150000</minColonyWealth>
+				<minDaysPassed>0</minDaysPassed>
+				<incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_EndGame_ArchonexusVictory</incident>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Ideology</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Endgame - royal ascent quest (Royalty only) -->
+			<li Class="StorytellerCompProperties_RefiringUniqueQuest">
+				<minDaysPassed>35</minDaysPassed>
+				<refireEveryDays>22</refireEveryDays>
+				<incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_EndGame_RoyalAscent</incident>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Infestations from deep drilling -->
+			<li Class="StorytellerCompProperties_DeepDrillInfestation">
+				<baseMtbDaysPerDrill>20</baseMtbDaysPerDrill>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+					<li>Map_TempIncident</li>
+					<li>Map_Misc</li>
+					<li>Map_RaidBeacon</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_WorkSite">
+				<incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_WorkSite</incident>
+			</li>
+			<!-- Royalty intro quests -->
+			<li Class="StorytellerCompProperties_SingleOnceFixed">
+				<fireAfterDaysPassed>8</fireAfterDaysPassed>
+				<incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_Intro_Wimp</incident>
+				<skipIfColonistHasMinTitle MayRequire="Ludeon.RimWorld.Royalty">Yeoman</skipIfColonistHasMinTitle>
+				<skipIfOnExtremeBiome>true</skipIfOnExtremeBiome>
+				<minColonistCount>3</minColonistCount>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<li Class="StorytellerCompProperties_SingleOnceFixed">
+				<fireAfterDaysPassed>26</fireAfterDaysPassed>
+				<incident MayRequire="Ludeon.RimWorld.Royalty">GiveQuest_Intro_Deserter</incident>
+				<skipIfOnExtremeBiome>true</skipIfOnExtremeBiome>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Royalty tribute collector -->
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident MayRequire="Ludeon.RimWorld.Royalty">CaravanArrivalTributeCollector</incident>
+				<minDaysPassed>20</minDaysPassed>
+				<baseIncidentsPerYear>2</baseIncidentsPerYear>
+				<minSpacingDays>30</minSpacingDays>
+				<minWealth>20000</minWealth>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident MayRequire="Ludeon.RimWorld.Royalty">AnimaTreeSpawn</incident>
+				<onDays>15</onDays>
+				<offDays>15</offDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_GauranlenPodSpawn" MayRequire="Ludeon.RimWorld.Ideology">
+				<incident MayRequire="Ludeon.RimWorld.Ideology">GauranlenPodSpawn</incident>
+				<minDaysPassed>4</minDaysPassed>
+				<daysBetweenPodSpawns>60</daysBetweenPodSpawns>
+				<countdownFactorAnyConnectors>2</countdownFactorAnyConnectors>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Ideology</li>
+				</enableIfAnyModActive>
+			</li>
+			<li Class="StorytellerCompProperties_MonolithMigration" MayRequire="Ludeon.RimWorld.Anomaly">
+				<incident MayRequire="Ludeon.RimWorld.Anomaly">MonolithMigration</incident>
+				<mtbDays>4</mtbDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Anomaly</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Charity beggars -->
+			<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="Ludeon.RimWorld.Ideology">
+				<incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_Beggars</incident>
+				<onDays>60</onDays>
+				<offDays>0</offDays>
+				<minSpacingDays>20</minSpacingDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Ideology</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Epic quests -->
+			<li Class="StorytellerCompProperties_RandomEpicQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>40</onDays>
+				<offDays>0</offDays>
+				<minDaysPassed>30</minDaysPassed>
+				<numIncidentsRange>1</numIncidentsRange>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Ideology</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Reliquary pilgrims -->
+			<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="Ludeon.RimWorld.Ideology">
+				<incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_ReliquaryPilgrims</incident>
+				<onDays>40</onDays>
+				<offDays>0</offDays>
+				<minSpacingDays>20</minSpacingDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Ideology</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Mechanitor ancient complex -->
+			<li Class="StorytellerCompProperties_MechanitorComplexQuest" MayRequire="Ludeon.RimWorld.Biotech">
+				<incident MayRequire="Ludeon.RimWorld.Biotech">GiveQuest_AncientComplex_Mechanitor</incident>
+				<mtbDays>60</mtbDays>
+				<existingMechanitorOrMechlinkMTBFactor>4</existingMechanitorOrMechlinkMTBFactor>
+				<minSpacingDays>60</minSpacingDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Biotech</li>
+				</enableIfAnyModActive>
+				<blockedByQueuedOrActiveQuests>
+					<li>OpportunitySite_AncientComplex_Mechanitor</li>
+					<li>MechanitorShip</li>
+				</blockedByQueuedOrActiveQuests>
+			</li>
+			<!-- Dissolution triggered -->
+			<li Class="StorytellerCompProperties_DissolutionTriggered" MayRequire="Ludeon.RimWorld.Biotech">
+				<incident>WastepackInfestation</incident>
+				<thing>Wastepack</thing>
+				<delayTicks>120</delayTicks>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+					<li>Map_Misc</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Biotech</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- Noxious haze -->
+			<li Class="StorytellerCompProperties_NoxiousHaze" MayRequire="Ludeon.RimWorld.Biotech">
+				<lastFireMinMTBThreshold>0.5</lastFireMinMTBThreshold>
+				<lastFireMaxMTBThreshold>2</lastFireMaxMTBThreshold>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+					<li>Map_Misc</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Polux tree -->
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident MayRequire="Ludeon.RimWorld.Biotech">PoluxTreeSpawn</incident>
+				<onDays>15</onDays>
+				<offDays>15</offDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+		</comps>
+	</StorytellerDef>
 
-  <StorytellerDef ParentName="BaseStoryteller">
-    <defName>SSR_Athena</defName>
-    <label>「文明主脑」雅典娜</label>
-    <description>建造于太阳系共和国时代初期的超级计算机苍穹阵列的控制核心人工智能雅典娜，自诞生起就肩负着协助人类文明在以光年为单位的广大星宇中前进的重任，科研、军事、政治……整个文明的方方面面都在雅典娜的协助下以惊人的效率运转着。\n
-		当她的注意力与影响力跨越宇宙的壁障投射到边缘世界时，那些对科学技术的重视与有益于文明发展的行为与品质将更容易获得她的青睐，相反，野蛮与腐朽的行为品质则被她所厌弃。你的敌人也会尝试以展示更加强大的力量来宣扬自我的优越，企图以如此的方式获得她的“宠爱”。尽管这实际上不会产生任何效果，但是他们并不知道这点，而雅典娜也乐于用这种方式考验你的殖民地。</description>
-    <portraitLarge>UI/Storytellers/Athena</portraitLarge>
-    <portraitTiny>UI/Storytellers/AthenaTiny</portraitTiny>
-    <listOrder>70</listOrder>
-    <comps>
-      <!-- Intro -->
-      <li Class="StorytellerCompProperties_ClassicIntro"/>
-      <!-- Home threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>ThreatBig</category>
-        <minDaysPassed>11.0</minDaysPassed>
-        <onDays>4.6</onDays>
-        <offDays>6.0</offDays>
-        <minSpacingDays>1.9</minSpacingDays>
-        <numIncidentsRange>1~2</numIncidentsRange>
-        <forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
-        <disallowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </disallowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_ThreatsGenerator">
-        <allowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </allowedTargetTags>
-        <parms>
-          <allowedThreats>Raids</allowedThreats>
-          <onDays>1.0</onDays>
-          <offDays>0.5</offDays>
-          <minSpacingDays>0.04</minSpacingDays>
-          <numIncidentsRange>1~2</numIncidentsRange>
-          <minThreatPoints>500</minThreatPoints>
-        </parms>
-      </li>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>ThreatSmall</category>
-        <minDaysPassed>11.0</minDaysPassed>
-        <onDays>4.6</onDays>
-        <offDays>6.0</offDays>
-        <numIncidentsRange>0.2~1</numIncidentsRange>
-        <acceptPercentFactorPerThreatPointsCurve>
-          <points>
-            <li>(800, 1)</li>
-            <li>(2800, 0)</li>
-          </points>
-        </acceptPercentFactorPerThreatPointsCurve>
-      </li>
-      <!-- Home misc incidents-->
-      <li Class="StorytellerCompProperties_CategoryMTB">
-        <category>Misc</category>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-        <minDaysPassed>5</minDaysPassed>
-        <mtbDays>4.8</mtbDays>
-      </li>
-      <li Class="StorytellerCompProperties_ShipChunkDrop"/>
-      <li Class="StorytellerCompProperties_Disease">
-        <category>DiseaseHuman</category>
-        <minDaysPassed>9</minDaysPassed>
-      </li>
-      <li Class="StorytellerCompProperties_Disease">
-        <category>DiseaseAnimal</category>
-        <minDaysPassed>9</minDaysPassed>
-      </li>
-      <!-- Ally/neutral interaction -->
-      <li Class="StorytellerCompProperties_FactionInteraction">
-        <incident>RaidFriendly</incident>
-        <baseIncidentsPerYear>15</baseIncidentsPerYear>
-        <minSpacingDays>0.4</minSpacingDays>
-        <fullAlliesOnly>true</fullAlliesOnly>
-        <minDanger>High</minDanger>
-      </li>
-      <li Class="StorytellerCompProperties_FactionInteraction">
-        <incident>TraderCaravanArrival</incident>
-        <minDaysPassed>5</minDaysPassed>
-        <baseIncidentsPerYear>5</baseIncidentsPerYear>
-        <minSpacingDays>6</minSpacingDays>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_FactionInteraction">
-        <incident>VisitorGroup</incident>
-        <minDaysPassed>3</minDaysPassed>
-        <baseIncidentsPerYear>4</baseIncidentsPerYear>
-        <minSpacingDays>5</minSpacingDays>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_FactionInteraction">
-        <incident>TravelerGroup</incident>
-        <minDaysPassed>1</minDaysPassed>
-        <baseIncidentsPerYear>6</baseIncidentsPerYear>
-        <minSpacingDays>1</minSpacingDays>
-        <allowedTargetTags>
-          <li>Map_PlayerHome</li>
-        </allowedTargetTags>
-      </li>
-      <!-- Caravan / temp map -->
-      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
-        <category>Misc</category>
-        <allowedTargetTags>
-          <li>Caravan</li>
-          <li>Map_TempIncident</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
-        <category>ThreatSmall</category>
-        <applyCaravanVisibility>true</applyCaravanVisibility>
-        <allowedTargetTags>
-          <li>Caravan</li>
-          <li>Map_TempIncident</li>
-        </allowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
-        <category>ThreatBig</category>
-        <applyCaravanVisibility>true</applyCaravanVisibility>
-        <allowedTargetTags>
-          <li>Caravan</li>
-          <li>Map_TempIncident</li>
-        </allowedTargetTags>
-      </li>
-      <!-- Quests - non-Royalty -->
-      <li Class="StorytellerCompProperties_RandomQuest">
-        <category>GiveQuest</category>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <onDays>10</onDays>
-        <numIncidentsRange>1</numIncidentsRange>
-        <acceptFractionByDaysPassedCurve>
-          <points>
-            <li>(8, 0)</li>
-            <li>(15, 1)</li>
-          </points>
-        </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
-        <disableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </disableIfAnyModActive>
-      </li>
-      <!-- Quests - Royalty -->
-      <li Class="StorytellerCompProperties_RandomQuest">
-        <category>GiveQuest</category>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <onDays>12</onDays>
-        <numIncidentsRange>2</numIncidentsRange>
-        <acceptFractionByDaysPassedCurve>
-          <points>
-            <li>(8, 0)</li>
-            <li>(15, 1)</li>
-          </points>
-        </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
-        <enableIfAnyModActive>
-          <li>Ludeon.RimWorld.Royalty</li>
-        </enableIfAnyModActive>
-      </li>
-      <!-- World misc incidents-->
-      <li Class="StorytellerCompProperties_CategoryMTB">
-        <category>Misc</category>
-        <allowedTargetTags>
-          <li>World</li>
-        </allowedTargetTags>
-        <minDaysPassed>15</minDaysPassed>
-        <mtbDays>15</mtbDays>
-      </li>
-      <!-- Orbital trader -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <incident>OrbitalTraderArrival</incident>
-        <onDays>7</onDays>
-        <offDays>8</offDays>
-        <numIncidentsRange>1</numIncidentsRange>
-      </li>
-      <!-- Triggered -->
-      <li Class="StorytellerCompProperties_Triggered">
-        <incident>StrangerInBlackJoin</incident>
-        <delayTicks>180</delayTicks>
-      </li>
-    </comps>
-  </StorytellerDef>
+	<StorytellerDef ParentName="SSR_BaseStoryteller">
+		<defName>SSR_Athena</defName>
+		<label>「文明主脑」雅典娜</label>
+		<description>
+			建造于太阳系共和国时代初期的超级计算机苍穹阵列的控制核心人工智能雅典娜，自诞生起就肩负着协助人类文明在以光年为单位的广大星宇中前进的重任，科研、军事、政治……整个文明的方方面面都在雅典娜的协助下以惊人的效率运转着。\n
+			当她的注意力与影响力跨越宇宙的壁障投射到边缘世界时，那些对科学技术的重视与有益于文明发展的行为与品质将更容易获得她的青睐，相反，野蛮与腐朽的行为品质则被她所厌弃。你的敌人也会尝试以展示更加强大的力量来宣扬自我的优越，企图以如此的方式获得她的“宠爱”。尽管这实际上不会产生任何效果，但是他们并不知道这点，而雅典娜也乐于用这种方式考验你的殖民地。
+		</description>
+		<portraitLarge>UI/Storytellers/Athena</portraitLarge>
+		<portraitTiny>UI/Storytellers/AthenaTiny</portraitTiny>
+		<listOrder>70</listOrder>
+		<comps>
+			<!-- Intro -->
+			<li Class="StorytellerCompProperties_ClassicIntro"/>
+			<!-- Home threats -->
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<category>ThreatBig</category>
+				<minDaysPassed>11.0</minDaysPassed>
+				<onDays>4.6</onDays>
+				<offDays>6.0</offDays>
+				<minSpacingDays>1.9</minSpacingDays>
+				<numIncidentsRange>1~2</numIncidentsRange>
+				<forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+				<disallowedTargetTags>
+					<li>Map_RaidBeacon</li>
+				</disallowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_ThreatsGenerator">
+				<allowedTargetTags>
+					<li>Map_RaidBeacon</li>
+				</allowedTargetTags>
+				<parms>
+					<allowedThreats>Raids</allowedThreats>
+					<onDays>1.0</onDays>
+					<offDays>0.5</offDays>
+					<minSpacingDays>0.04</minSpacingDays>
+					<numIncidentsRange>1~2</numIncidentsRange>
+					<minThreatPoints>500</minThreatPoints>
+				</parms>
+			</li>
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<category>ThreatSmall</category>
+				<minDaysPassed>11.0</minDaysPassed>
+				<onDays>4.6</onDays>
+				<offDays>6.0</offDays>
+				<numIncidentsRange>0.2~1</numIncidentsRange>
+				<acceptPercentFactorPerThreatPointsCurve>
+					<points>
+						<li>(800, 1)</li>
+						<li>(2800, 0)</li>
+					</points>
+				</acceptPercentFactorPerThreatPointsCurve>
+			</li>
+			<!-- Home misc incidents-->
+			<li Class="StorytellerCompProperties_CategoryMTB">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<minDaysPassed>5</minDaysPassed>
+				<mtbDays>4.8</mtbDays>
+			</li>
+			<li Class="StorytellerCompProperties_ShipChunkDrop"/>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseHuman</category>
+				<minDaysPassed>9</minDaysPassed>
+			</li>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseAnimal</category>
+				<minDaysPassed>9</minDaysPassed>
+			</li>
+			<!-- Ally/neutral interaction -->
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>RaidFriendly</incident>
+				<baseIncidentsPerYear>15</baseIncidentsPerYear>
+				<minSpacingDays>0.4</minSpacingDays>
+				<fullAlliesOnly>true</fullAlliesOnly>
+				<minDanger>High</minDanger>
+			</li>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>TraderCaravanArrival</incident>
+				<minDaysPassed>5</minDaysPassed>
+				<baseIncidentsPerYear>5</baseIncidentsPerYear>
+				<minSpacingDays>6</minSpacingDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>VisitorGroup</incident>
+				<minDaysPassed>3</minDaysPassed>
+				<baseIncidentsPerYear>4</baseIncidentsPerYear>
+				<minSpacingDays>5</minSpacingDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>TravelerGroup</incident>
+				<minDaysPassed>1</minDaysPassed>
+				<baseIncidentsPerYear>6</baseIncidentsPerYear>
+				<minSpacingDays>1</minSpacingDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Caravan / temp map -->
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatSmall</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatBig</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Quests - non-Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>10</onDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(8, 0)</li>
+						<li>(15, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>3</minSpacingDays>
+				<disableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</disableIfAnyModActive>
+			</li>
+			<!-- Quests - Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>12</onDays>
+				<numIncidentsRange>2</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(8, 0)</li>
+						<li>(15, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>3</minSpacingDays>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- World misc incidents-->
+			<li Class="StorytellerCompProperties_CategoryMTB">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<minDaysPassed>15</minDaysPassed>
+				<mtbDays>15</mtbDays>
+			</li>
+			<!-- Orbital trader -->
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident>OrbitalTraderArrival</incident>
+				<onDays>7</onDays>
+				<offDays>8</offDays>
+				<numIncidentsRange>1</numIncidentsRange>
+			</li>
+			<!-- Triggered -->
+			<li Class="StorytellerCompProperties_Triggered">
+				<incident>StrangerInBlackJoin</incident>
+				<delayTicks>180</delayTicks>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Incidents.DefExt_DailyResearchBonus">
+				<bonusSets>
+					<li>
+						<pickups>2</pickups>
+						<reseachPtThreshold>1000</reseachPtThreshold>
+						<wealthMulti>0.5</wealthMulti>
+						<candidates>
+							<li>
+								<weight>1</weight>
+								<item>Steel</item>
+								<amount>20</amount>
+							</li>
+							<li>
+								<weight>1</weight>
+								<item>Silver</item>
+								<amount>20</amount>
+							</li>
+						</candidates>
+					</li>
+					<li>
+						<pickups>3</pickups>
+						<reseachPtThreshold>5000</reseachPtThreshold>
+						<wealthMulti>0.5</wealthMulti>
+						<candidates>
+							<li>
+								<weight>1</weight>
+								<item>Plasteel</item>
+								<amount>20</amount>
+							</li>
+							<li>
+								<weight>1</weight>
+								<item>WoodLog</item>
+								<amount>20</amount>
+							</li>
+						</candidates>
+					</li>
+				</bonusSets>
+			</li>
+		</modExtensions>
+	</StorytellerDef>
 
 </Defs>
