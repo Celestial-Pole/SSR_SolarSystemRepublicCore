@@ -25,14 +25,14 @@ namespace SSR.UnityComponent
         private Transform depthMaskTransform;
         private Transform hookATransform;
         private Transform hookBTransform;
-        private List<Transform> cableATransforms = new List<Transform>();
-        private List<Transform> cableBTransforms = new List<Transform>();
+        private Transform[] cableATransforms = null;
+        private Transform[] cableBTransforms = null;
         private MeshRenderer depthMaskRenderer;
         private MeshRenderer liftterRenderer;
         private MeshRenderer hookARenderer;
         private MeshRenderer hookBRenderer;
-        private List<MeshRenderer> cableARenderers = new List<MeshRenderer>();
-        private List<MeshRenderer> cableBRenderers = new List<MeshRenderer>();
+        private MeshRenderer[] cableARenderers = null;
+        private MeshRenderer[] cableBRenderers = null;
 
         private int _MaskTransIndex;
         // Start is called before the first frame update
@@ -115,10 +115,10 @@ namespace SSR.UnityComponent
             hookBTransform.localRotation = Quaternion.LookRotation(new Vector3(0, 0.35f, 1), Vector3.up);
             hookBTransform.localScale = new Vector3(1, 1, Mathf.Sqrt(1 + 0.35f * 0.35f));
 
-            cableATransforms.Capacity = cableStarts.Length;
-            cableBTransforms.Capacity = cableStarts.Length;
-            cableARenderers.Capacity = cableStarts.Length;
-            cableBRenderers.Capacity = cableStarts.Length;
+            cableATransforms = new Transform[cableStarts.Length];
+            cableBTransforms = new Transform[cableStarts.Length];
+            cableARenderers = new MeshRenderer[cableStarts.Length];
+            cableBRenderers = new MeshRenderer[cableStarts.Length];
 
             GameObject cableAHolder = new GameObject("cableAHolder");
             Transform cableAHolderTransform = cableAHolder.transform;
@@ -144,8 +144,8 @@ namespace SSR.UnityComponent
                 meshFilter.mesh = mesh;
                 meshRenderer.material = cableA;
                 Transform cableATransform = obj.transform;
-                cableATransforms.Add(cableATransform);
-                cableARenderers.Add(meshRenderer);
+                cableATransforms[i] = cableATransform;
+                cableARenderers[i] = meshRenderer;
                 cableATransform.SetParent(cableAHolderTransform);
                 cableATransform.localPosition = new Vector3((cableEnd.x + start.x) * 0.5f, 0, (cableEnd.y + start.y) * 0.5f);
                 cableATransform.localRotation = Quaternion.LookRotation(new Vector3(cableEnd.x - start.x, 0, cableEnd.y - start.y), Vector3.up);
@@ -157,8 +157,8 @@ namespace SSR.UnityComponent
                 meshFilter.mesh = mesh;
                 meshRenderer.material = cableB;
                 Transform cableBTransform = obj.transform;
-                cableBTransforms.Add(cableBTransform);
-                cableBRenderers.Add(meshRenderer);
+                cableBTransforms[i] = cableBTransform;
+                cableBRenderers[i] = meshRenderer;
                 cableBTransform.SetParent(cableBHolderTransform);
                 cableBTransform.localPosition = new Vector3((cableEnd.x + start.x) * 0.5f, 0, (cableEnd.y + start.y) * 0.5f);
                 cableBTransform.localRotation = Quaternion.LookRotation(new Vector3(cableEnd.x - start.x, 0, cableEnd.y - start.y), Vector3.up);
