@@ -267,134 +267,157 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<!-- 其他 -->
 			<li>ButcherCorpseMechanoid</li>
-			<li>SSR_Recipe_ReinforcedBarrel</li>
 			<li>Make_ComponentIndustrial</li>
 			<li>Make_ComponentSpacer</li>
 			<li>SSR_Recipe_ExtremeComponent</li>
-			<li>Make_Shell_HighExplosive</li>
-			<li>Make_Shell_Incendiary</li>
-			<li>Make_Shell_EMP</li>
-			<li>Make_Shell_Smoke</li>
-			<li>Make_Shell_Firefoam</li>
-			<li>Make_Apparel_ShieldBelt</li>
-			<li>Make_Apparel_SmokepopBelt</li>
-			<li>Make_Apparel_FirefoampopPack</li>
-			<li>Make_Apparel_FlakVest</li>
-			<li>Make_Apparel_FlakPants</li>
-			<li>Make_Apparel_SimpleHelmet</li>
-			<li>Make_Apparel_AdvancedHelmet</li>
-			<li>Make_Apparel_PowerArmorHelmet</li>
-			<li>Make_Apparel_PowerArmor</li>
-			<li>Make_Apparel_ArmorRecon</li>
-			<li>Make_Apparel_FlakJacket</li>
-			<li>Make_Gun_Revolver</li>
-			<li>Make_Gun_Autopistol</li>
-			<li>Make_Gun_MachinePistol</li>
-			<li>Make_Gun_IncendiaryLauncher</li>
-			<li>Make_Gun_SmokeLauncher</li>
-			<li>Make_Gun_EmpLauncher</li>
-			<li>Make_Gun_BoltActionRifle</li>
-			<li>Make_Gun_PumpShotgun</li>
-			<li>Make_Gun_ChainShotgun</li>
-			<li>Make_Gun_HeavySMG</li>
-			<li>Make_Gun_LMG</li>
-			<li>Make_Gun_AssaultRifle</li>
-			<li>Make_Gun_SniperRifle</li>
-			<li>Make_Gun_Minigun</li>
-			<li>Make_Gun_ChargeRifle</li>
-			<li>Make_Gun_ChargeLance</li>
-			<li>Make_Weapon_GrenadeFrag</li>
-			<li>Make_Weapon_GrenadeMolotov</li>
-			<li>Make_Weapon_GrenadeEMP</li>
-			<li>Make_BionicEye</li>
-			<li>Make_BionicArm</li>
-			<li>Make_BionicLeg</li>
-			<li>Make_BionicSpine</li>
-			<li>Make_BionicHeart</li>
-			<li>Make_BionicStomach</li>
-			<li>Make_BionicEar</li>
-			<li>Make_BionicTongue</li>
-			<li>Make_BionicJaw</li>
-			<li>Make_SimpleProstheticLeg</li>
-			<li>Make_SimpleProstheticArm</li>
-			<li>Make_SimpleProstheticHeart</li>
-			<!--<li>Make_SochlearImplant</li>-->
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_PackTurret</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Shell_Deadlife</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_HellcatRifle</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_Incinerator</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Gun_ToxbombLauncher</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_RevenantVertebrae</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_GhoulPlating</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_GhoulBarbs</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_AdrenalHeart</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_CorrosiveHeart</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_MetalbloodHeart</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_ShardAnimalPulser</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_BiomutationPulser</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_CultistMask</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_CeremonialCultistMask</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_DisruptorFlarePack</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_DeadlifePack</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_ShardPsychicShockLance</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_ShardPsychicInsanityLance</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_BiomutationLance</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_NerveSpiker</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_AirwireHeadset</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArrayHeadset</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_GasMask</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackControl</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackBandwidth</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_PackTox</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_KidHelmet</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_MechlordSuit</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_IntegratorHeadset</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechCommander</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetMechlordHelmet</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Apparel_ArmorHelmetRecon</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_Shell_Toxic</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_DetoxifierLung</li>
-			<li MayRequire="Ludeon.Rimworld.Biotech">Make_DetoxifierKidney</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarinePrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorReconPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorLocust</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarineGrenadier</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphract</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphractPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorCataphractPhoenix</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorMarineHelmetPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetReconPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_Gunlink</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetCataphract</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_ArmorHelmetCataphractPrestige</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_PackJump</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Apparel_PackBroadshield</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Neurocalculator</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_LearningAssistant</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_GastroAnalyzer</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Immunoenhancer</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Coagulator</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_HealingEnhancer</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_ToughskinGland</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_ArmorskinGland</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_StoneskinGland</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_AestheticShaper</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_AestheticNose</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_LoveEnhancer</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_DetoxifierStomach</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_ReprocessorStomach</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_NuclearStomach</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_CircadianAssistant</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_CircadianHalfCycler</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_Mindscrew</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_DrillArm</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_FieldHand</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_HandTalon</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_ElbowBlade</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_KneeSpike</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_VenomFangs</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Make_VenomTalon</li>
+			<li>SSR_Recipe_ReinforcedBarrel</li>
+			<!-- 弹药 -->
+			<li>SSR_Recipe_Shell_HighExplosive</li>
+			<li>SSR_Recipe_Shell_Incendiary</li>
+			<li>SSR_Recipe_Shell_EMP</li>
+			<li>SSR_Recipe_Shell_Firefoam</li>
+			<li>SSR_Recipe_Shell_Smoke</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Shell_Toxic</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Shell_Deadlife</li>
+			<!-- 武器/枪械 -->
+			<li>SSR_Recipe_Gun_Revolver</li>
+			<li>SSR_Recipe_Gun_Autopistol</li>
+			<li>SSR_Recipe_Gun_MachinePistol</li>
+			<li>SSR_Recipe_Gun_BoltActionRifle</li>
+			<li>SSR_Recipe_Gun_AssaultRifle</li>
+			<li>SSR_Recipe_Gun_SniperRifle</li>
+			<li>SSR_Recipe_Gun_PumpShotgun</li>
+			<li>SSR_Recipe_Gun_ChainShotgun</li>
+			<li>SSR_Recipe_Gun_HeavySMG</li>
+			<li>SSR_Recipe_Gun_LMG</li>
+			<li>SSR_Recipe_Gun_Minigun</li>
+			<li>SSR_Recipe_Gun_ChargeRifle</li>
+			<li>SSR_Recipe_Gun_ChargeLance</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_HellcatRifle</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_Incinerator</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_NerveSpiker</li>
+			<!-- 武器/发射器 -->
+			<li>SSR_Recipe_Gun_IncendiaryLauncher</li>
+			<li>SSR_Recipe_Gun_EmpLauncher</li>
+			<li>SSR_Recipe_Gun_SmokeLauncher</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_ToxbombLauncher</li>
+			<!-- 武器/投掷物 -->
+			<li>SSR_Recipe_Weapon_GrenadeFrag</li>
+			<li>SSR_Recipe_Weapon_GrenadeMolotov</li>
+			<li>SSR_Recipe_Weapon_GrenadeEMP</li>
+			<li>SSR_Recipe_Weapon_GrenadeTox</li>
+			<!-- 装备/护甲 -->
+			<li>SSR_Recipe_Apparel_SimpleHelmet</li>
+			<li>SSR_Recipe_Apparel_AdvancedHelmet</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_KidHelmet</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_GasMask</li>
+			<li>SSR_Recipe_Apparel_FlakVest</li>
+			<li>SSR_Recipe_Apparel_FlakJacket</li>
+			<li>SSR_Recipe_Apparel_FlakPants</li>
+			<li>SSR_Recipe_Apparel_ShieldBelt</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetRecon</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorRecon</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorLocust</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetReconPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorReconPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_PowerArmorHelmet</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_PowerArmor</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorMarineGrenadier</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorMarineHelmetPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorMarinePrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetCataphract</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphract</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphractPhoenix</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetCataphractPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphractPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_Gunlink</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_CultistMask</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_CeremonialCultistMask</li>
+			<!-- 装备/背包 -->
+			<li>SSR_Recipe_Apparel_SmokepopBelt</li>
+			<li>SSR_Recipe_Apparel_FirefoampopPack</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_PackJump</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_PackBroadshield</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_PackTox</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_PackTurret</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_DisruptorFlarePack</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_DeadlifePack</li>
+			<!-- 植入物 -->
+			<li>SSR_Recipe_SimpleProstheticLeg</li>
+			<li>SSR_Recipe_SimpleProstheticArm</li>
+			<li>SSR_Recipe_SimpleProstheticHeart</li>
+			<li>SSR_Recipe_CochlearImplant</li>
+			<li>SSR_Recipe_PowerClaw</li>
+			<li>SSR_Recipe_Joywire</li>
+			<li>SSR_Recipe_Painstopper</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Mindscrew</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_DrillArm</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_FieldHand</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_HandTalon</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_ElbowBlade</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_KneeSpike</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_VenomFangs</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_VenomTalon</li>
+			<li>SSR_Recipe_ControlSublink</li>
+			<li>SSR_Recipe_ControlSublinkHigh</li>
+			<li>SSR_Recipe_RemoteRepairer</li>
+			<li>SSR_Recipe_MechFormfeeder</li>
+			<li>SSR_Recipe_RemoteShielder</li>
+			<li>SSR_Recipe_RepairProbe</li>
+			<li>SSR_Recipe_Apparel_AirwireHeadset</li>
+			<li>SSR_Recipe_Apparel_ArrayHeadset</li>
+			<li>SSR_Recipe_BionicEye</li>
+			<li>SSR_Recipe_BionicArm</li>
+			<li>SSR_Recipe_BionicLeg</li>
+			<li>SSR_Recipe_BionicSpine</li>
+			<li>SSR_Recipe_BionicHeart</li>
+			<li>SSR_Recipe_BionicStomach</li>
+			<li>SSR_Recipe_BionicEar</li>
+			<li>SSR_Recipe_BionicTongue</li>
+			<li>SSR_Recipe_BionicJaw</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Neurocalculator</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_LearningAssistant</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_GastroAnalyzer</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Immunoenhancer</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Coagulator</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_HealingEnhancer</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_ToughskinGland</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_ArmorskinGland</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_StoneskinGland</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_AestheticShaper</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_AestheticNose</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_LoveEnhancer</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_DetoxifierStomach</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_ReprocessorStomach</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_NuclearStomach</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_CircadianAssistant</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_CircadianHalfCycler</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_DetoxifierLung</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_DetoxifierKidney</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_RevenantVertebrae</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_GhoulPlating</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_GhoulBarbs</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_AdrenalHeart</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_CorrosiveHeart</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_MetalbloodHeart</li>
+			<!-- 机械师 -->
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_AirwireHeadset</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_ArrayHeadset</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_IntegratorHeadset</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_PackControl</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_PackBandwidth</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_ArmorHelmetMechCommander</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_ArmorHelmetMechlordHelmet</li>
+			<li MayRequire="Ludeon.Rimworld.Biotech">SSR_Recipe_Apparel_MechlordSuit</li>
+			<!-- 装备/特殊 -->
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_ShardPsychicShockLance</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_ShardPsychicInsanityLance</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_BiomutationLance</li>
+			<!-- 物品/特殊 -->
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_ShardAnimalPulser</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
