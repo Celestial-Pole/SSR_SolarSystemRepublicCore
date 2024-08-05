@@ -648,7 +648,7 @@
 		<label>粒子收集装置</label>
 		<description>粒子收集装置。</description>
 		<graphicData>
-			<texPath>Things/UI/TempIcon</texPath>
+			<texPath>Things/Building/Misc/ParticleCollectionDevice/ParticleCollectionDevice</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
