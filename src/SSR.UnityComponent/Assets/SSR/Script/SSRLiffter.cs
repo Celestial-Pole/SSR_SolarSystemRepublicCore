@@ -138,7 +138,7 @@ namespace SSR.UnityComponent
             {
                 Vector2 start = cableStarts[i];
 
-                obj = new GameObject($"cableA_{i}");
+                obj = new GameObject("cableA_" + i);
                 meshFilter = obj.AddComponent<MeshFilter>();
                 meshRenderer = obj.AddComponent<MeshRenderer>();
                 meshFilter.mesh = mesh;
@@ -151,7 +151,7 @@ namespace SSR.UnityComponent
                 cableATransform.localRotation = Quaternion.LookRotation(new Vector3(cableEnd.x - start.x, 0, cableEnd.y - start.y), Vector3.up);
                 cableATransform.localScale = new Vector3(width, 1.0f, (start - cableEnd).magnitude);
 
-                obj = new GameObject($"cableB_{i}");
+                obj = new GameObject($"cableB_" + i);
                 meshFilter = obj.AddComponent<MeshFilter>();
                 meshRenderer = obj.AddComponent<MeshRenderer>();
                 meshFilter.mesh = mesh;
