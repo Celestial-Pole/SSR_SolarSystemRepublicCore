@@ -29,6 +29,7 @@ namespace SSR.Effect.Patch
             yield break;
         }
 
+        //反复调用性能开销大，记得加个缓存
         private static Shader Load(string path, Type systemTypeInstance)
         {
             Shader result = (Shader)Resources.Load(path, typeof(Shader));
