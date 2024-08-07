@@ -92,7 +92,7 @@
 			<li>FS_SSR.Roof.PW_UnderRoofExtinguisher</li>
 		</placeWorkers>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_VerticalDrillingRig</defName>
 		<label>垂直钻井机</label>
@@ -149,8 +149,8 @@
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
-	</ThingDef>	
-	
+	</ThingDef>
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_DeepWellFillBurialMachine</defName>
 		<label>深井填埋机</label>
@@ -205,13 +205,13 @@
 			</li>
 		</comps>
 		<placeWorkers>
-		  <li>PlaceWorker_OnSteamGeyser</li>
+			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
-	</ThingDef>	
-	
+	</ThingDef>
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_WashingMachine</defName>
 		<label>洗衣机</label>
@@ -633,7 +633,7 @@
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>ssr__lhcLinkableParticleCollector</li>
+					<li>SSR_ParticleCollectionDevice</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -692,6 +692,22 @@
 					<ResearchSpeedFactor>1</ResearchSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
+				<requiredLinkBuilding>SSR_LHC</requiredLinkBuilding>
+				<interval>1000</interval>
+				<candidate>
+					<li>
+						<item>Steel</item>
+						<amount>10</amount>
+						<weight>1</weight>
+					</li>
+					<li>
+						<item>Silver</item>
+						<amount>3</amount>
+						<weight>2</weight>
+					</li>
+				</candidate>
 			</li>
 		</comps>
 		<placeWorkers>
