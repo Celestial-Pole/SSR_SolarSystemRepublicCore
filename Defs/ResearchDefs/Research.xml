@@ -135,6 +135,9 @@
 		<baseCost>4000</baseCost>
 		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv" />
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -931,6 +934,9 @@
 						</requireAnyFacilityOf>
 					</li>
 				</alternativeRequires>
+			</li>
+			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
+				<techLevel>2</techLevel>
 			</li>
 		</modExtensions>
 	</ResearchProjectDef>
@@ -1907,6 +1913,11 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>25</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
+				<techLevel>3</techLevel>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">

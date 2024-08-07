@@ -513,6 +513,14 @@
 					</li>
 				</bonusSets>
 			</li>
+			<li Class="FS_SSR.Incidents.DefExt_KindQuestReward">
+				<kindQuest>
+					<li>BuildMonument_TimeProtect</li>
+					<li>ThreatReward_Manhunters_ItemPod</li>
+				</kindQuest>
+				<rewardSilver>1000</rewardSilver>
+			</li>
+			<li Class="FS_SSR.Incidents.DefExt_ExtraRaidStrength" />
 		</modExtensions>
 	</StorytellerDef>
 
