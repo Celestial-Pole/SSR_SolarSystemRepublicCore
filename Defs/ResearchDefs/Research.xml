@@ -1842,7 +1842,6 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
-			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLHC</li>
@@ -1869,7 +1868,6 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
-			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPhysics</li>
@@ -1887,7 +1885,6 @@
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 			<li>SSR_LHC</li>
-			<li>SSR_PhotonicComputingCluster</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
