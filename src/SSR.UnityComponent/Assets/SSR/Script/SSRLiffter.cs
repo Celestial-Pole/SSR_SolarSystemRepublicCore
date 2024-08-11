@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 
@@ -34,11 +32,10 @@ namespace SSR.UnityComponent
         private MeshRenderer[] cableARenderers = null;
         private MeshRenderer[] cableBRenderers = null;
 
-        private int _MaskTransIndex;
         // Start is called before the first frame update
         void Start()
         {
-            _MaskTransIndex = Shader.PropertyToID("_MaskTrans");
+            Debug.Log("0");
             //mesh = new Mesh();
             //mesh.name = "Mesh_Plane";
             //mesh.vertices = new Vector3[]
@@ -61,14 +58,20 @@ namespace SSR.UnityComponent
             //2, 0, 3,
             //};
             transformCache = transform;
+            Debug.Log("1");
             Vector3 postion;
+            Debug.Log("2");
 
 
 
             MeshRenderer meshRenderer;
+            Debug.Log("3");
             GameObject obj = new GameObject("liftter");
+            Debug.Log("4");
             MeshFilter meshFilter = obj.AddComponent<MeshFilter>();
+            Debug.Log("5");
             liftterRenderer = obj.AddComponent<MeshRenderer>();
+            Debug.Log("6");
             meshFilter.mesh = mesh;
             liftterRenderer.material = liftter;
             liftterTransform = obj.transform;
