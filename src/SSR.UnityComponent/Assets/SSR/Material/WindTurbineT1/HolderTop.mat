@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HookA
+  m_Name: HolderTop
   m_Shader: {fileID: 4800000, guid: 7c245bb3c9dc75d4e808bf345f04c226, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -44,11 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3e45b18f0c7d45245bd85b30b6a2c140, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: c241e1890586a47499ef8f5f7f4242f8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0c10a0931e457ca409cbe8b1231c3540, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -82,7 +78,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CenterWorldPos: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WorldPos: {r: 0, g: 0, b: 0, a: 0}

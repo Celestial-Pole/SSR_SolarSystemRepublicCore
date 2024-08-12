@@ -34,6 +34,7 @@ namespace SSR.UnityComponent
         void Start()
         {
             _MaskTransIndex = Shader.PropertyToID("_MaskTrans");
+
             //turbineMesh = new Mesh();
             //turbineMesh.name = "Mesh_Turbine";
 
@@ -118,16 +119,30 @@ namespace SSR.UnityComponent
             //index.Add(39);
             //index.Add(37);
 
-            //Mesh mesh_part = new Mesh();
+            //Mesh mesh_part = turbineMesh;
+
             //mesh_part.vertices = postions.ToArray();
             //mesh_part.uv = uvs.ToArray();
             //mesh_part.triangles = index.ToArray();
-            //mesh_part.RecalculateNormals();
-            //mesh_part.RecalculateTangents();
-            //mesh_part.RecalculateBounds();
+
+            //Vector3[] vertices = mesh_part.vertices;
+            //float top = float.MinValue;
+            //float low = float.MaxValue;
+            //float r = 0;
+            //for (int i = 0; i < vertices.Length; i++)
+            //{
+            //    Vector3 vector3 = vertices[i];
+            //    top = Mathf.Max(top, vector3.z);
+            //    low = Mathf.Min(low, vector3.z);
+            //    r = Mathf.Max(r, Mathf.Sqrt(vector3.x * vector3.x + vector3.y * vector3.y));
+            //}
+
+            //turbineMesh = new Mesh();
+            //turbineMesh.name = "Mesh_Turbine";
 
             //CombineInstance combineInstance = new CombineInstance();
             //combineInstance.mesh = mesh_part;
+            //combineInstance.transform = Matrix4x4.TRS(new Vector3(0, 0, (top + low) * 0.5f), Quaternion.identity, new Vector3(0.5f / r, 0.5f / r, 1f / (top - low)));
             //CombineInstance[] combineInstances = new CombineInstance[3];
             //for (int i = 0; i < combineInstances.Length; i++)
             //{
@@ -136,6 +151,10 @@ namespace SSR.UnityComponent
             //}
 
             //turbineMesh.CombineMeshes(combineInstances);
+            //turbineMesh.CombineMeshes(new CombineInstance[] { combineInstance });
+            //turbineMesh.RecalculateNormals();
+            //turbineMesh.RecalculateTangents();
+            //turbineMesh.RecalculateBounds();
             //turbineMesh.UploadMeshData(false);
 
 
@@ -217,7 +236,7 @@ namespace SSR.UnityComponent
         //{
         //    if (GUI.Button(new Rect(0, 0, 96, 32), "SaveMesh"))
         //    {
-        //        AssetDatabase.CreateAsset(turbineMesh, "Assets/SSR/Mesh/Mesh_Turbine.asset");
+        //        AssetDatabase.CreateAsset(turbineMesh, "Assets/SSR/Mesh/Mesh_TurbineT2.asset");
         //    }
 
         //}
