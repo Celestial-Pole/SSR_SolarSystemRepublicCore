@@ -157,7 +157,7 @@
 		<description>深井填埋机是用于填埋蒸汽间歇喷泉的专用设备。</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Base</texPath>
+			<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -194,14 +194,6 @@
 		<comps>
 			<li Class="FS_SSR.TCP_SteamGeyserClear">
 				<interval>5</interval>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
-				<overlay>
-					<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine_Top</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(12,12)</drawSize>
-					<drawOffset>(-0.1,0,4.45)</drawOffset>
-				</overlay>
 			</li>
 		</comps>
 		<placeWorkers>
