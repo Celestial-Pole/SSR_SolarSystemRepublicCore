@@ -28,7 +28,7 @@ namespace SSR.Effect
             {
                 if(compUnityGameObject != null)
                 {
-                    ownAnimator.SetFloat("Speed", Find.TickManager.TickRateMultiplier * (Find.TickManager.Paused ? 0 : 1));
+                    ownAnimator.SetFloat("Speed", Find.TickManager.TickRateMultiplier * (Find.TickManager.Paused ? 0 : 1) * playingSpeed);
                     if(!compUnityGameObject.parent.Spawned || compUnityGameObject.parent.Map != Find.CurrentMap)
                     {
                         SetVisibility(false);

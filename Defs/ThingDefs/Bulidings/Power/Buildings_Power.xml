@@ -122,6 +122,7 @@
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机</description>
 		<thingClass>Building</thingClass>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>WindTurbineT1</texPath>
 			<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
