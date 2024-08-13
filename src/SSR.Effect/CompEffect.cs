@@ -82,6 +82,13 @@ namespace SSR.Effect
             }
         }
 
+        //直接调整播放速度
+        public void AdjustPlaySpeed(float speed)
+        {
+            if (speed < 0) speed = 0;
+            unityGameObjectUpdater.playingSpeed = speed;
+        }
+
         private UnityGameObjectUpdater monoBehaviour;
 
     }

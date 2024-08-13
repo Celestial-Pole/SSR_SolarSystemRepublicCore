@@ -10,3 +10,4 @@
 **/.vs/
 **/log/
 # **/*_UnitTest/
+*.pdb

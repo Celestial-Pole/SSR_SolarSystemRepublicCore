@@ -162,6 +162,10 @@
 				<rangeBack>5</rangeBack>
 			</li>
 		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>FS_SSR.PW_PowerPlantWind</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
