@@ -49,7 +49,7 @@ namespace SSR.Effect
             {
                 if(monoBehaviour == null)
                 {
-                    Log.Message(ShaderDatabase.Cutout.renderQueue);
+                    // Log.Message(ShaderDatabase.Cutout.renderQueue);
                     GameObject obj = GameObject.Instantiate(Props.GameObject);
                     monoBehaviour = obj.AddComponent<UnityGameObjectUpdater>();
                     monoBehaviour.ownGameObject = obj;
