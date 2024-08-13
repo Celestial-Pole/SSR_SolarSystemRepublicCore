@@ -10,6 +10,7 @@ namespace SSR.Effect
         
         private class UnityGameObjectUpdater : MonoBehaviour
         {
+            public float playingSpeed = 1;
             public Transform maskTransform;
             public Transform ownTransform;
             public GameObject ownGameObject;
@@ -69,7 +70,17 @@ namespace SSR.Effect
         public Animator Animator => unityGameObjectUpdater.ownAnimator;
 
         public void SetVisibility(bool visibility) => unityGameObjectUpdater.SetVisibility(visibility);
-        
+
+        public override void ReceiveCompSignal(string signal)
+        {
+            base.ReceiveCompSignal(signal);
+            if(signal.StartsWith("ANI_PLAYSPEED:"))
+            {
+                signal = signal.Substring(14);
+                float.TryParse(signal,out unityGameObjectUpdater.playingSpeed);
+            }
+        }
+
         private UnityGameObjectUpdater monoBehaviour;
 
     }
