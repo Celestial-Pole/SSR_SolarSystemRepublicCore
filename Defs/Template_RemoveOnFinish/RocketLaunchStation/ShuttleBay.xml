@@ -8,16 +8,15 @@
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
      <graphicData>
-      <texPath>Things/Building/Misc/Shuttle</texPath>
+      <texPath>Things/Building/Misc/Shuttle/Shuttle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(6,3)</drawSize>
-      <color>(162,164,149)</color>
+      <drawSize>(8,4)</drawSize>
       <shadowData>
         <volume>(4.1, 1.0, 1.8)</volume>
         <offset>(0, 0, -0.1)</offset>
       </shadowData>
     </graphicData>
-    <size>(5,3)</size>
+    <size>(6,4)</size>
     <uiIconPath>Things/Building/Security/TurretMini_MenuIcon</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <minifiedDef>MinifiedThing</minifiedDef>
