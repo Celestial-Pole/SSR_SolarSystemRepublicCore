@@ -71,17 +71,6 @@ namespace SSR.Effect
         public Animator Animator => unityGameObjectUpdater.ownAnimator;
 
         public void SetVisibility(bool visibility) => unityGameObjectUpdater.SetVisibility(visibility);
-
-        public override void ReceiveCompSignal(string signal)
-        {
-            base.ReceiveCompSignal(signal);
-            if(signal.StartsWith("ANI_PLAYSPEED:"))
-            {
-                signal = signal.Substring(14);
-                float.TryParse(signal,out unityGameObjectUpdater.playingSpeed);
-            }
-        }
-
         //直接调整播放速度
         public void AdjustPlaySpeed(float speed)
         {
