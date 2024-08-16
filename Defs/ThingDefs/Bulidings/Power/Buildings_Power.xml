@@ -46,7 +46,9 @@
 				<basePowerConsumption>-2500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="CompProperties_Breakdownable" />
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
@@ -104,7 +106,9 @@
 				<basePowerConsumption>-3200</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="CompProperties_Breakdownable" />
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
@@ -153,6 +157,9 @@
 		<comps>
 			<li Class="SSR.Effect.CompProperties_UnityGameObject">
 				<perfabPath>Assets/SSR/Perfab/WindTurbineT1.prefab</perfabPath>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_PowerPlantWind">
 				<basePowerConsumption>-3200</basePowerConsumption>
@@ -204,6 +211,9 @@
 		<comps>
 			<li Class="SSR.Effect.CompProperties_UnityGameObject">
 				<perfabPath>Assets/SSR/Perfab/WindTurbineT2.prefab</perfabPath>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_PowerPlantWind">
 				<basePowerConsumption>-4500</basePowerConsumption>
@@ -258,7 +268,9 @@
 				<basePowerConsumption>-5500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="CompProperties_Breakdownable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -321,7 +333,9 @@
 				<basePowerConsumption>-7500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="CompProperties_Breakdownable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -352,6 +366,12 @@
 			<texPath>Things/Building/Power/NuclearFusionReactor/NuclearFusionReactor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 			<shadowData>
 				<volume>(0.6, 1.0, 1.6)</volume>
 				<offset>(-0.1,0,-0.08)</offset>
@@ -385,22 +405,24 @@
 				<IgnitedPowerOutput>230000</IgnitedPowerOutput>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<!--<li
-      Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>4.5</fuelConsumptionRate>
-        <fuelCapacity>30.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-      </li>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-250000</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
-      </li>-->
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<!--<liClass="CompProperties_Refuelable">
+					<fuelConsumptionRate>4.5</fuelConsumptionRate>
+					<fuelCapacity>30.0</fuelCapacity>
+					<fuelFilter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</fuelFilter>
+					<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-250000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>-->
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				<glowColor>(80,112,180,0)</glowColor>
@@ -409,7 +431,6 @@
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>6</heatPerSecond>
 			</li>
-			<li Class="CompProperties_Breakdownable" />
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>0</explosiveRadius>
 				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
@@ -441,6 +462,12 @@
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 			<shadowData>
 				<volume>(0.6, 1.0, 1.6)</volume>
 				<offset>(-0.1,0,-0.08)</offset>
@@ -471,13 +498,14 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
 			<li Class="CompProperties_Power">
 				<compClass>FS_SSR.TC_LocalWirelessPowerBroadcast</compClass>
 				<transmitsPower>true</transmitsPower>
 				<basePowerConsumption>-5000</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">

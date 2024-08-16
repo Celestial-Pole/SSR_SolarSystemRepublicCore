@@ -134,8 +134,16 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1000</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_SteamSpringMaker">
-				<interval>5</interval>
+				<interval>54000</interval>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
@@ -192,8 +200,16 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_SteamGeyserClear">
-				<interval>5</interval>
+				<interval>36000</interval>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -246,7 +262,11 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
@@ -317,6 +337,9 @@
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
@@ -365,9 +388,12 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>100</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
 					<ResearchSpeedFactor>1</ResearchSpeedFactor>
@@ -425,9 +451,14 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
+			
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>1</researchSpeedOffset>
 				<researchSpdFactorCGL>
@@ -436,7 +467,6 @@
 					<li>1</li><!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
@@ -485,7 +515,11 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>2000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
@@ -496,7 +530,7 @@
 					<li>1</li><!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
@@ -552,6 +586,14 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1500</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 
 			</li>
@@ -676,14 +718,16 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
 					<ResearchSpeedFactor>1</ResearchSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
 				<requiredLinkBuilding>SSR_LHC</requiredLinkBuilding>

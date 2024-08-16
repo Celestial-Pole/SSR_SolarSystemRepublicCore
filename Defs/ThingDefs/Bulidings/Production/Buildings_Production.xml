@@ -129,6 +129,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<!--<maxQuality>Legendary</maxQuality>-->
 				<!--<productionFactor>5</productionFactor>-->
@@ -426,6 +430,15 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
 				<productionFactorsUpgraded>
@@ -567,6 +580,10 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
@@ -716,6 +733,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -838,6 +859,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -956,6 +981,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
 					<li>1</li>
@@ -1058,6 +1087,10 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
@@ -1200,6 +1233,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1219,6 +1256,12 @@
 			<texPath>Things/Building/Production/EquipmentRepairStation/EquipmentRepairStation</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
@@ -1252,6 +1295,10 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />--><!--单建筑多内容栏时需要-->
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
@@ -1288,6 +1335,12 @@
 			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
@@ -1321,6 +1374,10 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
@@ -1390,7 +1447,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
@@ -1463,7 +1523,15 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
@@ -1497,6 +1565,12 @@
 			<texPath>Things/Building/Production/NeutroamineSynthesizer</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>2.5</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<size>(2,2)</size>
 		<costList>
@@ -1525,6 +1599,10 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>300</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>Neutroamine</thingToSpawn>
@@ -1589,7 +1667,10 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>2000</basePowerConsumption>
+				<basePowerConsumption>5000</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_UniqueMarker">
 				<level>World</level>
