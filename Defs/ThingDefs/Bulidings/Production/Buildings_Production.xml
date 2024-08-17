@@ -57,7 +57,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -123,6 +123,9 @@
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
+		<placeWorkers>
+			<li>FS_SSR.UI.PW_FrameLevel</li>
+		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -138,6 +141,7 @@
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
 					<li>1</li>
+					<li>3</li>
 					<li>3</li>
 				</productionFactorsUpgraded>
 			</li>
