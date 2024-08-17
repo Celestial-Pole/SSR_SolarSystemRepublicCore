@@ -164,16 +164,19 @@
 			<li Class="FS_SSR.TCP_PowerPlantWind">
 				<basePowerConsumption>-3200</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
-				<rangeLeft>5</rangeLeft>
-				<rangeRight>5</rangeRight>
-				<rangeFront>5</rangeFront>
-				<rangeBack>5</rangeBack>
+				<rangeLeft>4</rangeLeft>
+				<rangeRight>4</rangeRight>
+				<rangeFront>4</rangeFront>
+				<rangeBack>4</rangeBack>
 			</li>
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
 			<li>FS_SSR.PW_PowerPlantWind</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRMedium-levelCleanEnergyGeneration</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -181,6 +184,7 @@
 		<label>高级垂直风力发电机</label>
 		<description>高级垂直风力发电机</description>
 		<thingClass>Building</thingClass>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>WindTurbineT2</texPath>
 			<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
@@ -218,12 +222,15 @@
 			<li Class="FS_SSR.TCP_PowerPlantWind">
 				<basePowerConsumption>-4500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
-				<rangeLeft>5</rangeLeft>
-				<rangeRight>5</rangeRight>
-				<rangeFront>5</rangeFront>
-				<rangeBack>5</rangeBack>
+				<rangeLeft>4</rangeLeft>
+				<rangeRight>4</rangeRight>
+				<rangeFront>4</rangeFront>
+				<rangeBack>4</rangeBack>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>SSRAdvancedCleanEnergyGeneration</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -362,6 +369,7 @@
 		<description>核聚变反应堆</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/NuclearFusionReactor/NuclearFusionReactor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -389,7 +397,6 @@
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(5,5)</size>
 		<building>
@@ -448,6 +455,97 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRControlledNuclearFusion</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_AntimatterReactor</defName>
+		<label>反物质反应堆</label>
+		<description>反物质反应堆</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Power/AntimatterReactor/AntimatterReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(5,5)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlantSteam</compClass>
+				<basePowerConsumption>-500000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Refuelable">
+					<fuelConsumptionRate>3</fuelConsumptionRate>
+					<fuelCapacity>60.0</fuelCapacity>
+					<fuelFilter>
+						<thingDefs>
+							<li>SSR_AntimatterStorageTank</li>
+						</thingDefs>
+					</fuelFilter>
+					<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(80,112,180,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSRAntimatterApplicationsTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -524,6 +622,9 @@
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRMedium-levelPowerTechnology</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--  原版风力发电

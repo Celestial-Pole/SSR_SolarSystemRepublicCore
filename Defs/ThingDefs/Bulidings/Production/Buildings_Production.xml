@@ -1242,7 +1242,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
-			<li>SSRBasicComputationalScience</li>
+			<li>SSRCoalLiquefactionTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -1321,7 +1321,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSREncryptionSystemCracking</li>
+			<li>SSRStandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
