@@ -128,7 +128,7 @@
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>WindTurbineT1</texPath>
+			<texPath>Things/Building/Power/Medium-levelVerticalAxisWindTurbine/Medium-levelVerticalAxisWindTurbine</texPath>
 			<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 			<drawSize>(6.5,6.5)</drawSize>
 			<drawOffset>(0,3,1.5)</drawOffset>
@@ -186,7 +186,7 @@
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>WindTurbineT2</texPath>
+			<texPath>Things/Building/Power/AdvancedVerticalAxisWindTurbine/AdvancedVerticalAxisWindTurbine</texPath>
 			<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 			<drawSize>(6.5,6.5)</drawSize>
 			<drawOffset>(0,3,1.5)</drawOffset>
