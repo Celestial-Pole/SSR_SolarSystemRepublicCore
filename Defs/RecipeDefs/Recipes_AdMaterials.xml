@@ -75,10 +75,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -92,7 +92,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_Silicon</li>
-				<li>Steel</li>
+				<li>SSR_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -113,15 +113,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SSR_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -252,6 +252,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>SSR_NanoandMicroMechanicalComposite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>SSR_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
@@ -287,6 +295,14 @@
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_NanoandMicroMechanicalComposite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -333,6 +349,14 @@
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_NanoandMicroMechanicalComposite</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>

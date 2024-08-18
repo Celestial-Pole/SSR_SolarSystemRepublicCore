@@ -155,10 +155,10 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_ArmourSteel</defName>
-		<label>制造装甲钢</label>
-		<description>制造装甲钢。</description>
-		<jobString>正在制造装甲钢。</jobString>
+		<defName>SSR_Recipe_SpecialSteel</defName>
+		<label>制造特种钢</label>
+		<description>制造特种钢。</description>
+		<jobString>正在制造特种钢。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -170,7 +170,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -179,17 +179,17 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArmourSteel>1</SSR_ArmourSteel>
+			<SSR_SpecialSteel>1</SSR_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_TenArmourSteel</defName>
-		<label>制造装甲钢 x10</label>
-		<description>制造十块装甲钢。</description>
-		<jobString>正在制造十块装甲钢。</jobString>
+		<defName>SSR_Recipe_TenSpecialSteel</defName>
+		<label>制造特种钢 x10</label>
+		<description>制造十块特种钢。</description>
+		<jobString>正在制造十块特种钢。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -201,7 +201,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>50</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -210,17 +210,17 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArmourSteel>10</SSR_ArmourSteel>
+			<SSR_SpecialSteel>10</SSR_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_HundredArmourSteel</defName>
-		<label>制造装甲钢 x100</label>
-		<description>制造一百块装甲钢。</description>
-		<jobString>正在制造一百块装甲钢。</jobString>
+		<defName>SSR_Recipe_HundredSpecialSteel</defName>
+		<label>制造特种钢 x100</label>
+		<description>制造一百块特种钢。</description>
+		<jobString>正在制造一百块特种钢。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -232,7 +232,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>1500</count>
+				<count>500</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -241,7 +241,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArmourSteel>100</SSR_ArmourSteel>
+			<SSR_SpecialSteel>100</SSR_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -260,7 +260,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArmourSteel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -284,7 +284,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_ArmourSteel</li>
+				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
 				<li>SSR_ArtificialIntelligenceChip</li>
 			</thingDefs>
@@ -309,7 +309,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArmourSteel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -333,7 +333,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_ArmourSteel</li>
+				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
 				<li>SSR_ArtificialIntelligenceChip</li>
 			</thingDefs>
@@ -358,7 +358,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArmourSteel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>1000</count>
@@ -382,7 +382,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_ArmourSteel</li>
+				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
 				<li>SSR_ArtificialIntelligenceChip</li>
 			</thingDefs>

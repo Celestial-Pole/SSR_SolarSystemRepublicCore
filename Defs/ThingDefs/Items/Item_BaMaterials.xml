@@ -101,11 +101,11 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_ArmourSteel</defName>
-        <label>装甲钢</label>
-        <description>装甲钢是一种高强度钢材，专为提供额外的防护和耐久性而设计，具有出色的抗冲击和抗穿透能力。</description>
+        <defName>SSR_SpecialSteel</defName>
+        <label>特种钢</label>
+        <description>特种钢是一种高强度钢材，专为提供额外的防护和耐久性而设计，具有出色的抗冲击和抗穿透能力。</description>
         <graphicData>
-            <texPath>Things/Item/BaMaterial/ArmourSteel</texPath>
+            <texPath>Things/Item/BaMaterial/SpecialSteel</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -116,7 +116,7 @@
             <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>1.25</SharpDamageMultiplier>
             <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
-            <MarketValue>30</MarketValue>
+            <MarketValue>10</MarketValue>
             <Mass>0.75</Mass>
         </statBases>
         <stuffProps>
@@ -191,7 +191,7 @@
             <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>2.25</SharpDamageMultiplier>
             <BluntDamageMultiplier>2</BluntDamageMultiplier>
-            <MarketValue>50</MarketValue>
+            <MarketValue>45</MarketValue>
             <Mass>0.1</Mass>
         </statBases>
         <stuffProps>
