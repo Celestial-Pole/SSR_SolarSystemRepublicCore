@@ -67,7 +67,7 @@
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSRBasicPhysics</defName>
 		<label>基础物理学</label>
-		<description>基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论。</description>
+		<description>基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论，能使派系的科技水平提升至工业时代。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
@@ -822,7 +822,7 @@
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRMedium-levelPhysics</defName>
 		<label>中级物理学</label>
-		<description>进阶的物理学体系，包含了大统一理论与配套的标准模型。</description>
+		<description>进阶的物理学体系，包含了大统一理论与配套的标准模型，能使派系的科技水平提升至太空时代。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
@@ -1868,7 +1868,7 @@
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
 		<defName>SSRAdvancedPhysics</defName>
 		<label>高级物理学</label>
-		<description>更高级的物理学体系。</description>
+		<description>更高级的物理学体系，能使派系的科技水平提升至极致时代。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
