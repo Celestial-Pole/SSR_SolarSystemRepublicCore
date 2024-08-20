@@ -142,12 +142,16 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<!--<maxQuality>Legendary</maxQuality>-->
+			<!--<maxQualityByLevel>
+					<li>Excellent</li>
+					<li>Masterwork</li>
+					<li>Legendary</li>
+				</maxQualityByLevel>-->
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
-					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -449,10 +453,15 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
+				<maxQualityByLevel>
+					<li>Excellent</li>
+					<li>Masterwork</li>
+					<li>Legendary</li>
+				</maxQualityByLevel>
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -604,6 +613,7 @@
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -630,6 +640,31 @@
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
 							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/T2AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -761,9 +796,15 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQualityByLevel>
+					<li>Excellent</li>
+					<li>Masterwork</li>
+					<li>Legendary</li>
+				</maxQualityByLevel>
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -790,6 +831,31 @@
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
 							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/T2AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -898,6 +964,7 @@
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -924,6 +991,31 @@
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
 							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/T2AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1028,6 +1120,7 @@
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1054,6 +1147,31 @@
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
 							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>Silver</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>Gold</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/T2MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1143,6 +1261,7 @@
 				<productionFactorsUpgraded>
 					<li>1</li>
 					<li>3</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1494,6 +1613,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<fillPercent>1</fillPercent>
@@ -1506,6 +1626,7 @@
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
 			<Flammability>0.5</Flammability>
+			<Mass>10</Mass>
 			<Beauty>-30</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -1678,6 +1799,7 @@
 		<blockWind>true</blockWind>
 		<tickerType>Normal</tickerType>
 		<passability>PassThroughOnly</passability>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -1729,13 +1851,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>10</WorkToBuild>

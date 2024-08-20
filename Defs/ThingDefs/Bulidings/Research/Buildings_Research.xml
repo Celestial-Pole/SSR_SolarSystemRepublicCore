@@ -17,7 +17,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -86,7 +86,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -156,7 +156,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -245,7 +245,7 @@
 			<buildingSizeCategory>Medium</buildingSizeCategory>
 			<paintable>false</paintable>
 		</building>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -322,17 +322,12 @@
 		<tickerType>Normal</tickerType>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsMisc</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>10000</MaxHitPoints>
 			<WorkToBuild>150000</WorkToBuild>
-			<Mass>300000</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
@@ -395,7 +390,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
