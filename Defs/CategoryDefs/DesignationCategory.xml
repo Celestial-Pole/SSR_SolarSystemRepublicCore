@@ -14,8 +14,25 @@
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Production</defName>
 		<label>生产</label>
-		<description>生产desc</description>
+		<description>生产</description>
 		<sortOrder>1</sortOrder>
 		<iconPath>UI/SelectMech</iconPath>
 	</Def>
+
+	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
+		<defName>SSR_DesignationInnerCategory_Research</defName>
+		<label>科研</label>
+		<description>科研</description>
+		<sortOrder>2</sortOrder>
+		<iconPath>UI/SelectMech</iconPath>
+	</Def>
+
+	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
+		<defName>SSR_DesignationInnerCategory_Power</defName>
+		<label>电力</label>
+		<description>电力</description>
+		<sortOrder>3</sortOrder>
+		<iconPath>UI/SelectMech</iconPath>
+	</Def>
+	
 </Defs>

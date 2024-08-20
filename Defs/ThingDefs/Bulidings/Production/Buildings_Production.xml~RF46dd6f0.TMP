@@ -95,9 +95,9 @@
 			<li>SSR_Recipe_StandardConstructionElement</li>
 			<li>SSR_Recipe_TenStandardConstructionElement</li>
 			<li>SSR_Recipe_HundredStandardConstructionElement</li>
-			<li>SSR_Recipe_SpecialSteel</li>
-			<li>SSR_Recipe_TenSpecialSteel</li>
-			<li>SSR_Recipe_HundredSpecialSteel</li>
+			<li>SSR_Recipe_ArmourSteel</li>
+			<li>SSR_Recipe_TenArmourSteel</li>
+			<li>SSR_Recipe_HundredArmourSteel</li>
 			<li>SSR_Recipe_PrecisionLens</li>
 			<li>SSR_Recipe_SuperconductingMaterial</li>
 			<li>SSR_Recipe_StrongElectromagnet</li>
@@ -269,7 +269,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -519,9 +519,6 @@
 				</extraRecipe>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
@@ -530,9 +527,6 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -570,7 +564,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -636,20 +630,12 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -686,7 +672,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -796,20 +782,12 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -846,7 +824,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -930,20 +908,12 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -980,7 +950,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -1060,20 +1030,12 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -1110,7 +1072,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -1213,20 +1175,12 @@
 				</extraRecipe>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicComputationalScience</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -1263,7 +1217,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -1299,11 +1253,6 @@
 		<researchPrerequisites>
 			<li>SSRCoalLiquefactionTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -1330,7 +1279,7 @@
 		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1383,11 +1332,6 @@
 		<researchPrerequisites>
 			<li>SSRStandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
@@ -1414,7 +1358,7 @@
 		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1466,11 +1410,6 @@
 		<researchPrerequisites>
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -1499,9 +1438,6 @@
 		<fillPercent>1</fillPercent>
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
@@ -1534,7 +1470,7 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<uiOrder>2110</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
@@ -1550,11 +1486,6 @@
 		<researchPrerequisites>
 			<li>SSRControlledNuclearFusion</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!--<ThingDef ParentName="BuildingBase">
@@ -1587,9 +1518,6 @@
 		<fillPercent>1</fillPercent>
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<WorkToBuild>4000</WorkToBuild>
@@ -1624,7 +1552,7 @@
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded />-->
 	<!-- handled by the placeworker -->
-	<!--<designationCategory>SSR_DesignationCategory</designationCategory>
+	<!--<designationCategory>Production</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_WatermillGenerator</li>
@@ -1661,12 +1589,9 @@
 		</costList>
 		<uiIconScale>0.65</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Production</designationCategory>
 		<rotatable>true</rotatable>
 		<fillPercent>0.5</fillPercent>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -1699,11 +1624,6 @@
 		<researchPrerequisites>
 			<li>SSRBasicMedicine</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
@@ -1728,13 +1648,13 @@
 		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<thingCategories>
-			<li>BuildingsProduction</li>
+			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -1913,11 +1833,6 @@
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 </Defs>

@@ -51,7 +51,7 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -59,6 +59,12 @@
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -111,7 +117,7 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -119,6 +125,12 @@
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -147,7 +159,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2520</uiOrder>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -177,6 +189,12 @@
 		<researchPrerequisites>
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -205,7 +223,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2520</uiOrder>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -231,6 +249,12 @@
 		<researchPrerequisites>
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -281,7 +305,7 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
@@ -296,6 +320,12 @@
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -346,7 +376,7 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
@@ -361,6 +391,12 @@
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -450,13 +486,19 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -541,13 +583,19 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRAntimatterApplicationsTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -580,7 +628,7 @@
 		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<statBases>
@@ -625,6 +673,12 @@
 		<researchPrerequisites>
 			<li>SSRMedium-levelPowerTechnology</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!--  原版风力发电
