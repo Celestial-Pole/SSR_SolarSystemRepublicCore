@@ -635,7 +635,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -660,7 +660,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -826,7 +826,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -851,7 +851,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -986,7 +986,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1011,7 +1011,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1142,7 +1142,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
+								<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1167,7 +1167,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/T2MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
+								<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
