@@ -76,8 +76,8 @@
 			<li>SSRBasicTech</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
@@ -101,8 +101,8 @@
 			<li>SSRBasicPhysics</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
-		<researchViewX>2</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -117,8 +117,8 @@
 			<li>SSRBasicMaterialsScience</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
-		<researchViewX>3</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -133,7 +133,7 @@
 			<li>SSRBasicComputationalScience</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>4</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv" />
@@ -152,7 +152,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>4</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -168,7 +168,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -184,7 +184,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>3000</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -200,7 +200,7 @@
 			<li>SSRRoomTemperatureSuperconductivity</li>
 		</prerequisites>
 		<baseCost>3000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -216,7 +216,7 @@
 			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>1500</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -232,7 +232,7 @@
 			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>4000</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -245,10 +245,10 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRBasicManufacturingTechnology</li>
+			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>6000</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -265,7 +265,7 @@
 			<li>SSRPrecisionMagneticFieldControl</li>
 		</prerequisites>
 		<baseCost>8000</baseCost>
-		<researchViewX>8</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -281,7 +281,7 @@
 			<li>SSRRoomTemperatureSuperconductivity</li>
 		</prerequisites>
 		<baseCost>3000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
@@ -298,7 +298,7 @@
 			<li>SSRBasicPowerTechnology</li>
         </prerequisites>
         <baseCost>5000</baseCost>
-        <researchViewX>7</researchViewX>
+        <researchViewX>4</researchViewX>
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -314,7 +314,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>500</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -330,7 +330,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -347,7 +347,7 @@
 			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>1500</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -363,7 +363,7 @@
             <li>SSRBasicPowerTechnology</li>
         </prerequisites>
         <baseCost>3000</baseCost>
-        <researchViewX>7</researchViewX>
+        <researchViewX>4</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 
@@ -380,7 +380,7 @@
             <li>SSRBasicArmoredSafetyDoor</li>
         </prerequisites>
         <baseCost>3000</baseCost>
-        <researchViewX>8</researchViewX>
+        <researchViewX>5</researchViewX>
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -396,7 +396,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>500</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -412,7 +412,7 @@
 			<li>EFClothing</li>
 		</prerequisites>
 		<baseCost>1000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -429,7 +429,7 @@
 			<li>SSRBasicSpecialGarments</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -445,7 +445,7 @@
 			<li>SSRMechanicallyAssistedFrame</li>
         </prerequisites>
         <baseCost>5000</baseCost>
-        <researchViewX>8</researchViewX>
+        <researchViewX>5</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -461,7 +461,7 @@
 			<li>SSRBasicAutomaton</li>
         </prerequisites>
         <baseCost>6000</baseCost>
-        <researchViewX>9</researchViewX>
+        <researchViewX>6</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -477,7 +477,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>3000</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -493,7 +493,7 @@
 			<li>SSRPrecisionOptics</li>
 		</prerequisites>
 		<baseCost>300</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -509,7 +509,7 @@
 			<li>SSRTelescopeManufacturing</li>
 		</prerequisites>
 		<baseCost>600</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>-->
 
@@ -525,7 +525,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -542,7 +542,7 @@
 			<li>SSRPrecisionOptics</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -558,7 +558,7 @@
 			<li>SSRBasicSpaceTechnology</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>6</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -574,7 +574,7 @@
 			<li>SSRBasicSpaceTechnology</li>
 		</prerequisites>
 		<baseCost>17000</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -590,7 +590,7 @@
 			<li>SSRHeavyRocketConstructionTechnology</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>8</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -606,7 +606,7 @@
 			<li>SSRHeavyRocketConstructionTechnology</li>
 		</prerequisites>
 		<baseCost>17000</baseCost>
-		<researchViewX>9</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -622,7 +622,7 @@
 			<li>SSRHeavyRocketConstructionTechnology</li>
 		</prerequisites>
 		<baseCost>19000</baseCost>
-		<researchViewX>9</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -638,7 +638,7 @@
 			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>7</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -654,7 +654,7 @@
 			<li>SSRVerticalDrillingTechnology</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>8</researchViewX>
+		<researchViewX>5</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -670,7 +670,7 @@
 			<li>SSRStandardizedMineConstruction</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>9</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -686,7 +686,7 @@
 			<li>SSRStandardizedMineConstruction</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>9</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
@@ -702,7 +702,7 @@
 			<li>SSRElectromagneticWeapon</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>8</researchViewX>
+        <researchViewX>5</researchViewX>
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -718,7 +718,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
         </prerequisites>
         <baseCost>3000</baseCost>
-        <researchViewX>5</researchViewX>
+        <researchViewX>2</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 	
@@ -734,7 +734,7 @@
 			<li>SSRScientificPlantingTechnology</li>
         </prerequisites>
         <baseCost>4000</baseCost>
-        <researchViewX>6</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef> -->
 
@@ -750,7 +750,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>3000</baseCost>
-		<researchViewX>5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>5.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -767,7 +767,7 @@
             <li>SSRNuclearPhysics</li>
         </prerequisites>
         <baseCost>4000</baseCost>
-        <researchViewX>6</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>5.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -783,7 +783,7 @@
 			<li>SSRRadiology</li>
         </prerequisites>
         <baseCost>4000</baseCost>
-        <researchViewX>7</researchViewX>
+        <researchViewX>4</researchViewX>
         <researchViewY>5.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -799,7 +799,7 @@
 			<li>SSRBasicMedicine</li>
         </prerequisites>
         <baseCost>3000</baseCost>
-        <researchViewX>6</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>4</researchViewY>
     </ResearchProjectDef> -->
 
@@ -815,7 +815,7 @@
 			<li>SSRBasicPowerTechnology</li>
 		</prerequisites>
 		<baseCost>8000</baseCost>
-		<researchViewX>11</researchViewX>
+		<researchViewX>8</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -831,8 +831,8 @@
 			<li>SSRSupercomputer</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>12</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
@@ -866,8 +866,8 @@
 			<li>SSRMedium-levelPhysics</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>13</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
@@ -894,8 +894,8 @@
 			<li>SSRMedium-levelMaterialsScience</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>14</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
@@ -922,8 +922,8 @@
 			<li>SSRMedium-levelComputationalScience</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>15</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>2</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
@@ -953,7 +953,7 @@
 			<li>SSRMedium-levelManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>16</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -981,7 +981,7 @@
 			<li>SSRMedium-levelPowerTechnology</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1011,7 +1011,7 @@
 			<li>SSRHighEnergyLaserArray</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>18</researchViewX>
+		<researchViewX>11</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1039,7 +1039,7 @@
 			<li>SSRMedium-levelManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>16</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1067,7 +1067,7 @@
 			<li>SSRMedium-levelPowerTechnology</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1096,7 +1096,7 @@
 			<li>SSRHighDensityBattery</li>
 		</prerequisites>
 		<baseCost>9000</baseCost>
-		<researchViewX>18</researchViewX>
+		<researchViewX>11</researchViewX>
 		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1124,7 +1124,7 @@
 			<li>SSRHighEnergyLaserArray</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>19</researchViewX>
+        <researchViewX>12</researchViewX>
         <researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1152,7 +1152,7 @@
 			<li>SSRHighDensityBattery</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>18</researchViewX>
+        <researchViewX>11</researchViewX>
         <researchViewY>1</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1180,7 +1180,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>4000</baseCost>
-        <researchViewX>19</researchViewX>
+        <researchViewX>12</researchViewX>
         <researchViewY>1</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1208,7 +1208,7 @@
 			<li>SSRMedium-levelManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>12000</baseCost>
-		<researchViewX>16</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1268,7 +1268,7 @@
 			<li>SSRBasicDefenseStructure</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1299,7 +1299,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>18</researchViewX>
+		<researchViewX>11</researchViewX>
 		<researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1328,7 +1328,7 @@
             <li>SSRMedium-levelPowerTechnology</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>18</researchViewX>
+        <researchViewX>11</researchViewX>
         <researchViewY>2</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1358,7 +1358,7 @@
 			<li>SSRBasicTurret</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>19</researchViewX>
+        <researchViewX>12</researchViewX>
         <researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1388,7 +1388,7 @@
 			<li>SSRBasicTurret</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>19</researchViewX>
+        <researchViewX>12</researchViewX>
         <researchViewY>2</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1417,7 +1417,7 @@
 			<li>SSRBasicSpecialGarments</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>16</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>2.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1446,7 +1446,7 @@
 			<li>SSRMedium-levelPowerTechnology</li>
         </prerequisites>
         <baseCost>13000</baseCost>
-        <researchViewX>17</researchViewX>
+        <researchViewX>10</researchViewX>
         <researchViewY>2.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1475,7 +1475,7 @@
 			<li>SSRBasicAutomaton</li>
         </prerequisites>
         <baseCost>10000</baseCost>
-        <researchViewX>18</researchViewX>
+        <researchViewX>11</researchViewX>
         <researchViewY>2.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1504,7 +1504,7 @@
 			<li>SSRBasicCombatRobot</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>19</researchViewX>
+        <researchViewX>12</researchViewX>
         <researchViewY>2.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1535,7 +1535,7 @@
 			<li>SSRMiniaturizationOfNuclearPower</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>17</researchViewX>
+        <researchViewX>10</researchViewX>
         <researchViewY>1.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1564,7 +1564,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>3</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1592,7 +1592,7 @@
 			<li>SSRSpaceElevator</li>
 		</prerequisites>
 		<baseCost>8500</baseCost>
-		<researchViewX>18</researchViewX>
+		<researchViewX>11</researchViewX>
 		<researchViewY>3</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1621,7 +1621,7 @@
 			<li>SSRMedium-levelPowerTechnology</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>3.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1650,7 +1650,7 @@
 			<li>SSRHighEnergyLaserArray</li>
 		</prerequisites>
 		<baseCost>9000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>4</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1679,7 +1679,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>4.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1708,7 +1708,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1737,7 +1737,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>
-		<researchViewX>17</researchViewX>
+		<researchViewX>10</researchViewX>
 		<researchViewY>5.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1766,7 +1766,7 @@
 			<li>SSRScientificPlantingTechnology</li>
         </prerequisites>
         <baseCost>8000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>9</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 	
@@ -1782,7 +1782,7 @@
 			<li>SSRMedium-levelManufacturingTechnology</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>9</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -1798,7 +1798,7 @@
 			<li>SSRMedium-levelManufacturingTechnology</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>9</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 	
@@ -1816,7 +1816,7 @@
 			<li>SSRBasicMedicine</li>
         </prerequisites>
         <baseCost>6000</baseCost>
-        <researchViewX>17</researchViewX>
+        <researchViewX>10</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -1833,7 +1833,7 @@
 			<li>SSREnhancedBionicBody</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>18</researchViewX>
+        <researchViewX>11</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -1849,7 +1849,7 @@
 			<li>SSRHighEnergyLaserArray</li>
 		</prerequisites>
 		<baseCost>12000</baseCost>
-		<researchViewX>21</researchViewX>
+		<researchViewX>13</researchViewX>
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
@@ -1878,8 +1878,8 @@
 			<li>SSRLHC</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>22</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>13</researchViewX>
+		<researchViewY>0.5</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_UpgradeTechLevel">
 				<effectWorkerClass>FS_SSR.Research.RPE_UpgradeTechLevel</effectWorkerClass>
@@ -1904,8 +1904,8 @@
 			<li>SSRAdvancedPhysics</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>23</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>13</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -1921,8 +1921,8 @@
 			<li>SSRAdvancedMaterialsScience</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>24</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>13</researchViewX>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -1939,8 +1939,8 @@
 			<li>SSRAdvancedComputationalScience</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>25</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>13</researchViewX>
+		<researchViewY>2</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
 				<techLevel>3</techLevel>
@@ -1963,7 +1963,7 @@
 			<li>SSRMedium-levelPowerTechnology</li>
 		</prerequisites>
 		<baseCost>15000</baseCost>
-		<researchViewX>26</researchViewX>
+		<researchViewX>14</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -1981,7 +1981,7 @@
 			<li>SSRAdvancedEnergyTechnology</li>
 		</prerequisites>
 		<baseCost>23000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -1999,7 +1999,7 @@
 			<li>SSRBasicSpaceApplication</li>
 		</prerequisites>
 		<baseCost>20000</baseCost>
-		<researchViewX>28</researchViewX>
+		<researchViewX>16</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -2017,7 +2017,7 @@
 			<li>SSRBasicGravitationalControlTechnology</li>
 		</prerequisites>
 		<baseCost>13000</baseCost>
-		<researchViewX>29</researchViewX>
+		<researchViewX>17</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -2035,7 +2035,7 @@
 			<li>SSRParticleConfinementTechnology</li>
 		</prerequisites>
 		<baseCost>20000</baseCost>
-		<researchViewX>30</researchViewX>
+		<researchViewX>18</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -2054,7 +2054,7 @@
             <li>SSRLaserWeapon</li>
         </prerequisites>
         <baseCost>20000</baseCost>
-        <researchViewX>27</researchViewX>
+        <researchViewX>15</researchViewX>
         <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>
 
@@ -2072,7 +2072,7 @@
 			<li>SSRAdvancedEnergyTechnology</li>
 		</prerequisites>
 		<baseCost>20000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
@@ -2090,7 +2090,7 @@
 			<li>SSRParticleConfinementTechnology</li>
         </prerequisites>
         <baseCost>17000</baseCost>
-        <researchViewX>30</researchViewX>
+        <researchViewX>18</researchViewX>
         <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -2109,7 +2109,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>17000</baseCost>
-		<researchViewX>26</researchViewX>
+		<researchViewX>14</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2127,7 +2127,7 @@
 			<li>SSRAdvancedManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>1500</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>-->
 
@@ -2146,7 +2146,7 @@
 			<li>SSRMedium-levelDefenseStructure</li>
 		</prerequisites>
 		<baseCost>7000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2167,7 +2167,7 @@
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>5000</baseCost>
-		<researchViewX>28</researchViewX>
+		<researchViewX>16</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2186,7 +2186,7 @@
             <li>SSRAdvancedEnergyTechnology</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>28</researchViewX>
+        <researchViewX>16</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 
@@ -2205,7 +2205,7 @@
 			<li>SSRMedium-levelTurret</li>
         </prerequisites>
         <baseCost>13000</baseCost>
-        <researchViewX>29</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>
 
@@ -2224,7 +2224,7 @@
 			<li>SSRMedium-levelTurret</li>
         </prerequisites>
         <baseCost>13000</baseCost>
-        <researchViewX>29</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 
@@ -2243,7 +2243,7 @@
 			<li>SSRMedium-levelTurret</li>
         </prerequisites>
         <baseCost>13000</baseCost>
-        <researchViewX>29</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -2261,7 +2261,7 @@
 			<li>SSRAdvancedManufacturingTechnology</li>
 		</prerequisites>
 		<baseCost>1500</baseCost>
-		<researchViewX>26</researchViewX>
+		<researchViewX>14</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -2281,7 +2281,7 @@
 			<li>SSRMedium-levelSpecialGarments</li>
 		</prerequisites>
 		<baseCost>13000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -2301,7 +2301,7 @@
 			<li>SSRBasicPowerArmor</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>28</researchViewX>
+        <researchViewX>16</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 	
@@ -2320,7 +2320,7 @@
 			<li>SSRMedium-levelAutomaton</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>29</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 	
@@ -2339,7 +2339,7 @@
 			<li>SSRMedium-levelCombatRobot</li>
         </prerequisites>
         <baseCost>17000</baseCost>
-        <researchViewX>30</researchViewX>
+        <researchViewX>18</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>-->
 
@@ -2360,7 +2360,7 @@
 			<li>SSRBasicAntimatterApplications</li>
         </prerequisites>
         <baseCost>17000</baseCost>
-        <researchViewX>28</researchViewX>
+        <researchViewX>16</researchViewX>
         <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
@@ -2379,7 +2379,7 @@
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>30000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2398,7 +2398,7 @@
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>30000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -2417,7 +2417,7 @@
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>35000</baseCost>
-		<researchViewX>27</researchViewX>
+		<researchViewX>15</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2436,7 +2436,7 @@
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>30000</baseCost>
-		<researchViewX>30</researchViewX>
+		<researchViewX>18</researchViewX>
 		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -2455,7 +2455,7 @@
 			<li>SSRParticleConfinementTechnology</li>
 		</prerequisites>
 		<baseCost>30000</baseCost>
-		<researchViewX>30</researchViewX>
+		<researchViewX>18</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -2473,7 +2473,7 @@
 			<li>SSRMedium-levelPlantingTechnique</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>26</researchViewX>
+        <researchViewX>14</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 	
@@ -2491,7 +2491,7 @@
 			<li>SSRMedium-levelMedicine</li>
         </prerequisites>
         <baseCost>12000</baseCost>
-        <researchViewX>26</researchViewX>
+        <researchViewX>14</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 	
@@ -2509,7 +2509,7 @@
 			<li>SSRArchotechImplants</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>27</researchViewX>
+        <researchViewX>15</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -2522,7 +2522,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
 		<techLevel>Archotech</techLevel>
-        <researchViewX>31</researchViewX>
+        <researchViewX>19</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
 	
@@ -2535,8 +2535,8 @@
         </prerequisites>
 		<techLevel>Archotech</techLevel>
         <baseCost>30000</baseCost>
-        <researchViewX>32</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewX>19</researchViewX>
+        <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectArchotech">
@@ -2548,8 +2548,8 @@
         </prerequisites>
         <baseCost>40000</baseCost>
 		<techLevel>Archotech</techLevel>
-        <researchViewX>33</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewX>19</researchViewX>
+        <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
 </Defs>
