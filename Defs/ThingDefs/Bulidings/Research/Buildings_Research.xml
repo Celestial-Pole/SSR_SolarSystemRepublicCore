@@ -215,15 +215,17 @@
 		<label>数据处理中枢</label>
 		<description>数据处理中枢是专门设计用来汇总和整理计算机组处理过的数据的关键设施。它们确保复杂计算结果的高效管理和分析，为科学研究提供支持。</description>
 		<thingClass>FS_SSR.Research.Building_DataCenter</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub-Base</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
+		<rotatable>false</rotatable>
 		<uiIconPath>Things/Building/Research/DataProcessingHub/DataProcessingHub</uiIconPath>
 		<size>(2,2)</size>
-		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<Plasteel>350</Plasteel>
@@ -282,10 +284,10 @@
 			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
-					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub-Top</texPath>
+					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(3.2,2)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
+					<drawSize>(1.5,1.85)</drawSize>
+					<drawOffset>(0,0,1.25)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 1.6)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
