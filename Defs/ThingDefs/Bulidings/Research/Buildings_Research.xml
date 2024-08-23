@@ -118,13 +118,13 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
-			
+
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>1</researchSpeedOffset>
 				<researchSpdFactorCGL>
-					<li>0.3</li><!--0级倍率-->
-					<li>1</li><!--1级倍率-->
-					<li>1</li><!--2级倍率-->
+					<li>0.3</li>					<!--0级倍率-->
+					<li>1</li>					<!--1级倍率-->
+					<li>1</li>					<!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
 		</comps>
@@ -191,12 +191,12 @@
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>3</researchSpeedOffset>
 				<researchSpdFactorCGL>
-					<li>0.3</li><!--0级倍率-->
-					<li>1</li><!--1级倍率-->
-					<li>1</li><!--2级倍率-->
+					<li>0.3</li>					<!--0级倍率-->
+					<li>1</li>					<!--1级倍率-->
+					<li>1</li>					<!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
-			
+
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
@@ -243,7 +243,7 @@
 			<JoyGainFactor>1.75</JoyGainFactor>
 		</statBases>
 		<building>
-			<joyKind>Social</joyKind>
+			<joyKind>SSR_JoyKind_DataProcessingHub</joyKind>
 			<buildingSizeCategory>Medium</buildingSizeCategory>
 			<paintable>false</paintable>
 		</building>
@@ -253,8 +253,8 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<!-- <hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<thingCategories>
@@ -269,13 +269,10 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
-
-			</li>
 			<li Class="FS_SSR.TCP_FacilityAutoResearch">
 				<researchSpeed>1</researchSpeed>
 			</li>
-			<li Class="FS_SSR.RuinableBuilding.TCP_RuinInsteadOfKill" >
+			<li Class="FS_SSR.RuinableBuilding.TCP_RuinInsteadOfKill">
 				<ruinGraphic>
 					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -286,8 +283,8 @@
 				<overlay>
 					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1.5,1.85)</drawSize>
-					<drawOffset>(0,0,1.25)</drawOffset>
+					<drawSize>(1.4,2.17)</drawSize>
+					<drawOffset>(0,0,1.09)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 1.6)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
@@ -297,6 +294,7 @@
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
+			<li>PlaceWorker_NeverAdjacentUnstandable</li>
 		</placeWorkers>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -349,9 +347,9 @@
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>5</researchSpeedOffset>
 				<researchSpdFactorCGL>
-					<li>0.65</li><!--0级倍率-->
-					<li>1</li><!--1级倍率-->
-					<li>1</li><!--2级倍率-->
+					<li>0.65</li>					<!--0级倍率-->
+					<li>1</li>					<!--1级倍率-->
+					<li>1</li>					<!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
 			<li Class="FS_SSR.Research.TCP_AutoSwitchPowerTrader">
