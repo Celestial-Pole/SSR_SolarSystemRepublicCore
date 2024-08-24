@@ -222,11 +222,14 @@
 			<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.3, 1, 1.3)</volume>
+			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<uiIconPath>Things/Building/Research/DataProcessingHub/DataProcessingHub</uiIconPath>
 		<size>(2,2)</size>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<costList>
 			<Plasteel>350</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
@@ -285,10 +288,10 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(1.4,2.17)</drawSize>
 					<drawOffset>(0,0,1.09)</drawOffset>
-					<shadowData>
+					<!-- <shadowData>
 						<volume>(0.6, 1.0, 1.6)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
-					</shadowData>
+					</shadowData> -->
 				</overlay>
 			</li>
 		</comps>
