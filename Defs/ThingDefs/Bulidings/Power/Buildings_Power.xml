@@ -699,7 +699,7 @@
 					<drawSize>(7,7)</drawSize>
 					<drawOffset>(0,0,2.25)</drawOffset>
 					<shadowData>
-						<volume>(0.6, 1.0, 1.6)</volume>
+						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
 					</shadowData>
 				</overlay>
