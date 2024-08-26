@@ -39,12 +39,18 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<constructEffect>ConstructMetal</constructEffect>
 		<placeWorkers>
 			<li>FS_SSR.Roof.PW_RoofBuilder_Extinguisher</li>
 		</placeWorkers>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 
@@ -85,12 +91,18 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<constructEffect>ConstructMetal</constructEffect>
 		<placeWorkers>
 			<li>FS_SSR.Roof.PW_UnderRoofExtinguisher</li>
 		</placeWorkers>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -112,7 +124,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>1</fillPercent>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -157,6 +169,12 @@
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -178,7 +196,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>1</fillPercent>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -218,133 +236,12 @@
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
-	</ThingDef>
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_WashingMachine</defName>
-		<label>洗衣机</label>
-		<description>一台可以洗去死者衣物标记的洗衣机。</description>
-		<thingClass>Building</thingClass>
-		<tickerType>Normal</tickerType>
-		<graphicData>
-			<texPath>Things/Building/Misc/WashingMachine/WashingMachine</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,2)</drawSize>
-		</graphicData>
-		<size>(2,2)</size>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>1</fillPercent>
-		<designationCategory>Misc</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsMisc</li>
-		</thingCategories>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-		<building>
-			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-		</building>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>100</basePowerConsumption>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
 			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
-			<li Class="FS_SSR.Laundry.TCP_Laundry">
-				<compClass>FS_SSR.Laundry.TC_LaundryDeathStain</compClass>
-				<interval>500</interval>
-				<effect>10</effect>
-				<requiredLevel>0</requiredLevel>
-				<containerIndex>1</containerIndex>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ThingContainer">
-				<capacity>5</capacity>
-				<showEjectGizmo>true</showEjectGizmo>
-				<uniqueID>1</uniqueID>
-				<gizmoEjectLabel>弹出洗衣机内容物</gizmoEjectLabel>
-				<gizmoEjectDesc>弹出洗衣机内容物</gizmoEjectDesc>
-				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
-				<btnITabLabel>洗衣机</btnITabLabel>
-				<btnITabItemKey>洗衣机</btnITabItemKey>
-			</li>
-		</comps>
-		<researchPrerequisites>
-			<li>EFBuilding</li>
-		</researchPrerequisites>
-	</ThingDef>
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_TeleportationBeacon</defName>
-		<label>传送信标</label>
-		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
-		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Misc/TeleportationBeacon/TeleportationBeacon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<size>(1,1)</size>
-		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>Misc</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsMisc</li>
-		</thingCategories>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
-			<Mass>30</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
-		</costList>
-		<building>
-			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-		</building>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>200</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
-		</comps>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-		<researchPrerequisites>
-			<li>SSRBasicSpaceApplication</li>
-		</researchPrerequisites>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>

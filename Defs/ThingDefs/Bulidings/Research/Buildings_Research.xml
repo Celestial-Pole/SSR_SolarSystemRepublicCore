@@ -235,7 +235,7 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
+		<fillPercent>0.3</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>3000</WorkToBuild>
@@ -320,10 +320,10 @@
 		<size>(9,9)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
+		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<tickerType>Normal</tickerType>
-		<fillPercent>0.5</fillPercent>
+		<fillPercent>1</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>

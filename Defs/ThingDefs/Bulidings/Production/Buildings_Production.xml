@@ -1460,7 +1460,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>1</fillPercent>
+		<fillPercent>0.5</fillPercent>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
@@ -1544,7 +1544,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>1</fillPercent>
+		<fillPercent>0.5</fillPercent>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
@@ -1839,6 +1839,65 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_TeleportationBeacon</defName>
+		<label>传送信标</label>
+		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
+		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/TeleportationBeacon/TeleportationBeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SSRBasicSpaceApplication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
@@ -1858,8 +1917,7 @@
 		<size>(7,7)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
+		<passability>Impassable</passability>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
@@ -1869,8 +1927,7 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
+			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
 			<Steel>10</Steel>
