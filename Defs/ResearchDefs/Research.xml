@@ -1211,7 +1211,7 @@
 		<researchViewX>9</researchViewX>
 		<researchViewY>1.5</researchViewY>
 		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
+			<!--<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
 					<li>
 						<requireAnyFacilityOf>
@@ -1220,35 +1220,35 @@
 						</requireAnyFacilityOf>
 					</li>
 				</alternativeRequires>
-				<requireType>Optional</requireType> <!-- 只能填Optional或者Mandatory，默认(不填此项)是Optional -->
-			</li>
+				<requireType>Optional</requireType>--> <!-- 只能填Optional或者Mandatory，默认(不填此项)是Optional -->
+			<!--</li>-->
 			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
 				<alternativeRequires>
 					<li>	
 						<li>
 							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID></quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>Map</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
-							<searchLevel>World</searchLevel> <!-- 处理研究需求时的搜索等级 -->
+							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID></quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>Map</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
-							<searchLevel>World</searchLevel> <!-- 处理研究需求时的搜索等级 -->
+							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
 						</li>
 					</li>
-					<li>	
+					<!--<li>	
 						<li>
-							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID></quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
-							<searchLevel>World</searchLevel> <!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
+							<amount>1</amount>--> <!-- 需要多少 -->
+							<!--<quantityLimitedBuildingID></quantityLimitedBuildingID>--> <!-- 需要物品的id，一般情况是thingdef的defname -->
+							<!--<sourceLevel>World</sourceLevel>--> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<!--<sourceUnique>false</sourceUnique>--> <!-- 被需求物品是否独特 -->
+							<!--<searchLevel>World</searchLevel>--> <!-- 处理研究需求时的搜索等级 -->
+					<!--</li>
+					</li>-->
 				</alternativeRequires>
 				<requireType>Optional</requireType>
 			</li>
