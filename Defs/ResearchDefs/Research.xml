@@ -1256,6 +1256,34 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
+		<defName>SSRMentalProtectionTechnology</defName>
+		<label>精神防护技术</label>
+		<description>通过人工智能的实时分析和调整，释放特定频率的电磁波来抵消形形色色不怀好意的心灵场，我们得以防御来自外界对个体心理和神经系统的直接攻击。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRStandardizedArtificialIntelligence</li>
+		</prerequisites>
+		<baseCost>7000</baseCost>
+		<researchViewX>9</researchViewX>
+		<researchViewY>2</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>SSR_QuantumComputingCluster</li>
+							<li>SSR_PhotonicComputingCluster</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRMedium-levelDefenseStructure</defName>
 		<label>中级防御结构</label>
 		<description>中级防御结构。</description>
