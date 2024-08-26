@@ -43,7 +43,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
+			<Plasteel>150</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
@@ -162,12 +162,16 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_SpecialSteel</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
+									<item>SSR_SuperconductingMaterial</item>
 									<amount>5</amount>
+								</li>
+								<li>
+									<item>SSR_QuantumComputingCore</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -187,12 +191,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>10</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>120</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>

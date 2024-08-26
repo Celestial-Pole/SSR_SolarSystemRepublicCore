@@ -93,7 +93,7 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
-            <MarketValue>50</MarketValue>
+            <MarketValue>30</MarketValue>
             <Mass>0.5</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
@@ -179,7 +179,7 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
             <MaxHitPoints>90</MaxHitPoints>
-            <MarketValue>1700</MarketValue>
+            <MarketValue>3335</MarketValue>
             <Mass>0.01</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>3.0</DeteriorationRate>
@@ -200,33 +200,12 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
             <MaxHitPoints>90</MaxHitPoints>
-            <MarketValue>400</MarketValue>
+            <MarketValue>5895</MarketValue>
             <Mass>0.3</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
     </ThingDef>
-
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_MiniatureNuclearFusionDevice</defName>
-		<label>微型聚变装置</label>
-		<description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>230</MaxHitPoints>
-			<MarketValue>1600</MarketValue>
-			<Mass>3</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
         <defName>SSR_HighDensityBattery</defName>
@@ -242,7 +221,7 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
-            <MarketValue>350</MarketValue>
+            <MarketValue>675</MarketValue>
             <Mass>0.5</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
@@ -263,7 +242,7 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
-            <MarketValue>370</MarketValue>
+            <MarketValue>1595</MarketValue>
             <Mass>0.3</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
@@ -285,8 +264,8 @@
         <stackLimit>50</stackLimit>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <MarketValue>1720</MarketValue>
+            <MaxHitPoints>200</MaxHitPoints>
+            <MarketValue>9935</MarketValue>
             <Mass>0.01</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>3.0</DeteriorationRate>
@@ -306,8 +285,8 @@
         <stackLimit>50</stackLimit>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <MarketValue>1750</MarketValue>
+            <MaxHitPoints>240</MaxHitPoints>
+            <MarketValue>27585</MarketValue>
             <Mass>0.5</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
@@ -327,13 +306,34 @@
         <stackLimit>50</stackLimit>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
-            <MaxHitPoints>150</MaxHitPoints>
-            <MarketValue>1570</MarketValue>
+            <MaxHitPoints>300</MaxHitPoints>
+            <MarketValue>10000</MarketValue>
             <Mass>0.5</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
     </ThingDef>
+
+	<ThingDef ParentName="SSR_AdMaterial">
+		<defName>SSR_MiniatureNuclearFusionDevice</defName>
+		<label>微型聚变装置</label>
+		<description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
+		<graphicData>
+			<texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>67960</MarketValue>
+			<Mass>3</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
         <defName>SSR_HighenergyParticleConfinementDevice</defName>
@@ -348,8 +348,8 @@
         <stackLimit>50</stackLimit>
         <healthAffectsPrice>false</healthAffectsPrice>
         <statBases>
-            <MaxHitPoints>220</MaxHitPoints>
-            <MarketValue>1550</MarketValue>
+            <MaxHitPoints>725</MaxHitPoints>
+            <MarketValue>19650</MarketValue>
             <Mass>1.2</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>

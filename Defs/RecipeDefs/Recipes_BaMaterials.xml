@@ -249,9 +249,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_NanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材</label>
-		<description>制造纳米微械复材。</description>
-		<jobString>正在制造纳米微械复材。</jobString>
+		<label>制造纳米微械复材 x40</label>
+		<description>制造四十单位纳米微械复材。</description>
+		<jobString>正在制造四十单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -276,7 +276,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -286,7 +286,7 @@
 			<thingDefs>
 				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -298,9 +298,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenNanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材 x10</label>
-		<description>制造十单位纳米微械复材。</description>
-		<jobString>正在制造十单位纳米微械复材。</jobString>
+		<label>制造纳米微械复材 x400</label>
+		<description>制造四百单位纳米微械复材。</description>
+		<jobString>正在制造四百单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -325,7 +325,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -335,7 +335,7 @@
 			<thingDefs>
 				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -347,9 +347,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredNanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材 x100</label>
-		<description>制造一百单位纳米微械复材。</description>
-		<jobString>正在制造一百单位纳米微械复材。</jobString>
+		<label>制造纳米微械复材 x4000</label>
+		<description>制造四千单位纳米微械复材。</description>
+		<jobString>正在制造四千单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -374,7 +374,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -384,7 +384,7 @@
 			<thingDefs>
 				<li>SSR_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -396,9 +396,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_FermiMaterial</defName>
-		<label>制造费米材料</label>
-		<description>制造费米材料。</description>
-		<jobString>正在制造费米材料。</jobString>
+		<label>制造费米材料 x100</label>
+		<description>制造一百单位费米材料。</description>
+		<jobString>正在制造一百单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -410,12 +410,21 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_IntegratedQuantumComputingFramework</li>
+					</thingDefs>
+				</filter>
 				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -427,9 +436,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenFermiMaterial</defName>
-		<label>制造费米材料 x10</label>
-		<description>制造十单位费米材料。</description>
-		<jobString>正在制造十单位费米材料。</jobString>
+		<label>制造费米材料 x1000</label>
+		<description>制造一千单位费米材料。</description>
+		<jobString>正在制造一千单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -441,12 +450,21 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_IntegratedQuantumComputingFramework</li>
+					</thingDefs>
+				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -458,9 +476,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredFermiMaterial</defName>
-		<label>制造费米材料 x100</label>
-		<description>制造一百单位费米材料。</description>
-		<jobString>正在制造一百单位费米材料。</jobString>
+		<label>制造费米材料 x10000</label>
+		<description>制造一万单位费米材料。</description>
+		<jobString>正在制造一万单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -472,12 +490,21 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
+				<count>1000</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_IntegratedQuantumComputingFramework</li>
+					</thingDefs>
+				</filter>
 				<count>100</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

@@ -197,10 +197,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -240,6 +240,14 @@
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_ArtificialIntelligenceChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -356,7 +364,7 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>

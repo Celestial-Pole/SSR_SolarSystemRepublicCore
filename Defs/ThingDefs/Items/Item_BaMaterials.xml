@@ -58,7 +58,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>0.25</MaxHitPoints>
+                <MaxHitPoints>25</MaxHitPoints>
                 <Beauty>1.5</Beauty>
                 <WorkToMake>1.25</WorkToMake>
                 <WorkToBuild>1.25</WorkToBuild>
@@ -91,7 +91,6 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>3.25</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -124,7 +123,6 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>3.75</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.75</WorkToMake>
                 <WorkToBuild>2.75</WorkToBuild>
@@ -166,7 +164,6 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>10</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -191,7 +188,7 @@
             <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>2.25</SharpDamageMultiplier>
             <BluntDamageMultiplier>2</BluntDamageMultiplier>
-            <MarketValue>45</MarketValue>
+            <MarketValue>14</MarketValue>
             <Mass>0.1</Mass>
         </statBases>
         <stuffProps>
@@ -199,7 +196,6 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>15</MaxHitPoints>
                 <Beauty>2</Beauty>
                 <WorkToMake>0.65</WorkToMake>
                 <WorkToBuild>0.65</WorkToBuild>
@@ -226,7 +222,7 @@
             <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>5</SharpDamageMultiplier>
             <BluntDamageMultiplier>5</BluntDamageMultiplier>
-            <MarketValue>150</MarketValue>
+            <MarketValue>60</MarketValue>
             <Mass>0.01</Mass>
         </statBases>
         <smallVolume>true</smallVolume>
@@ -237,7 +233,6 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>50</MaxHitPoints>
                 <Beauty>10</Beauty>
                 <WorkToMake>0.5</WorkToMake>
                 <WorkToBuild>0.5</WorkToBuild>
