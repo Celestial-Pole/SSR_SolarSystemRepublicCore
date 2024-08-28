@@ -396,9 +396,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_FermiMaterial</defName>
-		<label>制造费米材料 x100</label>
-		<description>制造一百单位费米材料。</description>
-		<jobString>正在制造一百单位费米材料。</jobString>
+		<label>制造费米材料 x10</label>
+		<description>制造十单位费米材料。</description>
+		<jobString>正在制造十单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -410,25 +410,16 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_IntegratedQuantumComputingFramework</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
+				<count>43</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
-				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>100</SSR_FermiMaterial>
+			<SSR_FermiMaterial>10</SSR_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -436,9 +427,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenFermiMaterial</defName>
-		<label>制造费米材料 x1000</label>
-		<description>制造一千单位费米材料。</description>
-		<jobString>正在制造一千单位费米材料。</jobString>
+		<label>制造费米材料 x100</label>
+		<description>制造一百单位费米材料。</description>
+		<jobString>正在制造一百单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -450,25 +441,16 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_IntegratedQuantumComputingFramework</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
+				<count>430</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
-				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>1000</SSR_FermiMaterial>
+			<SSR_FermiMaterial>100</SSR_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -476,9 +458,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredFermiMaterial</defName>
-		<label>制造费米材料 x10000</label>
-		<description>制造一万单位费米材料。</description>
-		<jobString>正在制造一万单位费米材料。</jobString>
+		<label>制造费米材料 x1000</label>
+		<description>制造一千单位费米材料。</description>
+		<jobString>正在制造一千单位费米材料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -490,25 +472,16 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>1000</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_IntegratedQuantumComputingFramework</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
+				<count>4300</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SSR_NanoandMicroMechanicalComposite</li>
-				<li>SSR_IntegratedQuantumComputingFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>10000</SSR_FermiMaterial>
+			<SSR_FermiMaterial>1000</SSR_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>

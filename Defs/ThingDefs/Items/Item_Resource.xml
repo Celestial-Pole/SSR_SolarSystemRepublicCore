@@ -33,14 +33,14 @@
         <smallVolume>true</smallVolume>
         <statBases>
             <MarketValue>1</MarketValue>
-            <Mass>0.01</Mass>
+            <Mass>2</Mass>
         </statBases>
     </ThingDef>
 
     <ThingDef ParentName="SSR_ResourceBase">
         <defName>SSR_Silicon</defName>
         <label>硅</label>
-        <description>硅是一种非金属，具有半导体特性。它是制造电子设备和太阳能电池的关键材料。</description>
+        <description>硅是一种非金属，具有半导体特性，它是制造电子设备和太阳能电池的关键材料。</description>
         <graphicData>
             <texPath>Things/Item/Resource/Silicon</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>

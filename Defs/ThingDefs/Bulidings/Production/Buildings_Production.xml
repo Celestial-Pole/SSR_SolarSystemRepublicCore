@@ -271,8 +271,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -577,8 +578,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -719,8 +721,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -910,8 +913,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -1070,8 +1074,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -1226,8 +1231,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -1380,8 +1386,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -1475,7 +1482,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>

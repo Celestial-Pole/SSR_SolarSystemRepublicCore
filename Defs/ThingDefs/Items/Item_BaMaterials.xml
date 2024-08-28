@@ -223,7 +223,7 @@
             <SharpDamageMultiplier>5</SharpDamageMultiplier>
             <BluntDamageMultiplier>5</BluntDamageMultiplier>
             <MarketValue>60</MarketValue>
-            <Mass>0.01</Mass>
+            <Mass>0.001</Mass>
         </statBases>
         <smallVolume>true</smallVolume>
         <stuffProps>

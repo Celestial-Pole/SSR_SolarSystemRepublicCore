@@ -142,7 +142,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -150,7 +150,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -166,8 +166,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_SpecialSteel</li>
+				<li>ComponentIndustrial</li>
 				<li>SSR_Silicon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
