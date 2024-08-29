@@ -50,7 +50,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -124,10 +124,10 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -142,7 +142,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-			<!--<maxQualityByLevel>
+				<!--<maxQualityByLevel>
 					<li>Excellent</li>
 					<li>Masterwork</li>
 					<li>Legendary</li>
@@ -164,6 +164,10 @@
 								<li>
 									<item>SSR_SpecialSteel</item>
 									<amount>80</amount>
+								</li>
+								<li>
+									<item>ComponentIndustrial</item>
+									<amount>15</amount>
 								</li>
 								<li>
 									<item>SSR_SuperconductingMaterial</item>
@@ -192,11 +196,15 @@
 							<materials>
 								<li>
 									<item>SSR_Carbyne</item>
-									<amount>10</amount>
+									<amount>50</amount>
 								</li>
 								<li>
 									<item>SSR_NanoandMicroMechanicalComposite</item>
 									<amount>120</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>15</amount>
 								</li>
 								<li>
 									<item>SSR_IntegratedQuantumComputingFramework</item>
@@ -279,7 +287,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -485,12 +493,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -542,7 +562,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -552,7 +572,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -586,7 +606,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -638,12 +658,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -686,7 +718,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -695,7 +727,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -729,7 +761,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -830,12 +862,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -878,7 +922,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -887,7 +931,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -921,7 +965,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -991,12 +1035,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1039,7 +1095,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1048,7 +1104,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1082,7 +1138,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -1148,12 +1204,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1196,7 +1264,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1205,7 +1273,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1239,7 +1307,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -1290,12 +1358,24 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1351,7 +1431,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li> <!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1360,7 +1440,7 @@
 			<li>SSRBasicComputationalScience</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1394,7 +1474,7 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
@@ -1438,7 +1518,7 @@
 			<li>SSRCoalLiquefactionTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1477,7 +1557,7 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
+			<WorkToBuild>5400</WorkToBuild>
 			<Mass>10</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
@@ -1524,12 +1604,12 @@
 			<li>SSRStandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_EquipmentPreparationStation</defName>
 		<label>装备整备台</label>
@@ -1563,12 +1643,16 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
+			<WorkToBuild>7200</WorkToBuild>
 			<Mass>10</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_Carbyne>60</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
+			<ComponentSpacer>12</ComponentSpacer>
+			<SSR_IntegratedQuantumComputingFramework>3</SSR_IntegratedQuantumComputingFramework>
+			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1607,7 +1691,7 @@
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1645,7 +1729,7 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
+			<WorkToBuild>7200</WorkToBuild>
 			<Flammability>0.5</Flammability>
 			<Mass>10</Mass>
 			<Beauty>-30</Beauty>
@@ -1653,8 +1737,9 @@
 		<tickerType>Normal</tickerType>
 		<size>(4,4)</size>
 		<costList>
-			<Steel>340</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_SpecialSteel>50</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -1693,7 +1778,7 @@
 			<li>SSRControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1734,16 +1819,16 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
-			<WorkToBuild>4000</WorkToBuild>
+			<WorkToBuild>7200</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-20</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(5,6)</size>
 		<costList>
-			<WoodLog>280</WoodLog>
-			<Steel>80</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_SpecialSteel>50</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -1797,9 +1882,8 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<costList>
-			<Plasteel>100</Plasteel>
-			<Steel>150</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<SSR_SpecialSteel>30</SSR_SpecialSteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<uiIconScale>0.65</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -1813,7 +1897,7 @@
 			<MaxHitPoints>300</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Mass>30</Mass>
-			<WorkToBuild>20000</WorkToBuild>
+			<WorkToBuild>3600</WorkToBuild>
 		</statBases>
 		<pathCost>42</pathCost>
 		<receivesSignals>true</receivesSignals>
@@ -1843,12 +1927,12 @@
 			<li>SSRBasicMedicine</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_TeleportationBeacon</defName>
 		<label>传送信标</label>
@@ -1874,14 +1958,14 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
+			<WorkToBuild>3600</WorkToBuild>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_FermiMaterial>100</SSR_FermiMaterial>
+			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
+			<SSR_ExtremeComponent>8</SSR_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -1902,7 +1986,7 @@
 			<li>SSRBasicSpaceApplication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1935,11 +2019,13 @@
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
+			<WorkToBuild>18000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_StandardConstructionElement>500</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>200</SSR_SpecialSteel>
+			<ComponentIndustrial>50</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1967,20 +2053,36 @@
 		<costPerLayer>
 			<materials>
 				<li>
-					<item>Steel</item>
+					<item>SSR_StandardConstructionElement</item>
+					<amount>150</amount>
+				</li>
+				<li>
+					<item>SSR_SpecialSteel</item>
+					<amount>80</amount>
+				</li>
+				<li>
+					<item>ComponentIndustrial</item>
 					<amount>10</amount>
 				</li>
 			</materials>
-			<workAmt>50</workAmt>
+			<workAmt>7200</workAmt>
 		</costPerLayer>
 		<costPerTunnel>
 			<materials>
 				<li>
-					<item>Steel</item>
-					<amount>5</amount>
+					<item>SSR_StandardConstructionElement</item>
+					<amount>80</amount>
+				</li>
+				<li>
+					<item>SSR_SpecialSteel</item>
+					<amount>30</amount>
+				</li>
+				<li>
+					<item>ComponentIndustrial</item>
+					<amount>3</amount>
 				</li>
 			</materials>
-			<workAmt>50</workAmt>
+			<workAmt>1800</workAmt>
 		</costPerTunnel>
 		<autoTunnelDiggerEfficiency>
 			<li>0</li>
@@ -2000,91 +2102,203 @@
 			<li>3</li>
 			<li>5</li>
 		</autoMineralDiggerEfficiency>
-		<autoTunnelDiggerCost>
-			<li>
-				<materials>
-					<li>
-						<item>Steel</item>
-						<amount>10</amount>
-					</li>
-				</materials>
-				<workAmt>50</workAmt>
-			</li>
-			<li>
-				<materials>
-					<li>
-						<item>Steel</item>
-						<amount>10</amount>
-					</li>
-				</materials>
-				<workAmt>50</workAmt>
-			</li>
-			<li>
-				<materials>
-					<li>
-						<item>Steel</item>
-						<amount>10</amount>
-					</li>
-				</materials>
-				<workAmt>50</workAmt>
-			</li>
-		</autoTunnelDiggerCost>
 		<autoLayerDiggerCost>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_StandardConstructionElement</item>
+						<amount>200</amount>
+					</li>
+					<li>
+						<item>SSR_SpecialSteel</item>
+						<amount>100</amount>
+					</li>
+					<li>
+						<item>ComponentIndustrial</item>
+						<amount>20</amount>
+					</li>
+					<li>
+						<item>SSR_QuantumComputingCore</item>
+						<amount>3</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>18000</workAmt>
 			</li>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_Carbyne</item>
+						<amount>300</amount>
+					</li>
+					<li>
+						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<amount>150</amount>
+					</li>
+					<li>
+						<item>ComponentSpacer</item>
+						<amount>20</amount>
+					</li>
+					<li>
+						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<amount>3</amount>
+					</li>
+					<li>
+						<item>SSR_ArtificialIntelligenceChip</item>
+						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>25200</workAmt>
 			</li>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_FermiMaterial</item>
+						<amount>500</amount>
+					</li>
+					<li>
+						<item>SSR_ExtremeComponent</item>
+						<amount>20</amount>
+					</li>
+					<li>
+						<item>SSR_PhotonComputingCore</item>
+						<amount>3</amount>
+					</li>
+					<li>
+						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>32400</workAmt>
 			</li>
 		</autoLayerDiggerCost>
+		<autoTunnelDiggerCost>
+			<li>
+				<materials>
+					<li>
+						<item>SSR_StandardConstructionElement</item>
+						<amount>120</amount>
+					</li>
+					<li>
+						<item>SSR_SpecialSteel</item>
+						<amount>50</amount>
+					</li>
+					<li>
+						<item>ComponentIndustrial</item>
+						<amount>15</amount>
+					</li>
+					<li>
+						<item>SSR_QuantumComputingCore</item>
+						<amount>1</amount>
+					</li>
+				</materials>
+				<workAmt>10800</workAmt>
+			</li>
+			<li>
+				<materials>
+					<li>
+						<item>SSR_Carbyne</item>
+						<amount>150</amount>
+					</li>
+					<li>
+						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<amount>80</amount>
+					</li>
+					<li>
+						<item>ComponentSpacer</item>
+						<amount>10</amount>
+					</li>
+					<li>
+						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<amount>3</amount>
+					</li>
+					<li>
+						<item>SSR_ArtificialIntelligenceChip</item>
+						<amount>1</amount>
+					</li>
+				</materials>
+				<workAmt>12600</workAmt>
+			</li>
+			<li>
+				<materials>
+					<li>
+						<item>SSR_FermiMaterial</item>
+						<amount>200</amount>
+					</li>
+					<li>
+						<item>SSR_ExtremeComponent</item>
+						<amount>10</amount>
+					</li>
+					<li>
+						<item>SSR_PhotonComputingCore</item>
+						<amount>3</amount>
+					</li>
+					<li>
+						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<amount>1</amount>
+					</li>
+				</materials>
+				<workAmt>14400</workAmt>
+			</li>
+		</autoTunnelDiggerCost>
 		<autoMineralDiggerCost>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_StandardConstructionElement</item>
+						<amount>80</amount>
+					</li>
+					<li>
+						<item>SSR_SpecialSteel</item>
+						<amount>30</amount>
+					</li>
+					<li>
+						<item>ComponentIndustrial</item>
+						<amount>7</amount>
+					</li>
+					<li>
+						<item>SSR_QuantumComputingCore</item>
+						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>3600</workAmt>
 			</li>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_Carbyne</item>
+						<amount>80</amount>
+					</li>
+					<li>
+						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<amount>40</amount>
+					</li>
+					<li>
+						<item>ComponentSpacer</item>
+						<amount>5</amount>
+					</li>
+					<li>
+						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>5400</workAmt>
 			</li>
 			<li>
 				<materials>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
+						<item>SSR_FermiMaterial</item>
+						<amount>100</amount>
+					</li>
+					<li>
+						<item>SSR_ExtremeComponent</item>
+						<amount>5</amount>
+					</li>
+					<li>
+						<item>SSR_PhotonComputingCore</item>
+						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>50</workAmt>
+				<workAmt>7200</workAmt>
 			</li>
 		</autoMineralDiggerCost>
 		<minableStones>
@@ -2099,7 +2313,7 @@
 				<workAmout>700</workAmout>
 				<yield>20</yield>
 				<value>15</value>
-				<stockPerTunnel>1000</stockPerTunnel>
+				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>SSR_Carbon</def>
@@ -2110,7 +2324,7 @@
 			</li>
 		</manualMineralProperties>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">	<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
