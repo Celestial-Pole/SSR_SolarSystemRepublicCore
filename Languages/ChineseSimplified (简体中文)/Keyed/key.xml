@@ -116,5 +116,10 @@
 	<SSR_Sate_WeatherUnlock_Ex>额外天气解锁：{0}</SSR_Sate_WeatherUnlock_Ex>
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
+	
+	<!-- 科研替代需求 -->
+	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
+	<SSR_MustHavMapCntAny>地图内必须满足其中一项</SSR_MustHavMapCntAny>
+	<SSR_MustHavLinkedAny>必须有其中一项被科研台链接</SSR_MustHavLinkedAny>
 
 </LanguageData>

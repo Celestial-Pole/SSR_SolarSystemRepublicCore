@@ -293,6 +293,10 @@
 				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
 			</li>
 		</modExtensions>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>FS_SSR.PW_PowerPlantWind</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
