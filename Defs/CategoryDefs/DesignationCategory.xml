@@ -16,7 +16,7 @@
 		<label>结构</label>
 		<description>结构</description>
 		<sortOrder>1</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/</iconPath>
 	</Def>-->
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
@@ -24,7 +24,7 @@
 		<label>生产</label>
 		<description>生产</description>
 		<sortOrder>2</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/Production</iconPath>
 	</Def>
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
@@ -32,7 +32,7 @@
 		<label>科研</label>
 		<description>科研</description>
 		<sortOrder>3</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/Research</iconPath>
 	</Def>
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
@@ -40,7 +40,7 @@
 		<label>电力</label>
 		<description>电力</description>
 		<sortOrder>4</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/Power</iconPath>
 	</Def>
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
@@ -48,7 +48,7 @@
 		<label>家具</label>
 		<description>家具</description>
 		<sortOrder>5</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/Furniture</iconPath>
 	</Def>
 	
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
@@ -56,7 +56,7 @@
 		<label>杂项</label>
 		<description>杂项</description>
 		<sortOrder>6</sortOrder>
-		<iconPath>UI/SelectMech</iconPath>
+		<iconPath>UI/DesignationInnerCategory/Misc</iconPath>
 	</Def>
 	
 </Defs>
