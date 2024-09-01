@@ -33,6 +33,7 @@
 		<costList>
 			<Plasteel>120</Plasteel>
 			<Gold>20</Gold>
+			<SSR_Silicon>35</SSR_Silicon>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<building>
@@ -94,15 +95,15 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
-			<Mass>30</Mass>
+			<MaxHitPoints>700</MaxHitPoints>
+			<WorkToBuild>24000</WorkToBuild>
+			<Mass>500</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_QuantumComputingCore>10</SSR_QuantumComputingCore>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -164,15 +165,16 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
-			<Mass>30</Mass>
+			<MaxHitPoints>900</MaxHitPoints>
+			<WorkToBuild>36000</WorkToBuild>
+			<Mass>500</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_FermiMaterial>300</SSR_FermiMaterial>
+			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
+			<SSR_AdvancedArtificialIntelligenceChip>3</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -231,15 +233,18 @@
 		<size>(2,2)</size>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<costList>
-			<Plasteel>350</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Carbyne>70</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>160</SSR_NanoandMicroMechanicalComposite>
+			<SSR_IntegratedQuantumComputingFramework>7</SSR_IntegratedQuantumComputingFramework>
+			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.3</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>18000</WorkToBuild>
+			<MaxHitPoints>700</MaxHitPoints>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
 			<Mass>200</Mass>
@@ -299,6 +304,9 @@
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 			<li>PlaceWorker_NeverAdjacentUnstandable</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRStandardizedArtificialIntelligence</li>
+		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -334,9 +342,11 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_Carbyne>200</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>400</SSR_NanoandMicroMechanicalComposite>
+			<SSR_IntegratedQuantumComputingFramework>20</SSR_IntegratedQuantumComputingFramework>
+			<SSR_HighenergyLaserEmitter>15</SSR_HighenergyLaserEmitter>
+			<ComponentSpacer>30</ComponentSpacer>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -401,15 +411,15 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
 			<Mass>30</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_FermiMaterial>100</SSR_FermiMaterial>
+			<SSR_HighenergyParticleConfinementDevice>3</SSR_HighenergyParticleConfinementDevice>
+			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>

@@ -3,7 +3,7 @@
 	
 	<DesignationCategoryDef Class="FS_SSR.UI.SSR_DesignationCategoryDef">
 		<defName>SSR_DesignationCategory</defName>
-		<label>Solar Repub</label>
+		<label>太阳系共和国</label>
 		<order>1</order>
 		<specialDesignatorClasses>
 			<li>Designator_Cancel</li>
