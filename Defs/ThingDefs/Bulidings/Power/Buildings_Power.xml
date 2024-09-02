@@ -132,7 +132,7 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -140,6 +140,12 @@
 			<li>SSRBasicPowerTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -545,6 +551,103 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_NuclearFissionReactor</defName>
+		<label>核裂变反应堆</label>
+		<description>核裂变反应堆</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Power/NuclearFissionReactor/NuclearFissionReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3,3)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlantSteam</compClass>
+				<basePowerConsumption>-70000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>5</fuelConsumptionRate>
+				<fuelCapacity>30.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>SSR_NuclearFissionFuelRod</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(80,112,180,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSRAntimatterApplicationsTechnology</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
 		<description>核聚变反应堆</description>
@@ -596,12 +699,12 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<!--<liClass="CompProperties_Refuelable">
-					<fuelConsumptionRate>4.5</fuelConsumptionRate>
-					<fuelCapacity>30.0</fuelCapacity>
+			<li Class="CompProperties_Refuelable">
+					<fuelConsumptionRate>5</fuelConsumptionRate>
+					<fuelCapacity>50.0</fuelCapacity>
 					<fuelFilter>
 						<thingDefs>
-							<li>Chemfuel</li>
+							<li>SSR_NuclearFusionFuelStorageTank</li>
 						</thingDefs>
 					</fuelFilter>
 					<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -610,7 +713,7 @@
 				<compClass>CompPowerPlant</compClass>
 				<basePowerConsumption>-250000</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
-			</li>-->
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				<glowColor>(80,112,180,0)</glowColor>
@@ -636,6 +739,108 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRControlledNuclearFusion</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
+		<label>小型核聚变反应堆</label>
+		<description>小型核聚变反应堆</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Power/Small-scaleNuclearFusionReactor/Small-scaleNuclearFusionReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3,3)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
+				<basePowerConsumption>20000</basePowerConsumption>
+				<IgnitedPowerOutput>280000</IgnitedPowerOutput>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>5</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>SSR_NuclearFusionFuelStorageTank</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-300000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(80,112,180,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSRMiniaturizationOfNuclearPower</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<modExtensions>
