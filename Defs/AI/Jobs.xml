@@ -9,13 +9,13 @@
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
 
-	<JobDef>
+	<!--JobDef>
 		<defName>SSR_Job_FillUpgradableBuilding</defName>
 		<driverClass>FS_SSR.Generic.JobDriver_FillUpgradableBuilding</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
+	</JobDef-->
 
 	<!-- ==================================== 火力发电站 =====================================-->
 	

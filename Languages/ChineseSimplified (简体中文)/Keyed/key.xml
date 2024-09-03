@@ -116,6 +116,7 @@
 	<SSR_Sate_WeatherUnlock_Ex>额外天气解锁：{0}</SSR_Sate_WeatherUnlock_Ex>
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
+	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
 	
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>

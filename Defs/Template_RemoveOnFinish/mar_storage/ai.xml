@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 		
-	<!--WorkGiverDef>
-		<defName>SSR_WorkGiver_ConstructUpgradableBuilding</defName>
-		<label>进行建筑升级</label>
-		<giverClass>FS_SSR.Generic.WorkGiver_ConstructUpgradableBuilding</giverClass>
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_HaulToMars</defName>
+		<label>haul to mars</label>
+		<giverClass>FS_SSR.Storage.WorkGiver_HaulMarsStore</giverClass>
 		<workType>Hauling</workType>
 		<emergency>false</emergency>
-		<verb>建造</verb>
-		<gerund>建造</gerund>
+		<verb>haul</verb>
+		<gerund>haul</gerund>
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef-->
+	</WorkGiverDef>
 
 	<JobDef>
 		<defName>SSR_Job_HaulToMars</defName>

@@ -15,7 +15,7 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_FillUpgradableBuilding</defName>
 		<label>搬运材料至待升级建筑</label>
 		<giverClass>FS_SSR.Generic.WorkGiver_FillUpgradableBuilding</giverClass>
@@ -27,7 +27,29 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef-->
+	
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillBuildingGeneric</defName>
+		<label>搬运材料</label>
+		<giverClass>FS_SSR.Generic.WorkGiver_RefuelGeneric</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>搬运</verb>
+		<gerund>搬运</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
+
+	<JobDef>
+		<defName>SSR_Job_FillBuildingGeneric</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_RefuelGeneric</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 
 	<!-- ==================================== 火力发电站 =====================================-->
 	
