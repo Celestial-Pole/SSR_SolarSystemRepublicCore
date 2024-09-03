@@ -67,7 +67,7 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<Def Class="FS_SSR.Satellite.RocketDef">
+	<!--<Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_Small</defName>
 		<label>小毕灯</label>
 		<capacity>1</capacity>
@@ -153,7 +153,7 @@
 			</statFactors>
 		</stuffProps>
 		<satelliteSize>3</satelliteSize>
-	</ThingDef>
+	</ThingDef>-->
 
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="BuildingBase" Name="SSR_LaunchStation">
 		<defName>SSR_LaunchStation</defName>
@@ -174,10 +174,10 @@
 		</graphicData>
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<costList>
+		<!--<costList>
 			<Plasteel>350</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-		</costList>
+		</costList>-->
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -206,7 +206,7 @@
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
 		</comps>
 		<allowedRocketCapacity>6</allowedRocketCapacity>
-	</ThingDef>
+	</ThingDef>-->
 	
 	<Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_SpaceElevator</defName>
@@ -228,7 +228,7 @@
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="SSR_LaunchStation">
 		<defName>SSR_SpaceElevator</defName>
 		<label>太空电梯</label>
-		<description>火箭发射台</description>
+		<description>太空电梯</description>
 		<thingClass>FS_SSR.Satellite.Building_SpaceElevator</thingClass>
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
@@ -236,7 +236,7 @@
 		<allowedRocketCapacity>60</allowedRocketCapacity>
 	</ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <!--<ThingDef ParentName="BuildingBase">
     <defName>ssr_skyfire</defName>
     <label>ship chunk</label>
     <description>A chunk of a spacecraft. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it.</description>
@@ -281,6 +281,6 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
-  </ThingDef>
+  </ThingDef>-->
   
 </Defs>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR__teleportpad</defName>
 		<label>传送板</label>
 		<tickerType>Never</tickerType>
@@ -48,6 +48,6 @@
 				<radiusRetrieve>(9,-1)</radiusRetrieve>
 			</li>
 		</modExtensions>
-	</ThingDef>	
+	</ThingDef>-->	
 	
 </Defs>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR_sateconsole</defName>
 		<label>卫星控制台</label>
 		<description>数据中心</description>
@@ -53,5 +53,5 @@
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 		</placeWorkers>
-	</ThingDef>
+	</ThingDef>-->
 </Defs>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingNaturalBase">
+	<!--<ThingDef ParentName="BuildingNaturalBase">
 		<defName>SSR_building_marsaccessor</defName>
 		<label>火星接入点</label>
 		<description>可以超空间把物品送到火星</description>
@@ -45,6 +45,6 @@
 			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor">
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 
 </Defs>

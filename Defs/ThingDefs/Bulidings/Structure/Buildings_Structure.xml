@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR_ArmouredWall</defName>
 		<label>装甲墙</label>
 		<description>装甲墙</description>
@@ -71,7 +71,7 @@
 				<li>OrnateDoor</li>
 				<li>Build_Wall</li>
 			</relatedBuildCommands>
-		</building>
+		</building>-->
 		<!--<damageMultipliers>
       <li>
         <damageDef>Bomb</damageDef>
@@ -82,7 +82,7 @@
         <multiplier>0.05</multiplier>
       </li>
     </damageMultipliers>-->
-		<researchPrerequisites>
+		<!--<researchPrerequisites>
 			<li>SSRBasicDefenseStructure</li>
 		</researchPrerequisites>
 		<comps>
@@ -125,6 +125,6 @@
 		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<comps>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 
 </Defs>
