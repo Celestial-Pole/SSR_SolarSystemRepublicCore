@@ -130,6 +130,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -731,6 +732,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
@@ -935,6 +937,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
@@ -1108,6 +1111,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
@@ -1277,6 +1281,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
@@ -1444,6 +1449,7 @@
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
