@@ -177,7 +177,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>2500</WorkToBuild>
+			<WorkToBuild>3600</WorkToBuild>
 			<Flammability>0.7</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -186,7 +186,9 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
+			<SSR_StandardConstructionElement>15</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>20</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -243,7 +245,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>2500</WorkToBuild>
+			<WorkToBuild>4800</WorkToBuild>
 			<Flammability>0.7</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -252,8 +254,10 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_Carbyne>20</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>80</SSR_NanoandMicroMechanicalComposite>
+			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -296,7 +300,9 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/Medium-levelVerticalAxisWindTurbine/Medium-levelVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<Steel>200</Steel>
+			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>25</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
@@ -360,8 +366,10 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/AdvancedVerticalAxisWindTurbine/AdvancedVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<Steel>300</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_Carbyne>30</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>60</SSR_NanoandMicroMechanicalComposite>
+			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -437,14 +445,16 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<MaxHitPoints>1500</MaxHitPoints>
-			<WorkToBuild>32000</WorkToBuild>
+			<WorkToBuild>18000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<Steel>340</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -508,14 +518,16 @@
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
 			<MaxHitPoints>3000</MaxHitPoints>
-			<WorkToBuild>45000</WorkToBuild>
+			<WorkToBuild>24000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<Steel>340</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<SSR_Carbyne>30</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
+			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -582,7 +594,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-			<WorkToBuild>25000</WorkToBuild>
+			<WorkToBuild>20000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
@@ -592,8 +604,11 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_StandardConstructionElement>120</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>175</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>15</SSR_SuperconductingMaterial>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -638,7 +653,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRAntimatterApplicationsTechnology</li>
+			<li>SSRNuclearPhysics</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<modExtensions>
@@ -679,7 +694,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-			<WorkToBuild>25000</WorkToBuild>
+			<WorkToBuild>24000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
@@ -689,8 +704,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>375</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>20</SSR_SuperconductingMaterial>
+			<SSR_StrongElectromagnet>20</SSR_StrongElectromagnet>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -781,7 +800,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-			<WorkToBuild>25000</WorkToBuild>
+			<WorkToBuild>36000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
@@ -791,8 +810,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_Carbyne>80</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
+			<SSR_SuperconductingMaterial>7</SSR_SuperconductingMaterial>
+			<SSR_HighenergyLaserEmitter>5</SSR_HighenergyLaserEmitter>
+			<ComponentSpacer>3</ComponentSpacer>
+			<SSR_ArtificialIntelligenceChip>5</SSR_ArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -883,7 +906,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-			<WorkToBuild>25000</WorkToBuild>
+			<WorkToBuild>48000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>
@@ -893,8 +916,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_FermiMaterial>500</SSR_FermiMaterial>
+			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
+			<SSR_AdvancedArtificialIntelligenceChip>300</SSR_AdvancedArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -985,11 +1009,15 @@
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>2000</MaxHitPoints>
-			<WorkToBuild>15000</WorkToBuild>
+			<WorkToBuild>36000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_Carbyne>80</SSR_Carbyne>
+			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
+			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<building>
