@@ -3,12 +3,12 @@
 <ModMetaData>
 	<name>[SSR]Solar System Republic Core 太阳系共和国核心包</name>
 	<packageId>SSR.Core</packageId>
-	<author>Celestial Pole,Nesi,mo,Fleurety,3HST有限公司,FelixT,世故绮罗</author>
+	<author>Celestial Pole,Fleurety,3HST有限公司,Nesi,mo,FelixT,世故绮罗</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
 	<loadAfter>
 	</loadAfter>
-	<description>增加了一系列来自个人设定太阳系共和国的道具</description>
+	<description>在太阳系共和国的秩序真正覆盖到这颗星球之前，率先踏足此地的是先进的知识和令人向往的理念。在星空中飘荡的快子信号为文明尚存的落难者带来了新的希望，利用这份知识为基地的建设添砖加瓦，希望你能坚持，直到黎明的到来。</description>
 </ModMetaData>
