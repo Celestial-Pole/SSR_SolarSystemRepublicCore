@@ -1602,7 +1602,7 @@
 				<uniqueID>1</uniqueID>
 				<gizmoEjectLabel>弹出维修平台内容物</gizmoEjectLabel>
 				<gizmoEjectDesc>弹出维修平台内容物</gizmoEjectDesc>
-				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
 				<btnITabLabel>维修平台</btnITabLabel>
 				<btnITabItemKey>装备维修平台</btnITabItemKey>
 			</li>
@@ -1689,7 +1689,7 @@
 				<uniqueID>1</uniqueID>
 				<gizmoEjectLabel>弹出整备台内容物</gizmoEjectLabel>
 				<gizmoEjectDesc>弹出整备台内容物</gizmoEjectDesc>
-				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
 				<btnITabLabel>整备台</btnITabLabel>
 				<btnITabItemKey>装备整备台</btnITabItemKey>
 			</li>
