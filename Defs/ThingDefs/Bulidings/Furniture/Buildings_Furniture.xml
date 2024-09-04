@@ -28,12 +28,13 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
+			<WorkToBuild>3000</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -52,7 +53,7 @@
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryDeathStain</compClass>
-				<interval>500</interval>
+				<interval>1200</interval>
 				<effect>10</effect>
 				<requiredLevel>0</requiredLevel>
 				<containerIndex>1</containerIndex>
@@ -63,7 +64,7 @@
 				<uniqueID>1</uniqueID>
 				<gizmoEjectLabel>弹出洗衣机内容物</gizmoEjectLabel>
 				<gizmoEjectDesc>弹出洗衣机内容物</gizmoEjectDesc>
-				<gizmoEjectUIIconPath>UI/TempIcon</gizmoEjectUIIconPath>
+				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
 				<btnITabLabel>洗衣机</btnITabLabel>
 				<btnITabItemKey>洗衣机</btnITabItemKey>
 			</li>
