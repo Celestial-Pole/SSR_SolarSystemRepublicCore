@@ -23,9 +23,9 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>2500</WorkToBuild>
+			<WorkToBuild>2400</WorkToBuild>
 			<Flammability>1.0</Flammability>
-			<Beauty>-20</Beauty>
+			<Beauty>0</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>true</canOverlapZones>
@@ -35,12 +35,11 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<uiOrder>2100</uiOrder>
 		<constructEffect>ConstructMetal</constructEffect>
 		<placeWorkers>
 			<li>FS_SSR.Roof.PW_RoofBuilder_Extinguisher</li>
@@ -75,9 +74,9 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>2500</WorkToBuild>
+			<WorkToBuild>2400</WorkToBuild>
 			<Flammability>1.0</Flammability>
-			<Beauty>-20</Beauty>
+			<Beauty>0</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>true</canOverlapZones>
@@ -87,8 +86,8 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
@@ -132,13 +131,15 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>450</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<ComponentIndustrial>50</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -204,13 +205,15 @@
 			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>300</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<ComponentIndustrial>50</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -227,7 +230,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_SteamGeyserClear">
-				<interval>36000</interval>
+				<interval>54000</interval>
 			</li>
 		</comps>
 		<placeWorkers>
