@@ -322,6 +322,11 @@
 				<li>AllowNonSmeltableApparel</li>
 			</specialFiltersToDisallow>
 		</fixedIngredientFilter>
+		<forceHiddenSpecialFilters>
+			<li>AllowSmeltableApparel</li>
+			<li>AllowBurnableApparel</li>
+			<li>AllowNonBurnableApparel</li>
+		</forceHiddenSpecialFilters>
 		<products>
 			<SSR_GarbageBlock>1</SSR_GarbageBlock>
 		</products>
