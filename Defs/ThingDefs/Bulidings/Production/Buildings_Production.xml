@@ -1307,7 +1307,6 @@
 		<costList>
 			<SSR_SpecialSteel>80</SSR_SpecialSteel>
 			<ComponentIndustrial>15</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
