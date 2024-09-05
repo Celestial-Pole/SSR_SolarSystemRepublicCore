@@ -295,4 +295,39 @@
 		</recipeUsers>
 	</RecipeDef>
 
+	<!-- <RecipeDef>
+		<defName>SSR_Recipe_HundredCarbon</defName>
+		<label>制造垃圾块</label>
+		<description>制造垃圾块。</description>
+		<jobString>正在制造垃圾块。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowNonSmeltableApparel</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_GarbageBlock>1</SSR_GarbageBlock>
+		</products>
+		<recipeUsers>
+			<li>ElectricCrematorium</li>
+		</recipeUsers>
+	</RecipeDef> -->
+
 </Defs>

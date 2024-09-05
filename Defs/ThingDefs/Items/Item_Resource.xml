@@ -70,4 +70,22 @@
         </statBases>
     </ThingDef>
 
+    <!-- <ThingDef ParentName="SSR_ResourceBase">
+        <defName>SSR_GarbageBlock</defName>
+        <label>垃圾块</label>
+        <description>垃圾块</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/GarbageBlock</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <useHitPoints>true</useHitPoints>
+        <stackLimit>150</stackLimit>
+        <smallVolume>false</smallVolume>
+        <statBases>
+            <MarketValue>1.5</MarketValue>
+            <Mass>2</Mass>
+            <Flammability>1</Flammability>
+        </statBases>
+    </ThingDef> -->
+
 </Defs>
