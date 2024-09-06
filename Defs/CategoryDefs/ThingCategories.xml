@@ -19,4 +19,10 @@
 		<parent>BuildingsFurniture</parent>
 	</ThingCategoryDef>
 
+	<ThingCategoryDef>
+		<defName>SSR_ItemsMisc</defName>
+		<label>太阳系共和国杂项</label>
+		<parent>ItemsMisc</parent>
+	</ThingCategoryDef>
+
 </Defs>

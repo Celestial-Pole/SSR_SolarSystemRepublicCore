@@ -101,7 +101,7 @@
 		</buildParams>
 	</Def>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
 		<defName>SSR_Satellite_Small</defName>
 		<label>小男孩</label>
 		<description>卫星</description>
@@ -128,7 +128,7 @@
 		<satelliteSize>1</satelliteSize>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
 		<defName>SSR_Satellite_Mid</defName>
 		<label>胖子</label>
 		<description>卫星</description>
