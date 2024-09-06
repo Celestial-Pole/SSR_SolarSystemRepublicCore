@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase" Name="_satellitebase">
+	<!-- <ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase" Name="_satellitebase">
 		<defName>SSR_Satellite_GeoScan</defName>
 		<label>地质扫描卫星</label>
 		<description>卫星</description>
@@ -118,6 +118,6 @@
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_Addon_SolarPowerOutput</defName>
 		<label>太阳能发电卫星发电效率升级组件</label>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>
