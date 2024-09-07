@@ -27,9 +27,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath> Defs/ThingDef[ defName="FueledStove"or defName="ElectricStove"
-	]/recipes
-		</xpath>
+		<xpath>Defs/ThingDef[ defName="FueledStove"or defName="ElectricStove"]/recipes</xpath>
 		<value>
 			<li>SSR_Recipe_Carbon</li>
 			<li>SSR_Recipe_TenCarbon</li>
@@ -38,8 +36,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath> Defs/ThingDef[defName="Telescope"]
-		</xpath>
+		<xpath>Defs/ThingDef[defName="Telescope"]</xpath>
 		<value>
 			<designationCategory>Joy</designationCategory>
 			<researchPrerequisites>
@@ -49,8 +46,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath> Defs/ThingDef[defName="MegascreenTelevision"]
-		</xpath>
+		<xpath>Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
 		<value>
 			<designationCategory>Joy</designationCategory>
 			<researchPrerequisites>

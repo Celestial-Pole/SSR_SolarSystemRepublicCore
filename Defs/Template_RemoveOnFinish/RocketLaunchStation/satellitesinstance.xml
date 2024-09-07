@@ -1,7 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase" Name="_satellitebase">
+	<ThingDef ParentName="ResourceBase" Name="SSR_ItemsMiscBase" Abstract="True">
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <minRewardCount>30</minRewardCount>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <stuffProps>
+            <statFactors>
+                <Flammability>0</Flammability>
+            </statFactors>
+            <commonality>0</commonality>
+            <allowColorGenerators>false</allowColorGenerators>
+            <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+        </stuffProps>
+        <thingCategories>
+            <li>SSR_ItemsMisc</li>
+        </thingCategories>
+    </ThingDef>
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase" Name="_satellitebase">
 		<defName>SSR_Satellite_GeoScan</defName>
 		<label>地质扫描卫星</label>
 		<description>卫星</description>
@@ -10,10 +32,21 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
+			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
 			<MaxHitPoints>300</MaxHitPoints>
 			<MarketValue>15</MarketValue>
 			<Mass>0.001</Mass>
 		</statBases>
+		<stuffProps>
+			<statFactors>
+				<MaxHitPoints>3.25</MaxHitPoints>
+				<Beauty>6.5</Beauty>
+			</statFactors>
+		</stuffProps>
 		<satelliteSize>1</satelliteSize>
 	</ThingDef>
 
@@ -21,38 +54,38 @@
 		<defName>SSR_Satellite_Recon</defName>
 		<label>侦查卫星</label>
 	</ThingDef>
-	
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_Weather</defName>
 		<label>气象卫星</label>
 	</ThingDef>
-	
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_Bombard</defName>
 		<label>轰炸卫星</label>
-	</ThingDef>	
-	
+	</ThingDef>
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_ElevatorCore</defName>
 		<label>太空电梯平台核心</label>
 	</ThingDef>
-	
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_OrbitalDefense</defName>
 		<label>防御平台</label>
 	</ThingDef>
-	
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_ParticleCollect</defName>
 		<label>粒子收集平台</label>
 	</ThingDef>
-		
+
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
 		<defName>SSR_Satellite_ShuttleBay</defName>
 		<label>穿梭机库</label>
 	</ThingDef>
-	
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
 		<defName>SSR_Satellite_SolarPowerGenerator</defName>
 		<label>太阳能发电卫星</label>
 		<description>就要在这发电</description>
@@ -61,10 +94,21 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
+			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
 			<MaxHitPoints>300</MaxHitPoints>
 			<MarketValue>15</MarketValue>
 			<Mass>0.001</Mass>
 		</statBases>
+		<stuffProps>
+			<statFactors>
+				<MaxHitPoints>3.25</MaxHitPoints>
+				<Beauty>6.5</Beauty>
+			</statFactors>
+		</stuffProps>
 		<satelliteSize>3</satelliteSize>
 	</ThingDef>
 
