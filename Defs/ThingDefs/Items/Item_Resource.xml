@@ -30,7 +30,7 @@
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <stackLimit>300</stackLimit>
-        <smallVolume>true</smallVolume>
+        <smallVolume>false</smallVolume>
         <statBases>
             <MarketValue>1</MarketValue>
             <Mass>2</Mass>
