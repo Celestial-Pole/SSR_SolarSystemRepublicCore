@@ -14,7 +14,7 @@
 		<label>制作加固炮管</label>
 		<description>制作加固炮管。</description>
 		<jobString>正在制作加固炮管。</jobString>
-		<workAmount>1500</workAmount>
+		<workAmount>1800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -137,7 +137,7 @@
 		<label>制作量子计算核心</label>
 		<description>制作量子计算核心。</description>
 		<jobString>正在制作量子计算核心。</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>2400</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -176,6 +176,35 @@
 		</products>
 		<researchPrerequisites>
 			<li>SSRBasicComputationalScience</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SSR_Recipe_Base">
+		<defName>SSR_Recipe_NuclearFissionFuelRod</defName>
+		<label>制作核裂变燃料棒</label>
+		<description>制作核裂变燃料棒。</description>
+		<jobString>正在制作核裂变燃料棒。</jobString>
+		<workAmount>2400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_NuclearFissionFuelRod>1</SSR_NuclearFissionFuelRod>
+		</products>
+		<researchPrerequisites>
+			<li>SSRNuclearPhysics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
