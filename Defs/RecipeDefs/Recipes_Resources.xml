@@ -3,9 +3,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_Sand</defName>
-		<label>制作沙子 x10</label>
-		<description>制作十单位沙子。</description>
-		<jobString>正在制作十单位沙子。</jobString>
+		<label>制作沙子 x50</label>
+		<description>制作五十单位沙子。</description>
+		<jobString>正在制作五十单位沙子。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -26,7 +26,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>10</SSR_Sand>
+			<SSR_Sand>50</SSR_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -36,9 +36,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenSand</defName>
-		<label>制作沙子 x100</label>
-		<description>制作一百单位沙子。</description>
-		<jobString>正在制作一百单位沙子。</jobString>
+		<label>制作沙子 x500</label>
+		<description>制作五百单位沙子。</description>
+		<jobString>正在制作五百单位沙子。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -59,7 +59,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>100</SSR_Sand>
+			<SSR_Sand>500</SSR_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -69,9 +69,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredSand</defName>
-		<label>制作沙子 x1000</label>
-		<description>制作一千单位沙子。</description>
-		<jobString>正在制作一一千单位沙子。</jobString>
+		<label>制作沙子 x5000</label>
+		<description>制作五千单位沙子。</description>
+		<jobString>正在制作五千单位沙子。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -92,7 +92,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>1000</SSR_Sand>
+			<SSR_Sand>5000</SSR_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
