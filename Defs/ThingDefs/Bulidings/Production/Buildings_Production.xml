@@ -1307,7 +1307,6 @@
 		<costList>
 			<SSR_SpecialSteel>80</SSR_SpecialSteel>
 			<ComponentIndustrial>15</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -2072,7 +2071,7 @@
 					<amount>10</amount>
 				</li>
 			</materials>
-			<workAmt>7200</workAmt>
+			<workAmt>1000</workAmt>
 		</costPerLayer>
 		<costPerTunnel>
 			<materials>
@@ -2089,7 +2088,7 @@
 					<amount>3</amount>
 				</li>
 			</materials>
-			<workAmt>1800</workAmt>
+			<workAmt>300</workAmt>
 		</costPerTunnel>
 		<autoTunnelDiggerEfficiency>
 			<li>0</li>
@@ -2129,7 +2128,7 @@
 						<amount>3</amount>
 					</li>
 				</materials>
-				<workAmt>18000</workAmt>
+				<workAmt>1200</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2154,7 +2153,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>25200</workAmt>
+				<workAmt>1600</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2175,7 +2174,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>32400</workAmt>
+				<workAmt>2000</workAmt>
 			</li>
 		</autoLayerDiggerCost>
 		<autoTunnelDiggerCost>
@@ -2198,7 +2197,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>10800</workAmt>
+				<workAmt>450</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2223,7 +2222,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>12600</workAmt>
+				<workAmt>600</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2244,7 +2243,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>14400</workAmt>
+				<workAmt>1000</workAmt>
 			</li>
 		</autoTunnelDiggerCost>
 		<autoMineralDiggerCost>
@@ -2267,7 +2266,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>3600</workAmt>
+				<workAmt>300</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2288,7 +2287,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>5400</workAmt>
+				<workAmt>500</workAmt>
 			</li>
 			<li>
 				<materials>
@@ -2305,7 +2304,7 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>7200</workAmt>
+				<workAmt>700</workAmt>
 			</li>
 		</autoMineralDiggerCost>
 		<minableStones>
@@ -2317,16 +2316,16 @@
 		<manualMineralProperties>
 			<li>
 				<def>Silver</def>
-				<workAmout>700</workAmout>
+				<workAmout>125</workAmout>
 				<yield>20</yield>
-				<value>15</value>
+				<value>9</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>SSR_Carbon</def>
-				<workAmout>1</workAmout>
+				<workAmout>100</workAmout>
 				<yield>75</yield>
-				<value>15</value>
+				<value>1.2</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
