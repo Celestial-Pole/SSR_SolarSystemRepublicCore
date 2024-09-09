@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ResourceBase" Name="SSR_ItemsMiscBase" Abstract="True">
+	<ThingDef ParentName="ResourceBase" Name="SSR_SatelliteBase" Abstract="True">
         <burnableByRecipe>true</burnableByRecipe>
         <healthAffectsPrice>false</healthAffectsPrice>
         <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
@@ -9,6 +9,7 @@
         <minRewardCount>30</minRewardCount>
         <statBases>
             <Flammability>0</Flammability>
+			<MaxHitPoints>500</MaxHitPoints>
         </statBases>
         <stuffProps>
             <statFactors>
@@ -19,11 +20,11 @@
             <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
         </stuffProps>
         <thingCategories>
-            <li>SSR_ItemsMisc</li>
+            <li>SSR_Satellite</li>
         </thingCategories>
     </ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase" Name="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_GeoScan</defName>
 		<label>地质扫描卫星</label>
 		<description>卫星</description>
@@ -32,60 +33,104 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
-			<MaxHitPoints>300</MaxHitPoints>
 			<MarketValue>15</MarketValue>
 			<Mass>0.001</Mass>
 		</statBases>
-		<stuffProps>
-			<statFactors>
-				<MaxHitPoints>3.25</MaxHitPoints>
-				<Beauty>6.5</Beauty>
-			</statFactors>
-		</stuffProps>
 		<satelliteSize>1</satelliteSize>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Recon</defName>
 		<label>侦查卫星</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Weather</defName>
 		<label>气象卫星</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Bombard</defName>
 		<label>轰炸卫星</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_ElevatorCore</defName>
 		<label>太空电梯平台核心</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_OrbitalDefense</defName>
 		<label>防御平台</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_ParticleCollect</defName>
 		<label>粒子收集平台</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_ShuttleBay</defName>
 		<label>穿梭机库</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_SolarPowerGenerator</defName>
 		<label>太阳能发电卫星</label>
 		<description>就要在这发电</description>
@@ -94,52 +139,88 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>3.25</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
-			<MaxHitPoints>300</MaxHitPoints>
 			<MarketValue>15</MarketValue>
 			<Mass>0.001</Mass>
 		</statBases>
-		<stuffProps>
-			<statFactors>
-				<MaxHitPoints>3.25</MaxHitPoints>
-				<Beauty>6.5</Beauty>
-			</statFactors>
-		</stuffProps>
 		<satelliteSize>3</satelliteSize>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_GeoScanSpeed</defName>
 		<label>地质扫描卫星扫描加速组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_GeoScanRange</defName>
 		<label>地质扫描卫星扫描范围升级组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_BombCD</defName>
 		<label>轨道轰炸卫星冷却升级组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_BombLaser</defName>
 		<label>轨道轰炸卫星重型激光组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_BombNeutron</defName>
 		<label>轨道轰炸卫星中子灭杀组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="_satellitebase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_Addon_SolarPowerOutput</defName>
 		<label>太阳能发电卫星发电效率升级组件</label>
+		<graphicData>
+			<texPath>Things/Item/Fabric/Graphene/Graphene_a</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.001</Mass>
+		</statBases>
 	</ThingDef>
 
 </Defs>
