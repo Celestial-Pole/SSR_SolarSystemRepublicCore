@@ -847,16 +847,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -888,16 +888,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -929,16 +929,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -970,16 +970,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1014,16 +1014,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1055,16 +1055,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1098,16 +1098,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1139,16 +1139,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1180,16 +1180,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1222,16 +1222,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1358,16 +1358,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1408,16 +1408,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1450,16 +1450,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1494,16 +1494,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1625,16 +1625,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1785,16 +1785,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1826,16 +1826,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1868,16 +1868,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1910,16 +1910,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1952,16 +1952,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -1994,16 +1994,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -2036,16 +2036,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -2161,16 +2161,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -2210,16 +2210,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -2252,16 +2252,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
@@ -2294,16 +2294,16 @@
 						<li>
 							<item>SSR_QuantumComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_QuantumComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
 						<li>
 							<item>SSR_PhotonicComputingCluster</item>
 							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>Map</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
 						</li>
