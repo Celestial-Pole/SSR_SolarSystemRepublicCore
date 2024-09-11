@@ -730,11 +730,6 @@
 					</fuelFilter>
 					<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlant</compClass>
-				<basePowerConsumption>-250000</basePowerConsumption>
-				<transmitsPower>true</transmitsPower>
-			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				<glowColor>(80,112,180,0)</glowColor>
@@ -835,11 +830,6 @@
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-			</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlant</compClass>
-				<basePowerConsumption>-300000</basePowerConsumption>
-				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
