@@ -410,7 +410,7 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>43</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -441,7 +441,7 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>430</count>
+				<count>400</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -472,7 +472,7 @@
 						<li>SSR_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>4300</count>
+				<count>4000</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

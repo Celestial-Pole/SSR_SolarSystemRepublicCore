@@ -531,12 +531,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -697,12 +705,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -902,12 +918,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1076,12 +1100,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1246,12 +1278,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1402,12 +1442,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>Silver</item>
-									<amount>20</amount>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
 								</li>
 								<li>
-									<item>Gold</item>
-									<amount>5</amount>
+									<item>SSR_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -1971,7 +2019,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>100</SSR_FermiMaterial>
+			<SSR_FermiMaterial>30</SSR_FermiMaterial>
 			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
 			<SSR_ExtremeComponent>8</SSR_ExtremeComponent>
 		</costList>
