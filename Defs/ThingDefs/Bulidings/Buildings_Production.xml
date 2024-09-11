@@ -1331,6 +1331,12 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>SSR_Recipe_QuantumComputingCore</li>
+			<!--tech level 2-->
+			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+			<!--tech level 3-->
+			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_PhotonComputingCore</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -1375,12 +1381,8 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_QuantumComputingCore</item>
 									<amount>3</amount>
-								</li>
-								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
-									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
