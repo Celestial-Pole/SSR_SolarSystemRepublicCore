@@ -1375,12 +1375,8 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_QuantumComputingCore</item>
 									<amount>3</amount>
-								</li>
-								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
-									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
