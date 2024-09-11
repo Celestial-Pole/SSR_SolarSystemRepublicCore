@@ -156,7 +156,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_SteamSpringMaker">
-				<interval>600</interval>
+				<interval>60</interval>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
@@ -206,7 +206,7 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>12000</WorkToBuild>
 			<Mass>300</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
@@ -230,7 +230,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_SteamGeyserClear">
-				<interval>54000</interval>
+				<interval>60</interval>
 			</li>
 		</comps>
 		<placeWorkers>
