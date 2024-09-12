@@ -29,13 +29,13 @@
 
 	<!-- ==================================== 矿井 =====================================-->
 
-	<JobDef>
+	<!--JobDef>
 		<defName>SSR_Job_PalmineDeliverMaterial</defName>
 		<driverClass>FS_SSR.Palmine.JobDriver_PalmineDeliverMaterial</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
+	</JobDef-->
 	
 	<JobDef>
 		<defName>SSR_Job_EnterPalmine</defName>

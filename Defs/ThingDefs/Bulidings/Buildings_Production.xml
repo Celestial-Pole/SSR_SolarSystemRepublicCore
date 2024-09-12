@@ -2103,6 +2103,7 @@
 			<li Class="FS_SSR.Generic.TCP_UniqueMarker">
 				<level>World</level>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_ICMR" />
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>

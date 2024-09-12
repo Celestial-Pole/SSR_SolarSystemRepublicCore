@@ -119,7 +119,6 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
-
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>1</researchSpeedOffset>
 				<researchSpdFactorCGL>

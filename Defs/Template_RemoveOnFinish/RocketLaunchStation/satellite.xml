@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<JobDef>
+	<!--JobDef>
 		<defName>SSR_Job_ICMRDeliverMaterial</defName>
 		<driverClass>FS_SSR.Generic.JobDriver_ICMRDeliverMaterial</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
+	</JobDef-->
 
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_ICMRDeliverMaterial</defName>
 		<label>fill awb</label>
 		<giverClass>FS_SSR.Generic.WorkGiver_ICMRDeliverMaterial</giverClass>
@@ -21,7 +21,7 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
 	<JobDef>
 		<defName>SSR_Job_DeliverSatellite</defName>

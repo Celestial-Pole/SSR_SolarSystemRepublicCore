@@ -69,7 +69,7 @@
 
 	<!-- ==================================== 矿井 =====================================-->
 
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_PalmineDeliverMaterial</defName>
 		<label>fill awb</label>
 		<giverClass>FS_SSR.Palmine.WorkGiver_PalMineDeliverMaterial</giverClass>
@@ -81,7 +81,7 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
 	<!-- ==================================== 洗衣机 =====================================-->
 
