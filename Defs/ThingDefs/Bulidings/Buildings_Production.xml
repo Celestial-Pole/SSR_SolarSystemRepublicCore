@@ -101,6 +101,7 @@
 			<li>SSR_Recipe_PrecisionLens</li>
 			<li>SSR_Recipe_SuperconductingMaterial</li>
 			<li>SSR_Recipe_StrongElectromagnet</li>
+			<li>SSR_Recipe_NuclearFissionFuelRod</li>
 			<!--tech level 2-->
 			<li>SSR_Recipe_Carbyne</li>
 			<li>SSR_Recipe_TenCarbyne</li>
