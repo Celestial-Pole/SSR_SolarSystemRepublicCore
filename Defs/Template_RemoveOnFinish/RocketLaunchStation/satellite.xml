@@ -84,7 +84,7 @@
 		</buildParams>
 	</Def>
 
-	<Def Class="FS_SSR.Satellite.RocketDef">
+	<!--Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_Mid</defName>
 		<label>中毕灯</label>
 		<capacity>3</capacity>
@@ -153,7 +153,7 @@
 			</statFactors>
 		</stuffProps>
 		<satelliteSize>3</satelliteSize>
-	</ThingDef>
+	</ThingDef-->
 
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="BuildingBase" Name="SSR_LaunchStation">
 		<defName>SSR_LaunchStation</defName>
