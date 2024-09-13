@@ -53,7 +53,7 @@
 
 	<!-- ==================================== 火力发电站 =====================================-->
 	
-	<WorkGiverDef>
+	<!--<WorkGiverDef>
 		<defName>SSR_WorkGiver_Refuel</defName>
 		<label>补充燃料</label>
 		<giverClass>FS_SSR.WorkGiver_RefuelMultiFuel</giverClass>
@@ -65,7 +65,7 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef>-->
 
 	<!-- ==================================== 矿井 =====================================-->
 

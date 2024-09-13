@@ -19,13 +19,13 @@
 
 	<!-- ==================================== 火力发电站 =====================================-->
 	
-	<JobDef>
+	<!--<JobDef>
 		<defName>SSR_Job_Refuel</defName>
 		<driverClass>FS_SSR.JobDriver_RefuelMultiFuel</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
+	</JobDef>-->
 
 	<!-- ==================================== 矿井 =====================================-->
 

@@ -192,10 +192,10 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlantSolar</compClass>
+			<li Class="FS_SSR.TCP_NightGenerator">
 				<basePowerConsumption>-2500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
+				<nightPowerRatio>0.1</nightPowerRatio>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -260,10 +260,10 @@
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlantSolar</compClass>
+			<li Class="FS_SSR.TCP_NightGenerator">
 				<basePowerConsumption>-3200</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
+				<nightPowerRatio>0.3</nightPowerRatio>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
