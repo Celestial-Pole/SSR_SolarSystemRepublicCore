@@ -560,6 +560,7 @@
         <skillRequirements>
             <Crafting>6</Crafting>
         </skillRequirements>
+		<researchPrerequisite>ShieldBelt</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_RecipeCoreMachining">
