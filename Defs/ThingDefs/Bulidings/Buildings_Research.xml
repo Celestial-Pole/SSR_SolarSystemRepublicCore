@@ -448,12 +448,7 @@
 				<interval>1000</interval>
 				<candidate>
 					<li>
-						<item>Steel</item>
-						<amount>10</amount>
-						<weight>1</weight>
-					</li>
-					<li>
-						<item>Silver</item>
+						<item>SSR_AntimatterStorageTank</item>
 						<amount>3</amount>
 						<weight>2</weight>
 					</li>
