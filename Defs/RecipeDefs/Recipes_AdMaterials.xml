@@ -37,6 +37,33 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
+		<defName>SSR_Recipe_FourReinforcedBarrel</defName>
+		<label>制作加固炮管 x4</label>
+		<description>制作四根加固炮管。</description>
+		<jobString>正在制作四根加固炮管。</jobString>
+		<workAmount>1800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>220</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ReinforcedBarrel>4</ReinforcedBarrel>
+		</products>
+		<researchPrerequisite>SSRBasicManufacturingTechnology</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_PrecisionLens</defName>
 		<label>制作精密镜片</label>
 		<description>制作精密镜片。</description>
