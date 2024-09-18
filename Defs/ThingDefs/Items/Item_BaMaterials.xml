@@ -12,6 +12,7 @@
         <burnableByRecipe>false</burnableByRecipe>
         <smallVolume>false</smallVolume>
         <statBases>
+			<Beauty>0</Beauty>
             <Flammability>0</Flammability>
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>
@@ -38,6 +39,7 @@
         <defName>SSR_Glass</defName>
         <label>玻璃</label>
         <description>玻璃是一种透明、坚硬的非晶态固体材料，广泛应用于建筑、汽车和日常用品。</description>
+		<useHitPoints>true</useHitPoints>
         <graphicData>
             <texPath>Things/Item/BaMaterial/Glass</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
