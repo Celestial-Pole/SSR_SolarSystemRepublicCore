@@ -50,6 +50,7 @@
             <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
             <BluntDamageMultiplier>0.3</BluntDamageMultiplier>
+			<MaxHitPoints>25</MaxHitPoints>
             <MarketValue>1.5</MarketValue>
             <Mass>0.5</Mass>
         </statBases>
@@ -58,7 +59,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-                <MaxHitPoints>25</MaxHitPoints>
+                <MaxHitPoints>0.25</MaxHitPoints>
                 <Beauty>1.5</Beauty>
                 <WorkToMake>1.25</WorkToMake>
                 <WorkToBuild>1.25</WorkToBuild>
@@ -91,6 +92,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
+				<MaxHitPoints>3.25</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -123,6 +125,7 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
+				<MaxHitPoints>3.75</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.75</WorkToMake>
                 <WorkToBuild>2.75</WorkToBuild>
@@ -164,6 +167,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
+				<MaxHitPoints>5</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -196,6 +200,7 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
+				<MaxHitPoints>10</MaxHitPoints>
                 <Beauty>2</Beauty>
                 <WorkToMake>0.65</WorkToMake>
                 <WorkToBuild>0.65</WorkToBuild>
@@ -233,6 +238,7 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
+				<MaxHitPoints>30</MaxHitPoints>
                 <Beauty>10</Beauty>
                 <WorkToMake>0.5</WorkToMake>
                 <WorkToBuild>0.5</WorkToBuild>
