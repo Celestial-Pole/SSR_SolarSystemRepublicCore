@@ -31,8 +31,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
+			<Steel>240</Steel>
 			<SSR_Silicon>35</SSR_Silicon>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
