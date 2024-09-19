@@ -31,8 +31,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Gold>20</Gold>
+			<Steel>240</Steel>
 			<SSR_Silicon>35</SSR_Silicon>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
@@ -119,7 +118,6 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
-
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>1</researchSpeedOffset>
 				<researchSpdFactorCGL>

@@ -590,6 +590,185 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_IntegratedChipManufacturingMachine</defName>
+		<label>集成化芯片制造机</label>
+		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<SSR_SpecialSteel>80</SSR_SpecialSteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>5400</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>0</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes>
+			<li>SSR_Recipe_QuantumComputingCore</li>
+			<!--tech level 2-->
+			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+			<!--tech level 3-->
+			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_PhotonComputingCore</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<productionFactorsUpgraded>
+					<li>1</li>
+					<li>3</li>
+					<li>5</li>
+				</productionFactorsUpgraded>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
+								</li>
+								<li>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_QuantumComputingCore</item>
+									<amount>3</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_FermiMaterial</item>
+									<amount>100</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
+				<extraRecipe>
+					<li />
+					<li>
+						<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+					</li>
+					<li>
+						<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_PhotonComputingCore</li>
+					</li>
+				</extraRecipe>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.UI.PW_FrameLevel</li>
+			<!-- 可以升级的建筑必须多带这个place worker -->
+		</placeWorkers>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+			<li>SSRBasicComputationalScience</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			</li>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
 		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
@@ -1317,183 +1496,6 @@
 		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
-		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
-	</ThingDef>
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_IntegratedChipManufacturingMachine</defName>
-		<label>集成化芯片制造机</label>
-		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
-		<graphicData>
-			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,2)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<statBases>
-			<WorkToBuild>5400</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Flammability>0</Flammability>
-			<Cleanliness>0</Cleanliness>
-			<Mass>200</Mass>
-		</statBases>
-		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-		<recipes>
-			<li>SSR_Recipe_QuantumComputingCore</li>
-			<!--tech level 2-->
-			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
-			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
-			<!--tech level 3-->
-			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
-			<li>SSR_Recipe_PhotonComputingCore</li>
-		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>700</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
-			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
-					<li>5</li>
-				</productionFactorsUpgraded>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_Upgradable">
-				<levels>
-					<li>
-						<key>1</key>
-						<value>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_Carbyne</item>
-									<amount>80</amount>
-								</li>
-								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
-									<amount>150</amount>
-								</li>
-								<li>
-									<item>ComponentSpacer</item>
-									<amount>12</amount>
-								</li>
-								<li>
-									<item>SSR_QuantumComputingCore</item>
-									<amount>3</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
-								<drawSize>(3,2)</drawSize>
-							</graphicData>
-							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-					<li>
-						<key>2</key>
-						<value>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_FermiMaterial</item>
-									<amount>100</amount>
-								</li>
-								<li>
-									<item>SSR_ExtremeComponent</item>
-									<amount>10</amount>
-								</li>
-								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
-									<amount>3</amount>
-								</li>
-								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
-									<amount>1</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
-								<drawSize>(3,2)</drawSize>
-							</graphicData>
-							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-				</levels>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_Upgrade_ExtraRecipe">
-				<extraRecipe>
-					<li />
-					<li>
-						<li>SSR_Recipe_ArtificialIntelligenceChip</li>
-						<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
-					</li>
-					<li>
-						<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
-						<li>SSR_Recipe_PhotonComputingCore</li>
-					</li>
-				</extraRecipe>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
-		<researchPrerequisites>
-			<li>SSRBasicComputationalScience</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
