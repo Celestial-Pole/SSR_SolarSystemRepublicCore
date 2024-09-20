@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<JobDef>
+	<!--JobDef>
 		<defName>SSR_Job_FillAutobench</defName>
 		<driverClass>FS_SSR.JobDriver_FillAutoBench</driverClass>
 		<reportString>desc</reportString>
@@ -21,14 +21,53 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef-->
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">		
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			</li>
+		</modExtensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>		
+		<tickerType>Normal</tickerType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<modExtensions>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
+		</modExtensions>
+		<comps>
+			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
+		</placeWorkers>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
 		<description>材料合成机是一种先进的工业设备，能够通过精确控制化学反应和物理过程，制造出具有特定属性的复合材料。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -46,9 +85,6 @@
 			<Plasteel>150</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -57,14 +93,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -118,28 +147,12 @@
 			<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
 			<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -253,20 +266,15 @@
 				</extraRecipe>
 			</li>
 		</comps>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicMaterialsScience</li>
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_NumericalControlledMachineTool</defName>
 		<label>数控加工中心</label>
 		<description>数控加工中心是一种高度自动化的机床，能够通过计算机程序乃至人工智能控制进行复杂的金属加工。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -285,9 +293,6 @@
 			<ComponentIndustrial>15</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -296,14 +301,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -459,19 +457,12 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_ShardAnimalPulser</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -571,30 +562,18 @@
 				</extraRecipe>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_IntegratedChipManufacturingMachine</defName>
 		<label>集成化芯片制造机</label>
 		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -623,15 +602,9 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>SSR_Recipe_QuantumComputingCore</li>
@@ -642,19 +615,12 @@
 			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_PhotonComputingCore</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -749,31 +715,15 @@
 				</extraRecipe>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li>
-			<!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicComputationalScience</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
 		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticSlaughterMachine/AutomaticSlaughterMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -792,9 +742,6 @@
 			<ComponentIndustrial>15</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -803,33 +750,19 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>ButcherCorpseFlesh</li>
 			<li>Make_Kibble</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -915,29 +848,17 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_AutomaticSewingMachine</defName>
 		<label>自动缝纫机</label>
 		<description>自动缝纫机是一种高效的缝纫设备，能够自动完成复杂的缝纫任务。它广泛应用于服装制造和纺织品生产。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticSewingMachine/AutomaticSewingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -956,9 +877,6 @@
 			<ComponentIndustrial>15</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -967,14 +885,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -1025,19 +936,12 @@
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_Apparel_KidParka</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_LabCoat</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -1128,29 +1032,17 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticCookingMachine/AutomaticCookingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1169,9 +1061,6 @@
 			<ComponentIndustrial>15</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -1180,14 +1069,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -1212,19 +1094,12 @@
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -1310,29 +1185,15 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_MultifunctionalChemicalSynthesizer</defName>
 		<label>多功能化学合成仪</label>
 		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/MultifunctionalChemicalSynthesizer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1351,9 +1212,6 @@
 			<ComponentIndustrial>15</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -1362,14 +1220,7 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -1390,19 +1241,12 @@
 			<li>Make_MedicineIndustrialBulk</li>
 			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -1488,29 +1332,15 @@
 				</levels>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
 	</ThingDef>
-
-	<ThingDef ParentName="BuildingBase">
+	
+	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_CoalLiquefactionMachine</defName>
 		<label>煤炭液化机</label>
 		<description>煤炭液化机用于将固态煤炭转化为液态燃料，这种转化过程通常涉及高温高压和催化剂，以改变煤炭的化学结构。</description>
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/CoalLiquefactionMachine/CoalLiquefactionMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1529,9 +1359,6 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -1540,47 +1367,25 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>SSR_Recipe_CoalLiquefaction</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<researchPrerequisites>
 			<li>SSRCoalLiquefactionTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
