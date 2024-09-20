@@ -20,7 +20,7 @@ namespace SSR.Effect.Patch
         {
             foreach (CodeInstruction instruction in instructions)
             {
-                if(instruction.Calls(Resources_Load))
+                if (instruction.Calls(Resources_Load))
                 {
                     yield return new CodeInstruction(OpCodes.Call, ShaderDatabase_Load);
                 }
@@ -29,14 +29,18 @@ namespace SSR.Effect.Patch
             yield break;
         }
 
+        private static Dictionary<string, Shader> cachedShader = new Dictionary<string, Shader>();
+
         //反复调用性能开销大，记得加个缓存
         private static Shader Load(string path, Type systemTypeInstance)
         {
             Shader result = (Shader)Resources.Load(path, typeof(Shader));
-            if(result == null)
+            if (result == null)
             {
-                if(path.StartsWith("Materials/")) path = path.Substring(10);
-                
+                if (path.StartsWith("Materials/")) path = path.Substring(10);
+
+                if (cachedShader.ContainsKey(path)) return cachedShader[path];
+
                 List<ModContentPack> runningModsListForReading = LoadedModManager.RunningModsListForReading;
                 foreach (ModContentPack pack in runningModsListForReading)
                 {
@@ -45,15 +49,18 @@ namespace SSR.Effect.Patch
                         result = assetBundle.LoadAsset<Shader>(path);
                         if (result != null && result.isSupported)
                         {
-                            break;
+                            goto FOUND_RESULT;
+                            //break;
                         }
                     }
-                    if (result != null && result.isSupported)
+                    /*if (result != null && result.isSupported)
                     {
                         break;
-                    }
+                    }*/
                 }
             }
+        FOUND_RESULT:
+            cachedShader.Add(path, result);
             return result;
         }
 
