@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 		
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_ConstructUpgradableBuilding</defName>
 		<label>进行建筑升级</label>
 		<giverClass>FS_SSR.Generic.WorkGiver_ConstructUpgradableBuilding</giverClass>
@@ -13,7 +13,7 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
 	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_FillUpgradableBuilding</defName>
@@ -28,6 +28,28 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef-->
+	
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_OperateBuildingGeneric</defName>
+		<label>操作建筑</label>
+		<giverClass>FS_SSR.Generic.WorkGiver_BuildingOperateGeneric</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>操作</verb>
+		<gerund>操作</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<JobDef>
+		<defName>SSR_Job_OperateBuildingGeneric</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_BuildingOperatableGeneric</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 	
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillBuildingGeneric</defName>
@@ -51,25 +73,9 @@
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
 
-	<!-- ==================================== 火力发电站 =====================================-->
-	
-	<WorkGiverDef>
-		<defName>SSR_WorkGiver_Refuel</defName>
-		<label>补充燃料</label>
-		<giverClass>FS_SSR.WorkGiver_RefuelMultiFuel</giverClass>
-		<workType>Hauling</workType>
-		<emergency>false</emergency>
-		<verb>补充燃料</verb>
-		<gerund>补充燃料</gerund>
-		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
-		<priorityInType>1000</priorityInType>
-		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
-
 	<!-- ==================================== 矿井 =====================================-->
 
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_PalmineDeliverMaterial</defName>
 		<label>fill awb</label>
 		<giverClass>FS_SSR.Palmine.WorkGiver_PalMineDeliverMaterial</giverClass>
@@ -81,7 +87,7 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
 	<!-- ==================================== 洗衣机 =====================================-->
 
@@ -96,7 +102,7 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
@@ -110,9 +116,16 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
-
+	
+	<JobDef>
+		<defName>SSR_Job_FillLaundryUnited</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryUnited</driverClass>
+		<reportString>请填写工作描述</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 	<!-- ==================================== 装备整备台 =====================================-->
 
 	<WorkGiverDef>
