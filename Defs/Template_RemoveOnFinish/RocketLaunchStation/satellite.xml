@@ -2,28 +2,6 @@
 <Defs>
 
 	<JobDef>
-		<defName>SSR_Job_ICMRDeliverMaterial</defName>
-		<driverClass>FS_SSR.Generic.JobDriver_ICMRDeliverMaterial</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
-	<WorkGiverDef>
-		<defName>SSR_WorkGiver_ICMRDeliverMaterial</defName>
-		<label>fill awb</label>
-		<giverClass>FS_SSR.Generic.WorkGiver_ICMRDeliverMaterial</giverClass>
-		<workType>Hauling</workType>
-		<emergency>false</emergency>
-		<verb>fill awb...</verb>
-		<gerund>filling awb...</gerund>
-		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
-		<priorityInType>1000</priorityInType>
-		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef>
-
-	<JobDef>
 		<defName>SSR_Job_DeliverSatellite</defName>
 		<driverClass>FS_SSR.Satellite.JobDriver_DeliverSatellite</driverClass>
 		<reportString>desc</reportString>
