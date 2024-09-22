@@ -1483,7 +1483,7 @@
 		</modExtensions>
     </ResearchProjectDef>-->
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRSpaceElevator</defName>
 		<label>太空电梯</label>
 		<description>太空电梯是让物资和人员可以直接从地球表面进入太空的运输系统，这种建筑可以大幅降低太空旅行的成本。</description>
@@ -1500,7 +1500,7 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRShuttleHangar</defName>
 		<label>穿梭机机库</label>
 		<description>穿梭机机库是专为穿梭机设计的太空基础设施，用于在轨维护、补给和停靠。这种机库具备微重力环境下的操作能力，能够支持穿梭机的重复往返任务。</description>
