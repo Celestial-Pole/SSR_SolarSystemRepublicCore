@@ -322,9 +322,9 @@
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_NightGenerator">
-				<basePowerConsumption>-2500</basePowerConsumption>
+				<basePowerConsumption>-2750</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
-				<nightPowerRatio>0.1</nightPowerRatio>
+				<nightPowerRatio>0.3</nightPowerRatio>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -390,9 +390,9 @@
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_NightGenerator">
-				<basePowerConsumption>-3200</basePowerConsumption>
+				<basePowerConsumption>-3500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
-				<nightPowerRatio>0.3</nightPowerRatio>
+				<nightPowerRatio>0.5</nightPowerRatio>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
