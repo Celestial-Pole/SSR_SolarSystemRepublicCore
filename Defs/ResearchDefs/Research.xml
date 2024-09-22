@@ -13,11 +13,113 @@
 	<ResearchProjectDef Name="SSR_ResearchProjectSpacer" Abstract="true">
 		<techLevel>Spacer</techLevel>
 		<tab>SSR_Research</tab>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
+				<alternativeRequires>
+					<li>
+						<li>
+							<item>SSR_QuantumComputingCluster</item>
+							<amount>1</amount><!-- 需要多少 -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
+						</li>
+						<li>
+							<item>SSR_PhotonicComputingCluster</item>
+							<amount>1</amount><!-- 需要多少 -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
+						</li>
+					</li>
+				</alternativeRequires>
+				<requireType>Optional</requireType>
+			</li>
+		</modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef Name="SSR_ResearchProjectUltraBasic" Abstract="true">
+		<techLevel>Ultra</techLevel>
+		<tab>SSR_Research</tab>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
+				<alternativeRequires>
+					<li>
+						<li>
+							<item>SSR_QuantumComputingCluster</item>
+							<amount>1</amount><!-- 需要多少 -->
+							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
+						</li>
+						<li>
+							<item>SSR_PhotonicComputingCluster</item>
+							<amount>1</amount><!-- 需要多少 -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
+						</li>
+					</li>
+					<li>
+						<li>
+							<item>SSR_LHC</item>
+							<amount>1</amount><!-- 需要多少 -->
+							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
+						</li>
+					</li>
+				</alternativeRequires>
+				<requireType>Optional</requireType>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Name="SSR_ResearchProjectUltra" Abstract="true">
 		<techLevel>Ultra</techLevel>
 		<tab>SSR_Research</tab>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
+				<alternativeRequires>
+					<li>
+						<li>
+							<item>SSR_PhotonicComputingCluster</item>
+							<amount>1</amount>
+							<!-- 需要多少 -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID>
+							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel>
+							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique>
+							<!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel>
+							<!-- 处理研究需求时的搜索等级 -->
+						</li>
+					</li>
+					<li>
+						<li>
+							<item>SSR_LHC</item>
+							<amount>1</amount>
+							<!-- 需要多少 -->
+							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID>
+							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<sourceLevel>World</sourceLevel>
+							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
+							<sourceUnique>false</sourceUnique>
+							<!-- 被需求物品是否独特 -->
+							<searchLevel>Map</searchLevel>
+							<!-- 处理研究需求时的搜索等级 -->
+						</li>
+					</li>
+				</alternativeRequires>
+				<requireType>Optional</requireType>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Name="SSR_ResearchProjectArchotech" Abstract="true">
@@ -803,11 +905,12 @@
         <researchViewY>4</researchViewY>
     </ResearchProjectDef> -->
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSRSupercomputer</defName>
 		<label>超级计算机</label>
 		<description>以量子计算机为理论基础所设计的新型超级计算机。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -841,29 +944,6 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
 				<bonus>2</bonus>
 			</li>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -881,31 +961,6 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>8</researchViewX>
 		<researchViewY>1</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -922,31 +977,6 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>8</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -963,34 +993,6 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>8</researchViewX>
 		<researchViewY>2</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
-				<techLevel>2</techLevel>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1007,31 +1009,6 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>9</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1048,31 +1025,6 @@
 		<baseCost>4000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1091,31 +1043,6 @@
 		<baseCost>4000</baseCost>
 		<researchViewX>11</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1132,31 +1059,6 @@
 		<baseCost>2000</baseCost>
 		<researchViewX>9</researchViewX>
 		<researchViewY>0.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1173,31 +1075,6 @@
 		<baseCost>3000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>0.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1215,31 +1092,6 @@
 		<baseCost>3000</baseCost>
 		<researchViewX>11</researchViewX>
 		<researchViewY>0.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1352,38 +1204,6 @@
 				</alternativeRequires>
 				<requireType>Optional</requireType>--> <!-- 只能填Optional或者Mandatory，默认(不填此项)是Optional -->
 			<!--</li>-->
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>	
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount> <!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique> <!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel> <!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<!--<li>	
-						<li>
-							<amount>1</amount>--> <!-- 需要多少 -->
-							<!--<quantityLimitedBuildingID></quantityLimitedBuildingID>--> <!-- 需要物品的id，一般情况是thingdef的defname -->
-							<!--<sourceLevel>World</sourceLevel>--> <!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<!--<sourceUnique>false</sourceUnique>--> <!-- 被需求物品是否独特 -->
-							<!--<searchLevel>World</searchLevel>--> <!-- 处理研究需求时的搜索等级 -->
-					<!--</li>
-					</li>-->
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -1401,31 +1221,6 @@
 		<baseCost>3000</baseCost>
 		<researchViewX>9</researchViewX>
 		<researchViewY>2</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1443,31 +1238,6 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1487,31 +1257,6 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>11</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1618,31 +1363,6 @@
 		<baseCost>4000</baseCost>
 		<researchViewX>9</researchViewX>
 		<researchViewY>2.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1763,7 +1483,7 @@
 		</modExtensions>
     </ResearchProjectDef>-->
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRSpaceElevator</defName>
 		<label>太空电梯</label>
 		<description>太空电梯是让物资和人员可以直接从地球表面进入太空的运输系统，这种建筑可以大幅降低太空旅行的成本。</description>
@@ -1778,34 +1498,9 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>3</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRShuttleHangar</defName>
 		<label>穿梭机机库</label>
 		<description>穿梭机机库是专为穿梭机设计的太空基础设施，用于在轨维护、补给和停靠。这种机库具备微重力环境下的操作能力，能够支持穿梭机的重复往返任务。</description>
@@ -1819,31 +1514,6 @@
 		<baseCost>8500</baseCost>
 		<researchViewX>11</researchViewX>
 		<researchViewY>3</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1861,31 +1531,6 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>3.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1903,31 +1548,6 @@
 		<baseCost>9000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>4</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1945,31 +1565,6 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>4.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -1987,31 +1582,6 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -2029,31 +1599,6 @@
 		<baseCost>10000</baseCost>
 		<researchViewX>10</researchViewX>
 		<researchViewY>5.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
@@ -2140,11 +1685,12 @@
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSRLHC</defName>
 		<label>强子对撞机</label>
 		<description>使用激光尾波加速的强子对撞机，使得强子对撞机的体积得以大幅缩小至殖民地可以接受的水平。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<techLevel>Ultra</techLevel>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -2154,34 +1700,9 @@
 		<baseCost>12000</baseCost>
 		<researchViewX>13</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectUltraBasic">
 		<defName>SSRAdvancedPhysics</defName>
 		<label>高级物理学</label>
 		<description>更高级的物理学体系，能使派系的科技水平提升至极致时代。</description>
@@ -2203,43 +1724,10 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
 				<bonus>3.5</bonus>
 			</li>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectUltraBasic">
 		<defName>SSRAdvancedMaterialsScience</defName>
 		<label>高级材料学</label>
 		<description>完全掌控原子级尺度的物质调控，让我们可以随心创造出所需要的材料。</description>
@@ -2253,44 +1741,9 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>13</researchViewX>
 		<researchViewY>1</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectUltraBasic">
 		<defName>SSRAdvancedComputationalScience</defName>
 		<label>高级计算科学</label>
 		<description>基于光子计算机所设计的新型计算机语言与软硬件架构技术。</description>
@@ -2304,41 +1757,6 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>13</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_QuantumComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>GroupedComputer</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2359,31 +1777,6 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
 				<techLevel>3</techLevel>
 			</li>
-		<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -2402,33 +1795,6 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2445,33 +1811,6 @@
 		<baseCost>23000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2488,33 +1827,6 @@
 		<baseCost>20000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2531,33 +1843,6 @@
 		<baseCost>13000</baseCost>
 		<researchViewX>17</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2574,33 +1859,6 @@
 		<baseCost>20000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>0</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2668,33 +1926,6 @@
 		<baseCost>17000</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2728,33 +1959,6 @@
 		<baseCost>7000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2774,33 +1978,6 @@
 		<baseCost>5000</baseCost>
 		<researchViewX>16</researchViewX>
 		<researchViewY>1.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2885,33 +2062,6 @@
 		<baseCost>1500</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>3</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -2930,33 +2080,6 @@
 		<baseCost>13000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>3</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -3045,33 +2168,6 @@
 		<baseCost>30000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>3.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -3089,33 +2185,6 @@
 		<baseCost>30000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>4</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -3133,33 +2202,6 @@
 		<baseCost>35000</baseCost>
 		<researchViewX>15</researchViewX>
 		<researchViewY>4.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -3177,33 +2219,6 @@
 		<baseCost>30000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>3.5</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
@@ -3221,33 +2236,6 @@
 		<baseCost>30000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>4</researchViewY>
-		<modExtensions>
-			<li Class="FS_SSR.Research.Ext_AlterRequireMapCount">
-				<alternativeRequires>
-					<li>
-						<li>
-							<item>SSR_PhotonicComputingCluster</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-					<li>
-						<li>
-							<item>SSR_LHC</item>
-							<amount>1</amount><!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID><!-- 需要物品的id，一般情况是thingdef的defname -->
-							<sourceLevel>World</sourceLevel><!-- 只能填World或者Map，默认(不填此项)是Optional -->
-							<sourceUnique>false</sourceUnique><!-- 被需求物品是否独特 -->
-							<searchLevel>Map</searchLevel><!-- 处理研究需求时的搜索等级 -->
-						</li>
-					</li>
-				</alternativeRequires>
-				<requireType>Optional</requireType>
-			</li>
-		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
