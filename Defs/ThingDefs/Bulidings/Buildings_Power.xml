@@ -232,6 +232,35 @@
 				<preExplosionSpawnChance>1</preExplosionSpawnChance>
 				<wickTicks>70~150</wickTicks>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_SpecialSteel</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>ComponentIndustrial</item>
+									<amount>3</amount>
+								</li>
+							</materials>
+							<workAmt>100</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(5,5)</drawSize>
+							</graphicData>
+							<requireResearch>SSRWasteGasTreatmentTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
