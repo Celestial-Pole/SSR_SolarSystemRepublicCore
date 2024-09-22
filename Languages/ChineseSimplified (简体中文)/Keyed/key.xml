@@ -27,6 +27,7 @@
 	<SSR_CurrentLayer>当前等级</SSR_CurrentLayer>
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
+	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
 	<SSR_目标品质>目标品质：</SSR_目标品质>
 	<SSR_切换至>切换至：</SSR_切换至>
 	<SSR_没有配方>没有配方：</SSR_没有配方>
@@ -129,5 +130,7 @@
 	
 	<!-- 洗衣机 -->
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
+	
+	
 
 </LanguageData>
