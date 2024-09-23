@@ -1070,6 +1070,7 @@
 				<transmitsPower>true</transmitsPower>
 				<basePowerConsumption>-5000</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_Alias" />
 			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1142,11 +1143,6 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>FS_SSR.TC_LocalWirelessPowerBroadcast</compClass>
-				<transmitsPower>true</transmitsPower>
-				<basePowerConsumption>-5000</basePowerConsumption>
-			</li>
 			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>

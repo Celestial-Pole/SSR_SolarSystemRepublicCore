@@ -2182,14 +2182,14 @@
 		<manualMineralProperties>
 			<li>
 				<def>Silver</def>
-				<workAmout>125</workAmout>
+				<workAmout>7500</workAmout>
 				<yield>20</yield>
 				<value>9</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>SSR_Carbon</def>
-				<workAmout>100</workAmout>
+				<workAmout>6000</workAmout>
 				<yield>75</yield>
 				<value>1.2</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
