@@ -1105,7 +1105,8 @@
 		<graphicData>
 			<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,2.25)</drawOffset>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -1155,7 +1156,7 @@
 				<overlay>
 					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1,1)</drawSize>
+					<drawSize>(7,7)</drawSize>
 					<drawOffset>(0,0,2.25)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
