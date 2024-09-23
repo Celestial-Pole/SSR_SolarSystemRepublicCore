@@ -298,16 +298,16 @@
 		<comps>
 			<!-- Intro -->
 			<li Class="StorytellerCompProperties_ClassicIntro"/>
-			<!-- Home threats -->
+			<!-- 固定袭击 -->
 			<li Class="StorytellerCompProperties_OnOffCycle">
-				<category>ThreatBig</category>
-				<minDaysPassed>11.0</minDaysPassed>
-				<onDays>4.6</onDays>
-				<offDays>6.0</offDays>
-				<minSpacingDays>1.9</minSpacingDays>
-				<numIncidentsRange>1~2</numIncidentsRange>
-				<forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
-				<disallowedTargetTags>
+				<category>ThreatBig</category><!-- 类别为大威胁 -->
+				<minDaysPassed>11.0</minDaysPassed><!-- 游戏运行天数必须大于等于11天才能触发此袭击 -->
+				<onDays>4.6</onDays><!-- 袭击活跃的天数，即袭击发生的频率 -->
+				<offDays>6.0</offDays>  <!-- 袭击不活跃的天数，即袭击间隔 -->
+				<minSpacingDays>1.9</minSpacingDays> <!-- 两次袭击之间的最小间隔天数 -->
+				<numIncidentsRange>1~2</numIncidentsRange><!-- 每次袭击期间可能发生的袭击次数范围 -->
+				<forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed><!-- 在游戏运行天数超过20天之前强制袭击敌人 -->
+				<disallowedTargetTags><!-- 不允许袭击的目标标签 -->
 					<li>Map_RaidBeacon</li>
 				</disallowedTargetTags>
 			</li>
@@ -316,12 +316,12 @@
 					<li>Map_RaidBeacon</li>
 				</allowedTargetTags>
 				<parms>
-					<allowedThreats>Raids</allowedThreats>
+					<allowedThreats>Raids</allowedThreats><!-- 允许的威胁类型，这里是袭击 -->
 					<onDays>1.0</onDays>
 					<offDays>0.5</offDays>
 					<minSpacingDays>0.04</minSpacingDays>
 					<numIncidentsRange>1~2</numIncidentsRange>
-					<minThreatPoints>500</minThreatPoints>
+					<minThreatPoints>500</minThreatPoints><!-- 触发袭击所需的最小威胁点数 -->
 				</parms>
 			</li>
 			<li Class="StorytellerCompProperties_OnOffCycle">
@@ -329,22 +329,22 @@
 				<minDaysPassed>11.0</minDaysPassed>
 				<onDays>4.6</onDays>
 				<offDays>6.0</offDays>
-				<numIncidentsRange>0.2~1</numIncidentsRange>
+				<numIncidentsRange>0.2~1</numIncidentsRange><!-- 每次袭击期间可能发生的袭击次数范围 -->
 				<acceptPercentFactorPerThreatPointsCurve>
 					<points>
-						<li>(800, 1)</li>
-						<li>(2800, 0)</li>
-					</points>
-				</acceptPercentFactorPerThreatPointsCurve>
+						<li>(800, 1)</li><!-- 当威胁点数小于等于800时，接受袭击的概率为100% -->
+						<li>(2800, 0)</li><!-- 当威胁点数大于2800时，接受袭击的概率为0% -->
+					</points><!-- 不确定 -->
+				</acceptPercentFactorPerThreatPointsCurve><!-- 根据威胁点数调整接受袭击的概率曲线 -->
 			</li>
 			<!-- Home misc incidents-->
 			<li Class="StorytellerCompProperties_CategoryMTB">
-				<category>Misc</category>
-				<allowedTargetTags>
+				<category>Misc</category><!-- 类别为杂项 -->
+				<allowedTargetTags><!-- 允许袭击的目标标签 -->
 					<li>Map_PlayerHome</li>
 				</allowedTargetTags>
-				<minDaysPassed>5</minDaysPassed>
-				<mtbDays>4.8</mtbDays>
+				<minDaysPassed>5</minDaysPassed><!-- 游戏运行天数必须大于等于5天才能触发此袭击 -->
+				<mtbDays>4.8</mtbDays><!-- 平均触发时间间隔为4.8天 -->
 			</li>
 			<li Class="StorytellerCompProperties_ShipChunkDrop"/>
 			<li Class="StorytellerCompProperties_Disease">
@@ -357,23 +357,23 @@
 			</li>
 			<!-- Ally/neutral interaction -->
 			<li Class="StorytellerCompProperties_FactionInteraction">
-				<incident>RaidFriendly</incident>
-				<baseIncidentsPerYear>15</baseIncidentsPerYear>
-				<minSpacingDays>0.4</minSpacingDays>
-				<fullAlliesOnly>true</fullAlliesOnly>
+				<incident>RaidFriendly</incident><!-- 事件类型为友好袭击 -->
+				<baseIncidentsPerYear>15</baseIncidentsPerYear><!-- 每年基础事件次数 -->
+				<minSpacingDays>0.4</minSpacingDays><!-- 两次事件之间的最小间隔天数 -->
+				<fullAlliesOnly>true</fullAlliesOnly><!-- 仅当所有盟友都存在时才触发事件 -->
 				<minDanger>High</minDanger>
 			</li>
 			<li Class="StorytellerCompProperties_FactionInteraction">
-				<incident>TraderCaravanArrival</incident>
-				<minDaysPassed>5</minDaysPassed>
-				<baseIncidentsPerYear>5</baseIncidentsPerYear>
-				<minSpacingDays>6</minSpacingDays>
+				<incident>TraderCaravanArrival</incident><!-- 事件类型为商队到达 -->
+				<minDaysPassed>5</minDaysPassed><!-- 游戏运行天数必须大于等于5天才能触发此事件 -->
+				<baseIncidentsPerYear>5</baseIncidentsPerYear><!-- 每年基础事件次数 -->
+				<minSpacingDays>6</minSpacingDays><!-- 两次事件之间的最小间隔天数 -->
 				<allowedTargetTags>
 					<li>Map_PlayerHome</li>
 				</allowedTargetTags>
 			</li>
 			<li Class="StorytellerCompProperties_FactionInteraction">
-				<incident>VisitorGroup</incident>
+				<incident>VisitorGroup</incident><!-- 事件类型为访客组 -->
 				<minDaysPassed>3</minDaysPassed>
 				<baseIncidentsPerYear>4</baseIncidentsPerYear>
 				<minSpacingDays>5</minSpacingDays>
@@ -382,7 +382,7 @@
 				</allowedTargetTags>
 			</li>
 			<li Class="StorytellerCompProperties_FactionInteraction">
-				<incident>TravelerGroup</incident>
+				<incident>TravelerGroup</incident><!-- 事件类型为旅行者组 -->
 				<minDaysPassed>1</minDaysPassed>
 				<baseIncidentsPerYear>6</baseIncidentsPerYear>
 				<minSpacingDays>1</minSpacingDays>
