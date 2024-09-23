@@ -19,7 +19,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 	</ThingDef>
 
-	<ThingDef ParentName="PowerConduit">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerConduit</defName>
 		<label>安全线缆</label>
 		<description>安全线缆</description>
@@ -48,6 +48,12 @@
 		<researchPrerequisites>
 			<li>SSRBasicPowerTechnology</li>
 		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
