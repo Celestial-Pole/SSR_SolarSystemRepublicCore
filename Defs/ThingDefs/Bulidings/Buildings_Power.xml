@@ -64,7 +64,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PortableGenerator</defName>
 		<label>便携式发电机</label>
 		<description>便携式发电机</description>
@@ -154,7 +154,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_ThermalPowerPlant</defName>
 		<label>火力发电站</label>
 		<description>火力发电站</description>
@@ -288,7 +288,7 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelSolarGenerator</defName>
 		<label>中级太阳能板</label>
 		<description>中级太阳能板</description>
@@ -347,7 +347,7 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
 		<description>高级太阳能板</description>
@@ -406,7 +406,7 @@
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机</description>
@@ -463,7 +463,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
 		<description>高级垂直风力发电机</description>
@@ -520,7 +520,7 @@
 		</placeWorkers>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
 		<description>中级地热发电机</description>
@@ -585,7 +585,7 @@
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
 		<description>高级地热发电机</description>
@@ -650,7 +650,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
 		<description>核裂变反应堆</description>
@@ -742,7 +742,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
 		<description>核聚变反应堆</description>
@@ -835,7 +835,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
 		<description>小型核聚变反应堆</description>
@@ -927,7 +927,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
 		<description>反物质反应堆</description>
@@ -1017,7 +1017,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
 		<description>无线输电塔</description>
@@ -1096,7 +1096,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerReceiverTower</defName>
 		<label>电力接收塔</label>
 		<description>电力接收塔</description>
