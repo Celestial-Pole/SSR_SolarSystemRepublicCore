@@ -152,7 +152,7 @@
 		</recipes>
 		<comps>
 			<li Class="FS_SSR.TCP_PowerCostByLevel">
-				<compClass>CompPowerTrader</compClass>
+				<compClass>TC_PowerCostByLevel</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 				<powerConsumptionByLevel>
