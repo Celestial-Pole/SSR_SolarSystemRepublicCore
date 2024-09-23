@@ -304,7 +304,7 @@
 				<minDaysPassed>7.0</minDaysPassed><!-- 游戏运行天数必须大于等于11天才能触发此袭击 -->
 				<onDays>3</onDays><!-- 袭击活跃的天数，即袭击发生的频率 -->
 				<offDays>3.5</offDays>  <!-- 袭击不活跃的天数，即袭击间隔 -->
-				<minSpacingDays>1.5</minSpacingDays> <!-- 两次袭击之间的最小间隔天数 -->
+				<minSpacingDays>1.2</minSpacingDays> <!-- 两次袭击之间的最小间隔天数 -->
 				<numIncidentsRange>1~2</numIncidentsRange><!-- 每次袭击期间可能发生的袭击次数范围 -->
 				<forceRaidEnemyBeforeDaysPassed>7</forceRaidEnemyBeforeDaysPassed><!-- 在游戏运行天数超过7天之前强制袭击敌人 -->
 				<disallowedTargetTags><!-- 不允许袭击的目标标签 -->
