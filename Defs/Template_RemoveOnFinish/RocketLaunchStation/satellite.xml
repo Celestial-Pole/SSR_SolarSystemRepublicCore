@@ -167,9 +167,8 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>Production</designationCategory>
+		<!--<designationCategory>Production</designationCategory>-->
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<pathCost>50</pathCost>
@@ -177,14 +176,11 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<comps>
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
 		</comps>
 		<allowedRocketCapacity>6</allowedRocketCapacity>
-	</ThingDef>-->
+	</ThingDef>
 	
 	<Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_SpaceElevator</defName>
