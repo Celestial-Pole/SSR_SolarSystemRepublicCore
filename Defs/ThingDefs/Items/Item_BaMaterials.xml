@@ -17,6 +17,9 @@
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>
         <stuffProps>
+			<statFactors>
+				<Flammability>0</Flammability>
+			</statFactors>
             <commonality>0</commonality>
             <categories>
                 <li>Metallic</li>
