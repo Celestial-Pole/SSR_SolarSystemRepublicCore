@@ -40,7 +40,7 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
 	<JobDef>
@@ -62,7 +62,7 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
 	<JobDef>
@@ -139,7 +139,7 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
 </Defs>

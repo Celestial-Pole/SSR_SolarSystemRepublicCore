@@ -16,7 +16,6 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
