@@ -1,12 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="PowerConduit">
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerConduit</defName>
 		<label>安全线缆</label>
 		<description>安全线缆</description>
 		<graphicData>
 			<texPath>Things/Building/Power/PowerConduit/PowerConduit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Transmitter</linkType>
+			<linkFlags>
+				<li>PowerConduit</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Power/PowerConduit/PowerConduit-Icon</uiIconPath>
 		<uiIconScale>0.7</uiIconScale>
@@ -24,22 +49,21 @@
 		<costList>
 			<Steel>1</Steel>
 		</costList>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<placeWorkers>
 			<li>PlaceWorker_Conduit</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSRBasicPowerTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
 			</li>
-		</modExtensions>
+		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PortableGenerator</defName>
 		<label>便携式发电机</label>
 		<description>便携式发电机</description>
@@ -61,7 +85,6 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -72,6 +95,7 @@
 			<WorkToBuild>20000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
+			<Mass>20</Mass>
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(1,1)</size>
@@ -121,23 +145,15 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRBasicPowerTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelSolarGenerator</defName>
 		<label>中级太阳能板</label>
 		<description>中级太阳能板</description>
@@ -157,7 +173,6 @@
 		</graphicData>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -188,8 +203,6 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -197,15 +210,9 @@
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
 		<description>高级太阳能板</description>
@@ -225,7 +232,6 @@
 		</graphicData>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -256,8 +262,6 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -265,15 +269,9 @@
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机</description>
@@ -292,16 +290,13 @@
 			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>3000</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2520</uiOrder>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -331,15 +326,9 @@
 		<researchPrerequisites>
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
 		<description>高级垂直风力发电机</description>
@@ -358,16 +347,13 @@
 			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>3000</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2520</uiOrder>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -393,19 +379,13 @@
 		<researchPrerequisites>
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
 			<li>FS_SSR.PW_PowerPlantWind</li>
 		</placeWorkers>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
 		<description>中级地热发电机</description>
@@ -423,7 +403,6 @@
 				<rect>(0.3,0,5.4,6)</rect>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -455,7 +434,6 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
@@ -470,15 +448,9 @@
 			<li>SSRMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
 		<description>高级地热发电机</description>
@@ -496,7 +468,6 @@
 				<rect>(0.3,0,5.4,6)</rect>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -528,7 +499,6 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
@@ -543,15 +513,9 @@
 			<li>SSRAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
 		<description>核裂变反应堆</description>
@@ -573,7 +537,6 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -636,22 +599,15 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRNuclearPhysics</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
 		<description>核聚变反应堆</description>
@@ -673,7 +629,6 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -737,22 +692,15 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
 		<description>小型核聚变反应堆</description>
@@ -774,7 +722,6 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -837,23 +784,15 @@
 				<wickTicks>70~150</wickTicks>
 			</li>
 		</comps>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRMiniaturizationOfNuclearPower</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
 		<description>反物质反应堆</description>
@@ -875,7 +814,6 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -893,9 +831,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_FermiMaterial>500</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
-			<SSR_AdvancedArtificialIntelligenceChip>300</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_FermiMaterial>2000</SSR_FermiMaterial>
+			<SSR_ExtremeComponent>30</SSR_ExtremeComponent>
+			<SSR_AdvancedArtificialIntelligenceChip>10</SSR_AdvancedArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -936,22 +874,15 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SSRAntimatterApplicationsTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
 		<description>无线输电塔</description>
@@ -975,15 +906,13 @@
 		<uiIconPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster</uiIconPath>
 		<size>(5,5)</size>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>36000</WorkToBuild>
@@ -1006,6 +935,7 @@
 				<transmitsPower>true</transmitsPower>
 				<basePowerConsumption>-5000</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_Alias" />
 			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1030,13 +960,79 @@
 		<researchPrerequisites>
 			<li>SSRMedium-levelPowerTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
+
+	<!--<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_PowerReceiverTower</defName>
+		<label>电力接收塔</label>
+		<description>电力接收塔</description>
+		<thingClass>Building</thingClass>
+		<tickerType>Long</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,2.25)</drawOffset>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower</uiIconPath>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<SSR_FermiMaterial>700</SSR_FermiMaterial>
+			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+		</costList>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<li Class="FS_SSR.TCP_GlobalPowerReceiver" />
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				<overlay>
+					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0,0,2.25)</drawOffset>
+					<shadowData>
+						<volume>(0.6, 1.0, 4.2)</volume>
+						<offset>(-0.1,0,-0.08)</offset>
+					</shadowData>
+				</overlay>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>-->
 
 	<!--  原版风力发电
   <ThingDef ParentName="BuildingBase">
