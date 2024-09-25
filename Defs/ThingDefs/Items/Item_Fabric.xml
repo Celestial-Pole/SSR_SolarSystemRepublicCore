@@ -67,7 +67,7 @@
         </graphicData>
         <statBases>
             <StuffPower_Armor_Sharp>4.5</StuffPower_Armor_Sharp>
-            <StuffPower_Armor_Blunt>125</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Blunt>1.25</StuffPower_Armor_Blunt>
             <StuffPower_Armor_Heat>5</StuffPower_Armor_Heat>
             <StuffPower_Insulation_Cold>45</StuffPower_Insulation_Cold>
             <StuffPower_Insulation_Heat>45</StuffPower_Insulation_Heat>
