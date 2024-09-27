@@ -1759,7 +1759,7 @@
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectUltraBasic">
 		<defName>SSRAdvancedManufacturingTechnology</defName>
 		<label>高级制造技术</label>
 		<description>利用原子级精度的材料处理技术，自动化机器得以以极高的效率和几乎为零的误差生产一切物品。</description>

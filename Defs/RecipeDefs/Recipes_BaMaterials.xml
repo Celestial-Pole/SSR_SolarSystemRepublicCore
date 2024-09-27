@@ -154,8 +154,8 @@
 	<RecipeDef>
 		<defName>SSR_Recipe_TenStandardConstructionElement</defName>
 		<label>制造通用构件 x10</label>
-		<description>制造十件通用构件。</description>
-		<jobString>正在制造十件通用构件。</jobString>
+		<description>制造十块通用构件。</description>
+		<jobString>正在制造十块通用构件。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -205,8 +205,8 @@
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredStandardConstructionElement</defName>
 		<label>制造通用构件 x100</label>
-		<description>制造一百件通用构件。</description>
-		<jobString>正在制造一百件通用构件。</jobString>
+		<description>制造一百块通用构件。</description>
+		<jobString>正在制造一百块通用构件。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>

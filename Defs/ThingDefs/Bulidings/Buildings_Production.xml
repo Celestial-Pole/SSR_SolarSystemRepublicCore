@@ -131,9 +131,17 @@
 			<li>SSR_Recipe_TenSpecialSteel</li>
 			<li>SSR_Recipe_HundredSpecialSteel</li>
 			<li>SSR_Recipe_PrecisionLens</li>
+			<li>SSR_Recipe_FivePrecisionLens</li>
+			<li>SSR_Recipe_TenPrecisionLens</li>
 			<li>SSR_Recipe_SuperconductingMaterial</li>
+			<li>SSR_Recipe_FiveSuperconductingMaterial</li>
+			<li>SSR_Recipe_TenSuperconductingMaterial</li>
 			<li>SSR_Recipe_StrongElectromagnet</li>
+			<li>SSR_Recipe_FiveStrongElectromagnet</li>
+			<li>SSR_Recipe_TenStrongElectromagnet</li>
 			<li>SSR_Recipe_NuclearFissionFuelRod</li>
+			<li>SSR_Recipe_FiveNuclearFissionFuelRod</li>
+			<li>SSR_Recipe_TenNuclearFissionFuelRod</li>
 			<!--tech level 2-->
 			<li>SSR_Recipe_Carbyne</li>
 			<li>SSR_Recipe_TenCarbyne</li>
@@ -142,19 +150,31 @@
 			<li>SSR_Recipe_TenNanoandMicroMechanicalComposite</li>
 			<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
 			<li>SSR_Recipe_HighDensityBattery</li>
+			<li>SSR_Recipe_FiveHighDensityBattery</li>
+			<li>SSR_Recipe_TenHighDensityBattery</li>
 			<li>SSR_Recipe_HighenergyLaserEmitter</li>
+			<li>SSR_Recipe_FiveHighenergyLaserEmitter</li>
+			<li>SSR_Recipe_TenHighenergyLaserEmitter</li>
 			<!--tech level 3-->
 			<li>SSR_Recipe_FermiMaterial</li>
 			<li>SSR_Recipe_TenFermiMaterial</li>
 			<li>SSR_Recipe_HundredFermiMaterial</li>
 			<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+			<li>SSR_Recipe_FiveMiniatureNuclearFusionDevice</li>
+			<li>SSR_Recipe_TenMiniatureNuclearFusionDevice</li>
 			<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
+			<li>SSR_Recipe_FiveHighenergyParticleConfinementDevice</li>
+			<li>SSR_Recipe_TenHighenergyParticleConfinementDevice</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1000</li>
+					<li>1500</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -257,14 +277,22 @@
 						<li>SSR_Recipe_TenNanoandMicroMechanicalComposite</li>
 						<li>SSR_Recipe_HundredNanoandMicroMechanicalComposite</li>
 						<li>SSR_Recipe_HighDensityBattery</li>
+						<li>SSR_Recipe_FiveHighDensityBattery</li>
+						<li>SSR_Recipe_TenHighDensityBattery</li>
 						<li>SSR_Recipe_HighenergyLaserEmitter</li>
+						<li>SSR_Recipe_FiveHighenergyLaserEmitter</li>
+						<li>SSR_Recipe_TenHighenergyLaserEmitter</li>
 					</li>
 					<li>
 						<li>SSR_Recipe_FermiMaterial</li>
 						<li>SSR_Recipe_TenFermiMaterial</li>
 						<li>SSR_Recipe_HundredFermiMaterial</li>
 						<li>SSR_Recipe_MiniatureNuclearFusionDevice</li>
+						<li>SSR_Recipe_FiveMiniatureNuclearFusionDevice</li>
+						<li>SSR_Recipe_TenMiniatureNuclearFusionDevice</li>
 						<li>SSR_Recipe_HighenergyParticleConfinementDevice</li>
+						<li>SSR_Recipe_FiveHighenergyParticleConfinementDevice</li>
+						<li>SSR_Recipe_TenHighenergyParticleConfinementDevice</li>
 					</li>
 				</extraRecipe>
 			</li>
@@ -311,9 +339,17 @@
 			<!-- 其他 -->
 			<li>ButcherCorpseMechanoid</li>
 			<li>Make_ComponentIndustrial</li>
+			<li>SSR_Recipe_FiveComponentIndustrial</li>
+			<li>SSR_Recipe_TenComponentIndustrial</li>
 			<li>Make_ComponentSpacer</li>
+			<li>SSR_Recipe_FiveComponentSpacer</li>
+			<li>SSR_Recipe_TenComponentSpacer</li>
 			<li>SSR_Recipe_ExtremeComponent</li>
+			<li>SSR_Recipe_FiveExtremeComponent</li>
+			<li>SSR_Recipe_TenExtremeComponent</li>
 			<li>SSR_Recipe_ReinforcedBarrel</li>
+			<li>SSR_Recipe_FiveReinforcedBarrel</li>
+			<li>SSR_Recipe_TenReinforcedBarrel</li>
 			<!-- 弹药 -->
 			<li>SSR_Recipe_Shell_HighExplosive</li>
 			<li>SSR_Recipe_Shell_Incendiary</li>
@@ -561,6 +597,8 @@
 					<li />
 					<li>
 						<li>SSR_Recipe_ExtremeComponent</li>
+						<li>SSR_Recipe_FiveExtremeComponent</li>
+						<li>SSR_Recipe_TenExtremeComponent</li>
 					</li>
 				</extraRecipe>
 			</li>
@@ -611,12 +649,22 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>SSR_Recipe_QuantumComputingCore</li>
+			<li>SSR_Recipe_FiveQuantumComputingCore</li>
+			<li>SSR_Recipe_TenQuantumComputingCore</li>
 			<!--tech level 2-->
 			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_FiveArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_TenArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+			<li>SSR_Recipe_FiveIntegratedQuantumComputingFramework</li>
+			<li>SSR_Recipe_TenIntegratedQuantumComputingFramework</li>
 			<!--tech level 3-->
 			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_FiveAdvancedArtificialIntelligenceChip</li>
+			<li>SSR_Recipe_TenAdvancedArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_PhotonComputingCore</li>
+			<li>SSR_Recipe_FivePhotonComputingCore</li>
+			<li>SSR_Recipe_TenPhotonComputingCore</li>
 		</recipes>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -665,7 +713,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSRMedium-levelComputationalScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -698,7 +746,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSRAdvancedComputationalScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -709,11 +757,19 @@
 					<li />
 					<li>
 						<li>SSR_Recipe_ArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_FiveArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_TenArtificialIntelligenceChip</li>
 						<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
+						<li>SSR_Recipe_FiveIntegratedQuantumComputingFramework</li>
+						<li>SSR_Recipe_TenIntegratedQuantumComputingFramework</li>
 					</li>
 					<li>
 						<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_FiveAdvancedArtificialIntelligenceChip</li>
+						<li>SSR_Recipe_TenAdvancedArtificialIntelligenceChip</li>
 						<li>SSR_Recipe_PhotonComputingCore</li>
+						<li>SSR_Recipe_FivePhotonComputingCore</li>
+						<li>SSR_Recipe_TenPhotonComputingCore</li>
 					</li>
 				</extraRecipe>
 			</li>
