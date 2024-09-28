@@ -196,7 +196,11 @@
 					<li>1</li>					<!--2级倍率-->
 				</researchSpdFactorCGL>
 			</li>
-
+			<li Class="FS_SSR.Generic.TCP_Limited">
+				<SSR_ID>SSR_PhotonicComputingCluster</SSR_ID><!--在计算数量时使用的id，无此项默认使用defname，重名会视为同一个东西-->
+				<unique>false</unique><!--是否唯一-->
+				<limitLevel>World</limitLevel><!--计数等级，只能填World或者Map-->
+			</li>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
