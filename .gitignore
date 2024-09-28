@@ -5,7 +5,7 @@
 **/BUILD_*/
 **/obj/
 **/Temp/
-**/AB_Pack/
+# **/AB_Pack/
 **/Library/
 **/.vs/
 **/log/

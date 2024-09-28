@@ -18,7 +18,7 @@ namespace Assets.Editor
         [MenuItem("Assets/Build All Asset Bundles")]
         public static void BuildAllAB() {
             // 打包AB输出路径
-            string strABOutPAthDir = "AB_Pack";
+            string strABOutPAthDir = "../../AssetBundles";
 
             // 获取“StreamingAssets”文件夹路径（不一定这个文件夹，可自定义）
             // strABOutPAthDir = Application.streamingAssetsPath;
@@ -28,7 +28,7 @@ namespace Assets.Editor
             {
                 Directory.CreateDirectory(strABOutPAthDir);
             }
-            strABOutPAthDir = "AB_Pack/Windows";
+            strABOutPAthDir = "../../AssetBundles/Windows";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
@@ -45,7 +45,7 @@ namespace Assets.Editor
                 }
             }
 
-            strABOutPAthDir = "AB_Pack/Linux";
+            strABOutPAthDir = "../../AssetBundles/Linux";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
@@ -62,7 +62,7 @@ namespace Assets.Editor
                 }
             }
 
-            strABOutPAthDir = "AB_Pack/MacOS";
+            strABOutPAthDir = "../../AssetBundles/MacOS";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
