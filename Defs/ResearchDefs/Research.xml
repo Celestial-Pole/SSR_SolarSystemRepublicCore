@@ -401,7 +401,7 @@
         </prerequisites>
         <baseCost>5000</baseCost>
         <researchViewX>4</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
