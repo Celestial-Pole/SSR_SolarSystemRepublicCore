@@ -1055,7 +1055,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSRBasicComputationalScience</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
