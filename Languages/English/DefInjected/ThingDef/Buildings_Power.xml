@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 高级地热发电机 -->
+  <SSR_AdvancedGeothermalGenerator.label>TODO</SSR_AdvancedGeothermalGenerator.label>
+  <!-- EN: 高级地热发电机 -->
+  <SSR_AdvancedGeothermalGenerator.description>TODO</SSR_AdvancedGeothermalGenerator.description>
+  
+  <!-- EN: 高级太阳能板 -->
+  <SSR_AdvancedSolarGenerator.label>TODO</SSR_AdvancedSolarGenerator.label>
+  <!-- EN: 高级太阳能板 -->
+  <SSR_AdvancedSolarGenerator.description>TODO</SSR_AdvancedSolarGenerator.description>
+  
+  <!-- EN: 高级垂直风力发电机 -->
+  <SSR_AdvancedVerticalAxisWindTurbine.label>TODO</SSR_AdvancedVerticalAxisWindTurbine.label>
+  <!-- EN: 高级垂直风力发电机 -->
+  <SSR_AdvancedVerticalAxisWindTurbine.description>TODO</SSR_AdvancedVerticalAxisWindTurbine.description>
+  
+  <!-- EN: 反物质反应堆 -->
+  <SSR_AntimatterReactor.label>TODO</SSR_AntimatterReactor.label>
+  <!-- EN: 反物质反应堆 -->
+  <SSR_AntimatterReactor.description>TODO</SSR_AntimatterReactor.description>
+  
+  <!-- EN: 中级地热发电机 -->
+  <SSR_Medium-levelGeothermalGenerator.label>TODO</SSR_Medium-levelGeothermalGenerator.label>
+  <!-- EN: 中级地热发电机 -->
+  <SSR_Medium-levelGeothermalGenerator.description>TODO</SSR_Medium-levelGeothermalGenerator.description>
+  
+  <!-- EN: 中级太阳能板 -->
+  <SSR_Medium-levelSolarGenerator.label>TODO</SSR_Medium-levelSolarGenerator.label>
+  <!-- EN: 中级太阳能板 -->
+  <SSR_Medium-levelSolarGenerator.description>TODO</SSR_Medium-levelSolarGenerator.description>
+  
+  <!-- EN: 中级垂直风力发电机 -->
+  <SSR_Medium-levelVerticalAxisWindTurbine.label>TODO</SSR_Medium-levelVerticalAxisWindTurbine.label>
+  <!-- EN: 中级垂直风力发电机 -->
+  <SSR_Medium-levelVerticalAxisWindTurbine.description>TODO</SSR_Medium-levelVerticalAxisWindTurbine.description>
+  
+  <!-- EN: 核裂变反应堆 -->
+  <SSR_NuclearFissionReactor.label>TODO</SSR_NuclearFissionReactor.label>
+  <!-- EN: 核裂变反应堆 -->
+  <SSR_NuclearFissionReactor.description>TODO</SSR_NuclearFissionReactor.description>
+  
+  <!-- EN: 核聚变反应堆 -->
+  <SSR_NuclearFusionReactor.label>TODO</SSR_NuclearFusionReactor.label>
+  <!-- EN: 核聚变反应堆 -->
+  <SSR_NuclearFusionReactor.description>TODO</SSR_NuclearFusionReactor.description>
+  
+  <!-- EN: 便携式发电机 -->
+  <SSR_PortableGenerator.label>TODO</SSR_PortableGenerator.label>
+  <!-- EN: 便携式发电机 -->
+  <SSR_PortableGenerator.description>TODO</SSR_PortableGenerator.description>
+  
+  <!-- EN: 安全线缆 -->
+  <SSR_PowerConduit.label>TODO</SSR_PowerConduit.label>
+  <!-- EN: 安全线缆 -->
+  <SSR_PowerConduit.description>TODO</SSR_PowerConduit.description>
+  
+  <!-- EN: 电力接收塔 -->
+  <SSR_PowerReceiverTower.label>TODO</SSR_PowerReceiverTower.label>
+  <!-- EN: 电力接收塔 -->
+  <SSR_PowerReceiverTower.description>TODO</SSR_PowerReceiverTower.description>
+  
+  <!-- EN: 小型核聚变反应堆 -->
+  <SSR_Small-scaleNuclearFusionReactor.label>TODO</SSR_Small-scaleNuclearFusionReactor.label>
+  <!-- EN: 小型核聚变反应堆 -->
+  <SSR_Small-scaleNuclearFusionReactor.description>TODO</SSR_Small-scaleNuclearFusionReactor.description>
+  
+  <!-- EN: 火力发电站 -->
+  <SSR_ThermalPowerPlant.label>TODO</SSR_ThermalPowerPlant.label>
+  <!-- EN: 火力发电站 -->
+  <SSR_ThermalPowerPlant.description>TODO</SSR_ThermalPowerPlant.description>
+  
+  <!-- EN: 无线输电塔 -->
+  <SSR_WirelessPowerBroadcaster.label>TODO</SSR_WirelessPowerBroadcaster.label>
+  <!-- EN: 无线输电塔 -->
+  <SSR_WirelessPowerBroadcaster.description>TODO</SSR_WirelessPowerBroadcaster.description>
+  
+</LanguageData>

@@ -1,95 +1,179 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- CN: 制造装甲钢 -->
-  <SSR_Recipe_ArmourSteel.label>TODO</SSR_Recipe_ArmourSteel.label>
-  <!-- CN: 制造装甲钢。 -->
-  <SSR_Recipe_ArmourSteel.description>TODO</SSR_Recipe_ArmourSteel.description>
-  <!-- CN: 正在制造装甲钢。 -->
-  <SSR_Recipe_ArmourSteel.jobString>TODO</SSR_Recipe_ArmourSteel.jobString>
+  <!-- EN: 制造碳炔 -->
+  <SSR_Recipe_Carbyne.label>TODO</SSR_Recipe_Carbyne.label>
+  <!-- EN: 制造碳炔。 -->
+  <SSR_Recipe_Carbyne.description>TODO</SSR_Recipe_Carbyne.description>
+  <!-- EN: 正在制造碳炔。 -->
+  <SSR_Recipe_Carbyne.jobString>TODO</SSR_Recipe_Carbyne.jobString>
   
-  <!-- CN: 进行煤炭液化 -->
+  <!-- EN: 进行煤炭液化 -->
   <SSR_Recipe_CoalLiquefaction.label>TODO</SSR_Recipe_CoalLiquefaction.label>
-  <!-- CN: 进行煤炭液化。 -->
+  <!-- EN: 进行煤炭液化。 -->
   <SSR_Recipe_CoalLiquefaction.description>TODO</SSR_Recipe_CoalLiquefaction.description>
-  <!-- CN: 正在进行煤炭液化。 -->
+  <!-- EN: 正在进行煤炭液化。 -->
   <SSR_Recipe_CoalLiquefaction.jobString>TODO</SSR_Recipe_CoalLiquefaction.jobString>
   
-  <!-- CN: 制造费米材料 -->
+  <!-- EN: 制造费米材料 x10 -->
   <SSR_Recipe_FermiMaterial.label>TODO</SSR_Recipe_FermiMaterial.label>
-  <!-- CN: 制造费米材料。 -->
+  <!-- EN: 制造十单位费米材料。 -->
   <SSR_Recipe_FermiMaterial.description>TODO</SSR_Recipe_FermiMaterial.description>
-  <!-- CN: 正在制造费米材料。 -->
+  <!-- EN: 正在制造十单位费米材料。 -->
   <SSR_Recipe_FermiMaterial.jobString>TODO</SSR_Recipe_FermiMaterial.jobString>
   
-  <!-- CN: 制造装甲钢 x100 -->
-  <SSR_Recipe_HundredArmourSteel.label>TODO</SSR_Recipe_HundredArmourSteel.label>
-  <!-- CN: 制造一百块装甲钢。 -->
-  <SSR_Recipe_HundredArmourSteel.description>TODO</SSR_Recipe_HundredArmourSteel.description>
-  <!-- CN: 正在制造一百块装甲钢。 -->
-  <SSR_Recipe_HundredArmourSteel.jobString>TODO</SSR_Recipe_HundredArmourSteel.jobString>
+  <!-- EN: 制作玻璃 -->
+  <SSR_Recipe_Glass.label>TODO</SSR_Recipe_Glass.label>
+  <!-- EN: 制作玻璃。 -->
+  <SSR_Recipe_Glass.description>TODO</SSR_Recipe_Glass.description>
+  <!-- EN: 正在制作玻璃。 -->
+  <SSR_Recipe_Glass.jobString>TODO</SSR_Recipe_Glass.jobString>
   
-  <!-- CN: 制造费米材料 x100 -->
+  <!-- EN: 制造石墨烯 -->
+  <SSR_Recipe_Graphene.label>TODO</SSR_Recipe_Graphene.label>
+  <!-- EN: 制造石墨烯。 -->
+  <SSR_Recipe_Graphene.description>TODO</SSR_Recipe_Graphene.description>
+  <!-- EN: 正在制造石墨烯。 -->
+  <SSR_Recipe_Graphene.jobString>TODO</SSR_Recipe_Graphene.jobString>
+  
+  <!-- EN: 制造碳炔 x100 -->
+  <SSR_Recipe_HundredCarbyne.label>TODO</SSR_Recipe_HundredCarbyne.label>
+  <!-- EN: 制造一百块碳炔。 -->
+  <SSR_Recipe_HundredCarbyne.description>TODO</SSR_Recipe_HundredCarbyne.description>
+  <!-- EN: 正在制造一百块碳炔。 -->
+  <SSR_Recipe_HundredCarbyne.jobString>TODO</SSR_Recipe_HundredCarbyne.jobString>
+  
+  <!-- EN: 制造费米材料 x1000 -->
   <SSR_Recipe_HundredFermiMaterial.label>TODO</SSR_Recipe_HundredFermiMaterial.label>
-  <!-- CN: 制造一百单位费米材料。 -->
+  <!-- EN: 制造一千单位费米材料。 -->
   <SSR_Recipe_HundredFermiMaterial.description>TODO</SSR_Recipe_HundredFermiMaterial.description>
-  <!-- CN: 正在制造一百单位费米材料。 -->
+  <!-- EN: 正在制造一千单位费米材料。 -->
   <SSR_Recipe_HundredFermiMaterial.jobString>TODO</SSR_Recipe_HundredFermiMaterial.jobString>
   
-  <!-- CN: 制造纳米微械复材 x100 -->
+  <!-- EN: 制作玻璃 x100 -->
+  <SSR_Recipe_HundredGlass.label>TODO</SSR_Recipe_HundredGlass.label>
+  <!-- EN: 制作一百单位玻璃。 -->
+  <SSR_Recipe_HundredGlass.description>TODO</SSR_Recipe_HundredGlass.description>
+  <!-- EN: 正在制作一百单位玻璃。 -->
+  <SSR_Recipe_HundredGlass.jobString>TODO</SSR_Recipe_HundredGlass.jobString>
+  
+  <!-- EN: 制造石墨烯 x100 -->
+  <SSR_Recipe_HundredGraphene.label>TODO</SSR_Recipe_HundredGraphene.label>
+  <!-- EN: 制造一百块石墨烯。 -->
+  <SSR_Recipe_HundredGraphene.description>TODO</SSR_Recipe_HundredGraphene.description>
+  <!-- EN: 正在制造一百块石墨烯。 -->
+  <SSR_Recipe_HundredGraphene.jobString>TODO</SSR_Recipe_HundredGraphene.jobString>
+  
+  <!-- EN: 制造纳米微械复材 x4000 -->
   <SSR_Recipe_HundredNanoandMicroMechanicalComposite.label>TODO</SSR_Recipe_HundredNanoandMicroMechanicalComposite.label>
-  <!-- CN: 制造一百单位纳米微械复材。 -->
+  <!-- EN: 制造四千单位纳米微械复材。 -->
   <SSR_Recipe_HundredNanoandMicroMechanicalComposite.description>TODO</SSR_Recipe_HundredNanoandMicroMechanicalComposite.description>
-  <!-- CN: 正在制造一百单位纳米微械复材。 -->
+  <!-- EN: 正在制造四千单位纳米微械复材。 -->
   <SSR_Recipe_HundredNanoandMicroMechanicalComposite.jobString>TODO</SSR_Recipe_HundredNanoandMicroMechanicalComposite.jobString>
   
-  <!-- CN: 制造通用构件 x100 -->
+  <!-- EN: 制造纳米织物 x100 -->
+  <SSR_Recipe_HundredNanofabrics.label>TODO</SSR_Recipe_HundredNanofabrics.label>
+  <!-- EN: 制造一百块纳米织物。 -->
+  <SSR_Recipe_HundredNanofabrics.description>TODO</SSR_Recipe_HundredNanofabrics.description>
+  <!-- EN: 正在制造一百块纳米织物。 -->
+  <SSR_Recipe_HundredNanofabrics.jobString>TODO</SSR_Recipe_HundredNanofabrics.jobString>
+  
+  <!-- EN: 制造特种钢 x100 -->
+  <SSR_Recipe_HundredSpecialSteel.label>TODO</SSR_Recipe_HundredSpecialSteel.label>
+  <!-- EN: 制造一百块特种钢。 -->
+  <SSR_Recipe_HundredSpecialSteel.description>TODO</SSR_Recipe_HundredSpecialSteel.description>
+  <!-- EN: 正在制造一百块特种钢。 -->
+  <SSR_Recipe_HundredSpecialSteel.jobString>TODO</SSR_Recipe_HundredSpecialSteel.jobString>
+  
+  <!-- EN: 制造通用构件 x100 -->
   <SSR_Recipe_HundredStandardConstructionElement.label>TODO</SSR_Recipe_HundredStandardConstructionElement.label>
-  <!-- CN: 制造一百件通用构件。 -->
+  <!-- EN: 制造一百块通用构件。 -->
   <SSR_Recipe_HundredStandardConstructionElement.description>TODO</SSR_Recipe_HundredStandardConstructionElement.description>
-  <!-- CN: 正在制造一百件通用构件。 -->
+  <!-- EN: 正在制造一百块通用构件。 -->
   <SSR_Recipe_HundredStandardConstructionElement.jobString>TODO</SSR_Recipe_HundredStandardConstructionElement.jobString>
   
-  <!-- CN: 制造纳米微械复材 -->
+  <!-- EN: 制造纳米微械复材 x40 -->
   <SSR_Recipe_NanoandMicroMechanicalComposite.label>TODO</SSR_Recipe_NanoandMicroMechanicalComposite.label>
-  <!-- CN: 制造纳米微械复材。 -->
+  <!-- EN: 制造四十单位纳米微械复材。 -->
   <SSR_Recipe_NanoandMicroMechanicalComposite.description>TODO</SSR_Recipe_NanoandMicroMechanicalComposite.description>
-  <!-- CN: 正在制造纳米微械复材。 -->
+  <!-- EN: 正在制造四十单位纳米微械复材。 -->
   <SSR_Recipe_NanoandMicroMechanicalComposite.jobString>TODO</SSR_Recipe_NanoandMicroMechanicalComposite.jobString>
   
-  <!-- CN: 制造通用构件 -->
+  <!-- EN: 制造纳米织物 -->
+  <SSR_Recipe_Nanofabrics.label>TODO</SSR_Recipe_Nanofabrics.label>
+  <!-- EN: 制造纳米织物。 -->
+  <SSR_Recipe_Nanofabrics.description>TODO</SSR_Recipe_Nanofabrics.description>
+  <!-- EN: 正在制造纳米织物。 -->
+  <SSR_Recipe_Nanofabrics.jobString>TODO</SSR_Recipe_Nanofabrics.jobString>
+  
+  <!-- EN: 制造特种钢 -->
+  <SSR_Recipe_SpecialSteel.label>TODO</SSR_Recipe_SpecialSteel.label>
+  <!-- EN: 制造特种钢。 -->
+  <SSR_Recipe_SpecialSteel.description>TODO</SSR_Recipe_SpecialSteel.description>
+  <!-- EN: 正在制造特种钢。 -->
+  <SSR_Recipe_SpecialSteel.jobString>TODO</SSR_Recipe_SpecialSteel.jobString>
+  
+  <!-- EN: 制造通用构件 -->
   <SSR_Recipe_StandardConstructionElement.label>TODO</SSR_Recipe_StandardConstructionElement.label>
-  <!-- CN: 制造通用构件。 -->
+  <!-- EN: 制造通用构件。 -->
   <SSR_Recipe_StandardConstructionElement.description>TODO</SSR_Recipe_StandardConstructionElement.description>
-  <!-- CN: 正在制造通用构件。 -->
+  <!-- EN: 正在制造通用构件。 -->
   <SSR_Recipe_StandardConstructionElement.jobString>TODO</SSR_Recipe_StandardConstructionElement.jobString>
   
-  <!-- CN: 制造装甲钢 x10 -->
-  <SSR_Recipe_TenArmourSteel.label>TODO</SSR_Recipe_TenArmourSteel.label>
-  <!-- CN: 制造十块装甲钢。 -->
-  <SSR_Recipe_TenArmourSteel.description>TODO</SSR_Recipe_TenArmourSteel.description>
-  <!-- CN: 正在制造十块装甲钢。 -->
-  <SSR_Recipe_TenArmourSteel.jobString>TODO</SSR_Recipe_TenArmourSteel.jobString>
+  <!-- EN: 制造碳炔 x10 -->
+  <SSR_Recipe_TenCarbyne.label>TODO</SSR_Recipe_TenCarbyne.label>
+  <!-- EN: 制造十块碳炔。 -->
+  <SSR_Recipe_TenCarbyne.description>TODO</SSR_Recipe_TenCarbyne.description>
+  <!-- EN: 正在制造十块碳炔。 -->
+  <SSR_Recipe_TenCarbyne.jobString>TODO</SSR_Recipe_TenCarbyne.jobString>
   
-  <!-- CN: 制造费米材料 x10 -->
+  <!-- EN: 制造费米材料 x100 -->
   <SSR_Recipe_TenFermiMaterial.label>TODO</SSR_Recipe_TenFermiMaterial.label>
-  <!-- CN: 制造十单位费米材料。 -->
+  <!-- EN: 制造一百单位费米材料。 -->
   <SSR_Recipe_TenFermiMaterial.description>TODO</SSR_Recipe_TenFermiMaterial.description>
-  <!-- CN: 正在制造十单位费米材料。 -->
+  <!-- EN: 正在制造一百单位费米材料。 -->
   <SSR_Recipe_TenFermiMaterial.jobString>TODO</SSR_Recipe_TenFermiMaterial.jobString>
   
-  <!-- CN: 制造纳米微械复材 x10 -->
+  <!-- EN: 制作玻璃 x10 -->
+  <SSR_Recipe_TenGlass.label>TODO</SSR_Recipe_TenGlass.label>
+  <!-- EN: 制作十单位玻璃。 -->
+  <SSR_Recipe_TenGlass.description>TODO</SSR_Recipe_TenGlass.description>
+  <!-- EN: 正在制作十单位玻璃。 -->
+  <SSR_Recipe_TenGlass.jobString>TODO</SSR_Recipe_TenGlass.jobString>
+  
+  <!-- EN: 制造石墨烯 x10 -->
+  <SSR_Recipe_TenGraphene.label>TODO</SSR_Recipe_TenGraphene.label>
+  <!-- EN: 制造十块石墨烯。 -->
+  <SSR_Recipe_TenGraphene.description>TODO</SSR_Recipe_TenGraphene.description>
+  <!-- EN: 正在制造十块石墨烯。 -->
+  <SSR_Recipe_TenGraphene.jobString>TODO</SSR_Recipe_TenGraphene.jobString>
+  
+  <!-- EN: 制造纳米微械复材 x400 -->
   <SSR_Recipe_TenNanoandMicroMechanicalComposite.label>TODO</SSR_Recipe_TenNanoandMicroMechanicalComposite.label>
-  <!-- CN: 制造十单位纳米微械复材。 -->
+  <!-- EN: 制造四百单位纳米微械复材。 -->
   <SSR_Recipe_TenNanoandMicroMechanicalComposite.description>TODO</SSR_Recipe_TenNanoandMicroMechanicalComposite.description>
-  <!-- CN: 正在制造十单位纳米微械复材。 -->
+  <!-- EN: 正在制造四百单位纳米微械复材。 -->
   <SSR_Recipe_TenNanoandMicroMechanicalComposite.jobString>TODO</SSR_Recipe_TenNanoandMicroMechanicalComposite.jobString>
   
-  <!-- CN: 制造通用构件 x10 -->
+  <!-- EN: 制造纳米织物 x10 -->
+  <SSR_Recipe_TenNanofabrics.label>TODO</SSR_Recipe_TenNanofabrics.label>
+  <!-- EN: 制造十块纳米织物。 -->
+  <SSR_Recipe_TenNanofabrics.description>TODO</SSR_Recipe_TenNanofabrics.description>
+  <!-- EN: 正在制造十块纳米织物。 -->
+  <SSR_Recipe_TenNanofabrics.jobString>TODO</SSR_Recipe_TenNanofabrics.jobString>
+  
+  <!-- EN: 制造特种钢 x10 -->
+  <SSR_Recipe_TenSpecialSteel.label>TODO</SSR_Recipe_TenSpecialSteel.label>
+  <!-- EN: 制造十块特种钢。 -->
+  <SSR_Recipe_TenSpecialSteel.description>TODO</SSR_Recipe_TenSpecialSteel.description>
+  <!-- EN: 正在制造十块特种钢。 -->
+  <SSR_Recipe_TenSpecialSteel.jobString>TODO</SSR_Recipe_TenSpecialSteel.jobString>
+  
+  <!-- EN: 制造通用构件 x10 -->
   <SSR_Recipe_TenStandardConstructionElement.label>TODO</SSR_Recipe_TenStandardConstructionElement.label>
-  <!-- CN: 制造十件通用构件。 -->
+  <!-- EN: 制造十块通用构件。 -->
   <SSR_Recipe_TenStandardConstructionElement.description>TODO</SSR_Recipe_TenStandardConstructionElement.description>
-  <!-- CN: 正在制造十件通用构件。 -->
+  <!-- EN: 正在制造十块通用构件。 -->
   <SSR_Recipe_TenStandardConstructionElement.jobString>TODO</SSR_Recipe_TenStandardConstructionElement.jobString>
   
 </LanguageData>

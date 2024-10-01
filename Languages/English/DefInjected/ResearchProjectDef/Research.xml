@@ -1,389 +1,394 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- CN: 地球联邦家具 -->
+  <!-- EN: 地球联邦家具 -->
   <EFBuilding.label>TODO</EFBuilding.label>
-  <!-- CN: 地球联邦风格的家具。 -->
+  <!-- EN: 地球联邦风格的家具。 -->
   <EFBuilding.description>TODO</EFBuilding.description>
   
-  <!-- CN: 地球联邦服装 -->
+  <!-- EN: 地球联邦服装 -->
   <EFClothing.label>TODO</EFClothing.label>
-  <!-- CN: 地球联邦服装。 -->
+  <!-- EN: 地球联邦服装。 -->
   <EFClothing.description>TODO</EFClothing.description>
   
-  <!-- CN: 高级装甲安全门 -->
+  <!-- EN: 高级装甲安全门 -->
   <SSRAdvancedArmoredSafetyDoor.label>TODO</SSRAdvancedArmoredSafetyDoor.label>
-  <!-- CN: 高级装甲安全门。 -->
+  <!-- EN: 高级装甲安全门。 -->
   <SSRAdvancedArmoredSafetyDoor.description>TODO</SSRAdvancedArmoredSafetyDoor.description>
   
-  <!-- CN: 高级人工智能 -->
+  <!-- EN: 高级人工智能 -->
   <SSRAdvancedArtificialIntelligence.label>TODO</SSRAdvancedArtificialIntelligence.label>
-  <!-- CN: 光子计算机的使用使得人工智能的算力得到极大的提升，新一代人工智能有着更强的学习和计算能力。 -->
+  <!-- EN: 光子计算机的使用使得人工智能的算力得到极大的提升，新一代人工智能有着更强的学习和计算能力。 -->
   <SSRAdvancedArtificialIntelligence.description>TODO</SSRAdvancedArtificialIntelligence.description>
   
-  <!-- CN: 高级清洁能源发电 -->
+  <!-- EN: 高级清洁能源发电 -->
   <SSRAdvancedCleanEnergyGeneration.label>TODO</SSRAdvancedCleanEnergyGeneration.label>
-  <!-- CN: 利用新技术进一步优化清洁能源发电装置的设计，使得这类发电设备的运行效率达到了其理论极限。 -->
+  <!-- EN: 利用新技术进一步优化清洁能源发电装置的设计，使得这类发电设备的运行效率达到了其理论极限。 -->
   <SSRAdvancedCleanEnergyGeneration.description>TODO</SSRAdvancedCleanEnergyGeneration.description>
   
-  <!-- CN: 高级计算科学 -->
+  <!-- EN: 高级计算科学 -->
   <SSRAdvancedComputationalScience.label>TODO</SSRAdvancedComputationalScience.label>
-  <!-- CN: 基于光子计算机所设计的新型计算机语言与软硬件架构技术。 -->
+  <!-- EN: 基于光子计算机所设计的新型计算机语言与软硬件架构技术。 -->
   <SSRAdvancedComputationalScience.description>TODO</SSRAdvancedComputationalScience.description>
   
-  <!-- CN: 高级防御结构 -->
+  <!-- EN: 高级防御结构 -->
   <SSRAdvancedDefenseStructure.label>TODO</SSRAdvancedDefenseStructure.label>
-  <!-- CN: 高级防御结构。 -->
+  <!-- EN: 高级防御结构。 -->
   <SSRAdvancedDefenseStructure.description>TODO</SSRAdvancedDefenseStructure.description>
   
-  <!-- CN: 高级能源技术 -->
+  <!-- EN: 高级能源技术 -->
   <SSRAdvancedEnergyTechnology.label>TODO</SSRAdvancedEnergyTechnology.label>
-  <!-- CN: 更高效的能源储存与利用方法，让能源可以输送到整颗星球的各个角落。 -->
+  <!-- EN: 更高效的能源储存与利用方法，让能源可以输送到整颗星球的各个角落。 -->
   <SSRAdvancedEnergyTechnology.description>TODO</SSRAdvancedEnergyTechnology.description>
   
-  <!-- CN: 高级制造技术 -->
+  <!-- EN: 高级制造技术 -->
   <SSRAdvancedManufacturingTechnology.label>TODO</SSRAdvancedManufacturingTechnology.label>
-  <!-- CN: 利用原子级精度的材料处理技术，自动化机器得以以极高的效率和几乎为零的误差生产一切物品。 -->
+  <!-- EN: 利用原子级精度的材料处理技术，自动化机器得以以极高的效率和几乎为零的误差生产一切物品。 -->
   <SSRAdvancedManufacturingTechnology.description>TODO</SSRAdvancedManufacturingTechnology.description>
   
-  <!-- CN: 高级材料学 -->
+  <!-- EN: 高级材料学 -->
   <SSRAdvancedMaterialsScience.label>TODO</SSRAdvancedMaterialsScience.label>
-  <!-- CN: 完全掌控原子级尺度的物质调控，让我们可以随心创造出所需要的材料。 -->
+  <!-- EN: 完全掌控原子级尺度的物质调控，让我们可以随心创造出所需要的材料。 -->
   <SSRAdvancedMaterialsScience.description>TODO</SSRAdvancedMaterialsScience.description>
   
-  <!-- CN: 高级矿井挖掘自动化 -->
+  <!-- EN: 高级矿井挖掘自动化 -->
   <SSRAdvancedMineMiningAutomation.label>TODO</SSRAdvancedMineMiningAutomation.label>
-  <!-- CN: 解锁矿井挖掘的高级自动化升级项目。 -->
+  <!-- EN: 解锁矿井挖掘的高级自动化升级项目。 -->
   <SSRAdvancedMineMiningAutomation.description>TODO</SSRAdvancedMineMiningAutomation.description>
   
-  <!-- CN: 高级采矿自动化 -->
+  <!-- EN: 高级采矿自动化 -->
   <SSRAdvancedMiningAutomation.label>TODO</SSRAdvancedMiningAutomation.label>
-  <!-- CN: 解锁采矿的高级自动化升级项目。 -->
+  <!-- EN: 解锁采矿的高级自动化升级项目。 -->
   <SSRAdvancedMiningAutomation.description>TODO</SSRAdvancedMiningAutomation.description>
   
-  <!-- CN: 高级物理学 -->
+  <!-- EN: 高级物理学 -->
   <SSRAdvancedPhysics.label>TODO</SSRAdvancedPhysics.label>
-  <!-- CN: 更高级的物理学体系。 -->
+  <!-- EN: 更高级的物理学体系，能使派系的科技水平提升至极致时代。 -->
   <SSRAdvancedPhysics.description>TODO</SSRAdvancedPhysics.description>
   
-  <!-- CN: 高级特种服装 -->
+  <!-- EN: 高级特种服装 -->
   <SSRAdvancedSpecialGarments.label>TODO</SSRAdvancedSpecialGarments.label>
-  <!-- CN: 为特定工作环境或活动需求设计的高级功能性服装。 -->
+  <!-- EN: 为特定工作环境或活动需求设计的高级功能性服装。 -->
   <SSRAdvancedSpecialGarments.description>TODO</SSRAdvancedSpecialGarments.description>
   
-  <!-- CN: 高级矿道挖掘自动化 -->
+  <!-- EN: 高级矿道挖掘自动化 -->
   <SSRAdvancedTunnelMiningAutomation.label>TODO</SSRAdvancedTunnelMiningAutomation.label>
-  <!-- CN: 解锁矿道挖掘的高级自动化升级项目。 -->
+  <!-- EN: 解锁矿道挖掘的高级自动化升级项目。 -->
   <SSRAdvancedTunnelMiningAutomation.description>TODO</SSRAdvancedTunnelMiningAutomation.description>
   
-  <!-- CN: 反物质应用技术 -->
+  <!-- EN: 反物质应用技术 -->
   <SSRAntimatterApplicationsTechnology.label>TODO</SSRAntimatterApplicationsTechnology.label>
-  <!-- CN: 对反物质的研究明确了其在武器与能源方面的重要地位，在确定反物质的具体应用场景后，以反物质为核心或能源的造物被正式投入使用。 -->
+  <!-- EN: 对反物质的研究明确了其在武器与能源方面的重要地位，在确定反物质的具体应用场景后，以反物质为核心或能源的造物被正式投入使用。 -->
   <SSRAntimatterApplicationsTechnology.description>TODO</SSRAntimatterApplicationsTechnology.description>
   
-  <!-- CN: 基础装甲安全门 -->
+  <!-- EN: 基础装甲安全门 -->
   <SSRBasicArmoredSafetyDoor.label>TODO</SSRBasicArmoredSafetyDoor.label>
-  <!-- CN: 基础装甲安全门。 -->
+  <!-- EN: 基础装甲安全门。 -->
   <SSRBasicArmoredSafetyDoor.description>TODO</SSRBasicArmoredSafetyDoor.description>
   
-  <!-- CN: 基础计算科学 -->
+  <!-- EN: 基础计算科学 -->
   <SSRBasicComputationalScience.label>TODO</SSRBasicComputationalScience.label>
-  <!-- CN: 基础的计算科学理论，包含了计算机语言、软件开发与硬件设计的知识。 -->
+  <!-- EN: 基础的计算科学理论，包含了计算机语言、软件开发与硬件设计的知识。 -->
   <SSRBasicComputationalScience.description>TODO</SSRBasicComputationalScience.description>
   
-  <!-- CN: 基础防御结构 -->
+  <!-- EN: 基础防御结构 -->
   <SSRBasicDefenseStructure.label>TODO</SSRBasicDefenseStructure.label>
-  <!-- CN: 基础防御结构。 -->
+  <!-- EN: 基础防御结构。 -->
   <SSRBasicDefenseStructure.description>TODO</SSRBasicDefenseStructure.description>
   
-  <!-- CN: 基础引力控制技术 -->
+  <!-- EN: 基础引力控制技术 -->
   <SSRBasicGravitationalControlTechnology.label>TODO</SSRBasicGravitationalControlTechnology.label>
-  <!-- CN: 通过干涉目标位置的时空曲率实现对引力的操控。 -->
+  <!-- EN: 通过干涉目标位置的时空曲率实现对引力的操控。 -->
   <SSRBasicGravitationalControlTechnology.description>TODO</SSRBasicGravitationalControlTechnology.description>
   
-  <!-- CN: 基础制造技术 -->
+  <!-- EN: 基础制造技术 -->
   <SSRBasicManufacturingTechnology.label>TODO</SSRBasicManufacturingTechnology.label>
-  <!-- CN: 基础的工业自动化机器与生产流程设计知识。 -->
+  <!-- EN: 基础的工业自动化机器与生产流程设计知识。 -->
   <SSRBasicManufacturingTechnology.description>TODO</SSRBasicManufacturingTechnology.description>
   
-  <!-- CN: 基础材料学 -->
+  <!-- EN: 基础材料学 -->
   <SSRBasicMaterialsScience.label>TODO</SSRBasicMaterialsScience.label>
-  <!-- CN: 初级的材料科学，简述了常规的材料学技术，包含了一些基础的材料制造工艺。 -->
+  <!-- EN: 初级的材料科学，简述了常规的材料学技术，包含了一些基础的材料制造工艺。 -->
   <SSRBasicMaterialsScience.description>TODO</SSRBasicMaterialsScience.description>
   
-  <!-- CN: 基础医学 -->
+  <!-- EN: 基础医学 -->
   <SSRBasicMedicine.label>TODO</SSRBasicMedicine.label>
-  <!-- CN: 基础的现代医学理论体系。 -->
+  <!-- EN: 基础的现代医学理论体系。 -->
   <SSRBasicMedicine.description>TODO</SSRBasicMedicine.description>
   
-  <!-- CN: 基础矿井挖掘自动化 -->
+  <!-- EN: 基础矿井挖掘自动化 -->
   <SSRBasicMineMiningAutomation.label>TODO</SSRBasicMineMiningAutomation.label>
-  <!-- CN: 解锁矿井挖掘的初级自动化改造项目。 -->
+  <!-- EN: 解锁矿井挖掘的初级自动化改造项目。 -->
   <SSRBasicMineMiningAutomation.description>TODO</SSRBasicMineMiningAutomation.description>
   
-  <!-- CN: 基础采矿自动化 -->
+  <!-- EN: 基础采矿自动化 -->
   <SSRBasicMiningAutomation.label>TODO</SSRBasicMiningAutomation.label>
-  <!-- CN: 解锁采矿的初级自动化改造项目。 -->
+  <!-- EN: 解锁采矿的初级自动化改造项目。 -->
   <SSRBasicMiningAutomation.description>TODO</SSRBasicMiningAutomation.description>
   
-  <!-- CN: 基础物理学 -->
+  <!-- EN: 基础物理学 -->
   <SSRBasicPhysics.label>TODO</SSRBasicPhysics.label>
-  <!-- CN: 基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论。 -->
+  <!-- EN: 基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论，能使派系的科技水平提升至工业时代。 -->
   <SSRBasicPhysics.description>TODO</SSRBasicPhysics.description>
   
-  <!-- CN: 基础电力技术 -->
+  <!-- EN: 基础电力技术 -->
   <SSRBasicPowerTechnology.label>TODO</SSRBasicPowerTechnology.label>
-  <!-- CN: 利用室温超导材料，我们得以制造新型的电力设备。 -->
+  <!-- EN: 利用室温超导材料，我们得以制造新型的电力设备。 -->
   <SSRBasicPowerTechnology.description>TODO</SSRBasicPowerTechnology.description>
   
-  <!-- CN: 基础空间控制技术 -->
+  <!-- EN: 基础空间控制技术 -->
   <SSRBasicSpaceApplication.label>TODO</SSRBasicSpaceApplication.label>
-  <!-- CN: 使用特定的设计并消耗大量的能量与一定量的快子，我们得以极大得扭曲时空曲率以至于人工开启虫洞并短暂维持其稳定。 -->
+  <!-- EN: 使用特定的设计并消耗大量的能量与一定量的快子，我们得以极大得扭曲时空曲率以至于人工开启虫洞并短暂维持其稳定。 -->
   <SSRBasicSpaceApplication.description>TODO</SSRBasicSpaceApplication.description>
   
-  <!-- CN: 基础航天技术 -->
+  <!-- EN: 基础航天技术 -->
   <SSRBasicSpaceTechnology.label>TODO</SSRBasicSpaceTechnology.label>
-  <!-- CN: 基础的航天技术，包含了基础的航天器设计，是探索、开发和利用太空以及地球以外天体的综合性工程技术。 -->
+  <!-- EN: 基础的航天技术，包含了基础的航天器设计，是探索、开发和利用太空以及地球以外天体的综合性工程技术。 -->
   <SSRBasicSpaceTechnology.description>TODO</SSRBasicSpaceTechnology.description>
   
-  <!-- CN: 基础特种服装 -->
+  <!-- EN: 基础特种服装 -->
   <SSRBasicSpecialGarments.label>TODO</SSRBasicSpecialGarments.label>
-  <!-- CN: 为特定工作环境或活动需求设计的基础功能性服装。 -->
+  <!-- EN: 为特定工作环境或活动需求设计的基础功能性服装。 -->
   <SSRBasicSpecialGarments.description>TODO</SSRBasicSpecialGarments.description>
   
-  <!-- CN: 太阳系共和国技术基础 -->
+  <!-- EN: 太阳系共和国技术基础 -->
   <SSRBasicTech.label>TODO</SSRBasicTech.label>
-  <!-- CN: 允许接入太阳系共和国的数据网络备份，从中学习接下来的科技。 -->
+  <!-- EN: 允许接入太阳系共和国的数据网络备份，从中学习接下来的科技。 -->
   <SSRBasicTech.description>TODO</SSRBasicTech.description>
   
-  <!-- CN: 基础矿道挖掘自动化 -->
+  <!-- EN: 基础矿道挖掘自动化 -->
   <SSRBasicTunnelMiningAutomation.label>TODO</SSRBasicTunnelMiningAutomation.label>
-  <!-- CN: 解锁矿道挖掘的初级自动化改造项目。 -->
+  <!-- EN: 解锁矿道挖掘的初级自动化改造项目。 -->
   <SSRBasicTunnelMiningAutomation.description>TODO</SSRBasicTunnelMiningAutomation.description>
   
-  <!-- CN: 太阳系共和国服装 -->
+  <!-- EN: 太阳系共和国服装 -->
   <SSRClothing.label>TODO</SSRClothing.label>
-  <!-- CN: 太阳系共和国服装。 -->
+  <!-- EN: 太阳系共和国服装。 -->
   <SSRClothing.description>TODO</SSRClothing.description>
   
-  <!-- CN: 煤炭炼油技术 -->
+  <!-- EN: 煤炭炼油技术 -->
   <SSRCoalLiquefactionTechnology.label>TODO</SSRCoalLiquefactionTechnology.label>
-  <!-- CN: 煤炭炼油技术是一种将煤炭转化为液态燃料的化学过程。它通过加氢裂化等方法，使煤炭中的有机物质转化为油品。 -->
+  <!-- EN: 煤炭炼油技术是一种将煤炭转化为液态燃料的化学过程。它通过加氢裂化等方法，使煤炭中的有机物质转化为油品。 -->
   <SSRCoalLiquefactionTechnology.description>TODO</SSRCoalLiquefactionTechnology.description>
   
-  <!-- CN: 可控核聚变 -->
+  <!-- EN: 可控核聚变 -->
   <SSRControlledNuclearFusion.label>TODO</SSRControlledNuclearFusion.label>
-  <!-- CN: 基于磁约束的实用化可控核聚变技术。 -->
+  <!-- EN: 基于磁约束的实用化可控核聚变技术。 -->
   <SSRControlledNuclearFusion.description>TODO</SSRControlledNuclearFusion.description>
   
-  <!-- CN: 加密系统破解 -->
+  <!-- EN: 加密系统破解 -->
   <SSREncryptionSystemCracking.label>TODO</SSREncryptionSystemCracking.label>
-  <!-- CN: 量子计算机的强大算力让原本无法破解的加密方式也向我们敞开了大门。 -->
+  <!-- EN: 量子计算机的强大算力让原本无法破解的加密方式也向我们敞开了大门。 -->
   <SSREncryptionSystemCracking.description>TODO</SSREncryptionSystemCracking.description>
   
-  <!-- CN: 地质扫描卫星 -->
+  <!-- EN: 地质扫描卫星 -->
   <SSRGeologicalScanSatellite.label>TODO</SSRGeologicalScanSatellite.label>
-  <!-- CN: 地质扫描卫星是一种专门用于探测和分析地表及地下结构的太空传感器，它们利用雷达、光学成像和光谱技术来识别地质特征和矿物分布。 -->
+  <!-- EN: 地质扫描卫星是一种专门用于探测和分析地表及地下结构的太空传感器，它们利用雷达、光学成像和光谱技术来识别地质特征和矿物分布。 -->
   <SSRGeologicalScanSatellite.description>TODO</SSRGeologicalScanSatellite.description>
   
-  <!-- CN: 重型火箭建造技术 -->
+  <!-- EN: 重型火箭建造技术 -->
   <SSRHeavyRocketConstructionTechnology.label>TODO</SSRHeavyRocketConstructionTechnology.label>
-  <!-- CN: 重型火箭带来的载荷量提升为探索和利用宇宙提供了更多可能。 -->
+  <!-- EN: 重型火箭带来的载荷量提升为探索和利用宇宙提供了更多可能。 -->
   <SSRHeavyRocketConstructionTechnology.description>TODO</SSRHeavyRocketConstructionTechnology.description>
   
-  <!-- CN: 高密度电池 -->
+  <!-- EN: 高密度电池 -->
   <SSRHighDensityBattery.label>TODO</SSRHighDensityBattery.label>
-  <!-- CN: 使用新材料设计的新结构让电池的能量密度和效率相比于旧设计翻了数倍。 -->
+  <!-- EN: 使用新材料设计的新结构让电池的能量密度和效率相比于旧设计翻了数倍。 -->
   <SSRHighDensityBattery.description>TODO</SSRHighDensityBattery.description>
   
-  <!-- CN: 高能激光阵列 -->
+  <!-- EN: 高能激光阵列 -->
   <SSRHighEnergyLaserArray.label>TODO</SSRHighEnergyLaserArray.label>
-  <!-- CN: 标准化高能激光阵列设计，可应用于各类激光设备。 -->
+  <!-- EN: 标准化高能激光阵列设计，可应用于各类激光设备。 -->
   <SSRHighEnergyLaserArray.description>TODO</SSRHighEnergyLaserArray.description>
   
-  <!-- CN: 强子对撞机 -->
+  <!-- EN: 强子对撞机 -->
   <SSRLHC.label>TODO</SSRLHC.label>
-  <!-- CN: 使用激光尾波加速的强子对撞机，使得强子对撞机的体积得以大幅缩小至殖民地可以接受的水平。 -->
+  <!-- EN: 使用激光尾波加速的强子对撞机，使得强子对撞机的体积得以大幅缩小至殖民地可以接受的水平。 -->
   <SSRLHC.description>TODO</SSRLHC.description>
   
-  <!-- CN: 机械助动框架 -->
+  <!-- EN: 机械助动框架 -->
   <SSRMechanicallyAssistedFrame.label>TODO</SSRMechanicallyAssistedFrame.label>
-  <!-- CN: 机械动力外骨骼框架。 -->
+  <!-- EN: 机械动力外骨骼框架。 -->
   <SSRMechanicallyAssistedFrame.description>TODO</SSRMechanicallyAssistedFrame.description>
   
-  <!-- CN: 中级装甲安全门 -->
+  <!-- EN: 中级装甲安全门 -->
   <SSRMedium-levelArmoredSafetyDoor.label>TODO</SSRMedium-levelArmoredSafetyDoor.label>
-  <!-- CN: 中级装甲安全门。 -->
+  <!-- EN: 中级装甲安全门。 -->
   <SSRMedium-levelArmoredSafetyDoor.description>TODO</SSRMedium-levelArmoredSafetyDoor.description>
   
-  <!-- CN: 中级清洁能源发电 -->
+  <!-- EN: 中级清洁能源发电 -->
   <SSRMedium-levelCleanEnergyGeneration.label>TODO</SSRMedium-levelCleanEnergyGeneration.label>
-  <!-- CN: 得益于材料学的进展，更高效的清洁能源技术可以被投入使用。 -->
+  <!-- EN: 得益于材料学的进展，更高效的清洁能源技术可以被投入使用。 -->
   <SSRMedium-levelCleanEnergyGeneration.description>TODO</SSRMedium-levelCleanEnergyGeneration.description>
   
-  <!-- CN: 中级计算科学 -->
+  <!-- EN: 中级计算科学 -->
   <SSRMedium-levelComputationalScience.label>TODO</SSRMedium-levelComputationalScience.label>
-  <!-- CN: 基于量子计算机设计的更加高效的计算机语言与软硬件架构技术。 -->
+  <!-- EN: 基于量子计算机设计的更加高效的计算机语言与软硬件架构技术。 -->
   <SSRMedium-levelComputationalScience.description>TODO</SSRMedium-levelComputationalScience.description>
   
-  <!-- CN: 中级防御结构 -->
+  <!-- EN: 中级防御结构 -->
   <SSRMedium-levelDefenseStructure.label>TODO</SSRMedium-levelDefenseStructure.label>
-  <!-- CN: 中级防御结构。 -->
+  <!-- EN: 中级防御结构。 -->
   <SSRMedium-levelDefenseStructure.description>TODO</SSRMedium-levelDefenseStructure.description>
   
-  <!-- CN: 中级制造技术 -->
+  <!-- EN: 中级制造技术 -->
   <SSRMedium-levelManufacturingTechnology.label>TODO</SSRMedium-levelManufacturingTechnology.label>
-  <!-- CN: 得益于材料学在微观尺度的突破，新型的自动化制造技术可以以更高效的流程制造更加精密复杂的产品。 -->
+  <!-- EN: 得益于材料学在微观尺度的突破，新型的自动化制造技术可以以更高效的流程制造更加精密复杂的产品。 -->
   <SSRMedium-levelManufacturingTechnology.description>TODO</SSRMedium-levelManufacturingTechnology.description>
   
-  <!-- CN: 中级材料学 -->
+  <!-- EN: 中级材料学 -->
   <SSRMedium-levelMaterialsScience.label>TODO</SSRMedium-levelMaterialsScience.label>
-  <!-- CN: 基于对微观世界更细致地观察和研究，现在可以设计并制造纳米级结构尺度乃至结构尺度更微小的材料。 -->
+  <!-- EN: 基于对微观世界更细致地观察和研究，现在可以设计并制造纳米级结构尺度乃至结构尺度更微小的材料。 -->
   <SSRMedium-levelMaterialsScience.description>TODO</SSRMedium-levelMaterialsScience.description>
   
-  <!-- CN: 中级矿井挖掘自动化 -->
+  <!-- EN: 中级矿井挖掘自动化 -->
   <SSRMedium-levelMineMiningAutomation.label>TODO</SSRMedium-levelMineMiningAutomation.label>
-  <!-- CN: 解锁矿井挖掘的中级自动化升级项目。 -->
+  <!-- EN: 解锁矿井挖掘的中级自动化升级项目。 -->
   <SSRMedium-levelMineMiningAutomation.description>TODO</SSRMedium-levelMineMiningAutomation.description>
   
-  <!-- CN: 中级物理学 -->
+  <!-- EN: 中级物理学 -->
   <SSRMedium-levelPhysics.label>TODO</SSRMedium-levelPhysics.label>
-  <!-- CN: 进阶的物理学体系，包含了大统一理论与配套的标准模型。 -->
+  <!-- EN: 进阶的物理学体系，包含了大统一理论与配套的标准模型，能使派系的科技水平提升至太空时代。 -->
   <SSRMedium-levelPhysics.description>TODO</SSRMedium-levelPhysics.description>
   
-  <!-- CN: 中级电力技术 -->
+  <!-- EN: 中级电力技术 -->
   <SSRMedium-levelPowerTechnology.label>TODO</SSRMedium-levelPowerTechnology.label>
-  <!-- CN: 实用化的无线远程输电技术。 -->
+  <!-- EN: 实用化的无线远程输电技术。 -->
   <SSRMedium-levelPowerTechnology.description>TODO</SSRMedium-levelPowerTechnology.description>
   
-  <!-- CN: 中级特种服装 -->
+  <!-- EN: 中级特种服装 -->
   <SSRMedium-levelSpecialGarments.label>TODO</SSRMedium-levelSpecialGarments.label>
-  <!-- CN: 为特定工作环境或活动需求设计的中级功能性服装。 -->
+  <!-- EN: 为特定工作环境或活动需求设计的中级功能性服装。 -->
   <SSRMedium-levelSpecialGarments.description>TODO</SSRMedium-levelSpecialGarments.description>
   
-  <!-- CN: 中级矿道挖掘自动化 -->
+  <!-- EN: 中级矿道挖掘自动化 -->
   <SSRMedium-levelTunnelMiningAutomation.label>TODO</SSRMedium-levelTunnelMiningAutomation.label>
-  <!-- CN: 解锁矿道挖掘的中级自动化升级项目。 -->
+  <!-- EN: 解锁矿道挖掘的中级自动化升级项目。 -->
   <SSRMedium-levelTunnelMiningAutomation.description>TODO</SSRMedium-levelTunnelMiningAutomation.description>
   
-  <!-- CN: 巨屏电视 -->
+  <!-- EN: 巨屏电视 -->
   <SSRMegascreenTelevision.label>TODO</SSRMegascreenTelevision.label>
-  <!-- CN: 巨屏电视。 -->
+  <!-- EN: 巨屏电视。 -->
   <SSRMegascreenTelevision.description>TODO</SSRMegascreenTelevision.description>
   
-  <!-- CN: 气象卫星 -->
+  <!-- EN: 精神防护技术 -->
+  <SSRMentalProtectionTechnology.label>TODO</SSRMentalProtectionTechnology.label>
+  <!-- EN: 通过人工智能的实时分析和调整，释放特定频率的电磁波来抵消形形色色不怀好意的心灵场，我们得以防御来自外界对个体心理和神经系统的直接攻击。 -->
+  <SSRMentalProtectionTechnology.description>TODO</SSRMentalProtectionTechnology.description>
+  
+  <!-- EN: 气象卫星 -->
   <SSRMeteorologicalSatellite.label>TODO</SSRMeteorologicalSatellite.label>
-  <!-- CN: 气象卫星是专门用于监测地球大气层和表面条件的太空设备，这些卫星对天气预报、气候研究和灾害监测至关重要。 -->
+  <!-- EN: 气象卫星是专门用于监测地球大气层和表面条件的太空设备，这些卫星对天气预报、气候研究和灾害监测至关重要。 -->
   <SSRMeteorologicalSatellite.description>TODO</SSRMeteorologicalSatellite.description>
   
-  <!-- CN: 核能小型化 -->
+  <!-- EN: 核能小型化 -->
   <SSRMiniaturizationOfNuclearPower.label>TODO</SSRMiniaturizationOfNuclearPower.label>
-  <!-- CN: 使用惯性聚变原理的小型核聚变反应堆设计。 -->
+  <!-- EN: 使用惯性聚变原理的小型核聚变反应堆设计。 -->
   <SSRMiniaturizationOfNuclearPower.description>TODO</SSRMiniaturizationOfNuclearPower.description>
   
-  <!-- CN: 一箭多星技术 -->
+  <!-- EN: 一箭多星技术 -->
   <SSRMulti-SatelliteLaunch.label>TODO</SSRMulti-SatelliteLaunch.label>
-  <!-- CN: 一箭多星技术允许单次发射将多个卫星送入预定轨道，显著提高了航天发射的效率和经济性。 -->
+  <!-- EN: 一箭多星技术允许单次发射将多个卫星送入预定轨道，显著提高了航天发射的效率和经济性。 -->
   <SSRMulti-SatelliteLaunch.description>TODO</SSRMulti-SatelliteLaunch.description>
   
-  <!-- CN: 核物理 -->
+  <!-- EN: 核物理 -->
   <SSRNuclearPhysics.label>TODO</SSRNuclearPhysics.label>
-  <!-- CN: 原子核的结构和变化规律；粒子束的产生、探测和分析技术；以及与核能、核技术应用有关的物理理论。 -->
+  <!-- EN: 原子核的结构和变化规律；粒子束的产生、探测和分析技术；以及与核能、核技术应用有关的物理理论。 -->
   <SSRNuclearPhysics.description>TODO</SSRNuclearPhysics.description>
   
-  <!-- CN: 轨道轰炸卫星 -->
+  <!-- EN: 轨道轰炸卫星 -->
   <SSROrbitalBombingSatellite.label>TODO</SSROrbitalBombingSatellite.label>
-  <!-- CN: 轨道轰炸卫星是一种部署在近地轨道上的军事系统，这种卫星能够携带各类武器，以便对地面目标进行快速打击，具有全球打击能力。 -->
+  <!-- EN: 轨道轰炸卫星是一种部署在近地轨道上的军事系统，这种卫星能够携带各类武器，以便对地面目标进行快速打击，具有全球打击能力。 -->
   <SSROrbitalBombingSatellite.description>TODO</SSROrbitalBombingSatellite.description>
   
-  <!-- CN: 轨道防御平台 -->
+  <!-- EN: 轨道防御平台 -->
   <SSROrbitDefensePlatform.label>TODO</SSROrbitDefensePlatform.label>
-  <!-- CN: 轨道防御平台是一种太空防御设施，旨在保护星球免受来自太空的威胁。 -->
+  <!-- EN: 轨道防御平台是一种太空防御设施，旨在保护星球免受来自太空的威胁。 -->
   <SSROrbitDefensePlatform.description>TODO</SSROrbitDefensePlatform.description>
   
-  <!-- CN: 轨道粒子收集平台 -->
+  <!-- EN: 轨道粒子收集平台 -->
   <SSROrbitParticleCollectionPlatform.label>TODO</SSROrbitParticleCollectionPlatform.label>
-  <!-- CN: 轨道粒子收集平台被设计用于在星球轨道上捕获来自深空的各类粒子。 -->
+  <!-- EN: 轨道粒子收集平台被设计用于在星球轨道上捕获来自深空的各类粒子。 -->
   <SSROrbitParticleCollectionPlatform.description>TODO</SSROrbitParticleCollectionPlatform.description>
   
-  <!-- CN: 粒子储存技术 -->
+  <!-- EN: 粒子储存技术 -->
   <SSRParticleConfinementTechnology.label>TODO</SSRParticleConfinementTechnology.label>
-  <!-- CN: 通过同时使用四种基本力，我们得以大量储存那些危险或不易捕获的微观粒子并将其投入工业使用。 -->
+  <!-- EN: 通过同时使用四种基本力，我们得以大量储存那些危险或不易捕获的微观粒子并将其投入工业使用。 -->
   <SSRParticleConfinementTechnology.description>TODO</SSRParticleConfinementTechnology.description>
   
-  <!-- CN: 精密磁场控制 -->
+  <!-- EN: 精密磁场控制 -->
   <SSRPrecisionMagneticFieldControl.label>TODO</SSRPrecisionMagneticFieldControl.label>
-  <!-- CN: 通过室温超导体和初级人工智能等方式实现对磁场的不稳定性预测和精密调控。 -->
+  <!-- EN: 通过室温超导体和初级人工智能等方式实现对磁场的不稳定性预测和精密调控。 -->
   <SSRPrecisionMagneticFieldControl.description>TODO</SSRPrecisionMagneticFieldControl.description>
   
-  <!-- CN: 精密光学 -->
+  <!-- EN: 精密光学 -->
   <SSRPrecisionOptics.label>TODO</SSRPrecisionOptics.label>
-  <!-- CN: 光学理论及精密光学仪器的设计知识。 -->
+  <!-- EN: 光学理论及精密光学仪器的设计知识。 -->
   <SSRPrecisionOptics.description>TODO</SSRPrecisionOptics.description>
   
-  <!-- CN: 可重复使用火箭技术 -->
+  <!-- EN: 可重复使用火箭技术 -->
   <SSRReusableRocketTechnology.label>TODO</SSRReusableRocketTechnology.label>
-  <!-- CN: 低廉的单位载荷成本拓宽了利用宇宙的道路。 -->
+  <!-- EN: 低廉的单位载荷成本拓宽了利用宇宙的道路。 -->
   <SSRReusableRocketTechnology.description>TODO</SSRReusableRocketTechnology.description>
   
-  <!-- CN: 室温超导 -->
+  <!-- EN: 室温超导 -->
   <SSRRoomTemperatureSuperconductivity.label>TODO</SSRRoomTemperatureSuperconductivity.label>
-  <!-- CN: 室温超导材料及其商业化应用技术。 -->
+  <!-- EN: 室温超导材料及其商业化应用技术。 -->
   <SSRRoomTemperatureSuperconductivity.description>TODO</SSRRoomTemperatureSuperconductivity.description>
   
-  <!-- CN: 侦察卫星 -->
+  <!-- EN: 侦察卫星 -->
   <SSRScoutingSatellite.label>TODO</SSRScoutingSatellite.label>
-  <!-- CN: 侦查卫星是专门设计用于从近地轨道收集地面情报的航天器。它们装备有高分辨率相机和其他传感器，能够提供军事和地理空间信息。 -->
+  <!-- EN: 侦查卫星是专门设计用于从近地轨道收集地面情报的航天器。它们装备有高分辨率相机和其他传感器，能够提供军事和地理空间信息。 -->
   <SSRScoutingSatellite.description>TODO</SSRScoutingSatellite.description>
   
-  <!-- CN: 穿梭机机库 -->
+  <!-- EN: 穿梭机机库 -->
   <SSRShuttleHangar.label>TODO</SSRShuttleHangar.label>
-  <!-- CN: 穿梭机机库是专为穿梭机设计的太空基础设施，用于在轨维护、补给和停靠。这种机库具备微重力环境下的操作能力，能够支持穿梭机的重复往返任务。 -->
+  <!-- EN: 穿梭机机库是专为穿梭机设计的太空基础设施，用于在轨维护、补给和停靠。这种机库具备微重力环境下的操作能力，能够支持穿梭机的重复往返任务。 -->
   <SSRShuttleHangar.description>TODO</SSRShuttleHangar.description>
   
-  <!-- CN: 太阳能发电卫星 -->
+  <!-- EN: 太阳能发电卫星 -->
   <SSRSolarPowerSatellite.label>TODO</SSRSolarPowerSatellite.label>
-  <!-- CN: 利用太阳能发电卫星发电并将其通过无线输电将电力传输至地面站的全套技术。 -->
+  <!-- EN: 利用太阳能发电卫星发电并将其通过无线输电将电力传输至地面站的全套技术。 -->
   <SSRSolarPowerSatellite.description>TODO</SSRSolarPowerSatellite.description>
   
-  <!-- CN: 太空电梯 -->
+  <!-- EN: 太空电梯 -->
   <SSRSpaceElevator.label>TODO</SSRSpaceElevator.label>
-  <!-- CN: 太空电梯是让物资和人员可以直接从地球表面进入太空的运输系统，这种建筑可以大幅降低太空旅行的成本。 -->
+  <!-- EN: 太空电梯是让物资和人员可以直接从地球表面进入太空的运输系统，这种建筑可以大幅降低太空旅行的成本。 -->
   <SSRSpaceElevator.description>TODO</SSRSpaceElevator.description>
   
-  <!-- CN: 规范化人工智能 -->
+  <!-- EN: 规范化人工智能 -->
   <SSRStandardizedArtificialIntelligence.label>TODO</SSRStandardizedArtificialIntelligence.label>
-  <!-- CN: 符合“共和国人工智能规范标准”的强人工智能制造技术。 -->
+  <!-- EN: 符合“共和国人工智能规范标准”的强人工智能制造技术。 -->
   <SSRStandardizedArtificialIntelligence.description>TODO</SSRStandardizedArtificialIntelligence.description>
   
-  <!-- CN: 标准化维护作业技术 -->
+  <!-- EN: 标准化维护作业技术 -->
   <SSRStandardizedMaintenanceOperationsTechnology.label>TODO</SSRStandardizedMaintenanceOperationsTechnology.label>
-  <!-- CN: 标准化维护作业技术通过规范化流程和自动化工具对各类机械或电子设备进行高效维修。 -->
+  <!-- EN: 标准化维护作业技术通过规范化流程和自动化工具对各类机械或电子设备进行高效维修。 -->
   <SSRStandardizedMaintenanceOperationsTechnology.description>TODO</SSRStandardizedMaintenanceOperationsTechnology.description>
   
-  <!-- CN: 标准化矿井建设 -->
+  <!-- EN: 标准化矿井建设 -->
   <SSRStandardizedMineConstruction.label>TODO</SSRStandardizedMineConstruction.label>
-  <!-- CN: 标准化矿井建设。 -->
+  <!-- EN: 标准化矿井建设。 -->
   <SSRStandardizedMineConstruction.description>TODO</SSRStandardizedMineConstruction.description>
   
-  <!-- CN: 超级计算机 -->
+  <!-- EN: 超级计算机 -->
   <SSRSupercomputer.label>TODO</SSRSupercomputer.label>
-  <!-- CN: 以量子计算机为理论基础所设计的新型超级计算机。 -->
+  <!-- EN: 以量子计算机为理论基础所设计的新型超级计算机。 -->
   <SSRSupercomputer.description>TODO</SSRSupercomputer.description>
   
-  <!-- CN: 望远镜制作 -->
+  <!-- EN: 望远镜制作 -->
   <SSRTelescopeManufacturing.label>TODO</SSRTelescopeManufacturing.label>
-  <!-- CN: 通过合理镜片的组合，基础的光学原理得到了实践。 -->
+  <!-- EN: 通过合理镜片的组合，基础的光学原理得到了实践。 -->
   <SSRTelescopeManufacturing.description>TODO</SSRTelescopeManufacturing.description>
   
-  <!-- CN: 垂直钻井技术 -->
+  <!-- EN: 垂直钻井技术 -->
   <SSRVerticalDrillingTechnology.label>TODO</SSRVerticalDrillingTechnology.label>
-  <!-- CN: 垂直钻井技术是一种精确控制钻头沿垂直路径向下钻探的方法，可被用于矿物与地热资源的钻探与采集。 -->
+  <!-- EN: 垂直钻井技术是一种精确控制钻头沿垂直路径向下钻探的方法，可被用于矿物与地热资源的钻探与采集。 -->
   <SSRVerticalDrillingTechnology.description>TODO</SSRVerticalDrillingTechnology.description>
   
-  <!-- CN: 废气处理技术 -->
+  <!-- EN: 废气处理技术 -->
   <SSRWasteGasTreatmentTechnology.label>TODO</SSRWasteGasTreatmentTechnology.label>
-  <!-- CN: 废气处理技术用于处理火力发电站排放废气中的污染物，以避免污染物对环境造成破坏。 -->
+  <!-- EN: 废气处理技术用于处理火力发电站排放废气中的污染物，以避免污染物对环境造成破坏。 -->
   <SSRWasteGasTreatmentTechnology.description>TODO</SSRWasteGasTreatmentTechnology.description>
   
 </LanguageData>

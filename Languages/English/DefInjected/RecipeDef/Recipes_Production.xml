@@ -1,151 +1,67 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- CN: 制造碳炔 -->
-  <SSR_Recipe_Carbyne.label>TODO</SSR_Recipe_Carbyne.label>
-  <!-- CN: 制造碳炔。 -->
-  <SSR_Recipe_Carbyne.description>TODO</SSR_Recipe_Carbyne.description>
-  <!-- CN: 正在制造碳炔。 -->
-  <SSR_Recipe_Carbyne.jobString>TODO</SSR_Recipe_Carbyne.jobString>
-  
-  <!-- CN: 制作玻璃 -->
-  <SSR_Recipe_Glass.label>TODO</SSR_Recipe_Glass.label>
-  <!-- CN: 制作玻璃。 -->
-  <SSR_Recipe_Glass.description>TODO</SSR_Recipe_Glass.description>
-  <!-- CN: 正在制作玻璃。 -->
-  <SSR_Recipe_Glass.jobString>TODO</SSR_Recipe_Glass.jobString>
-  
-  <!-- CN: 制造石墨烯 -->
-  <SSR_Recipe_Graphene.label>TODO</SSR_Recipe_Graphene.label>
-  <!-- CN: 制造石墨烯。 -->
-  <SSR_Recipe_Graphene.description>TODO</SSR_Recipe_Graphene.description>
-  <!-- CN: 正在制造石墨烯。 -->
-  <SSR_Recipe_Graphene.jobString>TODO</SSR_Recipe_Graphene.jobString>
-  
-  <!-- CN: 制造碳炔 x100 -->
-  <SSR_Recipe_HundredCarbyne.label>TODO</SSR_Recipe_HundredCarbyne.label>
-  <!-- CN: 制造一百块碳炔。 -->
-  <SSR_Recipe_HundredCarbyne.description>TODO</SSR_Recipe_HundredCarbyne.description>
-  <!-- CN: 正在制造一百块碳炔。 -->
-  <SSR_Recipe_HundredCarbyne.jobString>TODO</SSR_Recipe_HundredCarbyne.jobString>
-  
-  <!-- CN: 制作玻璃 x100 -->
-  <SSR_Recipe_HundredGlass.label>TODO</SSR_Recipe_HundredGlass.label>
-  <!-- CN: 制作一百单位玻璃。 -->
-  <SSR_Recipe_HundredGlass.description>TODO</SSR_Recipe_HundredGlass.description>
-  <!-- CN: 正在制作一百单位玻璃。 -->
-  <SSR_Recipe_HundredGlass.jobString>TODO</SSR_Recipe_HundredGlass.jobString>
-  
-  <!-- CN: 制造石墨烯 x100 -->
-  <SSR_Recipe_HundredGraphene.label>TODO</SSR_Recipe_HundredGraphene.label>
-  <!-- CN: 制造一百块石墨烯。 -->
-  <SSR_Recipe_HundredGraphene.description>TODO</SSR_Recipe_HundredGraphene.description>
-  <!-- CN: 正在制造一百块石墨烯。 -->
-  <SSR_Recipe_HundredGraphene.jobString>TODO</SSR_Recipe_HundredGraphene.jobString>
-  
-  <!-- CN: 制造超织物 x100 -->
+  <!-- EN: 制造超织物 x100 -->
   <SSR_Recipe_HundredHyperweave.label>TODO</SSR_Recipe_HundredHyperweave.label>
-  <!-- CN: 制造一百块超织物。 -->
+  <!-- EN: 制造一百块超织物。 -->
   <SSR_Recipe_HundredHyperweave.description>TODO</SSR_Recipe_HundredHyperweave.description>
-  <!-- CN: 正在制造一百块超织物。 -->
+  <!-- EN: 正在制造一百块超织物。 -->
   <SSR_Recipe_HundredHyperweave.jobString>TODO</SSR_Recipe_HundredHyperweave.jobString>
   
-  <!-- CN: 制造纳米织物 x100 -->
-  <SSR_Recipe_HundredNanofabrics.label>TODO</SSR_Recipe_HundredNanofabrics.label>
-  <!-- CN: 制造一百块纳米织物。 -->
-  <SSR_Recipe_HundredNanofabrics.description>TODO</SSR_Recipe_HundredNanofabrics.description>
-  <!-- CN: 正在制造一百块纳米织物。 -->
-  <SSR_Recipe_HundredNanofabrics.jobString>TODO</SSR_Recipe_HundredNanofabrics.jobString>
-  
-  <!-- CN: 制造玻璃钢 x100 -->
+  <!-- EN: 制造玻璃钢 x100 -->
   <SSR_Recipe_HundredPlasteel.label>TODO</SSR_Recipe_HundredPlasteel.label>
-  <!-- CN: 制造一百块玻璃钢。 -->
+  <!-- EN: 制造一百块玻璃钢。 -->
   <SSR_Recipe_HundredPlasteel.description>TODO</SSR_Recipe_HundredPlasteel.description>
-  <!-- CN: 正在制造一百块玻璃钢。 -->
+  <!-- EN: 正在制造一百块玻璃钢。 -->
   <SSR_Recipe_HundredPlasteel.jobString>TODO</SSR_Recipe_HundredPlasteel.jobString>
   
-  <!-- CN: 制造合成纤维 x100 -->
+  <!-- EN: 制造合成纤维 x100 -->
   <SSR_Recipe_HundredSynthread.label>TODO</SSR_Recipe_HundredSynthread.label>
-  <!-- CN: 制造一百块合成纤维。 -->
+  <!-- EN: 制造一百块合成纤维。 -->
   <SSR_Recipe_HundredSynthread.description>TODO</SSR_Recipe_HundredSynthread.description>
-  <!-- CN: 正在制造一百块合成纤维。 -->
+  <!-- EN: 正在制造一百块合成纤维。 -->
   <SSR_Recipe_HundredSynthread.jobString>TODO</SSR_Recipe_HundredSynthread.jobString>
   
-  <!-- CN: 制造超织物 -->
+  <!-- EN: 制造超织物 -->
   <SSR_Recipe_Hyperweave.label>TODO</SSR_Recipe_Hyperweave.label>
-  <!-- CN: 制造超织物。 -->
+  <!-- EN: 制造超织物。 -->
   <SSR_Recipe_Hyperweave.description>TODO</SSR_Recipe_Hyperweave.description>
-  <!-- CN: 正在制造超织物。 -->
+  <!-- EN: 正在制造超织物。 -->
   <SSR_Recipe_Hyperweave.jobString>TODO</SSR_Recipe_Hyperweave.jobString>
   
-  <!-- CN: 制造纳米织物 -->
-  <SSR_Recipe_Nanofabrics.label>TODO</SSR_Recipe_Nanofabrics.label>
-  <!-- CN: 制造纳米织物。 -->
-  <SSR_Recipe_Nanofabrics.description>TODO</SSR_Recipe_Nanofabrics.description>
-  <!-- CN: 正在制造纳米织物。 -->
-  <SSR_Recipe_Nanofabrics.jobString>TODO</SSR_Recipe_Nanofabrics.jobString>
-  
-  <!-- CN: 制造玻璃钢 -->
+  <!-- EN: 制造玻璃钢 -->
   <SSR_Recipe_Plasteel.label>TODO</SSR_Recipe_Plasteel.label>
-  <!-- CN: 制造玻璃钢。 -->
+  <!-- EN: 制造玻璃钢。 -->
   <SSR_Recipe_Plasteel.description>TODO</SSR_Recipe_Plasteel.description>
-  <!-- CN: 正在制造玻璃钢。 -->
+  <!-- EN: 正在制造玻璃钢。 -->
   <SSR_Recipe_Plasteel.jobString>TODO</SSR_Recipe_Plasteel.jobString>
   
-  <!-- CN: 制造合成纤维 -->
+  <!-- EN: 制造合成纤维 -->
   <SSR_Recipe_Synthread.label>TODO</SSR_Recipe_Synthread.label>
-  <!-- CN: 制造合成纤维。 -->
+  <!-- EN: 制造合成纤维。 -->
   <SSR_Recipe_Synthread.description>TODO</SSR_Recipe_Synthread.description>
-  <!-- CN: 正在制造合成纤维。 -->
+  <!-- EN: 正在制造合成纤维。 -->
   <SSR_Recipe_Synthread.jobString>TODO</SSR_Recipe_Synthread.jobString>
   
-  <!-- CN: 制造碳炔 x10 -->
-  <SSR_Recipe_TenCarbyne.label>TODO</SSR_Recipe_TenCarbyne.label>
-  <!-- CN: 制造十块碳炔。 -->
-  <SSR_Recipe_TenCarbyne.description>TODO</SSR_Recipe_TenCarbyne.description>
-  <!-- CN: 正在制造十块碳炔。 -->
-  <SSR_Recipe_TenCarbyne.jobString>TODO</SSR_Recipe_TenCarbyne.jobString>
-  
-  <!-- CN: 制作玻璃 x10 -->
-  <SSR_Recipe_TenGlass.label>TODO</SSR_Recipe_TenGlass.label>
-  <!-- CN: 制作十单位玻璃。 -->
-  <SSR_Recipe_TenGlass.description>TODO</SSR_Recipe_TenGlass.description>
-  <!-- CN: 正在制作十单位玻璃。 -->
-  <SSR_Recipe_TenGlass.jobString>TODO</SSR_Recipe_TenGlass.jobString>
-  
-  <!-- CN: 制造石墨烯 x10 -->
-  <SSR_Recipe_TenGraphene.label>TODO</SSR_Recipe_TenGraphene.label>
-  <!-- CN: 制造十块石墨烯。 -->
-  <SSR_Recipe_TenGraphene.description>TODO</SSR_Recipe_TenGraphene.description>
-  <!-- CN: 正在制造十块石墨烯。 -->
-  <SSR_Recipe_TenGraphene.jobString>TODO</SSR_Recipe_TenGraphene.jobString>
-  
-  <!-- CN: 制造超织物 x10 -->
+  <!-- EN: 制造超织物 x10 -->
   <SSR_Recipe_TenHyperweave.label>TODO</SSR_Recipe_TenHyperweave.label>
-  <!-- CN: 制造十块超织物。 -->
+  <!-- EN: 制造十块超织物。 -->
   <SSR_Recipe_TenHyperweave.description>TODO</SSR_Recipe_TenHyperweave.description>
-  <!-- CN: 正在制造十块超织物。 -->
+  <!-- EN: 正在制造十块超织物。 -->
   <SSR_Recipe_TenHyperweave.jobString>TODO</SSR_Recipe_TenHyperweave.jobString>
   
-  <!-- CN: 制造纳米织物 x10 -->
-  <SSR_Recipe_TenNanofabrics.label>TODO</SSR_Recipe_TenNanofabrics.label>
-  <!-- CN: 制造十块纳米织物。 -->
-  <SSR_Recipe_TenNanofabrics.description>TODO</SSR_Recipe_TenNanofabrics.description>
-  <!-- CN: 正在制造十块纳米织物。 -->
-  <SSR_Recipe_TenNanofabrics.jobString>TODO</SSR_Recipe_TenNanofabrics.jobString>
-  
-  <!-- CN: 制造玻璃钢 x10 -->
+  <!-- EN: 制造玻璃钢 x10 -->
   <SSR_Recipe_TenPlasteel.label>TODO</SSR_Recipe_TenPlasteel.label>
-  <!-- CN: 制造十块玻璃钢。 -->
+  <!-- EN: 制造十块玻璃钢。 -->
   <SSR_Recipe_TenPlasteel.description>TODO</SSR_Recipe_TenPlasteel.description>
-  <!-- CN: 正在制造十块玻璃钢。 -->
+  <!-- EN: 正在制造十块玻璃钢。 -->
   <SSR_Recipe_TenPlasteel.jobString>TODO</SSR_Recipe_TenPlasteel.jobString>
   
-  <!-- CN: 制造合成纤维 x10 -->
+  <!-- EN: 制造合成纤维 x10 -->
   <SSR_Recipe_TenSynthread.label>TODO</SSR_Recipe_TenSynthread.label>
-  <!-- CN: 制造十块合成纤维。 -->
+  <!-- EN: 制造十块合成纤维。 -->
   <SSR_Recipe_TenSynthread.description>TODO</SSR_Recipe_TenSynthread.description>
-  <!-- CN: 正在制造十块合成纤维。 -->
+  <!-- EN: 正在制造十块合成纤维。 -->
   <SSR_Recipe_TenSynthread.jobString>TODO</SSR_Recipe_TenSynthread.jobString>
   
 </LanguageData>

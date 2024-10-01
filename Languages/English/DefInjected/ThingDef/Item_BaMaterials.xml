@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: 装甲钢 -->
-  <SSR_ArmourSteel.label>TODO</SSR_ArmourSteel.label>
-  <!-- EN: 装甲钢是一种高强度钢材，专为提供额外的防护和耐久性而设计，具有出色的抗冲击和抗穿透能力。 -->
-  <SSR_ArmourSteel.description>TODO</SSR_ArmourSteel.description>
-  
   <!-- EN: 碳炔 -->
   <SSR_Carbyne.label>TODO</SSR_Carbyne.label>
   <!-- EN: 碳炔是一种由碳原子组成的单质，具有链状或网状结构，拥有超高强度和轻质特性。 -->
@@ -25,6 +20,11 @@
   <SSR_NanoandMicroMechanicalComposite.label>TODO</SSR_NanoandMicroMechanicalComposite.label>
   <!-- EN: 纳米微械复材是一种由自增殖纳米机器人构成的先进材料，具有自我复制和自我修复的能力，能够适应各种极端环境和条件。 -->
   <SSR_NanoandMicroMechanicalComposite.description>TODO</SSR_NanoandMicroMechanicalComposite.description>
+  
+  <!-- EN: 特种钢 -->
+  <SSR_SpecialSteel.label>TODO</SSR_SpecialSteel.label>
+  <!-- EN: 特种钢是一种高强度钢材，专为提供额外的防护和耐久性而设计，具有出色的抗冲击和抗穿透能力。 -->
+  <SSR_SpecialSteel.description>TODO</SSR_SpecialSteel.description>
   
   <!-- EN: 通用构件 -->
   <SSR_StandardConstructionElement.label>TODO</SSR_StandardConstructionElement.label>
