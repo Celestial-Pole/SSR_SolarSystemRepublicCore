@@ -150,7 +150,7 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_FiveComponentSpacer</defName>
-		<label>制作五个高级零部件</label>
+		<label>制作高级零部件 x5</label>
 		<description>制作五个高级零部件。</description>
 		<jobString>正在制作五个高级零部件。</jobString>
 		<workAmount>50000</workAmount>
@@ -207,7 +207,7 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenComponentSpacer</defName>
-		<label>制作十个高级零部件</label>
+		<label>制作高级零部件 x10</label>
 		<description>制作十个高级零部件。</description>
 		<jobString>正在制作十个高级零部件。</jobString>
 		<workAmount>100000</workAmount>
@@ -293,7 +293,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FivePrecisionLens</defName>
-		<label>制作五片精密镜片</label>
+		<label>制作精密镜片 x5</label>
 		<description>制作五片精密镜片。</description>
 		<jobString>正在制作五片精密镜片。</jobString>
 		<workAmount>9000</workAmount>
@@ -322,7 +322,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenPrecisionLens</defName>
-		<label>制作十片精密镜片</label>
+		<label>制作精密镜片 x10</label>
 		<description>制作十片精密镜片。</description>
 		<jobString>正在制作十片精密镜片。</jobString>
 		<workAmount>18000</workAmount>
@@ -389,7 +389,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveSuperconductingMaterial</defName>
-		<label>制作五个超导材料</label>
+		<label>制作超导材料 x5</label>
 		<description>制作五个超导材料。</description>
 		<jobString>正在制作五个超导材料。</jobString>
 		<workAmount>9000</workAmount>
@@ -427,7 +427,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenSuperconductingMaterial</defName>
-		<label>制作十个超导材料</label>
+		<label>制作超导材料 x10</label>
 		<description>制作十个超导材料。</description>
 		<jobString>正在制作十个超导材料。</jobString>
 		<workAmount>18000</workAmount>
@@ -494,7 +494,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveStrongElectromagnet</defName>
-		<label>制作五个强电磁铁</label>
+		<label>制作强电磁铁 x5</label>
 		<description>制作五个强电磁铁。</description>
 		<jobString>正在制作五个强电磁铁。</jobString>
 		<workAmount>9000</workAmount>
@@ -523,7 +523,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenStrongElectromagnet</defName>
-		<label>制作十个强电磁铁</label>
+		<label>制作强电磁铁 x10</label>
 		<description>制作十个强电磁铁。</description>
 		<jobString>正在制作十个强电磁铁。</jobString>
 		<workAmount>18000</workAmount>
@@ -563,7 +563,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -571,7 +571,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
@@ -579,7 +579,15 @@
 						<li>SSR_Silicon</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>0.3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -599,7 +607,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveQuantumComputingCore</defName>
-		<label>制作五个量子计算核心</label>
+		<label>制作量子计算核心 x5</label>
 		<description>制作五个量子计算核心。</description>
 		<jobString>正在制作五个量子计算核心。</jobString>
 		<workAmount>12000</workAmount>
@@ -610,7 +618,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>50</count>
 			</li>
 			<li>
 				<filter>
@@ -618,7 +626,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>75</count>
 			</li>
 			<li>
 				<filter>
@@ -626,7 +634,15 @@
 						<li>SSR_Silicon</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1.5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -646,7 +662,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenQuantumComputingCore</defName>
-		<label>制作十个量子计算核心</label>
+		<label>制作量子计算核心 x10</label>
 		<description>制作十个量子计算核心。</description>
 		<jobString>正在制作十个量子计算核心。</jobString>
 		<workAmount>24000</workAmount>
@@ -657,7 +673,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>100</count>
 			</li>
 			<li>
 				<filter>
@@ -665,7 +681,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>150</count>
 			</li>
 			<li>
 				<filter>
@@ -673,7 +689,15 @@
 						<li>SSR_Silicon</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>70</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -722,9 +746,9 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveNuclearFissionFuelRod</defName>
-		<label>制作五个核裂变燃料棒</label>
-		<description>制作五个核裂变燃料棒。</description>
-		<jobString>正在制作五个核裂变燃料棒。</jobString>
+		<label>制作核裂变燃料棒 x5</label>
+		<description>制作五根核裂变燃料棒。</description>
+		<jobString>正在制作五根核裂变燃料棒。</jobString>
 		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
@@ -751,9 +775,9 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenNuclearFissionFuelRod</defName>
-		<label>制作核裂变燃料棒</label>
-		<description>制作核裂变燃料棒。</description>
-		<jobString>正在制作核裂变燃料棒。</jobString>
+		<label>制作核裂变燃料棒 x10</label>
+		<description>制作十根核裂变燃料棒。</description>
+		<jobString>正在制作十根核裂变燃料棒。</jobString>
 		<workAmount>24000</workAmount>
 		<ingredients>
 			<li>
@@ -827,7 +851,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveArtificialIntelligenceChip</defName>
-		<label>制作五个人工智能芯片</label>
+		<label>制作人工智能芯片 x5</label>
 		<description>制作五个人工智能芯片</description>
 		<jobString>正在制作五个人工智能芯片。</jobString>
 		<workAmount>15000</workAmount>
@@ -874,7 +898,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenArtificialIntelligenceChip</defName>
-		<label>制作十个人工智能芯片</label>
+		<label>制作人工智能芯片 x10</label>
 		<description>制作十个人工智能芯片</description>
 		<jobString>正在制作十个人工智能芯片。</jobString>
 		<workAmount>30000</workAmount>
@@ -984,7 +1008,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveIntegratedQuantumComputingFramework</defName>
-		<label>制作五个集成化量子计算框架</label>
+		<label>制作集成化量子计算框架 x5</label>
 		<description>制作五个集成化量子计算框架</description>
 		<jobString>正在制作五个集成化量子计算框架。</jobString>
 		<workAmount>15000</workAmount>
@@ -1047,7 +1071,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenIntegratedQuantumComputingFramework</defName>
-		<label>制作十个集成化量子计算框架</label>
+		<label>制作集成化量子计算框架 x10</label>
 		<description>制作十个集成化量子计算框架</description>
 		<jobString>正在制作十个集成化量子计算框架。</jobString>
 		<workAmount>30000</workAmount>
@@ -1156,7 +1180,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveHighDensityBattery</defName>
-		<label>制作五个高密度电池</label>
+		<label>制作高密度电池 x5</label>
 		<description>制作五个高密度电池</description>
 		<jobString>正在制作五个高密度电池。</jobString>
 		<workAmount>15000</workAmount>
@@ -1202,7 +1226,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenHighDensityBattery</defName>
-		<label>制作十个高密度电池</label>
+		<label>制作高密度电池 x10</label>
 		<description>制作十个高密度电池</description>
 		<jobString>正在制作十个高密度电池。</jobString>
 		<workAmount>30000</workAmount>
@@ -1312,7 +1336,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveHighenergyLaserEmitter</defName>
-		<label>制作五个高能激光发射器</label>
+		<label>制作高能激光发射器 x5</label>
 		<description>制作五个高能激光发射器</description>
 		<jobString>正在制作五个高能激光发射器。</jobString>
 		<workAmount>15000</workAmount>
@@ -1376,7 +1400,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenHighenergyLaserEmitter</defName>
-		<label>制作十个高能激光发射器</label>
+		<label>制作高能激光发射器 x10</label>
 		<description>制作十个高能激光发射器</description>
 		<jobString>正在制作十个高能激光发射器。</jobString>
 		<workAmount>30000</workAmount>
@@ -1487,7 +1511,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveAdvancedArtificialIntelligenceChip</defName>
-		<label>制作五个高级人工智能芯片</label>
+		<label>制作高级人工智能芯片 x5</label>
 		<description>制作五个高级人工智能芯片</description>
 		<jobString>正在制作五个高级人工智能芯片。</jobString>
 		<workAmount>15000</workAmount>
@@ -1534,7 +1558,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenAdvancedArtificialIntelligenceChip</defName>
-		<label>制作十个高级人工智能芯片</label>
+		<label>制作高级人工智能芯片 x10</label>
 		<description>制作十个高级人工智能芯片</description>
 		<jobString>正在制作十个高级人工智能芯片。</jobString>
 		<workAmount>30000</workAmount>
@@ -1628,7 +1652,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FivePhotonComputingCore</defName>
-		<label>制作五个光子计算核心</label>
+		<label>制作光子计算核心 x5</label>
 		<description>制作五个光子计算核心</description>
 		<jobString>正在制作五个光子计算核心。</jobString>
 		<workAmount>15000</workAmount>
@@ -1675,7 +1699,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenPhotonComputingCore</defName>
-		<label>制作十个光子计算核心</label>
+		<label>制作光子计算核心 x10</label>
 		<description>制作十个光子计算核心</description>
 		<jobString>正在制作十个光子计算核心。</jobString>
 		<workAmount>30000</workAmount>
@@ -1760,7 +1784,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveExtremeComponent</defName>
-		<label>制作五个极致零部件</label>
+		<label>制作极致零部件 x5</label>
 		<description>制作五个极致零部件</description>
 		<jobString>正在制作五个极致零部件。</jobString>
 		<workAmount>5000</workAmount>
@@ -1798,7 +1822,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenExtremeComponent</defName>
-		<label>制作十个极致零部件</label>
+		<label>制作极致零部件 x10</label>
 		<description>制作十个极致零部件</description>
 		<jobString>正在制作十个极致零部件。</jobString>
 		<workAmount>10000</workAmount>
@@ -1892,7 +1916,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveMiniatureNuclearFusionDevice</defName>
-		<label>制作五个微型聚变装置</label>
+		<label>制作微型聚变装置 x5</label>
 		<description>制作五个微型聚变装置</description>
 		<jobString>正在制作五个微型聚变装置。</jobString>
 		<workAmount>20000</workAmount>
@@ -1948,7 +1972,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenMiniatureNuclearFusionDevice</defName>
-		<label>制作十个微型聚变装置</label>
+		<label>制作微型聚变装置 x10</label>
 		<description>制作十个微型聚变装置</description>
 		<jobString>正在制作十个微型聚变装置。</jobString>
 		<workAmount>40000</workAmount>
@@ -2051,7 +2075,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_FiveHighenergyParticleConfinementDevice</defName>
-		<label>制作五个高能粒子约束装置</label>
+		<label>制作高能粒子约束装置 x5</label>
 		<description>制作五个高能粒子约束装置</description>
 		<jobString>正在制作五个高能粒子约束装置。</jobString>
 		<workAmount>20000</workAmount>
@@ -2098,7 +2122,7 @@
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
 		<defName>SSR_Recipe_TenHighenergyParticleConfinementDevice</defName>
-		<label>制作十个高能粒子约束装置</label>
+		<label>制作高能粒子约束装置 x10</label>
 		<description>制作十个高能粒子约束装置</description>
 		<jobString>正在制作十个高能粒子约束装置。</jobString>
 		<workAmount>40000</workAmount>
