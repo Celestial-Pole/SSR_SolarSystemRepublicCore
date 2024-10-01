@@ -83,7 +83,7 @@
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<Plasteel>150</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>15</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -316,8 +316,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -625,8 +625,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -793,8 +793,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -928,8 +928,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1112,8 +1112,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1263,8 +1263,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>80</SSR_SpecialSteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</costList>
 		<statBases>
