@@ -151,7 +151,7 @@
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<!--<techprintCount>1</techprintCount>-->
-		<baseCost>500</baseCost>
+		<baseCost>800</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
@@ -167,7 +167,7 @@
 		<prerequisites>
 			<li>SSRBasicTech</li>
 		</prerequisites>
-		<baseCost>500</baseCost>
+		<baseCost>800</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0.5</researchViewY>
 		<modExtensions>
@@ -192,7 +192,7 @@
 		<prerequisites>
 			<li>SSRBasicPhysics</li>
 		</prerequisites>
-		<baseCost>500</baseCost>
+		<baseCost>1000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
@@ -391,7 +391,7 @@
         </prerequisites>
         <baseCost>5000</baseCost>
         <researchViewX>4</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
