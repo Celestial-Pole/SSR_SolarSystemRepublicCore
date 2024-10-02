@@ -22,7 +22,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>35</count>
+				<count>55</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -49,7 +49,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>175</count>
+				<count>275</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -76,7 +76,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>350</count>
+				<count>550</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
