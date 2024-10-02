@@ -19,15 +19,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>55</count>
+				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SSR_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -46,15 +46,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>275</count>
+				<count>175</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SSR_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -73,15 +73,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>550</count>
+				<count>350</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SSR_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
