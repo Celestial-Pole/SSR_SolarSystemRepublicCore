@@ -432,6 +432,7 @@
 		</statBases>
 		<size>(3,3)</size>
 		<uiOrder>2520</uiOrder>
+		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
 		<pathCost>50</pathCost>
@@ -489,6 +490,7 @@
 		</statBases>
 		<size>(3,3)</size>
 		<uiOrder>2520</uiOrder>
+		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
 		<pathCost>50</pathCost>
