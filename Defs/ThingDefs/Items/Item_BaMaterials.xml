@@ -235,7 +235,7 @@
             <MarketValue>60</MarketValue>
             <Mass>0.001</Mass>
         </statBases>
-        <smallVolume>true</smallVolume>
+        <smallVolume>false</smallVolume>
         <stuffProps>
             <categories>
                 <li>Stony</li>
