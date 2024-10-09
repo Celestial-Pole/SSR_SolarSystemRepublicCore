@@ -347,7 +347,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_SpecialSteel</defName>
+		<defName>SSR_Recipe_SpecialSteelII</defName>
 		<label>制造特种钢</label>
 		<description>制造特种钢。</description>
 		<jobString>正在制造特种钢。</jobString>
@@ -378,7 +378,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_TenSpecialSteel</defName>
+		<defName>SSR_Recipe_TenSpecialSteelII</defName>
 		<label>制造特种钢 x10</label>
 		<description>制造十块特种钢。</description>
 		<jobString>正在制造十块特种钢。</jobString>
@@ -409,7 +409,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_HundredSpecialSteel</defName>
+		<defName>SSR_Recipe_HundredSpecialSteelII</defName>
 		<label>制造特种钢 x100</label>
 		<description>制造一百块特种钢。</description>
 		<jobString>正在制造一百块特种钢。</jobString>
@@ -641,15 +641,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -690,15 +682,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
+				<count>200</count>
 			</li>
 			<li>
 				<filter>
@@ -739,15 +723,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>1000</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>500</count>
+				<count>2000</count>
 			</li>
 			<li>
 				<filter>

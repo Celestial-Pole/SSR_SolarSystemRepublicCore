@@ -130,6 +130,9 @@
 			<li>SSR_Recipe_SpecialSteel</li>
 			<li>SSR_Recipe_TenSpecialSteel</li>
 			<li>SSR_Recipe_HundredSpecialSteel</li>
+			<li>SSR_Recipe_SpecialSteelII</li>
+			<li>SSR_Recipe_TenSpecialSteelII</li>
+			<li>SSR_Recipe_HundredSpecialSteelII</li>
 			<li>SSR_Recipe_PrecisionLens</li>
 			<li>SSR_Recipe_FivePrecisionLens</li>
 			<li>SSR_Recipe_TenPrecisionLens</li>
