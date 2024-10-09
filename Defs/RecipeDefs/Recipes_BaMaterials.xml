@@ -641,15 +641,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -690,15 +682,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
+				<count>200</count>
 			</li>
 			<li>
 				<filter>
@@ -739,15 +723,7 @@
 						<li>SSR_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>1000</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>500</count>
+				<count>2000</count>
 			</li>
 			<li>
 				<filter>
