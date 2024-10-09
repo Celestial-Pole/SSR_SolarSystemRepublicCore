@@ -269,7 +269,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -300,7 +300,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>100</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -331,12 +331,105 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>500</count>
+				<count>1000</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_SpecialSteel>100</SSR_SpecialSteel>
+		</products>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_SpecialSteel</defName>
+		<label>制造特种钢</label>
+		<description>制造特种钢。</description>
+		<jobString>正在制造特种钢。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_SpecialSteel>1</SSR_SpecialSteel>
+		</products>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_TenSpecialSteel</defName>
+		<label>制造特种钢 x10</label>
+		<description>制造十块特种钢。</description>
+		<jobString>正在制造十块特种钢。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+		</products>
+		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_HundredSpecialSteel</defName>
+		<label>制造特种钢 x100</label>
+		<description>制造一百块特种钢。</description>
+		<jobString>正在制造一百块特种钢。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>60000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>500</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
