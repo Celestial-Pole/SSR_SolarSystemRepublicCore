@@ -136,6 +136,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<MarketValue>225</MarketValue>
+			<SellPriceFactor>0.05</SellPriceFactor>
 			<Mass>0.01</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>3.0</DeteriorationRate>
@@ -157,6 +158,7 @@
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>325</MarketValue>
+			<SellPriceFactor>0.05</SellPriceFactor>
 			<Mass>0.01</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>3.0</DeteriorationRate>
@@ -371,6 +373,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>2300</MarketValue>
+			<SellPriceFactor>0.01</SellPriceFactor>
 			<Mass>1.2</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
@@ -392,6 +395,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>2300</MarketValue>
+			<SellPriceFactor>0.01</SellPriceFactor>
 			<Mass>1.2</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
@@ -413,6 +417,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>4500</MarketValue>
+			<SellPriceFactor>0.01</SellPriceFactor>
 			<Mass>1.2</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
@@ -434,6 +439,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>4500</MarketValue>
+			<SellPriceFactor>0.01</SellPriceFactor>
 			<Mass>1.2</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
