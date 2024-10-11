@@ -2249,14 +2249,14 @@
 			</li>
 			<li>
 				<def>Steel</def>
-				<workAmout>12000</workAmout>
+				<workAmout>9000</workAmout>
 				<yield>75</yield>
 				<value>1.3</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>Silver</def>
-				<workAmout>12000</workAmout>
+				<workAmout>10000</workAmout>
 				<yield>20</yield>
 				<value>9</value>
 				<stockPerTunnel>10000000</stockPerTunnel>
