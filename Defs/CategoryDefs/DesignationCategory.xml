@@ -42,12 +42,20 @@
 		<sortOrder>4</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Power</iconPath>
 	</Def>
+	
+	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
+		<defName>SSR_DesignationInnerCategory_Satellite</defName>
+		<label>卫星</label>
+		<description>卫星</description>
+		<sortOrder>6</sortOrder>
+		<iconPath>UI/DesignationInnerCategory/Satellite</iconPath>
+	</Def>
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Furniture</defName>
 		<label>家具</label>
 		<description>家具</description>
-		<sortOrder>6</sortOrder>
+		<sortOrder>7</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Furniture</iconPath>
 	</Def>
 	
@@ -55,7 +63,7 @@
 		<defName>SSR_DesignationInnerCategory_Misc</defName>
 		<label>杂项</label>
 		<description>杂项</description>
-		<sortOrder>7</sortOrder>
+		<sortOrder>8</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Misc</iconPath>
 	</Def>
 	
