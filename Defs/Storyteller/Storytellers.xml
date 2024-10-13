@@ -302,7 +302,7 @@
 			<li Class="StorytellerCompProperties_OnOffCycle">
 				<category>ThreatBig</category><!-- 类别为大威胁 -->
 				<minDaysPassed>9.6</minDaysPassed><!-- 游戏运行天数必须大于等于11天才能触发此袭击 -->
-				<onDays>4</onDays><!-- 袭击活跃的天数，即袭击发生的频率 -->
+				<onDays>5</onDays><!-- 袭击活跃的天数，即袭击发生的频率 -->
 				<offDays>5</offDays>  <!-- 袭击不活跃的天数，即袭击间隔 -->
 				<minSpacingDays>1.9</minSpacingDays> <!-- 两次袭击之间的最小间隔天数 -->
 				<numIncidentsRange>1~2</numIncidentsRange><!-- 每次袭击期间可能发生的袭击次数范围 -->
