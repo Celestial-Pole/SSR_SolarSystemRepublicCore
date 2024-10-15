@@ -571,7 +571,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -626,7 +626,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>50</count>
 			</li>
 			<li>
 				<filter>
@@ -681,7 +681,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>100</count>
 			</li>
 			<li>
 				<filter>
@@ -956,7 +956,7 @@
 						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -1019,7 +1019,7 @@
 						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
@@ -1082,7 +1082,7 @@
 						<li>SSR_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
