@@ -395,7 +395,7 @@
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
-		<defName>EFBuilding</defName>
+		<defName>SSREFBuilding</defName>
 		<label>地球联邦家具</label>
 		<description>地球联邦风格的家具。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -477,7 +477,7 @@
     </ResearchProjectDef>-->
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
-		<defName>EFClothing</defName>
+		<defName>SSREFClothing</defName>
 		<label>地球联邦服装</label>
 		<description>地球联邦服装。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -501,7 +501,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>EFClothing</li>
+			<li>SSREFClothing</li>
 		</prerequisites>
 		<baseCost>1000</baseCost>
 		<researchViewX>3</researchViewX>

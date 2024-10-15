@@ -15,7 +15,7 @@
 		<fillPercent>1</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
+		<hasInteractionCell>false</hasInteractionCell>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
