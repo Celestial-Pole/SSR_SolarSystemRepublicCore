@@ -1260,7 +1260,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_VacuumInductionFurnace</defName>
 		<label>真空感应炉</label>
-		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
+		<description>真空感应炉是一种在真空环境中熔化金属的设备，它通过感应加热原理工作，能够提供精确的温度控制和清洁的熔炼过程。</description>
 		<graphicData>
 			<texPath>Things/Building/Production/VacuumInductionFurnace/VacuumInductionFurnace</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1292,15 +1292,18 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>ExtractMetalFromSlag</li>
-			<!-- <li>SmeltOrDestroyThing</li>电熔炼器
+			<!--电熔炼器-->
+			<li>SmeltOrDestroyThing</li>
 			<li>SmeltWeapon</li>
 			<li>SmeltApparel</li>
 			<li>DestroyWeapon</li>
-			<li>DestroyApparel</li> -->
-			<!-- <li>CremateCorpse</li>电力火化炉
+			<li>DestroyApparel</li>
+			<!--电力火化炉-->
+			<li>CremateCorpse</li>
 			<li>BurnApparel</li>
 			<li>BurnWeapon</li>
-			<li>BurnDrugs</li> -->
+			<li>BurnDrugs</li>
+			
 			<li>SSR_Recipe_Glass</li>
 			<li>SSR_Recipe_TenGlass</li>
 			<li>SSR_Recipe_HundredGlass</li>
