@@ -1291,6 +1291,19 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>ExtractMetalFromSlag</li>
+			<!-- <li>SmeltOrDestroyThing</li>电熔炼器
+			<li>SmeltWeapon</li>
+			<li>SmeltApparel</li>
+			<li>DestroyWeapon</li>
+			<li>DestroyApparel</li> -->
+			<!-- <li>CremateCorpse</li>电力火化炉
+			<li>BurnApparel</li>
+			<li>BurnWeapon</li>
+			<li>BurnDrugs</li> -->
+			<li>SSR_Recipe_Glass</li>
+			<li>SSR_Recipe_TenGlass</li>
+			<li>SSR_Recipe_HundredGlass</li>
 			<li>SSR_Recipe_Silicon</li>
 			<li>SSR_Recipe_TenSilicon</li>
 			<li>SSR_Recipe_HundredSilicon</li>
