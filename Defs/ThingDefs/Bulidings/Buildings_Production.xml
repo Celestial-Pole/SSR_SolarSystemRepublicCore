@@ -22,12 +22,12 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef-->
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">		
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -40,7 +40,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>		
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -53,7 +53,7 @@
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li><!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li>			<!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -1540,7 +1540,7 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_CoalLiquefactionMachine</defName>
 		<label>煤炭液化机</label>
@@ -1648,7 +1648,7 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />--><!--单建筑多内容栏时需要-->
+			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->			<!--单建筑多内容栏时需要-->
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
@@ -1672,7 +1672,7 @@
 			<li>SSRStandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1759,7 +1759,7 @@
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1824,7 +1824,8 @@
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>36000</spawnIntervalRange>
 				<spawnMaxAdjacent>50</spawnMaxAdjacent>
-				<spawnForbidden>true</spawnForbidden>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
 		</comps>
 		<rotatable>false</rotatable>
@@ -1846,7 +1847,7 @@
 			<li>SSRControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -1988,14 +1989,15 @@
 				<spawnCount>5</spawnCount>
 				<spawnIntervalRange>18000</spawnIntervalRange>
 				<spawnMaxAdjacent>100</spawnMaxAdjacent>
-				<spawnForbidden>true</spawnForbidden>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>SSRBasicMedicine</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -2054,7 +2056,7 @@
 			<li>SSRBasicSpaceApplication</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
@@ -2400,7 +2402,7 @@
 			</li>
 		</manualMineralProperties>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner"><!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
