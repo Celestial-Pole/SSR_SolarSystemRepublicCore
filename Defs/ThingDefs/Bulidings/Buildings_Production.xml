@@ -1361,7 +1361,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/VacuumInductionFurnace_north/T2VacuumInductionFurnace_north</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace_north</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1394,7 +1394,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/VacuumInductionFurnace_north/T2VacuumInductionFurnace_north</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace_north</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
