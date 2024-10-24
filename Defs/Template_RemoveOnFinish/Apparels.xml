@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<!--<ThingDef ParentName="ArmorMachineableBase">
 		<defName>SSR_FlakVestWithTeleport</defName>
 		<label>flak vest with teleport</label>
 		<description>A vest with armor plates inserted on the chest and back. While quite effective at deflecting gunshots and stabbing attacks against the chest, it does nothing to protect the limbs.</description>
@@ -161,6 +161,6 @@
 				</li>
 			</compEffectList>
 			<typeSFX>heal</typeSFX>
-		</AKA_Ability.AKAbilityDef>
+		</AKA_Ability.AKAbilityDef>-->
 
 </Defs>
