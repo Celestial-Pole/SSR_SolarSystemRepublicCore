@@ -21,7 +21,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerConduit</defName>
 		<label>安全线缆</label>
-		<description>安全线缆</description>
+		<description>安全线缆是一种被外壳保护的加固线缆，以防止物理损伤和环境影响，从而降低电气风险并提高系统的安全性。</description>
 		<graphicData>
 			<texPath>Things/Building/Power/PowerConduit/PowerConduit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -66,7 +66,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PortableGenerator</defName>
 		<label>便携式发电机</label>
-		<description>便携式发电机</description>
+		<description>便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -156,7 +156,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_ThermalPowerPlant</defName>
 		<label>火力发电站</label>
-		<description>火力发电站</description>
+		<description>火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -290,7 +290,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelSolarGenerator</defName>
 		<label>中级太阳能板</label>
-		<description>中级太阳能板</description>
+		<description>中级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以较低功率进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -349,7 +349,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
-		<description>高级太阳能板</description>
+		<description>高级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以一定功率进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -408,7 +408,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
-		<description>中级垂直风力发电机</description>
+		<description>中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -466,7 +466,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
-		<description>高级垂直风力发电机</description>
+		<description>高级垂直风力发电机相较于前一个版本，对扇叶外形和发动机设计进行了升级，大大增强了其发电效率。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -524,7 +524,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
-		<description>中级地热发电机</description>
+		<description>在新型材料的加持下，中级地热发电机相较于普通的地热发电机有着更高的能量转换效率。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -589,7 +589,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
-		<description>高级地热发电机</description>
+		<description>得益于技术的进步，高级地热发电机可以将几乎全部的地热能转化为电能。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -654,7 +654,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
-		<description>核裂变反应堆</description>
+		<description>核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -746,7 +746,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
-		<description>核聚变反应堆</description>
+		<description>核聚变反应堆是一种通过磁约束利用核聚变过程产生巨大能量的设备，需要进行电火才能启动。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -839,7 +839,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
-		<description>小型核聚变反应堆</description>
+		<description>使用惯性约束技术的小型核聚变反应堆，以更小的体积完成核聚变控制的同时释放了更多的能量。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -931,7 +931,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
-		<description>反物质反应堆</description>
+		<description>反物质反应堆利用正反物质的湮灭产生能量，其释放的能量远超其他的发电设备，也正是如此，反物质反应堆的安全保障会成为殖民地的重中之重。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -1021,7 +1021,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
-		<description>无线输电塔</description>
+		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Long</tickerType>
 		<graphicData>
@@ -1101,7 +1101,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerReceiverTower</defName>
 		<label>电力接收塔</label>
-		<description>电力接收塔</description>
+		<description>电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Long</tickerType>
 		<graphicData>
