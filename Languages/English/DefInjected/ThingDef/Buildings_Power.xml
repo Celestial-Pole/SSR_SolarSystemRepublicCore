@@ -3,77 +3,77 @@
   
   <!-- EN: 高级地热发电机 -->
   <SSR_AdvancedGeothermalGenerator.label>TODO</SSR_AdvancedGeothermalGenerator.label>
-  <!-- EN: 高级地热发电机 -->
+  <!-- EN: 得益于技术的进步，高级地热发电机可以将几乎全部的地热能转化为电能。 -->
   <SSR_AdvancedGeothermalGenerator.description>TODO</SSR_AdvancedGeothermalGenerator.description>
   
   <!-- EN: 高级太阳能板 -->
   <SSR_AdvancedSolarGenerator.label>TODO</SSR_AdvancedSolarGenerator.label>
-  <!-- EN: 高级太阳能板 -->
+  <!-- EN: 高级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以一定功率进行发电。 -->
   <SSR_AdvancedSolarGenerator.description>TODO</SSR_AdvancedSolarGenerator.description>
   
   <!-- EN: 高级垂直风力发电机 -->
   <SSR_AdvancedVerticalAxisWindTurbine.label>TODO</SSR_AdvancedVerticalAxisWindTurbine.label>
-  <!-- EN: 高级垂直风力发电机 -->
+  <!-- EN: 高级垂直风力发电机相较于前一个版本，对扇叶外形和发动机设计进行了升级，大大增强了其发电效率。 -->
   <SSR_AdvancedVerticalAxisWindTurbine.description>TODO</SSR_AdvancedVerticalAxisWindTurbine.description>
   
   <!-- EN: 反物质反应堆 -->
   <SSR_AntimatterReactor.label>TODO</SSR_AntimatterReactor.label>
-  <!-- EN: 反物质反应堆 -->
+  <!-- EN: 反物质反应堆利用正反物质的湮灭产生能量，其释放的能量远超其他的发电设备，也正是如此，反物质反应堆的安全保障会成为殖民地的重中之重。 -->
   <SSR_AntimatterReactor.description>TODO</SSR_AntimatterReactor.description>
   
   <!-- EN: 中级地热发电机 -->
   <SSR_Medium-levelGeothermalGenerator.label>TODO</SSR_Medium-levelGeothermalGenerator.label>
-  <!-- EN: 中级地热发电机 -->
+  <!-- EN: 在新型材料的加持下，中级地热发电机相较于普通的地热发电机有着更高的能量转换效率。 -->
   <SSR_Medium-levelGeothermalGenerator.description>TODO</SSR_Medium-levelGeothermalGenerator.description>
   
   <!-- EN: 中级太阳能板 -->
   <SSR_Medium-levelSolarGenerator.label>TODO</SSR_Medium-levelSolarGenerator.label>
-  <!-- EN: 中级太阳能板 -->
+  <!-- EN: 中级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以较低功率进行发电。 -->
   <SSR_Medium-levelSolarGenerator.description>TODO</SSR_Medium-levelSolarGenerator.description>
   
   <!-- EN: 中级垂直风力发电机 -->
   <SSR_Medium-levelVerticalAxisWindTurbine.label>TODO</SSR_Medium-levelVerticalAxisWindTurbine.label>
-  <!-- EN: 中级垂直风力发电机 -->
+  <!-- EN: 中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。 -->
   <SSR_Medium-levelVerticalAxisWindTurbine.description>TODO</SSR_Medium-levelVerticalAxisWindTurbine.description>
   
   <!-- EN: 核裂变反应堆 -->
   <SSR_NuclearFissionReactor.label>TODO</SSR_NuclearFissionReactor.label>
-  <!-- EN: 核裂变反应堆 -->
+  <!-- EN: 核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。 -->
   <SSR_NuclearFissionReactor.description>TODO</SSR_NuclearFissionReactor.description>
   
   <!-- EN: 核聚变反应堆 -->
   <SSR_NuclearFusionReactor.label>TODO</SSR_NuclearFusionReactor.label>
-  <!-- EN: 核聚变反应堆 -->
+  <!-- EN: 核聚变反应堆是一种通过磁约束利用核聚变过程产生巨大能量的设备，需要进行电火才能启动。 -->
   <SSR_NuclearFusionReactor.description>TODO</SSR_NuclearFusionReactor.description>
   
   <!-- EN: 便携式发电机 -->
   <SSR_PortableGenerator.label>TODO</SSR_PortableGenerator.label>
-  <!-- EN: 便携式发电机 -->
+  <!-- EN: 便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。 -->
   <SSR_PortableGenerator.description>TODO</SSR_PortableGenerator.description>
   
   <!-- EN: 安全线缆 -->
   <SSR_PowerConduit.label>TODO</SSR_PowerConduit.label>
-  <!-- EN: 安全线缆 -->
+  <!-- EN: 安全线缆是一种被外壳保护的加固线缆，以防止物理损伤和环境影响，从而降低电气风险并提高系统的安全性。 -->
   <SSR_PowerConduit.description>TODO</SSR_PowerConduit.description>
   
   <!-- EN: 电力接收塔 -->
   <SSR_PowerReceiverTower.label>TODO</SSR_PowerReceiverTower.label>
-  <!-- EN: 电力接收塔 -->
+  <!-- EN: 电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。 -->
   <SSR_PowerReceiverTower.description>TODO</SSR_PowerReceiverTower.description>
   
   <!-- EN: 小型核聚变反应堆 -->
   <SSR_Small-scaleNuclearFusionReactor.label>TODO</SSR_Small-scaleNuclearFusionReactor.label>
-  <!-- EN: 小型核聚变反应堆 -->
+  <!-- EN: 使用惯性约束技术的小型核聚变反应堆，以更小的体积完成核聚变控制的同时释放了更多的能量。 -->
   <SSR_Small-scaleNuclearFusionReactor.description>TODO</SSR_Small-scaleNuclearFusionReactor.description>
   
   <!-- EN: 火力发电站 -->
   <SSR_ThermalPowerPlant.label>TODO</SSR_ThermalPowerPlant.label>
-  <!-- EN: 火力发电站 -->
+  <!-- EN: 火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。 -->
   <SSR_ThermalPowerPlant.description>TODO</SSR_ThermalPowerPlant.description>
   
   <!-- EN: 无线输电塔 -->
   <SSR_WirelessPowerBroadcaster.label>TODO</SSR_WirelessPowerBroadcaster.label>
-  <!-- EN: 无线输电塔 -->
+  <!-- EN: 无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能抵御太阳耀斑对殖民地电网的干扰。 -->
   <SSR_WirelessPowerBroadcaster.description>TODO</SSR_WirelessPowerBroadcaster.description>
   
 </LanguageData>
