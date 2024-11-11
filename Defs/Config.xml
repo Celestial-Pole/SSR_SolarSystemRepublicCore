@@ -18,7 +18,7 @@
 			<li>ShipChunkIncoming</li>
 		</interceptableSkyfaller>
 		<palmineDefaultMineralProp>
-			<workAmout>12000</workAmout>
+			<workAmout>9000</workAmout>
 			<yield>75</yield>
 			<innerStorageCapacity>1000000</innerStorageCapacity>
 			<stockPerTunnel>50000</stockPerTunnel>

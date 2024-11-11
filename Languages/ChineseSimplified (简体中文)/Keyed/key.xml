@@ -130,8 +130,11 @@
 	
 	<!-- 洗衣机 -->
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
-	
-	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自ssr的奖励。</SSR_Notify_DailyReseachBonus>
+
+	<!-- 叙事者 -->
+	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
+
+	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 
 </LanguageData>
