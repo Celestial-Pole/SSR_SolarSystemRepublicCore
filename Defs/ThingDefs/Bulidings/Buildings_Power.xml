@@ -199,6 +199,7 @@
 				<soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
 			<li Class="FS_SSR.TCP_MultiFuelRefuelable">
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<fuelFilter />
