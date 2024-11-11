@@ -1024,7 +1024,7 @@
 		<label>无线输电塔</label>
 		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
-		<tickerType>Long</tickerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1077,7 +1077,7 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
+			<!--li Class="FS_SSR.TCP_GlobalPowerBroadcast" /-->
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
 					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
@@ -1104,7 +1104,7 @@
 		<label>电力接收塔</label>
 		<description>电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。</description>
 		<thingClass>Building</thingClass>
-		<tickerType>Long</tickerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1149,7 +1149,10 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.TCP_GlobalPowerReceiver" />
+			<li Class="FS_SSR.TCP_GlobalPowerReceiver">
+				<basePowerConsumption>-1</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
 					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
