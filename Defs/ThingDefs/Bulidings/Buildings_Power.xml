@@ -16,6 +16,7 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
+		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">

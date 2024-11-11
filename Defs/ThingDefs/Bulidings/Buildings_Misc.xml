@@ -247,4 +247,58 @@
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_Teleporter</defName>
+		<label>传送装置</label>
+		<tickerType>Never</tickerType>
+		<description>传送装置可以将一定范围内的单位与物品传送到指定的目的地。</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Teleporter/Teleporter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<thingClass>FS_SSR.Building_TeleportPad</thingClass>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Mass>300</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>FS_SSR.PW_TeleportPadRadius</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+			<li Class="FS_SSR.DefExt_TeleportPadRadius">
+				<radiusThrow>(4,8)</radiusThrow>
+				<radiusRetrieve>(9,-1)</radiusRetrieve>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 </Defs>
