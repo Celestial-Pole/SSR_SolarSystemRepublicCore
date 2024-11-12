@@ -86,8 +86,7 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<Steel>30</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>1</Steel>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
@@ -262,7 +261,7 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
-		<pathCost>50</pathCost>
+		<pathCost>0</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
@@ -279,7 +278,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Steel>10</Steel>
+			<SSR_FermiMaterial>900</SSR_FermiMaterial>
+			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
+			<SSR_PhotonComputingCore>3</SSR_PhotonComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -296,7 +297,7 @@
 			</li>
 			<li Class="FS_SSR.DefExt_TeleportPadRadius">
 				<radiusThrow>(4,8)</radiusThrow>
-				<radiusRetrieve>(9,-1)</radiusRetrieve>
+				<radiusRetrieve>8</radiusRetrieve>
 			</li>
 		</modExtensions>
 	</ThingDef>

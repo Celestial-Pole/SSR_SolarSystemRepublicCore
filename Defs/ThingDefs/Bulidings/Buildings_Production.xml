@@ -37,7 +37,7 @@
 		<pathCost>50</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">

@@ -21,7 +21,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -91,7 +91,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -161,7 +161,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -247,7 +247,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.3</fillPercent>
 		<useHitPoints>True</useHitPoints>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<statBases>
 			<WorkToBuild>18000</WorkToBuild>
 			<MaxHitPoints>700</MaxHitPoints>
@@ -342,7 +342,7 @@
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<statBases>
 			<MaxHitPoints>10000</MaxHitPoints>
 			<WorkToBuild>150000</WorkToBuild>
@@ -419,7 +419,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>

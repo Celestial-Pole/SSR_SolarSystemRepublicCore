@@ -16,7 +16,7 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
-		<preventSkyfallersLangingOn>true</preventSkyfallersLangingOn>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
@@ -1131,7 +1131,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
