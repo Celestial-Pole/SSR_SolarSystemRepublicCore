@@ -296,8 +296,8 @@
 				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
 			</li>
 			<li Class="FS_SSR.DefExt_TeleportPadRadius">
-				<radiusThrow>(4,8)</radiusThrow>
-				<radiusRetrieve>8</radiusRetrieve>
+				<radiusThrow>4</radiusThrow>
+				<radiusRetrieve>4</radiusRetrieve>
 			</li>
 		</modExtensions>
 	</ThingDef>
