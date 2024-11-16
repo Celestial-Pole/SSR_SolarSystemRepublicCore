@@ -1078,6 +1078,10 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
+			<li Class="FS_SSR.TCP_MapImmueMentalStates">
+				<immuneMentalStates>true</immuneMentalStates>
+				<immunePsychicDrone>true</immunePsychicDrone>
+			</li>
 			<!--li Class="FS_SSR.TCP_GlobalPowerBroadcast" /-->
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
