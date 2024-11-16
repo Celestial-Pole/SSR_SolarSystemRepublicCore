@@ -16,12 +16,13 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerConduit</defName>
 		<label>安全线缆</label>
-		<description>安全线缆</description>
+		<description>安全线缆是一种被外壳保护的加固线缆，以防止物理损伤和环境影响，从而降低电气风险并提高系统的安全性。</description>
 		<graphicData>
 			<texPath>Things/Building/Power/PowerConduit/PowerConduit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -66,7 +67,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PortableGenerator</defName>
 		<label>便携式发电机</label>
-		<description>便携式发电机</description>
+		<description>便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -154,9 +155,144 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_ThermalPowerPlant</defName>
+		<label>火力发电站</label>
+		<description>火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(1.93,1,1.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.9</fillPercent>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>0.3</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(5,5)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<SSR_StandardConstructionElement>70</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>20</SSR_SpecialSteel>
+			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-20000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
+			<li Class="FS_SSR.TCP_MultiFuelRefuelable">
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<fuelFilter />
+				<fuel>
+					<li>
+						<def>WoodLog</def><!--燃料的def-->
+						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
+						<pollution>1</pollution><!--这种燃料多少污染-->
+					</li>
+					<li>
+						<def>Chemfuel</def><!--燃料的def-->
+						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
+						<pollution>0</pollution><!--这种燃料多少污染-->
+					</li>
+					<li>
+						<def>SSR_Carbon</def><!--燃料的def-->
+						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
+						<pollution>0</pollution><!--这种燃料多少污染-->
+					</li>
+					<li>
+						<def>Wastepack</def><!--燃料的def-->
+						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
+						<pollution>4</pollution><!--这种燃料多少污染-->
+					</li>
+				</fuel>
+				<fuelCapacity>100.0</fuelCapacity>
+				<fuelConsumptionRate>5</fuelConsumptionRate>
+				<maxPollution>100</maxPollution><!--到达多少污染会下酸雨-->
+				<acidRainDuration>36000</acidRainDuration><!--酸雨持续时间-->
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(80,112,180,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_SpecialSteel</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>ComponentIndustrial</item>
+									<amount>3</amount>
+								</li>
+							</materials>
+							<workAmt>100</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(5,5)</drawSize>
+							</graphicData>
+							<requireResearch>SSRWasteGasTreatmentTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<uiOrder>2100</uiOrder>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSRBasicPowerTechnology</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelSolarGenerator</defName>
 		<label>中级太阳能板</label>
-		<description>中级太阳能板</description>
+		<description>中级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以较低功率进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -215,7 +351,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
-		<description>高级太阳能板</description>
+		<description>高级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以一定功率进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -274,7 +410,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
-		<description>中级垂直风力发电机</description>
+		<description>中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -332,7 +468,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
-		<description>高级垂直风力发电机</description>
+		<description>高级垂直风力发电机相较于前一个版本，对扇叶外形和发动机设计进行了升级，大大增强了其发电效率。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -390,7 +526,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
-		<description>中级地热发电机</description>
+		<description>在新型材料的加持下，中级地热发电机相较于普通的地热发电机有着更高的能量转换效率。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -455,7 +591,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
-		<description>高级地热发电机</description>
+		<description>得益于技术的进步，高级地热发电机可以将几乎全部的地热能转化为电能。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -520,7 +656,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
-		<description>核裂变反应堆</description>
+		<description>核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -612,7 +748,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
-		<description>核聚变反应堆</description>
+		<description>核聚变反应堆是一种通过磁约束利用核聚变过程产生巨大能量的设备，需要进行电火才能启动。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -705,7 +841,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
-		<description>小型核聚变反应堆</description>
+		<description>使用惯性约束技术的小型核聚变反应堆，以更小的体积完成核聚变控制的同时释放了更多的能量。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -797,7 +933,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
-		<description>反物质反应堆</description>
+		<description>反物质反应堆利用正反物质的湮灭产生能量，其释放的能量远超其他的发电设备，也正是如此，反物质反应堆的安全保障会成为殖民地的重中之重。</description>
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -887,9 +1023,9 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
-		<description>无线输电塔</description>
+		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
-		<tickerType>Long</tickerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -942,7 +1078,7 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
+			<!--li Class="FS_SSR.TCP_GlobalPowerBroadcast" /-->
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
 					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
@@ -964,12 +1100,12 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!--<ThingDef ParentName="SSR_BuildingBase_Power">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerReceiverTower</defName>
 		<label>电力接收塔</label>
-		<description>电力接收塔</description>
+		<description>电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。</description>
 		<thingClass>Building</thingClass>
-		<tickerType>Long</tickerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -995,7 +1131,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
@@ -1014,7 +1150,10 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.TCP_GlobalPowerReceiver" />
+			<li Class="FS_SSR.TCP_GlobalPowerReceiver">
+				<basePowerConsumption>-1</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
 					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
@@ -1034,7 +1173,7 @@
 		<researchPrerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
 		</researchPrerequisites>
-	</ThingDef>-->
+	</ThingDef>
 
 	<!--  原版风力发电
   <ThingDef ParentName="BuildingBase">

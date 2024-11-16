@@ -782,6 +782,22 @@
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+		<defName>SSRBasicMiningAutomation</defName>
+		<label>基础采矿自动化</label>
+		<description>解锁采矿的初级自动化改造项目。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRStandardizedMineConstruction</li>
+		</prerequisites>
+		<baseCost>3000</baseCost>
+		<researchViewX>6</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
 	<!-- <ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
         <defName>SSRBasicAviation</defName>
         <label>基础航空技术</label>
@@ -1575,15 +1591,15 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
-		<defName>SSRBasicMiningAutomation</defName>
-		<label>基础采矿自动化</label>
+		<defName>SSRMedium-levelMiningAutomation</defName>
+		<label>中级采矿自动化</label>
 		<description>解锁采矿的初级自动化改造项目。</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRStandardizedMineConstruction</li>
+			<li>SSRBasicMiningAutomation</li>
 			<li>SSRStandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>10000</baseCost>

@@ -27,6 +27,7 @@
 	<SSR_CurrentLayer>当前等级</SSR_CurrentLayer>
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
+	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
 	<SSR_目标品质>目标品质：</SSR_目标品质>
 	<SSR_切换至>切换至：</SSR_切换至>
 	<SSR_没有配方>没有配方：</SSR_没有配方>
@@ -62,7 +63,7 @@
 	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
 	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
 	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
-	<SSR_DataCenterOverseerName>数据中心监督员</SSR_DataCenterOverseerName>
+	<SSR_DataCenterOverseerName>数据中心监督员姓名</SSR_DataCenterOverseerName>
 	<SSR_SelectMech>选择机械族</SSR_SelectMech>
 	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
@@ -91,11 +92,11 @@
 	<SSR_打开卫星UI>卫星UI开关</SSR_打开卫星UI>
 	<SSR_LaunchRocket>发射火箭</SSR_LaunchRocket>
 	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
-	<SSR_SelectBG>选择背景图</SSR_SelectBG>
-	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
-	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
-	<SSR_RandBG>随机背景图</SSR_RandBG>
-	<SSR_RandBGDesc>随机背景图</SSR_RandBGDesc>
+	<SSR_SelectBG>选择BG</SSR_SelectBG>
+	<SSR_EnableBG>启用的BG</SSR_EnableBG>
+	<SSR_EnableBGDesc>启用的BG</SSR_EnableBGDesc>
+	<SSR_RandBG>随机BG</SSR_RandBG>
+	<SSR_RandBGDesc>随机BG</SSR_RandBGDesc>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
 	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
 	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
@@ -129,5 +130,11 @@
 	
 	<!-- 洗衣机 -->
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
+
+	<!-- 叙事者 -->
+	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
+
+	<!-- 电力接收塔 -->
+	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 
 </LanguageData>
