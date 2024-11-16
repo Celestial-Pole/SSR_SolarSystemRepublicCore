@@ -497,12 +497,12 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
+			<!--li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
-			</li>
-			<!--<li Class="FS_SSR.TCP_PowerCostByLevel">
+			</li-->
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 				<powerConsumptionByLevel>
@@ -510,7 +510,7 @@
 					<li>1000</li>
 					<li>1500</li>
 				</powerConsumptionByLevel>
-			</li>-->
+			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -617,6 +617,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
