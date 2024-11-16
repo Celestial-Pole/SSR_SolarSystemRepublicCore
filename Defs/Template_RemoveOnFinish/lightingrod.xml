@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR__lightingrod</defName>
+		<label>避雷针</label>
+		<tickerType>Never</tickerType>
+		<description>引云丁真，鉴定为避雷针。</description>
+		<graphicData>
+			<texPath>UI/TempIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3.2</drawSize>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>10</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	   <placeWorkers>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>0</basePowerConsumption>
+			</li>
+			<li Class= "FS_SSR.Power.TCP_LightingRod">
+				<energyPerBolt>1000</energyPerBolt>
+			</li>
+		</comps>
+		<modExtensions>
+		</modExtensions>
+	</ThingDef>	
+	
+</Defs>
