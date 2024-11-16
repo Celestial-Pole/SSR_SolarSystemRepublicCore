@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3983025128
+CRC: 3293681432
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 36b5178f186d59483a89a3651ecb6171
+    Hash: db31d82c2ed8ce03d9e28cf128d3954a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ca418655f8aff062c4e6037afd195edd
+    Hash: b85375258f37d6b0a764f3f5bc657164
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -32,6 +32,8 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 64411002a6682424488ac7a528f9f360, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f187fbf806e497544b882684d8578620, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ab91cade07454a94a9d5b1f5a997b9bf, type: 3}
@@ -39,6 +41,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/SSR/Animate/MinerT3/BlackHoleKeep.anim
 - Assets/SSR/Texture/MinerT2/Cable.png
 - Assets/SSR/Texture/MinerT1/CableA.png
 - Assets/SSR/Mesh/Mesh_Plane.asset
@@ -55,10 +58,14 @@ Assets:
 - Assets/SSR/Perfab/MinerT1.prefab
 - Assets/SSR/Texture/WindTurbineT1/HolderTop.png
 - Assets/SSR/Material/WindTurbineT2/Foundation.mat
+- Assets/SSR/Animate/ThermalPower/Working.anim
 - Assets/SSR/CutOut.shader
 - Assets/SSR/Material/MinerT1/CableB.mat
 - Assets/SSR/Material/MinerT2/Cargo.mat
+- Assets/SSR/Texture/MinerT3/MaskFinal.png
+- Assets/SSR/Material/MinerT3/DepthMask.mat
 - Assets/SSR/Material/MinerT1/DepthMask.mat
+- Assets/SSR/Texture/ThermalPower/Cover.png
 - Assets/SSR/Material/EmptyMask.mat
 - Assets/SSR/Texture/MinerT1/HookB.png
 - Assets/SSR/Texture/MinerT1/Foundation.png
@@ -68,33 +75,50 @@ Assets:
 - Assets/SSR/Texture/MinerT2/Hook_0.png
 - Assets/SSR/Texture/MinerT2/Hook_2.png
 - Assets/SSR/Material/MinerT2/Spot.mat
+- Assets/SSR/Animate/MinerT3/BlackHoleClose.anim
 - Assets/SSR/Material/WindTurbineT2/Turbine.mat
 - Assets/SSR/Material/MinerT2/Foundation.mat
+- Assets/SSR/Material/ThermalPower/Fans.mat
 - Assets/SSR/DepthMask.shader
 - Assets/SSR/Texture/WindTurbineT1/HolderLow.png
 - Assets/SSR/Texture/WindTurbineT1/poleDepth.png
 - Assets/SSR/Material/MinerT2/Hook_0.mat
+- Assets/SSR/Material/MinerT3/Foundation.mat
+- Assets/SSR/Animate/ThermalPower/ThermalPower.controller
 - Assets/SSR/Material/MinerT1/MaskFinal.mat
 - Assets/SSR/Texture/MinerT2/CargoDepth.png
+- Assets/SSR/Texture/ThermalPower/Fans.png
 - Assets/SSR/Animate/MinerT1/AnimateController.controller
+- Assets/SSR/Animate/MinerT3/AnimateController.controller
 - Assets/SSR/Material/WindTurbineT2/Holder.mat
 - Assets/SSR/Material/MinerT2/Hook_2.mat
+- Assets/SSR/Animate/MinerT3/BlackHoleOpen.anim
 - Assets/SSR/Texture/MinerT1/Cargo.png
+- Assets/SSR/Material/ThermalPower/Cover.mat
 - Assets/SSR/Texture/MinerT1/MaskFinal.png
 - Assets/SSR/Animate/WindTurbine/Working.anim
 - Assets/SSR/Texture/WindTurbineT2/Turbine.png
 - Assets/SSR/Material/MinerT1/HookB.mat
+- Assets/SSR/Material/ThermalPower/Foundation.mat
 - Assets/SSR/Animate/MinerT2/StartFocus.anim
 - Assets/SSR/DepthMaskForce.shader
 - Assets/SSR/Texture/MinerT1/Mask.png
+- Assets/SSR/Perfab/ThermalPower.prefab
 - Assets/SSR/Texture/WindTurbineT1/pole.png
+- Assets/SSR/Perfab/MinerT3.prefab
 - Assets/SSR/Texture/MinerT2/Hook_1.png
 - Assets/SSR/Material/MinerT1/HookAWithCargo.mat
+- Assets/SSR/Material/MinerT3/MaskFinal.mat
+- Assets/SSR/Texture/ThermalPower/Foundation.png
+- Assets/SSR/Animate/MinerT3/BlackHoleNone.anim
 - Assets/SSR/Mesh/Mesh_TurbineT1.asset
 - Assets/SSR/Material/MinerT1/Foundation.mat
+- Assets/SSR/Material/MinerT3/BlackHole.mat
+- Assets/SSR/Texture/MinerT3/Foundation.png
 - Assets/SSR/Texture/MinerT2/Spot.png
 - Assets/SSR/Texture/MinerT1/CableB.png
 - Assets/SSR/Material/MinerT2/Lifter.mat
+- Assets/SSR/Animate/ThermalPower/Idle.anim
 - Assets/SSR/Animate/MinerT1/HookWave.anim
 - Assets/SSR/Texture/WindTurbineT2/pole.png
 - Assets/SSR/Material/MinerT2/Cable.mat
@@ -106,12 +130,16 @@ Assets:
 - Assets/SSR/Texture/WindTurbineT1/Foundation.png
 - Assets/SSR/Material/WindTurbineT1/Turbine.mat
 - Assets/SSR/Material/WindTurbineT1/Pole.mat
+- Assets/SSR/WormHole.shader
 - Assets/SSR/Texture/MinerT2/Mask.png
+- Assets/SSR/Animate/MinerT2/Idle.anim
 - Assets/SSR/Texture/WindTurbineT1/Turbine.png
 - Assets/SSR/Animate/MinerT1/HookWave_Cargo.anim
+- Assets/SSR/Texture/MinerT3/Mask.png
 - Assets/SSR/Animate/MinerT1/HookDown.anim
 - Assets/SSR/Material/WindTurbineT1/HolderLow.mat
 - Assets/SSR/Texture/MinerT2/MaskFinal.png
+- Assets/SSR/Texture/WarpMap.png
 - Assets/SSR/Perfab/MinerT2.prefab
 - Assets/SSR/Material/MinerT1/Lifter.mat
 - Assets/SSR/Animate/MinerT2/EndWorking.anim

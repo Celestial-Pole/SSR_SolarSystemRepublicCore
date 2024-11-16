@@ -10,6 +10,7 @@ namespace SSR.Effect
         
         private class UnityGameObjectUpdater : MonoBehaviour
         {
+            public bool isPlaying = false;
             public float playingSpeed = 1;
             public Transform maskTransform;
             public Transform ownTransform;
@@ -29,6 +30,7 @@ namespace SSR.Effect
                 if(compUnityGameObject != null)
                 {
                     ownAnimator.SetFloat("Speed", Find.TickManager.TickRateMultiplier * (Find.TickManager.Paused ? 0 : 1) * playingSpeed);
+                    ownAnimator.SetBool("IsPlaying", isPlaying);
                     if(!compUnityGameObject.parent.Spawned || compUnityGameObject.parent.Map != Find.CurrentMap)
                     {
                         SetVisibility(false);
@@ -76,6 +78,11 @@ namespace SSR.Effect
         {
             if (speed < 0) speed = 0;
             unityGameObjectUpdater.playingSpeed = speed;
+        }
+
+        public void SetPlaying(bool playing)
+        {
+            unityGameObjectUpdater.isPlaying = playing;
         }
 
         private UnityGameObjectUpdater monoBehaviour;
