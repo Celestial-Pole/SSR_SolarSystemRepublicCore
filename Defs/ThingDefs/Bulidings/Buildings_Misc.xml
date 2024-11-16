@@ -290,6 +290,9 @@
 		<placeWorkers>
 			<li>FS_SSR.PW_TeleportPadRadius</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSRBasicSpaceApplication</li>
+		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
