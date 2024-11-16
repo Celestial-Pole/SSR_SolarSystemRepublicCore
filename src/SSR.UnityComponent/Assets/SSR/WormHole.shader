@@ -3,16 +3,19 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "black" {}
-        background ("background", 2D) = "black" {}
+        // background ("background", 2D) = "black" {}
         warpMap ("warpMap", 2D) = "white" {}
-        sizeIn ("size", Float) = 0.5
-        sizeOut ("size", Float) = 1
+        sizeIn ("size in", Float) = 0.5
+        sizeOut ("size out", Float) = 1
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
-
+        GrabPass
+        {
+            "background"
+        }
         Pass
         {
             CGPROGRAM

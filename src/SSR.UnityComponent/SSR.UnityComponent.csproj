@@ -53,6 +53,7 @@
     <UnityVersion>2019.4.30f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\SSR\Script\SSRBlackHole.cs" />
     <Compile Include="Assets\SSR\Script\SSRLiffter.cs" />
     <Compile Include="Assets\SSR\Script\SSRTurbine.cs" />
   </ItemGroup>
