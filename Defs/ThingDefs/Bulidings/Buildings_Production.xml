@@ -171,10 +171,19 @@
 			<li>SSR_Recipe_TenHighenergyParticleConfinementDevice</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
+			<!--<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+			</li>-->
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -300,6 +309,10 @@
 		<researchPrerequisites>
 			<li>SSRBasicMaterialsScience</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
@@ -497,20 +510,15 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>700</basePowerConsumption>
-			</li>
-			<!--<li Class="FS_SSR.TCP_PowerCostByLevel">
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
 				<powerConsumptionByLevel>
 					<li>700</li>
-					<li>1000</li>
-					<li>1500</li>
+					<li>1300</li>
+					<li>2000</li>
 				</powerConsumptionByLevel>
-			</li>-->
+			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -617,6 +625,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
@@ -676,10 +685,14 @@
 			<li>SSR_Recipe_TenPhotonComputingCore</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -786,6 +799,10 @@
 		<researchPrerequisites>
 			<li>SSRBasicComputationalScience</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
@@ -826,10 +843,14 @@
 			<li>Make_Kibble</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
+				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>500</li>
+					<li>1000</li>
+					<li>1500</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1005,10 +1026,14 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">Make_Apparel_LabCoat</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1104,6 +1129,8 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
@@ -1163,10 +1190,14 @@
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1256,6 +1287,10 @@
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
@@ -1316,10 +1351,14 @@
 			<li>SSR_Recipe_HundredCarbon</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1409,6 +1448,10 @@
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
@@ -1463,10 +1506,14 @@
 			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="FS_SSR.TCP_PowerCostByLevel">
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
+				<powerConsumptionByLevel>
+					<li>700</li>
+					<li>1300</li>
+					<li>2000</li>
+				</powerConsumptionByLevel>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1556,6 +1603,10 @@
 		<researchPrerequisites>
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
