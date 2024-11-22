@@ -1023,7 +1023,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
-		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能抵御太阳耀斑对殖民地电网的干扰。</description>
+		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能引雷与抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -1081,6 +1081,9 @@
 			<li Class="FS_SSR.TCP_MapImmueMentalStates">
 				<immuneMentalStates>true</immuneMentalStates>
 				<immunePsychicDrone>true</immunePsychicDrone>
+			</li>
+			<li Class= "FS_SSR.Power.TCP_LightingRod">
+				<energyPerBolt>3000</energyPerBolt>
 			</li>
 			<!--li Class="FS_SSR.TCP_GlobalPowerBroadcast" /-->
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
