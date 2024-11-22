@@ -238,6 +238,7 @@
         <smallVolume>true</smallVolume>
         <stuffProps>
             <categories>
+				<li>Woody</li>
                 <li>Stony</li>
                 <li>Fabric</li>
                 <li>Metallic</li>
