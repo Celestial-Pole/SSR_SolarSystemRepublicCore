@@ -31,7 +31,7 @@ namespace SSR.Effect.Patch
 
         private static Dictionary<string, Shader> cachedShader = new Dictionary<string, Shader>();
 
-        //反复调用性能开销大，记得加个缓存
+
         private static Shader Load(string path, Type systemTypeInstance)
         {
             Shader result = (Shader)Resources.Load(path, typeof(Shader));
