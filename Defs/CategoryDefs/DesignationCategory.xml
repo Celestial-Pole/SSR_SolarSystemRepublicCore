@@ -11,13 +11,13 @@
 		</specialDesignatorClasses>
 	</DesignationCategoryDef>
 	
-	<!--<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
+	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Structure</defName>
 		<label>结构</label>
 		<description>结构</description>
 		<sortOrder>1</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Structure</iconPath>
-	</Def>-->
+	</Def>
 
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Production</defName>
