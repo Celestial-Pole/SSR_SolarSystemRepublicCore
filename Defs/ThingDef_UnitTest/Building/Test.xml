@@ -41,7 +41,9 @@
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
             <li Class="SSR.Effect.CompProperties_UnityGameObject">
-                <perfabPath>Assets/SSR/Perfab/MinerT1.prefab</perfabPath>
+                <perfabPath>
+                    <li>Assets/SSR/Perfab/MinerT1.prefab</li>
+                </perfabPath>
             </li>
         </comps>
     </ThingDef>
@@ -85,7 +87,9 @@
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
             <li Class="SSR.Effect.CompProperties_UnityGameObject">
-                <perfabPath>Assets/SSR/Perfab/MinerT2.prefab</perfabPath>
+                <perfabPath>
+                    <li>Assets/SSR/Perfab/MinerT2.prefab</li>
+                </perfabPath>
             </li>
         </comps>
     </ThingDef>
