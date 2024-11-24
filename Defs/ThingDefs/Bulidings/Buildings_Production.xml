@@ -2138,7 +2138,7 @@
 		<tickerType>Long</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 			<drawSize>7</drawSize>
 			<shadowData>
 				<volume>(0.6, 1.0, 1.6)</volume>

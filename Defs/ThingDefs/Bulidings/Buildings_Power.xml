@@ -162,7 +162,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
-			<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
+            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 			<drawSize>(5,5)</drawSize>
 			<shadowData>
 				<volume>(1.93,1,1.69)</volume>
@@ -275,7 +275,7 @@
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
 								<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
+								<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 								<drawSize>(5,5)</drawSize>
 							</graphicData>
 							<requireResearch>SSRWasteGasTreatmentTechnology</requireResearch>
