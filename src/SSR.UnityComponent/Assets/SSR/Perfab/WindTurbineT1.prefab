@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3096922383908370742}
   - component: {fileID: 2521141366675345310}
   m_Layer: 0
-  m_Name: WindTurbine
+  m_Name: WindTurbineT1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3096922383908370743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: -0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3714241354682620594}
