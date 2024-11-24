@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using RimWorld;
 using UnityEngine;
+using UnityEngine.UIElements;
 using Verse;
 
 namespace SSR.Effect
@@ -42,7 +44,44 @@ namespace SSR.Effect
                 }
             }
         }
+        
+        
         public CompProperties_UnityGameObject Props => (CompProperties_UnityGameObject)props;
+
+
+        public bool IsPlaying
+        {
+            get => unityGameObjectUpdater?.isPlaying ?? false;
+            set
+            {
+                if(unityGameObjectUpdater != null)
+                    unityGameObjectUpdater.isPlaying = value;
+            }
+        }
+        public float PlaySpeed
+        {
+            get => unityGameObjectUpdater?.playingSpeed ?? 0;
+            set
+            {
+                if(unityGameObjectUpdater != null)
+                    unityGameObjectUpdater.playingSpeed = value;
+            }
+        }
+        public int PerfabIndex 
+        {
+            get => Math.Max(Math.Min(currentIndex, Props.GameObjects.Count - 1),0);
+            set
+            {
+                value = Math.Min(value, Props.GameObjects.Count - 1);
+                if (currentIndex != value && value >= 0)
+                {
+                    currentIndex = value;
+                    GameObject.Destroy(monoBehaviour);
+                    monoBehaviour = null;
+                }
+            }
+        }
+
 
 
         private UnityGameObjectUpdater unityGameObjectUpdater
@@ -52,39 +91,32 @@ namespace SSR.Effect
                 if(monoBehaviour == null)
                 {
                     // Log.Message(ShaderDatabase.Cutout.renderQueue);
-                    GameObject obj = GameObject.Instantiate(Props.GameObject);
-                    monoBehaviour = obj.AddComponent<UnityGameObjectUpdater>();
-                    monoBehaviour.ownGameObject = obj;
-                    monoBehaviour.ownTransform = obj.transform;
-                    monoBehaviour.maskTransform = monoBehaviour.ownTransform.Find("FinalMask");
-                    monoBehaviour.ownAnimator = obj.GetComponent<Animator>();
-                    monoBehaviour.compUnityGameObject = this;
+                    if (Props.GameObjects.Count > 0)
+                    {
+                        GameObject obj = GameObject.Instantiate(Props.GameObjects[PerfabIndex]);
+                        monoBehaviour = obj.AddComponent<UnityGameObjectUpdater>();
+                        monoBehaviour.ownGameObject = obj;
+                        monoBehaviour.ownTransform = obj.transform;
+                        monoBehaviour.maskTransform = monoBehaviour.ownTransform.Find("FinalMask");
+                        monoBehaviour.ownAnimator = obj.GetComponent<Animator>();
+                        monoBehaviour.compUnityGameObject = this;
+                    }
                 }
                 return monoBehaviour;
             }
         }
 
-        public GameObject GameObject => unityGameObjectUpdater.ownGameObject;
+        public GameObject GameObject => unityGameObjectUpdater?.ownGameObject;
 
-        public Transform Transform => unityGameObjectUpdater.ownTransform;
+        public Transform Transform => unityGameObjectUpdater?.ownTransform;
 
-        public Transform MaskTransform => unityGameObjectUpdater.maskTransform;
+        public Transform MaskTransform => unityGameObjectUpdater?.maskTransform;
         
-        public Animator Animator => unityGameObjectUpdater.ownAnimator;
+        public Animator Animator => unityGameObjectUpdater?.ownAnimator;
 
-        public void SetVisibility(bool visibility) => unityGameObjectUpdater.SetVisibility(visibility);
-        //直接调整播放速度
-        public void AdjustPlaySpeed(float speed)
-        {
-            if (speed < 0) speed = 0;
-            unityGameObjectUpdater.playingSpeed = speed;
-        }
+        public void SetVisibility(bool visibility) => unityGameObjectUpdater?.SetVisibility(visibility);
 
-        public void SetPlaying(bool playing)
-        {
-            unityGameObjectUpdater.isPlaying = playing;
-        }
-
+        private int currentIndex = 0;
         private UnityGameObjectUpdater monoBehaviour;
 
     }
@@ -126,15 +158,23 @@ namespace SSR.Effect
             }
         }
 
-        public GameObject GameObject
+        public List<GameObject> GameObjects
         {
             get
             {
-                if(gameObject == null)
+                if(gameObjects == null)
                 {
-                    gameObject = assetBundle.LoadAsset<GameObject>(perfabPath);
+                    gameObjects = new List<GameObject>();
+                    if(!perfabPaths.NullOrEmpty())
+                    {
+                        gameObjects.Capacity = perfabPaths.Count;
+                        foreach (string path in perfabPaths)
+                        {
+                            gameObjects.Add(assetBundle.LoadAsset<GameObject>(path));
+                        }
+                    }
                 }
-                return gameObject;
+                return gameObjects;
             }
         }
 
@@ -145,11 +185,14 @@ namespace SSR.Effect
 
         ~CompProperties_UnityGameObject()
         {
-            UnityEngine.Object.Destroy(gameObject);
+            foreach (GameObject gameObject in gameObjects)
+            {
+                UnityEngine.Object.Destroy(gameObject);
+            }
         }
 
-        public string perfabPath;
-        private GameObject gameObject;
+        public List<string> perfabPaths;
+        private List<GameObject> gameObjects;
         private AssetBundle currentAssetBundle;
     }
 }

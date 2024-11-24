@@ -9,7 +9,7 @@ namespace SSR.Effect
         public override void DrawWorker(Vector3 loc, Rot4 rot, ThingDef thingDef, Thing thing, float extraRotation)
         {
             CompUnityGameObject compUnityGameObject = thing.TryGetComp<CompUnityGameObject>();
-            if(compUnityGameObject != null)
+            if(compUnityGameObject != null && compUnityGameObject.Transform != null)
             {
                 loc += DrawOffset(rot);
                 if(compUnityGameObject.MaskTransform)
