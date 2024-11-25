@@ -286,8 +286,8 @@
 			</li>
 			<li Class="SSR.Effect.CompProperties_UnityGameObject">
 				<perfabPaths>
-					<li>Assets/SSR/Perfab/ThermalPower.prefab</li>
-				</perfabPaths>
+          <li>Assets/SSR/Perfab/ThermalPower.prefab</li>
+          </perfabPaths>
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -454,8 +454,8 @@
 		<comps>
 			<li Class="SSR.Effect.CompProperties_UnityGameObject">
 				<perfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT1.prefab</li>
-				</perfabPaths>
+          <li>Assets/SSR/Perfab/WindTurbineT1.prefab</li>
+        </perfabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -514,8 +514,8 @@
 		<comps>
 			<li Class="SSR.Effect.CompProperties_UnityGameObject">
 				<perfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT2.prefab</li>
-				</perfabPaths>
+          <li>Assets/SSR/Perfab/WindTurbineT2.prefab</li>
+        </perfabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
