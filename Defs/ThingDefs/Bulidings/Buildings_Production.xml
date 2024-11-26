@@ -941,6 +941,8 @@
 			<li>SSRBasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
+			<li Class="FS_SSR.DefExt_NoRecipeSort" />
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower"/>
 		</modExtensions>
 	</ThingDef>
 
