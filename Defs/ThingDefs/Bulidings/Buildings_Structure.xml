@@ -98,10 +98,10 @@
 
 	<ThingDef ParentName="Wall">
 		<defName>SSR_Embrasure</defName>
-		<label>ssr embrasure (hole)</label>
-		<description>An impassable embrasure. Capable of holding up a roof, weapons can be fired through.</description>
+		<label>装甲射击墙</label>
+		<description>装甲射击墙</description>
 		<graphicData Inherit="False">
-			<texPath>Things/Building/Linked/Wall</texPath>
+			<texPath>Things/Building/Structure/ArmouredWall/ArmouredWall</texPath>
 			<graphicClass>Graphic_Appearances</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
@@ -121,10 +121,55 @@
 		</graphicData>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Flammability>0</Flammability>
+			<MeditationFocusStrength>0.22</MeditationFocusStrength>
+		</statBases>
+		<costList>
+			<Plasteel>350</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
 		<fillPercent>0.80</fillPercent>
 		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<comps>
 		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>SSR_ArmouredDoor</defName>
+		<label>装甲门</label>
+		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+		<statBases>
+			<WorkToBuild>1100</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Structure/ArmouredDoor/ArmouredDoor_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Structure/ArmouredDoor/ArmouredDoor_Menulcon</uiIconPath>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>50</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 
 </Defs>
