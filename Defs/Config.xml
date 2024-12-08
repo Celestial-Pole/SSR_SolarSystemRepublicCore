@@ -19,7 +19,7 @@
 		</interceptableSkyfaller>
 		
 		<palmineDefaultMineralProp> <!-- 帕鲁矿井的矿物的默认属性 -->
-			<workAmout>9000</workAmout>
+			<workAmout>7500</workAmout>
 			<yield>75</yield>
 			<innerStorageCapacity>1000000</innerStorageCapacity>
 			<stockPerTunnel>50000</stockPerTunnel>
