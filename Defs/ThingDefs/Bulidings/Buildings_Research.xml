@@ -175,7 +175,6 @@
 			<SSR_FermiMaterial>300</SSR_FermiMaterial>
 			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
 			<SSR_ArtificialIntelligenceChip>3</SSR_ArtificialIntelligenceChip>
-			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
