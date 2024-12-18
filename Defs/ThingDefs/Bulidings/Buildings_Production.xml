@@ -2132,6 +2132,76 @@
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_AutomaticDeepDrill</defName>
+		<label>自动深钻井</label>
+		<description>自动深钻井</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AutomaticDeepDrill/AutomaticDeepDrill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>SSRVerticalDrillingTechnology</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Industry.Production.TCP_DeepDrillAutomatic">
+				<mineSpeed>1</mineSpeed>
+				<yieldWorkAmt>12000</yieldWorkAmt>
+			</li>
+			<li Class="CompProperties_CreatesInfestations" />
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			</li>
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
+	</ThingDef>
+
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
 		<label>标准化垂直矿井</label>
