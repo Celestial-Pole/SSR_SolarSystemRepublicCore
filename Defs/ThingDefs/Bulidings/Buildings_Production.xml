@@ -2156,6 +2156,7 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<specialDisplayRadius>2.6</specialDisplayRadius>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -2171,6 +2172,11 @@
 			<Steel>100</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    	</placeWorkers>
+    	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
