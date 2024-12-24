@@ -2202,7 +2202,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRBasicMiningAutomation</li>
+			<li>SSRMedium-levelMiningAutomation</li>
 			<li>SSRAdvancedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>35000</baseCost>
