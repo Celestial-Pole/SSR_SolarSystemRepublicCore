@@ -202,6 +202,8 @@
             <Mass>0.1</Mass>
         </statBases>
         <stuffProps>
+			<commonality>0</commonality>
+			<allowedInStuffGeneration>false</allowedInStuffGeneration>
             <categories>
                 <li>Metallic</li>
             </categories>
