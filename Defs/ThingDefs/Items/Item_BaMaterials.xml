@@ -189,6 +189,7 @@
             <texPath>Things/Item/BaMaterial/NanoandMicroMechanicalComposite</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
+		<thingClass>FS_SSR.Materials.Thing_NanoMaterial</thingClass>
         <statBases>
             <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
             <StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>

@@ -454,13 +454,25 @@
 			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
 				<requiredLinkBuilding>SSR_LHC</requiredLinkBuilding>
 				<interval>1000</interval>
-				<candidate>
+				<intervalUnit>tick</intervalUnit>
+				<root Class="AKR_Random.RandomizerNode_Rewards">
+					<rewards>
+						<li Class="AKR_Random.Rewards.Rewards_Things">
+							<weight>2</weight>						<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+							<itemRewardSingle> 				   	    <!-- 单个物品的奖励 -->
+								<item>SSR_AntimatterStorageTank</item>
+								<amount>3</amount>
+							</itemRewardSingle>
+						</li>
+					</rewards>
+				</root>
+				<!--candidate>
 					<li>
 						<item>SSR_AntimatterStorageTank</item>
 						<amount>3</amount>
 						<weight>2</weight>
 					</li>
-				</candidate>
+				</candidate-->
 			</li>
 		</comps>
 		<placeWorkers>
