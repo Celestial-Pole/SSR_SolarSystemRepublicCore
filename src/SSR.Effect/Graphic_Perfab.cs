@@ -27,5 +27,10 @@ namespace SSR.Effect
             }
             else base.DrawWorker(loc, rot, thingDef, thing, extraRotation);
         }
+
+        public override Graphic GetColoredVersion(Shader newShader, Color newColor, Color newColorTwo)
+        {
+            return this;
+        }
     }
 }

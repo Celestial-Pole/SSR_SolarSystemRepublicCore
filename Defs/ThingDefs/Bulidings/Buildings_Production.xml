@@ -1,27 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--JobDef>
-		<defName>SSR_Job_FillAutobench</defName>
-		<driverClass>FS_SSR.JobDriver_FillAutoBench</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
-	<WorkGiverDef>
-		<defName>SSR_WorkGiver_FillAutobench</defName>
-		<label>fill awb</label>
-		<giverClass>FS_SSR.WorkGiver_FillAutoBench</giverClass>
-		<workType>Hauling</workType>
-		<emergency>false</emergency>
-		<verb>fill awb...</verb>
-		<gerund>filling awb...</gerund>
-		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
-		<priorityInType>1000</priorityInType>
-		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
-	</WorkGiverDef-->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -2233,6 +2212,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+        <drawerType>RealtimeOnly</drawerType>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
@@ -2263,6 +2243,57 @@
 				<level>World</level>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_SpecialSteel</item>
+									<amount>80</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>MinerT1</texPath>
+								<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
+								<drawSize>(16,16)</drawSize>
+							</graphicData>
+							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Carbyne</item>
+									<amount>50</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSRAdvancedMaterialsScience</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>  
+			<li Class="SSR.Effect.CompProperties_UnityGameObject">
+                <perfabPaths>
+                    <li>Assets/SSR/Perfab/MinerT1.prefab</li>
+                </perfabPaths>
+            </li>
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
