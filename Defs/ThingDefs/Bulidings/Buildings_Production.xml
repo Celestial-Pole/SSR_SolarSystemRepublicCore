@@ -2195,7 +2195,6 @@
 		<tickerType>Long</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
-            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 			<drawSize>7</drawSize>
 			<shadowData>
 				<volume>(0.6, 1.0, 1.6)</volume>
@@ -2259,7 +2258,6 @@
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
 								<texPath>MinerT1</texPath>
-								<graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
 								<drawSize>(16,16)</drawSize>
 							</graphicData>
 							<requireResearch>SSRMedium-levelManufacturingTechnology</requireResearch>
@@ -2289,10 +2287,10 @@
 					</li>
 				</levels>
 			</li>  
-			<li Class="SSR.Effect.CompProperties_UnityGameObject">
-                <perfabPaths>
+			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
+                <leveledPerfabPaths>
                     <li>Assets/SSR/Perfab/MinerT1.prefab</li>
-                </perfabPaths>
+                </leveledPerfabPaths>
             </li>
 		</comps>
 		<placeWorkers>

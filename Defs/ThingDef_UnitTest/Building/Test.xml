@@ -9,7 +9,6 @@
         <thingClass>Building</thingClass>
         <graphicData>
             <texPath>MinerT1</texPath>
-            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
             <drawSize>(16,16)</drawSize>
             <damageData>
             <cornerTL>Damage/Corner</cornerTL>
@@ -40,10 +39,10 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
-            <li Class="SSR.Effect.CompProperties_UnityGameObject">
-                <perfabPaths>
+            <li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
+                <leveledPerfabPaths>
                     <li>Assets/SSR/Perfab/MinerT1.prefab</li>
-                </perfabPaths>
+                </leveledPerfabPaths>
             </li>
         </comps>
     </ThingDef>
@@ -55,7 +54,6 @@
         <thingClass>Building</thingClass>
         <graphicData>
             <texPath>MinerT2</texPath>
-            <graphicClass>SSR.Effect.Graphic_Perfab</graphicClass>
             <drawSize>(16,16)</drawSize>
             <damageData>
             <cornerTL>Damage/Corner</cornerTL>
@@ -86,10 +84,10 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
-            <li Class="SSR.Effect.CompProperties_UnityGameObject">
-                <perfabPaths>
+            <li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
+                <leveledPerfabPaths>
                     <li>Assets/SSR/Perfab/MinerT2.prefab</li>
-                </perfabPaths>
+                </leveledPerfabPaths>
             </li>
         </comps>
     </ThingDef>
