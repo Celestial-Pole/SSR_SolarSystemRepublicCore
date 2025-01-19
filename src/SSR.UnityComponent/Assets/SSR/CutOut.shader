@@ -67,35 +67,35 @@
                 v2f rt1 = v1;
                 v2f lt2 = v1;
                 v2f rt2 = v1;
-                v2f lb1 = v2;
-                v2f rb1 = v2;
+                // v2f lb1 = v2;
+                // v2f rb1 = v2;
                 v2f lb2 = v2;
                 v2f rb2 = v2;
                 lt1.vertex.xyz += dirB * _OutlineWidth;
                 rt1.vertex.xyz += dirB * _OutlineWidth;
-                lb1.vertex.xyz -= dirB * _OutlineWidth;
-                rb1.vertex.xyz -= dirB * _OutlineWidth;
+                // lb1.vertex.xyz -= dirB * _OutlineWidth;
+                // rb1.vertex.xyz -= dirB * _OutlineWidth;
                 
                 lt1.vertex.xyz -= dirC * _OutlineWidth;
                 rt1.vertex.xyz += dirC * _OutlineWidth;
-                lb1.vertex.xyz -= dirC * _OutlineWidth;
-                rb1.vertex.xyz += dirC * _OutlineWidth;
+                // lb1.vertex.xyz -= dirC * _OutlineWidth;
+                // rb1.vertex.xyz += dirC * _OutlineWidth;
                 lt2.vertex.xyz -= dirC * _OutlineWidth;
                 rt2.vertex.xyz += dirC * _OutlineWidth;
                 lb2.vertex.xyz -= dirC * _OutlineWidth;
                 rb2.vertex.xyz += dirC * _OutlineWidth;
                 lt1.transposVert = lt1.vertex;
                 rt1.transposVert = rt1.vertex;
-                lb1.transposVert = lb1.vertex;
-                rb1.transposVert = rb1.vertex;
+                // lb1.transposVert = lb1.vertex;
+                // rb1.transposVert = rb1.vertex;
                 lt2.transposVert = lt2.vertex;
                 rt2.transposVert = rt2.vertex;
                 lb2.transposVert = lb2.vertex;
                 rb2.transposVert = rb2.vertex;
                 lt1.vertex = UnityWorldToClipPos(lt1.vertex);
                 rt1.vertex = UnityWorldToClipPos(rt1.vertex);
-                lb1.vertex = UnityWorldToClipPos(lb1.vertex);
-                rb1.vertex = UnityWorldToClipPos(rb1.vertex);
+                // lb1.vertex = UnityWorldToClipPos(lb1.vertex);
+                // rb1.vertex = UnityWorldToClipPos(rb1.vertex);
                 lt2.vertex = UnityWorldToClipPos(lt2.vertex);
                 rt2.vertex = UnityWorldToClipPos(rt2.vertex);
                 lb2.vertex = UnityWorldToClipPos(lb2.vertex);
@@ -116,31 +116,34 @@
                 outStream.Append(lt2);
                 outStream.Append(rt2);
                 outStream.RestartStrip();
-                outStream.Append(lb1);
-                outStream.Append(rb1);
-                outStream.Append(lb2);
-                outStream.RestartStrip();
-                outStream.Append(rb1);
-                outStream.Append(lb2);
-                outStream.Append(rb2);
-                outStream.RestartStrip(); 
+                // outStream.Append(lb1);
+                // outStream.Append(rb1);
+                // outStream.Append(lb2);
+                // outStream.RestartStrip();
+                // outStream.Append(rb1);
+                // outStream.Append(lb2);
+                // outStream.Append(rb2);
+                // outStream.RestartStrip();
             } 
 
             [maxvertexcount(36)] 
             void geom(triangle v2f input[3],inout TriangleStream<v2f> outStream)
             {
-                float3 dirA = normalize(input[0].vertex.xyz - input[1].vertex.xyz);
-                float3 dirB = normalize(input[1].vertex.xyz - input[2].vertex.xyz);
-                float3 dirC = normalize(input[2].vertex.xyz - input[0].vertex.xyz);
-                float3 s = float3(
-                    abs(dot(dirA,dirB)) + abs(dot(dirA,dirC)),
-                    abs(dot(dirA,dirB)) + abs(dot(dirB,dirC)),
-                    abs(dot(dirA,dirC)) + abs(dot(dirB,dirC))
-                    );
-                float m = max(s.x,max(s.y,s.z));
-                if(m != s.x) convetLine(input[0],input[1],outStream);
-                if(m != s.y) convetLine(input[1],input[2],outStream);
-                if(m != s.z) convetLine(input[2],input[0],outStream);
+                // float3 dirA = normalize(input[0].vertex.xyz - input[1].vertex.xyz);
+                // float3 dirB = normalize(input[1].vertex.xyz - input[2].vertex.xyz);
+                // float3 dirC = normalize(input[2].vertex.xyz - input[0].vertex.xyz);
+                // float3 s = float3(
+                //     abs(dot(dirA,dirB)) + abs(dot(dirA,dirC)),
+                //     abs(dot(dirA,dirB)) + abs(dot(dirB,dirC)),
+                //     abs(dot(dirA,dirC)) + abs(dot(dirB,dirC))
+                //     );
+                // float m = max(s.x,max(s.y,s.z));
+                // if(m != s.x) convetLine(input[0],input[1],outStream);
+                // if(m != s.y) convetLine(input[1],input[2],outStream);
+                // if(m != s.z) convetLine(input[2],input[0],outStream);
+                convetLine(input[0],input[1],outStream);
+                convetLine(input[1],input[2],outStream);
+                convetLine(input[2],input[0],outStream);
             } 
 
             fixed4 frag (v2f i, out float depth : SV_DEPTH) : SV_Target

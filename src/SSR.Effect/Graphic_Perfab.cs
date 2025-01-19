@@ -8,7 +8,7 @@ namespace SSR.Effect
     {
         public override void DrawWorker(Vector3 loc, Rot4 rot, ThingDef thingDef, Thing thing, float extraRotation)
         {
-            CompUnityGameObject compUnityGameObject = thing.TryGetComp<CompUnityGameObject>();
+            CompPerfabDrawer compUnityGameObject = thing.TryGetComp<CompPerfabDrawer>();
             if(compUnityGameObject != null && compUnityGameObject.Transform != null)
             {
                 loc += DrawOffset(rot);
@@ -23,7 +23,7 @@ namespace SSR.Effect
                 }
                 compUnityGameObject.Transform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
                 compUnityGameObject.Transform.rotation = Quaternion.Euler(0,extraRotation + rot.AsAngle,0);
-                compUnityGameObject.SetVisibility(true);
+                compUnityGameObject.ShowInNextFrame();
             }
             else base.DrawWorker(loc, rot, thingDef, thing, extraRotation);
         }
