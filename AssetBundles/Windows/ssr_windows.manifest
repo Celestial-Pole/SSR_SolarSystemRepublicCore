@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 49111970
+CRC: 992248374
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b6ae25b56503beeeed247c3ce36ab777
+    Hash: 8d3cc4b8844b01649dd42670e7edf7e6
   TypeTreeHash:
     serializedVersion: 2
     Hash: b85375258f37d6b0a764f3f5bc657164
@@ -63,7 +63,6 @@ Assets:
 - Assets/SSR/Material/MinerT1/CableB.mat
 - Assets/SSR/Material/MinerT2/Cargo.mat
 - Assets/SSR/Texture/MinerT3/MaskFinal.png
-- Assets/SSR/Material/MinerT3/DepthMask.mat
 - Assets/SSR/Material/MinerT1/DepthMask.mat
 - Assets/SSR/Texture/ThermalPower/Cover.png
 - Assets/SSR/Material/EmptyMask.mat
@@ -135,7 +134,6 @@ Assets:
 - Assets/SSR/Animate/MinerT2/Idle.anim
 - Assets/SSR/Texture/WindTurbineT1/Turbine.png
 - Assets/SSR/Animate/MinerT1/HookWave_Cargo.anim
-- Assets/SSR/Texture/MinerT3/Mask.png
 - Assets/SSR/Animate/MinerT1/HookDown.anim
 - Assets/SSR/Material/WindTurbineT1/HolderLow.mat
 - Assets/SSR/Texture/MinerT2/MaskFinal.png
