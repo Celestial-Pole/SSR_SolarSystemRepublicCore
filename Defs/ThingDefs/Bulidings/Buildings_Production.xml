@@ -2154,8 +2154,8 @@
 		<placeWorkers>
 			<li>PlaceWorker_DeepDrill</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    	</placeWorkers>
-    	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<researchPrerequisites>
 			<li>SSRVerticalDrillingTechnology</li>
 		</researchPrerequisites>
@@ -2210,6 +2210,7 @@
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>7</staticSunShadowHeight>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
         <drawerType>RealtimeOnly</drawerType>
 		<statBases>
@@ -2290,6 +2291,8 @@
 			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
                 <leveledPerfabPaths>
                     <li>Assets/SSR/Perfab/MinerT1.prefab</li>
+                    <li>Assets/SSR/Perfab/MinerT2.prefab</li>
+                    <li>Assets/SSR/Perfab/MinerT3.prefab</li>
                 </leveledPerfabPaths>
             </li>
 		</comps>

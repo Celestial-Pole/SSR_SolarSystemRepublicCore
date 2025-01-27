@@ -29,8 +29,8 @@
 
             struct v2f
             {
-                float4 orginalVert : TEXCOORD1;
-                float4 transposVert : TEXCOORD2;
+                float4 orginalVert : TEXCOORD0;
+                float4 transposVert : TEXCOORD1;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -166,6 +166,7 @@
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
+                float3 normal : NORMAL;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
@@ -173,6 +174,7 @@
             {
                 float2 uv : TEXCOORD0;
                 float4 model : TEXCOORD1;
+                float3 normal : TEXCOORD2;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -190,6 +192,10 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
+                o.normal = UnityObjectToWorldNormal(v.normal);
+                float l = length(o.normal);
+                if(l < 0.001) o.normal = float3(0,1,0);
+                else o.normal /= l;
                 return o;
             }
 
@@ -202,7 +208,7 @@
                 depth = i.model.z / i.model.w;
 
                 // apply fog
-                return _Color;
+                return _Color * dot(i.normal, float3(0,1,0));
             }
             ENDCG
         }

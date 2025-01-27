@@ -124,14 +124,14 @@ namespace SSR.Effect
                     loc += DrawOffset(rot);
                     if(obj.maskTransform)
                     {
-                        obj.maskTransform.localPosition = new Vector3(0,loc.y,0);
+                        obj.maskTransform.localPosition = new Vector3(0,loc.y / thingDef.staticSunShadowHeight,0);
                         obj.ownTransform.position = new Vector3(loc.x,0,loc.z);
                     }
                     else
                     {
                         obj.ownTransform.position = loc;
                     }
-                    obj.ownTransform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
+                    obj.ownTransform.localScale = new Vector3(drawSize.x, thingDef.staticSunShadowHeight, drawSize.y);
                     obj.ownTransform.rotation = Quaternion.Euler(0,extraRotation + rot.AsAngle,0);
                     obj.expirationTick = 6000;
                     obj.showInNextFrame = true;
@@ -169,6 +169,7 @@ namespace SSR.Effect
             parentDef.graphicData.graphicClass = typeof(Graphic_Perfab_Single);
             parentDef.graphic = null;
             parentDef.drawerType = DrawerType.RealtimeOnly;
+            if(parentDef.staticSunShadowHeight < 1) parentDef.staticSunShadowHeight = 1; 
         }
 
         ~CompProperties_SinglePerfabDrawer()
@@ -208,14 +209,14 @@ namespace SSR.Effect
                     loc += DrawOffset(rot);
                     if(obj.maskTransform)
                     {
-                        obj.maskTransform.localPosition = new Vector3(0,loc.y,0);
+                        obj.maskTransform.localPosition = new Vector3(0,loc.y / thingDef.staticSunShadowHeight,0);
                         obj.ownTransform.position = new Vector3(loc.x,0,loc.z);
                     }
                     else
                     {
                         obj.ownTransform.position = loc;
                     }
-                    obj.ownTransform.localScale = new Vector3(drawSize.x,1.0f,drawSize.y);
+                    obj.ownTransform.localScale = new Vector3(drawSize.x, thingDef.staticSunShadowHeight, drawSize.y);
                     obj.ownTransform.rotation = Quaternion.Euler(0,extraRotation + rot.AsAngle,0);
                     obj.expirationTick = 6000;
                     obj.showInNextFrame = true;
@@ -271,6 +272,7 @@ namespace SSR.Effect
             parentDef.graphicData.graphicClass = typeof(Graphic_Perfab_Multi);
             parentDef.graphic = null;
             parentDef.drawerType = DrawerType.RealtimeOnly;
+            if(parentDef.staticSunShadowHeight < 1) parentDef.staticSunShadowHeight = 1; 
         }
 
         ~CompProperties_MultiPerfabDrawer()

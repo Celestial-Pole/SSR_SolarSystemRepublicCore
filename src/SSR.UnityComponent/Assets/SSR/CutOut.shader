@@ -167,6 +167,7 @@
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
+                float3 normal : NORMAL;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
@@ -175,6 +176,7 @@
                 float2 uv : TEXCOORD0;
                 float2 uvDepth : TEXCOORD1;
                 float4 model : TEXCOORD2;
+                float3 normal : TEXCOORD3;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -194,6 +196,10 @@
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.uvDepth = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
+                o.normal = UnityObjectToWorldNormal(v.normal);
+                float l = length(o.normal);
+                if(l < 0.001) o.normal = float3(0,1,0);
+                else o.normal /= l;
                 return o;
             }
 
@@ -208,7 +214,7 @@
                 depth = i.model.z / i.model.w;
 
                 // apply fog
-                return col;
+                return col * dot(i.normal, float3(0,1,0));
             }
             ENDCG
         }

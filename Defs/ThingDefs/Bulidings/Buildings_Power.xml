@@ -179,6 +179,7 @@
 		<pathCost>50</pathCost>
 		<rotatable>false</rotatable>
 		<blockWind>true</blockWind>
+		<staticSunShadowHeight>1</staticSunShadowHeight>
 		<statBases>
 			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>
@@ -448,6 +449,7 @@
 		<pathCost>50</pathCost>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
 			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
 				<leveledPerfabPaths>
@@ -507,6 +509,7 @@
 		<pathCost>50</pathCost>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
 			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
 				<leveledPerfabPaths>
