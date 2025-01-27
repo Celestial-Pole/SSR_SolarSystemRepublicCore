@@ -63,7 +63,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -89,7 +89,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -114,7 +114,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -140,7 +140,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Bean/Main
+    path: Transfrom/Lifter/Beam/Main
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -165,7 +165,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53"
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -190,7 +190,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53.001"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53.001"
   m_FloatCurves:
   - curve:
       serializedVersion: 2
@@ -245,7 +245,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -273,7 +273,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
     classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -513,7 +513,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -541,7 +541,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -569,7 +569,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -597,7 +597,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -625,7 +625,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -653,7 +653,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -681,7 +681,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -709,7 +709,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -737,7 +737,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -765,7 +765,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -793,7 +793,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Bean/CoverA
+    path: Transfrom/Lifter/Beam/CoverA
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -821,7 +821,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: Transfrom/Lifter/Bean/Main
+    path: Transfrom/Lifter/Beam/Main
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -849,7 +849,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: Transfrom/Lifter/Bean/Main
+    path: Transfrom/Lifter/Beam/Main
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -877,7 +877,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: Transfrom/Lifter/Bean/Main
+    path: Transfrom/Lifter/Beam/Main
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -905,7 +905,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -933,7 +933,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -961,7 +961,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -989,7 +989,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53.001"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53.001"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1017,7 +1017,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53.001"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53.001"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1045,7 +1045,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: "Transfrom/Lifter/Bean/\u73AF\u4F53.001"
+    path: "Transfrom/Lifter/Beam/\u73AF\u4F53.001"
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -1086,7 +1086,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1096,7 +1096,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1106,7 +1106,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Transfrom/Lifter/Bean/Cargo
+    path: Transfrom/Lifter/Beam/Cargo
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

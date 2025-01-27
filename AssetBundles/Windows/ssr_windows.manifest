@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 737756476
+CRC: 3456161073
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0f20ef48957afb5290fc1046882b8dcb
+    Hash: e388441d72f451d01977cd80512db74c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4a2ded2874a80f895ba5e65e83ce1ebd
@@ -93,7 +93,6 @@ Assets:
 - Assets/SSR/Animate/WindTurbine/Working.anim
 - Assets/SSR/Texture/WindTurbineT2/Turbine.png
 - Assets/SSR/Material/ThermalPower/Foundation.mat
-- Assets/SSR/Animate/MinerT2/StartWorking.anim
 - Assets/SSR/DepthMaskForce.shader
 - Assets/SSR/Texture/MinerT1/Mask.png
 - Assets/SSR/Perfab/ThermalPower.prefab
@@ -116,7 +115,7 @@ Assets:
 - Assets/SSR/Animate/ThermalPower/Idle.anim
 - Assets/SSR/Animate/MinerT1/Idle.anim
 - Assets/SSR/Texture/WindTurbineT2/pole.png
-- Assets/SSR/Material/MinerT2/Cable.mat
+- Assets/SSR/Material/MinerT2/Beam.mat
 - Assets/SSR/Texture/WindTurbineT2/poleDepth.png
 - Assets/SSR/Animate/MinerT2/AnimateController.controller
 - Assets/SSR/Material/Empty.mat
@@ -135,7 +134,6 @@ Assets:
 - Assets/SSR/Texture/WarpMap.png
 - Assets/SSR/Perfab/MinerT2.prefab
 - Assets/SSR/Material/MinerT1/LifterPartA.mat
-- Assets/SSR/Animate/MinerT2/EndWorking.anim
 - Assets/SSR/Perfab/WindTurbineT2.prefab
 - Assets/SSR/Material/MinerT2/DepthMask.mat
 - Assets/SSR/Texture/MinerT2/Cargo.png
