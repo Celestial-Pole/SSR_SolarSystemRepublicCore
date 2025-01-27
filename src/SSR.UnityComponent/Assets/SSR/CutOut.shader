@@ -30,11 +30,8 @@
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;
-                float2 uvDepth : TEXCOORD1;
-                float4 model : TEXCOORD2;
-                float4 orginalVert : TEXCOORD3;
-                float4 transposVert : TEXCOORD4;
+                float4 orginalVert : TEXCOORD1;
+                float4 transposVert : TEXCOORD2;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -50,9 +47,8 @@
                 UNITY_SETUP_INSTANCE_ID(v);
                 UNITY_TRANSFER_INSTANCE_ID(v, o);
                 o.vertex = mul(unity_ObjectToWorld, v.vertex);
-                o.uvDepth = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.orginalVert = o.vertex;
-                o.model = v.vertex;
+                o.transposVert = o.vertex;
                 return o;
             }
 
@@ -146,15 +142,12 @@
                 convetLine(input[2],input[0],outStream);
             } 
 
-            fixed4 frag (v2f i, out float depth : SV_DEPTH) : SV_Target
+            fixed4 frag (v2f i) : SV_Target
             {
                 // sample the texture
                 UNITY_SETUP_INSTANCE_ID(i);
                 if(_OutlineWidth <= 0) discard;
                 if(_OutlineWidth <= distance(i.transposVert.xyz,i.orginalVert.xyz)) discard;
-                i.model.y -= tex2D(_DepthTex, i.uvDepth).x - 0.5;
-                i.model = UnityObjectToClipPos(i.model);
-                depth = i.model.z / i.model.w;
 
                 // apply fog
                 return fixed4(0,0,0,1);

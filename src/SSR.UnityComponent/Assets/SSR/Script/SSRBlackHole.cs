@@ -26,7 +26,7 @@ namespace SSR.UnityComponent
             {
                 _transform = base.transform;
                 material = new Material(shader);
-                material.renderQueue = 2002;
+                material.renderQueue = 3002;
                 _renderer = GetComponent<Renderer>();
                 if(_renderer != null) _renderer.material = material;
             }
