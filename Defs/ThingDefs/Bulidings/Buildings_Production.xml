@@ -1624,7 +1624,9 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-			<li>SSR_Recipe_CoalLiquefaction</li>
+			<li>SSR_Recipe_Small-scaleCoalLiquefaction</li>
+			<li>SSR_Recipe_Medium-scaleCoalLiquefaction</li>
+			<li>SSR_Recipe_Large-scaleCoalLiquefaction</li>
 		</recipes>
 		<comps>
 			<li Class="CompProperties_Power">
