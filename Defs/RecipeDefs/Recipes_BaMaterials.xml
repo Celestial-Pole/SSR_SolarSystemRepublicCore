@@ -962,10 +962,10 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_CoalLiquefaction</defName>
-		<label>进行煤炭液化</label>
-		<description>进行煤炭液化。</description>
-		<jobString>正在进行煤炭液化。</jobString>
+		<defName>SSR_Recipe_Small-scaleCoalLiquefaction</defName>
+		<label>进行少量煤炭液化</label>
+		<description>使用三煤炭进行液化。</description>
+		<jobString>正在使用三煤炭进行液化。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -987,6 +987,68 @@
 		</fixedIngredientFilter>
 		<products>
 			<Chemfuel>1</Chemfuel>
+		</products>
+		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_Medium-scaleCoalLiquefaction</defName>
+		<label>进行中量煤炭液化</label>
+		<description>使用三十煤炭进行液化。</description>
+		<jobString>正在使用三十煤炭进行液化。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SSR_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>10</Chemfuel>
+		</products>
+		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>SSR_Recipe_Large-scaleCoalLiquefaction</defName>
+		<label>进行大量煤炭液化</label>
+		<description>使用三百煤炭进行液化。</description>
+		<jobString>正在使用三百煤炭进行液化。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>10000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SSR_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SSR_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>100</Chemfuel>
 		</products>
 		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
 		<workSkill>Crafting</workSkill>

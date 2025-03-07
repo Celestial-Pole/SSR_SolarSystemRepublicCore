@@ -1105,8 +1105,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
+					<drawSize>(9.1,9.1)</drawSize>
+					<drawOffset>(0,0,1.35)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
@@ -1180,8 +1180,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
+					<drawSize>(5.9,5.9)</drawSize>
+					<drawOffset>(0.067,0,2.3)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
