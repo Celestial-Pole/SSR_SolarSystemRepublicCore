@@ -96,6 +96,10 @@ namespace SSR.Effect
             return monoBehaviour;
         }
 
+        public void ModifyPrivateSpeed(float _in)
+        {
+            monoBehaviour.playingSpeed = _in;
+        }
     }
 
     public abstract class CompProperties_PerfabDrawer : CompProperties
