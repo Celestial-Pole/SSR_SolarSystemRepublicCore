@@ -2197,11 +2197,12 @@
 		<tickerType>Long</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>7</drawSize>
-			<shadowData>
+			<!-- <shadowData>
 				<volume>(0.6, 1.0, 1.6)</volume>
 				<offset>(-0.1,0,-0.08)</offset>
-			</shadowData>
+			</shadowData> -->
 		</graphicData>
 		<size>(7,7)</size>
 		<rotatable>false</rotatable>
@@ -2212,7 +2213,7 @@
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<staticSunShadowHeight>7</staticSunShadowHeight>
+		<staticSunShadowHeight>7</staticSunShadowHeight> 
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
         <drawerType>RealtimeOnly</drawerType>
 		<statBases>
