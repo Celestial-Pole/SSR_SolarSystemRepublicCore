@@ -162,11 +162,12 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5,5)</drawSize>
-			<shadowData>
+			<!-- <shadowData>
 				<volume>(1.93,1,1.69)</volume>
 				<offset>(-0.03,0,-0.1)</offset>
-			</shadowData>
+			</shadowData> -->
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -179,7 +180,7 @@
 		<pathCost>50</pathCost>
 		<rotatable>false</rotatable>
 		<blockWind>true</blockWind>
-		<staticSunShadowHeight>1</staticSunShadowHeight>
+		<!-- <staticSunShadowHeight>1</staticSunShadowHeight> -->
 		<statBases>
 			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>
@@ -425,6 +426,7 @@
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/Medium-levelVerticalAxisWindTurbine/Medium-levelVerticalAxisWindTurbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(6.5,6.5)</drawSize>
 			<drawOffset>(0,3,1.5)</drawOffset>
 		</graphicData>
@@ -485,6 +487,7 @@
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Power/AdvancedVerticalAxisWindTurbine/AdvancedVerticalAxisWindTurbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(6.5,6.5)</drawSize>
 			<drawOffset>(0,3,1.5)</drawOffset>
 		</graphicData>
@@ -1043,7 +1046,8 @@
 		<graphicData>
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(5,5)</drawSize>
+			<drawSize>(6.5,6.5)</drawSize>
+			<drawOffset>(0,0,0.6)</drawOffset>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -1104,8 +1108,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
+					<drawSize>(9.1,9.1)</drawSize>
+					<drawOffset>(0,0,1.35)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
@@ -1130,8 +1134,8 @@
 		<graphicData>
 			<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(7,7)</drawSize>
-			<drawOffset>(0,0,2.25)</drawOffset>
+			<drawSize>(5.9,5.9)</drawSize>
+			<drawOffset>(0.067,0,2.3)</drawOffset>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -1179,8 +1183,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/PowerReceiverTower/PowerReceiverTower-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(7,7)</drawSize>
-					<drawOffset>(0,0,2.25)</drawOffset>
+					<drawSize>(5.9,5.9)</drawSize>
+					<drawOffset>(0.067,0,2.3)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
