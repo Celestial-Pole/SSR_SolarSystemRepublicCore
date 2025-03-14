@@ -7,10 +7,4 @@
 		<path>UI/Background/Background-Core</path>
 	</Def>
 
-	<Def Class="FS_SSR.UI.MainMenuBGDef">
-		<defName>SSR_BGII</defName>
-		<label>Background Core II</label>
-		<path>UI/Background/Background-Core-II</path>
-	</Def>
-
 </Defs>
