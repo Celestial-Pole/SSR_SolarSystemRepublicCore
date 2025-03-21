@@ -111,7 +111,8 @@
 		<graphicData>
 			<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,1.5)</drawOffset>
 		</graphicData>
 		<uiIconPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig</uiIconPath>
 		<size>(4,4)</size>
@@ -161,8 +162,8 @@
 				<overlay>
 					<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(12,12)</drawSize>
-					<drawOffset>(-0.1,0,4.45)</drawOffset>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0,0,1.47)</drawOffset>
 				</overlay>
 			</li>
 		</comps>
