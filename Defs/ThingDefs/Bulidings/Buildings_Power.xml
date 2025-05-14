@@ -1092,7 +1092,9 @@
 				<basePowerConsumption>-5000</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Alias" />
-			<li Class="FS_SSR.TCP_SolarFlareMapShield" />
+			<li Class="FS_SSR.TCP_SolarFlareMapShield">
+				<limitLevel>Map</limitLevel>
+			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
