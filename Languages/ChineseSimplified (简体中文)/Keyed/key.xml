@@ -136,5 +136,15 @@
 
 	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
+	
+	<!-- 传送板 -->
+	<SSR_TelePadThrow></SSR_TelePadThrow>
+	<SSR_TelePadThrowDesc></SSR_TelePadThrowDesc>
+	<SSR_TelePadThrowLocal></SSR_TelePadThrowLocal>
+	<SSR_TelePadThrowLocalDesc></SSR_TelePadThrowLocalDesc>
+	<SSR_TelePadRetrieve></SSR_TelePadRetrieve>
+	<SSR_TelePadRetrieveDesc></SSR_TelePadRetrieveDesc>
+	<SSR_TelePadRetrieveLocal></SSR_TelePadRetrieveLocal>
+	<SSR_TelePadRetrieveLocalDesc></SSR_TelePadRetrieveLocalDesc>
 
 </LanguageData>
