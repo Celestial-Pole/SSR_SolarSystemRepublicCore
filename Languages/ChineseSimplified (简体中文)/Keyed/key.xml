@@ -146,5 +146,8 @@
 	<SSR_TelePadRetrieveDesc></SSR_TelePadRetrieveDesc>
 	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
 	<SSR_TelePadRetrieveLocalDesc></SSR_TelePadRetrieveLocalDesc>
+	
+	<SSR_AutoPushNextResearchProj></SSR_AutoPushNextResearchProj>
+	<SSR_AutoPushNextResearchProjDesc></SSR_AutoPushNextResearchProjDesc>
 
 </LanguageData>
