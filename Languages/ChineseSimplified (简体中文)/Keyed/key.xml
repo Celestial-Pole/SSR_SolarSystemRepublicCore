@@ -138,13 +138,13 @@
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 	
 	<!-- 传送板 -->
-	<SSR_TelePadThrow></SSR_TelePadThrow>
+	<SSR_TelePadThrow>全球传送</SSR_TelePadThrow>
 	<SSR_TelePadThrowDesc></SSR_TelePadThrowDesc>
-	<SSR_TelePadThrowLocal></SSR_TelePadThrowLocal>
+	<SSR_TelePadThrowLocal>本地传送</SSR_TelePadThrowLocal>
 	<SSR_TelePadThrowLocalDesc></SSR_TelePadThrowLocalDesc>
-	<SSR_TelePadRetrieve></SSR_TelePadRetrieve>
+	<SSR_TelePadRetrieve>全球回传</SSR_TelePadRetrieve>
 	<SSR_TelePadRetrieveDesc></SSR_TelePadRetrieveDesc>
-	<SSR_TelePadRetrieveLocal></SSR_TelePadRetrieveLocal>
+	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
 	<SSR_TelePadRetrieveLocalDesc></SSR_TelePadRetrieveLocalDesc>
 
 </LanguageData>

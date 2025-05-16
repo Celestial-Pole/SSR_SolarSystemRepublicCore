@@ -423,7 +423,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSREFClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -881,7 +881,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSREFClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
