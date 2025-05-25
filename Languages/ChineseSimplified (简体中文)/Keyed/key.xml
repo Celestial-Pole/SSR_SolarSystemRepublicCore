@@ -53,17 +53,17 @@
 	<SSR_打开矿井UIDesc>矿井UI开关</SSR_打开矿井UIDesc>
 	<SSR_打开矿井UI>打开/关闭矿井UI</SSR_打开矿井UI>
 	<SSR_Occupied>使用中...</SSR_Occupied>
-	<SSR_Palminer_CentreUpgrade>帕鲁矿场-中心升级：{0}</SSR_Palminer_CentreUpgrade>
-	<SSR_Palminer_Layer>帕鲁矿场-等级：{0}</SSR_Palminer_Layer>
-	<SSR_Palminer_Palmine>帕鲁矿场-帕鲁：{0}</SSR_Palminer_Palmine>
-	<SSR_Palminer_TunnelDig>帕鲁矿场-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
+	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
+	<SSR_Palminer_Layer>标准化垂直矿井-等级：{0}</SSR_Palminer_Layer>
+	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}</SSR_Palminer_Palmine>
+	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
 	<SSR_RemoveMechDesc>移除机械族</SSR_RemoveMechDesc>
 	<SSR_SelectMechAllDesc>选择全部机械族</SSR_SelectMechAllDesc>
 	<SSR_SelectMechDesc>选择机械族</SSR_SelectMechDesc>
 	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
 	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
 	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
-	<SSR_DataCenterOverseerName>数据中心监督员姓名</SSR_DataCenterOverseerName>
+	<SSR_DataCenterOverseerName>数据处理中枢</SSR_DataCenterOverseerName>
 	<SSR_SelectMech>选择机械族</SSR_SelectMech>
 	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
@@ -92,11 +92,11 @@
 	<SSR_打开卫星UI>卫星UI开关</SSR_打开卫星UI>
 	<SSR_LaunchRocket>发射火箭</SSR_LaunchRocket>
 	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
-	<SSR_SelectBG>选择BG</SSR_SelectBG>
-	<SSR_EnableBG>启用的BG</SSR_EnableBG>
-	<SSR_EnableBGDesc>启用的BG</SSR_EnableBGDesc>
-	<SSR_RandBG>随机BG</SSR_RandBG>
-	<SSR_RandBGDesc>随机BG</SSR_RandBGDesc>
+	<SSR_SelectBG>选择背景图</SSR_SelectBG>
+	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
+	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
+	<SSR_RandBG>随机背景图</SSR_RandBG>
+	<SSR_RandBGDesc>随机背景图</SSR_RandBGDesc>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
 	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
 	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
@@ -139,15 +139,15 @@
 	
 	<!-- 传送板 -->
 	<SSR_TelePadThrow>全球传送</SSR_TelePadThrow>
-	<SSR_TelePadThrowDesc></SSR_TelePadThrowDesc>
+	<SSR_TelePadThrowDesc>全球范围传送</SSR_TelePadThrowDesc>
 	<SSR_TelePadThrowLocal>本地传送</SSR_TelePadThrowLocal>
-	<SSR_TelePadThrowLocalDesc></SSR_TelePadThrowLocalDesc>
+	<SSR_TelePadThrowLocalDesc>本地图内传送</SSR_TelePadThrowLocalDesc>
 	<SSR_TelePadRetrieve>全球回传</SSR_TelePadRetrieve>
-	<SSR_TelePadRetrieveDesc></SSR_TelePadRetrieveDesc>
+	<SSR_TelePadRetrieveDesc>全球范围回传目标</SSR_TelePadRetrieveDesc>
 	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
-	<SSR_TelePadRetrieveLocalDesc></SSR_TelePadRetrieveLocalDesc>
+	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
 	
-	<SSR_AutoPushNextResearchProj></SSR_AutoPushNextResearchProj>
-	<SSR_AutoPushNextResearchProjDesc></SSR_AutoPushNextResearchProjDesc>
+	<SSR_AutoPushNextResearchProj>自动科研开关</SSR_AutoPushNextResearchProj>
+	<SSR_AutoPushNextResearchProjDesc>打开/关闭自动科研功能</SSR_AutoPushNextResearchProjDesc>
 
 </LanguageData>
