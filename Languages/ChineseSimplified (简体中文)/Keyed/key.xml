@@ -28,6 +28,7 @@
 	<SSR_切换至>切换至：</SSR_切换至>
 	<SSR_没有配方>没有配方：</SSR_没有配方>
 	<SSR_已连接至>已连接至：</SSR_已连接至>
+	<SSR_断开连接></SSR_断开连接>
 	<SSR_连接至>连接至：</SSR_连接至>
 	<SSR_变更别称描述>变更别称</SSR_变更别称描述>
 	<SSR_变更别称>变更别称</SSR_变更别称>
@@ -38,6 +39,7 @@
 	<SSR_副桶弹出内容物>副桶弹出内容物</SSR_副桶弹出内容物>
 	<SSR_升级建筑Desc>升级建筑</SSR_升级建筑Desc>
 	<SSR_升级建筑>升级建筑</SSR_升级建筑>
+	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>复制世界建筑</SSR_DupWorldBuilding>
 	<SSR_DupMapBuilding>复制当前地图建筑</SSR_DupMapBuilding>
@@ -145,6 +147,8 @@
 	<!-- 洗衣机 -->
 	<SSR_开关洗衣机>洗衣机开关</SSR_开关洗衣机>
 	<SSR_开关洗衣机desc>打开/关闭洗衣机</SSR_开关洗衣机desc>
+	<SSR_开关脏污洗衣机></SSR_开关脏污洗衣机>
+	<SSR_开关脏污洗衣机desc></SSR_开关脏污洗衣机desc>
 	<SSR_清洁中>清洁中</SSR_清洁中>
 	<SSR_待机中>待机中</SSR_待机中>
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
