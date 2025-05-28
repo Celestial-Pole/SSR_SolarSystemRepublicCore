@@ -1,6 +1,6 @@
-DEL "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\Assemblies\AFS_UGUIFramework.dll"
-COPY "C:\Users\Fleurety\Desktop\rw\SSR_Framework\Solar-System-Republic-Framework\FS_SSR\bin\Debug\FS_UGUIFramework.dll" "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\Assemblies\"
-REN "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\Assemblies\FS_UGUIFramework.dll" "AFS_UGUIFramework.dll"
+DEL "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\SoftRely\AKFrameNotActive\Assemblies\AFS_UGUIFramework.dll"
+COPY "C:\Users\Fleurety\Desktop\rw\SSR_Framework\Solar-System-Republic-Framework\FS_SSR\bin\Debug\FS_UGUIFramework.dll" "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\SoftRely\AKFrameNotActive\Assemblies\"
+REN "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\SoftRely\AKFrameNotActive\Assemblies\FS_UGUIFramework.dll" "AFS_UGUIFramework.dll"
 
 DEL "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\Assemblies\FS_SSR.dll"
 COPY "C:\Users\Fleurety\Desktop\rw\SSR_Framework\Solar-System-Republic-Framework\FS_SSR\bin\Debug\FS_SSR.dll" "S:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SSR_Main\Assemblies\"

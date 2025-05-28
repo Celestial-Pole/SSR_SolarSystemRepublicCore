@@ -5,6 +5,7 @@
     <li>/</li>
 	  <li>1.5</li>
 	  <li IfModActive="CETeam.CombatExtended">CombatExtended</li>
+	  <li IfModNotActive="MIS.Framework">SoftRely/MainPackNotActive</li>
   </v1.5>
   
 </loadFolders>
