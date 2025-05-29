@@ -147,8 +147,8 @@
 	<!-- 洗衣机 -->
 	<SSR_开关洗衣机>洗衣机开关</SSR_开关洗衣机>
 	<SSR_开关洗衣机desc>打开/关闭洗衣机</SSR_开关洗衣机desc>
-	<SSR_开关脏污洗衣机></SSR_开关脏污洗衣机>
-	<SSR_开关脏污洗衣机desc></SSR_开关脏污洗衣机desc>
+	<SSR_开关脏污洗衣机>洗衣机开关</SSR_开关脏污洗衣机>
+	<SSR_开关脏污洗衣机desc>打开/关闭洗衣机</SSR_开关脏污洗衣机desc>
 	<SSR_清洁中>清洁中</SSR_清洁中>
 	<SSR_待机中>待机中</SSR_待机中>
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
