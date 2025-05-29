@@ -2250,9 +2250,10 @@
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>7</drawSize>
-			<!--shadowData>
-				<volume>(0,1,0)</volume>
-			</shadowData-->
+			<shadowData>
+				<volume>(1,1,1)</volume>
+				<offset>(1.75,0,1.75)</offset>
+			</shadowData>
 		</graphicData>
 		<size>(7,7)</size>
 		<rotatable>false</rotatable>
