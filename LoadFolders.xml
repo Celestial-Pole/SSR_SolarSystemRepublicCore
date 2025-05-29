@@ -2,7 +2,8 @@
 <loadFolders>
 
   <v1.5>
-    <li>/</li>
+	  <li IfModNotActive="MIS.Framework">SoftRely/AKFrameNotActive</li>
+      <li>/</li>
 	  <li>1.5</li>
 	  <li IfModActive="CETeam.CombatExtended">CombatExtended</li>
   </v1.5>
