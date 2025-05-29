@@ -2264,7 +2264,7 @@
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<staticSunShadowHeight>3</staticSunShadowHeight> 
+		<staticSunShadowHeight>-1.0</staticSunShadowHeight> 
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
         <drawerType>RealtimeOnly</drawerType>
 		<statBases>
