@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<SSR_开关生物编码洗衣机desc>生物编码破解功能开关</SSR_开关生物编码洗衣机desc>
-	<SSR_开关生物编码洗衣机副桶desc>装备维修功能开关</SSR_开关生物编码洗衣机副桶desc>
-	<SSR_开关生物编码洗衣机>打开/关闭生物编码破解功能</SSR_开关生物编码洗衣机>
-	<SSR_开关生物编码洗衣机副桶>打开/关闭装备维修功能</SSR_开关生物编码洗衣机副桶>
+	<SSR_开关生物编码洗衣机desc>打开/关闭生物编码破解功能</SSR_开关生物编码洗衣机desc>
+	<SSR_开关生物编码洗衣机副桶desc>打开/关闭装备维修功能</SSR_开关生物编码洗衣机副桶desc>
+	<SSR_开关生物编码洗衣机>生物编码破解功能开关</SSR_开关生物编码洗衣机>
+	<SSR_开关生物编码洗衣机副桶>装备维修功能开关</SSR_开关生物编码洗衣机副桶>
 	<SSR_副桶清洁中>装备维修中</SSR_副桶清洁中>
 	<SSR_副桶待机中>维修作业待机中</SSR_副桶待机中>
-	<SSR_开关洗衣机desc>洗衣机开关</SSR_开关洗衣机desc>
-	<SSR_开关洗衣机>打开/关闭洗衣机</SSR_开关洗衣机>
-	<SSR_清洁中>清洁中</SSR_清洁中>
-	<SSR_待机中>待机中</SSR_待机中>
 	<SSR_此建筑不可和屋顶挂载灭火器放在同一格>此建筑不可和屋顶挂载灭火器放在同一格</SSR_此建筑不可和屋顶挂载灭火器放在同一格>
 	<SSR_灭火器必须挂载于屋顶下>灭火器必须挂载于屋顶下</SSR_灭火器必须挂载于屋顶下>
 	<SSR_灭火器必须建在可通行的区域>灭火器必须建在可通行的区域</SSR_灭火器必须建在可通行的区域>
@@ -32,40 +28,22 @@
 	<SSR_切换至>切换至：</SSR_切换至>
 	<SSR_没有配方>没有配方：</SSR_没有配方>
 	<SSR_已连接至>已连接至：</SSR_已连接至>
+	<SSR_断开连接></SSR_断开连接>
 	<SSR_连接至>连接至：</SSR_连接至>
 	<SSR_变更别称描述>变更别称</SSR_变更别称描述>
 	<SSR_变更别称>变更别称</SSR_变更别称>
 	<SSR_激活此节点>激活此节点</SSR_激活此节点>
 	<SSR_禁用此节点>禁用此节点</SSR_禁用此节点>
-	<SSR_全球无线电力传输塔已激活>全球无线电力传输塔已激活</SSR_全球无线电力传输塔已激活>
-	<SSR_全球无线电力传输塔未激活>全球无线电力传输塔未激活</SSR_全球无线电力传输塔未激活>
-	<SSR_无线电力传输塔已激活>无线电力传输塔已激活</SSR_无线电力传输塔已激活>
-	<SSR_无线电力传输塔未激活>无线电力传输塔未激活</SSR_无线电力传输塔未激活>
 	<SSR_副桶>副桶</SSR_副桶>
 	<SSR_弹出内容物>弹出内容物</SSR_弹出内容物>
 	<SSR_副桶弹出内容物>副桶弹出内容物</SSR_副桶弹出内容物>
 	<SSR_升级建筑Desc>升级建筑</SSR_升级建筑Desc>
 	<SSR_升级建筑>升级建筑</SSR_升级建筑>
+	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>复制世界建筑</SSR_DupWorldBuilding>
 	<SSR_DupMapBuilding>复制当前地图建筑</SSR_DupMapBuilding>
 	<SSR_显示消防花洒层>显示消防花洒层</SSR_显示消防花洒层>
-	<SSR_打开矿井UIDesc>矿井UI开关</SSR_打开矿井UIDesc>
-	<SSR_打开矿井UI>打开/关闭矿井UI</SSR_打开矿井UI>
-	<SSR_Occupied>使用中...</SSR_Occupied>
-	<SSR_Palminer_CentreUpgrade>帕鲁矿场-中心升级：{0}</SSR_Palminer_CentreUpgrade>
-	<SSR_Palminer_Layer>帕鲁矿场-等级：{0}</SSR_Palminer_Layer>
-	<SSR_Palminer_Palmine>帕鲁矿场-帕鲁：{0}</SSR_Palminer_Palmine>
-	<SSR_Palminer_TunnelDig>帕鲁矿场-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
-	<SSR_RemoveMechDesc>移除机械族</SSR_RemoveMechDesc>
-	<SSR_SelectMechAllDesc>选择全部机械族</SSR_SelectMechAllDesc>
-	<SSR_SelectMechDesc>选择机械族</SSR_SelectMechDesc>
-	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
-	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
-	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
-	<SSR_DataCenterOverseerName>数据中心监督员姓名</SSR_DataCenterOverseerName>
-	<SSR_SelectMech>选择机械族</SSR_SelectMech>
-	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
 	<SSR_SatelliteFoundDeepMineDesc>卫星发现深矿井</SSR_SatelliteFoundDeepMineDesc>
 	<SSR_RocketSelected>已选择火箭：{0}</SSR_RocketSelected>
@@ -88,23 +66,8 @@
 	<SSR_EmptySateCellDesc>空的卫星单元</SSR_EmptySateCellDesc>
 	<SSR_NoSelectedRocketDesc>没有已选中的火箭</SSR_NoSelectedRocketDesc>
 	<SSR_NoSelectedRocket>没有已选中的火箭</SSR_NoSelectedRocket>
-	<SSR_打开卫星UIDesc>打开/关闭卫星UI</SSR_打开卫星UIDesc>
-	<SSR_打开卫星UI>卫星UI开关</SSR_打开卫星UI>
 	<SSR_LaunchRocket>发射火箭</SSR_LaunchRocket>
 	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
-	<SSR_SelectBG>选择BG</SSR_SelectBG>
-	<SSR_EnableBG>启用的BG</SSR_EnableBG>
-	<SSR_EnableBGDesc>启用的BG</SSR_EnableBGDesc>
-	<SSR_RandBG>随机BG</SSR_RandBG>
-	<SSR_RandBGDesc>随机BG</SSR_RandBGDesc>
-	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
-	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
-	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
-	<SSR_挖掘矿道升级>挖掘矿道升级</SSR_挖掘矿道升级>
-	<SSR_挖掘矿道>挖掘矿道</SSR_挖掘矿道>
-	<SSR_升级挖机>升级挖机</SSR_升级挖机>
-	<SSR_工作派遣>工作派遣</SSR_工作派遣>
-	<SSR_停止工作>停止工作</SSR_停止工作>
 	<SSR_RaidType>袭击类型：{0}</SSR_RaidType>
 	<SSR_OrbitalBomb_NoMap>轨道轰炸：没有地图</SSR_OrbitalBomb_NoMap>
 	<SSR_Recon_EmptyCell>侦查：空单元格</SSR_Recon_EmptyCell>
@@ -119,22 +82,85 @@
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
 	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
+
+	<!-- 叙事者 -->
+	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
+
+	<!-- 背景图 -->
+	<SSR_SelectBG>选择背景图</SSR_SelectBG>
+	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
+	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
+	<SSR_RandBG>随机背景图</SSR_RandBG>
+	<SSR_RandBGDesc>随机背景图</SSR_RandBGDesc>
+
+	<!-- icmr -->
+	<SSR_ICMR>{0} 号请求材料:</SSR_ICMR>
+
+	<!-- 标准化垂直矿井 -->
+	<SSR_打开矿井UI>标准化垂直矿井UI</SSR_打开矿井UI>
+	<SSR_打开矿井UIDesc>打开/关闭标准化垂直矿井UI</SSR_打开矿井UIDesc>
+	<SSR_Occupied>使用中...</SSR_Occupied>
+	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
+	<SSR_Palminer_Layer>标准化垂直矿井-等级：{0}</SSR_Palminer_Layer>
+	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}</SSR_Palminer_Palmine>
+	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
+	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
+	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
+	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
+	<SSR_挖掘矿道升级>挖掘矿道升级</SSR_挖掘矿道升级>
+	<SSR_挖掘矿道>挖掘矿道</SSR_挖掘矿道>
+	<SSR_升级挖机>升级挖机</SSR_升级挖机>
+	<SSR_工作派遣>工作派遣</SSR_工作派遣>
+	<SSR_停止工作>停止工作</SSR_停止工作>
 	
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
 	<SSR_MustHavMapCntAny>地图内必须满足其中一项</SSR_MustHavMapCntAny>
 	<SSR_MustHavLinkedAny>必须有其中一项被科研台链接</SSR_MustHavLinkedAny>
-	
-	<!-- icmr -->
-	<SSR_ICMR>{0} 号请求材料:</SSR_ICMR>
-	
-	<!-- 洗衣机 -->
-	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
 
-	<!-- 叙事者 -->
-	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
+	<!-- 数据处理中枢 -->
+	<SSR_DataCenterOverseerName>数据处理中枢</SSR_DataCenterOverseerName>
+	<SSR_AutoPushNextResearchProj>自动科研开关</SSR_AutoPushNextResearchProj>
+	<SSR_AutoPushNextResearchProjDesc>打开/关闭自动科研功能</SSR_AutoPushNextResearchProjDesc>
+	<SSR_RemoveMechDesc>移除机械族</SSR_RemoveMechDesc>
+	<SSR_SelectMechAllDesc>选择全部机械族</SSR_SelectMechAllDesc>
+	<SSR_SelectMechDesc>选择机械族</SSR_SelectMechDesc>
+	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
+	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
+	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
+	<SSR_SelectMech>选择机械族</SSR_SelectMech>
+	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 
+	<!-- 无线输电塔 -->
+	<SSR_全球无线电力传输塔已激活>全球无线电力传输塔已激活</SSR_全球无线电力传输塔已激活>
+	<SSR_全球无线电力传输塔未激活>全球无线电力传输塔未激活</SSR_全球无线电力传输塔未激活>
+	<SSR_无线电力传输塔已激活>无线电力传输塔已激活</SSR_无线电力传输塔已激活>
+	<SSR_无线电力传输塔未激活>无线电力传输塔未激活</SSR_无线电力传输塔未激活>
+	
 	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
+
+	<!-- 卫星控制台 -->
+	<SSR_打开卫星UI>卫星控制台UI</SSR_打开卫星UI>
+	<SSR_打开卫星UIDesc>打开/关闭卫星控制台UI</SSR_打开卫星UIDesc>
+
+	<!-- 洗衣机 -->
+	<SSR_开关洗衣机>洗衣机开关</SSR_开关洗衣机>
+	<SSR_开关洗衣机desc>打开/关闭洗衣机</SSR_开关洗衣机desc>
+	<SSR_开关脏污洗衣机>洗衣机开关</SSR_开关脏污洗衣机>
+	<SSR_开关脏污洗衣机desc>打开/关闭洗衣机</SSR_开关脏污洗衣机desc>
+	<SSR_清洁中>清洁中</SSR_清洁中>
+	<SSR_待机中>待机中</SSR_待机中>
+	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
+	
+	<!-- 传送板 -->
+	<SSR_TelePadThrow>全球传送</SSR_TelePadThrow>
+	<SSR_TelePadThrowDesc>全球范围传送</SSR_TelePadThrowDesc>
+	<SSR_TelePadThrowLocal>本地传送</SSR_TelePadThrowLocal>
+	<SSR_TelePadThrowLocalDesc>本地图内传送</SSR_TelePadThrowLocalDesc>
+	<SSR_TelePadRetrieve>全球回传</SSR_TelePadRetrieve>
+	<SSR_TelePadRetrieveDesc>全球范围回传目标</SSR_TelePadRetrieveDesc>
+	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
+	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
 
 </LanguageData>
