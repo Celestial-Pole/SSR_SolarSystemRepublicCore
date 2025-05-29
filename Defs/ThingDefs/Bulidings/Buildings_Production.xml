@@ -2261,11 +2261,10 @@
 		<passability>Impassable</passability>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<staticSunShadowHeight>-1</staticSunShadowHeight> 
+		<staticSunShadowHeight>3</staticSunShadowHeight> 
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
         <drawerType>RealtimeOnly</drawerType>
 		<statBases>
