@@ -1644,9 +1644,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentRepairStation</defName>
-		<label>装备维修台</label>
-		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
+		<defName>SSR_EquipmentPreparationStation</defName>
+		<label>装备整备台</label>
+		<description>装备整备台是一种设计用于快速修复、维护各种装备和武器以及装备编码与绑定破解的工作台。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -1699,7 +1699,7 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->			<!--单建筑多内容栏时需要-->
+			<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />			<!--单建筑多内容栏时需要-->
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
@@ -1716,7 +1716,58 @@
 				<gizmoEjectDesc>弹出维修平台内容物</gizmoEjectDesc>
 				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
 				<btnITabLabel>维修平台</btnITabLabel>
-				<btnITabItemKey>装备维修平台</btnITabItemKey>
+				<btnITabItemKey>装备整备台</btnITabItemKey>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<capacity>5</capacity>
+				<showEjectGizmo>true</showEjectGizmo>
+				<uniqueID>2</uniqueID>
+				<gizmoEjectLabel>弹出整备台内容物</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出整备台内容物</gizmoEjectDesc>
+				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
+				<btnITabLabel>整备台</btnITabLabel>
+				<btnITabItemKey>装备整备台</btnITabItemKey>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Carbyne</item>
+									<amount>80</amount>
+								</li>
+								<li>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSREncryptionSystemCracking</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
 			</li>
 		</comps>
 		<researchPrerequisites>
@@ -1729,7 +1780,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR_EquipmentPreparationStation</defName>
 		<label>装备整备台</label>
 		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
@@ -1810,11 +1861,11 @@
 			<li>SSREncryptionSystemCracking</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">-->				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<!--<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef>-->
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_FMIAExtractStationGE</defName>
