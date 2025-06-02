@@ -54,7 +54,7 @@
 			<li>PlaceWorker_Conduit</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRBasicPowerTechnology</li>
+			<li>SSRResearchBasicPowerTechnology</li>
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -149,7 +149,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRBasicPowerTechnology</li>
+			<li>SSRResearchBasicPowerTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -278,7 +278,7 @@
 								<texPath>Things/Building/Power/ThermalPowerPlant/ThermalPowerPlant</texPath>
 								<drawSize>(5,5)</drawSize>
 							</graphicData>
-							<requireResearch>SSRWasteGasTreatmentTechnology</requireResearch>
+							<requireResearch>SSRResearchWasteGasTreatmentTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -295,7 +295,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRBasicPowerTechnology</li>
+			<li>SSRResearchBasicPowerTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
@@ -354,7 +354,7 @@
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRMedium-levelCleanEnergyGeneration</li>
+			<li>SSRResearchMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
@@ -413,7 +413,7 @@
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRAdvancedCleanEnergyGeneration</li>
+			<li>SSRResearchAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -475,7 +475,7 @@
 			<li>FS_SSR.PW_PowerPlantWind</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRMedium-levelCleanEnergyGeneration</li>
+			<li>SSRResearchMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -532,7 +532,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRAdvancedCleanEnergyGeneration</li>
+			<li>SSRResearchAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
@@ -600,7 +600,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc6</designationHotKey>
 		<researchPrerequisites>
-			<li>SSRMedium-levelCleanEnergyGeneration</li>
+			<li>SSRResearchMedium-levelCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -665,7 +665,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc6</designationHotKey>
 		<researchPrerequisites>
-			<li>SSRAdvancedCleanEnergyGeneration</li>
+			<li>SSRResearchAdvancedCleanEnergyGeneration</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -757,7 +757,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRNuclearPhysics</li>
+			<li>SSRResearchNuclearPhysics</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -850,7 +850,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRControlledNuclearFusion</li>
+			<li>SSRResearchControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -942,7 +942,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRMiniaturizationOfNuclearPower</li>
+			<li>SSRResearchMiniaturizationOfNuclearPower</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -1032,7 +1032,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>SSRAntimatterApplicationsTechnology</li>
+			<li>SSRResearchAntimatterApplicationsTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
@@ -1123,7 +1123,7 @@
 			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRMedium-levelPowerTechnology</li>
+			<li>SSRResearchMedium-levelPowerTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -1198,7 +1198,7 @@
 			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
+			<li>SSRResearchAdvancedEnergyTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 

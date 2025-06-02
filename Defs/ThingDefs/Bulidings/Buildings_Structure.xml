@@ -83,7 +83,7 @@
       </li>
     </damageMultipliers>-->
 		<!--<researchPrerequisites>
-			<li>SSRBasicDefenseStructure</li>
+			<li>SSRResearchBasicDefenseStructure</li>
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_MeditationFocus">

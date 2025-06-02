@@ -164,7 +164,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -214,7 +214,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -265,7 +265,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -316,7 +316,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -367,7 +367,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -423,7 +423,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSREFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRResearchEFClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -586,7 +586,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -644,7 +644,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -702,7 +702,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -760,7 +760,7 @@
 			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicSpecialGarments</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicSpecialGarments</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -815,7 +815,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -881,7 +881,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSREFClothing</researchPrerequisite>
+			<researchPrerequisite>SSRResearchEFClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -992,7 +992,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicMedicine</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -1055,7 +1055,7 @@
 			</layers>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>SSRBasicComputationalScience</researchPrerequisite>
+			<researchPrerequisite>SSRResearchBasicComputationalScience</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>

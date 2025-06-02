@@ -147,7 +147,7 @@
 		<products>
 			<SSR_StandardConstructionElement>1</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -198,7 +198,7 @@
 		<products>
 			<SSR_StandardConstructionElement>10</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -249,7 +249,7 @@
 		<products>
 			<SSR_StandardConstructionElement>100</SSR_StandardConstructionElement>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -280,7 +280,7 @@
 		<products>
 			<SSR_SpecialSteel>1</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -311,7 +311,7 @@
 		<products>
 			<SSR_SpecialSteel>10</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -342,7 +342,7 @@
 		<products>
 			<SSR_SpecialSteel>100</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -373,7 +373,7 @@
 		<products>
 			<SSR_SpecialSteel>1</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -404,7 +404,7 @@
 		<products>
 			<SSR_SpecialSteel>10</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -435,7 +435,7 @@
 		<products>
 			<SSR_SpecialSteel>100</SSR_SpecialSteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 	
@@ -466,7 +466,7 @@
 		<products>
 			<SSR_Graphene>1</SSR_Graphene>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -497,7 +497,7 @@
 		<products>
 			<SSR_Graphene>10</SSR_Graphene>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -528,7 +528,7 @@
 		<products>
 			<SSR_Graphene>100</SSR_Graphene>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -559,7 +559,7 @@
 		<products>
 			<SSR_Carbyne>1</SSR_Carbyne>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -590,7 +590,7 @@
 		<products>
 			<SSR_Carbyne>10</SSR_Carbyne>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -621,7 +621,7 @@
 		<products>
 			<SSR_Carbyne>100</SSR_Carbyne>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -662,7 +662,7 @@
 		<products>
 			<SSR_NanoandMicroMechanicalComposite>40</SSR_NanoandMicroMechanicalComposite>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -703,7 +703,7 @@
 		<products>
 			<SSR_NanoandMicroMechanicalComposite>400</SSR_NanoandMicroMechanicalComposite>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -744,7 +744,7 @@
 		<products>
 			<SSR_NanoandMicroMechanicalComposite>4000</SSR_NanoandMicroMechanicalComposite>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -784,7 +784,7 @@
 		<products>
 			<SSR_Nanofabrics>1</SSR_Nanofabrics>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -824,7 +824,7 @@
 		<products>
 			<SSR_Nanofabrics>10</SSR_Nanofabrics>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -864,7 +864,7 @@
 		<products>
 			<SSR_Nanofabrics>100</SSR_Nanofabrics>
 		</products>
-		<researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchMedium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -895,7 +895,7 @@
 		<products>
 			<SSR_FermiMaterial>10</SSR_FermiMaterial>
 		</products>
-		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -926,7 +926,7 @@
 		<products>
 			<SSR_FermiMaterial>100</SSR_FermiMaterial>
 		</products>
-		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -957,7 +957,7 @@
 		<products>
 			<SSR_FermiMaterial>1000</SSR_FermiMaterial>
 		</products>
-		<researchPrerequisite>SSRAdvancedMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchAdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -988,7 +988,7 @@
 		<products>
 			<Chemfuel>1</Chemfuel>
 		</products>
-		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
+		<researchPrerequisite>SSRResearchCoalLiquefactionTechnology</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -1019,7 +1019,7 @@
 		<products>
 			<Chemfuel>10</Chemfuel>
 		</products>
-		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
+		<researchPrerequisite>SSRResearchCoalLiquefactionTechnology</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -1050,7 +1050,7 @@
 		<products>
 			<Chemfuel>100</Chemfuel>
 		</products>
-		<researchPrerequisite>SSRCoalLiquefactionTechnology</researchPrerequisite>
+		<researchPrerequisite>SSRResearchCoalLiquefactionTechnology</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 

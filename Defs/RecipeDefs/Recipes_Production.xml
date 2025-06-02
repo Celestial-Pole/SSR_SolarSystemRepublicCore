@@ -28,7 +28,7 @@
 		<products>
 			<Plasteel>1</Plasteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -59,7 +59,7 @@
 		<products>
 			<Plasteel>10</Plasteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -90,7 +90,7 @@
 		<products>
 			<Plasteel>100</Plasteel>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -121,7 +121,7 @@
 		<products>
 			<Synthread>1</Synthread>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -152,7 +152,7 @@
 		<products>
 			<Synthread>10</Synthread>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -183,7 +183,7 @@
 		<products>
 			<Synthread>100</Synthread>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -214,7 +214,7 @@
 		<products>
 			<Hyperweave>1</Hyperweave>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -245,7 +245,7 @@
 		<products>
 			<Hyperweave>10</Hyperweave>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -276,7 +276,7 @@
 		<products>
 			<Hyperweave>100</Hyperweave>
 		</products>
-		<researchPrerequisite>SSRBasicMaterialsScience</researchPrerequisite>
+		<researchPrerequisite>SSRResearchBasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 

@@ -61,7 +61,7 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRBasicTech</li>
+			<li>SSRResearchBasicTech</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -131,7 +131,7 @@
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRSupercomputer</li>
+			<li>SSRResearchSupercomputer</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -206,7 +206,7 @@
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRAdvancedComputationalScience</li>
+			<li>SSRResearchAdvancedComputationalScience</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -310,7 +310,7 @@
 			<li>PlaceWorker_NeverAdjacentUnstandable</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRStandardizedArtificialIntelligence</li>
+			<li>SSRResearchStandardizedArtificialIntelligence</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -387,7 +387,7 @@
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRLHC</li>
+			<li>SSRResearchLHC</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -481,7 +481,7 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRParticleConfinementTechnology</li>
+			<li>SSRResearchParticleConfinementTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.Generic.DefExt_PlaceAdjacent">
