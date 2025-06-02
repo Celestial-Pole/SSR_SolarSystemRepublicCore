@@ -25,7 +25,7 @@
 			<stockPerTunnel>50000</stockPerTunnel>
 		</palmineDefaultMineralProp>
 		
-		<mentalDefenseTechRequire>SSRResearchMentalProtectionTechnology</mentalDefenseTechRequire> <!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
+		<mentalDefenseTechRequire>SSR_Research_MentalProtectionTechnology</mentalDefenseTechRequire> <!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
 	</Def>
 
 </Defs>

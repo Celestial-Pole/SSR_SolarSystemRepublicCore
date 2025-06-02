@@ -33,7 +33,7 @@
 		<products>
 			<ReinforcedBarrel>1</ReinforcedBarrel>
 		</products>
-		<researchPrerequisite>SSRResearchBasicManufacturingTechnology</researchPrerequisite>
+		<researchPrerequisite>SSR_Research_BasicManufacturingTechnology</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
@@ -60,7 +60,7 @@
 		<products>
 			<ReinforcedBarrel>5</ReinforcedBarrel>
 		</products>
-		<researchPrerequisite>SSRResearchBasicManufacturingTechnology</researchPrerequisite>
+		<researchPrerequisite>SSR_Research_BasicManufacturingTechnology</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
@@ -87,7 +87,7 @@
 		<products>
 			<ReinforcedBarrel>10</ReinforcedBarrel>
 		</products>
-		<researchPrerequisite>SSRResearchBasicManufacturingTechnology</researchPrerequisite>
+		<researchPrerequisite>SSR_Research_BasicManufacturingTechnology</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SSR_Recipe_Base">
@@ -287,7 +287,7 @@
 			<SSR_PrecisionLens>1</SSR_PrecisionLens>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionOptics</li>
+			<li>SSR_Research_PrecisionOptics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -316,7 +316,7 @@
 			<SSR_PrecisionLens>5</SSR_PrecisionLens>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionOptics</li>
+			<li>SSR_Research_PrecisionOptics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -345,7 +345,7 @@
 			<SSR_PrecisionLens>10</SSR_PrecisionLens>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionOptics</li>
+			<li>SSR_Research_PrecisionOptics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -383,7 +383,7 @@
 			<SSR_SuperconductingMaterial>1</SSR_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchRoomTemperatureSuperconductivity</li>
+			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -421,7 +421,7 @@
 			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchRoomTemperatureSuperconductivity</li>
+			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -459,7 +459,7 @@
 			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchRoomTemperatureSuperconductivity</li>
+			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -488,7 +488,7 @@
 			<SSR_StrongElectromagnet>1</SSR_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionMagneticFieldControl</li>
+			<li>SSR_Research_PrecisionMagneticFieldControl</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -517,7 +517,7 @@
 			<SSR_StrongElectromagnet>5</SSR_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionMagneticFieldControl</li>
+			<li>SSR_Research_PrecisionMagneticFieldControl</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -546,7 +546,7 @@
 			<SSR_StrongElectromagnet>10</SSR_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchPrecisionMagneticFieldControl</li>
+			<li>SSR_Research_PrecisionMagneticFieldControl</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -601,7 +601,7 @@
 			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchBasicComputationalScience</li>
+			<li>SSR_Research_BasicComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -656,7 +656,7 @@
 			<SSR_QuantumComputingCore>5</SSR_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchBasicComputationalScience</li>
+			<li>SSR_Research_BasicComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -711,7 +711,7 @@
 			<SSR_QuantumComputingCore>10</SSR_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchBasicComputationalScience</li>
+			<li>SSR_Research_BasicComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -740,7 +740,7 @@
 			<SSR_NuclearFissionFuelRod>1</SSR_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchNuclearPhysics</li>
+			<li>SSR_Research_NuclearPhysics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -769,7 +769,7 @@
 			<SSR_NuclearFissionFuelRod>5</SSR_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchNuclearPhysics</li>
+			<li>SSR_Research_NuclearPhysics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -798,7 +798,7 @@
 			<SSR_NuclearFissionFuelRod>10</SSR_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchNuclearPhysics</li>
+			<li>SSR_Research_NuclearPhysics</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -845,7 +845,7 @@
 			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchStandardizedArtificialIntelligence</li>
+			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -892,7 +892,7 @@
 			<SSR_ArtificialIntelligenceChip>5</SSR_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchStandardizedArtificialIntelligence</li>
+			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -939,7 +939,7 @@
 			<SSR_ArtificialIntelligenceChip>10</SSR_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchStandardizedArtificialIntelligence</li>
+			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1002,7 +1002,7 @@
 			<SSR_IntegratedQuantumComputingFramework>1</SSR_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchMedium-levelComputationalScience</li>
+			<li>SSR_Research_Medium-levelComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1065,7 +1065,7 @@
 			<SSR_IntegratedQuantumComputingFramework>5</SSR_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchMedium-levelComputationalScience</li>
+			<li>SSR_Research_Medium-levelComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1128,7 +1128,7 @@
 			<SSR_IntegratedQuantumComputingFramework>10</SSR_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchMedium-levelComputationalScience</li>
+			<li>SSR_Research_Medium-levelComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1174,7 +1174,7 @@
 			<SSR_HighDensityBattery>1</SSR_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighDensityBattery</li>
+			<li>SSR_Research_HighDensityBattery</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1220,7 +1220,7 @@
 			<SSR_HighDensityBattery>5</SSR_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighDensityBattery</li>
+			<li>SSR_Research_HighDensityBattery</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1266,7 +1266,7 @@
 			<SSR_HighDensityBattery>10</SSR_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighDensityBattery</li>
+			<li>SSR_Research_HighDensityBattery</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1330,7 +1330,7 @@
 			<SSR_HighenergyLaserEmitter>1</SSR_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighEnergyLaserArray</li>
+			<li>SSR_Research_HighEnergyLaserArray</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1394,7 +1394,7 @@
 			<SSR_HighenergyLaserEmitter>5</SSR_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighEnergyLaserArray</li>
+			<li>SSR_Research_HighEnergyLaserArray</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1458,7 +1458,7 @@
 			<SSR_HighenergyLaserEmitter>10</SSR_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchHighEnergyLaserArray</li>
+			<li>SSR_Research_HighEnergyLaserArray</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1505,7 +1505,7 @@
 			<SSR_AdvancedArtificialIntelligenceChip>1</SSR_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedArtificialIntelligence</li>
+			<li>SSR_Research_AdvancedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1552,7 +1552,7 @@
 			<SSR_AdvancedArtificialIntelligenceChip>5</SSR_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedArtificialIntelligence</li>
+			<li>SSR_Research_AdvancedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1599,7 +1599,7 @@
 			<SSR_AdvancedArtificialIntelligenceChip>10</SSR_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedArtificialIntelligence</li>
+			<li>SSR_Research_AdvancedArtificialIntelligence</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1646,7 +1646,7 @@
 			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedComputationalScience</li>
+			<li>SSR_Research_AdvancedComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1693,7 +1693,7 @@
 			<SSR_PhotonComputingCore>5</SSR_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedComputationalScience</li>
+			<li>SSR_Research_AdvancedComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1740,7 +1740,7 @@
 			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedComputationalScience</li>
+			<li>SSR_Research_AdvancedComputationalScience</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1778,7 +1778,7 @@
 			<SSR_ExtremeComponent>1</SSR_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedManufacturingTechnology</li>
+			<li>SSR_Research_AdvancedManufacturingTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1816,7 +1816,7 @@
 			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedManufacturingTechnology</li>
+			<li>SSR_Research_AdvancedManufacturingTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1854,7 +1854,7 @@
 			<SSR_ExtremeComponent>10</SSR_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedManufacturingTechnology</li>
+			<li>SSR_Research_AdvancedManufacturingTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1910,7 +1910,7 @@
 			<SSR_MiniatureNuclearFusionDevice>1</SSR_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedEnergyTechnology</li>
+			<li>SSR_Research_AdvancedEnergyTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -1966,7 +1966,7 @@
 			<SSR_MiniatureNuclearFusionDevice>5</SSR_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedEnergyTechnology</li>
+			<li>SSR_Research_AdvancedEnergyTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -2022,7 +2022,7 @@
 			<SSR_MiniatureNuclearFusionDevice>10</SSR_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchAdvancedEnergyTechnology</li>
+			<li>SSR_Research_AdvancedEnergyTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -2069,7 +2069,7 @@
 			<SSR_HighenergyParticleConfinementDevice>1</SSR_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchParticleConfinementTechnology</li>
+			<li>SSR_Research_ParticleConfinementTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -2116,7 +2116,7 @@
 			<SSR_HighenergyParticleConfinementDevice>5</SSR_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchParticleConfinementTechnology</li>
+			<li>SSR_Research_ParticleConfinementTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 
@@ -2163,7 +2163,7 @@
 			<SSR_HighenergyParticleConfinementDevice>10</SSR_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
-			<li>SSRResearchParticleConfinementTechnology</li>
+			<li>SSR_Research_ParticleConfinementTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
 	

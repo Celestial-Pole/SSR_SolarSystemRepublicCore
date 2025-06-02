@@ -40,7 +40,7 @@
 		<value>
 			<designationCategory>Joy</designationCategory>
 			<researchPrerequisites>
-				<li>SSRResearchTelescopeManufacturing</li>
+				<li>SSR_Research_TelescopeManufacturing</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

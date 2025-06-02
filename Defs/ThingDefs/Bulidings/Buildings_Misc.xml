@@ -168,7 +168,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchVerticalDrillingTechnology</li>
+			<li>SSR_Research_VerticalDrillingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -237,7 +237,7 @@
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRResearchVerticalDrillingTechnology</li>
+			<li>SSR_Research_VerticalDrillingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -292,7 +292,7 @@
 			<li>FS_SSR.PW_TeleportPadRadius</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>SSRResearchBasicSpaceApplication</li>
+			<li>SSR_Research_BasicSpaceApplication</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">

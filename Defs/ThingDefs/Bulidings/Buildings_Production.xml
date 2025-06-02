@@ -211,7 +211,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -248,7 +248,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedMaterialsScience</requireResearch>
+							<requireResearch>SSR_Research_AdvancedMaterialsScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -286,7 +286,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicMaterialsScience</li>
+			<li>SSR_Research_BasicMaterialsScience</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -548,7 +548,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -581,7 +581,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -600,7 +600,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -714,7 +714,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelComputationalScience</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelComputationalScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -747,7 +747,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedComputationalScience</requireResearch>
+							<requireResearch>SSR_Research_AdvancedComputationalScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -776,7 +776,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicComputationalScience</li>
+			<li>SSR_Research_BasicComputationalScience</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -876,7 +876,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -909,7 +909,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -917,7 +917,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -1066,7 +1066,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1099,7 +1099,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1107,7 +1107,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -1225,7 +1225,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1258,7 +1258,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1266,7 +1266,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -1386,7 +1386,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1419,7 +1419,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1427,7 +1427,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -1541,7 +1541,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1574,7 +1574,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_AdvancedManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -1582,7 +1582,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicManufacturingTechnology</li>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
@@ -1639,7 +1639,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchCoalLiquefactionTechnology</li>
+			<li>SSR_Research_CoalLiquefactionTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -1720,7 +1720,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchStandardizedMaintenanceOperationsTechnology</li>
+			<li>SSR_Research_StandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -1807,7 +1807,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchEncryptionSystemCracking</li>
+			<li>SSR_Research_EncryptionSystemCracking</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -1895,7 +1895,7 @@
 		<designationHotKey>Misc6</designationHotKey>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRResearchControlledNuclearFusion</li>
+			<li>SSR_Research_ControlledNuclearFusion</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -2045,7 +2045,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSRResearchBasicMedicine</li>
+			<li>SSR_Research_BasicMedicine</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -2104,7 +2104,7 @@
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>SSRResearchBasicSpaceApplication</li>
+			<li>SSR_Research_BasicSpaceApplication</li>
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
@@ -2159,7 +2159,7 @@
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<researchPrerequisites>
-			<li>SSRResearchVerticalDrillingTechnology</li>
+			<li>SSR_Research_VerticalDrillingTechnology</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -2231,7 +2231,7 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<researchPrerequisites>
-			<li>SSRResearchStandardizedMineConstruction</li>
+			<li>SSR_Research_StandardizedMineConstruction</li>
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -2264,7 +2264,7 @@
 								<texPath>MinerT1</texPath>
 								<drawSize>(16,16)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchMedium-levelManufacturingTechnology</requireResearch>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -2285,7 +2285,7 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
-							<requireResearch>SSRResearchAdvancedMaterialsScience</requireResearch>
+							<requireResearch>SSR_Research_AdvancedMaterialsScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
 					</li>
@@ -2375,7 +2375,7 @@
 					</li>
 				</materials>
 				<workAmt>1200</workAmt>
-				<requireResearch>SSRResearchBasicMineMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_BasicMineMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2401,7 +2401,7 @@
 					</li>
 				</materials>
 				<workAmt>1600</workAmt>
-				<requireResearch>SSRResearchMedium-levelMineMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_Medium-levelMineMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2423,7 +2423,7 @@
 					</li>
 				</materials>
 				<workAmt>2000</workAmt>
-				<requireResearch>SSRResearchAdvancedMineMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_AdvancedMineMiningAutomation</requireResearch>
 			</li>
 		</autoLayerDiggerCost>
 		<autoTunnelDiggerCost>
@@ -2447,7 +2447,7 @@
 					</li>
 				</materials>
 				<workAmt>450</workAmt>
-				<requireResearch>SSRResearchBasicTunnelMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_BasicTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2473,7 +2473,7 @@
 					</li>
 				</materials>
 				<workAmt>600</workAmt>
-				<requireResearch>SSRResearchMedium-levelTunnelMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_Medium-levelTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2495,7 +2495,7 @@
 					</li>
 				</materials>
 				<workAmt>1000</workAmt>
-				<requireResearch>SSRResearchAdvancedTunnelMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_AdvancedTunnelMiningAutomation</requireResearch>
 			</li>
 		</autoTunnelDiggerCost>
 		<autoMineralDiggerCost>
@@ -2519,7 +2519,7 @@
 					</li>
 				</materials>
 				<workAmt>300</workAmt>
-				<requireResearch>SSRResearchBasicMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_BasicMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2541,7 +2541,7 @@
 					</li>
 				</materials>
 				<workAmt>500</workAmt>
-				<requireResearch>SSRResearchMedium-levelMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_Medium-levelMiningAutomation</requireResearch>
 			</li>
 			<li>
 				<materials>
@@ -2559,7 +2559,7 @@
 					</li>
 				</materials>
 				<workAmt>700</workAmt>
-				<requireResearch>SSRResearchAdvancedMiningAutomation</requireResearch>
+				<requireResearch>SSR_Research_AdvancedMiningAutomation</requireResearch>
 			</li>
 		</autoMineralDiggerCost>
 		<minableStones>
@@ -2643,7 +2643,7 @@
     	<!-- </placeWorkers> -->
     	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<!-- <researchPrerequisites>  科技依赖 -->
-			<!-- <li>SSRResearchVerticalDrillingTechnology</li> -->
+			<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
 		<!-- </researchPrerequisites> -->
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
