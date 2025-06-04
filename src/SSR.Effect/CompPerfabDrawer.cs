@@ -98,7 +98,7 @@ namespace SSR.Effect
 
         public void ModifyPrivateSpeed(float _in)
         {
-            monoBehaviour.playingSpeed = _in;
+            UnityGameObjectUpdaterComponet(parent.Rotation).playingSpeed = _in;
         }
     }
 
