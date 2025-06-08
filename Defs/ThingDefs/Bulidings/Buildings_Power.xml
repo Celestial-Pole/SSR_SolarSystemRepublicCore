@@ -86,6 +86,10 @@
 				<offset>(-0.1,0,-0.08)</offset>
 			</shadowData>
 		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
