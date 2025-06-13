@@ -6,7 +6,7 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "RenderType"="2901"}
+        Tags { "RenderType"="Opaque" "Queue"="Transparent-99"}
         LOD 100
         Blend Zero One
         ZTest GEqual

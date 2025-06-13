@@ -10,7 +10,7 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Transparent-98" }
         LOD 100
         GrabPass
         {

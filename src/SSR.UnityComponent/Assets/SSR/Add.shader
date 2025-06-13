@@ -7,7 +7,7 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "RenderType"="2900"}
+        Tags { "RenderType"="Opaque" "Queue"="Transparent-100" }
         LOD 100
         Blend SrcAlpha One
         ZWrite Off
