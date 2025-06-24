@@ -104,6 +104,7 @@ MonoBehaviour:
   turbineMesh: {fileID: 4300000, guid: 9573e45bb8a379f48b12f481b43deb26, type: 2}
   pole: {fileID: 2100000, guid: a931d29d0341bbe4890410e3104ca964, type: 2}
   turbine: {fileID: 2100000, guid: 4873829d8d1676448ad97f2888091379, type: 2}
+  wireframe: {fileID: 2100000, guid: e839138dca692cb4fbdb736c58c815c8, type: 2}
   holderLow: {fileID: 2100000, guid: 2f6cee7ef2018ac4fb9e78c53d0cdaba, type: 2}
   holderTop: {fileID: 2100000, guid: bccd0e926865fc140a710a9e2cb6dc05, type: 2}
 --- !u!95 &2521141366675345310

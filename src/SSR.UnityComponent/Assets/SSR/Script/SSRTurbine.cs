@@ -17,15 +17,18 @@ namespace SSR.UnityComponent
         public Mesh turbineMesh;
         public Material pole;
         public Material turbine;
+        public Material wireframe;
         public Material holderLow;
         public Material holderTop;
         private Transform transformCache;
         private Transform poleTransform;
         private Transform turbineTransform;
+        private Transform wireframeTransform;
         private Transform holderLowTransform;
         private Transform holderTopTransform;
         private MeshRenderer poleRenderer;
         private MeshRenderer turbineRenderer;
+        private MeshRenderer wireframeRenderer;
         private MeshRenderer holderLowRenderer;
         private MeshRenderer holderTopRenderer;
 
@@ -183,6 +186,17 @@ namespace SSR.UnityComponent
             turbineTransform.localPosition = Vector3.forward * turbinePos;
             turbineTransform.localScale = new Vector3(turbineSize.x, turbineSize.x, turbineSize.y);
             turbineTransform.localRotation = Quaternion.Euler(0, 0, turbineRotation);
+
+            obj = new GameObject("wireframe");
+            meshFilter = obj.AddComponent<MeshFilter>();
+            wireframeRenderer = obj.AddComponent<MeshRenderer>();
+            meshFilter.mesh = turbineMesh;
+            wireframeRenderer.material = wireframe;
+            wireframeTransform = obj.transform;
+            wireframeTransform.SetParent(turbineTransform);
+            wireframeTransform.localPosition = Vector3.zero;
+            wireframeTransform.localScale = Vector3.one;
+            wireframeTransform.localRotation = Quaternion.Euler(0, 0, 0);
 
             obj = new GameObject("holderLow");
             meshFilter = obj.AddComponent<MeshFilter>();

@@ -52,13 +52,15 @@
   <ItemGroup>
      <Compile Include="Assets\SSR\Script\SSRBlackHole.cs" />
      <Compile Include="Assets\SSR\Script\SSRTurbine.cs" />
+     <None Include="Assets\SSR\Wireframe.shader" />
      <None Include="Assets\SSR\WormHole.shader" />
      <None Include="Assets\SSR\DepthMask.shader" />
-     <None Include="Assets\SSR\Rocket.shader" />
+     <None Include="Assets\SSR\JetFlow.shader" />
      <None Include="Assets\SSR\SSR.UnityComponent.asmdef" />
      <None Include="Assets\SSR\DepthMaskForce.shader" />
      <None Include="Assets\SSR\Add.shader" />
      <None Include="Assets\SSR\CutOut.shader" />
+     <None Include="Assets\SSR\Fade.shader" />
      <None Include="Assets\SSR\ColorOnly.shader" />
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/CSharp/SSR_SolarSystemRepublicCore/src/SSR.UnityComponent/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
