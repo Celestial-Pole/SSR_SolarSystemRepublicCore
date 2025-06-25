@@ -43,7 +43,7 @@
             float Rel2AnimShadow(float rel)
             {
                 rel = clamp(rel, 0.0, 1.0);
-                return round(rel * 2.0) * 0.3333 + 0.3333;
+                return round(rel * 1.8) * 0.3333 + 0.3333;
             }
 
 
@@ -55,10 +55,10 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
+                float l = length(v.normal);
+                if(l < 0.001) v.normal = float3(0,1,0);
+                else v.normal /= l;
                 o.normal = UnityObjectToWorldNormal(v.normal);
-                float l = length(o.normal);
-                if(l < 0.001) o.normal = float3(0,1,0);
-                else o.normal /= l;
                 return o;
             }
 
@@ -71,7 +71,7 @@
                 depth = i.model.z / i.model.w;
 
                 // apply fog
-                return _Color * Rel2AnimShadow(dot(i.normal, float3(0,1,1)) / 1.414);
+                return _Color * Rel2AnimShadow(dot(i.normal, float3(0,1,1)) / 1.4142135623730950488016887242097);
             }
             ENDCG
         }
