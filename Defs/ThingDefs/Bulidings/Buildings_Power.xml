@@ -219,7 +219,7 @@
 					<li>
 						<def>WoodLog</def><!--燃料的def-->
 						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
-						<pollution>1</pollution><!--这种燃料多少污染-->
+						<pollution>0</pollution><!--这种燃料多少污染-->
 					</li>
 					<li>
 						<def>Chemfuel</def><!--燃料的def-->
