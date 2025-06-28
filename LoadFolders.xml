@@ -10,6 +10,8 @@
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
+		<li IfModActive="CETeam.CombatExtended">SoftRely/1.6/CombatExtended</li>
+		<li IfModNotActive="MIS.Framework">SoftRely/1.6/AKFrameNotActive</li>
 	</v1.6>
 
 </loadFolders>
