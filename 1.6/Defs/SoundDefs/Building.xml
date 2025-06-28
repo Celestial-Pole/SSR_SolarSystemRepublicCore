@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <SoundDef>
+        <defName>VerticalDrillingRig_WarmupSustained</defName>
+        <sustain>True</sustain>
+        <context>MapOnly</context>
+        <priorityMode>PrioritizeNearest</priorityMode>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Building/b_char_VerticalDrillingRig</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>50</volumeRange>
+                <distRange>10~60</distRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

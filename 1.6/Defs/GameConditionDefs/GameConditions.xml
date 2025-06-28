@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	 
+  <GameConditionDef>
+    <defName>SSR_GameCondition_AcidRain</defName>
+    <conditionClass>FS_SSR.GCondition_AcidRain</conditionClass>
+    <label>酸雨</label>
+    <description>有毒垃圾燃烧造成空气污染导致的自然灾害，会对在户外的生物与物品造成持续性的酸蚀伤害。</description>
+    <descriptionFuture>污染气体形成的云层将在[gameConditionDuration_duration]内笼罩于[map_definite]地区并形成降水，酸性雨水会对在户外的生物与物品造成持续性的酸蚀伤害。</descriptionFuture>
+    <endMessage>污染云层消散了，酸雨停止了</endMessage>
+    <letterText>有毒垃圾燃烧产生的污染性气体正在笼罩整个地区。\n\n任何不在屋顶下的生物与物品都将被酸雨腐蚀。\n\n酸雨将会在几天至一象时间内持续存在。</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+
+</Defs>

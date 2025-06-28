@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+  <value>
+      <li>Make_Plasteel</li>
+	  <li>Make_TenPlasteel</li>
+	  <li>Make_HundredPlasteel</li>
+	  <li>Make_Synthread</li>
+	  <li>Make_TenSynthread</li>
+	  <li>Make_HundredSynthread</li>
+	  <li>Make_Hyperweave</li>
+	  <li>Make_TenHyperweave</li>
+	  <li>Make_HundredHyperweave</li>
+	  <li>Make_Graphene</li>
+	  <li>Make_TenGraphene</li>
+	  <li>Make_HundredGraphene</li>
+  </value>
+</Operation>-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/SurgeryOutcomeEffectDef[defName="SurgeryOutcomeBase"]/comps/li[@Class="SurgeryOutcomeComp_ClampToRange"]/range</xpath>
+		<value>
+			<range>0~1</range>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[ defName="FueledStove"or defName="ElectricStove"]/recipes</xpath>
+		<value>
+			<li>SSR_Recipe_Carbon</li>
+			<li>SSR_Recipe_TenCarbon</li>
+			<li>SSR_Recipe_HundredCarbon</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Telescope"]</xpath>
+		<value>
+			<designationCategory>Joy</designationCategory>
+			<researchPrerequisites>
+				<li>SSR_Research_TelescopeManufacturing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
+		<value>
+			<designationCategory>Joy</designationCategory>
+			<researchPrerequisites>
+				<li>SSRMegascreenTelevision</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>SSR_DataTerminal</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Steel"]/stuffProps/statFactors/Flammability</xpath>
+		<value>
+			<Flammability>0</Flammability>
+		</value>
+	</Operation>
+
+</Patch>

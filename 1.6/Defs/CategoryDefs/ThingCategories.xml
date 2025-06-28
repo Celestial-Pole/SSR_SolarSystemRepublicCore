@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>SSR</defName>
+		<label>太阳系共和国</label>
+		<parent>Root</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+		<iconPath>UI/ModIcon</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Material</defName>
+		<label>材料</label>
+		<parent>SSR</parent>
+		<iconPath>UI/ThingCategories/Material</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Manufactured</defName>
+		<label>制成品</label>
+		<parent>SSR</parent>
+		<iconPath>UI/ThingCategories/Manufactured</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Furniture</defName>
+		<label>家具</label>
+		<parent>SSR</parent>
+		<iconPath>UI/ThingCategories/Furniture</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SSR_Satellite</defName>
+		<label>卫星</label>
+		<parent>SSR</parent>
+		<iconPath>UI/TempIcon</iconPath>
+	</ThingCategoryDef>
+
+</Defs>

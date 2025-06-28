@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_HaulToMars</defName>
+		<label>haul to mars</label>
+		<giverClass>FS_SSR.Storage.WorkGiver_HaulMarsStore</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>haul</verb>
+		<gerund>haul</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<JobDef>
+		<defName>SSR_Job_HaulToMars</defName>
+		<driverClass>FS_SSR.Storage.JobDriver_HaulMarsStore</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+</Defs>

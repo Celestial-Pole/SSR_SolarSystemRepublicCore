@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="FS_SSR.Roof.RoofBuilderDef_Extinguisher" ParentName="BuildingNaturalBase">
+		<defName>SSR_SprayFireExtinguishingDevice</defName>
+		<label>消防喷淋器</label>
+		<description>消防喷淋器是一种自动灭火系统，通过检测火灾时的高温或烟雾来触发喷水，</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<withFoam>true</withFoam>
+		<graphicData>
+			<texPath>UI/SprayFireExtinguishingDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<thingClass>FS_SSR.Roof.RoofBuilder_Extinguisher</thingClass>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2400</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>true</canOverlapZones>
+		<size>(1,1)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<placeWorkers>
+			<li>FS_SSR.Roof.PW_RoofBuilder_Extinguisher</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>SSR_DeconsSprayFireExtinguishingDevice</defName>
+		<label>拆除消防喷淋器</label>
+		<description>拆除消防喷淋器。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>UI/DeconsSprayFireExtinguishingDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<thingClass>FS_SSR.Roof.RoofRemover_Extinguisher</thingClass>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2400</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>true</canOverlapZones>
+		<size>(1,1)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<uiOrder>2100</uiOrder>
+		<constructEffect>ConstructMetal</constructEffect>
+		<placeWorkers>
+			<li>FS_SSR.Roof.PW_UnderRoofExtinguisher</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_VerticalDrillingRig</defName>
+		<label>垂直钻井机</label>
+		<description>垂直钻井机是一种用于钻探深井的重型设备，具有高塔架和旋转钻头，能够钻探出深层的地热资源。</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,1.5)</drawOffset>
+		</graphicData>
+		<uiIconPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig</uiIconPath>
+		<size>(4,4)</size>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>1</fillPercent>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>450</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<ComponentIndustrial>50</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1000</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<li Class="FS_SSR.TCP_SteamSpringMaker">
+				<interval>60</interval>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				<overlay>
+					<texPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig_Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0,0,1.47)</drawOffset>
+				</overlay>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>SSR_Research_VerticalDrillingTechnology</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_DeepWellFillBurialMachine</defName>
+		<label>深井填埋机</label>
+		<description>深井填埋机是用于填埋蒸汽间歇喷泉的专用设备。</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Misc/DeepWellFillBurialMachine/DeepWellFillBurialMachine</uiIconPath>
+		<size>(4,4)</size>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>1</fillPercent>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>300</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<ComponentIndustrial>50</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+			<li Class="FS_SSR.TCP_SteamGeyserClear">
+				<interval>60</interval>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSR_Research_VerticalDrillingTechnology</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_Teleporter</defName>
+		<label>传送装置</label>
+		<tickerType>Never</tickerType>
+		<description>传送装置可以将一定范围内的单位与物品传送到指定的目的地。</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Teleporter/Teleporter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<thingClass>FS_SSR.Building_TeleportPad</thingClass>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Mass>300</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<SSR_FermiMaterial>900</SSR_FermiMaterial>
+			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
+			<SSR_PhotonComputingCore>3</SSR_PhotonComputingCore>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>FS_SSR.PW_TeleportPadRadius</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicSpaceApplication</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Misc</innerCategory>
+			</li>
+			<li Class="FS_SSR.DefExt_TeleportPadRadius">
+				<radiusThrow>4</radiusThrow>
+				<radiusRetrieve>4</radiusRetrieve>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

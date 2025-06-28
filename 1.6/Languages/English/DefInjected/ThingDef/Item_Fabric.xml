@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 石墨烯 -->
+  <SSR_Graphene.label>TODO</SSR_Graphene.label>
+  <!-- EN: 石墨烯是一种拥有超薄特性和优异的机械、热学性能的材料，这些特性使其在纳米技术和电子设备中具有广泛的应用。 -->
+  <SSR_Graphene.description>TODO</SSR_Graphene.description>
+  
+  <!-- EN: 纳米织物 -->
+  <SSR_Nanofabrics.label>TODO</SSR_Nanofabrics.label>
+  <!-- EN: 纳米织物是一种利用纳米技术制造的超轻、超薄但极其坚韧的布料。它具有优异的强度、耐久性和多功能性，如防水、防污和抗菌。 -->
+  <SSR_Nanofabrics.description>TODO</SSR_Nanofabrics.description>
+  
+</LanguageData>
