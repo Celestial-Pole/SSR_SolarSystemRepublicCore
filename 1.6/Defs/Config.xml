@@ -14,7 +14,7 @@
 			</li>
 		</particleSatelliteAwards>
 		<interceptableSkyfaller> <!-- 可被拦截卫星拦截的天坠物 -->
-			<li>DropPodIncomingMechanoid</li>
+			<!--<li>DropPodIncomingMechanoid</li>-->
 			<li>ShipChunkIncoming</li>
 		</interceptableSkyfaller>
 		

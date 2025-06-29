@@ -87,7 +87,6 @@
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
     <hasTooltip>true</hasTooltip>
-    <costStuffCount>30</costStuffCount>
     <costList>
       <Steel>70</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>

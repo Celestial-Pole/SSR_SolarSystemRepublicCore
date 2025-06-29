@@ -1866,6 +1866,10 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -1888,7 +1892,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>

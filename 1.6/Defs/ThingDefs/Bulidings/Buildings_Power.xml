@@ -587,6 +587,10 @@
 				<basePowerConsumption>-5500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -598,7 +602,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -652,6 +655,10 @@
 				<basePowerConsumption>-7500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -663,7 +670,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
