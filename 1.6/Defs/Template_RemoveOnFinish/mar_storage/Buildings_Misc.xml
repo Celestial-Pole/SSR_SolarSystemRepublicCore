@@ -17,7 +17,6 @@
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<fillPercent>0</fillPercent>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>

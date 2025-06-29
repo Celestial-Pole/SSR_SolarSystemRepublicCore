@@ -7,16 +7,6 @@
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
 
-	<MVCF.ModDef>
-		<defName>SSR_Apparel_Def</defName>
-		<label>SSR Apparel</label>
-		<description>nothing here</description>
-		<ActivateFeatures>
-			<li>ApparelVerbs</li>
-			<li>IntegratedToggle</li>
-		</ActivateFeatures>
-	</MVCF.ModDef>
-
 	<ThingDef Name="SSR_ApparelCustomBase" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<category>Item</category>

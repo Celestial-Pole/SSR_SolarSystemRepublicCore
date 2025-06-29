@@ -43,4 +43,12 @@
 		<UIClass>FS_SSR.UI.SSRWindow_SatelliteConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
 	
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_MarsStorage</defName>
+		<label>火星仓库</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>New Mars Storehouse UI</modelName>
+		<UIClass>FS_SSR.Storage.UI.SSRWindow_MarsStorage</UIClass>
+	</AK_DLL.UIPrefabDef>
 </Defs>

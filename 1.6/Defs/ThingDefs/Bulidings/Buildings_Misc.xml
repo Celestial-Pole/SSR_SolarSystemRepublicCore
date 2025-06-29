@@ -18,7 +18,6 @@
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<fillPercent>0</fillPercent>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -69,7 +68,7 @@
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<fillPercent>0</fillPercent>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<drawStyleCategory>Areas</drawStyleCategory>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -143,7 +142,7 @@
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
-			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
+			<groundSpawnerSustainerSound>VerticalDrillingRig_WarmupSustained</groundSpawnerSustainerSound>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
@@ -217,7 +216,7 @@
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
-			<soundAmbient>VerticalDrillingRig_WarmupSustained</soundAmbient>
+			<groundSpawnerSustainerSound>VerticalDrillingRig_WarmupSustained</groundSpawnerSustainerSound>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
