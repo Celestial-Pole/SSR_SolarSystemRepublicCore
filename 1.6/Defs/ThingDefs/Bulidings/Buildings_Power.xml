@@ -499,10 +499,10 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT2.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/WindTurbineT2.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
