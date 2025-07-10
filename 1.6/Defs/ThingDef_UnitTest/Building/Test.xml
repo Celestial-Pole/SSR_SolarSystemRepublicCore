@@ -41,6 +41,12 @@
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
                 <leveledPrefabPaths>
                     <li>Assets/SSR/Prefab/MinerT1.prefab</li>
                 </leveledPrefabPaths>
@@ -87,6 +93,12 @@
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
                 <leveledPrefabPaths>
                     <li>Assets/SSR/Prefab/MinerT2.prefab</li>
                 </leveledPrefabPaths>

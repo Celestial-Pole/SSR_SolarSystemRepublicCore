@@ -22,32 +22,6 @@
 		<assetBundle>Windows/ssr_windows</assetBundle>
 	</AK_DLL.AssetDef>
 
-	<ThingDef ParentName="BuildingBase" Name="BuildingBase_AnimatedSingle" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="BuildingBase" Name="BuildingBase_AnimatedMulti" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
 	<!-- Floor -->
 	<TerrainDef Name="SSRFloorBase" Abstract="True">
 		<layerable>true</layerable>
@@ -103,32 +77,6 @@
 		<pathCost>50</pathCost>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_BuildingBase_Furniture" Name="SSR_BuildingBase_Furniture_AnimatedSingle" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_Furniture" Name="SSR_BuildingBase_Furniture_AnimatedMulti" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
 
 	<!-- Power -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
@@ -147,32 +95,6 @@
 		<pathCost>50</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
 		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_Power" Name="SSR_BuildingBase_Power_AnimatedSingle" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_Power" Name="SSR_BuildingBase_Power_AnimatedMulti" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
 	</ThingDef>
 
 	<!-- Production -->
@@ -217,31 +139,5 @@
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable" Name="SSR_BuildingBase_AutoBenchUpgradable_AnimatedSingle" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable" Name="SSR_BuildingBase_AutoBenchUpgradable_AnimatedMulti" Abstract="True">
-		<comps>
-			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
-				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
-				<assetDefs>
-					<li>SSR_Animate_Prefab_Linux</li>
-					<li>SSR_Animate_Prefab_MacOS</li>
-					<li>SSR_Animate_Prefab_Windows</li>
-				</assetDefs>
-			</li>
-		</comps>
 	</ThingDef>
 </Defs>

@@ -139,7 +139,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_BuildingBase_Power_AnimatedSingle">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_ThermalPowerPlant</defName>
 		<label>火力发电站</label>
 		<description>火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。</description>
@@ -270,6 +270,12 @@
 				</levels>
 			</li>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
 				<leveledPrefabPaths>
 					<li>Assets/SSR/Prefab/ThermalPower.prefab</li>
 				</leveledPrefabPaths>
@@ -403,7 +409,7 @@
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_BuildingBase_Power_AnimatedSingle">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。</description>
@@ -439,6 +445,12 @@
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
 				<leveledPrefabPaths>
 					<li>Assets/SSR/Prefab/WindTurbineT1.prefab</li>
 				</leveledPrefabPaths>
@@ -500,6 +512,12 @@
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
 				<leveledPrefabPaths>
 					<li>Assets/SSR/Prefab/WindTurbineT2.prefab</li>
 				</leveledPrefabPaths>
