@@ -1,49 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<modExtensions>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
-		<comps>
-			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
-			<li Class="CompProperties_Flickable"/>
-		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li>			<!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
-	</ThingDef>
-
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
@@ -2192,7 +2149,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
+	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase_AnimatedSingle">
 		<defName>SSR_Mine</defName>
 		<label>标准化垂直矿井</label>
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
@@ -2293,14 +2250,14 @@
 						</value>
 					</li>
 				</levels>
-			</li>  
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-                <leveledPerfabPaths>
-                    <li>Assets/SSR/Perfab/MinerT1.prefab</li>
-                    <li>Assets/SSR/Perfab/MinerT2.prefab</li>
-                    <li>Assets/SSR/Perfab/MinerT3.prefab</li>
-                </leveledPerfabPaths>
-            </li>
+			</li>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<leveledPrefabPaths>
+                    <li>Assets/SSR/Prefab/MinerT1.prefab</li>
+                    <li>Assets/SSR/Prefab/MinerT2.prefab</li>
+                    <li>Assets/SSR/Prefab/MinerT3.prefab</li>
+				</leveledPrefabPaths>
+			</li>
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
