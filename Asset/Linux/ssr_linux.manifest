@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2986419015
+CRC: 1373212790
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1bc8cf0144258badfc9a85ebb001b88e
+    Hash: d4cb015f9722024509d887ce7d95202d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 85b7f3cde37db8dabcfd78b8973aa7d3
@@ -53,7 +53,7 @@ Assets:
 - Assets/SSR/Texture/WindTurbineT2/Foundation.png
 - Assets/SSR/Material/WindTurbineT2/Glowing.mat
 - Assets/SSR/Mesh/Mesh_TurbineT2.asset
-- Assets/SSR/Perfab/WindTurbineT1.prefab
+- Assets/SSR/Prefab/WindTurbineT1.prefab
 - Assets/SSR/JetFlow.shader
 - Assets/SSR/Material/WindTurbineT2/Pole.mat
 - Assets/SSR/Material/MinerT2/WireFrame.mat
@@ -64,7 +64,7 @@ Assets:
 - Assets/SSR/Texture/MinerT2/Foundation.png
 - Assets/SSR/Material/WindTurbineT1/HolderTop.mat
 - "Assets/SSR/Mesh/\u8D77\u91CD\u673A1.blend"
-- Assets/SSR/Perfab/MinerT1.prefab
+- Assets/SSR/Prefab/MinerT1.prefab
 - Assets/SSR/Texture/WindTurbineT1/HolderTop.png
 - Assets/SSR/Wireframe.shader
 - Assets/SSR/Texture/MinerT1/Cover.png
@@ -99,7 +99,7 @@ Assets:
 - Assets/SSR/Texture/WindTurbineT1/poleDepth.png
 - Assets/SSR/Material/MinerT3/Foundation.mat
 - Assets/SSR/Material/MinerT2/Cover.mat
-- Assets/SSR/Perfab/RocketMK1.prefab
+- Assets/SSR/Prefab/RocketMK1.prefab
 - Assets/SSR/Animate/ThermalPower/ThermalPower.controller
 - Assets/SSR/Texture/RocketMK1/Mask.png
 - "Assets/SSR/Mesh/\u98CE\u529B\u53D1\u7535t2.blend"
@@ -120,11 +120,11 @@ Assets:
 - Assets/SSR/DepthMaskForce.shader
 - Assets/SSR/Material/RocketMK1/HookTop.mat
 - Assets/SSR/Texture/MinerT1/Mask.png
-- Assets/SSR/Perfab/ThermalPower.prefab
+- Assets/SSR/Prefab/ThermalPower.prefab
 - Assets/SSR/Texture/MinerT2/DepthMask.png
 - Assets/SSR/Texture/WindTurbineT1/pole.png
 - Assets/SSR/Texture/RocketMK1/Rocket.png
-- Assets/SSR/Perfab/MinerT3.prefab
+- Assets/SSR/Prefab/MinerT3.prefab
 - Assets/SSR/Material/MinerT2/LifterPartC.mat
 - Assets/SSR/Material/MinerT1/Cover.mat
 - Assets/SSR/Material/MinerT1/Cargo.mat
@@ -167,9 +167,9 @@ Assets:
 - Assets/SSR/Texture/RocketMK1/HookTop.png
 - Assets/SSR/Material/WindTurbineT1/HolderLow.mat
 - Assets/SSR/Texture/WarpMap.png
-- Assets/SSR/Perfab/MinerT2.prefab
+- Assets/SSR/Prefab/MinerT2.prefab
 - Assets/SSR/Material/MinerT1/LifterPartA.mat
-- Assets/SSR/Perfab/WindTurbineT2.prefab
+- Assets/SSR/Prefab/WindTurbineT2.prefab
 - Assets/SSR/Material/MinerT2/DepthMask.mat
 - Assets/SSR/Material/RocketMK1/Bracket.mat
 - Assets/SSR/Material/RocketMK1/DepthMask.mat

@@ -1,24 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>1</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>false</hasInteractionCell>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-	</ThingDef>
-
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_PowerConduit</defName>
 		<label>安全线缆</label>
@@ -288,10 +269,16 @@
 					</li>
 				</levels>
 			</li>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/ThermalPower.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/ThermalPower.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -457,10 +444,16 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT1.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/WindTurbineT1.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -518,10 +511,16 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT2.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/WindTurbineT2.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>

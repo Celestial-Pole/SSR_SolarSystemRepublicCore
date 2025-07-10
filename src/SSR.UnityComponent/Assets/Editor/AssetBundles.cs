@@ -18,7 +18,7 @@ namespace Assets.Editor
         [MenuItem("Assets/Build All Asset Bundles")]
         public static void BuildAllAB() {
             // 打包AB输出路径
-            string strABOutPAthDir = "../../AssetBundles";
+            string strABOutPAthDir = "../../Asset";
 
             // 获取“StreamingAssets”文件夹路径（不一定这个文件夹，可自定义）
             // strABOutPAthDir = Application.streamingAssetsPath;
@@ -28,7 +28,7 @@ namespace Assets.Editor
             {
                 Directory.CreateDirectory(strABOutPAthDir);
             }
-            strABOutPAthDir = "../../AssetBundles/Windows";
+            strABOutPAthDir = "../../Asset/Windows";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
@@ -45,7 +45,7 @@ namespace Assets.Editor
                 }
             }
 
-            strABOutPAthDir = "../../AssetBundles/Linux";
+            strABOutPAthDir = "../../Asset/Linux";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
@@ -62,7 +62,7 @@ namespace Assets.Editor
                 }
             }
 
-            strABOutPAthDir = "../../AssetBundles/MacOS";
+            strABOutPAthDir = "../../Asset/MacOS";
             if (Directory.Exists(strABOutPAthDir) == false)
             {
                 Directory.CreateDirectory(strABOutPAthDir);
@@ -89,7 +89,7 @@ namespace Assets.Editor
         static List<string> text;
 
 
-        [MenuItem("Window/My Window")]
+        [MenuItem("Window/List All Built-in Icons")]
         public static void ShowWindow()
         {
             EditorWindow.GetWindow(typeof(MyWindow));

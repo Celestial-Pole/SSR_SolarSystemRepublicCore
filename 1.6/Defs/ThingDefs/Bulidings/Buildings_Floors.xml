@@ -1,42 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<TerrainDef Name="SSRFloorBase" Abstract="True">
-		<layerable>true</layerable>
-		<affordances>
-			<li>Light</li>
-			<li>Medium</li>
-			<li>Heavy</li>
-		</affordances>
-		<tags>
-			<li>Floor</li>
-		</tags>
-		<fertility>0</fertility>
-		<constructEffect>ConstructDirt</constructEffect>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
-		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
-		<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
-		<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
-				<designatorClass>Designator_Build</designatorClass>
-			</li>
-		</modExtensions>
-	</TerrainDef>
-
-	<!-- ================= Metal Tiles ================= -->
-
-	<TerrainDef Abstract="True" ParentName="SSRFloorBase" Name="SSRArmouredFloorBase">
-		<designatorDropdown>SSRFloor_Armoured</designatorDropdown>
-		<constructEffect>ConstructMetal</constructEffect>
-		<isPaintable>true</isPaintable>
-		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
-	</TerrainDef>
-
 	<TerrainDef ParentName="SSRArmouredFloorBase">
 		<defName>SSRArmouredFloor</defName>
 		<label>装甲地板</label>

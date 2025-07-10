@@ -3,9 +3,9 @@
 
 
     <ThingDef ParentName="BuildingBase">
-        <defName>PerfabTestA</defName>
-        <label>Perfab Test 1</label>
-        <description>Perfab Test</description>
+        <defName>PrefabTestA</defName>
+        <label>Prefab Test 1</label>
+        <description>Prefab Test</description>
         <thingClass>Building</thingClass>
         <graphicData>
             <texPath>MinerT1</texPath>
@@ -40,18 +40,24 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
-            <li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-                <leveledPerfabPaths>
-                    <li>Assets/SSR/Perfab/MinerT1.prefab</li>
-                </leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+                <leveledPrefabPaths>
+                    <li>Assets/SSR/Prefab/MinerT1.prefab</li>
+                </leveledPrefabPaths>
             </li>
         </comps>
     </ThingDef>
 
     <ThingDef ParentName="BuildingBase">
-        <defName>PerfabTestB</defName>
-        <label>Perfab Test 2</label>
-        <description>Perfab Test</description>
+        <defName>PrefabTestB</defName>
+        <label>Prefab Test 2</label>
+        <description>Prefab Test</description>
         <thingClass>Building</thingClass>
         <graphicData>
             <texPath>MinerT2</texPath>
@@ -86,10 +92,16 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <comps>
-            <li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-                <leveledPerfabPaths>
-                    <li>Assets/SSR/Perfab/MinerT2.prefab</li>
-                </leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+                <leveledPrefabPaths>
+                    <li>Assets/SSR/Prefab/MinerT2.prefab</li>
+                </leveledPrefabPaths>
             </li>
         </comps>
     </ThingDef>
