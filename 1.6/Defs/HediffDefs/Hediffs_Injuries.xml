@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Injuries -->
+
+  <!--<HediffDef ParentName="InjuryBase">
+    <defName>Cut</defName>
+    <label>cut</label>
+    <labelNoun>a cut</labelNoun>
+    <description>A cut.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.15</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>cut scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Cut off</destroyedLabel>
+      <destroyedOutLabel>Cut out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>-->
+
+  <HediffDef ParentName="InjuryBase">
+    <defName>SSR_SignalInterceptImpact</defName>
+    <label>神经冲击伤</label>
+    <labelNoun>神经冲击伤</labelNoun>
+    <description>神经冲击伤遗留。</description>
+    <!--<comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+    </comps>-->
+    <injuryProps>
+      <painPerSeverity>0</painPerSeverity>
+      <averagePainPerSeverityPermanent>0</averagePainPerSeverityPermanent>
+      <bleedRate>0</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>坏死</destroyedLabel>
+      <destroyedOutLabel>坏死脱落</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>SSR_SignalIntercept</defName>
+    <label>控制信号阻断</label>
+    <description>控制信号阻断</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <makesSickThought>true</makesSickThought>
+    <minSeverity>1</minSeverity>
+    <initialSeverity>1</initialSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Manipulation</capacity>
+            <offset>-1000</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-1000</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500</disappearsAfterTicks> <!--3 hours-->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
+</Defs>

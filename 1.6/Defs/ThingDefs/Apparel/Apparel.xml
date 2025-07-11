@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>SSR_Apparel</defName>
+		<label>太阳系共和国服装</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<MVCF.ModDef>
+		<defName>SSR_Apparel_Def</defName>
+		<label>SSR Apparel</label>
+		<description>nothing here</description>
+		<ActivateFeatures>
+			<li>ApparelVerbs</li>
+			<li>IntegratedToggle</li>
+		</ActivateFeatures>
+	</MVCF.ModDef>
+
+	<ThingDef Name="SSR_ApparelCustomBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<SellPriceFactor>1</SellPriceFactor>
+		</statBases>
+		<thingCategories>
+			<li>SSR_Apparel</li>
+		</thingCategories>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>SSR_AutomaticSewingMachine</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="SSR_ApparelArmorBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>True</selectable>
+		<pathCost>14</pathCost>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<SellPriceFactor>1</SellPriceFactor>
+		</statBases>
+		<thingCategories>
+			<li>SSR_Apparel</li>
+		</thingCategories>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>SSR_NumericalControlledMachineTool</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>FS_SSR.TC_IgnorePathCost</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================================== Equipment =====================================-->
+
+	<ThingDef Name="SSR_UAVBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>True</selectable>
+		<pathCost>14</pathCost>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<SellPriceFactor>1</SellPriceFactor>
+		</statBases>
+		<thingCategories>
+			<li>SSR_Apparel</li>
+		</thingCategories>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>SSR_NumericalControlledMachineTool</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SSR_UAVBase">
+		<defName>SSR_EF_MedicaUAV</defName>
+		<label>医疗无人机</label>
+		<description>医疗无人机</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>0</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>SSRBasicMedicine</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 治疗速度 -->
+			<MedicalTendSpeed>0.25</MedicalTendSpeed>
+			<!-- 治疗质量 -->
+			<MedicalTendQuality>0.25</MedicalTendQuality>
+			<!-- 手术速度 -->
+			<MedicalOperationSpeed>0.25</MedicalOperationSpeed>
+			<!-- 手术成功率 -->
+			<MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="FS_SSR.TCP_FloatingDrone_Sin">
+				<wornGraphics>
+					<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
+					<graphicClass>Graphic_multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<drawOffset>(0, 0, 0)</drawOffset>
+				</wornGraphics>
+				<speedZ>0.0002</speedZ>
+				<distanceZ>0.03</distanceZ>
+				<cycleX>0.0002</cycleX>
+				<distanceX>0.03</distanceX>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_UAVBase">
+		<defName>SSR_EF_MiningUAV</defName>
+		<label>采矿无人机</label>
+		<description>采矿无人机</description>
+		<graphicData>
+			<texPath>Things/Apparel/EF_MiningUAV/EF_MiningUAV</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>0</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>SSRBasicComputationalScience</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<!-- 采矿速度 -->
+			<MiningSpeed>0.3</MiningSpeed>
+			<!-- 采矿效率 -->
+			<MiningYield>0.2</MiningYield>
+			<!-- 深钻井操作速度 -->
+			<DeepDrillingSpeed>0.05</DeepDrillingSpeed>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="FS_SSR.TCP_FloatingDrone_Sin">
+				<wornGraphics>
+					<texPath>Things/Apparel/EF_MiningUAV/EF_MiningUAV</texPath>
+					<graphicClass>Graphic_multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<drawOffset>(0, 0, 0)</drawOffset>
+				</wornGraphics>
+				<speedZ>0.0002</speedZ>
+				<distanceZ>0.03</distanceZ>
+				<cycleX>0.0002</cycleX>
+				<distanceX>0.03</distanceX>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

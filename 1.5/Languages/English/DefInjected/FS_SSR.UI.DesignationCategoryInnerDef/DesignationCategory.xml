@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 家具 -->
+  <SSR_DesignationInnerCategory_Furniture.label>TODO</SSR_DesignationInnerCategory_Furniture.label>
+  <!-- EN: 家具 -->
+  <SSR_DesignationInnerCategory_Furniture.description>TODO</SSR_DesignationInnerCategory_Furniture.description>
+  
+  <!-- EN: 杂项 -->
+  <SSR_DesignationInnerCategory_Misc.label>TODO</SSR_DesignationInnerCategory_Misc.label>
+  <!-- EN: 杂项 -->
+  <SSR_DesignationInnerCategory_Misc.description>TODO</SSR_DesignationInnerCategory_Misc.description>
+  
+  <!-- EN: 电力 -->
+  <SSR_DesignationInnerCategory_Power.label>TODO</SSR_DesignationInnerCategory_Power.label>
+  <!-- EN: 电力 -->
+  <SSR_DesignationInnerCategory_Power.description>TODO</SSR_DesignationInnerCategory_Power.description>
+  
+  <!-- EN: 生产 -->
+  <SSR_DesignationInnerCategory_Production.label>TODO</SSR_DesignationInnerCategory_Production.label>
+  <!-- EN: 生产 -->
+  <SSR_DesignationInnerCategory_Production.description>TODO</SSR_DesignationInnerCategory_Production.description>
+  
+  <!-- EN: 科研 -->
+  <SSR_DesignationInnerCategory_Research.label>TODO</SSR_DesignationInnerCategory_Research.label>
+  <!-- EN: 科研 -->
+  <SSR_DesignationInnerCategory_Research.description>TODO</SSR_DesignationInnerCategory_Research.description>
+  
+</LanguageData>

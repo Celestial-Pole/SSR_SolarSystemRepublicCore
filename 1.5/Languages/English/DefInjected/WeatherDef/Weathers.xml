@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 酸雨 -->
+  <SSR_Weather_AcidRain.label>TODO</SSR_Weather_AcidRain.label>
+  <!-- EN: 有毒垃圾燃烧造成空气污染导致的自然灾害，会对在户外的生物与物品造成持续性的酸蚀伤害。 -->
+  <SSR_Weather_AcidRain.description>TODO</SSR_Weather_AcidRain.description>
+  
+</LanguageData>
