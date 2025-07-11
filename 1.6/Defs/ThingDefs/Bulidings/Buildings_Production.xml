@@ -2267,6 +2267,7 @@
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<costPerLayer>
 			<materials>

@@ -1130,6 +1130,7 @@
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSR_Research_Medium-levelPowerTechnology</li>
