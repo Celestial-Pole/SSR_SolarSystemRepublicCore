@@ -2182,9 +2182,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_StandardConstructionElement>500</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>200</SSR_SpecialSteel>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
+			<SSR_SpecialSteel>100</SSR_SpecialSteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
