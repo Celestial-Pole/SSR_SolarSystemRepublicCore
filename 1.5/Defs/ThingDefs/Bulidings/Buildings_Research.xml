@@ -297,7 +297,7 @@
 					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(3,3)</drawSize>
-					<drawOffset>(0,0,1.09)</drawOffset>
+					<drawOffset>(0,0,0.59)</drawOffset>
 					<!-- <shadowData>
 						<volume>(0.6, 1.0, 1.6)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
