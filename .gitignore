@@ -11,3 +11,4 @@
 **/log/
 # **/*_UnitTest/
 *.pdb
+*.log

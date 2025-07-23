@@ -1,16 +1,16 @@
-﻿Shader "Unlit/CutOut"
+﻿Shader "Unlit/DepthMaskNormal"
 {
     Properties
     {
-        _OutlineWidth ("Outline Width", Float) = 0.015625
-        _MainTex ("Texture", 2D) = "white" {}
-        _DepthTex ("Depth Texture", 2D) = "gray" {}
+        _MainTex ("Texture", 2D) = "gray" {}
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "Queue"="Transparent-100"}
+        Tags { "RenderType"="Opaque" "Queue"="Transparent-99"}
         LOD 100
-        Cull Off
+        Blend Zero One
+        ZTest LEqual
+
         Pass
         {
             CGPROGRAM
@@ -29,16 +29,13 @@
             struct v2f
             {
                 float2 uv : TEXCOORD0;
-                float2 uvDepth : TEXCOORD1;
-                float4 model : TEXCOORD2;
+                float4 model : TEXCOORD1;
                 float4 vertex : SV_POSITION;
-                UNITY_VERTEX_INPUT_INSTANCE_ID
+                UNITY_VERTEX_INPUT_INSTANCE_ID 
             };
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            sampler2D _DepthTex;
-            float4 _DepthTex_ST;
 
 
             v2f vert (appdata v)
@@ -48,23 +45,21 @@
                 UNITY_TRANSFER_INSTANCE_ID(v, o);
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                o.uvDepth = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
                 return o;
             }
 
-            fixed4 frag (v2f i, out float depth : SV_DEPTH) : SV_Target
+            float4 frag (v2f i, out float depth : SV_DEPTH) : SV_Target
             {
                 // sample the texture
                 UNITY_SETUP_INSTANCE_ID(i);
                 float4 col = tex2D(_MainTex, i.uv);
-                if(col.a < 0.5) discard;
-                i.model.y -= tex2D(_DepthTex, i.uvDepth).x - 0.5;
+                if(col.w <= 0.0) discard;
+                i.model.y -= (col.x - 0.5) * col.w;
                 i.model = UnityObjectToClipPos(i.model);
                 depth = i.model.z / i.model.w;
-
                 // apply fog
-                return col;
+                return depth;
             }
             ENDCG
         }

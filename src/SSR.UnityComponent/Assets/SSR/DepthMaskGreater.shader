@@ -1,4 +1,4 @@
-﻿Shader "Unlit/DepthMask"
+﻿Shader "Unlit/DepthMaskGreater"
 {
     Properties
     {
