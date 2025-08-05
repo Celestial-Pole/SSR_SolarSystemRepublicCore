@@ -40,7 +40,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
-				<li>SSR_AutomaticSewingMachine</li>
+				<li>SSR_Production_AutomaticSewingMachine</li>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
@@ -464,7 +464,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
-				<li>SSR_AutomaticSewingMachine</li>
+				<li>SSR_Production_AutomaticSewingMachine</li>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_MaterialSynthesizer</defName>
+		<defName>SSR_Production_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
 		<description>材料合成机是一种先进的工业设备，能够通过精确控制化学反应和物理过程，制造出具有特定属性的复合材料。</description>
 		<graphicData>
@@ -566,7 +566,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_IntegratedChipManufacturingMachine</defName>
+		<defName>SSR_Production_IntegratedChipManufacturingMachine</defName>
 		<label>集成化芯片制造机</label>
 		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
 		<graphicData>
@@ -587,8 +587,6 @@
 			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -742,7 +740,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticSlaughterMachine</defName>
+		<defName>SSR_Production_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
 		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
 		<graphicData>
@@ -883,7 +881,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticSewingMachine</defName>
+		<defName>SSR_Production_AutomaticSewingMachine</defName>
 		<label>自动缝纫机</label>
 		<description>自动缝纫机是一种高效的缝纫设备，能够自动完成复杂的缝纫任务。它广泛应用于服装制造和纺织品生产。</description>
 		<graphicData>
@@ -1073,7 +1071,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticCookingMachine</defName>
+		<defName>SSR_Production_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<graphicData>
@@ -1232,7 +1230,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_VacuumInductionFurnace</defName>
+		<defName>SSR_Production_VacuumInductionFurnace</defName>
 		<label>真空感应炉</label>
 		<description>真空感应炉是一种在真空环境中熔化金属的设备，它通过感应加热原理工作，能够提供精确的温度控制和清洁的熔炼过程。</description>
 		<graphicData>
@@ -1393,7 +1391,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_MultifunctionalChemicalSynthesizer</defName>
+		<defName>SSR_Production_MultifunctionalChemicalSynthesizer</defName>
 		<label>多功能化学合成仪</label>
 		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
 		<graphicData>
@@ -1548,7 +1546,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_CoalLiquefactionMachine</defName>
+		<defName>SSR_Production_CoalLiquefactionMachine</defName>
 		<label>煤炭液化机</label>
 		<description>煤炭液化机用于将固态煤炭转化为液态燃料，这种转化过程通常涉及高温高压和催化剂，以改变煤炭的化学结构。</description>
 		<graphicData>
@@ -1594,14 +1592,61 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<productionFactorsUpgraded>
+					<li>1</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Carbyne</item>
+									<amount>60</amount>
+								</li>
+								<li>
+									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<amount>120</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>7</amount>
+								</li>
+								<li>
+									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/CoalLiquefactionMachine/T2CoalLiquefactionMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>SSR_Research_CoalLiquefactionTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentRepairStation</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_EquipmentRepairStation</defName>
 		<label>装备维修台</label>
 		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
 		<thingClass>Building</thingClass>
@@ -1621,10 +1666,7 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1679,15 +1721,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentPreparationStation</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_EquipmentPreparationStation</defName>
 		<label>装备整备台</label>
 		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
 		<thingClass>Building</thingClass>
@@ -1707,10 +1744,7 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1766,15 +1800,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_EncryptionSystemCracking</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_FMIAExtractStationGE</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_FMIAExtractStationGE</defName>
 		<label>地热聚变材料提取站</label>
 		<description>地热聚变材料提取站是一种先进的设施，专门设计用于从地热资源中提取聚变反应所需的材料。</description>
 		<thingClass>Building</thingClass>
@@ -1842,7 +1871,6 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2110</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
@@ -1857,11 +1885,6 @@
 		<researchPrerequisites>
 			<li>SSR_Research_ControlledNuclearFusion</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!--<ThingDef ParentName="BuildingBase">
@@ -1931,8 +1954,7 @@
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded />-->
 	<!-- handled by the placeworker -->
-	<!--<designationCategory>SSR_DesignationCategory</designationCategory>
-		<uiOrder>2100</uiOrder>
+		<!--<uiOrder>2100</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_WatermillGenerator</li>
 		</placeWorkers>
@@ -1944,8 +1966,8 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>-->
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_NeutroamineSynthesizer</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_NeutroamineSynthesizer</defName>
 		<label>中性胺合成仪</label>
 		<description>中性胺合成仪是一种专用化学设备，用于批量合成中性胺。</description>
 		<thingClass>Building</thingClass>
@@ -1967,9 +1989,7 @@
 		</costList>
 		<uiIconScale>0.65</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<rotatable>true</rotatable>
-		<fillPercent>0.5</fillPercent>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
@@ -1979,7 +1999,6 @@
 			<Mass>30</Mass>
 			<WorkToBuild>3600</WorkToBuild>
 		</statBases>
-		<pathCost>42</pathCost>
 		<receivesSignals>true</receivesSignals>
 		<blockWind>true</blockWind>
 		<tickerType>Normal</tickerType>
@@ -2007,15 +2026,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicMedicine</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_TeleportationBeacon</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_TeleportationBeacon</defName>
 		<label>传送信标</label>
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
 		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
@@ -2029,8 +2043,6 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -2066,15 +2078,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicSpaceApplication</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_AutomaticDeepDrill</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_AutomaticDeepDrill</defName>
 		<label>自动深钻井</label>
 		<description>自动深钻井</description>
 		<tickerType>Normal</tickerType>
@@ -2091,12 +2098,9 @@
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<fillPercent>0.5</fillPercent>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<specialDisplayRadius>2.6</specialDisplayRadius>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -2141,16 +2145,12 @@
 			<li Class="CompProperties_CreatesInfestations" />
 		</comps>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
-		<defName>SSR_Mine</defName>
+	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_Mine</defName>
 		<label>标准化垂直矿井</label>
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
 		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
@@ -2170,7 +2170,6 @@
 		<passability>Impassable</passability>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0</staticSunShadowHeight> 
@@ -2558,16 +2557,11 @@
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	
 	
-		<ThingDef ParentName="BuildingBase">
-		<defName>SSR_AutoResourceCollector</defName>
+		<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_AutoResourceCollector</defName>
 		<label>自动资源收集装置</label>
 		<description>自动资源收集装置</description>
 		<tickerType>Normal</tickerType>
@@ -2584,12 +2578,9 @@
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<fillPercent>0.5</fillPercent>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -2640,13 +2631,49 @@
 			<li Class="CompProperties_CreatesInfestations" />
 		</comps>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_CentralStorageUnit</defName>
+		<label>中央仓储单元</label>
+		<description>中央仓储单元。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/CentralStorageUnit/CentralStorageUnit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<thingClass>Building</thingClass>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>true</canOverlapZones>
+		<size>(3,3)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<comps>
+			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor"></li>
+		</comps>
+	</ThingDef>
 
 </Defs>

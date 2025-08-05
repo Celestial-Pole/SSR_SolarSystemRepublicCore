@@ -3,7 +3,7 @@
 
 
 	<ThingDef ParentName="SSR_BuildingBase_Furniture">
-		<defName>SSR_WashingMachine</defName>
+		<defName>SSR_Furniture_WashingMachine</defName>
 		<label>洗衣机</label>
 		<description>一台可以洗去死者衣物标记的洗衣机。</description>
 		<thingClass>Building</thingClass>
