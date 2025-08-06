@@ -2636,14 +2636,14 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_CentralStorageUnit</defName>
-		<label>中央仓储单元</label>
-		<description>中央仓储单元。</description>
+		<defName>SSR_Production_RemoteAccessTerminal</defName>
+		<label>远程存取终端</label>
+		<description>远程存取终端。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Things/Building/Production/CentralStorageUnit/CentralStorageUnit</texPath>
+			<texPath>Things/Building/Production/RemoteAccessTerminal/RemoteAccessTerminal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,3)</drawSize>
+			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
@@ -2660,7 +2660,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>true</canOverlapZones>
-		<size>(3,3)</size>
+		<size>(1,1)</size>
 		<building>
 			<isEdifice>false</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
