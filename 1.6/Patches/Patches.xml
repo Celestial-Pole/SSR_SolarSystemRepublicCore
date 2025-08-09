@@ -69,4 +69,33 @@
 		</value>
 	</Operation>
 
+	<!-- 目标：WaterShallowBase 地形 -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>Defs/TerrainDef[@Name="WaterShallowBase"]/affordances</xpath>
+	<value>
+		<li>SSR_TerrainAfforance_WaterCompatible</li>
+	</value>
+	</Operation>
+  
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="WaterOceanDeep"]</xpath>
+    <value>
+      <affordances>
+        <li>SSR_TerrainAfforance_WaterCompatible</li>
+      </affordances>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Sand"]</xpath>
+    <value>
+      <affordances>
+        <li>SSR_TerrainAffordance_SandCompatible</li>
+      </affordances>
+    </value>
+  </Operation>
+
+
+
 </Patch>

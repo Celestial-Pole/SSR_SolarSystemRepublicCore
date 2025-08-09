@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainAffordanceDef>
+    <defName>SSR_TerrainAfforance_WaterCompatible</defName>
+    <label>全水域地形</label>
+    <order>4200</order>
+    <visualizeOnAffordanceOverlay>true</visualizeOnAffordanceOverlay>
+    <affordanceOverlayColor>(0,0,100)</affordanceOverlayColor>
+  </TerrainAffordanceDef>
+
+  <TerrainAffordanceDef>
+    <defName>SSR_TerrainAffordance_SandCompatible</defName>
+    <label>全沙域地形</label>
+    <order>4200</order>
+    <visualizeOnAffordanceOverlay>true</visualizeOnAffordanceOverlay>
+    <affordanceOverlayColor>(0,0,100)</affordanceOverlayColor>
+  </TerrainAffordanceDef>
+</Defs>
