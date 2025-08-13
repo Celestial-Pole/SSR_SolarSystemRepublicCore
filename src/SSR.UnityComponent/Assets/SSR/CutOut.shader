@@ -5,6 +5,7 @@
         _OutlineWidth ("Outline Width", Float) = 0.015625
         _MainTex ("Texture", 2D) = "white" {}
         _DepthTex ("Depth Texture", 2D) = "gray" {}
+        _LightInModedlSpace ("Light In Model Space", Vector) = (0,0,0,0) 
     }
     SubShader
     {
@@ -23,6 +24,7 @@
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
+                float3 normal : NORMAL;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
@@ -31,6 +33,7 @@
                 float2 uv : TEXCOORD0;
                 float2 uvDepth : TEXCOORD1;
                 float4 model : TEXCOORD2;
+                float3 normal : TEXCOORD3;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -39,6 +42,20 @@
             float4 _MainTex_ST;
             sampler2D _DepthTex;
             float4 _DepthTex_ST;
+            float3 _LightInModedlSpace;
+
+            float Rel2AnimShadow(float rel)
+            {
+                rel = clamp(rel, 0.0, 1.0);
+                return ceil(rel * 1.5) * 0.25 + 0.5;
+            }
+
+            float3 LightInModedlSpace()
+            {
+                float l = length(_LightInModedlSpace);
+                if(l < 0.001) return float3(0,0,1);
+                else return _LightInModedlSpace / l;
+            }
 
 
             v2f vert (appdata v)
@@ -50,6 +67,10 @@
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.uvDepth = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
+                float l = length(v.normal);
+                if(l < 0.001) v.normal = LightInModedlSpace();
+                else v.normal /= l;
+                o.normal = v.normal;
                 return o;
             }
 
@@ -63,8 +84,9 @@
                 i.model = UnityObjectToClipPos(i.model);
                 depth = i.model.z / i.model.w;
 
+                float4 outColor = float4(col.rgb * Rel2AnimShadow(dot(i.normal, LightInModedlSpace())), col.a);
                 // apply fog
-                return col;
+                return outColor;
             }
             ENDCG
         }

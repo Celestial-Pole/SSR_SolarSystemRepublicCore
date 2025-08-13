@@ -4,6 +4,7 @@
     {
         _OutlineWidth ("Outline Width", Float) = 0.015625
         _Color ("Color", Color) = (1,1,1,1) 
+        _LightInModedlSpace ("Light In Model Space", Vector) = (0,0,0,0) 
     }
     SubShader
     {
@@ -39,11 +40,19 @@
             float4 _Color;
             sampler2D _DepthTex;
             float4 _DepthTex_ST;
+            float3 _LightInModedlSpace;
 
             float Rel2AnimShadow(float rel)
             {
                 rel = clamp(rel, 0.0, 1.0);
-                return round(rel * 1.8) * 0.3333 + 0.3333;
+                return ceil(rel * 1.5) * 0.25 + 0.5;
+            }
+
+            float3 LightInModedlSpace()
+            {
+                float l = length(_LightInModedlSpace);
+                if(l < 0.001) return float3(0,0,1);
+                else return _LightInModedlSpace / l;
             }
 
 
@@ -56,9 +65,9 @@
                 o.uv = TRANSFORM_TEX(v.uv, _DepthTex);
                 o.model = v.vertex;
                 float l = length(v.normal);
-                if(l < 0.001) v.normal = float3(0,1,0);
+                if(l < 0.001) v.normal = LightInModedlSpace();
                 else v.normal /= l;
-                o.normal = UnityObjectToWorldNormal(v.normal);
+                o.normal = v.normal;
                 return o;
             }
 
@@ -70,8 +79,9 @@
                 i.model = UnityObjectToClipPos(i.model);
                 depth = i.model.z / i.model.w;
 
+                float4 outColor = float4(_Color.rgb * Rel2AnimShadow(dot(i.normal, LightInModedlSpace())), _Color.a);
                 // apply fog
-                return _Color * Rel2AnimShadow(dot(i.normal, float3(0,1,1)) / 1.4142135623730950488016887242097);
+                return outColor;
             }
             ENDCG
         }
