@@ -163,4 +163,6 @@
 	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
 	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
 
+	<!-- 自动深钻井 -->
+	<DrillProgress>开采进度: {2}%</DrillProgress>
 </LanguageData>
