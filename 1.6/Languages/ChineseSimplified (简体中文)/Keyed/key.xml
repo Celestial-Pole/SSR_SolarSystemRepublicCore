@@ -96,6 +96,9 @@
 	<!-- icmr -->
 	<SSR_ICMR>{0} 号请求材料:</SSR_ICMR>
 
+	<!-- 自动深钻井 -->
+	<DrillProgress>开采进度: {2}%</DrillProgress>
+
 	<!-- 标准化垂直矿井 -->
 	<SSR_打开矿井UI>标准化垂直矿井UI</SSR_打开矿井UI>
 	<SSR_打开矿井UIDesc>打开/关闭标准化垂直矿井UI</SSR_打开矿井UIDesc>
