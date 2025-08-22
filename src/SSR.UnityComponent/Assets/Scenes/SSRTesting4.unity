@@ -122,6 +122,210 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &400118313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2836313993813940965, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterDiggerNorth
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231134847566196315, guid: 3ceaa145405d560439e1b69762ba376a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ceaa145405d560439e1b69762ba376a, type: 3}
+--- !u!1001 &413814904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365191387312276427, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035772803754490085, guid: 432a6176cec810044b0fd4a49752e100,
+        type: 3}
+      propertyPath: m_Name
+      value: LandDiggerEast
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 432a6176cec810044b0fd4a49752e100, type: 3}
+--- !u!1001 &542364535
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656217121257163870, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465127545714808156, guid: 49c623dc621c16e46941ee19e59d6363,
+        type: 3}
+      propertyPath: m_Name
+      value: LandDiggerSouth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49c623dc621c16e46941ee19e59d6363, type: 3}
 --- !u!1 &547425268
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +388,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -236,6 +440,74 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &916718094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048606488915171643, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604342898272161962, guid: c0a93a7e9ab23c64298bca6ca69c2512,
+        type: 3}
+      propertyPath: m_Name
+      value: LandDiggerWest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0a93a7e9ab23c64298bca6ca69c2512, type: 3}
 --- !u!1 &1555755369
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1555755370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -342,6 +614,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1572532342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811463334078588312, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400645081061509931, guid: 5a8b89b2bfcff564aa08883055a3dc87,
+        type: 3}
+      propertyPath: m_Name
+      value: LandDiggerNorth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a8b89b2bfcff564aa08883055a3dc87, type: 3}
 --- !u!1 &1635775238
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +776,210 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1093218787688056843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806725873599102091, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284643918799714838, guid: 54b99e200e19a4f4d9076e60b009e175,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterDiggerSouth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54b99e200e19a4f4d9076e60b009e175, type: 3}
+--- !u!1001 &2779327462827535242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101408895266134294, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286549430810293241, guid: 7f5f7e797e1fd934b8f8606f447c7b95,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterDiggerWest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f5f7e797e1fd934b8f8606f447c7b95, type: 3}
+--- !u!1001 &9050340979257408665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2319166130030331428, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterDiggerEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941037658178810319, guid: 1dc9bbe3964452e459733cab533c3b6c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1dc9bbe3964452e459733cab533c3b6c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -443,3 +987,11 @@ SceneRoots:
   - {fileID: 547425271}
   - {fileID: 1635775240}
   - {fileID: 1555755373}
+  - {fileID: 400118313}
+  - {fileID: 1093218787688056843}
+  - {fileID: 1572532342}
+  - {fileID: 542364535}
+  - {fileID: 2779327462827535242}
+  - {fileID: 9050340979257408665}
+  - {fileID: 916718094}
+  - {fileID: 413814904}
