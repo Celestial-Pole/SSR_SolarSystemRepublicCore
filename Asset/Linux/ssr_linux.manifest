@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 664239416
+CRC: 3531110844
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: faa11e980c5ff0765fce22f0c627b227
+    Hash: fd3f4bebd0506baba562decf1b5b60b4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0b72813a9634c174004524115da593d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: faa11e980c5ff0765fce22f0c627b227
+    Hash: fd3f4bebd0506baba562decf1b5b60b4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -59,7 +59,6 @@ Assets:
 - Assets/SSR/Material/Digger/Water/South/Fundation.mat
 - Assets/SSR/Material/Digger/Land/South/UpBuilding.mat
 - Assets/SSR/Material/MinerT2/DoorParts/Door5.mat
-- Assets/SSR/Material/MinerT1/MaskFinal.mat
 - Assets/SSR/Material/Digger/Dirt.mat
 - Assets/SSR/Texture/RocketMK1/HookTop.png
 - Assets/SSR/Material/WindTurbineT1/PoleMain.mat
@@ -79,7 +78,6 @@ Assets:
 - Assets/SSR/Material/ThermalPower/Foundation.mat
 - Assets/SSR/Texture/LandDigger/South/UpBuilding.png
 - Assets/SSR/Material/WindTurbineT1/WireframeIn.mat
-- Assets/SSR/Texture/MinerT1/DepthMask.png
 - Assets/SSR/Material/MinerT2/DoorParts/Door2.mat
 - Assets/SSR/Texture/MinerT1/DoorParts/Door5.png
 - Assets/SSR/Material/Digger/Water/East/Fundation.mat
@@ -130,12 +128,10 @@ Assets:
 - Assets/SSR/Material/MinerT1/DoorParts/Door0.mat
 - Assets/SSR/Texture/WaterDigger/South/UpBuilding.png
 - Assets/SSR/Animate/LandDigger/LandDigger.controller
-- Assets/SSR/Texture/MinerT3/MaskFinal.png
 - Assets/SSR/Texture/ThermalPower/Foundation.png
 - Assets/SSR/Material/MinerT1/LifterPartC.mat
 - Assets/SSR/Texture/MinerT2/Cover.png
 - Assets/SSR/Texture/MinerT1/DoorParts/Door0.png
-- Assets/SSR/Material/Empty.mat
 - Assets/SSR/Material/MinerT1/Cover.mat
 - Assets/SSR/Texture/MinerT2/DoorParts/Door1.png
 - Assets/SSR/CutOut.shader
@@ -153,7 +149,6 @@ Assets:
 - Assets/SSR/Material/MinerT1/DoorParts/Door4.mat
 - Assets/SSR/Prefab/RocketMK1.prefab
 - Assets/SSR/Animate/MinerT2/AnimateController.controller
-- Assets/SSR/Material/EmptyMask.mat
 - Assets/SSR/Animate/WaterDigger/WaterDigger.controller
 - Assets/SSR/Prefab/WaterDiggerNorth.prefab
 - Assets/SSR/Material/RocketMK1/Cover.mat
@@ -163,6 +158,7 @@ Assets:
 - Assets/SSR/Material/WindTurbineT1/PoleSide.mat
 - Assets/SSR/Texture/MinerT2/DoorParts/Door0.png
 - Assets/SSR/Texture/RocketMK1/MaskFinal.png
+- Assets/SSR/Material/WindTurbineT1/FinalMask.mat
 - Assets/SSR/Material/RocketMK1/DepthWriter.mat
 - Assets/SSR/Material/Digger/Land/North/Fundation.mat
 - Assets/SSR/Prefab/WaterDiggerEast.prefab
@@ -177,6 +173,7 @@ Assets:
 - Assets/SSR/Animate/MinerT3/BlackHoleClose.anim
 - Assets/SSR/Material/RocketMK1/Smoke.mat
 - Assets/SSR/Prefab/LandDiggerEast.prefab
+- Assets/SSR/Material/ForceDepth.mat
 - Assets/SSR/Material/RocketMK1/HookBottom.mat
 - Assets/SSR/Texture/WaterDigger/South/Fundation.png
 - Assets/SSR/Animate/MinerT3/BlackHoleOpen.anim
@@ -238,7 +235,6 @@ Assets:
 - Assets/SSR/Animate/MinerT1/Idle.anim
 - Assets/SSR/Material/Digger/Land/East/UpBuilding.mat
 - Assets/SSR/Material/MinerT1/LifterPartB.mat
-- Assets/SSR/Material/MinerT2/MaskFinal.mat
 - Assets/SSR/Fade.shader
 - Assets/SSR/Material/Digger/Rail.mat
 - Assets/SSR/Texture/RocketMK1/Rocket.png
@@ -260,7 +256,6 @@ Assets:
 - Assets/SSR/Texture/WindTurbineT2/Foundation.png
 - Assets/SSR/DepthMaskForce.shader
 - Assets/SSR/Material/WindTurbineT1/Foundation.mat
-- Assets/SSR/Texture/MinerT2/DepthMask.png
 - Assets/SSR/Prefab/LandDiggerSouth.prefab
 - Assets/SSR/Texture/MinerT1/Foundation.png
 - Assets/SSR/DepthMaskGreater.shader
