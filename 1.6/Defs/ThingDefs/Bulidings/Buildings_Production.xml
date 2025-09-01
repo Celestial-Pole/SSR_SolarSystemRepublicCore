@@ -1105,20 +1105,20 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>CookMealSimple</li>
-			<li>CookMealFine</li>
-			<li>CookMealFine_Veg</li>
-			<li>CookMealFine_Meat</li>
-			<li>CookMealLavish</li>
-			<li>CookMealLavish_Veg</li>
-			<li>CookMealLavish_Meat</li>
-			<li>CookMealSurvival</li>
 			<li>CookMealSimpleBulk</li>
+			<li>CookMealFine</li>
 			<li>CookMealFineBulk</li>
+			<li>CookMealFine_Veg</li>
 			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFine_Meat</li>
 			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavish</li>
 			<li>CookMealLavishBulk</li>
+			<li>CookMealLavish_Veg</li>
 			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavish_Meat</li>
 			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvival</li>
 			<li>CookMealSurvivalBulk</li>
 			<li>Make_Pemmican</li>
 			<li>Make_PemmicanBulk</li>
@@ -1425,20 +1425,20 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_GoJuice</li>
-			<li>Make_Penoxycyline</li>
-			<li>Make_Flake</li>
-			<li>Make_Yayo</li>
-			<li>Make_SmokeleafJoint</li>
-			<li>Make_WakeUp</li>
-			<li>Make_MedicineIndustrial</li>
-			<li>Make_PsychiteTea</li>
 			<li>Make_GoJuiceBulk</li>
+			<li>Make_Penoxycyline</li>
 			<li>Make_PenoxycylineBulk</li>
+			<li>Make_Flake</li>
 			<li>Make_FlakeBulk</li>
+			<li>Make_Yayo</li>
 			<li>Make_YayoBulk</li>
+			<li>Make_SmokeleafJoint</li>
 			<li>Make_SmokeleafJointBulk</li>
+			<li>Make_WakeUp</li>
 			<li>Make_WakeUpBulk</li>
+			<li>Make_MedicineIndustrial</li>
 			<li>Make_MedicineIndustrialBulk</li>
+			<li>Make_PsychiteTea</li>
 			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
 		<comps>
