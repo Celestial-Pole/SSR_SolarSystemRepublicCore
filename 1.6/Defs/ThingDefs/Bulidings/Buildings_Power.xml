@@ -159,7 +159,7 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlantSteam</compClass>
+				<compClass>CompPowerPlant</compClass>
 				<basePowerConsumption>-900</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
