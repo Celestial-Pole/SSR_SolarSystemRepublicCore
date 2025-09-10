@@ -1320,7 +1320,10 @@
 			<li>BurnApparel</li>
 			<li>BurnWeapon</li>
 			<li>BurnDrugs</li>
-			
+			<!-- 精炼设备 -->
+			<li>Make_ChemfuelFromWood</li>
+			<li>Make_ChemfuelFromOrganics</li>
+
 			<li>SSR_Recipe_Glass</li>
 			<li>SSR_Recipe_TenGlass</li>
 			<li>SSR_Recipe_HundredGlass</li>
@@ -2213,9 +2216,9 @@
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<staticSunShadowHeight>0</staticSunShadowHeight> 
+		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
-        <drawerType>RealtimeOnly</drawerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
@@ -2290,14 +2293,14 @@
 						</value>
 					</li>
 				</levels>
-			</li>  
+			</li>
 			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-                <leveledPerfabPaths>
-                    <li>Assets/SSR/Perfab/MinerT1.prefab</li>
-                    <li>Assets/SSR/Perfab/MinerT2.prefab</li>
-                    <li>Assets/SSR/Perfab/MinerT3.prefab</li>
-                </leveledPerfabPaths>
-            </li>
+				<leveledPerfabPaths>
+					<li>Assets/SSR/Perfab/MinerT1.prefab</li>
+					<li>Assets/SSR/Perfab/MinerT2.prefab</li>
+					<li>Assets/SSR/Perfab/MinerT3.prefab</li>
+				</leveledPerfabPaths>
+			</li>
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
@@ -2597,9 +2600,9 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
-	
-		<ThingDef ParentName="BuildingBase">
+
+
+	<ThingDef ParentName="BuildingBase">
 		<defName>SSR_AutoResourceCollector</defName>
 		<label>自动资源收集装置</label>
 		<description>自动资源收集装置</description>
@@ -2638,12 +2641,12 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<!-- <placeWorkers>  条件-->
-			<!-- <li>PlaceWorker_DeepDrill</li> -->
-			<!-- <li>PlaceWorker_PreventInteractionSpotOverlap</li> -->
-    	<!-- </placeWorkers> -->
-    	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<!-- <li>PlaceWorker_DeepDrill</li> -->
+		<!-- <li>PlaceWorker_PreventInteractionSpotOverlap</li> -->
+		<!-- </placeWorkers> -->
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<!-- <researchPrerequisites>  科技依赖 -->
-			<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
+		<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
 		<!-- </researchPrerequisites> -->
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -2665,8 +2668,8 @@
 				</radius>
 				<innateProducts>
 					<li>
-						<item>Steel</item> 
-						<amount>1</amount>         
+						<item>Steel</item>
+						<amount>1</amount>
 					</li>
 				</innateProducts>
 			</li>

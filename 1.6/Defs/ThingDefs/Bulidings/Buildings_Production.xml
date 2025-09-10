@@ -40,6 +40,7 @@
 			<li>Make_StoneBlocksLimestone</li>
 			<li>Make_StoneBlocksSlate</li>
 			<li>Make_StoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
 			<li>SSR_Recipe_Sand</li>
 			<li>SSR_Recipe_TenSand</li>
 			<li>SSR_Recipe_HundredSand</li>
@@ -299,6 +300,8 @@
 			<li>SSR_Recipe_ReinforcedBarrel</li>
 			<li>SSR_Recipe_FiveReinforcedBarrel</li>
 			<li>SSR_Recipe_TenReinforcedBarrel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_GravlitePanel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_FourGravlitePanel</li>
 			<!-- 弹药 -->
 			<li>SSR_Recipe_Shell_HighExplosive</li>
 			<li>SSR_Recipe_Shell_Incendiary</li>
@@ -324,6 +327,8 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_HellcatRifle</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_Incinerator</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_NerveSpiker</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Gun_BeamRepeater</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">SSR_Recipe_Gun_BeamGraser</li>
 			<!-- 武器/发射器 -->
 			<li>SSR_Recipe_Gun_IncendiaryLauncher</li>
 			<li>SSR_Recipe_Gun_EmpLauncher</li>
@@ -444,6 +449,13 @@
 			<!-- 物品/特殊 -->
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_ShardAnimalPulser</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
+			<!-- 其他 -->
+			<li>SSR_Recipe_SculptureSmall</li>
+			<li>SSR_Recipe_SculptureLarge</li>
+			<li>SSR_Recipe_SculptureGrand</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SSR_Recipe_SculptureTerror</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_VoidSculpture</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Statue</li>
 		</recipes>
 		<comps>
 			<li Class="FS_SSR.TCP_PowerCostByLevel">
@@ -1424,6 +1436,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>Make_Wort</li>
 			<li>Make_GoJuice</li>
 			<li>Make_GoJuiceBulk</li>
 			<li>Make_Penoxycyline</li>
