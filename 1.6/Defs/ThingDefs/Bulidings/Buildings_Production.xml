@@ -2597,7 +2597,7 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<rotatable>true</rotatable>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    	<terrainAffordanceNeeded>SSR_TerrainAffordance_SandCompatible</terrainAffordanceNeeded>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>1800</uninstallWork>
@@ -2723,7 +2723,6 @@
         </innateProducts>
         <validTerrainsList>
           <li>Sand</li>
-          <li>WaterDeepBase</li>
           <li>WaterOceanDeep</li>
         </validTerrainsList>
       </li>
