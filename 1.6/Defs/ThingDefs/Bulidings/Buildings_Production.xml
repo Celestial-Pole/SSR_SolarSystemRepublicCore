@@ -2591,7 +2591,7 @@
 				<offset>(0,0,-0.43)</offset>
 			</shadowData>
 		</graphicData>
-		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_east</uiIconPath>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_UI</uiIconPath>
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -2671,7 +2671,7 @@
 				<offset>(0,0,-0.43)</offset>
 			</shadowData>
 		</graphicData>
-		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger_east</uiIconPath>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger_UI</uiIconPath>
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
