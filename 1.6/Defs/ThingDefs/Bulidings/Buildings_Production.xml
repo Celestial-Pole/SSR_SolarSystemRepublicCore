@@ -2599,7 +2599,7 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<rotatable>true</rotatable>
-		<terrainAffordanceNeeded>SSR_TerrainAffordance_SandCompatible</terrainAffordanceNeeded>
+    		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>1800</uninstallWork>
@@ -2626,6 +2626,7 @@
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
+		<specialDisplayRadius>10.0</specialDisplayRadius>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -2636,7 +2637,7 @@
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<radius>
 					<x>10</x>
-					<y>5</y>
+					<y>10</y>
 				</radius>
 				<innateProducts>
 					<li>
@@ -2706,6 +2707,7 @@
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
+		<specialDisplayRadius>10.0</specialDisplayRadius>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -2716,7 +2718,7 @@
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<radius>
 					<x>10</x>
-					<y>5</y>
+          				<y>10</y>
 				</radius>
 				<innateProducts>
 					<li>
