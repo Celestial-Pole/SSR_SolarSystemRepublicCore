@@ -40,6 +40,7 @@
 			<li>Make_StoneBlocksLimestone</li>
 			<li>Make_StoneBlocksSlate</li>
 			<li>Make_StoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
 			<li>SSR_Recipe_Sand</li>
 			<li>SSR_Recipe_TenSand</li>
 			<li>SSR_Recipe_HundredSand</li>
@@ -299,6 +300,8 @@
 			<li>SSR_Recipe_ReinforcedBarrel</li>
 			<li>SSR_Recipe_FiveReinforcedBarrel</li>
 			<li>SSR_Recipe_TenReinforcedBarrel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_GravlitePanel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_FourGravlitePanel</li>
 			<!-- 弹药 -->
 			<li>SSR_Recipe_Shell_HighExplosive</li>
 			<li>SSR_Recipe_Shell_Incendiary</li>
@@ -324,6 +327,8 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_HellcatRifle</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_Incinerator</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_NerveSpiker</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Gun_BeamRepeater</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">SSR_Recipe_Gun_BeamGraser</li>
 			<!-- 武器/发射器 -->
 			<li>SSR_Recipe_Gun_IncendiaryLauncher</li>
 			<li>SSR_Recipe_Gun_EmpLauncher</li>
@@ -444,6 +449,13 @@
 			<!-- 物品/特殊 -->
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_ShardAnimalPulser</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
+			<!-- 其他 -->
+			<li>SSR_Recipe_SculptureSmall</li>
+			<li>SSR_Recipe_SculptureLarge</li>
+			<li>SSR_Recipe_SculptureGrand</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SSR_Recipe_SculptureTerror</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_VoidSculpture</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Statue</li>
 		</recipes>
 		<comps>
 			<li Class="FS_SSR.TCP_PowerCostByLevel">
@@ -1105,20 +1117,20 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>CookMealSimple</li>
-			<li>CookMealFine</li>
-			<li>CookMealFine_Veg</li>
-			<li>CookMealFine_Meat</li>
-			<li>CookMealLavish</li>
-			<li>CookMealLavish_Veg</li>
-			<li>CookMealLavish_Meat</li>
-			<li>CookMealSurvival</li>
 			<li>CookMealSimpleBulk</li>
+			<li>CookMealFine</li>
 			<li>CookMealFineBulk</li>
+			<li>CookMealFine_Veg</li>
 			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFine_Meat</li>
 			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavish</li>
 			<li>CookMealLavishBulk</li>
+			<li>CookMealLavish_Veg</li>
 			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavish_Meat</li>
 			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvival</li>
 			<li>CookMealSurvivalBulk</li>
 			<li>Make_Pemmican</li>
 			<li>Make_PemmicanBulk</li>
@@ -1275,7 +1287,7 @@
 			<li>BurnApparel</li>
 			<li>BurnWeapon</li>
 			<li>BurnDrugs</li>
-			
+
 			<li>SSR_Recipe_Glass</li>
 			<li>SSR_Recipe_TenGlass</li>
 			<li>SSR_Recipe_HundredGlass</li>
@@ -1424,21 +1436,22 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>Make_Wort</li>
 			<li>Make_GoJuice</li>
-			<li>Make_Penoxycyline</li>
-			<li>Make_Flake</li>
-			<li>Make_Yayo</li>
-			<li>Make_SmokeleafJoint</li>
-			<li>Make_WakeUp</li>
-			<li>Make_MedicineIndustrial</li>
-			<li>Make_PsychiteTea</li>
 			<li>Make_GoJuiceBulk</li>
+			<li>Make_Penoxycyline</li>
 			<li>Make_PenoxycylineBulk</li>
+			<li>Make_Flake</li>
 			<li>Make_FlakeBulk</li>
+			<li>Make_Yayo</li>
 			<li>Make_YayoBulk</li>
+			<li>Make_SmokeleafJoint</li>
 			<li>Make_SmokeleafJointBulk</li>
+			<li>Make_WakeUp</li>
 			<li>Make_WakeUpBulk</li>
+			<li>Make_MedicineIndustrial</li>
 			<li>Make_MedicineIndustrialBulk</li>
+			<li>Make_PsychiteTea</li>
 			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
 		<comps>
@@ -1698,7 +1711,8 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->			<!--单建筑多内容栏时需要-->
+			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->
+			<!--单建筑多内容栏时需要-->
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryRepair</compClass>
@@ -1954,7 +1968,7 @@
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded />-->
 	<!-- handled by the placeworker -->
-		<!--<uiOrder>2100</uiOrder>
+	<!--<uiOrder>2100</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_WatermillGenerator</li>
 		</placeWorkers>
@@ -2172,9 +2186,9 @@
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<staticSunShadowHeight>0</staticSunShadowHeight> 
+		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
-        <drawerType>RealtimeOnly</drawerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
@@ -2258,9 +2272,9 @@
 					<li>SSR_Animate_Prefab_Windows</li>
 				</assetDefs>
 				<leveledPrefabPaths>
-                    <li>Assets/SSR/Prefab/MinerT1.prefab</li>
-                    <li>Assets/SSR/Prefab/MinerT2.prefab</li>
-                    <li>Assets/SSR/Prefab/MinerT3.prefab</li>
+					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
+					<li>Assets/SSR/Prefab/MinerT2.prefab</li>
+					<li>Assets/SSR/Prefab/MinerT3.prefab</li>
 				</leveledPrefabPaths>
 			</li>
 		</comps>
@@ -2558,11 +2572,11 @@
 			</li>
 		</manualMineralProperties>
 	</ThingDef>
-	
-	
 
 
-  <ThingDef ParentName="SSR_BuildingBase_Production">
+
+
+	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Production_LandBasedExcavator</defName>
 		<label>陆用挖沙机</label>
 		<description>陆用挖沙机_建造在沙地上</description>
@@ -2570,21 +2584,22 @@
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,4)</drawSize>
+			<drawSize>(3,5)</drawSize>
 			<drawRotated>false</drawRotated>
 			<shadowData>
 				<volume>(0.52, 0.53, 0.09)</volume>
 				<offset>(0,0,-0.43)</offset>
 			</shadowData>
 		</graphicData>
-		<size>(3,4)</size>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_UI</uiIconPath>
+		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<rotatable>true</rotatable>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>1800</uninstallWork>
@@ -2597,13 +2612,13 @@
 			<Steel>100</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
-		 <placeWorkers>
-			 <li>PlaceWorker_DeepDrill</li> 
-			 <li>PlaceWorker_PreventInteractionSpotOverlap</li> 
-    	 </placeWorkers> 
-    	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<!-- <researchPrerequisites>  科技依赖 -->
-			<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
+		<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
 		<!-- </researchPrerequisites> -->
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -2611,6 +2626,7 @@
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
+		<specialDisplayRadius>10.0</specialDisplayRadius>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -2621,18 +2637,18 @@
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<radius>
 					<x>10</x>
-					<y>5</y>
+					<y>10</y>
 				</radius>
 				<innateProducts>
 					<li>
-						<item>Steel</item> 
-						<amount>1</amount>         
+						<item>Steel</item>
+						<amount>1</amount>
 					</li>
 				</innateProducts>
-        <validTerrainsList>
-          <li>Sand</li>
-          <li>SoftSand</li>
-        </validTerrainsList>
+				<validTerrainsList>
+					<li>Sand</li>
+					<li>SoftSand</li>
+				</validTerrainsList>
 			</li>
 			<li Class="CompProperties_CreatesInfestations" />
 		</comps>
@@ -2641,88 +2657,89 @@
 		</modExtensions>
 	</ThingDef>
 
-  <ThingDef ParentName="SSR_BuildingBase_Production">
-    <defName>SSR_Production_FloatingSandDredger</defName>
-    <label>水上平台挖沙机</label>
-    <description>水上平台挖沙机-建造在水上</description>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,4)</drawSize>
-      <drawRotated>false</drawRotated>
-      <shadowData>
-        <volume>(0.52, 0.53, 0.09)</volume>
-        <offset>(0,0,-0.43)</offset>
-      </shadowData>
-    </graphicData>
-    <size>(3,4)</size>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <rotatable>true</rotatable>
-    <terrainAffordanceNeeded>SSR_TerrainAfforance_WaterCompatible</terrainAffordanceNeeded>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <building>
-      <uninstallWork>1800</uninstallWork>
-      <buildingTags>
-        <li>Production</li>
-      </buildingTags>
-      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
-    </building>
-    <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <placeWorkers>
-      <li>PlaceWorker_DeepDrill</li>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <!-- <researchPrerequisites>  科技依赖 -->
-    <!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
-    <!-- </researchPrerequisites> -->
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <WorkToBuild>10000</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Mass>35</Mass>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
-      </li>
-      <li Class="FS_SSR.Production.TCP_AutoResourceCollector">
-        <radius>
-          <x>10</x>
-          <y>5</y>
-        </radius>
-        <innateProducts>
-          <li>
-            <item>Steel</item>
-            <amount>1</amount>
-          </li>
-        </innateProducts>
-        <validTerrainsList>
-          <li>Sand</li>
-          <li>WaterDeepBase</li>
-          <li>WaterOceanDeep</li>
-        </validTerrainsList>
-      </li>
-      <li Class="CompProperties_CreatesInfestations" />
-    </comps>
-    <modExtensions>
-      <li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
-    </modExtensions>
-  </ThingDef>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Production_FloatingSandDredger</defName>
+		<label>水上平台挖沙机</label>
+		<description>水上平台挖沙机-建造在水上</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger_UI</uiIconPath>
+		<size>(3,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>SSR_TerrainAfforance_WaterCompatible</terrainAffordanceNeeded>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<!-- <researchPrerequisites>  科技依赖 -->
+		<!-- <li>SSR_Research_VerticalDrillingTechnology</li> -->
+		<!-- </researchPrerequisites> -->
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>35</Mass>
+		</statBases>
+		<specialDisplayRadius>10.0</specialDisplayRadius>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
+				<radius>
+					<x>10</x>
+          				<y>10</y>
+				</radius>
+				<innateProducts>
+					<li>
+						<item>Steel</item>
+						<amount>1</amount>
+					</li>
+				</innateProducts>
+				<validTerrainsList>
+					<li>Sand</li>
+					<li>WaterOceanDeep</li>
+				</validTerrainsList>
+			</li>
+			<li Class="CompProperties_CreatesInfestations" />
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
+	</ThingDef>
 
 
-  
+
 	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Production_RemoteAccessTerminal</defName>
 		<label>远程存取终端</label>
