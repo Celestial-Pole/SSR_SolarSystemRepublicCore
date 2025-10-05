@@ -51,7 +51,7 @@
 		<comps>
 		</comps>
 		<placeWorkers>
-		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
+			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 		</placeWorkers>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
@@ -60,4 +60,5 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+
 </Defs>

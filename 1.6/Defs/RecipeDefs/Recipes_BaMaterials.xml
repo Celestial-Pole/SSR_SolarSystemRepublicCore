@@ -438,7 +438,7 @@
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>SSR_Recipe_Graphene</defName>
 		<label>制造石墨烯</label>

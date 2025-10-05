@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<AK_DLL.FontDef>
 		<defName>SSR_Font_YouYuan</defName>
 		<label>YouYuan_CHSCHTJP</label>
@@ -8,7 +8,7 @@
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>youyuanSDF_CHSCHTJP</modelName>
 	</AK_DLL.FontDef>
-	
+
 	<AK_DLL.FontDef>
 		<defName>SSR_Font_GulimKR</defName>
 		<label>Gulim_KR</label>
@@ -16,7 +16,7 @@
 		<assetBundle>fontgulimkr</assetBundle>
 		<modelName>gulimSDF</modelName>
 	</AK_DLL.FontDef>
-	
+
 	<AK_DLL.FontDef>
 		<defName>SSR_Font_HeitiBold</defName>
 		<label>HeiTi</label>
@@ -24,5 +24,5 @@
 		<assetBundle>heitibold</assetBundle>
 		<modelName>SanJiYingLangHeiJianTi-Cu-2 SDF</modelName>
 	</AK_DLL.FontDef>
-	
+
 </Defs>

@@ -12,11 +12,11 @@
         <soundInteract>Silver_Drop</soundInteract>
         <soundDrop>Silver_Drop</soundDrop>
         <useHitPoints>false</useHitPoints>
-        <smeltable>false</smeltable> 
+        <smeltable>false</smeltable>
         <burnableByRecipe>false</burnableByRecipe>
         <smallVolume>false</smallVolume>
         <statBases>
-			<Beauty>0</Beauty>
+            <Beauty>0</Beauty>
             <Flammability>0</Flammability>
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>

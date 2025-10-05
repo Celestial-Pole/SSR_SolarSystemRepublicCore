@@ -2,7 +2,6 @@
 <Defs>
 
     <!-- SSR_DataProcessingHub -->
-
     <JobDef>
         <defName>SSR_Job_DataProcessingHub</defName>
         <driverClass>JobDriver_WatchBuilding</driverClass>

@@ -23,7 +23,7 @@
 	</AK_DLL.AssetDef>
 
 	<!-- Floor -->
-	<TerrainDef Name="SSRFloorBase" Abstract="True">
+	<TerrainDef Name="SSR_FloorBase" Abstract="True">
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>
@@ -50,16 +50,13 @@
 		</modExtensions>
 	</TerrainDef>
 
-
-	<TerrainDef Abstract="True" ParentName="SSRFloorBase" Name="SSRArmouredFloorBase">
-		<designatorDropdown>SSRFloor_Armoured</designatorDropdown>
+	<TerrainDef ParentName="SSR_FloorBase" Name="SSR_ArmouredFloorBase" Abstract="True">
+		<designatorDropdown>SSR_Designator_ArmouredFloor</designatorDropdown>
 		<constructEffect>ConstructMetal</constructEffect>
 		<isPaintable>true</isPaintable>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</TerrainDef>
 
-	
-		
 	<!-- Furniture -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Furniture" Abstract="True">
 		<passability>PassThroughOnly</passability>
@@ -76,7 +73,6 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 	</ThingDef>
-
 
 	<!-- Power -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
@@ -140,4 +136,5 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 	</ThingDef>
+
 </Defs>

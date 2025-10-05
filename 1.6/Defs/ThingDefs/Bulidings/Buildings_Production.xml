@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_MaterialSynthesizer</defName>
+		<defName>SSR_Building_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
 		<description>材料合成机是一种先进的工业设备，能够通过精确控制化学反应和物理过程，制造出具有特定属性的复合材料。</description>
 		<graphicData>
@@ -253,7 +253,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_NumericalControlledMachineTool</defName>
+		<defName>SSR_Building_NumericalControlledMachineTool</defName>
 		<label>数控加工中心</label>
 		<description>数控加工中心是一种高度自动化的机床，能够通过计算机程序乃至人工智能控制进行复杂的金属加工。</description>
 		<graphicData>
@@ -578,7 +578,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_IntegratedChipManufacturingMachine</defName>
+		<defName>SSR_Building_IntegratedChipManufacturingMachine</defName>
 		<label>集成化芯片制造机</label>
 		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
 		<graphicData>
@@ -752,7 +752,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_AutomaticSlaughterMachine</defName>
+		<defName>SSR_Building_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
 		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
 		<graphicData>
@@ -893,7 +893,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_AutomaticSewingMachine</defName>
+		<defName>SSR_Building_AutomaticSewingMachine</defName>
 		<label>自动缝纫机</label>
 		<description>自动缝纫机是一种高效的缝纫设备，能够自动完成复杂的缝纫任务。它广泛应用于服装制造和纺织品生产。</description>
 		<graphicData>
@@ -1083,7 +1083,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_AutomaticCookingMachine</defName>
+		<defName>SSR_Building_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<graphicData>
@@ -1242,7 +1242,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_VacuumInductionFurnace</defName>
+		<defName>SSR_Building_VacuumInductionFurnace</defName>
 		<label>真空感应炉</label>
 		<description>真空感应炉是一种在真空环境中熔化金属的设备，它通过感应加热原理工作，能够提供精确的温度控制和清洁的熔炼过程。</description>
 		<graphicData>
@@ -1403,7 +1403,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_MultifunctionalChemicalSynthesizer</defName>
+		<defName>SSR_Building_MultifunctionalChemicalSynthesizer</defName>
 		<label>多功能化学合成仪</label>
 		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
 		<graphicData>
@@ -1559,7 +1559,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_Production_CoalLiquefactionMachine</defName>
+		<defName>SSR_Building_CoalLiquefactionMachine</defName>
 		<label>煤炭液化机</label>
 		<description>煤炭液化机用于将固态煤炭转化为液态燃料，这种转化过程通常涉及高温高压和催化剂，以改变煤炭的化学结构。</description>
 		<graphicData>
@@ -1659,7 +1659,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_EquipmentRepairStation</defName>
+		<defName>SSR_Building_EquipmentRepairStation</defName>
 		<label>装备维修台</label>
 		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
 		<thingClass>Building</thingClass>
@@ -1738,7 +1738,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_EquipmentPreparationStation</defName>
+		<defName>SSR_Building_EquipmentPreparationStation</defName>
 		<label>装备整备台</label>
 		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
 		<thingClass>Building</thingClass>
@@ -1817,7 +1817,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_FMIAExtractStationGE</defName>
+		<defName>SSR_Building_FMIAExtractStationGE</defName>
 		<label>地热聚变材料提取站</label>
 		<description>地热聚变材料提取站是一种先进的设施，专门设计用于从地热资源中提取聚变反应所需的材料。</description>
 		<thingClass>Building</thingClass>
@@ -1981,7 +1981,7 @@
 	</ThingDef>-->
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_NeutroamineSynthesizer</defName>
+		<defName>SSR_Building_NeutroamineSynthesizer</defName>
 		<label>中性胺合成仪</label>
 		<description>中性胺合成仪是一种专用化学设备，用于批量合成中性胺。</description>
 		<thingClass>Building</thingClass>
@@ -2043,7 +2043,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_TeleportationBeacon</defName>
+		<defName>SSR_Building_TeleportationBeacon</defName>
 		<label>传送信标</label>
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
 		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
@@ -2094,8 +2094,9 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<!--========矿井========-->
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_AutomaticDeepDrill</defName>
+		<defName>SSR_Building_AutomaticDeepDrill</defName>
 		<label>自动深钻井</label>
 		<description>自动深钻井</description>
 		<tickerType>Normal</tickerType>
@@ -2164,7 +2165,7 @@
 	</ThingDef>
 
 	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_Mine</defName>
+		<defName>SSR_Building_Mine</defName>
 		<label>标准化垂直矿井</label>
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
 		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
@@ -2573,11 +2574,8 @@
 		</manualMineralProperties>
 	</ThingDef>
 
-
-
-
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_LandBasedExcavator</defName>
+		<defName>SSR_Building_LandBasedExcavator</defName>
 		<label>陆用挖沙机</label>
 		<description>陆用挖沙机_建造在沙地上</description>
 		<tickerType>Normal</tickerType>
@@ -2599,7 +2597,7 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<rotatable>true</rotatable>
-    		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>1800</uninstallWork>
@@ -2658,7 +2656,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_FloatingSandDredger</defName>
+		<defName>SSR_Building_FloatingSandDredger</defName>
 		<label>水上平台挖沙机</label>
 		<description>水上平台挖沙机-建造在水上</description>
 		<tickerType>Normal</tickerType>
@@ -2718,7 +2716,7 @@
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<radius>
 					<x>10</x>
-          				<y>10</y>
+					<y>10</y>
 				</radius>
 				<innateProducts>
 					<li>
@@ -2738,10 +2736,8 @@
 		</modExtensions>
 	</ThingDef>
 
-
-
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Production_RemoteAccessTerminal</defName>
+		<defName>SSR_Building_RemoteAccessTerminal</defName>
 		<label>远程存取终端</label>
 		<description>远程存取终端。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>

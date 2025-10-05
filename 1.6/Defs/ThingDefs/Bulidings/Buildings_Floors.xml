@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<TerrainDef ParentName="SSRArmouredFloorBase">
-		<defName>SSRArmouredFloor</defName>
+	<TerrainDef ParentName="SSR_ArmouredFloorBase">
+		<defName>SSR_Floor_Armoured</defName>
 		<label>装甲地板</label>
 		<texturePath>Things/Building/Floor/SSRArmouredFloor</texturePath>
 		<renderPrecedence>240</renderPrecedence>
@@ -18,8 +18,8 @@
 		</costList>
 	</TerrainDef>
 
-	<TerrainDef ParentName="SSRArmouredFloorBase">
-		<defName>SSRArmouredFloorII</defName>
+	<TerrainDef ParentName="SSR_ArmouredFloorBase">
+		<defName>SSR_Floor_ArmouredII</defName>
 		<label>装甲地板</label>
 		<texturePath>Things/Building/Floor/SSRArmouredFloorII</texturePath>
 		<renderPrecedence>240</renderPrecedence>

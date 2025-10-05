@@ -8,7 +8,7 @@
         <resourceReadoutPriority>Middle</resourceReadoutPriority>
         <minRewardCount>30</minRewardCount>
         <statBases>
-			<Beauty>0</Beauty>
+            <Beauty>0</Beauty>
             <Flammability>0</Flammability>
         </statBases>
         <stuffProps>

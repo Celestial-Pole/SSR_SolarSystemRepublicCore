@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		
+
 	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_ConstructUpgradableBuilding</defName>
 		<label>进行建筑升级</label>
@@ -28,7 +28,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef-->
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_OperateBuildingGeneric</defName>
 		<label>操作建筑</label>
@@ -50,7 +50,7 @@
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillBuildingGeneric</defName>
 		<label>搬运材料</label>
@@ -104,7 +104,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillLaundryRepair</defName>
 		<label>修理衣物</label>
@@ -118,7 +118,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
-	
+
 	<JobDef>
 		<defName>SSR_Job_FillLaundryUnited</defName>
 		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryUnited</driverClass>

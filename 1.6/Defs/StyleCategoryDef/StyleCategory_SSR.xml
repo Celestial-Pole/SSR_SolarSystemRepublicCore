@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <RitualVisualEffectDef ParentName="RitualGlowAbstract">
-    <defName>SSR_Style</defName>
-    <tintColor>(255, 215, 35)</tintColor>
-  </RitualVisualEffectDef>
+    <RitualVisualEffectDef ParentName="RitualGlowAbstract">
+        <defName>SSR_Style</defName>
+        <tintColor>(255, 215, 35)</tintColor>
+    </RitualVisualEffectDef>
 
-  <SoundDef ParentName="RitualSustainerBase">
-    <defName>SSR_RitualSustainer</defName>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Culture/SSR_JieRi</clipPath>
-          </li>
-        </grains>
-        <volumeRange>20</volumeRange>
-        <distRange>30~100</distRange>
-        <sustainAttack>3</sustainAttack>
-        <sustainSkipFirstAttack>False</sustainSkipFirstAttack>
-      </li>
-    </subSounds>
-  </SoundDef>
+    <SoundDef ParentName="RitualSustainerBase">
+        <defName>SSR_RitualSustainer</defName>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Culture/SSR_JieRi</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>20</volumeRange>
+                <distRange>30~100</distRange>
+                <sustainAttack>3</sustainAttack>
+                <sustainSkipFirstAttack>False</sustainSkipFirstAttack>
+            </li>
+        </subSounds>
+    </SoundDef>
 
-  <StyleCategoryDef>
-    <defName>SSR_Style</defName>
-    <label>共产主义文化</label>
-    <iconPath>UI/Memes/SSR_Meme_Communism</iconPath>
-    <soundOngoingRitual>SSR_RitualSustainer</soundOngoingRitual>
-    <ritualVisualEffectDef>SSR_Style</ritualVisualEffectDef>
-    <thingDefStyles>
-    </thingDefStyles>
-  </StyleCategoryDef>
+    <StyleCategoryDef>
+        <defName>SSR_Style</defName>
+        <label>共产主义文化</label>
+        <iconPath>UI/Memes/SSR_Meme_Communism</iconPath>
+        <soundOngoingRitual>SSR_RitualSustainer</soundOngoingRitual>
+        <ritualVisualEffectDef>SSR_Style</ritualVisualEffectDef>
+        <thingDefStyles>
+        </thingDefStyles>
+    </StyleCategoryDef>
 
-</Defs>  
+</Defs>

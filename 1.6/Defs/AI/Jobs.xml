@@ -10,7 +10,7 @@
 	</JobDef-->
 
 	<!-- ==================================== 火力发电站 =====================================-->
-	
+
 
 	<!-- ==================================== 矿井 =====================================-->
 
@@ -21,7 +21,7 @@
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef-->
-	
+
 	<JobDef>
 		<defName>SSR_Job_EnterPalmine</defName>
 		<driverClass>FS_SSR.Palmine.JobDriver_EnterMine</driverClass>
@@ -53,5 +53,5 @@
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
-	</JobDef --> 
+	</JobDef -->
 </Defs>

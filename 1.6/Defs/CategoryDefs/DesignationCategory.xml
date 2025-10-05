@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<DesignationCategoryDef Class="FS_SSR.UI.SSR_DesignationCategoryDef">
 		<defName>SSR_DesignationCategory</defName>
 		<label>太阳系共和国</label>
@@ -10,7 +10,7 @@
 			<li>Designator_Deconstruct</li>
 		</specialDesignatorClasses>
 	</DesignationCategoryDef>
-	
+
 	<!--<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Structure</defName>
 		<label>结构</label>
@@ -42,7 +42,7 @@
 		<sortOrder>4</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Power</iconPath>
 	</Def>
-	
+
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Satellite</defName>
 		<label>卫星</label>
@@ -58,7 +58,7 @@
 		<sortOrder>7</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Furniture</iconPath>
 	</Def>
-	
+
 	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
 		<defName>SSR_DesignationInnerCategory_Misc</defName>
 		<label>杂项</label>
@@ -66,5 +66,5 @@
 		<sortOrder>8</sortOrder>
 		<iconPath>UI/DesignationInnerCategory/Misc</iconPath>
 	</Def>
-	
+
 </Defs>

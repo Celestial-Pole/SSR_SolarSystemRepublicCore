@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_PowerConduit</defName>
+		<defName>SSR_Building_PowerConduit</defName>
 		<label>安全线缆</label>
 		<description>安全线缆是一种被外壳保护的加固线缆，以防止物理损伤和环境影响，从而降低电气风险并提高系统的安全性。</description>
 		<graphicData>
@@ -46,7 +47,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_LightingRod</defName>
+		<defName>SSR_Building_LightingRod</defName>
 		<label>避雷针</label>
 		<description>避雷针。</description>
 		<thingClass>Building</thingClass>
@@ -110,7 +111,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_PortableGenerator</defName>
+		<defName>SSR_Building_PortableGenerator</defName>
 		<label>便携式发电机</label>
 		<description>便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。</description>
 		<thingClass>Building</thingClass>
@@ -204,7 +205,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_ThermalPowerPlant</defName>
+		<defName>SSR_Building_ThermalPowerPlant</defName>
 		<label>火力发电站</label>
 		<description>火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。</description>
 		<thingClass>Building</thingClass>
@@ -262,30 +263,30 @@
 				<fuelFilter />
 				<fuel>
 					<li>
-						<def>WoodLog</def><!--燃料的def-->
-						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>WoodLog</def>						<!--燃料的def-->
+						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>Chemfuel</def><!--燃料的def-->
-						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>Chemfuel</def>						<!--燃料的def-->
+						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>SSR_Carbon</def><!--燃料的def-->
-						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>SSR_Carbon</def>						<!--燃料的def-->
+						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>Wastepack</def><!--燃料的def-->
-						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
-						<pollution>4</pollution><!--这种燃料多少污染-->
+						<def>Wastepack</def>						<!--燃料的def-->
+						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>4</pollution>						<!--这种燃料多少污染-->
 					</li>
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
-				<maxPollution>100</maxPollution><!--到达多少污染会下酸雨-->
-				<acidRainDuration>36000</acidRainDuration><!--酸雨持续时间-->
+				<maxPollution>100</maxPollution>				<!--到达多少污染会下酸雨-->
+				<acidRainDuration>36000</acidRainDuration>				<!--酸雨持续时间-->
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
@@ -356,7 +357,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_Medium-levelSolarGenerator</defName>
+		<defName>SSR_Building_MediumSolarGenerator</defName>
 		<label>中级太阳能板</label>
 		<description>中级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以较低功率进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -415,7 +416,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_AdvancedSolarGenerator</defName>
+		<defName>SSR_Building_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
 		<description>高级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以一定功率进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -474,7 +475,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_Medium-levelVerticalAxisWindTurbine</defName>
+		<defName>SSR_Building_MediumVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。</description>
 		<thingClass>Building</thingClass>
@@ -541,7 +542,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_AdvancedVerticalAxisWindTurbine</defName>
+		<defName>SSR_Building_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
 		<description>高级垂直风力发电机相较于前一个版本，对扇叶外形和发动机设计进行了升级，大大增强了其发电效率。</description>
 		<thingClass>Building</thingClass>
@@ -608,7 +609,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_Medium-levelGeothermalGenerator</defName>
+		<defName>SSR_Building_MediumGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
 		<description>在新型材料的加持下，中级地热发电机相较于普通的地热发电机有着更高的能量转换效率。</description>
 		<thingClass>Building</thingClass>
@@ -676,7 +677,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_AdvancedGeothermalGenerator</defName>
+		<defName>SSR_Building_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
 		<description>得益于技术的进步，高级地热发电机可以将几乎全部的地热能转化为电能。</description>
 		<thingClass>Building</thingClass>
@@ -744,7 +745,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_NuclearFissionReactor</defName>
+		<defName>SSR_Building_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
 		<description>核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -836,7 +837,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_NuclearFusionReactor</defName>
+		<defName>SSR_Building_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
 		<description>核聚变反应堆是一种通过磁约束利用核聚变过程产生巨大能量的设备，需要进行电火才能启动。</description>
 		<thingClass>Building</thingClass>
@@ -929,7 +930,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_Small-scaleNuclearFusionReactor</defName>
+		<defName>SSR_Building_SmallNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
 		<description>使用惯性约束技术的小型核聚变反应堆，以更小的体积完成核聚变控制的同时释放了更多的能量。</description>
 		<thingClass>Building</thingClass>
@@ -1021,7 +1022,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_AntimatterReactor</defName>
+		<defName>SSR_Building_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
 		<description>反物质反应堆利用正反物质的湮灭产生能量，其释放的能量远超其他的发电设备，也正是如此，反物质反应堆的安全保障会成为殖民地的重中之重。</description>
 		<thingClass>Building</thingClass>
@@ -1111,7 +1112,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_WirelessPowerBroadcaster</defName>
+		<defName>SSR_Building_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
 		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能引雷与抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
@@ -1202,7 +1203,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Power_PowerReceiverTower</defName>
+		<defName>SSR_Building_PowerReceiverTower</defName>
 		<label>电力接收塔</label>
 		<description>电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。</description>
 		<thingClass>Building</thingClass>

@@ -58,7 +58,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 		<value>
-			<li>SSR_ResearchBuilding_DataTerminal</li>
+			<li>SSR_Building_DataTerminal</li>
 		</value>
 	</Operation>
 

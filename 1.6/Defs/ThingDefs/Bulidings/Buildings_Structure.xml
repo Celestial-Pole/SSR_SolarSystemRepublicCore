@@ -72,7 +72,7 @@
 				<li>Build_Wall</li>
 			</relatedBuildCommands>
 		</building>-->
-		<!--<damageMultipliers>
+	<!--<damageMultipliers>
       <li>
         <damageDef>Bomb</damageDef>
         <multiplier>0.05</multiplier>
@@ -82,7 +82,7 @@
         <multiplier>0.05</multiplier>
       </li>
     </damageMultipliers>-->
-		<!--<researchPrerequisites>
+	<!--<researchPrerequisites>
 			<li>SSR_Research_BasicDefenseStructure</li>
 		</researchPrerequisites>
 		<comps>

@@ -12,14 +12,14 @@
         <burnableByRecipe>false</burnableByRecipe>
         <smallVolume>false</smallVolume>
         <statBases>
-			<Beauty>0</Beauty>
+            <Beauty>0</Beauty>
             <Flammability>0</Flammability>
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>
         <stuffProps>
-			<statFactors>
-				<Flammability>0</Flammability>
-			</statFactors>
+            <statFactors>
+                <Flammability>0</Flammability>
+            </statFactors>
             <commonality>0</commonality>
             <categories>
                 <li>Metallic</li>
@@ -42,7 +42,7 @@
         <defName>SSR_Glass</defName>
         <label>玻璃</label>
         <description>玻璃是一种透明、坚硬的非晶态固体材料，广泛应用于建筑、汽车和日常用品。</description>
-		<useHitPoints>true</useHitPoints>
+        <useHitPoints>true</useHitPoints>
         <graphicData>
             <texPath>Things/Item/BaMaterial/Glass</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -55,7 +55,7 @@
             <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
             <BluntDamageMultiplier>0.3</BluntDamageMultiplier>
-			<MaxHitPoints>25</MaxHitPoints>
+            <MaxHitPoints>25</MaxHitPoints>
             <MarketValue>1.5</MarketValue>
             <Mass>0.5</Mass>
         </statBases>
@@ -97,7 +97,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-				<MaxHitPoints>3.25</MaxHitPoints>
+                <MaxHitPoints>3.25</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -130,7 +130,7 @@
                 <li>Metallic</li>
             </categories>
             <statFactors>
-				<MaxHitPoints>3.75</MaxHitPoints>
+                <MaxHitPoints>3.75</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.75</WorkToMake>
                 <WorkToBuild>2.75</WorkToBuild>
@@ -172,7 +172,7 @@
                 <li>Stony</li>
             </categories>
             <statFactors>
-				<MaxHitPoints>5</MaxHitPoints>
+                <MaxHitPoints>5</MaxHitPoints>
                 <Beauty>1</Beauty>
                 <WorkToMake>2.5</WorkToMake>
                 <WorkToBuild>2.5</WorkToBuild>
@@ -189,7 +189,7 @@
             <texPath>Things/Item/BaMaterial/NanoandMicroMechanicalComposite</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
-		<thingClass>FS_SSR.Materials.Thing_NanoMaterial</thingClass>
+        <thingClass>FS_SSR.Materials.Thing_NanoMaterial</thingClass>
         <statBases>
             <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
             <StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
@@ -202,13 +202,13 @@
             <Mass>0.1</Mass>
         </statBases>
         <stuffProps>
-			<commonality>0</commonality>
-			<allowedInStuffGeneration>false</allowedInStuffGeneration>
+            <commonality>0</commonality>
+            <allowedInStuffGeneration>false</allowedInStuffGeneration>
             <categories>
                 <li>Metallic</li>
             </categories>
             <statFactors>
-				<MaxHitPoints>10</MaxHitPoints>
+                <MaxHitPoints>10</MaxHitPoints>
                 <Beauty>2</Beauty>
                 <WorkToMake>0.65</WorkToMake>
                 <WorkToBuild>0.65</WorkToBuild>
@@ -241,13 +241,13 @@
         <smallVolume>false</smallVolume>
         <stuffProps>
             <categories>
-				<li>Woody</li>
+                <li>Woody</li>
                 <li>Stony</li>
                 <li>Fabric</li>
                 <li>Metallic</li>
             </categories>
             <statFactors>
-				<MaxHitPoints>30</MaxHitPoints>
+                <MaxHitPoints>30</MaxHitPoints>
                 <Beauty>10</Beauty>
                 <WorkToMake>0.5</WorkToMake>
                 <WorkToBuild>0.5</WorkToBuild>

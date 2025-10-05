@@ -2,7 +2,7 @@
 <Defs>
 
 	<DesignatorDropdownGroupDef>
-		<defName>SSRFloor_Armoured</defName>
+		<defName>SSR_Designator_ArmouredFloor</defName>
 		<label>装甲地板</label>
 		<iconSource>Placed</iconSource>
 		<useGridMenu>false</useGridMenu>

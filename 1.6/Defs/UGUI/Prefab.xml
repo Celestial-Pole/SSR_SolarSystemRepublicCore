@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<FS_UGUIFramework.ConfigDef>
 		<defName>SSR_Config</defName>
 		<defaultFont>SSR_Font_YouYuan</defaultFont>
 		<label>ssr ui config core</label>
 		<EVSystem>SSR_Prefab_EventSystem</EVSystem>
 	</FS_UGUIFramework.ConfigDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_EventSystem</defName>
 		<label>event system</label>
@@ -15,7 +15,7 @@
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>EventSystem</modelName>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalmineConsole</defName>
 		<label>palmine console</label>
@@ -24,7 +24,7 @@
 		<modelName>Palmine</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalmineConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalmineStorage</defName>
 		<label>palmine storage</label>
@@ -33,7 +33,7 @@
 		<modelName>StoreHouse UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalmineStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_SatelliteConsole</defName>
 		<label>satellite console</label>
@@ -42,7 +42,7 @@
 		<modelName>Satellite UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_SatelliteConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_MarsStorage</defName>
 		<label>火星仓库</label>

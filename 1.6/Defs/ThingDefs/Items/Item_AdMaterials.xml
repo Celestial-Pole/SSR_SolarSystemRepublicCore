@@ -2,39 +2,39 @@
 <Defs>
 
     <ThingDef Name="SSR_AdMaterial" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <drawerType>MapMeshOnly</drawerType>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
-    <burnableByRecipe>false</burnableByRecipe>
-    <smallVolume>false</smallVolume>
-    <statBases>
-        <Flammability>0</Flammability>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-    <intricate>true</intricate>
-    <tradeTags>
-        <li>ExoticMisc</li>
-    </tradeTags>
-    <thingCategories>
-        <li>SSR_Manufactured</li>
-    </thingCategories>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>14</pathCost>
-    <allowedArchonexusCount>-1</allowedArchonexusCount>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Metal_Drop</soundDrop>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-  </ThingDef>
+        <thingClass>ThingWithComps</thingClass>
+        <category>Item</category>
+        <drawerType>MapMeshOnly</drawerType>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <selectable>true</selectable>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>75</stackLimit>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smallVolume>false</smallVolume>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+        </comps>
+        <intricate>true</intricate>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <thingCategories>
+            <li>SSR_Manufactured</li>
+        </thingCategories>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <rotatable>false</rotatable>
+        <pathCost>14</pathCost>
+        <allowedArchonexusCount>-1</allowedArchonexusCount>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    </ThingDef>
 
     <!-- ==================================== Tech Level 1 =====================================-->
 
@@ -121,49 +121,49 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NuclearFissionFuelRod</defName>
-		<label>核裂变燃料棒</label>
-		<description>核裂变燃料棒是核反应堆中的关键组件，通过受控的核裂变反应释放能量。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NuclearFissionFuelRod</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>225</MarketValue>
-			<SellPriceFactor>0.05</SellPriceFactor>
-			<Mass>0.01</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>3.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_NuclearFissionFuelRod</defName>
+        <label>核裂变燃料棒</label>
+        <description>核裂变燃料棒是核反应堆中的关键组件，通过受控的核裂变反应释放能量。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NuclearFissionFuelRod</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>225</MarketValue>
+            <SellPriceFactor>0.05</SellPriceFactor>
+            <Mass>0.01</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>3.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NuclearFusionFuelStorageTank</defName>
-		<label>核聚变燃料储罐</label>
-		<description>核聚变燃料储罐储存着聚变反应所需的氢同位素。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NuclearFusionFuelStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<MarketValue>325</MarketValue>
-			<SellPriceFactor>0.05</SellPriceFactor>
-			<Mass>0.01</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>3.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_NuclearFusionFuelStorageTank</defName>
+        <label>核聚变燃料储罐</label>
+        <description>核聚变燃料储罐储存着聚变反应所需的氢同位素。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NuclearFusionFuelStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <MarketValue>325</MarketValue>
+            <SellPriceFactor>0.05</SellPriceFactor>
+            <Mass>0.01</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>3.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
     <!-- ==================================== Tech Level 2 =====================================-->
 
@@ -316,26 +316,26 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_MiniatureNuclearFusionDevice</defName>
-		<label>微型聚变装置</label>
-		<description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>57000</MarketValue>
-			<Mass>3</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_MiniatureNuclearFusionDevice</defName>
+        <label>微型聚变装置</label>
+        <description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>57000</MarketValue>
+            <Mass>3</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
         <defName>SSR_HighenergyParticleConfinementDevice</defName>
@@ -358,92 +358,92 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NeutralParticleStorageTank</defName>
-		<label>中性粒子储罐</label>
-		<description>中性粒子储罐是一种特殊容器，其中储存和隔离着中性粒子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NeutralParticleStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>2300</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_NeutralParticleStorageTank</defName>
+        <label>中性粒子储罐</label>
+        <description>中性粒子储罐是一种特殊容器，其中储存和隔离着中性粒子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NeutralParticleStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>2300</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_ChargedParticleStorageTank</defName>
-		<label>带电粒子储罐</label>
-		<description>带电粒子储罐是一种特殊容器，其中储存和隔离着带电粒子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/ChargedParticleStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>2300</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_ChargedParticleStorageTank</defName>
+        <label>带电粒子储罐</label>
+        <description>带电粒子储罐是一种特殊容器，其中储存和隔离着带电粒子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/ChargedParticleStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>2300</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_AntimatterStorageTank</defName>
-		<label>反物质储罐</label>
-		<description>反物质储罐是一种特殊容器，其中储存和隔离着带反物质，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/AntimatterStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>4500</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_AntimatterStorageTank</defName>
+        <label>反物质储罐</label>
+        <description>反物质储罐是一种特殊容器，其中储存和隔离着带反物质，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/AntimatterStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>4500</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_TachyonStorageTank</defName>
-		<label>快子储罐</label>
-		<description>快子储罐是一种特殊容器，其中储存和隔离着带快子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/TachyonStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>4500</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_TachyonStorageTank</defName>
+        <label>快子储罐</label>
+        <description>快子储罐是一种特殊容器，其中储存和隔离着带快子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/TachyonStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>4500</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
 </Defs>

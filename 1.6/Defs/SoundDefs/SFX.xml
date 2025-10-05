@@ -8,7 +8,6 @@
 	</SoundDef>
 
 	<!-- 开技能音效 -->
-
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_SFX_Atkboost</defName>
 		<subSounds>

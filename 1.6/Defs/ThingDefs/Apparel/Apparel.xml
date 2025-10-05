@@ -40,7 +40,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
-				<li>SSR_Production_AutomaticSewingMachine</li>
+				<li>SSR_Building_AutomaticSewingMachine</li>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
@@ -94,7 +94,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>SSR_NumericalControlledMachineTool</li>
+				<li>SSR_Building_NumericalControlledMachineTool</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
@@ -373,7 +373,7 @@
 			<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_EF_MiningCothing</defName>
 		<label>矿工制服</label>
@@ -464,7 +464,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
-				<li>SSR_Production_AutomaticSewingMachine</li>
+				<li>SSR_Building_AutomaticSewingMachine</li>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
@@ -517,7 +517,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>SSR_NumericalControlledMachineTool</li>
+				<li>SSR_Building_NumericalControlledMachineTool</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
@@ -931,7 +931,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>SSR_NumericalControlledMachineTool</li>
+				<li>SSR_Building_NumericalControlledMachineTool</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
@@ -949,7 +949,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="SSR_UAVBase">
 		<defName>SSR_EF_MedicaUAV</defName>
 		<label>医疗无人机</label>

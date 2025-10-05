@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>SSR_Hediff_RaidEnhance_ManufactTechIII</defName>
 		<label>三级制造技术加成</label>
@@ -33,5 +33,5 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 </Defs>

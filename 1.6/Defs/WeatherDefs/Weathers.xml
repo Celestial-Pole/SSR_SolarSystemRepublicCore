@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
- <WeatherDef>
+  <WeatherDef>
     <defName>SSR_Weather_AcidRain</defName>
     <label>酸雨</label>
     <description>有毒垃圾燃烧造成空气污染导致的自然灾害，会对在户外的生物与物品造成持续性的酸蚀伤害。</description>
