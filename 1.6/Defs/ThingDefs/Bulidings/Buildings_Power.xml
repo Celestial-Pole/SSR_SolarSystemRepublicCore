@@ -77,9 +77,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_StandardConstructionElement>25</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>30</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>25</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>30</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -154,8 +154,8 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -244,9 +244,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>70</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>20</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>70</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>10</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -273,7 +273,7 @@
 						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>SSR_Carbon</def>						<!--燃料的def-->
+						<def>SSR_Item_Carbon</def>						<!--燃料的def-->
 						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
 						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
@@ -314,7 +314,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_SpecialSteel</item>
+									<item>SSR_Item_SpecialSteel</item>
 									<amount>10</amount>
 								</li>
 								<li>
@@ -391,9 +391,9 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>15</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>20</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>15</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -450,9 +450,9 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<SSR_Carbyne>20</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>80</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>20</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>80</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
@@ -488,9 +488,9 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/Medium-levelVerticalAxisWindTurbine/Medium-levelVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>25</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>20</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>25</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<fillPercent>0.5</fillPercent>
@@ -555,9 +555,9 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/AdvancedVerticalAxisWindTurbine/AdvancedVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<SSR_Carbyne>30</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>60</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>30</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>60</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<fillPercent>0.5</fillPercent>
@@ -640,9 +640,9 @@
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>20</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -708,9 +708,9 @@
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<SSR_Carbyne>30</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>30</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
@@ -783,11 +783,11 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>120</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>175</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>15</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>120</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>175</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>15</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -800,7 +800,7 @@
 				<fuelCapacity>30.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFissionFuelRod</li>
+						<li>SSR_Item_NuclearFissionFuelRod</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -875,12 +875,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>375</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>20</SSR_SuperconductingMaterial>
-			<SSR_StrongElectromagnet>20</SSR_StrongElectromagnet>
+			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>375</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>20</SSR_Item_SuperconductingMaterial>
+			<SSR_Item_StrongElectromagnet>20</SSR_Item_StrongElectromagnet>
 			<ComponentIndustrial>15</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -896,7 +896,7 @@
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFusionFuelStorageTank</li>
+						<li>SSR_Item_NuclearFusionFuelStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -968,12 +968,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_Carbyne>80</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>7</SSR_SuperconductingMaterial>
-			<SSR_HighenergyLaserEmitter>5</SSR_HighenergyLaserEmitter>
+			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>240</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>7</SSR_Item_SuperconductingMaterial>
+			<SSR_Item_HighenergyLaserEmitter>5</SSR_Item_HighenergyLaserEmitter>
 			<ComponentSpacer>3</ComponentSpacer>
-			<SSR_ArtificialIntelligenceChip>5</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>5</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -989,7 +989,7 @@
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFusionFuelStorageTank</li>
+						<li>SSR_Item_NuclearFusionFuelStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -1060,9 +1060,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_FermiMaterial>2000</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>30</SSR_ExtremeComponent>
-			<SSR_AdvancedArtificialIntelligenceChip>10</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_Item_FermiMaterial>2000</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>30</SSR_Item_ExtremeComponent>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>10</SSR_Item_AdvancedArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -1075,7 +1075,7 @@
 				<fuelCapacity>60.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_AntimatterStorageTank</li>
+						<li>SSR_Item_AntimatterStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -1149,11 +1149,11 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>80</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>240</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>10</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>5</ComponentSpacer>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<building>
@@ -1240,8 +1240,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>700</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>700</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>5</SSR_Item_ExtremeComponent>
 		</costList>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<building>

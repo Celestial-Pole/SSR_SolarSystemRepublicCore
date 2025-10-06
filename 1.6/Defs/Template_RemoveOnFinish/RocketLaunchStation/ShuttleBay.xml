@@ -118,7 +118,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_ApparelCustomBase">
-        <defName>SSR_EF_LandForce_shuttlecaller</defName>
+        <defName>SSR_Apparel_EFFLandShuttlecaller</defName>
         <label>穿梭机呼叫衣服</label>
         <description>穿梭机呼叫衣服</description>
         <graphicData>
@@ -126,7 +126,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
-            <SSR_Graphene>5</SSR_Graphene>
+            <SSR_Item_Graphene>5</SSR_Item_Graphene>
         </costList>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>

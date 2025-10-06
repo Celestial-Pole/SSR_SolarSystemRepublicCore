@@ -146,7 +146,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_SpecialSteel</item>
+									<item>SSR_Item_SpecialSteel</item>
 									<amount>80</amount>
 								</li>
 								<li>
@@ -154,11 +154,11 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<item>SSR_SuperconductingMaterial</item>
+									<item>SSR_Item_SuperconductingMaterial</item>
 									<amount>5</amount>
 								</li>
 								<li>
-									<item>SSR_QuantumComputingCore</item>
+									<item>SSR_Item_QuantumComputingCore</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -179,11 +179,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>50</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>120</amount>
 								</li>
 								<li>
@@ -191,11 +191,11 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -270,9 +270,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -490,11 +490,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -502,11 +502,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -527,7 +527,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
@@ -535,11 +535,11 @@
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -595,7 +595,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
@@ -658,11 +658,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -670,7 +670,7 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_QuantumComputingCore</item>
+									<item>SSR_Item_QuantumComputingCore</item>
 									<amount>3</amount>
 								</li>
 							</materials>
@@ -691,7 +691,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
@@ -699,11 +699,11 @@
 									<amount>20</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -769,9 +769,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -816,11 +816,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -828,11 +828,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -853,19 +853,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -910,9 +910,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1006,11 +1006,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1018,11 +1018,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1043,19 +1043,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1100,9 +1100,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1165,11 +1165,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1177,11 +1177,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1202,19 +1202,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1259,9 +1259,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1326,11 +1326,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1338,11 +1338,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1363,19 +1363,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1420,9 +1420,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1482,11 +1482,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1494,11 +1494,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1519,19 +1519,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1576,9 +1576,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1619,11 +1619,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>60</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>120</amount>
 								</li>
 								<li>
@@ -1631,11 +1631,11 @@
 									<amount>7</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1693,9 +1693,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1772,11 +1772,11 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>60</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
+			<SSR_Item_Carbyne>60</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
 			<ComponentSpacer>12</ComponentSpacer>
-			<SSR_IntegratedQuantumComputingFramework>3</SSR_IntegratedQuantumComputingFramework>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_IntegratedQuantumComputingFramework>3</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1856,8 +1856,8 @@
 		<tickerType>Normal</tickerType>
 		<size>(4,4)</size>
 		<costList>
-			<SSR_SpecialSteel>50</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>50</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>80</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -1875,7 +1875,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="CompProperties_Spawner">
-				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
+				<thingToSpawn>SSR_Item_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>36000</spawnIntervalRange>
 				<spawnMaxAdjacent>50</spawnMaxAdjacent>
@@ -1943,8 +1943,8 @@
 		<tickerType>Normal</tickerType>
 		<size>(5,6)</size>
 		<costList>
-			<SSR_SpecialSteel>50</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>50</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>80</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -1958,7 +1958,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="CompProperties_Spawner">
-				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
+				<thingToSpawn>SSR_Item_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>36000</spawnIntervalRange>
 				<spawnMaxAdjacent>50</spawnMaxAdjacent>
@@ -1998,7 +1998,7 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<costList>
-			<SSR_SpecialSteel>30</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>30</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<uiIconScale>0.65</uiIconScale>
@@ -2070,9 +2070,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>30</SSR_FermiMaterial>
-			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
-			<SSR_ExtremeComponent>8</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>30</SSR_Item_FermiMaterial>
+			<SSR_Item_PhotonComputingCore>1</SSR_Item_PhotonComputingCore>
+			<SSR_Item_ExtremeComponent>8</SSR_Item_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -2196,8 +2196,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>100</SSR_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>30</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -2228,7 +2228,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_SpecialSteel</item>
+									<item>SSR_Item_SpecialSteel</item>
 									<amount>80</amount>
 								</li>
 							</materials>
@@ -2248,7 +2248,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>50</amount>
 								</li>
 							</materials>
@@ -2286,11 +2286,11 @@
 		<costPerLayer>
 			<materials>
 				<li>
-					<item>SSR_StandardConstructionElement</item>
+					<item>SSR_Item_StandardConstructionElement</item>
 					<amount>150</amount>
 				</li>
 				<li>
-					<item>SSR_SpecialSteel</item>
+					<item>SSR_Item_SpecialSteel</item>
 					<amount>80</amount>
 				</li>
 				<li>
@@ -2303,11 +2303,11 @@
 		<costPerTunnel>
 			<materials>
 				<li>
-					<item>SSR_StandardConstructionElement</item>
+					<item>SSR_Item_StandardConstructionElement</item>
 					<amount>80</amount>
 				</li>
 				<li>
-					<item>SSR_SpecialSteel</item>
+					<item>SSR_Item_SpecialSteel</item>
 					<amount>30</amount>
 				</li>
 				<li>
@@ -2339,11 +2339,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>200</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>100</amount>
 					</li>
 					<li>
@@ -2351,7 +2351,7 @@
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>3</amount>
 					</li>
 				</materials>
@@ -2361,11 +2361,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>300</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>150</amount>
 					</li>
 					<li>
@@ -2373,11 +2373,11 @@
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_ArtificialIntelligenceChip</item>
+						<item>SSR_Item_ArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2387,19 +2387,19 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>500</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2411,11 +2411,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>120</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>50</amount>
 					</li>
 					<li>
@@ -2423,7 +2423,7 @@
 						<amount>15</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2433,11 +2433,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>150</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>80</amount>
 					</li>
 					<li>
@@ -2445,11 +2445,11 @@
 						<amount>10</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_ArtificialIntelligenceChip</item>
+						<item>SSR_Item_ArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2459,19 +2459,19 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>200</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>10</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2483,11 +2483,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>80</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>30</amount>
 					</li>
 					<li>
@@ -2495,7 +2495,7 @@
 						<amount>7</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2505,11 +2505,11 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>80</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>40</amount>
 					</li>
 					<li>
@@ -2517,7 +2517,7 @@
 						<amount>5</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2527,15 +2527,15 @@
 			<li>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>100</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>5</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
@@ -2551,7 +2551,7 @@
 		</minableStones>
 		<manualMineralProperties>
 			<li>
-				<def>SSR_Carbon</def>
+				<def>SSR_Item_Carbon</def>
 				<workAmout>7000</workAmout>
 				<yield>75</yield>
 				<value>1.2</value>

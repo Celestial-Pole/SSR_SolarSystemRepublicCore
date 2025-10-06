@@ -33,7 +33,7 @@
 		</statBases>
 		<costList>
 			<Steel>240</Steel>
-			<SSR_Silicon>35</SSR_Silicon>
+			<SSR_Item_Silicon>35</SSR_Item_Silicon>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<building>
@@ -102,8 +102,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_QuantumComputingCore>10</SSR_QuantumComputingCore>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_QuantumComputingCore>10</SSR_Item_QuantumComputingCore>
 			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<building>
@@ -172,9 +172,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>300</SSR_FermiMaterial>
-			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
-			<SSR_ArtificialIntelligenceChip>3</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_FermiMaterial>300</SSR_Item_FermiMaterial>
+			<SSR_Item_PhotonComputingCore>10</SSR_Item_PhotonComputingCore>
+			<SSR_Item_ArtificialIntelligenceChip>3</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -237,10 +237,10 @@
 		<size>(2,2)</size>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<costList>
-			<SSR_Carbyne>70</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>160</SSR_NanoandMicroMechanicalComposite>
-			<SSR_IntegratedQuantumComputingFramework>7</SSR_IntegratedQuantumComputingFramework>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_Carbyne>70</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>160</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_IntegratedQuantumComputingFramework>7</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
@@ -348,10 +348,10 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>200</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>400</SSR_NanoandMicroMechanicalComposite>
-			<SSR_IntegratedQuantumComputingFramework>20</SSR_IntegratedQuantumComputingFramework>
-			<SSR_HighenergyLaserEmitter>15</SSR_HighenergyLaserEmitter>
+			<SSR_Item_Carbyne>200</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>400</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_IntegratedQuantumComputingFramework>20</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_HighenergyLaserEmitter>15</SSR_Item_HighenergyLaserEmitter>
 			<ComponentSpacer>30</ComponentSpacer>
 		</costList>
 		<building>
@@ -429,9 +429,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>100</SSR_FermiMaterial>
-			<SSR_HighenergyParticleConfinementDevice>3</SSR_HighenergyParticleConfinementDevice>
-			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>100</SSR_Item_FermiMaterial>
+			<SSR_Item_HighenergyParticleConfinementDevice>3</SSR_Item_HighenergyParticleConfinementDevice>
+			<SSR_Item_ExtremeComponent>5</SSR_Item_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -460,7 +460,7 @@
 						<li Class="AKR_Random.Rewards.Rewards_Things">
 							<weight>2</weight>							<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
 							<itemRewardSingle>								<!-- 单个物品的奖励 -->
-								<item>SSR_AntimatterStorageTank</item>
+								<item>SSR_Item_AntimatterStorageTank</item>
 								<amount>3</amount>
 							</itemRewardSingle>
 						</li>
@@ -468,7 +468,7 @@
 				</root>
 				<!--candidate>
 					<li>
-						<item>SSR_AntimatterStorageTank</item>
+						<item>SSR_Item_AntimatterStorageTank</item>
 						<amount>3</amount>
 						<weight>2</weight>
 					</li>

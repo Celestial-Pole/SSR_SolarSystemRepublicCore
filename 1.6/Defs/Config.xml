@@ -17,14 +17,12 @@
 			<!--<li>DropPodIncomingMechanoid</li>-->
 			<li>ShipChunkIncoming</li>
 		</interceptableSkyfaller>
-
 		<palmineDefaultMineralProp>			<!-- 帕鲁矿井的矿物的默认属性 -->
 			<workAmout>7500</workAmout>
 			<yield>75</yield>
 			<innerStorageCapacity>1000000</innerStorageCapacity>
 			<stockPerTunnel>50000</stockPerTunnel>
 		</palmineDefaultMineralProp>
-
 		<mentalDefenseTechRequire>SSR_Research_MentalProtectionTechnology</mentalDefenseTechRequire>		<!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
 	</Def>
 

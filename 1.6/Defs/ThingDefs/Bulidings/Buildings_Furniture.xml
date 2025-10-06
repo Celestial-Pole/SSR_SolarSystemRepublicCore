@@ -28,7 +28,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>

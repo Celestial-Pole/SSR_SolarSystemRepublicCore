@@ -117,7 +117,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_LandForce_TrainingClothes</defName>
+		<defName>SSR_Apparel_EFFLandTrainingClothes</defName>
 		<label>地球联邦陆军作训服</label>
 		<description>地球联邦陆军作训服</description>
 		<graphicData>
@@ -125,7 +125,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>5</SSR_Graphene>
+			<SSR_Item_Graphene>5</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -167,7 +167,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_SpaceForce_TrainingClothes</defName>
+		<defName>SSR_Apparel_EFFSpaceTrainingClothes</defName>
 		<label>地球联邦太空军作训服</label>
 		<description>地球联邦太空军作训服</description>
 		<graphicData>
@@ -175,7 +175,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>5</SSR_Graphene>
+			<SSR_Item_Graphene>5</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -217,11 +217,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_LandForce_DressUniform</defName>
+		<defName>SSR_Apparel_EFFLandDressUniform</defName>
 		<label>地球联邦陆军军礼服</label>
 		<description>地球联邦陆军军礼服</description>
 		<costList>
-			<SSR_Graphene>7</SSR_Graphene>
+			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_DressUniform/EF_LandForce_DressUniform</texPath>
@@ -268,11 +268,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_SpaceForce_DressUniform</defName>
+		<defName>SSR_Apparel_EFFSpaceDressUniform</defName>
 		<label>地球联邦太空军军礼服</label>
 		<description>地球联邦太空军军礼服</description>
 		<costList>
-			<SSR_Graphene>7</SSR_Graphene>
+			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_DressUniform/EF_SpaceForce_DressUniform</texPath>
@@ -319,11 +319,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_MedicalClothing</defName>
+		<defName>SSR_Apparel_MedicalClothing</defName>
 		<label>外科手术衣</label>
 		<description>外科手术衣</description>
 		<costList>
-			<SSR_Graphene>7</SSR_Graphene>
+			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MedicalClothing/EF_MedicalClothing</texPath>
@@ -375,11 +375,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_EF_MiningCothing</defName>
+		<defName>SSR_Apparel_MiningCothing</defName>
 		<label>矿工制服</label>
 		<description>矿工制服</description>
 		<costList>
-			<SSR_Graphene>7</SSR_Graphene>
+			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MiningCothing/EF_MiningCothing</texPath>
@@ -537,7 +537,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_EF_LandForce_TrainingClothes_helmet</defName>
+		<defName>SSR_Apparel_EFFLandTrainingHat</defName>
 		<label>地球联邦陆军作训服帽子</label>
 		<description>地球联邦陆军作训服帽子</description>
 		<graphicData>
@@ -546,7 +546,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -559,7 +559,6 @@
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -595,7 +594,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_EF_SpaceForce_TrainingClothes_helmet</defName>
+		<defName>SSR_Apparel_EFFSpaceTrainingHat</defName>
 		<label>地球联邦太空军作训服帽子</label>
 		<description>地球联邦太空军作训服帽子</description>
 		<graphicData>
@@ -604,7 +603,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -617,7 +616,6 @@
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -653,7 +651,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_EF_LandForce_DressUniform_helmet</defName>
+		<defName>SSR_Apparel_EFFLandDressHat</defName>
 		<label>地球联邦陆军军礼服帽子</label>
 		<description>地球联邦陆军军礼服帽子</description>
 		<graphicData>
@@ -662,7 +660,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -675,7 +673,6 @@
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -711,7 +708,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_EF_SpaceForce_DressUniform_helmet</defName>
+		<defName>SSR_Apparel_EFFSpaceDressHat</defName>
 		<label>地球联邦太空军军礼服帽子</label>
 		<description>地球联邦太空军军礼服帽子</description>
 		<graphicData>
@@ -720,7 +717,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -733,7 +730,6 @@
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -769,7 +765,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_EF_MedicalClothing_helmet</defName>
+		<defName>SSR_Apparel_MedicalHat</defName>
 		<label>外科手术衣帽子</label>
 		<description>外科手术衣帽子</description>
 		<graphicData>
@@ -778,7 +774,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -791,7 +787,6 @@
 			<Mass>0.1</Mass>
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -835,7 +830,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HelmetBase">
-		<defName>SSR_EF_MiningCothing_helmet</defName>
+		<defName>SSR_Apparel_MiningHelmet</defName>
 		<label>矿工头盔</label>
 		<description>矿工头盔</description>
 		<graphicData>
@@ -844,7 +839,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<SSR_Graphene>3</SSR_Graphene>
+			<SSR_Item_Graphene>3</SSR_Item_Graphene>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -857,7 +852,6 @@
 			<Mass>0.3</Mass>
 			<EquipDelay>0.03</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -951,7 +945,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_UAVBase">
-		<defName>SSR_EF_MedicaUAV</defName>
+		<defName>SSR_Apparel_MedicaUAV</defName>
 		<label>医疗无人机</label>
 		<description>医疗无人机</description>
 		<graphicData>
@@ -969,7 +963,6 @@
 			<Mass>0</Mass>
 			<EquipDelay>0.3</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -1014,7 +1007,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_UAVBase">
-		<defName>SSR_EF_MiningUAV</defName>
+		<defName>SSR_Apparel_MiningUAV</defName>
 		<label>采矿无人机</label>
 		<description>采矿无人机</description>
 		<graphicData>
@@ -1032,7 +1025,6 @@
 			<Mass>0</Mass>
 			<EquipDelay>0.3</EquipDelay>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>

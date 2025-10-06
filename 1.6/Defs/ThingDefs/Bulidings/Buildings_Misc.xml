@@ -136,8 +136,8 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>50</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>50</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -210,8 +210,8 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>50</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>50</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>50</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -278,9 +278,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>900</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>15</SSR_ExtremeComponent>
-			<SSR_PhotonComputingCore>3</SSR_PhotonComputingCore>
+			<SSR_Item_FermiMaterial>900</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>15</SSR_Item_ExtremeComponent>
+			<SSR_Item_PhotonComputingCore>3</SSR_Item_PhotonComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>

@@ -39,7 +39,7 @@
     <!-- ==================================== Tech Level 1 =====================================-->
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_Glass</defName>
+        <defName>SSR_Item_Glass</defName>
         <label>玻璃</label>
         <description>玻璃是一种透明、坚硬的非晶态固体材料，广泛应用于建筑、汽车和日常用品。</description>
         <useHitPoints>true</useHitPoints>
@@ -74,7 +74,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_StandardConstructionElement</defName>
+        <defName>SSR_Item_StandardConstructionElement</defName>
         <label>通用构件</label>
         <description>通用构件是设计用于多种应用的标准化部件，在工业制造、建筑和机械工程中扮演着基础角色。</description>
         <graphicData>
@@ -107,7 +107,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_SpecialSteel</defName>
+        <defName>SSR_Item_SpecialSteel</defName>
         <label>特种钢</label>
         <description>特种钢是一种高强度钢材，专为提供额外的防护和耐久性而设计，具有出色的抗冲击和抗穿透能力。</description>
         <graphicData>
@@ -142,7 +142,7 @@
     <!-- ==================================== Tech Level 2 =====================================-->
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_Carbyne</defName>
+        <defName>SSR_Item_Carbyne</defName>
         <label>碳炔</label>
         <description>碳炔是一种由碳原子组成的单质，具有链状或网状结构，拥有超高强度和轻质特性。</description>
         <graphicData>
@@ -182,7 +182,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_NanoandMicroMechanicalComposite</defName>
+        <defName>SSR_Item_NanoandMicroMechanicalComposite</defName>
         <label>纳米微械复材</label>
         <description>纳米微械复材是一种由自增殖纳米机器人构成的先进材料，具有自我复制和自我修复的能力，能够适应各种极端环境和条件。</description>
         <graphicData>
@@ -220,7 +220,7 @@
     <!-- ==================================== Tech Level 3 =====================================-->
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_FermiMaterial</defName>
+        <defName>SSR_Item_FermiMaterial</defName>
         <label>费米材料</label>
         <description>费米材料以其超微尺度加工精度而独特，在本身拥有强大性能的同时，可以在微观层面上精确复制和模仿其他物质的特性。</description>
         <graphicData>
