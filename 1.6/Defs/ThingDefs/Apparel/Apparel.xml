@@ -117,7 +117,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_Apparel_EFFLandTrainingClothes</defName>
+		<defName>SSR_Apparel_EFF_LandTrainingClothes</defName>
 		<label>地球联邦陆军作训服</label>
 		<description>地球联邦陆军作训服</description>
 		<graphicData>
@@ -167,7 +167,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_Apparel_EFFSpaceTrainingClothes</defName>
+		<defName>SSR_Apparel_EFF_SpaceTrainingClothes</defName>
 		<label>地球联邦太空军作训服</label>
 		<description>地球联邦太空军作训服</description>
 		<graphicData>
@@ -217,7 +217,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_Apparel_EFFLandDressUniform</defName>
+		<defName>SSR_Apparel_EFF_LandDressUniform</defName>
 		<label>地球联邦陆军军礼服</label>
 		<description>地球联邦陆军军礼服</description>
 		<costList>
@@ -268,7 +268,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ApparelCustomBase">
-		<defName>SSR_Apparel_EFFSpaceDressUniform</defName>
+		<defName>SSR_Apparel_EFF_SpaceDressUniform</defName>
 		<label>地球联邦太空军军礼服</label>
 		<description>地球联邦太空军军礼服</description>
 		<costList>
@@ -537,7 +537,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_Apparel_EFFLandTrainingHat</defName>
+		<defName>SSR_Apparel_EFF_LandTrainingHat</defName>
 		<label>地球联邦陆军作训服帽子</label>
 		<description>地球联邦陆军作训服帽子</description>
 		<graphicData>
@@ -594,7 +594,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_Apparel_EFFSpaceTrainingHat</defName>
+		<defName>SSR_Apparel_EFF_SpaceTrainingHat</defName>
 		<label>地球联邦太空军作训服帽子</label>
 		<description>地球联邦太空军作训服帽子</description>
 		<graphicData>
@@ -651,7 +651,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_Apparel_EFFLandDressHat</defName>
+		<defName>SSR_Apparel_EFF_LandDressHat</defName>
 		<label>地球联邦陆军军礼服帽子</label>
 		<description>地球联邦陆军军礼服帽子</description>
 		<graphicData>
@@ -708,7 +708,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_Apparel_EFFSpaceDressHat</defName>
+		<defName>SSR_Apparel_EFF_SpaceDressHat</defName>
 		<label>地球联邦太空军军礼服帽子</label>
 		<description>地球联邦太空军军礼服帽子</description>
 		<graphicData>
@@ -765,7 +765,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HatBase">
-		<defName>SSR_Apparel_MedicalHat</defName>
+		<defName>SSR_Apparel_EFF_MedicalHat</defName>
 		<label>外科手术衣帽子</label>
 		<description>外科手术衣帽子</description>
 		<graphicData>
@@ -830,7 +830,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_HelmetBase">
-		<defName>SSR_Apparel_MiningHelmet</defName>
+		<defName>SSR_Apparel_EFF_MiningHelmet</defName>
 		<label>矿工头盔</label>
 		<description>矿工头盔</description>
 		<graphicData>
@@ -945,7 +945,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_UAVBase">
-		<defName>SSR_Apparel_MedicaUAV</defName>
+		<defName>SSR_Apparel_EFF_MedicaUAV</defName>
 		<label>医疗无人机</label>
 		<description>医疗无人机</description>
 		<graphicData>
@@ -1007,7 +1007,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_UAVBase">
-		<defName>SSR_Apparel_MiningUAV</defName>
+		<defName>SSR_Apparel_EFF_MiningUAV</defName>
 		<label>采矿无人机</label>
 		<description>采矿无人机</description>
 		<graphicData>

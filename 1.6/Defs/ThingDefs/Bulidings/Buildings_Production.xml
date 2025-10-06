@@ -2552,23 +2552,23 @@
 		<manualMineralProperties>
 			<li>
 				<def>SSR_Item_Carbon</def>
-				<workAmout>7000</workAmout>
+				<workAmount>7000</workAmount>
 				<yield>75</yield>
-				<value>1.2</value>
+				<marketValue>1.2</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>Steel</def>
-				<workAmout>700</workAmout>
+				<workAmount>700</workAmount>
 				<yield>75</yield>
-				<value>1.3</value>
+				<marketValue>1.3</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>Silver</def>
-				<workAmout>10000</workAmout>
+				<workAmount>10000</workAmount>
 				<yield>20</yield>
-				<value>9</value>
+				<marketValue>9</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
