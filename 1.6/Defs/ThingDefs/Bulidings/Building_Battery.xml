@@ -12,9 +12,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
@@ -103,9 +101,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
@@ -217,9 +213,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
@@ -306,9 +300,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
@@ -397,10 +389,8 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
@@ -547,9 +537,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.40</fillPercent>
