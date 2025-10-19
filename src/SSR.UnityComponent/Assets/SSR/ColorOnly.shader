@@ -2,7 +2,7 @@
 {
     Properties
     {
-        _OutlineWidth ("Outline Width", Float) = 0.015625
+        [Toggle(ENABLE_REL2ANIM)] _Rel2Anim ("Rel to Anim", Float) = 1
         _Color ("Color", Color) = (1,1,1,1) 
         _LightInModedlSpace ("Light In Model Space", Vector) = (0,0,0,0) 
     }
@@ -18,6 +18,7 @@
             #pragma vertex vert
             #pragma fragment frag
             #pragma multi_compile_instancing
+            #pragma shader_feature ENABLE_REL2ANIM
             #include "UnityCG.cginc"
 
             struct appdata
@@ -45,7 +46,11 @@
             float Rel2AnimShadow(float rel)
             {
                 rel = clamp(rel, 0.0, 1.0);
+                #ifdef ENABLE_REL2ANIM
                 return ceil(rel * 1.5) * 0.25 + 0.5;
+                #else
+                return rel * 0.5 + 0.5;
+                #endif
             }
 
             float3 LightInModedlSpace()

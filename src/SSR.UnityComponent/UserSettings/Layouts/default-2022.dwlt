@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 39
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 40
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 41
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -325,6 +325,7 @@ MonoBehaviour:
     - {fileID: -7075442898114027122, guid: 28050f4c81b83824b8aa44393b83fb4e, type: 2}
     - {fileID: -8107184822861414573, guid: e04126b7355967e4496c73274829e4df, type: 2}
     - {fileID: 2771193256979626822, guid: 07f34d1de7c0ea149a2161286801777e, type: 2}
+    - {fileID: 5278325277427520609, guid: 176b00558fe6a1a408f1c49c4e72ca21, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.8610527
       e01: 0
@@ -413,7 +414,23 @@ MonoBehaviour:
       e10: 0
       e11: 0.8610527
       e12: 0
-      e13: 86.19998
+      e13: 86.2
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8610527
+      e01: 0
+      e02: 0
+      e03: -28.052643
+      e10: 0
+      e11: 0.8610527
+      e12: 0
+      e13: 86.2
       e20: 0
       e21: 0
       e22: 1
@@ -437,7 +454,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &13
@@ -559,7 +576,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/SSR/Material/TurretT1
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -567,16 +584,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/SSR/Material/TurretT1
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\CSharp\SSR_SolarSystemRepublicCore\src\SSR.UnityComponent
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: 54560000
-    m_LastClickedID: 22100
-    m_ExpandedIDs: 0000000054560000945600009e560000a8560000d856000000ca9a3b
+    scrollPos: {x: 0, y: 45.399963}
+    m_SelectedIDs: fa4f0000
+    m_LastClickedID: 20474
+    m_ExpandedIDs: 00000000c84f0000d64f0000da4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +621,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000054560000
+    m_ExpandedIDs: 00000000c84f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -632,7 +649,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a44e0000f44f0000
+    m_ExpandedInstanceIDs: c6230000a44e0000f44f0000ea4f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -745,24 +762,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94560000
+      scrollPos: {x: 0, y: 98.79999}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38fafeffd2fafeff86fbfeff0efcfeffe2fcfeffd6fdfefffa78ffffe679ffffa881ffff2a8bffffc0e3ffffa2e4ffff6ae7ffffc8f1ffff30fbffff
+      m_ExpandedIDs: 0840d7ff0c40d7ff8252d7ff3c53d7ff30fbffffb24d0000e84d00004e4e0000544e00007c4e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: "\u7ACB\u65B9\u4F53.003"
+        m_OriginalName: "\u7ACB\u65B9\u4F53.003"
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -2670580
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1116,9 +1133,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.0364685, y: 8.149435, z: -2.6377962}
+    m_Target: {x: -18.208548, y: 2.232722, z: 3.2054932}
     speed: 2
-    m_Value: {x: -13.0364685, y: 8.149435, z: -2.6377962}
+    m_Value: {x: -18.208548, y: 2.232722, z: 3.2054932}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1164,13 +1181,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12188354, y: 0.63663584, z: -0.10292682, w: 0.75460446}
+    m_Target: {x: -0.06357481, y: 0.4206575, z: -0.03571922, w: -0.9067341}
     speed: 2
-    m_Value: {x: 0.12290194, y: 0.635548, z: -0.10353399, w: 0.755152}
+    m_Value: {x: -0.063391425, y: 0.42081273, z: -0.035716332, w: -0.9042248}
   m_Size:
-    m_Target: 0.8560146
+    m_Target: 10.969684
     speed: 2
-    m_Value: 0.8560146
+    m_Value: 11.48658
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1274,7 +1291,7 @@ MonoBehaviour:
       y: 21
       width: 961.19995
       height: 573.2
-    m_Scale: {x: 0.99999994, y: 0.9999999}
+    m_Scale: {x: 0.99999994, y: 0.99999994}
     m_Translation: {x: 480.59998, y: 286.6}
     m_MarginLeft: 0
     m_MarginRight: 0
