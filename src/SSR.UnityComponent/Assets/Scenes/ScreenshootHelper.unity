@@ -200,7 +200,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 3.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -231,7 +231,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1001 &1660512630
+--- !u!1001 &1042777846
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -239,71 +239,66 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2521141366675345310, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 2815139193735796980, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: TurretT1
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370741, guid: cd706a8121dacfe47a0cb52c564eaa3b,
+    - target: {fileID: 6731885727769921484, guid: 22f9effa1e35d104ba86dc2eaafaa05f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3096922383908370743, guid: cd706a8121dacfe47a0cb52c564eaa3b,
-        type: 3}
-      propertyPath: m_Name
-      value: WindTurbineT1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd706a8121dacfe47a0cb52c564eaa3b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 22f9effa1e35d104ba86dc2eaafaa05f, type: 3}
 --- !u!1 &1846947170
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,4 +505,4 @@ SceneRoots:
   - {fileID: 426143195}
   - {fileID: 1931182726}
   - {fileID: 1846947174}
-  - {fileID: 1660512630}
+  - {fileID: 1042777846}
