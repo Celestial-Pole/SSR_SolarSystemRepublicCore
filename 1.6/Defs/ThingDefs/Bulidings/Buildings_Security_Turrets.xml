@@ -4,18 +4,18 @@
   <!--=============== Mini-turret ===============-->
 
   <ThingDef ParentName="BuildingBase">
-    <defName>SSR_TurretT1_3X3</defName>
+    <defName>SSR_TurretT1_3X</defName>
     <label>turret T1 3x3</label>
     <description>Object for test 3D turret</description>
-    <thingClass>Building_TurretGun</thingClass>
+    <thingClass>FS_SSR.Defense.Turret_SSR</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <drawHighlight>true</drawHighlight>
     <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
-    <size>(2,2)</size>
+    <size>(3,3)</size>
     <graphicData>
       <texPath>Things/Building/Turret/TurretT1_3x3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4.5,4.5)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
@@ -24,7 +24,7 @@
         <offset>(0,0,0)</offset>
       </shadowData>
     </graphicData>
-    <uiIconPath>Things/Building/Security/TurretMini_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Turret/TurretT1_3x3</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
@@ -86,7 +86,7 @@
     <building>
       <combatPower>45</combatPower>   <!-- same as a scavenger -->
       <ai_combatDangerous>true</ai_combatDangerous>
-      <turretGunDef>Gun_MiniTurret</turretGunDef>
+      <turretGunDef>Gun_SSRTurretT1_3X</turretGunDef>
       <turretTopDrawSize>0</turretTopDrawSize>
       <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
     </building>
@@ -112,7 +112,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_SSRTurretT1</defName>
+    <defName>Bullet_SSRTurretT1_3X</defName>
     <label>turret T1 3x3 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -126,7 +126,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
-    <defName>Gun_SSRTurretT1</defName>
+    <defName>Gun_SSRTurretT1_3X</defName>
     <label>turret T1 3x3 gun</label>
     <description>A simple automatic gun made to be mounted on a turret.</description>
     <graphicData>
@@ -146,7 +146,7 @@
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
-        <defaultProjectile>Bullet_SSRTurretT1</defaultProjectile>
+        <defaultProjectile>Bullet_SSRTurretT1_3X</defaultProjectile>
         <warmupTime>0</warmupTime>
         <range>64.9</range>
         <burstShotCount>1</burstShotCount>
