@@ -103,8 +103,8 @@
         <rotationSpeed>20</rotationSpeed>
         <rotationTransformPath>
           <li>
-            <key>Transform/TurretTop</key>
-            <value>(0, 0,-1)</value>
+            <key>Transform_X/Transform_Z/TurretTop</key>
+            <value>(0, 0, 1)</value>
           </li>
         </rotationTransformPath>
       </li>
