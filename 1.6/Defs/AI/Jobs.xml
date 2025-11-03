@@ -16,7 +16,7 @@
 
 	<!--JobDef>
 		<defName>SSR_Job_PalmineDeliverMaterial</defName>
-		<driverClass>FS_SSR.Palmine.JobDriver_ erMaterial</driverClass>
+		<driverClass>FS_SSR.PalMine.JobDriver_ erMaterial</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
@@ -24,7 +24,7 @@
 
 	<JobDef>
 		<defName>SSR_Job_EnterPalmine</defName>
-		<driverClass>FS_SSR.Palmine.JobDriver_EnterMine</driverClass>
+		<driverClass>FS_SSR.PalMine.JobDriver_EnterMine</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>

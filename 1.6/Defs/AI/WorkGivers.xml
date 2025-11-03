@@ -78,7 +78,7 @@
 	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_PalmineDeliverMaterial</defName>
 		<label>fill awb</label>
-		<giverClass>FS_SSR.Palmine.WorkGiver_PalMineDeliverMaterial</giverClass>
+		<giverClass>FS_SSR.PalMine.WorkGiver_PalMineDeliverMaterial</giverClass>
 		<workType>Hauling</workType>
 		<emergency>false</emergency>
 		<verb>fill awb...</verb>

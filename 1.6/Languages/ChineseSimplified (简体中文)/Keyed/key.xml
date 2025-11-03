@@ -41,8 +41,8 @@
 	<SSR_升级建筑>升级建筑</SSR_升级建筑>
 	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
-	<SSR_DupWorldBuilding>复制世界建筑</SSR_DupWorldBuilding>
-	<SSR_DupMapBuilding>复制当前地图建筑</SSR_DupMapBuilding>
+	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>
+	<SSR_DupMapBuilding>当前地图内重复的建筑</SSR_DupMapBuilding>
 	<SSR_显示消防花洒层>显示消防花洒层</SSR_显示消防花洒层>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
 	<SSR_SatelliteFoundDeepMineDesc>卫星发现深矿井</SSR_SatelliteFoundDeepMineDesc>
@@ -106,7 +106,7 @@
 	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
 	<SSR_Palminer_Layer>标准化垂直矿井-等级：{0}</SSR_Palminer_Layer>
 	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}</SSR_Palminer_Palmine>
-	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
+	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}层 {1}号</SSR_Palminer_TunnelDig>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
 	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
 	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>

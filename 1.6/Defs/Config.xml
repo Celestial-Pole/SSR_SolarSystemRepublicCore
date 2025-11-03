@@ -20,8 +20,8 @@
 		<palmineDefaultMineralProp>			<!-- 帕鲁矿井的矿物的默认属性 -->
 			<workAmount>7500</workAmount>
 			<yield>75</yield>
-			<innerStorageCapacity>1000000</innerStorageCapacity>
 			<stockPerTunnel>50000</stockPerTunnel>
+			<innerStorageCapacity>1000000</innerStorageCapacity>
 		</palmineDefaultMineralProp>
 		<mentalDefenseTechRequire>SSR_Research_MentalProtectionTechnology</mentalDefenseTechRequire>		<!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
 	</Def>
