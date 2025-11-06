@@ -22,7 +22,7 @@
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>Palmine</modelName>
-		<UIClass>FS_SSR.UI.SSRWindow_PalmineConsole</UIClass>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
 
 	<AK_DLL.UIPrefabDef>
@@ -31,7 +31,7 @@
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>StoreHouse UI</modelName>
-		<UIClass>FS_SSR.UI.SSRWindow_PalmineStorage</UIClass>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
 
 	<AK_DLL.UIPrefabDef>

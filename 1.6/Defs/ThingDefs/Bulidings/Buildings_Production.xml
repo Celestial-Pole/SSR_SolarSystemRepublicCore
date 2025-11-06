@@ -2225,6 +2225,11 @@
 					<li>
 						<key>1</key>
 						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/Mine/MineT2</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>7</drawSize>
+							</graphicData>
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
@@ -2234,10 +2239,6 @@
 							</materials>
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>MinerT1</texPath>
-								<drawSize>(16,16)</drawSize>
-							</graphicData>
 							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
@@ -2245,6 +2246,11 @@
 					<li>
 						<key>2</key>
 						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/Mine/MineT3</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>7</drawSize>
+							</graphicData>
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
@@ -2254,11 +2260,6 @@
 							</materials>
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
-								<drawSize>(3,2)</drawSize>
-							</graphicData>
 							<requireResearch>SSR_Research_AdvancedMaterialsScience</requireResearch>
 							<showUpgradeGizmo>true</showUpgradeGizmo>
 						</value>
