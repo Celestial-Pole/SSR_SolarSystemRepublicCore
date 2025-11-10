@@ -124,7 +124,7 @@
       <damageDef>BombSuper</damageDef>
       <damageAmountBase>400</damageAmountBase>
       <explosionRadius>0.9</explosionRadius>
-      <speed>150</speed>
+      <speed>800</speed>
     </projectile>
   </ThingDef>
 
@@ -285,7 +285,7 @@
       <damageDef>BombSuper</damageDef>
       <damageAmountBase>800</damageAmountBase>
       <explosionRadius>1.8</explosionRadius>
-      <speed>150</speed>
+      <speed>400</speed>
     </projectile>
   </ThingDef>
 
@@ -444,8 +444,8 @@
     </graphicData>
     <projectile>
       <damageDef>BombSuper</damageDef>
-      <damageAmountBase>800</damageAmountBase>
-      <explosionRadius>3.9</explosionRadius>
+      <damageAmountBase>1600</damageAmountBase>
+      <explosionRadius>3.6</explosionRadius>
       <speed>200</speed>
     </projectile>
   </ThingDef>
