@@ -115,6 +115,7 @@
 	<SSR_升级挖机>升级挖机</SSR_升级挖机>
 	<SSR_工作派遣>工作派遣</SSR_工作派遣>
 	<SSR_停止工作>停止工作</SSR_停止工作>
+	<SSR_取消升级>取消升级</SSR_取消升级>
 	
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>

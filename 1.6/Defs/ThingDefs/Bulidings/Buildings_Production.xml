@@ -2338,6 +2338,8 @@
 		</autoMineralDiggerEfficiency>
 		<autoLayerDiggerCost>
 			<li>
+				<workAmt>1200</workAmt>
+				<requireResearch>SSR_Research_BasicMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_StandardConstructionElement</item>
@@ -2356,10 +2358,10 @@
 						<amount>3</amount>
 					</li>
 				</materials>
-				<workAmt>1200</workAmt>
-				<requireResearch>SSR_Research_BasicMineMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>1600</workAmt>
+				<requireResearch>SSR_Research_Medium-levelMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_Carbyne</item>
@@ -2382,10 +2384,10 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>1600</workAmt>
-				<requireResearch>SSR_Research_Medium-levelMineMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>2000</workAmt>
+				<requireResearch>SSR_Research_AdvancedMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_FermiMaterial</item>
@@ -2404,12 +2406,12 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>2000</workAmt>
-				<requireResearch>SSR_Research_AdvancedMineMiningAutomation</requireResearch>
 			</li>
 		</autoLayerDiggerCost>
 		<autoTunnelDiggerCost>
 			<li>
+				<workAmt>450</workAmt>
+				<requireResearch>SSR_Research_BasicTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_StandardConstructionElement</item>
@@ -2428,10 +2430,10 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>450</workAmt>
-				<requireResearch>SSR_Research_BasicTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>600</workAmt>
+				<requireResearch>SSR_Research_Medium-levelTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_Carbyne</item>
@@ -2454,10 +2456,10 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>600</workAmt>
-				<requireResearch>SSR_Research_Medium-levelTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>1000</workAmt>
+				<requireResearch>SSR_Research_AdvancedTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_FermiMaterial</item>
@@ -2476,12 +2478,12 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>1000</workAmt>
-				<requireResearch>SSR_Research_AdvancedTunnelMiningAutomation</requireResearch>
 			</li>
 		</autoTunnelDiggerCost>
 		<autoMineralDiggerCost>
 			<li>
+				<workAmt>300</workAmt>
+				<requireResearch>SSR_Research_BasicMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_StandardConstructionElement</item>
@@ -2500,10 +2502,10 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>300</workAmt>
-				<requireResearch>SSR_Research_BasicMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>500</workAmt>
+				<requireResearch>SSR_Research_Medium-levelMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_Carbyne</item>
@@ -2522,10 +2524,10 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>500</workAmt>
-				<requireResearch>SSR_Research_Medium-levelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>700</workAmt>
+				<requireResearch>SSR_Research_AdvancedMiningAutomation</requireResearch>
 				<materials>
 					<li>
 						<item>SSR_Item_FermiMaterial</item>
@@ -2540,8 +2542,6 @@
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>700</workAmt>
-				<requireResearch>SSR_Research_AdvancedMiningAutomation</requireResearch>
 			</li>
 		</autoMineralDiggerCost>
 		<minableStones>
