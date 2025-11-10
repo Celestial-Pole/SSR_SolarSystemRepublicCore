@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2784057137
+CRC: 3941081473
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6bd883eac094f932f4068ca1380635cb
+    Hash: fd1c057fc4da07dd7840ed34a401f2df
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0b72813a9634c174004524115da593d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6bd883eac094f932f4068ca1380635cb
+    Hash: fd1c057fc4da07dd7840ed34a401f2df
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -186,9 +186,10 @@ Assets:
 - Assets/SSR/Texture/WaterDigger/South/Fundation.png
 - Assets/SSR/Animate/MinerT3/BlackHoleOpen.anim
 - "Assets/SSR/Mesh/t1\u7535\u78C1\u70AE-3.blend"
+- Assets/SSR/Prefab/TurretT1_7X.prefab
 - Assets/SSR/Texture/LandDigger/West/Fundation.png
-- Assets/SSR/Texture/MinerT2/DoorParts/Door6.png
 - Assets/SSR/Texture/MinerT1/DoorParts/Door6.png
+- Assets/SSR/Texture/MinerT2/DoorParts/Door6.png
 - Assets/SSR/Material/WindTurbineT2/Pole.mat
 - Assets/SSR/Texture/RocketMK1/LunchPad.png
 - Assets/SSR/Material/MinerT2/LifterPartA.mat

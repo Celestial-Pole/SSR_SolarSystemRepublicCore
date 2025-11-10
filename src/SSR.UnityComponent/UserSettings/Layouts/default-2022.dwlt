@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 103
+  controlID: 119
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 42
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 43
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -576,7 +576,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SSR/Material/TurretT1
+    - Assets/SSR/Mesh
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -584,16 +584,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SSR/Material/TurretT1
+  - Assets/SSR/Mesh
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\CSharp\SSR_SolarSystemRepublicCore\src\SSR.UnityComponent
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 45.399963}
-    m_SelectedIDs: 2a510000
-    m_LastClickedID: 20778
-    m_ExpandedIDs: 0000000016510000285100002c51000000ca9a3b
+    m_SelectedIDs: 0a540000
+    m_LastClickedID: 21514
+    m_ExpandedIDs: 00000000dc530000f2530000f653000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,7 +621,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016510000
+    m_ExpandedIDs: 00000000dc530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,10 +762,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 187.79999}
-      m_SelectedIDs: be4c0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: ee550000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2a9effffc4600000ee600000386100003e610000406100007061000090610000f261000030620000
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_WindowGUID: 0461045efc87fa54cbea37609ac7fa76
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 4611686018427387905
+  m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.11949, y: 5.523081, z: -1.3526059}
+    m_Target: {x: -7.3165264, y: 3.5958624, z: -2.0639026}
     speed: 2
     m_Value: {x: -2.11949, y: 5.523081, z: -1.3526059}
   m_RenderMode: 0
@@ -1181,11 +1181,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.262179, y: 0.3968011, z: -0.11939706, w: 0.8716334}
+    m_Target: {x: -0.07334253, y: 0.524631, z: -0.048991416, w: -0.84758854}
     speed: 2
-    m_Value: {x: 0.26618856, y: 0.39722976, z: -0.121608935, w: 0.8698066}
+    m_Value: {x: 0.26217896, y: 0.39680108, z: -0.11939705, w: 0.8716334}
   m_Size:
-    m_Target: 0.6536699
+    m_Target: 1.3790674
     speed: 2
     m_Value: 0.6536699
   m_Ortho:
@@ -1291,7 +1291,7 @@ MonoBehaviour:
       y: 21
       width: 961.19995
       height: 573.2
-    m_Scale: {x: 0.9999999, y: 0.9999999}
+    m_Scale: {x: 0.99999994, y: 0.9999999}
     m_Translation: {x: 480.59998, y: 286.6}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1299,9 +1299,9 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -480.60004
+      x: -480.6
       y: -286.60004
-      width: 961.2001
+      width: 961.2
       height: 573.2001
     m_MinimalGUI: 1
   m_defaultScale: 0.99999994

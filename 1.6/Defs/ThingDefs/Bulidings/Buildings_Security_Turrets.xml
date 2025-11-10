@@ -195,7 +195,7 @@
       <li>BuildingsSecurity</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>1000</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>1800</WorkToBuild>
       <Mass>8</Mass>
@@ -261,7 +261,7 @@
     </researchPrerequisites>
     <modExtensions>
       <li Class="FS_SSR.Incidents.DefExt_SSRTurretInfo">
-        <rotationSpeed>20</rotationSpeed>
+        <rotationSpeed>15</rotationSpeed>
         <rotationTransformPath>
           <li>
             <key>Transform_X/Transform_Z/TurretTop</key>
@@ -313,6 +313,167 @@
         <defaultProjectile>Bullet_SSRTurretT1_5X</defaultProjectile>
         <warmupTime>0</warmupTime>
         <range>64.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <forcedMissRadius>0</forcedMissRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!--=============== 5X5 ===============-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_TurretT1_7X7</defName>
+    <label>turret T1 7x7</label>
+    <description>Object for test 3D turret</description>
+    <thingClass>FS_SSR.Defense.Turret_SSR</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+    <drawHighlight>true</drawHighlight>
+    <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
+    <size>(7,7)</size>
+    <graphicData>
+      <texPath>Things/Building/Turret/TurretT1_7x7</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(7,7)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(7,3,7)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Turret/TurretT1_7x7_UI</uiIconPath>
+    <uiIconScale>3</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>8</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>80</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+          <li>Assets/SSR/Prefab/TurretT1_7X.prefab</li>
+				</leveledPrefabPaths>
+			</li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <building>
+      <combatPower>45</combatPower>   <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_SSRTurretT1_7X</turretGunDef>
+      <turretTopDrawSize>0</turretTopDrawSize>
+      <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>GunTurrets</li>
+    </researchPrerequisites>
+    <modExtensions>
+      <li Class="FS_SSR.Incidents.DefExt_SSRTurretInfo">
+        <rotationSpeed>10</rotationSpeed>
+        <rotationTransformPath>
+          <li>
+            <key>Transform_X/Transform_Z/TurretTop</key>
+            <value>(0, 0, 1)</value>
+          </li>
+        </rotationTransformPath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SSRTurretT1_7X</defName>
+    <label>turret T1 7x57 bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>3.5</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>BombSuper</damageDef>
+      <damageAmountBase>800</damageAmountBase>
+      <explosionRadius>3.9</explosionRadius>
+      <speed>200</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_SSRTurretT1_7X</defName>
+    <label>turret T1 7x7 gun</label>
+    <description>A simple automatic gun made to be mounted on a turret.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMini_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_SSRTurretT1_7X</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>131.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>Shot_TurretSniper</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
