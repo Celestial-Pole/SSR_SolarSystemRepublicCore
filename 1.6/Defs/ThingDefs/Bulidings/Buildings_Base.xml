@@ -99,7 +99,8 @@
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">				
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
