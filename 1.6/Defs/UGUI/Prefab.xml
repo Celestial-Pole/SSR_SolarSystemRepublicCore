@@ -16,15 +16,15 @@
 		<modelName>EventSystem</modelName>
 	</AK_DLL.UIPrefabDef>
 
-   <!--矿井-->
-	<AK_DLL.UIPrefabDef>
+	<!-- 矿井 -->
+	<!--AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineConsole</defName>
 		<label>palmine console</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>Palmine</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
-	</AK_DLL.UIPrefabDef>
+	</AK_DLL.UIPrefabDef-->
 
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineStorage</defName>
@@ -36,12 +36,12 @@
 	</AK_DLL.UIPrefabDef>
 
 	<AK_DLL.UIPrefabDef>
-		<defName>SSR_Prefab_PalMineConsoleUI</defName>
+		<defName>SSR_Prefab_PalMineConsole</defName>
 		<label>palmine console ui</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>palmineui</assetBundle>
-		<modelName>MineTunnelUI</modelName>
-		<UIClass>FS_SSR.UI.SSRWindow_PalMineUI</UIClass>
+		<modelName>MineUIConsole</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
 	<!---->
 

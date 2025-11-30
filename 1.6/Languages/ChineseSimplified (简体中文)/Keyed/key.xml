@@ -104,7 +104,7 @@
 	<SSR_打开矿井UIDesc>打开/关闭标准化垂直矿井UI</SSR_打开矿井UIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
 	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
-	<SSR_Palminer_Layer>标准化垂直矿井-等级：{0}</SSR_Palminer_Layer>
+	<SSR_Palminer_Layer>标准化垂直矿井-矿层工作：{0}</SSR_Palminer_Layer>
 	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_Palminer_Palmine>
 	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_Palminer_TunnelDig>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
