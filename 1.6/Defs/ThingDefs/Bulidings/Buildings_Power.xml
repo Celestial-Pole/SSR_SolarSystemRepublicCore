@@ -636,7 +636,7 @@
 		<defName>SSR_Building_PortableGenerator</defName>
 		<label>便携式发电机</label>
 		<description>便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。</description>
-		<thingClass>Building</thingClass>
+		<thingClass>FS_SSR.Industry.Production.Thing_SSRGenerator</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
