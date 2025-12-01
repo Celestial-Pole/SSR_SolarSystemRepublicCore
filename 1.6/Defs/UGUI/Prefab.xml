@@ -26,14 +26,14 @@
 		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
 	</AK_DLL.UIPrefabDef-->
 
-	<AK_DLL.UIPrefabDef>
+	<!--AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineStorage</defName>
 		<label>palmine storage</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>StoreHouse UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
-	</AK_DLL.UIPrefabDef>
+	</AK_DLL.UIPrefabDef-->
 
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineConsole</defName>
@@ -42,6 +42,15 @@
 		<assetBundle>palmineui</assetBundle>
 		<modelName>MineUIConsole</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineStorage</defName>
+		<label>palmine storage</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>palmineui</assetBundle>
+		<modelName>MineUIStorage</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
 	<!---->
 
