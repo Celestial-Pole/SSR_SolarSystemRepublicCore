@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetBundles.cs" />
+    <Compile Include="Assets\Script\ScreenShootHelper.cs" />
     <None Include="Assets\Main.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>E:\UnityEngine\2022.3.35f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
