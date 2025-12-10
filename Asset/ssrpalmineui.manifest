@@ -1,0 +1,130 @@
+ManifestFileVersion: 0
+CRC: 2757441282
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3fd0f92d51038a17e352164c326ac3dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8268a3dd19890b5b1532465ac82a31fa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefab/Satellite UI.prefab
+- Assets/Prefab/New Mars Storehouse UI/Garbage Classification/One Level _Panel.prefab
+- Assets/Prefab/New Mars Storehouse UI/Garbage Classification/Three Level_Btn.prefab
+- Assets/Prefab/Secondary Tree/2/Hangar Tree.prefab
+- Assets/Prefab/Secondary Tree/1/Address Scanning Satellite/Address Scanning Satellite
+  Upgrade.prefab
+- Assets/Prefab/New Mars Storehouse UI/New Mars Storehouse UI.prefab
+- Assets/Prefab/Secondary Tree/2/Particle Collection Platform/Particle Collection
+  Platform Secondary Menu.prefab
+- Assets/Prefab/Secondary Tree/1/Reconnaissance Satellite/Reconnaissance Satellite
+  Menu Tree.prefab
+- Assets/Prefab/Palmine Tunnel Template.prefab
+- Assets/TextMesh Pro/youyuanSDF_CHSCHTJP.asset
+- Assets/Prefab/Secondary Tree/1/Meteorological Satellite/Meteorological Satellite
+  Secondary Menu.prefab
+- Assets/Prefab/Mars Storehouse UI.prefab
+- Assets/Prefab/Secondary Tree/1/Reconnaissance Satellite/Reconnaissance Satellite
+  Secondary Menu.prefab
+- Assets/Prefab/Secondary Tree/1/Address Scanning Satellite/Address Scanning Satellite
+  Menu Tree.prefab
+- Assets/Prefab/Secondary Tree/1/Solar Energy/Solar Energy Menu.prefab
+- Assets/Prefab/New Mars Storehouse UI/Main Classification.prefab
+- Assets/Prefab/New Mars Storehouse UI/New Item_Btn.prefab
+- Assets/Prefab/Secondary Tree/1/Solar Energy/Solar Energy Menu Tree.prefab
+- Assets/Prefab/Secondary Tree/2/Orbital Defense Platform/Orbital Defense Platform
+  Tree.prefab
+- Assets/Prefab/Palmine.prefab
+- Assets/Prefab/Secondary Tree/Third Level Menu.prefab
+- Assets/Prefab/Primary Tree/Satellite Tree.prefab
+- Assets/Prefab/Item_Btn.prefab
+- Assets/Prefab/Secondary Tree/2/Space Elevator/Space Elevator Tree.prefab
+- Assets/Prefab/New Mars Storehouse UI/Garbage Classification/Two Level _Panel.prefab
+- Assets/Prefab/Secondary Tree/2/Hangar/Hangar Secondary Menu.prefab
+- Assets/Prefab/Palmine Layer Template.prefab
+- Assets/Prefab/New Mars Storehouse UI/Garbage Classification/One Level Scrool Rect.prefab
+- Assets/Prefab/Storehouse UI.prefab
+- Assets/Prefab/Secondary Tree/1/Orbital Bombardment Satellite/Orbital Bombardment
+  Satellite Menu Tree.prefab
+- Assets/Prefab/Help Panel/Help Panel.prefab
+- Assets/Prefab/EventSystem.prefab
+- Assets/Prefab/Item Sort Toggel.prefab
+- Assets/Prefab/Secondary Tree/2/Hangar/Hangar Tree.prefab
+- Assets/Prefab/Primary Tree/Track Platform Tree.prefab
+- Assets/Prefab/Secondary Tree/2/Particle Collection Platform/Particle Collection
+  Platform Tree.prefab
+- Assets/Prefab/Secondary Tree/1/Orbital Bombardment Satellite/Orbital Bombardment
+  Satellite Secondary Menu.prefab
+- Assets/Prefab/Mineral_Bnt.prefab
+- Assets/Prefab/Secondary Tree/2/Space Elevator/Space Elevator Secondary Menu.prefab
+- Assets/Prefab/Secondary Tree/Secondary Menu Tree.prefab
+- Assets/Prefab/Secondary Tree/1/Meteorological Satellite/Meteorological Satellite
+  Menu Tree.prefab
+Dependencies: []
