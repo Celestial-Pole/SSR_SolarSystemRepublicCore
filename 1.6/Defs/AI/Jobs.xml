@@ -9,6 +9,14 @@
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef-->
 
+	<JobDef>
+		<defName>SSR_Job_FillBuildingGeneric</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_RefuelGeneric</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
 	<!-- ==================================== 火力发电站 =====================================-->
 
 
@@ -32,6 +40,14 @@
 
 	<!-- ==================================== 洗衣机 ===================================== -->
 
+	<JobDef>
+		<defName>SSR_Job_FillLaundryUnited</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryUnited</driverClass>
+		<reportString>请填写工作描述</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
 	<!-- JobDef>
 		<defName>SSR_Job_FillLaundryStain</defName>
 		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryStain</driverClass>
@@ -54,4 +70,15 @@
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef -->
+
+	<!-- ==================================== 复制机 ===================================== -->
+
+	<JobDef>
+		<defName>SSR_Job_FillDuplicator</defName>
+		<driverClass>FS_SSR.Production.JobDriver_DeliverDuplicator</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
 </Defs>

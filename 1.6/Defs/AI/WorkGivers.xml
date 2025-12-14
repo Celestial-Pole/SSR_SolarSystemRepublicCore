@@ -65,14 +65,6 @@
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<JobDef>
-		<defName>SSR_Job_FillBuildingGeneric</defName>
-		<driverClass>FS_SSR.Generic.JobDriver_RefuelGeneric</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
 	<!-- ==================================== 矿井 =====================================-->
 
 	<!--WorkGiverDef>
@@ -119,13 +111,6 @@
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<JobDef>
-		<defName>SSR_Job_FillLaundryUnited</defName>
-		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryUnited</driverClass>
-		<reportString>请填写工作描述</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
 	<!-- ==================================== 装备整备台 =====================================-->
 
 	<WorkGiverDef>
@@ -140,6 +125,24 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<!-- ==================================== 复制机 ===================================== -->
+
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillDuplicator</defName>
+		<label>复制物品</label>
+		<giverClass>FS_SSR.Production.WorkGiver_FillDuplicator</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>复制物品</verb>
+		<gerund>复制物品</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
 	</WorkGiverDef>
 
 </Defs>

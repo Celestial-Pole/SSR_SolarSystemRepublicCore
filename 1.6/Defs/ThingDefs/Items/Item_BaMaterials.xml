@@ -245,6 +245,7 @@
                 <li>Stony</li>
                 <li>Fabric</li>
                 <li>Metallic</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
             </categories>
             <statFactors>
                 <MaxHitPoints>30</MaxHitPoints>
