@@ -130,9 +130,9 @@
 	<!-- ==================================== 复制机 ===================================== -->
 
 	<WorkGiverDef>
-		<defName>SSR_WorkGiver_FillDuplicator</defName>
+		<defName>SSR_WorkGiver_FillReplicator</defName>
 		<label>复制物品</label>
-		<giverClass>FS_SSR.Production.WorkGiver_FillDuplicator</giverClass>
+		<giverClass>FS_SSR.Production.WorkGiver_FillReplicator</giverClass>
 		<workType>Hauling</workType>
 		<emergency>false</emergency>
 		<verb>复制物品</verb>

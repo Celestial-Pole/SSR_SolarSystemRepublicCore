@@ -74,8 +74,8 @@
 	<!-- ==================================== 复制机 ===================================== -->
 
 	<JobDef>
-		<defName>SSR_Job_FillDuplicator</defName>
-		<driverClass>FS_SSR.Production.JobDriver_DeliverDuplicator</driverClass>
+		<defName>SSR_Job_DeliverReplicator</defName>
+		<driverClass>FS_SSR.Production.JobDriver_DeliverReplicator</driverClass>
 		<reportString>desc</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>

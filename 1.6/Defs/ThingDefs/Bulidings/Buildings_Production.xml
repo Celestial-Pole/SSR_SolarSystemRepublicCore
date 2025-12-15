@@ -1559,15 +1559,15 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Building_FermiDuplicator</defName>
+		<defName>SSR_Building_ReplicatorMachine</defName>
 		<label>复制机</label>
 		<description>复制机。</description>
-		<thingClass>FS_SSR.Production.Building_Duplicator</thingClass>
+		<thingClass>FS_SSR.Production.Building_Replicator</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/ReplicatorMachine/ReplicatorMachine</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 		</graphicData>
 		<size>(3,2)</size>
@@ -2646,6 +2646,7 @@
 			</shadowData>
 		</graphicData>
 		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_UI</uiIconPath>
+		<uiIconScale>1.75</uiIconScale>
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -2727,6 +2728,7 @@
 			</shadowData>
 		</graphicData>
 		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger_UI</uiIconPath>
+		<uiIconScale>1.75</uiIconScale>
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -2834,7 +2836,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Building_Warehouse</defName>
+		<defName>SSR_Building_CentralStorageUnit</defName>
 		<label>中央存储单元</label>
 		<description>中央存储单元。</description>
 		<thingClass>Building</thingClass>
@@ -2870,7 +2872,6 @@
 		</costList>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<constructEffect>ConstructMetal</constructEffect>
-		<!--End-->
 		<comps>
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffset>5000</capacityOffset>
