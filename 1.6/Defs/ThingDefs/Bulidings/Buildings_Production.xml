@@ -2647,7 +2647,7 @@
 			</shadowData>
 		</graphicData>
 		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_UI</uiIconPath>
-		<uiIconScale>1.75</uiIconScale>
+		<uiIconScale>1.8</uiIconScale>
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
