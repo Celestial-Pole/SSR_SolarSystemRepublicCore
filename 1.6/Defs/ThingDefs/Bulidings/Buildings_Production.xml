@@ -1605,6 +1605,7 @@
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
 			<li Class="FS_SSR.Generic.TCP_ThingContainer">
 				<showEjectGizmo>false</showEjectGizmo>
+				<dropOnDestroy>true</dropOnDestroy>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ConditionalTimer">
 				<interval>1000</interval>
@@ -2281,7 +2282,7 @@
 						<key>1</key>
 						<value>
 							<graphicData>
-								<texPath>Things/Building/Production/Mine/MineT2</texPath>
+								<texPath>Things/Building/Production/Mine/T2Mine</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>16</drawSize>
 							</graphicData>
@@ -2302,7 +2303,7 @@
 						<key>2</key>
 						<value>
 							<graphicData>
-								<texPath>Things/Building/Production/Mine/MineT3</texPath>
+								<texPath>Things/Building/Production/Mine/T3Mine</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>16</drawSize>
 							</graphicData>
@@ -2821,7 +2822,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<size>(1,1)</size>
 		<building>
-			<isEdifice>false</isEdifice>
+			<isEdifice>true</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
@@ -2845,7 +2846,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/CentralStorageUnit/CentralStorageUnit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,3)</drawSize>
+			<drawSize>3</drawSize>
 		</graphicData>
 		<size>(3,3)</size>
 		<altitudeLayer>Building</altitudeLayer>
@@ -2863,7 +2864,7 @@
 			<Beauty>1</Beauty>
 		</statBases>
 		<building>
-			<isEdifice>false</isEdifice>
+			<isEdifice>true</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
@@ -2874,7 +2875,55 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<comps>
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
-				<capacityOffset>5000</capacityOffset>
+				<capacityOffsetPerLevel>
+					<li>5000</li>
+					<li>6000</li>
+					<li>7000</li>
+				</capacityOffsetPerLevel>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/CentralStorageUnit/T2CentralStorageUnit</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>3</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<!--requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch-->
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>80</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/CentralStorageUnit/T3CentralStorageUnit</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>3</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<!--requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch-->
+							<materials>
+								<li>
+									<item>SSR_Item_FermiMaterial</item>
+									<amount>80</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+				</levels>
 			</li>
 		</comps>
 	</ThingDef>
