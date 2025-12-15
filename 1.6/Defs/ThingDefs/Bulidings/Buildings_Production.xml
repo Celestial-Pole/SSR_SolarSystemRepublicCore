@@ -2901,6 +2901,9 @@
 									<amount>80</amount>
 								</li>
 							</materials>
+							<compPostEffects>
+								<li Class="FS_SSR.Storage.CUPE_ExpandMarsCapacity" />
+							</compPostEffects>
 						</value>
 					</li>
 					<li>
@@ -2921,6 +2924,9 @@
 									<amount>80</amount>
 								</li>
 							</materials>
+							<compPostEffects>
+								<li Class="FS_SSR.Storage.CUPE_ExpandMarsCapacity" />
+							</compPostEffects>
 						</value>
 					</li>
 				</levels>
