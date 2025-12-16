@@ -2710,7 +2710,7 @@
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
-		<specialDisplayRadius>10.0</specialDisplayRadius>
+		<specialDisplayRadius>2</specialDisplayRadius>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -2719,7 +2719,7 @@
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
-				<radius>(10,10)</radius>
+				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
@@ -2805,7 +2805,7 @@
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
-		<specialDisplayRadius>10.0</specialDisplayRadius>
+		<specialDisplayRadius>2</specialDisplayRadius>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -2815,8 +2815,8 @@
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<radius>
-					<x>10</x>
-					<y>10</y>
+					<x>2</x>
+					<y>2</y>
 				</radius>
 				<innateProducts>
 					<li>
