@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3218294095
+CRC: 2693580113
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 09d1c83bc40fbe51c97fba872a1b9245
+    Hash: ac1ebaa6c4f582db0e35dfe5fc697193
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0b72813a9634c174004524115da593d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 09d1c83bc40fbe51c97fba872a1b9245
+    Hash: ac1ebaa6c4f582db0e35dfe5fc697193
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -102,9 +102,8 @@ Assets:
 - Assets/SSR/Material/Digger/Water/North/Fundation.mat
 - Assets/SSR/ColorOnlyWorldSpaceLight.shader
 - Assets/SSR/Material/BaseMask.mat
-- Assets/SSR/Animate/ThermalPower/Idle.anim
-- Assets/SSR/Animate/WaterDigger/StartWorking.anim
 - Assets/SSR/Material/MinerT2/LifterPartC.mat
+- Assets/SSR/Animate/WaterDigger/StartWorking.anim
 - Assets/SSR/Add.shader
 - Assets/SSR/Material/WindTurbineT1/HolderConnecter.mat
 - Assets/SSR/Animate/MinerT3/AnimateController.controller

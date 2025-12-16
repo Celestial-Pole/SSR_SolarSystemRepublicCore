@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: 7c245bb3c9dc75d4e808bf345f04c226, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - ENABLE_REL2ANIM
   m_InvalidKeywords:
   - ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -78,6 +79,7 @@ Material:
     - _OcclusionStrength: 1
     - _OutlineWidth: 0
     - _Parallax: 0.02
+    - _Rel2Anim: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
