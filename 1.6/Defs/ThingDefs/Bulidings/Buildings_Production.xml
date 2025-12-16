@@ -2832,7 +2832,46 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructMetal</constructEffect>
 		<comps>
-			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor"></li>
+			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<!--requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch-->
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>80</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>3</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<!--requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch-->
+							<materials>
+								<li>
+									<item>SSR_Item_FermiMaterial</item>
+									<amount>80</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+				</levels>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -2888,7 +2927,7 @@
 						<value>
 							<graphicData>
 								<texPath>Things/Building/Production/CentralStorageUnit/T2CentralStorageUnit</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
+								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>3</drawSize>
 							</graphicData>
 							<workAmt>200</workAmt>
@@ -2911,7 +2950,7 @@
 						<value>
 							<graphicData>
 								<texPath>Things/Building/Production/CentralStorageUnit/T3CentralStorageUnit</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
+								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>3</drawSize>
 							</graphicData>
 							<workAmt>200</workAmt>
