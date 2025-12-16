@@ -2289,8 +2289,20 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
+									<item>SSR_Item_StandardConstructionElement</item>
+									<amount>200</amount>
+								</li>
+								<li>
 									<item>SSR_Item_SpecialSteel</item>
-									<amount>80</amount>
+									<amount>100</amount>
+								</li>
+								<li>
+									<item>ComponentIndustrial</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>SSR_Item_QuantumComputingCore</item>
+									<amount>3</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -2311,7 +2323,23 @@
 							<materials>
 								<li>
 									<item>SSR_Item_Carbyne</item>
-									<amount>50</amount>
+									<amount>300</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>150</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
@@ -2697,8 +2725,8 @@
 				</radius>
 				<innateProducts>
 					<li>
-						<item>Steel</item>
-						<amount>1</amount>
+						<item>SSR_Item_Sand</item>
+						<amount>225</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
@@ -2779,8 +2807,8 @@
 				</radius>
 				<innateProducts>
 					<li>
-						<item>Steel</item>
-						<amount>1</amount>
+						<item>SSR_Item_Sand</item>
+						<amount>225</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
@@ -2837,21 +2865,6 @@
 				<levels>
 					<li>
 						<key>1</key>
-						<value>
-							<workAmt>200</workAmt>
-							<requireMaterial>true</requireMaterial>
-							<requirePawnWork>true</requirePawnWork>
-							<!--requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch-->
-							<materials>
-								<li>
-									<item>SSR_Item_Carbyne</item>
-									<amount>80</amount>
-								</li>
-							</materials>
-						</value>
-					</li>
-					<li>
-						<key>2</key>
 						<value>
 							<graphicData>
 								<texPath>Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
@@ -2916,8 +2929,8 @@
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffsetPerLevel>
 					<li>5000</li>
-					<li>6000</li>
-					<li>7000</li>
+					<li>10000</li>
+					<li>30000</li>
 				</capacityOffsetPerLevel>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
