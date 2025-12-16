@@ -111,7 +111,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T1_small</defName>
+		<defName>SSR_Building_MediumSmalBattery</defName>
 		<label>T1小型电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -165,7 +165,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>1200</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
@@ -189,7 +189,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T1_Middle</defName>
+		<defName>SSR_Building_MiddleMiddleBattery</defName>
 		<label>T1中型电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -269,7 +269,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>2500</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
@@ -293,7 +293,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T1_Huge</defName>
+		<defName>SSR_Building_MiddleBigBattery</defName>
 		<label>T1大型电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -348,7 +348,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>5500</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
@@ -372,7 +372,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T2_small</defName>
+		<defName>SSR_Building_AdvancedSmallBattery</defName>
 		<label>T2小电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -426,7 +426,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>2400</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
@@ -450,7 +450,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T2_Middle</defName>
+		<defName>SSR_Building_AdvancedMiddleBattery</defName>
 		<label>T2中型电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -530,7 +530,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>5000</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
@@ -554,7 +554,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Battery_T2_Huge</defName>
+		<defName>SSR_Building_AdvancedBigBattery</defName>
 		<label>T2大型电池</label>
 		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -609,7 +609,7 @@
 				</drawData>
 			</li>
 			<li Class="CompProperties_Battery">
-				<storedEnergyMax>600</storedEnergyMax>
+				<storedEnergyMax>12500</storedEnergyMax>
 				<efficiency>0.5</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
