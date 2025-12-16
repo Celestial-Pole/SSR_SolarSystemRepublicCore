@@ -2229,13 +2229,13 @@
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>16</drawSize>
+			<drawSize>11</drawSize>
 			<shadowData>
 				<volume>(1,1,1)</volume>
 				<offset>(1.75,0,1.75)</offset>
 			</shadowData>
 		</graphicData>
-		<size>(16,16)</size>
+		<size>(11,11)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
