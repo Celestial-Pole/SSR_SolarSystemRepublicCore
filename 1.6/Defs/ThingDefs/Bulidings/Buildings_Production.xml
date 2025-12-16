@@ -2284,7 +2284,7 @@
 							<graphicData>
 								<texPath>Things/Building/Production/Mine/T2Mine</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>16</drawSize>
+								<drawSize>11</drawSize>
 							</graphicData>
 							<requireMaterial>true</requireMaterial>
 							<materials>
@@ -2317,7 +2317,7 @@
 							<graphicData>
 								<texPath>Things/Building/Production/Mine/T3Mine</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>16</drawSize>
+								<drawSize>11</drawSize>
 							</graphicData>
 							<requireMaterial>true</requireMaterial>
 							<materials>
@@ -2719,10 +2719,7 @@
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
-				<radius>
-					<x>10</x>
-					<y>10</y>
-				</radius>
+				<radius>(10,10)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
@@ -2735,6 +2732,22 @@
 				</validTerrainsList>
 			</li>
 			<li Class="CompProperties_CreatesInfestations" />
+			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>
+						<north>Assets/SSR/Prefab/LandDiggerNorth.prefab</north>
+						<south>Assets/SSR/Prefab/LandDiggerSouth.prefab</south>
+						<west>Assets/SSR/Prefab/LandDiggerWest.prefab</west>
+						<east>Assets/SSR/Prefab/LandDiggerEast.prefab</east>
+					</li>
+				</leveledPrefabPaths>
+			</li>
 		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
@@ -2817,6 +2830,22 @@
 				</validTerrainsList>
 			</li>
 			<li Class="CompProperties_CreatesInfestations" />
+			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>
+						<north>Assets/SSR/Prefab/WaterDiggerNorth.prefab</north>
+						<south>Assets/SSR/Prefab/WaterDiggerSouth.prefab</south>
+						<west>Assets/SSR/Prefab/WaterDiggerWest.prefab</west>
+						<east>Assets/SSR/Prefab/WaterDiggerEast.prefab</east>
+					</li>
+				</leveledPrefabPaths>
+			</li>
 		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
