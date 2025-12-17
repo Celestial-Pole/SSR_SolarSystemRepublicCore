@@ -2226,6 +2226,7 @@
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
 		<thingClass>FS_SSR.PalMine.Building_PalMine</thingClass>
 		<tickerType>Long</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -2235,6 +2236,24 @@
 				<offset>(1.75,0,1.75)</offset>
 			</shadowData>
 		</graphicData>
+		<alterGraphic>
+			<li>
+				<key>1</key>
+				<value>
+					<texPath>Things/Building/Production/Mine/T2Mine</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>11</drawSize>
+				</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>
+					<texPath>Things/Building/Production/Mine/T3Mine</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>11</drawSize>
+				</value>
+			</li>
+		</alterGraphic>
 		<size>(11,11)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -2244,8 +2263,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
-		<drawerType>RealtimeOnly</drawerType>
+		<interactionCellOffset>(0,0,6)</interactionCellOffset>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
@@ -2260,6 +2278,10 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<placeWorkers>
+			<li>FS_SSR.Generic.PW_WorldUnique</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedMineConstruction</li>
 		</researchPrerequisites>
@@ -2269,86 +2291,13 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>5000</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_UniqueMarker" />
+			<!--li Class="FS_SSR.Generic.TCP_Limited">
+				<unique>true</unique>
+			</li-->
+			<li Class="FS_SSR.Generic.TCP_ICMR" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_UniqueMarker">
-				<level>World</level>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ICMR" />
-			<li Class="FS_SSR.Generic.TCP_Upgradable">
-				<levels>
-					<li>
-						<key>1</key>
-						<value>
-							<graphicData>
-								<texPath>Things/Building/Production/Mine/T2Mine</texPath>
-								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>11</drawSize>
-							</graphicData>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_Item_StandardConstructionElement</item>
-									<amount>200</amount>
-								</li>
-								<li>
-									<item>SSR_Item_SpecialSteel</item>
-									<amount>100</amount>
-								</li>
-								<li>
-									<item>ComponentIndustrial</item>
-									<amount>20</amount>
-								</li>
-								<li>
-									<item>SSR_Item_QuantumComputingCore</item>
-									<amount>3</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-					<li>
-						<key>2</key>
-						<value>
-							<graphicData>
-								<texPath>Things/Building/Production/Mine/T3Mine</texPath>
-								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>11</drawSize>
-							</graphicData>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_Item_Carbyne</item>
-									<amount>300</amount>
-								</li>
-								<li>
-									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
-									<amount>150</amount>
-								</li>
-								<li>
-									<item>ComponentSpacer</item>
-									<amount>20</amount>
-								</li>
-								<li>
-									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
-									<amount>3</amount>
-								</li>
-								<li>
-									<item>SSR_Item_ArtificialIntelligenceChip</item>
-									<amount>1</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<requireResearch>SSR_Research_AdvancedMaterialsScience</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-				</levels>
 			</li>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
 				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
@@ -2364,10 +2313,6 @@
 				</leveledPrefabPaths>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
-			<li>PlaceWorker_InvalidOverSubstructure</li>
-		</placeWorkers>
 		<costPerLayer>
 			<materials>
 				<li>
@@ -2402,18 +2347,18 @@
 			</materials>
 			<workAmt>300</workAmt>
 		</costPerTunnel>
-		<autoTunnelDiggerEfficiency>
-			<li>0</li>
-			<li>1</li>
-			<li>3</li>
-			<li>5</li>
-		</autoTunnelDiggerEfficiency>
 		<autoLayerDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
 			<li>3</li>
 			<li>5</li>
 		</autoLayerDiggerEfficiency>
+		<autoTunnelDiggerEfficiency>
+			<li>0</li>
+			<li>1</li>
+			<li>3</li>
+			<li>5</li>
+		</autoTunnelDiggerEfficiency>
 		<autoMineralDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
@@ -2898,7 +2843,7 @@
 							<graphicData>
 								<texPath>Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>3</drawSize>
+								<drawSize>1</drawSize>
 							</graphicData>
 							<workAmt>200</workAmt>
 							<requireMaterial>true</requireMaterial>
