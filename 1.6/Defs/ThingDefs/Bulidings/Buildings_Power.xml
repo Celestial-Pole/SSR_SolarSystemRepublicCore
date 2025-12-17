@@ -112,12 +112,12 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MediumSmalBattery</defName>
-		<label>T1小型电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<label>中级小型电池</label>
+		<description>中级小型电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/SmallBatteryT1/Battery_T1_1X1</texPath>
+			<texPath>Things/Building/Power/Battery/MediumSmalBattery/MediumSmalBattery</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -189,13 +189,13 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Building_MiddleMiddleBattery</defName>
-		<label>T1中型电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<defName>SSR_Building_MiddleBattery</defName>
+		<label>中级电池</label>
+		<description>中级电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/MiddleBatteryT1/Battery_T1_2X1</texPath>
+			<texPath>Things/Building/Power/Battery/MiddleBattery/MiddleBattery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
@@ -294,12 +294,12 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MiddleBigBattery</defName>
-		<label>T1大型电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<label>中级大型电池</label>
+		<description>中级大型电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/HugeBatteryT1/Battery_T1_2X2</texPath>
+			<texPath>Things/Building/Power/Battery/MiddleBigBattery/MiddleBigBattery</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -373,12 +373,12 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedSmallBattery</defName>
-		<label>T2小电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<label>高级小型电池</label>
+		<description>高级小型电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/SmallBatteryT2/Battery_T2_1X1</texPath>
+			<texPath>Things/Building/Power/Battery/AdvancedSmallBattery/AdvancedSmallBattery</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -450,13 +450,13 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Building_AdvancedMiddleBattery</defName>
-		<label>T2中型电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<defName>SSR_Building_AdvancedBattery</defName>
+		<label>高级电池</label>
+		<description>高级电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/MiddleBatteryT2/Battery_T2_2X1</texPath>
+			<texPath>Things/Building/Power/Battery/AdvancedBattery/AdvancedBattery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
@@ -536,12 +536,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
@@ -555,12 +549,12 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedBigBattery</defName>
-		<label>T2大型电池</label>
-		<description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+		<label>高级大型电池</label>
+		<description>高级大型电池。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Power/Battery/HugeBatteryT2/Battery_T2_2X2</texPath>
+			<texPath>Things/Building/Power/Battery/AdvancedBigBattery/AdvancedBigBattery</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
