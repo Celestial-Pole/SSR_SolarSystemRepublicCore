@@ -2759,10 +2759,7 @@
 				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
-				<radius>
-					<x>2</x>
-					<y>2</y>
-				</radius>
+				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
