@@ -2607,7 +2607,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_LandBasedExcavator</defName>
 		<label>陆用挖沙机</label>
-		<description>陆用挖沙机_建造在沙地上</description>
+		<description>用于在沙地上采集沙子的自动化机器，仅在沙地上工作时拥有最高效率，会定期将收集到的沙子堆放于出货口，当存在仓储系统时会将产物直接运至仓库中。</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator</texPath>
@@ -2702,7 +2702,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_FloatingSandDredger</defName>
 		<label>水上平台挖沙机</label>
-		<description>水上平台挖沙机-建造在水上</description>
+		<description>用于在水中采集沙子的自动化机器，仅在水中工作时拥有最高效率，会定期将收集到的沙子堆放于出货口，当存在仓储系统时会将产物直接运至仓库中。</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger</texPath>
