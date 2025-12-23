@@ -169,7 +169,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>1200</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -273,7 +273,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>2500</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -352,7 +352,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>5500</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -430,7 +430,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>2400</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -534,7 +534,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>5000</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -607,7 +607,7 @@
 			</li>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>12500</storedEnergyMax>
-				<efficiency>0.5</efficiency>
+				<efficiency>1</efficiency>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
