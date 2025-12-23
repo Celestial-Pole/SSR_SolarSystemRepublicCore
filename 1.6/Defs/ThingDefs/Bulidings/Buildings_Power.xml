@@ -135,7 +135,7 @@
 		</thingCategories>
 		<rotatable>false</rotatable>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
@@ -213,7 +213,7 @@
 		</thingCategories>
 		<rotatable>true</rotatable>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>750</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
@@ -317,7 +317,7 @@
 		</thingCategories>
 		<rotatable>false</rotatable>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>1500</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
@@ -396,7 +396,7 @@
 		</thingCategories>
 		<rotatable>false</rotatable>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
@@ -474,7 +474,7 @@
 			<li>BuildingsPower</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
@@ -572,7 +572,7 @@
 		</thingCategories>
 		<rotatable>false</rotatable>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>20</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>

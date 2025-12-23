@@ -265,6 +265,22 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+		<defName>SSR_Research_BasicWarehouseLogisticsTechnology</defName>
+		<label>基础仓储物流技术</label>
+		<description>基础仓储物流技术。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_Building_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
+		</prerequisites>
+		<baseCost>1200</baseCost>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_RoomTemperatureSuperconductivity</defName>
 		<label>室温超导</label>
 		<description>室温超导材料及其商业化应用技术。</description>
@@ -1002,6 +1018,22 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
+		<defName>SSR_Research_Medium-levelWarehouseLogisticsTechnology</defName>
+		<label>中级仓储物流技术</label>
+		<description>中级仓储物流技术。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_Building_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSR_Research_StandardizedArtificialIntelligence</li>
+		</prerequisites>
+		<baseCost>2000</baseCost>
+		<researchViewX>9</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectSpacer">
 		<defName>SSR_Research_HighDensityBattery</defName>
 		<label>高密度电池</label>
 		<description>使用新材料设计的新结构让电池的能量密度和效率相比于旧设计翻了数倍。</description>
@@ -1561,6 +1593,23 @@
 		<baseCost>20000</baseCost>
 		<researchViewX>18</researchViewX>
 		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
+		<defName>SSR_Research_AdvancedWarehouseLogisticsTechnology</defName>
+		<label>高级仓储物流技术</label>
+		<description>高级仓储物流技术。</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>SSR_Building_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSR_Research_BasicSpaceApplication</li>
+			<li>SSR_Research_AdvancedArtificialIntelligence</li>
+		</prerequisites>
+		<baseCost>2000</baseCost>
+		<researchViewX>16</researchViewX>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">
