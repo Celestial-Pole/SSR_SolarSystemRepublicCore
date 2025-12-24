@@ -174,12 +174,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
@@ -278,12 +272,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
@@ -357,12 +345,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
@@ -435,12 +417,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
@@ -612,12 +588,6 @@
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
