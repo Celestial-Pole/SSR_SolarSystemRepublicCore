@@ -37,6 +37,9 @@
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
+		</researchPrerequisites>
 		<comps>
 			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -2318,9 +2321,7 @@
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
+		<fillPercent>1</fillPercent>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<building>
@@ -2411,9 +2412,7 @@
 		<size>(3,5)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
+		<fillPercent>1</fillPercent>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>SSR_TerrainAfforance_WaterCompatible</terrainAffordanceNeeded>
 		<building>
