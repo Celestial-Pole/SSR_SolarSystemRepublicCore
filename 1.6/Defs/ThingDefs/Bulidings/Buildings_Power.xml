@@ -145,6 +145,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_SpecialSteel>5</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>1</SSR_Item_SuperconductingMaterial>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -217,6 +222,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>2</SSR_Item_SuperconductingMaterial>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -315,6 +325,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>4</SSR_Item_SuperconductingMaterial>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -388,6 +403,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_NanoandMicroMechanicalComposite>20</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>1</SSR_Item_SuperconductingMaterial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -460,6 +480,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_NanoandMicroMechanicalComposite>40</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>2</SSR_Item_SuperconductingMaterial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -558,6 +583,11 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<costList>
+			<SSR_Item_NanoandMicroMechanicalComposite>60</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<building>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
