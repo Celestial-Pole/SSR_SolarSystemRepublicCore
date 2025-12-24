@@ -19,19 +19,19 @@
     <size>(6,4)</size>
     <uiIconPath>Things/Building/Security/TurretMini_MenuIcon</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
-    <!--<minifiedDef>MinifiedThing</minifiedDef>-->
+    <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
     <stealable>false</stealable>
     <rotatable>false</rotatable>
-    <!--<thingCategories>
+    <thingCategories>
       <li>BuildingsSecurity</li>
-    </thingCategories>-->
+    </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>1800</WorkToBuild>
-      <!--<Mass>800</Mass>-->
-      <Beauty>0</Beauty>
+      <Mass>8</Mass>
+      <Beauty>-20</Beauty>
       <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -65,6 +65,12 @@
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
       </li>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
 	   <li Class="CompProperties_Shuttle" />
       <li Class="CompProperties_Transporter">
         <massCapacity>1000</massCapacity>
@@ -82,16 +88,16 @@
     <fillPercent>0.4</fillPercent>
     <hasTooltip>true</hasTooltip>
     <costStuffCount>30</costStuffCount>
-    <!--<costList>
+    <costList>
       <Steel>70</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>-->
+    </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <!--<designationCategory>Security</designationCategory>-->
+    <designationCategory>Security</designationCategory>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-    <!--<building>
-      <combatPower>45</combatPower>-->   <!-- same as a scavenger -->
-	  <!--<ai_combatDangerous>true</ai_combatDangerous>
+    <building>
+      <combatPower>45</combatPower>   <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_MiniTurret</turretGunDef>
       <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
     </building>
@@ -105,10 +111,10 @@
     <designationHotKey>Misc2</designationHotKey>
     <researchPrerequisites>
       <li>GunTurrets</li>
-    </researchPrerequisites>-->
+    </researchPrerequisites>
   </ThingDef>
 
-  <!--<ThingDef ParentName="SSR_ApparelCustomBase">
+  <ThingDef ParentName="SSR_ApparelCustomBase">
     <defName>SSR_EF_LandForce_shuttlecaller</defName>
     <label>穿梭机呼叫衣服</label>
     <description>穿梭机呼叫衣服</description>
@@ -148,7 +154,7 @@
 	<comps>
 		<li Class="FS_SSR.Satellite.TCP_ShuttleCaller" />
 	</comps>
-  </ThingDef>-->
+  </ThingDef>
 
   <ShipJobDef>
     <defName>SSR_ShipJob_NewLoop</defName>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_DataTerminal</defName>
+		<defName>SSR_Building_DataTerminal</defName>
 		<label>数据终端</label>
 		<description>数据终端是一种科研专用设备，通过共和国标准通讯协议接收来自公共科研数据库的信息。</description>
 		<graphicData>
@@ -33,7 +33,7 @@
 		</statBases>
 		<costList>
 			<Steel>240</Steel>
-			<SSR_Silicon>35</SSR_Silicon>
+			<SSR_Item_Silicon>35</SSR_Item_Silicon>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<building>
@@ -72,7 +72,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_QuantumComputingCluster</defName>
+		<defName>SSR_Building_QuantumComputingCluster</defName>
 		<label>量子计算机组</label>
 		<description>量子计算机组实现了更大规模的量子信息处理和存储。它们通过量子纠缠和量子通信技术协同工作，大幅提升计算能力和效率。</description>
 		<graphicData>
@@ -102,8 +102,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_QuantumComputingCore>10</SSR_QuantumComputingCore>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_QuantumComputingCore>10</SSR_Item_QuantumComputingCore>
 			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<building>
@@ -142,7 +142,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_PhotonicComputingCluster</defName>
+		<defName>SSR_Building_PhotonicComputingCluster</defName>
 		<label>光子计算机组</label>
 		<description>光子计算机组实现了更强大的并行处理能力。它们利用光子的高速和低能耗特性，实现超快速的数据处理能力,通过分布式计算架构，增加了系统的可靠性和灵活性。</description>
 		<graphicData>
@@ -172,9 +172,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>300</SSR_FermiMaterial>
-			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
-			<SSR_ArtificialIntelligenceChip>3</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_FermiMaterial>300</SSR_Item_FermiMaterial>
+			<SSR_Item_PhotonComputingCore>10</SSR_Item_PhotonComputingCore>
+			<SSR_Item_ArtificialIntelligenceChip>3</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -199,9 +199,9 @@
 				</researchSpdFactorCGL>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Limited">
-				<SSR_ID>SSR_PhotonicComputingCluster</SSR_ID><!--在计算数量时使用的id，无此项默认使用defname，重名会视为同一个东西-->
-				<unique>false</unique><!--是否唯一-->
-				<limitLevel>World</limitLevel><!--计数等级，只能填World或者Map-->
+				<SSR_ID>SSR_PhotonicComputingCluster</SSR_ID>				<!--在计算数量时使用的id，无此项默认使用defname，重名会视为同一个东西-->
+				<unique>false</unique>				<!--是否唯一-->
+				<limitLevel>World</limitLevel>				<!--计数等级，只能填World或者Map-->
 			</li>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -217,7 +217,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_DataProcessingHub</defName>
+		<defName>SSR_Building_DataProcessingHub</defName>
 		<label>数据处理中枢</label>
 		<description>数据处理中枢是专门设计用来汇总和整理计算机组处理过的数据的关键设施。它们确保复杂计算结果的高效管理和分析，为科学研究提供支持。</description>
 		<thingClass>FS_SSR.Research.Building_DataCenter</thingClass>
@@ -237,10 +237,10 @@
 		<size>(2,2)</size>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<costList>
-			<SSR_Carbyne>70</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>160</SSR_NanoandMicroMechanicalComposite>
-			<SSR_IntegratedQuantumComputingFramework>7</SSR_IntegratedQuantumComputingFramework>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_Carbyne>70</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>160</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_IntegratedQuantumComputingFramework>7</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
@@ -296,8 +296,8 @@
 				<overlay>
 					<texPath>Things/Building/Research/DataProcessingHub/DataProcessingHub_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1.4,2.17)</drawSize>
-					<drawOffset>(0,0,1.09)</drawOffset>
+					<drawSize>(3,3)</drawSize>
+					<drawOffset>(0,0,0.59)</drawOffset>
 					<!-- <shadowData>
 						<volume>(0.6, 1.0, 1.6)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
@@ -321,7 +321,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_LHC</defName>
+		<defName>SSR_Building_LHC</defName>
 		<label>强子对撞机</label>
 		<description>强子对撞机是一种高能物理实验设备，用于加速并使原子核中的粒子相互碰撞，以推进对基本粒子和力的理解。</description>
 		<graphicData>
@@ -348,10 +348,10 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>200</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>400</SSR_NanoandMicroMechanicalComposite>
-			<SSR_IntegratedQuantumComputingFramework>20</SSR_IntegratedQuantumComputingFramework>
-			<SSR_HighenergyLaserEmitter>15</SSR_HighenergyLaserEmitter>
+			<SSR_Item_Carbyne>200</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>400</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_IntegratedQuantumComputingFramework>20</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_HighenergyLaserEmitter>15</SSR_Item_HighenergyLaserEmitter>
 			<ComponentSpacer>30</ComponentSpacer>
 		</costList>
 		<building>
@@ -376,13 +376,13 @@
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>SSR_ParticleCollectionDevice</li>
+					<li>SSR_Building_ParticleCollectionDevice</li>
 				</linkableFacilities>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Limited">
-				<SSR_ID>SSR_LHC</SSR_ID><!--在计算数量时使用的id，无此项默认使用defname，重名会视为同一个东西-->
-				<unique>false</unique><!--是否唯一-->
-				<limitLevel>World</limitLevel><!--计数等级，只能填World或者Map-->
+				<SSR_ID>SSR_LHC</SSR_ID>				<!--在计算数量时使用的id，无此项默认使用defname，重名会视为同一个东西-->
+				<unique>false</unique>				<!--是否唯一-->
+				<limitLevel>World</limitLevel>				<!--计数等级，只能填World或者Map-->
 			</li>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -398,7 +398,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_ParticleCollectionDevice</defName>
+		<defName>SSR_Building_ParticleCollectionDevice</defName>
 		<label>粒子收集装置</label>
 		<description>粒子收集装置。</description>
 		<graphicData>
@@ -429,9 +429,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>100</SSR_FermiMaterial>
-			<SSR_HighenergyParticleConfinementDevice>3</SSR_HighenergyParticleConfinementDevice>
-			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>100</SSR_Item_FermiMaterial>
+			<SSR_Item_HighenergyParticleConfinementDevice>3</SSR_Item_HighenergyParticleConfinementDevice>
+			<SSR_Item_ExtremeComponent>5</SSR_Item_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -452,15 +452,15 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
-				<requiredLinkBuilding>SSR_LHC</requiredLinkBuilding>
+				<requiredLinkBuilding>SSR_Building_LHC</requiredLinkBuilding>
 				<interval>1000</interval>
 				<intervalUnit>tick</intervalUnit>
 				<root Class="AKR_Random.RandomizerNode_Rewards">
 					<rewards>
 						<li Class="AKR_Random.Rewards.Rewards_Things">
-							<weight>2</weight>						<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
-							<itemRewardSingle> 				   	    <!-- 单个物品的奖励 -->
-								<item>SSR_AntimatterStorageTank</item>
+							<weight>2</weight>							<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+							<itemRewardSingle>								<!-- 单个物品的奖励 -->
+								<item>SSR_Item_AntimatterStorageTank</item>
 								<amount>3</amount>
 							</itemRewardSingle>
 						</li>
@@ -468,7 +468,7 @@
 				</root>
 				<!--candidate>
 					<li>
-						<item>SSR_AntimatterStorageTank</item>
+						<item>SSR_Item_AntimatterStorageTank</item>
 						<amount>3</amount>
 						<weight>2</weight>
 					</li>
@@ -485,7 +485,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.Generic.DefExt_PlaceAdjacent">
-				<thingDef>SSR_LHC</thingDef>
+				<thingDef>SSR_Building_LHC</thingDef>
 				<failReason>连接建立失败</failReason>
 				<!--填如果不满足条件时左上的提示。这里填的翻译遵照别的def的翻译格式。默认是SSR_PlaceAdjacentFailReason，默认需要用keyed翻译。-->
 			</li>

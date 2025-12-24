@@ -19,7 +19,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>55</count>
@@ -27,7 +27,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -46,7 +46,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>275</count>
@@ -54,7 +54,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -73,7 +73,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>550</count>
@@ -81,7 +81,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -272,7 +272,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Glass</li>
+						<li>SSR_Item_Glass</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -280,11 +280,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Glass</li>
+				<li>SSR_Item_Glass</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PrecisionLens>1</SSR_PrecisionLens>
+			<SSR_Item_PrecisionLens>1</SSR_Item_PrecisionLens>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionOptics</li>
@@ -301,7 +301,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Glass</li>
+						<li>SSR_Item_Glass</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -309,11 +309,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Glass</li>
+				<li>SSR_Item_Glass</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PrecisionLens>5</SSR_PrecisionLens>
+			<SSR_Item_PrecisionLens>5</SSR_Item_PrecisionLens>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionOptics</li>
@@ -330,7 +330,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Glass</li>
+						<li>SSR_Item_Glass</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -338,11 +338,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Glass</li>
+				<li>SSR_Item_Glass</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PrecisionLens>10</SSR_PrecisionLens>
+			<SSR_Item_PrecisionLens>10</SSR_Item_PrecisionLens>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionOptics</li>
@@ -359,7 +359,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -367,7 +367,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -375,12 +375,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Silicon</li>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_Silicon</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SuperconductingMaterial>1</SSR_SuperconductingMaterial>
+			<SSR_Item_SuperconductingMaterial>1</SSR_Item_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
@@ -397,7 +397,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -405,7 +405,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -413,12 +413,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Silicon</li>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_Silicon</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
@@ -435,7 +435,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -443,7 +443,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -451,12 +451,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Silicon</li>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_Silicon</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<SSR_Item_SuperconductingMaterial>10</SSR_Item_SuperconductingMaterial>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_RoomTemperatureSuperconductivity</li>
@@ -473,7 +473,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -481,11 +481,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StrongElectromagnet>1</SSR_StrongElectromagnet>
+			<SSR_Item_StrongElectromagnet>1</SSR_Item_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionMagneticFieldControl</li>
@@ -502,7 +502,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -510,11 +510,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StrongElectromagnet>5</SSR_StrongElectromagnet>
+			<SSR_Item_StrongElectromagnet>5</SSR_Item_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionMagneticFieldControl</li>
@@ -531,7 +531,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -539,11 +539,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StrongElectromagnet>10</SSR_StrongElectromagnet>
+			<SSR_Item_StrongElectromagnet>10</SSR_Item_StrongElectromagnet>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_PrecisionMagneticFieldControl</li>
@@ -560,7 +560,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -576,7 +576,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>7</count>
@@ -592,13 +592,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>ComponentIndustrial</li>
-				<li>SSR_Silicon</li>
+				<li>SSR_Item_Silicon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_BasicComputationalScience</li>
@@ -615,7 +615,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -631,7 +631,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>35</count>
@@ -647,13 +647,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>ComponentIndustrial</li>
-				<li>SSR_Silicon</li>
+				<li>SSR_Item_Silicon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_QuantumComputingCore>5</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>5</SSR_Item_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_BasicComputationalScience</li>
@@ -670,7 +670,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -686,7 +686,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Silicon</li>
+						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
 				<count>70</count>
@@ -702,13 +702,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>ComponentIndustrial</li>
-				<li>SSR_Silicon</li>
+				<li>SSR_Item_Silicon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_QuantumComputingCore>10</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>10</SSR_Item_QuantumComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_BasicComputationalScience</li>
@@ -737,7 +737,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NuclearFissionFuelRod>1</SSR_NuclearFissionFuelRod>
+			<SSR_Item_NuclearFissionFuelRod>1</SSR_Item_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_NuclearPhysics</li>
@@ -766,7 +766,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NuclearFissionFuelRod>5</SSR_NuclearFissionFuelRod>
+			<SSR_Item_NuclearFissionFuelRod>5</SSR_Item_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_NuclearPhysics</li>
@@ -795,7 +795,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NuclearFissionFuelRod>10</SSR_NuclearFissionFuelRod>
+			<SSR_Item_NuclearFissionFuelRod>10</SSR_Item_NuclearFissionFuelRod>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_NuclearPhysics</li>
@@ -812,7 +812,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -820,7 +820,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>80</count>
@@ -828,7 +828,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -836,13 +836,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
@@ -859,7 +859,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -867,7 +867,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>400</count>
@@ -875,7 +875,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>75</count>
@@ -883,13 +883,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArtificialIntelligenceChip>5</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>5</SSR_Item_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
@@ -906,7 +906,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -914,7 +914,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>800</count>
@@ -922,7 +922,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>150</count>
@@ -930,13 +930,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ArtificialIntelligenceChip>10</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>10</SSR_Item_ArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
@@ -953,7 +953,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -961,7 +961,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -969,7 +969,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -977,7 +977,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -985,7 +985,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -993,13 +993,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_IntegratedQuantumComputingFramework>1</SSR_IntegratedQuantumComputingFramework>
+			<SSR_Item_IntegratedQuantumComputingFramework>1</SSR_Item_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_Medium-levelComputationalScience</li>
@@ -1016,7 +1016,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1024,7 +1024,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1032,7 +1032,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1040,7 +1040,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1048,7 +1048,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1056,13 +1056,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_IntegratedQuantumComputingFramework>5</SSR_IntegratedQuantumComputingFramework>
+			<SSR_Item_IntegratedQuantumComputingFramework>5</SSR_Item_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_Medium-levelComputationalScience</li>
@@ -1079,7 +1079,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1087,7 +1087,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1095,7 +1095,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1103,7 +1103,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -1111,7 +1111,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -1119,13 +1119,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_QuantumComputingCore</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_QuantumComputingCore</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_IntegratedQuantumComputingFramework>10</SSR_IntegratedQuantumComputingFramework>
+			<SSR_Item_IntegratedQuantumComputingFramework>10</SSR_Item_IntegratedQuantumComputingFramework>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_Medium-levelComputationalScience</li>
@@ -1142,7 +1142,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1150,7 +1150,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1158,7 +1158,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -1166,12 +1166,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighDensityBattery>1</SSR_HighDensityBattery>
+			<SSR_Item_HighDensityBattery>1</SSR_Item_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighDensityBattery</li>
@@ -1188,7 +1188,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -1196,7 +1196,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1204,7 +1204,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1212,12 +1212,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighDensityBattery>5</SSR_HighDensityBattery>
+			<SSR_Item_HighDensityBattery>5</SSR_Item_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighDensityBattery</li>
@@ -1234,7 +1234,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1242,7 +1242,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -1250,7 +1250,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1258,12 +1258,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighDensityBattery>10</SSR_HighDensityBattery>
+			<SSR_Item_HighDensityBattery>10</SSR_Item_HighDensityBattery>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighDensityBattery</li>
@@ -1280,7 +1280,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PrecisionLens</li>
+						<li>SSR_Item_PrecisionLens</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -1288,7 +1288,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1296,7 +1296,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -1304,7 +1304,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -1312,7 +1312,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighDensityBattery</li>
+						<li>SSR_Item_HighDensityBattery</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1320,14 +1320,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_PrecisionLens</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighDensityBattery</li>
+				<li>SSR_Item_PrecisionLens</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighDensityBattery</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyLaserEmitter>1</SSR_HighenergyLaserEmitter>
+			<SSR_Item_HighenergyLaserEmitter>1</SSR_Item_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighEnergyLaserArray</li>
@@ -1344,7 +1344,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PrecisionLens</li>
+						<li>SSR_Item_PrecisionLens</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1352,7 +1352,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -1360,7 +1360,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -1368,7 +1368,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1376,7 +1376,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighDensityBattery</li>
+						<li>SSR_Item_HighDensityBattery</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1384,14 +1384,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_PrecisionLens</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighDensityBattery</li>
+				<li>SSR_Item_PrecisionLens</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighDensityBattery</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyLaserEmitter>5</SSR_HighenergyLaserEmitter>
+			<SSR_Item_HighenergyLaserEmitter>5</SSR_Item_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighEnergyLaserArray</li>
@@ -1408,7 +1408,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PrecisionLens</li>
+						<li>SSR_Item_PrecisionLens</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1416,7 +1416,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbyne</li>
+						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1424,7 +1424,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>200</count>
@@ -1432,7 +1432,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1440,7 +1440,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighDensityBattery</li>
+						<li>SSR_Item_HighDensityBattery</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1448,14 +1448,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_PrecisionLens</li>
-				<li>SSR_Carbyne</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighDensityBattery</li>
+				<li>SSR_Item_PrecisionLens</li>
+				<li>SSR_Item_Carbyne</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighDensityBattery</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyLaserEmitter>10</SSR_HighenergyLaserEmitter>
+			<SSR_Item_HighenergyLaserEmitter>10</SSR_Item_HighenergyLaserEmitter>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_HighEnergyLaserArray</li>
@@ -1472,7 +1472,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1480,7 +1480,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1488,7 +1488,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1496,13 +1496,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_ArtificialIntelligenceChip</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_AdvancedArtificialIntelligenceChip>1</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>1</SSR_Item_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>
@@ -1519,7 +1519,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1527,7 +1527,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -1535,7 +1535,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1543,13 +1543,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_ArtificialIntelligenceChip</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_AdvancedArtificialIntelligenceChip>5</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>5</SSR_Item_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>
@@ -1566,7 +1566,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -1574,7 +1574,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1582,7 +1582,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_ArtificialIntelligenceChip</li>
+						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1590,13 +1590,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_ArtificialIntelligenceChip</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_ArtificialIntelligenceChip</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_AdvancedArtificialIntelligenceChip>10</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>10</SSR_Item_AdvancedArtificialIntelligenceChip>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>
@@ -1613,7 +1613,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>35</count>
@@ -1621,7 +1621,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1629,7 +1629,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -1637,13 +1637,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
+			<SSR_Item_PhotonComputingCore>1</SSR_Item_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedComputationalScience</li>
@@ -1660,7 +1660,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>175</count>
@@ -1668,7 +1668,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>75</count>
@@ -1676,7 +1676,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1684,13 +1684,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PhotonComputingCore>5</SSR_PhotonComputingCore>
+			<SSR_Item_PhotonComputingCore>5</SSR_Item_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedComputationalScience</li>
@@ -1707,7 +1707,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>350</count>
@@ -1715,7 +1715,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>150</count>
@@ -1723,7 +1723,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1731,13 +1731,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_PhotonComputingCore>10</SSR_PhotonComputingCore>
+			<SSR_Item_PhotonComputingCore>10</SSR_Item_PhotonComputingCore>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedComputationalScience</li>
@@ -1754,7 +1754,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1770,12 +1770,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
+				<li>SSR_Item_FermiMaterial</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ExtremeComponent>1</SSR_ExtremeComponent>
+			<SSR_Item_ExtremeComponent>1</SSR_Item_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedManufacturingTechnology</li>
@@ -1792,7 +1792,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>75</count>
@@ -1808,12 +1808,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
+				<li>SSR_Item_FermiMaterial</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+			<SSR_Item_ExtremeComponent>5</SSR_Item_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedManufacturingTechnology</li>
@@ -1830,7 +1830,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>150</count>
@@ -1846,12 +1846,12 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
+				<li>SSR_Item_FermiMaterial</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_ExtremeComponent>10</SSR_ExtremeComponent>
+			<SSR_Item_ExtremeComponent>10</SSR_Item_ExtremeComponent>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedManufacturingTechnology</li>
@@ -1868,7 +1868,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -1876,7 +1876,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -1884,7 +1884,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1892,7 +1892,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PhotonComputingCore</li>
+						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -1900,14 +1900,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
-				<li>SSR_PhotonComputingCore</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
+				<li>SSR_Item_PhotonComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_MiniatureNuclearFusionDevice>1</SSR_MiniatureNuclearFusionDevice>
+			<SSR_Item_MiniatureNuclearFusionDevice>1</SSR_Item_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedEnergyTechnology</li>
@@ -1924,7 +1924,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>250</count>
@@ -1932,7 +1932,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -1940,7 +1940,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -1948,7 +1948,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PhotonComputingCore</li>
+						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -1956,14 +1956,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
-				<li>SSR_PhotonComputingCore</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
+				<li>SSR_Item_PhotonComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_MiniatureNuclearFusionDevice>5</SSR_MiniatureNuclearFusionDevice>
+			<SSR_Item_MiniatureNuclearFusionDevice>5</SSR_Item_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedEnergyTechnology</li>
@@ -1980,7 +1980,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>500</count>
@@ -1988,7 +1988,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>200</count>
@@ -1996,7 +1996,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_HighenergyLaserEmitter</li>
+						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -2004,7 +2004,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_PhotonComputingCore</li>
+						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -2012,14 +2012,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_HighenergyLaserEmitter</li>
-				<li>SSR_PhotonComputingCore</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_HighenergyLaserEmitter</li>
+				<li>SSR_Item_PhotonComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_MiniatureNuclearFusionDevice>10</SSR_MiniatureNuclearFusionDevice>
+			<SSR_Item_MiniatureNuclearFusionDevice>10</SSR_Item_MiniatureNuclearFusionDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedEnergyTechnology</li>
@@ -2036,7 +2036,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -2044,7 +2044,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -2052,7 +2052,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_StrongElectromagnet</li>
+						<li>SSR_Item_StrongElectromagnet</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -2060,13 +2060,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_StrongElectromagnet</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_StrongElectromagnet</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyParticleConfinementDevice>1</SSR_HighenergyParticleConfinementDevice>
+			<SSR_Item_HighenergyParticleConfinementDevice>1</SSR_Item_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_ParticleConfinementTechnology</li>
@@ -2083,7 +2083,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>150</count>
@@ -2091,7 +2091,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -2099,7 +2099,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_StrongElectromagnet</li>
+						<li>SSR_Item_StrongElectromagnet</li>
 					</thingDefs>
 				</filter>
 				<count>75</count>
@@ -2107,13 +2107,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_StrongElectromagnet</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_StrongElectromagnet</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyParticleConfinementDevice>5</SSR_HighenergyParticleConfinementDevice>
+			<SSR_Item_HighenergyParticleConfinementDevice>5</SSR_Item_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_ParticleConfinementTechnology</li>
@@ -2130,7 +2130,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_FermiMaterial</li>
+						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>300</count>
@@ -2138,7 +2138,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SuperconductingMaterial</li>
+						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -2146,7 +2146,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_StrongElectromagnet</li>
+						<li>SSR_Item_StrongElectromagnet</li>
 					</thingDefs>
 				</filter>
 				<count>150</count>
@@ -2154,17 +2154,17 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_FermiMaterial</li>
-				<li>SSR_SuperconductingMaterial</li>
-				<li>SSR_StrongElectromagnet</li>
+				<li>SSR_Item_FermiMaterial</li>
+				<li>SSR_Item_SuperconductingMaterial</li>
+				<li>SSR_Item_StrongElectromagnet</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_HighenergyParticleConfinementDevice>10</SSR_HighenergyParticleConfinementDevice>
+			<SSR_Item_HighenergyParticleConfinementDevice>10</SSR_Item_HighenergyParticleConfinementDevice>
 		</products>
 		<researchPrerequisites>
 			<li>SSR_Research_ParticleConfinementTechnology</li>
 		</researchPrerequisites>
 	</RecipeDef>
-	
+
 </Defs>

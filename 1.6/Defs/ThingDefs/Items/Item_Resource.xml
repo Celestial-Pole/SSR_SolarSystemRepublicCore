@@ -12,18 +12,18 @@
         <soundInteract>Silver_Drop</soundInteract>
         <soundDrop>Silver_Drop</soundDrop>
         <useHitPoints>false</useHitPoints>
-        <smeltable>false</smeltable> 
+        <smeltable>false</smeltable>
         <burnableByRecipe>false</burnableByRecipe>
         <smallVolume>false</smallVolume>
         <statBases>
-			<Beauty>0</Beauty>
+            <Beauty>0</Beauty>
             <Flammability>0</Flammability>
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>
     </ThingDef>
 
     <ThingDef ParentName="SSR_ResourceBase">
-        <defName>SSR_Sand</defName>
+        <defName>SSR_Item_Sand</defName>
         <label>沙子</label>
         <description>沙子是一种细小的岩石或矿物颗粒，广泛存在于海滩、沙漠和河流中。</description>
         <graphicData>
@@ -39,7 +39,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_ResourceBase">
-        <defName>SSR_Silicon</defName>
+        <defName>SSR_Item_Silicon</defName>
         <label>硅</label>
         <description>硅是一种非金属，具有半导体特性，它是制造电子设备和太阳能电池的关键材料。</description>
         <graphicData>
@@ -54,7 +54,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_ResourceBase">
-        <defName>SSR_Carbon</defName>
+        <defName>SSR_Item_Carbon</defName>
         <label>碳</label>
         <description>碳以其多样性和稳定性在自然界和工业中扮演着重要角色，因其独特的物理和化学性质，被用于开发先进的材料和纳米技术。</description>
         <graphicData>

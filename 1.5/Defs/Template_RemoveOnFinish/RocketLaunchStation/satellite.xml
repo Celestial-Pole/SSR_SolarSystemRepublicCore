@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--JobDef>
+		<defName>SSR_Job_ICMRDeliverMaterial</defName>
+		<driverClass>FS_SSR.Generic.JobDriver_ICMRDeliverMaterial</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef-->
+
+	<!--WorkGiverDef>
+		<defName>SSR_WorkGiver_ICMRDeliverMaterial</defName>
+		<label>fill awb</label>
+		<giverClass>FS_SSR.Generic.WorkGiver_ICMRDeliverMaterial</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>fill awb...</verb>
+		<gerund>filling awb...</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef-->
+
 	<JobDef>
 		<defName>SSR_Job_DeliverSatellite</defName>
 		<driverClass>FS_SSR.Satellite.JobDriver_DeliverSatellite</driverClass>
@@ -45,7 +67,7 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<!--<Def Class="FS_SSR.Satellite.RocketDef">
+	<Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_Small</defName>
 		<label>小毕灯</label>
 		<capacity>1</capacity>
@@ -62,7 +84,7 @@
 		</buildParams>
 	</Def>
 
-	<Def Class="FS_SSR.Satellite.RocketDef">
+	<!--Def Class="FS_SSR.Satellite.RocketDef">
 		<defName>SSR_Rocket_Mid</defName>
 		<label>中毕灯</label>
 		<capacity>3</capacity>
@@ -79,7 +101,7 @@
 		</buildParams>
 	</Def>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
 		<defName>SSR_Satellite_Small</defName>
 		<label>小男孩</label>
 		<description>卫星</description>
@@ -106,7 +128,7 @@
 		<satelliteSize>1</satelliteSize>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_FabricBase">
+	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_ItemsMiscBase">
 		<defName>SSR_Satellite_Mid</defName>
 		<label>胖子</label>
 		<description>卫星</description>
@@ -131,7 +153,7 @@
 			</statFactors>
 		</stuffProps>
 		<satelliteSize>3</satelliteSize>
-	</ThingDef>-->
+	</ThingDef-->
 
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="BuildingBase" Name="SSR_LaunchStation">
 		<defName>SSR_LaunchStation</defName>
@@ -152,10 +174,10 @@
 		</graphicData>
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<!--<costList>
+		<costList>
 			<Plasteel>350</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-		</costList>-->
+		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -167,8 +189,9 @@
 			<Mass>200</Mass>
 		</statBases>
 		<size>(3,2)</size>
-		<!--<designationCategory>Production</designationCategory>-->
+		<designationCategory>Production</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<pathCost>50</pathCost>
@@ -176,6 +199,9 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
 		<comps>
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
 		</comps>
@@ -202,7 +228,7 @@
 	<ThingDef Class="FS_SSR.Satellite.LaunchStationDef" ParentName="SSR_LaunchStation">
 		<defName>SSR_SpaceElevator</defName>
 		<label>太空电梯</label>
-		<description>太空电梯</description>
+		<description>火箭发射台</description>
 		<thingClass>FS_SSR.Satellite.Building_SpaceElevator</thingClass>
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
@@ -210,7 +236,7 @@
 		<allowedRocketCapacity>60</allowedRocketCapacity>
 	</ThingDef>
   
-    <!--<ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="BuildingBase">
     <defName>ssr_skyfire</defName>
     <label>ship chunk</label>
     <description>A chunk of a spacecraft. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it.</description>
@@ -255,6 +281,6 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
-  </ThingDef>-->
+  </ThingDef>
   
 </Defs>

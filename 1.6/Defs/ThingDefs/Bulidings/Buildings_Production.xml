@@ -1,53 +1,203 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_RemoteAccessTerminal</defName>
+		<label>远程存取终端</label>
+		<description>用于与中央存储单元进行交互的存取终端，可通过存取终端从中央存储单元中存取物品。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/RemoteAccessTerminal/RemoteAccessTerminal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<passability>Standable</passability>
+		<thingClass>Building</thingClass>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2400</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(1,1)</size>
+		<building>
+			<isEdifice>true</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<comps>
+			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>1</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<requireResearch>SSR_Research_AdvancedWarehouseLogisticsTechnology</requireResearch>
+							<materials>
+								<li>
+									<item>SSR_Item_FermiMaterial</item>
+									<amount>30</amount>
+								</li>
+								<li>
+									<item>SSR_Item_ExtremeComponent</item>
+									<amount>3</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
-		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
-		<tickerType>Normal</tickerType>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<modExtensions>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
-		<comps>
-			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
-			<li Class="CompProperties_Flickable"/>
-		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li>
-			<!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_CentralStorageUnit</defName>
+		<label>中央存储单元</label>
+		<description>使用智能仓储与物流系统构建的模块化存储单元，通过科学整理与技术手段压缩了物品所需的存储空间，从而能够存储大量的物品。</description>
+		<thingClass>Building</thingClass>
+		<!--tickerType>Normal</tickerType-->
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/CentralStorageUnit/CentralStorageUnit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<hasInteractionCell>false</hasInteractionCell>
+		<statBases>
+			<MaxHitPoints>3500</MaxHitPoints>
+			<WorkToBuild>10500</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
 		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<isEdifice>true</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
+		<costList>
+			<SSR_Item_SpecialSteel>300</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
+		</costList>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
+				<capacityOffsetPerLevel>
+					<li>5000</li>
+					<li>10000</li>
+					<li>50000</li>
+				</capacityOffsetPerLevel>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/CentralStorageUnit/T2CentralStorageUnit</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>3</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<requireResearch>SSR_Research_Medium-levelWarehouseLogisticsTechnology</requireResearch>
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>80</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>175</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>15</amount>
+								</li>
+								<li>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
+									<amount>5</amount>
+								</li>
+							</materials>
+							<compPostEffects>
+								<li Class="FS_SSR.Storage.CUPE_ExpandMarsCapacity" />
+							</compPostEffects>
+						</value>
+					</li>
+					<li>
+						<key>2</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Production/CentralStorageUnit/T3CentralStorageUnit</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>3</drawSize>
+							</graphicData>
+							<workAmt>200</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<requireResearch>SSR_Research_AdvancedWarehouseLogisticsTechnology</requireResearch>
+							<materials>
+								<li>
+									<item>SSR_Item_FermiMaterial</item>
+									<amount>120</amount>
+								</li>
+								<li>
+									<item>SSR_Item_ExtremeComponent</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_Item_PhotonComputingCore</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<compPostEffects>
+								<li Class="FS_SSR.Storage.CUPE_ExpandMarsCapacity" />
+							</compPostEffects>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_MaterialSynthesizer</defName>
+		<defName>SSR_Building_MaterialSynthesizer</defName>
 		<label>材料合成机</label>
 		<description>材料合成机是一种先进的工业设备，能够通过精确控制化学反应和物理过程，制造出具有特定属性的复合材料。</description>
 		<graphicData>
@@ -85,6 +235,7 @@
 			<li>Make_StoneBlocksLimestone</li>
 			<li>Make_StoneBlocksSlate</li>
 			<li>Make_StoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
 			<li>SSR_Recipe_Sand</li>
 			<li>SSR_Recipe_TenSand</li>
 			<li>SSR_Recipe_HundredSand</li>
@@ -190,7 +341,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_SpecialSteel</item>
+									<item>SSR_Item_SpecialSteel</item>
 									<amount>80</amount>
 								</li>
 								<li>
@@ -198,11 +349,11 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<item>SSR_SuperconductingMaterial</item>
+									<item>SSR_Item_SuperconductingMaterial</item>
 									<amount>5</amount>
 								</li>
 								<li>
-									<item>SSR_QuantumComputingCore</item>
+									<item>SSR_Item_QuantumComputingCore</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -223,11 +374,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>50</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>120</amount>
 								</li>
 								<li>
@@ -235,11 +386,11 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -297,7 +448,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_NumericalControlledMachineTool</defName>
+		<defName>SSR_Building_NumericalControlledMachineTool</defName>
 		<label>数控加工中心</label>
 		<description>数控加工中心是一种高度自动化的机床，能够通过计算机程序乃至人工智能控制进行复杂的金属加工。</description>
 		<graphicData>
@@ -314,9 +465,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -344,6 +495,8 @@
 			<li>SSR_Recipe_ReinforcedBarrel</li>
 			<li>SSR_Recipe_FiveReinforcedBarrel</li>
 			<li>SSR_Recipe_TenReinforcedBarrel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_GravlitePanel</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_FourGravlitePanel</li>
 			<!-- 弹药 -->
 			<li>SSR_Recipe_Shell_HighExplosive</li>
 			<li>SSR_Recipe_Shell_Incendiary</li>
@@ -369,6 +522,8 @@
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_HellcatRifle</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Gun_Incinerator</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_NerveSpiker</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Gun_BeamRepeater</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">SSR_Recipe_Gun_BeamGraser</li>
 			<!-- 武器/发射器 -->
 			<li>SSR_Recipe_Gun_IncendiaryLauncher</li>
 			<li>SSR_Recipe_Gun_EmpLauncher</li>
@@ -489,6 +644,13 @@
 			<!-- 物品/特殊 -->
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_ShardAnimalPulser</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_BiomutationPulser</li>
+			<!-- 其他 -->
+			<li>SSR_Recipe_SculptureSmall</li>
+			<li>SSR_Recipe_SculptureLarge</li>
+			<li>SSR_Recipe_SculptureGrand</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SSR_Recipe_SculptureTerror</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_VoidSculpture</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Statue</li>
 		</recipes>
 		<comps>
 			<li Class="FS_SSR.TCP_PowerCostByLevel">
@@ -523,11 +685,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -535,11 +697,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -560,7 +722,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
@@ -568,11 +730,11 @@
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -611,7 +773,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_IntegratedChipManufacturingMachine</defName>
+		<defName>SSR_Building_IntegratedChipManufacturingMachine</defName>
 		<label>集成化芯片制造机</label>
 		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
 		<graphicData>
@@ -628,12 +790,10 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -693,11 +853,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -705,7 +865,7 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_QuantumComputingCore</item>
+									<item>SSR_Item_QuantumComputingCore</item>
 									<amount>3</amount>
 								</li>
 							</materials>
@@ -726,7 +886,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
@@ -734,11 +894,11 @@
 									<amount>20</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -787,7 +947,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticSlaughterMachine</defName>
+		<defName>SSR_Building_AutomaticSlaughterMachine</defName>
 		<label>自动屠宰机</label>
 		<description>自动屠宰机是一种高效的工业设备，用于自动化屠宰和加工肉类。它能够提高屠宰过程的速度和卫生标准，减少人工操作。</description>
 		<graphicData>
@@ -804,9 +964,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -851,11 +1011,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -863,11 +1023,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -888,19 +1048,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -928,7 +1088,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticSewingMachine</defName>
+		<defName>SSR_Building_AutomaticSewingMachine</defName>
 		<label>自动缝纫机</label>
 		<description>自动缝纫机是一种高效的缝纫设备，能够自动完成复杂的缝纫任务。它广泛应用于服装制造和纺织品生产。</description>
 		<graphicData>
@@ -945,9 +1105,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1041,11 +1201,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1053,11 +1213,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1078,19 +1238,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1118,7 +1278,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_AutomaticCookingMachine</defName>
+		<defName>SSR_Building_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<graphicData>
@@ -1135,9 +1295,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1152,20 +1312,20 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
 			<li>CookMealSimple</li>
-			<li>CookMealFine</li>
-			<li>CookMealFine_Veg</li>
-			<li>CookMealFine_Meat</li>
-			<li>CookMealLavish</li>
-			<li>CookMealLavish_Veg</li>
-			<li>CookMealLavish_Meat</li>
-			<li>CookMealSurvival</li>
 			<li>CookMealSimpleBulk</li>
+			<li>CookMealFine</li>
 			<li>CookMealFineBulk</li>
+			<li>CookMealFine_Veg</li>
 			<li>CookMealFineBulk_Veg</li>
+			<li>CookMealFine_Meat</li>
 			<li>CookMealFineBulk_Meat</li>
+			<li>CookMealLavish</li>
 			<li>CookMealLavishBulk</li>
+			<li>CookMealLavish_Veg</li>
 			<li>CookMealLavishBulk_Veg</li>
+			<li>CookMealLavish_Meat</li>
 			<li>CookMealLavishBulk_Meat</li>
+			<li>CookMealSurvival</li>
 			<li>CookMealSurvivalBulk</li>
 			<li>Make_Pemmican</li>
 			<li>Make_PemmicanBulk</li>
@@ -1200,11 +1360,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1212,11 +1372,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1237,19 +1397,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1277,7 +1437,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_VacuumInductionFurnace</defName>
+		<defName>SSR_Building_VacuumInductionFurnace</defName>
 		<label>真空感应炉</label>
 		<description>真空感应炉是一种在真空环境中熔化金属的设备，它通过感应加热原理工作，能够提供精确的温度控制和清洁的熔炼过程。</description>
 		<graphicData>
@@ -1294,9 +1454,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1361,11 +1521,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1373,18 +1533,18 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace_north</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1398,26 +1558,26 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace_north</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1438,7 +1598,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_MultifunctionalChemicalSynthesizer</defName>
+		<defName>SSR_Building_MultifunctionalChemicalSynthesizer</defName>
 		<label>多功能化学合成仪</label>
 		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
 		<graphicData>
@@ -1455,9 +1615,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>120</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>20</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1471,21 +1631,22 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>Make_Wort</li>
 			<li>Make_GoJuice</li>
-			<li>Make_Penoxycyline</li>
-			<li>Make_Flake</li>
-			<li>Make_Yayo</li>
-			<li>Make_SmokeleafJoint</li>
-			<li>Make_WakeUp</li>
-			<li>Make_MedicineIndustrial</li>
-			<li>Make_PsychiteTea</li>
 			<li>Make_GoJuiceBulk</li>
+			<li>Make_Penoxycyline</li>
 			<li>Make_PenoxycylineBulk</li>
+			<li>Make_Flake</li>
 			<li>Make_FlakeBulk</li>
+			<li>Make_Yayo</li>
 			<li>Make_YayoBulk</li>
+			<li>Make_SmokeleafJoint</li>
 			<li>Make_SmokeleafJointBulk</li>
+			<li>Make_WakeUp</li>
 			<li>Make_WakeUpBulk</li>
+			<li>Make_MedicineIndustrial</li>
 			<li>Make_MedicineIndustrialBulk</li>
+			<li>Make_PsychiteTea</li>
 			<li>Make_PsychiteTeaBulk</li>
 		</recipes>
 		<comps>
@@ -1516,11 +1677,11 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_Carbyne</item>
+									<item>SSR_Item_Carbyne</item>
 									<amount>80</amount>
 								</li>
 								<li>
-									<item>SSR_NanoandMicroMechanicalComposite</item>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 									<amount>150</amount>
 								</li>
 								<li>
@@ -1528,11 +1689,11 @@
 									<amount>12</amount>
 								</li>
 								<li>
-									<item>SSR_IntegratedQuantumComputingFramework</item>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_ArtificialIntelligenceChip</item>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1553,19 +1714,19 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_FermiMaterial</item>
+									<item>SSR_Item_FermiMaterial</item>
 									<amount>100</amount>
 								</li>
 								<li>
-									<item>SSR_ExtremeComponent</item>
+									<item>SSR_Item_ExtremeComponent</item>
 									<amount>10</amount>
 								</li>
 								<li>
-									<item>SSR_PhotonComputingCore</item>
+									<item>SSR_Item_PhotonComputingCore</item>
 									<amount>3</amount>
 								</li>
 								<li>
-									<item>SSR_AdvancedArtificialIntelligenceChip</item>
+									<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 									<amount>1</amount>
 								</li>
 							</materials>
@@ -1592,8 +1753,69 @@
 		</modExtensions>
 	</ThingDef>
 
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_ReplicatorMachine</defName>
+		<label>复制机</label>
+		<description>使用费米材料进行生产的终极自动化设备，能够以原子级精度复制一切物品。</description>
+		<thingClass>FS_SSR.Production.Building_Replicator</thingClass>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/ReplicatorMachine/ReplicatorMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<hasInteractionCell>false</hasInteractionCell>
+		<statBases>
+			<MaxHitPoints>3000</MaxHitPoints>
+			<WorkToBuild>18000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<SSR_Item_FermiMaterial>300</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>10</SSR_Item_ExtremeComponent>
+			<SSR_Item_PhotonComputingCore>3</SSR_Item_PhotonComputingCore>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>1</SSR_Item_AdvancedArtificialIntelligenceChip>
+		</costList>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<!--End-->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>5000</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ICMR" />
+			<li Class="FS_SSR.Generic.TCP_ThingContainer">
+				<showEjectGizmo>false</showEjectGizmo>
+				<dropOnDestroy>true</dropOnDestroy>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_ConditionalTimer">
+				<interval>1000</interval>
+				<drawExtraOverlay>true</drawExtraOverlay>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>SSR_Research_AdvancedArtificialIntelligence</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
-		<defName>SSR_CoalLiquefactionMachine</defName>
+		<defName>SSR_Building_CoalLiquefactionMachine</defName>
 		<label>煤炭液化机</label>
 		<description>煤炭液化机用于将固态煤炭转化为液态燃料，这种转化过程通常涉及高温高压和催化剂，以改变煤炭的化学结构。</description>
 		<graphicData>
@@ -1610,9 +1832,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -1639,14 +1861,61 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
+			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<productionFactorsUpgraded>
+					<li>1</li>
+					<li>3</li>
+				</productionFactorsUpgraded>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>60</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>120</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>7</amount>
+								</li>
+								<li>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<workAmt>200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/CoalLiquefactionMachine/T2CoalLiquefactionMachine</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+							</graphicData>
+							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
+			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>SSR_Research_CoalLiquefactionTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentRepairStation</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_EquipmentRepairStation</defName>
 		<label>装备维修台</label>
 		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
 		<thingClass>Building</thingClass>
@@ -1666,10 +1935,7 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1677,15 +1943,15 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>5400</WorkToBuild>
 			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
+			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1725,16 +1991,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_EquipmentPreparationStation</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_EquipmentPreparationStation</defName>
 		<label>装备整备台</label>
 		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
 		<thingClass>Building</thingClass>
@@ -1754,10 +2014,7 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -1765,17 +2022,17 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>7200</WorkToBuild>
 			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
+			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>60</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
+			<SSR_Item_Carbyne>60</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
 			<ComponentSpacer>12</ComponentSpacer>
-			<SSR_IntegratedQuantumComputingFramework>3</SSR_IntegratedQuantumComputingFramework>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_IntegratedQuantumComputingFramework>3</SSR_Item_IntegratedQuantumComputingFramework>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -1813,16 +2070,10 @@
 		<researchPrerequisites>
 			<li>SSR_Research_EncryptionSystemCracking</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_FMIAExtractStationGE</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_FMIAExtractStationGE</defName>
 		<label>地热聚变材料提取站</label>
 		<description>地热聚变材料提取站是一种先进的设施，专门设计用于从地热资源中提取聚变反应所需的材料。</description>
 		<thingClass>Building</thingClass>
@@ -1854,15 +2105,15 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>7200</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<Flammability>0</Flammability>
 			<Mass>10</Mass>
 			<Beauty>-30</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(4,4)</size>
 		<costList>
-			<SSR_SpecialSteel>50</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>50</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>80</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -1871,12 +2122,16 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="CompProperties_Spawner">
-				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
+				<thingToSpawn>SSR_Item_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>36000</spawnIntervalRange>
 				<spawnMaxAdjacent>50</spawnMaxAdjacent>
@@ -1886,14 +2141,12 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2110</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -1902,12 +2155,6 @@
 		<researchPrerequisites>
 			<li>SSR_Research_ControlledNuclearFusion</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!--<ThingDef ParentName="BuildingBase">
@@ -1946,14 +2193,14 @@
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<WorkToBuild>7200</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<Flammability>0</Flammability>
 			<Beauty>-20</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(5,6)</size>
 		<costList>
-			<SSR_SpecialSteel>50</SSR_SpecialSteel>
-			<SSR_StandardConstructionElement>80</SSR_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>50</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>80</SSR_Item_StandardConstructionElement>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -1967,7 +2214,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="CompProperties_Spawner">
-				<thingToSpawn>SSR_NuclearFusionFuelStorageTank</thingToSpawn>
+				<thingToSpawn>SSR_Item_NuclearFusionFuelStorageTank</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>36000</spawnIntervalRange>
 				<spawnMaxAdjacent>50</spawnMaxAdjacent>
@@ -1977,8 +2224,7 @@
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded />-->
 	<!-- handled by the placeworker -->
-	<!--<designationCategory>SSR_DesignationCategory</designationCategory>
-		<uiOrder>2100</uiOrder>
+	<!--<uiOrder>2100</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_WatermillGenerator</li>
 		</placeWorkers>
@@ -1990,8 +2236,8 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>-->
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_NeutroamineSynthesizer</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_NeutroamineSynthesizer</defName>
 		<label>中性胺合成仪</label>
 		<description>中性胺合成仪是一种专用化学设备，用于批量合成中性胺。</description>
 		<thingClass>Building</thingClass>
@@ -2008,14 +2254,12 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<costList>
-			<SSR_SpecialSteel>30</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>30</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<uiIconScale>0.65</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<rotatable>true</rotatable>
-		<fillPercent>0.5</fillPercent>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
@@ -2025,7 +2269,6 @@
 			<Mass>30</Mass>
 			<WorkToBuild>3600</WorkToBuild>
 		</statBases>
-		<pathCost>42</pathCost>
 		<receivesSignals>true</receivesSignals>
 		<blockWind>true</blockWind>
 		<tickerType>Normal</tickerType>
@@ -2053,16 +2296,196 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicMedicine</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_LandBasedExcavator</defName>
+		<label>陆用挖沙机</label>
+		<description>用于在沙地上采集沙子的自动化机器，仅在沙地上工作时拥有最高效率，会定期将收集到的沙子堆放于出货口，当存在仓储系统时会将产物直接运至仓库中。</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/LandBasedExcavator_UI</uiIconPath>
+		<uiIconScale>1.8</uiIconScale>
+		<size>(3,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<costList>
+			<SSR_Item_SpecialSteel>75</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<specialDisplayRadius>2</specialDisplayRadius>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
+				<radius>(2,2)</radius>
+				<innateProducts>
+					<li>
+						<item>SSR_Item_Sand</item>
+						<amount>375</amount>
+					</li>
+				</innateProducts>
+				<validTerrainsList>
+					<li>Sand</li>
+					<li>SoftSand</li>
+				</validTerrainsList>
+			</li>
+			<li Class="CompProperties_CreatesInfestations" />
+			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>
+						<north>Assets/SSR/Prefab/LandDiggerNorth.prefab</north>
+						<south>Assets/SSR/Prefab/LandDiggerSouth.prefab</south>
+						<west>Assets/SSR/Prefab/LandDiggerWest.prefab</west>
+						<east>Assets/SSR/Prefab/LandDiggerEast.prefab</east>
+					</li>
+				</leveledPrefabPaths>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_TeleportationBeacon</defName>
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_FloatingSandDredger</defName>
+		<label>水上平台挖沙机</label>
+		<description>用于在水中采集沙子的自动化机器，仅在水中工作时拥有最高效率，会定期将收集到的沙子堆放于出货口，当存在仓储系统时会将产物直接运至仓库中。</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/AutomaticResourceCollector/FloatingSandDredger_UI</uiIconPath>
+		<uiIconScale>1.75</uiIconScale>
+		<size>(3,5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>SSR_TerrainAfforance_WaterCompatible</terrainAffordanceNeeded>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<costList>
+			<SSR_Item_SpecialSteel>75</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<specialDisplayRadius>2</specialDisplayRadius>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicManufacturingTechnology</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
+				<radius>(2,2)</radius>
+				<innateProducts>
+					<li>
+						<item>SSR_Item_Sand</item>
+						<amount>375</amount>
+					</li>
+				</innateProducts>
+				<validTerrainsList>
+					<li>Sand</li>
+					<li>WaterOceanDeep</li>
+				</validTerrainsList>
+			</li>
+			<li Class="CompProperties_CreatesInfestations" />
+			<li Class="FS_SSR.TCP_MultiPrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>
+						<north>Assets/SSR/Prefab/WaterDiggerNorth.prefab</north>
+						<south>Assets/SSR/Prefab/WaterDiggerSouth.prefab</south>
+						<west>Assets/SSR/Prefab/WaterDiggerWest.prefab</west>
+						<east>Assets/SSR/Prefab/WaterDiggerEast.prefab</east>
+					</li>
+				</leveledPrefabPaths>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_TeleportationBeacon</defName>
 		<label>传送信标</label>
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
 		<thingClass>FS_SSR.ThingClass_AutoBenchBeacon</thingClass>
@@ -2076,8 +2499,6 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -2091,9 +2512,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>30</SSR_FermiMaterial>
-			<SSR_PhotonComputingCore>1</SSR_PhotonComputingCore>
-			<SSR_ExtremeComponent>8</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>30</SSR_Item_FermiMaterial>
+			<SSR_Item_PhotonComputingCore>1</SSR_Item_PhotonComputingCore>
+			<SSR_Item_ExtremeComponent>8</SSR_Item_ExtremeComponent>
 		</costList>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -2113,18 +2534,13 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicSpaceApplication</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
-		<defName>SSR_AutomaticDeepDrill</defName>
+	<!--========矿井========-->
+	<ThingDef ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_AutomaticDeepDrill</defName>
 		<label>自动深钻井</label>
-		<description>自动深钻井</description>
+		<description>自动深钻井是一种用于采集少量矿物的简易采矿装置，工作时无需人员操作。</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticDeepDrill/AutomaticDeepDrill</texPath>
@@ -2139,12 +2555,9 @@
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<fillPercent>0.5</fillPercent>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<specialDisplayRadius>2.6</specialDisplayRadius>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -2158,7 +2571,7 @@
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
 		<costList>
-			<Steel>100</Steel>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<placeWorkers>
@@ -2171,7 +2584,7 @@
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>10000</WorkToBuild>
+			<WorkToBuild>3600</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Mass>35</Mass>
 		</statBases>
@@ -2189,55 +2602,72 @@
 			<li Class="CompProperties_CreatesInfestations" />
 		</comps>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
-		<defName>SSR_Mine</defName>
+	<ThingDef Class="FS_SSR.PalMine.PalMineDef" ParentName="SSR_BuildingBase_Production">
+		<defName>SSR_Building_Mine</defName>
 		<label>标准化垂直矿井</label>
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
-		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
+		<thingClass>FS_SSR.PalMine.Building_PalMine</thingClass>
 		<tickerType>Long</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>7</drawSize>
+			<drawSize>11</drawSize>
 			<shadowData>
 				<volume>(1,1,1)</volume>
 				<offset>(1.75,0,1.75)</offset>
 			</shadowData>
 		</graphicData>
-		<size>(7,7)</size>
+		<alterGraphic>
+			<li>
+				<key>1</key>
+				<value>
+					<texPath>Things/Building/Production/Mine/T2Mine</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>11</drawSize>
+				</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>
+					<texPath>Things/Building/Production/Mine/T3Mine</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>11</drawSize>
+				</value>
+			</li>
+		</alterGraphic>
+		<size>(11,11)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
-		<drawerType>RealtimeOnly</drawerType>
+		<interactionCellOffset>(0,0,6)</interactionCellOffset>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_StandardConstructionElement>500</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>200</SSR_SpecialSteel>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<placeWorkers>
+			<li>FS_SSR.Generic.PW_WorldUnique</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedMineConstruction</li>
 		</researchPrerequisites>
@@ -2247,77 +2677,36 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>5000</basePowerConsumption>
 			</li>
+			<li Class="FS_SSR.Generic.TCP_UniqueMarker" />
+			<!--li Class="FS_SSR.Generic.TCP_Limited">
+				<unique>true</unique>
+			</li-->
+			<li Class="FS_SSR.Generic.TCP_ICMR" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<li Class="FS_SSR.Generic.TCP_UniqueMarker">
-				<level>World</level>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ICMR" />
-			<li Class="FS_SSR.Generic.TCP_Upgradable">
-				<levels>
-					<li>
-						<key>1</key>
-						<value>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_SpecialSteel</item>
-									<amount>80</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>MinerT1</texPath>
-								<drawSize>(16,16)</drawSize>
-							</graphicData>
-							<requireResearch>SSR_Research_Medium-levelManufacturingTechnology</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-					<li>
-						<key>2</key>
-						<value>
-							<requireMaterial>true</requireMaterial>
-							<materials>
-								<li>
-									<item>SSR_Carbyne</item>
-									<amount>50</amount>
-								</li>
-							</materials>
-							<workAmt>200</workAmt>
-							<requirePawnWork>true</requirePawnWork>
-							<graphicData>
-								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
-								<graphicClass>Graphic_Multi</graphicClass>
-								<drawSize>(3,2)</drawSize>
-							</graphicData>
-							<requireResearch>SSR_Research_AdvancedMaterialsScience</requireResearch>
-							<showUpgradeGizmo>true</showUpgradeGizmo>
-						</value>
-					</li>
-				</levels>
-			</li>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/MinerT1.prefab</li>
-					<li>Assets/SSR/Perfab/MinerT2.prefab</li>
-					<li>Assets/SSR/Perfab/MinerT3.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
+					<li>Assets/SSR/Prefab/MinerT2.prefab</li>
+					<li>Assets/SSR/Prefab/MinerT3.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 		</comps>
-		<placeWorkers>
-			<li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
-		</placeWorkers>
 		<costPerLayer>
 			<materials>
 				<li>
-					<item>SSR_StandardConstructionElement</item>
+					<item>SSR_Item_StandardConstructionElement</item>
 					<amount>150</amount>
 				</li>
 				<li>
-					<item>SSR_SpecialSteel</item>
+					<item>SSR_Item_SpecialSteel</item>
 					<amount>80</amount>
 				</li>
 				<li>
@@ -2330,11 +2719,11 @@
 		<costPerTunnel>
 			<materials>
 				<li>
-					<item>SSR_StandardConstructionElement</item>
+					<item>SSR_Item_StandardConstructionElement</item>
 					<amount>80</amount>
 				</li>
 				<li>
-					<item>SSR_SpecialSteel</item>
+					<item>SSR_Item_SpecialSteel</item>
 					<amount>30</amount>
 				</li>
 				<li>
@@ -2344,18 +2733,18 @@
 			</materials>
 			<workAmt>300</workAmt>
 		</costPerTunnel>
-		<autoTunnelDiggerEfficiency>
-			<li>0</li>
-			<li>1</li>
-			<li>3</li>
-			<li>5</li>
-		</autoTunnelDiggerEfficiency>
 		<autoLayerDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
 			<li>3</li>
 			<li>5</li>
 		</autoLayerDiggerEfficiency>
+		<autoTunnelDiggerEfficiency>
+			<li>0</li>
+			<li>1</li>
+			<li>3</li>
+			<li>5</li>
+		</autoTunnelDiggerEfficiency>
 		<autoMineralDiggerEfficiency>
 			<li>0</li>
 			<li>1</li>
@@ -2364,13 +2753,15 @@
 		</autoMineralDiggerEfficiency>
 		<autoLayerDiggerCost>
 			<li>
+				<workAmt>1200</workAmt>
+				<requireResearch>SSR_Research_BasicMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>200</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>100</amount>
 					</li>
 					<li>
@@ -2378,21 +2769,21 @@
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>3</amount>
 					</li>
 				</materials>
-				<workAmt>1200</workAmt>
-				<requireResearch>SSR_Research_BasicMineMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>1600</workAmt>
+				<requireResearch>SSR_Research_Medium-levelMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>300</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>150</amount>
 					</li>
 					<li>
@@ -2400,49 +2791,49 @@
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_ArtificialIntelligenceChip</item>
+						<item>SSR_Item_ArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>1600</workAmt>
-				<requireResearch>SSR_Research_Medium-levelMineMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>2000</workAmt>
+				<requireResearch>SSR_Research_AdvancedMineMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>500</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>20</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>2000</workAmt>
-				<requireResearch>SSR_Research_AdvancedMineMiningAutomation</requireResearch>
 			</li>
 		</autoLayerDiggerCost>
 		<autoTunnelDiggerCost>
 			<li>
+				<workAmt>450</workAmt>
+				<requireResearch>SSR_Research_BasicTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>120</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>50</amount>
 					</li>
 					<li>
@@ -2450,21 +2841,21 @@
 						<amount>15</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>450</workAmt>
-				<requireResearch>SSR_Research_BasicTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>600</workAmt>
+				<requireResearch>SSR_Research_Medium-levelTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>150</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>80</amount>
 					</li>
 					<li>
@@ -2472,49 +2863,49 @@
 						<amount>10</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_ArtificialIntelligenceChip</item>
+						<item>SSR_Item_ArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>600</workAmt>
-				<requireResearch>SSR_Research_Medium-levelTunnelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>1000</workAmt>
+				<requireResearch>SSR_Research_AdvancedTunnelMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>200</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>10</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>3</amount>
 					</li>
 					<li>
-						<item>SSR_AdvancedArtificialIntelligenceChip</item>
+						<item>SSR_Item_AdvancedArtificialIntelligenceChip</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>1000</workAmt>
-				<requireResearch>SSR_Research_AdvancedTunnelMiningAutomation</requireResearch>
 			</li>
 		</autoTunnelDiggerCost>
 		<autoMineralDiggerCost>
 			<li>
+				<workAmt>300</workAmt>
+				<requireResearch>SSR_Research_BasicMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_StandardConstructionElement</item>
+						<item>SSR_Item_StandardConstructionElement</item>
 						<amount>80</amount>
 					</li>
 					<li>
-						<item>SSR_SpecialSteel</item>
+						<item>SSR_Item_SpecialSteel</item>
 						<amount>30</amount>
 					</li>
 					<li>
@@ -2522,21 +2913,21 @@
 						<amount>7</amount>
 					</li>
 					<li>
-						<item>SSR_QuantumComputingCore</item>
+						<item>SSR_Item_QuantumComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>300</workAmt>
-				<requireResearch>SSR_Research_BasicMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>500</workAmt>
+				<requireResearch>SSR_Research_Medium-levelMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_Carbyne</item>
+						<item>SSR_Item_Carbyne</item>
 						<amount>80</amount>
 					</li>
 					<li>
-						<item>SSR_NanoandMicroMechanicalComposite</item>
+						<item>SSR_Item_NanoandMicroMechanicalComposite</item>
 						<amount>40</amount>
 					</li>
 					<li>
@@ -2544,30 +2935,28 @@
 						<amount>5</amount>
 					</li>
 					<li>
-						<item>SSR_IntegratedQuantumComputingFramework</item>
+						<item>SSR_Item_IntegratedQuantumComputingFramework</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>500</workAmt>
-				<requireResearch>SSR_Research_Medium-levelMiningAutomation</requireResearch>
 			</li>
 			<li>
+				<workAmt>700</workAmt>
+				<requireResearch>SSR_Research_AdvancedMiningAutomation</requireResearch>
 				<materials>
 					<li>
-						<item>SSR_FermiMaterial</item>
+						<item>SSR_Item_FermiMaterial</item>
 						<amount>100</amount>
 					</li>
 					<li>
-						<item>SSR_ExtremeComponent</item>
+						<item>SSR_Item_ExtremeComponent</item>
 						<amount>5</amount>
 					</li>
 					<li>
-						<item>SSR_PhotonComputingCore</item>
+						<item>SSR_Item_PhotonComputingCore</item>
 						<amount>1</amount>
 					</li>
 				</materials>
-				<workAmt>700</workAmt>
-				<requireResearch>SSR_Research_AdvancedMiningAutomation</requireResearch>
 			</li>
 		</autoMineralDiggerCost>
 		<minableStones>
@@ -2578,33 +2967,27 @@
 		</minableStones>
 		<manualMineralProperties>
 			<li>
-				<def>SSR_Carbon</def>
-				<workAmout>7000</workAmout>
+				<def>SSR_Item_Carbon</def>
+				<workAmount>7000</workAmount>
 				<yield>75</yield>
-				<value>1.2</value>
+				<marketValue>1.2</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>Steel</def>
-				<workAmout>700</workAmout>
+				<workAmount>700</workAmount>
 				<yield>75</yield>
-				<value>1.3</value>
+				<marketValue>1.3</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 			<li>
 				<def>Silver</def>
-				<workAmout>10000</workAmout>
+				<workAmount>10000</workAmount>
 				<yield>20</yield>
-				<value>9</value>
+				<marketValue>9</marketValue>
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 </Defs>

@@ -2,44 +2,44 @@
 <Defs>
 
     <ThingDef Name="SSR_AdMaterial" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <drawerType>MapMeshOnly</drawerType>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
-    <burnableByRecipe>false</burnableByRecipe>
-    <smallVolume>false</smallVolume>
-    <statBases>
-        <Flammability>0</Flammability>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-    <intricate>true</intricate>
-    <tradeTags>
-        <li>ExoticMisc</li>
-    </tradeTags>
-    <thingCategories>
-        <li>SSR_Manufactured</li>
-    </thingCategories>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>14</pathCost>
-    <allowedArchonexusCount>-1</allowedArchonexusCount>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Metal_Drop</soundDrop>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-  </ThingDef>
+        <thingClass>ThingWithComps</thingClass>
+        <category>Item</category>
+        <drawerType>MapMeshOnly</drawerType>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <selectable>true</selectable>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>75</stackLimit>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smallVolume>false</smallVolume>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+        </comps>
+        <intricate>true</intricate>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <thingCategories>
+            <li>SSR_Manufactured</li>
+        </thingCategories>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <rotatable>false</rotatable>
+        <pathCost>14</pathCost>
+        <allowedArchonexusCount>-1</allowedArchonexusCount>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    </ThingDef>
 
     <!-- ==================================== Tech Level 1 =====================================-->
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_PrecisionLens</defName>
+        <defName>SSR_Item_PrecisionLens</defName>
         <label>精密镜片</label>
         <description>精密镜片是利用高精度技术制造的光学元件，具有极高的表面平滑度和几何精度。它们广泛应用于显微镜、望远镜、相机镜头和激光系统等精密光学设备中。</description>
         <graphicData>
@@ -59,7 +59,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_SuperconductingMaterial</defName>
+        <defName>SSR_Item_SuperconductingMaterial</defName>
         <label>超导材料</label>
         <description>超导材料是一种在室温条件下能够实现零电阻和完全抗磁性的材料。</description>
         <graphicData>
@@ -80,7 +80,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_StrongElectromagnet</defName>
+        <defName>SSR_Item_StrongElectromagnet</defName>
         <label>强电磁铁</label>
         <description>强电磁铁是一种利用电流产生强大磁场的装置，能够快速吸引或排斥磁性材料，实现精确控制。</description>
         <graphicData>
@@ -101,7 +101,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_QuantumComputingCore</defName>
+        <defName>SSR_Item_QuantumComputingCore</defName>
         <label>量子计算核心</label>
         <description>量子计算核心利用量子位进行信息处理，通过量子叠加和量子纠缠实现超越传统计算机的计算能力。</description>
         <graphicData>
@@ -121,54 +121,54 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NuclearFissionFuelRod</defName>
-		<label>核裂变燃料棒</label>
-		<description>核裂变燃料棒是核反应堆中的关键组件，通过受控的核裂变反应释放能量。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NuclearFissionFuelRod</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>225</MarketValue>
-			<SellPriceFactor>0.05</SellPriceFactor>
-			<Mass>0.01</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>3.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_NuclearFissionFuelRod</defName>
+        <label>核裂变燃料棒</label>
+        <description>核裂变燃料棒是核反应堆中的关键组件，通过受控的核裂变反应释放能量。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NuclearFissionFuelRod</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>225</MarketValue>
+            <SellPriceFactor>0.05</SellPriceFactor>
+            <Mass>0.01</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>3.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NuclearFusionFuelStorageTank</defName>
-		<label>核聚变燃料储罐</label>
-		<description>核聚变燃料储罐储存着聚变反应所需的氢同位素。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NuclearFusionFuelStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<MarketValue>325</MarketValue>
-			<SellPriceFactor>0.05</SellPriceFactor>
-			<Mass>0.01</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>3.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_NuclearFusionFuelStorageTank</defName>
+        <label>核聚变燃料储罐</label>
+        <description>核聚变燃料储罐储存着聚变反应所需的氢同位素。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NuclearFusionFuelStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <MarketValue>325</MarketValue>
+            <SellPriceFactor>0.05</SellPriceFactor>
+            <Mass>0.01</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>3.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
     <!-- ==================================== Tech Level 2 =====================================-->
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_ArtificialIntelligenceChip</defName>
+        <defName>SSR_Item_ArtificialIntelligenceChip</defName>
         <label>人工智能芯片</label>
         <description>人工智能芯片可以集成完整的人工智能系统，具备高度自主性和智能处理能力，它们是智能设备和自动化系统的大脑。</description>
         <graphicData>
@@ -189,7 +189,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_IntegratedQuantumComputingFramework</defName>
+        <defName>SSR_Item_IntegratedQuantumComputingFramework</defName>
         <label>集成化量子计算框架</label>
         <description>集成化量子计算框架是一种将量子计算硬件与软件集成的系统，旨在实现更高效、更可靠的量子信息处理。</description>
         <graphicData>
@@ -210,7 +210,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_HighDensityBattery</defName>
+        <defName>SSR_Item_HighDensityBattery</defName>
         <label>高密度电池</label>
         <description>高密度电池通过先进的材料和设计，提供更高的能量存储密度，它们能在较小的体积和重量下存储更多电能。</description>
         <graphicData>
@@ -231,7 +231,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_HighenergyLaserEmitter</defName>
+        <defName>SSR_Item_HighenergyLaserEmitter</defName>
         <label>高能激光发射器</label>
         <description>高能激光发射器是一种能够产生极高功率激光束的设备，它们能在极短时间内集中巨大能量，实现远距离精确打击或高效率材料加工。</description>
         <graphicData>
@@ -254,7 +254,7 @@
     <!-- ==================================== Tech Level 3 =====================================-->
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_AdvancedArtificialIntelligenceChip</defName>
+        <defName>SSR_Item_AdvancedArtificialIntelligenceChip</defName>
         <label>高级人工智能芯片</label>
         <description>高级人工智能芯片能够承载完整的强人工智能系统，能够进行复杂的决策、学习和自然语言交互，是人工智能技术的巅峰造物。</description>
         <graphicData>
@@ -275,7 +275,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_PhotonComputingCore</defName>
+        <defName>SSR_Item_PhotonComputingCore</defName>
         <label>光子计算核心</label>
         <description>光子计算核心利用光子而非电子进行信息处理，能够提供远超量子计算机的速度和效率。</description>
         <graphicData>
@@ -296,7 +296,7 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_ExtremeComponent</defName>
+        <defName>SSR_Item_ExtremeComponent</defName>
         <label>极致零部件</label>
         <description>极致零部件是制造精度极高、性能卓越的小型机械或计算组件，是构建最复杂机械设备的关键。</description>
         <graphicData>
@@ -316,29 +316,29 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_MiniatureNuclearFusionDevice</defName>
-		<label>微型聚变装置</label>
-		<description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>57000</MarketValue>
-			<Mass>3</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_MiniatureNuclearFusionDevice</defName>
+        <label>微型聚变装置</label>
+        <description>微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>57000</MarketValue>
+            <Mass>3</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
-        <defName>SSR_HighenergyParticleConfinementDevice</defName>
+        <defName>SSR_Item_HighenergyParticleConfinementDevice</defName>
         <label>高能粒子约束装置</label>
         <description>高能粒子约束装置是一种先进的科学设备，专门设计用于捕捉和储存高能微观粒子，这些装置能够在极端条件下安全地隔离和维持这些难以捉摸的粒子。</description>
         <graphicData>
@@ -358,92 +358,92 @@
         </statBases>
     </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_NeutralParticleStorageTank</defName>
-		<label>中性粒子储罐</label>
-		<description>中性粒子储罐是一种特殊容器，其中储存和隔离着中性粒子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/NeutralParticleStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>2300</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_NeutralParticleStorageTank</defName>
+        <label>中性粒子储罐</label>
+        <description>中性粒子储罐是一种特殊容器，其中储存和隔离着中性粒子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/NeutralParticleStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>2300</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_ChargedParticleStorageTank</defName>
-		<label>带电粒子储罐</label>
-		<description>带电粒子储罐是一种特殊容器，其中储存和隔离着带电粒子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/ChargedParticleStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>2300</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_ChargedParticleStorageTank</defName>
+        <label>带电粒子储罐</label>
+        <description>带电粒子储罐是一种特殊容器，其中储存和隔离着带电粒子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/ChargedParticleStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>2300</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_AntimatterStorageTank</defName>
-		<label>反物质储罐</label>
-		<description>反物质储罐是一种特殊容器，其中储存和隔离着带反物质，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/AntimatterStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>4500</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_AntimatterStorageTank</defName>
+        <label>反物质储罐</label>
+        <description>反物质储罐是一种特殊容器，其中储存和隔离着带反物质，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/AntimatterStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>4500</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
-	<ThingDef ParentName="SSR_AdMaterial">
-		<defName>SSR_TachyonStorageTank</defName>
-		<label>快子储罐</label>
-		<description>快子储罐是一种特殊容器，其中储存和隔离着带快子，防止它们与其他物质发生反应。</description>
-		<graphicData>
-			<texPath>Things/Item/AdMaterial/TachyonStorageTank</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>50</stackLimit>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<MarketValue>4500</MarketValue>
-			<SellPriceFactor>0.01</SellPriceFactor>
-			<Mass>1.2</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="SSR_AdMaterial">
+        <defName>SSR_Item_TachyonStorageTank</defName>
+        <label>快子储罐</label>
+        <description>快子储罐是一种特殊容器，其中储存和隔离着带快子，防止它们与其他物质发生反应。</description>
+        <graphicData>
+            <texPath>Things/Item/AdMaterial/TachyonStorageTank</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <MarketValue>4500</MarketValue>
+            <SellPriceFactor>0.01</SellPriceFactor>
+            <Mass>1.2</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+    </ThingDef>
 
 </Defs>

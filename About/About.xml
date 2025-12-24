@@ -3,13 +3,28 @@
 <ModMetaData>
 	<name>[SSR]Solar System Republic Core 太阳系共和国核心包</name>
 	<packageId>SSR.Core</packageId>
-	<author>Celestial Pole,Fleurety,3HST有限公司,Nesi,皮皮螺旋大龙虾,堂丸,奈亚,PermanentWizard,FelixT,世故绮罗</author>
+	<author>Celestial Pole,Fleurety,3HST有限公司,黄齏淡饭,余烬,八云太守,Nesi,皮皮螺旋大龙虾,堂丸,奈亚,PermanentWizard,音痴,FelixT,世故绮罗,小米智能收割机,卡迪亚屹立不倒</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
 	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
 	</loadAfter>
 	<description>在太阳系共和国的秩序真正覆盖到这颗星球之前，率先踏足此地的是先进的知识和令人向往的理念。在星空中飘荡的快子信号为文明尚存的落难者带来了新的希望，利用这份知识为基地的建设添砖加瓦，希望你能坚持，直到黎明的到来。</description>
 </ModMetaData>

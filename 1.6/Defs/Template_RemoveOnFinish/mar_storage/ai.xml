@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_HaulToMars</defName>
 		<label>haul to mars</label>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.AssetDef>
+		<defName>SSR_Animate_Prefab_Linux</defName>
+		<label>Animate Prefab</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>Linux/ssr_linux</assetBundle>
+	</AK_DLL.AssetDef>
+
+	<AK_DLL.AssetDef>
+		<defName>SSR_Animate_Prefab_MacOS</defName>
+		<label>Animate Prefab</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>MacOS/ssr_macos</assetBundle>
+	</AK_DLL.AssetDef>
+
+	<AK_DLL.AssetDef>
+		<defName>SSR_Animate_Prefab_Windows</defName>
+		<label>Animate Prefab</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>Windows/ssr_windows</assetBundle>
+	</AK_DLL.AssetDef>
+
+	<!-- Floor -->
+	<TerrainDef Name="SSR_FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
+		<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
+				<designatorClass>Designator_Build</designatorClass>
+			</li>
+		</modExtensions>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SSR_FloorBase" Name="SSR_ArmouredFloorBase" Abstract="True">
+		<designatorDropdown>SSR_Designator_ArmouredFloor</designatorDropdown>
+		<constructEffect>ConstructMetal</constructEffect>
+		<isPaintable>true</isPaintable>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<!-- Furniture -->
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Furniture" Abstract="True">
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
+			</li>
+		</modExtensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+	</ThingDef>
+
+	<!-- Power -->
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>false</hasInteractionCell>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+	</ThingDef>
+
+	<!-- Production -->
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
+			</li>
+		</modExtensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
+		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+		<tickerType>Normal</tickerType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<modExtensions>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
+		</modExtensions>
+		<comps>
+			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.UI.PW_FrameLevel</li>			<!-- 可以升级的建筑必须多带这个place worker -->
+		</placeWorkers>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

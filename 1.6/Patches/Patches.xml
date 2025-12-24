@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!--<Operation Class="PatchOperationAdd">
-  <xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
-  <value>
-      <li>Make_Plasteel</li>
-	  <li>Make_TenPlasteel</li>
-	  <li>Make_HundredPlasteel</li>
-	  <li>Make_Synthread</li>
-	  <li>Make_TenSynthread</li>
-	  <li>Make_HundredSynthread</li>
-	  <li>Make_Hyperweave</li>
-	  <li>Make_TenHyperweave</li>
-	  <li>Make_HundredHyperweave</li>
-	  <li>Make_Graphene</li>
-	  <li>Make_TenGraphene</li>
-	  <li>Make_HundredGraphene</li>
-  </value>
-</Operation>-->
+	<!--Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+		<value>
+			<li>Make_Plasteel</li>
+			<li>Make_TenPlasteel</li>
+			<li>Make_HundredPlasteel</li>
+			<li>Make_Synthread</li>
+			<li>Make_TenSynthread</li>
+			<li>Make_HundredSynthread</li>
+			<li>Make_Hyperweave</li>
+			<li>Make_TenHyperweave</li>
+			<li>Make_HundredHyperweave</li>
+			<li>Make_Graphene</li>
+			<li>Make_TenGraphene</li>
+			<li>Make_HundredGraphene</li>
+		</value>
+	</Operation-->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/SurgeryOutcomeEffectDef[defName="SurgeryOutcomeBase"]/comps/li[@Class="SurgeryOutcomeComp_ClampToRange"]/range</xpath>
@@ -58,7 +58,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 		<value>
-			<li>SSR_DataTerminal</li>
+			<li>SSR_Building_DataTerminal</li>
 		</value>
 	</Operation>
 
@@ -66,6 +66,32 @@
 		<xpath>Defs/ThingDef[defName="Steel"]/stuffProps/statFactors/Flammability</xpath>
 		<value>
 			<Flammability>0</Flammability>
+		</value>
+	</Operation>
+
+	<!-- 目标：WaterShallowBase 地形 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[@Name="WaterShallowBase"]/affordances</xpath>
+		<value>
+			<li>SSR_TerrainAfforance_WaterCompatible</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName="WaterOceanDeep"]</xpath>
+		<value>
+			<affordances>
+				<li>SSR_TerrainAfforance_WaterCompatible</li>
+			</affordances>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName="Sand"]</xpath>
+		<value>
+			<affordances>
+				<li>SSR_TerrainAffordance_SandCompatible</li>
+			</affordances>
 		</value>
 	</Operation>
 

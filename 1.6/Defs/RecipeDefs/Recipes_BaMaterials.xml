@@ -14,7 +14,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -22,11 +22,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Glass>1</SSR_Glass>
+			<SSR_Item_Glass>1</SSR_Item_Glass>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -47,7 +47,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -55,11 +55,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Glass>10</SSR_Glass>
+			<SSR_Item_Glass>10</SSR_Item_Glass>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -80,7 +80,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>200</count>
@@ -88,11 +88,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Glass>100</SSR_Glass>
+			<SSR_Item_Glass>100</SSR_Item_Glass>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -121,7 +121,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -140,12 +140,12 @@
 				<li>StoneBlocks</li>
 			</categories>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StandardConstructionElement>1</SSR_StandardConstructionElement>
+			<SSR_Item_StandardConstructionElement>1</SSR_Item_StandardConstructionElement>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -172,7 +172,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -191,12 +191,12 @@
 				<li>StoneBlocks</li>
 			</categories>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StandardConstructionElement>10</SSR_StandardConstructionElement>
+			<SSR_Item_StandardConstructionElement>10</SSR_Item_StandardConstructionElement>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -223,7 +223,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -242,12 +242,12 @@
 				<li>StoneBlocks</li>
 			</categories>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_StandardConstructionElement>100</SSR_StandardConstructionElement>
+			<SSR_Item_StandardConstructionElement>100</SSR_Item_StandardConstructionElement>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -278,7 +278,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>1</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>1</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -309,7 +309,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -340,7 +340,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>100</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -371,7 +371,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>1</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>1</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -402,7 +402,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -433,12 +433,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_SpecialSteel>100</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>SSR_Recipe_Graphene</defName>
 		<label>制造石墨烯</label>
@@ -452,7 +452,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -460,11 +460,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Graphene>1</SSR_Graphene>
+			<SSR_Item_Graphene>1</SSR_Item_Graphene>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -483,7 +483,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -491,11 +491,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Graphene>10</SSR_Graphene>
+			<SSR_Item_Graphene>10</SSR_Item_Graphene>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -514,7 +514,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>200</count>
@@ -522,11 +522,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Graphene>100</SSR_Graphene>
+			<SSR_Item_Graphene>100</SSR_Item_Graphene>
 		</products>
 		<researchPrerequisite>SSR_Research_BasicMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -545,7 +545,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -553,11 +553,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbyne>1</SSR_Carbyne>
+			<SSR_Item_Carbyne>1</SSR_Item_Carbyne>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -576,7 +576,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -584,11 +584,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbyne>10</SSR_Carbyne>
+			<SSR_Item_Carbyne>10</SSR_Item_Carbyne>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -607,7 +607,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>500</count>
@@ -615,11 +615,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbyne>100</SSR_Carbyne>
+			<SSR_Item_Carbyne>100</SSR_Item_Carbyne>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -638,7 +638,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -646,7 +646,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -654,13 +654,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_QuantumComputingCore</li>
+				<li>SSR_Item_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NanoandMicroMechanicalComposite>40</SSR_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>40</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -679,7 +679,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>200</count>
@@ -687,7 +687,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -695,13 +695,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_QuantumComputingCore</li>
+				<li>SSR_Item_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NanoandMicroMechanicalComposite>400</SSR_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>400</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -720,7 +720,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_SpecialSteel</li>
+						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
 				<count>2000</count>
@@ -728,7 +728,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_QuantumComputingCore</li>
+						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
 				<count>100</count>
@@ -736,13 +736,13 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_SpecialSteel</li>
+				<li>SSR_Item_SpecialSteel</li>
 				<li>Plasteel</li>
-				<li>SSR_QuantumComputingCore</li>
+				<li>SSR_Item_QuantumComputingCore</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_NanoandMicroMechanicalComposite>4000</SSR_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>4000</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -769,7 +769,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -778,11 +778,11 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Hyperweave</li>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Nanofabrics>1</SSR_Nanofabrics>
+			<SSR_Item_Nanofabrics>1</SSR_Item_Nanofabrics>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -809,7 +809,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -818,11 +818,11 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Hyperweave</li>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Nanofabrics>10</SSR_Nanofabrics>
+			<SSR_Item_Nanofabrics>10</SSR_Item_Nanofabrics>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -849,7 +849,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Graphene</li>
+						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
 				<count>500</count>
@@ -858,11 +858,11 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Hyperweave</li>
-				<li>SSR_Graphene</li>
+				<li>SSR_Item_Graphene</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Nanofabrics>100</SSR_Nanofabrics>
+			<SSR_Item_Nanofabrics>100</SSR_Item_Nanofabrics>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -881,7 +881,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>40</count>
@@ -889,11 +889,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>10</SSR_FermiMaterial>
+			<SSR_Item_FermiMaterial>10</SSR_Item_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSR_Research_AdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -912,7 +912,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>400</count>
@@ -920,11 +920,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>100</SSR_FermiMaterial>
+			<SSR_Item_FermiMaterial>100</SSR_Item_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSR_Research_AdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -943,7 +943,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_NanoandMicroMechanicalComposite</li>
+						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
 				<count>4000</count>
@@ -951,11 +951,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_NanoandMicroMechanicalComposite</li>
+				<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_FermiMaterial>1000</SSR_FermiMaterial>
+			<SSR_Item_FermiMaterial>1000</SSR_Item_FermiMaterial>
 		</products>
 		<researchPrerequisite>SSR_Research_AdvancedMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -974,7 +974,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -982,7 +982,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1005,7 +1005,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -1013,7 +1013,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1036,7 +1036,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Carbon</li>
+						<li>SSR_Item_Carbon</li>
 					</thingDefs>
 				</filter>
 				<count>300</count>
@@ -1044,7 +1044,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Carbon</li>
+				<li>SSR_Item_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef ParentName="SSR_ArmouredFloorBase">
+		<defName>SSR_Floor_Armoured</defName>
+		<label>装甲地板</label>
+		<texturePath>Things/Building/Floor/SSRArmouredFloor</texturePath>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>0</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+			<CleaningTimeFactor>0.6</CleaningTimeFactor>
+		</statBases>
+		<costList>
+			<Steel>7</Steel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SSR_ArmouredFloorBase">
+		<defName>SSR_Floor_ArmouredII</defName>
+		<label>装甲地板</label>
+		<texturePath>Things/Building/Floor/SSRArmouredFloorII</texturePath>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>0</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+			<CleaningTimeFactor>0.6</CleaningTimeFactor>
+		</statBases>
+		<costList>
+			<Steel>7</Steel>
+		</costList>
+	</TerrainDef>
+
+	<!-- ================= Misc Tiles ================= -->
+
+	<!--<TerrainDef ParentName="FloorBase">
+		<defName>SterileTile</defName>
+		<label>sterile tile</label>
+		<renderPrecedence>243</renderPrecedence>
+		<description>Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean.</description>
+		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<color>(0.71, 0.71, 0.71)</color>
+		<pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
+		<isPaintable>true</isPaintable>
+		<statBases>
+			<WorkToBuild>1600</WorkToBuild>
+			<Cleanliness>0.6</Cleanliness>
+			<CleaningTimeFactor>0.6</CleaningTimeFactor>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<costList>
+			<Steel>3</Steel>
+			<Silver>12</Silver>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<uiOrder>2050</uiOrder>
+	</TerrainDef>-->
+
+	<!-- ================= Carpets ================= -->
+
+	<!--<TerrainTemplateDef>
+		<defName>Carpet</defName>
+		<label>carpet ({0})</label>
+		<description>Soft carpet made from fibers dyed a single color. It's welcoming, cozy, and boosts the beauty of the room it's in. It's also quite flammable, and cleaning it is a laborious process.</description>
+		<texturePath>Terrain/Surfaces/Carpet</texturePath>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+		<burnedDef>BurnedCarpet</burnedDef>
+		<designatorDropdown>Floor_Carpet</designatorDropdown>
+		<costList>
+			<Cloth>7</Cloth>
+		</costList>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<statBases>
+			<Beauty>2</Beauty>
+			<Flammability>0.32</Flammability>
+			<WorkToBuild>800</WorkToBuild>
+			<CleaningTimeFactor>2</CleaningTimeFactor>
+		</statBases>
+		<uiOrder>2100</uiOrder>
+		<renderPrecedenceStart>200</renderPrecedenceStart>
+	</TerrainTemplateDef>-->
+
+</Defs>

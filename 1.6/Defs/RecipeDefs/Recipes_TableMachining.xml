@@ -394,7 +394,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -407,15 +407,15 @@
 			<thingDefs>
 				<li>Cloth</li>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_FlakVest>1</Apparel_FlakVest>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>FlakArmor</researchPrerequisite>
 	</RecipeDef>
 
@@ -442,7 +442,7 @@
 				</filter>
 				<count>70</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -455,15 +455,15 @@
 			<thingDefs>
 				<li>Cloth</li>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_FlakJacket>1</Apparel_FlakJacket>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>FlakArmor</researchPrerequisite>
 	</RecipeDef>
 
@@ -490,7 +490,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -503,15 +503,15 @@
 			<thingDefs>
 				<li>Cloth</li>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_FlakPants>1</Apparel_FlakPants>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>FlakArmor</researchPrerequisite>
 	</RecipeDef>
 
@@ -538,7 +538,7 @@
 				</filter>
 				<count>50</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -551,15 +551,15 @@
 			<thingDefs>
 				<li>Plasteel</li>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_ShieldBelt>1</Apparel_ShieldBelt>
 		</products>
-        <skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>ShieldBelt</researchPrerequisite>
 	</RecipeDef>
 
@@ -586,7 +586,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -599,15 +599,15 @@
 			<thingDefs>
 				<li>Steel</li>
 				<li>Chemfuel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_SmokepopBelt>1</Apparel_SmokepopBelt>
 		</products>
-        <skillRequirements>
-            <Crafting>3</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>SmokepopBelt</researchPrerequisite>
 	</RecipeDef>
 
@@ -634,7 +634,7 @@
 				</filter>
 				<count>30</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -647,15 +647,15 @@
 			<thingDefs>
 				<li>Steel</li>
 				<li>Chemfuel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_FirefoampopPack>1</Apparel_FirefoampopPack>
 		</products>
-        <skillRequirements>
-            <Crafting>3</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Firefoam</researchPrerequisite>
 	</RecipeDef>
 
@@ -682,7 +682,7 @@
 				</filter>
 				<count>100</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -695,15 +695,15 @@
 			<thingDefs>
 				<li>Plasteel</li>
 				<li>Chemfuel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_PackJump>1</Apparel_PackJump>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>JumpPack</researchPrerequisite>
 	</RecipeDef>
 
@@ -722,7 +722,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -734,15 +734,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BroadshieldCore</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_PackBroadshield>1</Apparel_PackBroadshield>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>ShieldBelt</researchPrerequisite>
 	</RecipeDef>
 
@@ -769,7 +769,7 @@
 				</filter>
 				<count>35</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -782,15 +782,15 @@
 			<thingDefs>
 				<li>Steel</li>
 				<li>Chemfuel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_PackTox>1</Apparel_PackTox>
 		</products>
-        <skillRequirements>
-            <Crafting>3</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>ToxGas</researchPrerequisite>
 	</RecipeDef>
 
@@ -809,7 +809,7 @@
 				</filter>
 				<count>70</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -821,7 +821,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -845,7 +845,7 @@
 				</filter>
 				<count>30</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -857,15 +857,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_Revolver>1</Gun_Revolver>
 		</products>
-        <skillRequirements>
-            <Crafting>3</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 
@@ -884,7 +884,7 @@
 				</filter>
 				<count>30</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -896,15 +896,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_Autopistol>1</Gun_Autopistol>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -923,7 +923,7 @@
 				</filter>
 				<count>45</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -935,15 +935,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_MachinePistol>1</Gun_MachinePistol>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -962,7 +962,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -974,15 +974,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_BoltActionRifle>1</Gun_BoltActionRifle>
 		</products>
-        <skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 
@@ -1001,7 +1001,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1013,15 +1013,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_BoltActionRifle>1</Gun_BoltActionRifle>
 		</products>
-        <skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
 	</RecipeDef>
 
@@ -1040,7 +1040,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1052,15 +1052,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_BoltActionRifle>1</Gun_BoltActionRifle>
 		</products>
-        <skillRequirements>
-            <Crafting>7</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
 	</RecipeDef>
 
@@ -1079,7 +1079,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1091,15 +1091,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_PumpShotgun>1</Gun_PumpShotgun>
 		</products>
-        <skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 
@@ -1118,7 +1118,7 @@
 				</filter>
 				<count>70</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1130,15 +1130,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_ChainShotgun>1</Gun_ChainShotgun>
 		</products>
-        <skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>GasOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -1157,7 +1157,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1169,15 +1169,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_HeavySMG>1</Gun_HeavySMG>
 		</products>
-        <skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>GasOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -1196,7 +1196,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1208,15 +1208,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_LMG>1</Gun_LMG>
 		</products>
-        <skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>GasOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -1235,7 +1235,7 @@
 				</filter>
 				<count>160</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1247,15 +1247,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_Minigun>1</Gun_Minigun>
 		</products>
-        <skillRequirements>
-            <Crafting>7</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>GasOperation</researchPrerequisite>
 	</RecipeDef>
 
@@ -1274,7 +1274,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1286,15 +1286,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_IncendiaryLauncher>1</Gun_IncendiaryLauncher>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 
@@ -1313,7 +1313,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1325,15 +1325,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_EmpLauncher>1</Gun_EmpLauncher>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 	</RecipeDef>
 
@@ -1352,7 +1352,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1364,15 +1364,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_SmokeLauncher>1</Gun_SmokeLauncher>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 
@@ -1391,7 +1391,7 @@
 				</filter>
 				<count>75</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1403,15 +1403,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Gun_ToxbombLauncher>1</Gun_ToxbombLauncher>
 		</products>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>ToxGas</researchPrerequisite>
 	</RecipeDef>
 
@@ -1430,7 +1430,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Chemfuel</li>
@@ -1442,7 +1442,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>Chemfuel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1466,7 +1466,7 @@
 				</filter>
 				<count>25</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Chemfuel</li>
@@ -1478,7 +1478,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-                <li>Chemfuel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1502,7 +1502,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1514,7 +1514,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1538,7 +1538,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1550,7 +1550,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -1574,7 +1574,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1586,15 +1586,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<SimpleProstheticLeg>1</SimpleProstheticLeg>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Prosthetics</researchPrerequisite>
 	</RecipeDef>
 
@@ -1613,7 +1613,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1625,15 +1625,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<SimpleProstheticArm>1</SimpleProstheticArm>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Prosthetics</researchPrerequisite>
 	</RecipeDef>
 
@@ -1652,7 +1652,7 @@
 				</filter>
 				<count>25</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1664,15 +1664,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<SimpleProstheticHeart>1</SimpleProstheticHeart>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Prosthetics</researchPrerequisite>
 	</RecipeDef>
 
@@ -1691,7 +1691,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1703,15 +1703,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<CochlearImplant>1</CochlearImplant>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>Prosthetics</researchPrerequisite>
 	</RecipeDef>
 
@@ -1730,7 +1730,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1742,15 +1742,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<PowerClaw>1</PowerClaw>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
 	</RecipeDef>
 
@@ -1769,7 +1769,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1781,15 +1781,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Joywire>1</Joywire>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BrainWiring</researchPrerequisite>
 	</RecipeDef>
 
@@ -1808,7 +1808,7 @@
 				</filter>
 				<count>20</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1820,15 +1820,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Painstopper>1</Painstopper>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BrainWiring</researchPrerequisite>
 	</RecipeDef>
 
@@ -1847,7 +1847,7 @@
 				</filter>
 				<count>15</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1859,15 +1859,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Mindscrew>1</Mindscrew>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BrainWiring</researchPrerequisite>
 	</RecipeDef>
 
@@ -1886,7 +1886,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1898,15 +1898,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<DrillArm>1</DrillArm>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
 	</RecipeDef>
 
@@ -1925,7 +1925,7 @@
 				</filter>
 				<count>60</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1937,15 +1937,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<FieldHand>1</FieldHand>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
 	</RecipeDef>
 
@@ -1964,7 +1964,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -1976,15 +1976,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<HandTalon>1</HandTalon>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>CompactWeaponry</researchPrerequisite>
 	</RecipeDef>
 
@@ -2003,7 +2003,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2015,15 +2015,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ElbowBlade>1</ElbowBlade>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>CompactWeaponry</researchPrerequisite>
 	</RecipeDef>
 
@@ -2042,7 +2042,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2054,15 +2054,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<KneeSpike>1</KneeSpike>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>CompactWeaponry</researchPrerequisite>
 	</RecipeDef>
 
@@ -2081,7 +2081,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2093,15 +2093,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<VenomFangs>1</VenomFangs>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>VenomSynthesis</researchPrerequisite>
 	</RecipeDef>
 
@@ -2120,7 +2120,7 @@
 				</filter>
 				<count>40</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2132,15 +2132,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<VenomTalon>1</VenomTalon>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>VenomSynthesis</researchPrerequisite>
 	</RecipeDef>
 
@@ -2159,7 +2159,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2171,15 +2171,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SignalChip</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ControlSublink>1</ControlSublink>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2198,7 +2198,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2218,7 +2218,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>PowerfocusChip</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -2226,8 +2226,8 @@
 			<ControlSublinkHigh>1</ControlSublinkHigh>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2246,7 +2246,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2258,15 +2258,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>PowerfocusChip</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<RemoteRepairer>1</RemoteRepairer>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>HighMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2285,7 +2285,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2297,15 +2297,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SignalChip</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<MechFormfeeder>1</MechFormfeeder>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2324,7 +2324,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2336,15 +2336,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>PowerfocusChip</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<RemoteShielder>1</RemoteShielder>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>HighMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2363,7 +2363,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentSpacer</li>
@@ -2375,15 +2375,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>NanostructuringChip</li>
-                <li>ComponentSpacer</li>
+				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<RepairProbe>1</RepairProbe>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>UltraMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2402,7 +2402,7 @@
 				</filter>
 				<count>50</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2414,15 +2414,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_AirwireHeadset>1</Apparel_AirwireHeadset>
 		</products>
 		<skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BasicMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2441,7 +2441,7 @@
 				</filter>
 				<count>50</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2453,15 +2453,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_ArrayHeadset>1</Apparel_ArrayHeadset>
 		</products>
 		<skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2480,7 +2480,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plasteel</li>
@@ -2501,15 +2501,15 @@
 			<thingDefs>
 				<li>SignalChip</li>
 				<li>Plasteel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_ArmorHelmetMechCommander>1</Apparel_ArmorHelmetMechCommander>
 		</products>
 		<skillRequirements>
-            <Crafting>6</Crafting>
-        </skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2528,7 +2528,7 @@
 				</filter>
 				<count>100</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ComponentIndustrial</li>
@@ -2540,15 +2540,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_PackControl>1</Apparel_PackControl>
 		</products>
 		<skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>BasicMechtech</researchPrerequisite>
 	</RecipeDef>
 
@@ -2567,7 +2567,7 @@
 				</filter>
 				<count>2</count>
 			</li>
-            <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Steel</li>
@@ -2588,15 +2588,15 @@
 			<thingDefs>
 				<li>SignalChip</li>
 				<li>Steel</li>
-                <li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Apparel_PackBandwidth>1</Apparel_PackBandwidth>
 		</products>
 		<skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<researchPrerequisite>StandardMechtech</researchPrerequisite>
 	</RecipeDef>
 

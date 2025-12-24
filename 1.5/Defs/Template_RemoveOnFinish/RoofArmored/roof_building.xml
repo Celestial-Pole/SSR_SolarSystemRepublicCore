@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--<ThingDef Class="FS_SSR.Roof.RoofBuilderDef_Vanilla" ParentName="BuildingNaturalBase">
+  <ThingDef Class="FS_SSR.Roof.RoofBuilderDef_Vanilla" ParentName="BuildingNaturalBase">
     <defName>SSR_RoofBuilder</defName>
     <label>ssr 装甲屋顶建设器</label>
     <description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand.</description>
@@ -103,6 +103,6 @@
     <collapseLeavingThingDef>CollapsedRocks</collapseLeavingThingDef>
     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
     <soundPunchThrough>PunchThroughRoofMetal</soundPunchThrough>
-  </RoofDef>-->
-
+  </RoofDef>
+  
 </Defs>

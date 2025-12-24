@@ -26,7 +26,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>10</SSR_Sand>
+			<SSR_Item_Sand>10</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -59,7 +59,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>100</SSR_Sand>
+			<SSR_Item_Sand>100</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -92,7 +92,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>1000</SSR_Sand>
+			<SSR_Item_Sand>1000</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -125,7 +125,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>10</SSR_Sand>
+			<SSR_Item_Sand>10</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -158,7 +158,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>100</SSR_Sand>
+			<SSR_Item_Sand>100</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -191,7 +191,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Sand>1000</SSR_Sand>
+			<SSR_Item_Sand>1000</SSR_Item_Sand>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
@@ -212,7 +212,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -220,11 +220,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Silicon>1</SSR_Silicon>
+			<SSR_Item_Silicon>1</SSR_Item_Silicon>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -245,7 +245,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -253,11 +253,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Silicon>10</SSR_Silicon>
+			<SSR_Item_Silicon>10</SSR_Item_Silicon>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -278,7 +278,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SSR_Sand</li>
+						<li>SSR_Item_Sand</li>
 					</thingDefs>
 				</filter>
 				<count>500</count>
@@ -286,11 +286,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>SSR_Sand</li>
+				<li>SSR_Item_Sand</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Silicon>100</SSR_Silicon>
+			<SSR_Item_Silicon>100</SSR_Item_Silicon>
 		</products>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
@@ -323,7 +323,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbon>1</SSR_Carbon>
+			<SSR_Item_Carbon>1</SSR_Item_Carbon>
 		</products>
 		<recipeUsers>
 			<li>ElectricCrematorium</li>
@@ -355,7 +355,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbon>10</SSR_Carbon>
+			<SSR_Item_Carbon>10</SSR_Item_Carbon>
 		</products>
 		<recipeUsers>
 			<li>ElectricCrematorium</li>
@@ -387,7 +387,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Carbon>100</SSR_Carbon>
+			<SSR_Item_Carbon>100</SSR_Item_Carbon>
 		</products>
 		<recipeUsers>
 			<li>ElectricCrematorium</li>

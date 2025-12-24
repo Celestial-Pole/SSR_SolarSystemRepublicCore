@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--<ThingDef ParentName="BuildingBase">
-		<defName>SSR_sateconsole</defName>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SSR_SatelliteControlConsole</defName>
 		<label>卫星控制台</label>
-		<description>数据中心</description>
+		<description>卫星控制台</description>
 		<thingClass>FS_SSR.Satellite.Building_SatelliteConsole</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
+			<texPath>Things/Building/Satellite/SatelliteControlConsole/SatelliteControlConsole</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,2)</drawSize>
+			<drawSize>(5,2)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -34,8 +34,8 @@
 			<Cleanliness>0</Cleanliness>
 			<Mass>200</Mass>
 		</statBases>
-		<size>(3,2)</size>
-		<designationCategory>Production</designationCategory>
+		<size>(5,2)</size>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
@@ -53,5 +53,11 @@
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 		</placeWorkers>
-	</ThingDef>-->
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Satellite</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

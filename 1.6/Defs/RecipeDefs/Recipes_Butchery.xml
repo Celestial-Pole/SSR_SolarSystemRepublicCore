@@ -4,7 +4,7 @@
 	<RecipeDef>
 		<defName>SSR_FiveButcherCorpseFlesh</defName>
 		<label>屠宰尸体</label>
-		<description>>屠宰尸体以获取可用的肉。</description>
+		<description>屠宰尸体以获取可用的肉。</description>
 		<workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
 		<jobString>Butchering.</jobString>
 		<workAmount>450</workAmount>

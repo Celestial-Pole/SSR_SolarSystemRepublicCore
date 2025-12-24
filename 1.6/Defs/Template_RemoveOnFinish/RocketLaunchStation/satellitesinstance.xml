@@ -2,27 +2,27 @@
 <Defs>
 
 	<ThingDef ParentName="ResourceBase" Name="SSR_SatelliteBase" Abstract="True">
-        <burnableByRecipe>true</burnableByRecipe>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-        <resourceReadoutPriority>Middle</resourceReadoutPriority>
-        <minRewardCount>30</minRewardCount>
-        <statBases>
-            <Flammability>0</Flammability>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<minRewardCount>30</minRewardCount>
+		<statBases>
+			<Flammability>0</Flammability>
 			<MaxHitPoints>500</MaxHitPoints>
-        </statBases>
-        <stuffProps>
-            <statFactors>
-                <Flammability>0</Flammability>
-            </statFactors>
-            <commonality>0</commonality>
-            <allowColorGenerators>false</allowColorGenerators>
-            <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
-        </stuffProps>
-        <thingCategories>
-            <li>SSR_Satellite</li>
-        </thingCategories>
-    </ThingDef>
+		</statBases>
+		<stuffProps>
+			<statFactors>
+				<Flammability>0</Flammability>
+			</statFactors>
+			<commonality>0</commonality>
+			<allowColorGenerators>false</allowColorGenerators>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<thingCategories>
+			<li>SSR_Satellite</li>
+		</thingCategories>
+	</ThingDef>
 
 	<ThingDef Class="FS_SSR.Satellite.SatelliteDef" ParentName="SSR_SatelliteBase">
 		<defName>SSR_Satellite_GeoScan</defName>

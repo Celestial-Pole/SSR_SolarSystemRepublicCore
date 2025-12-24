@@ -1,26 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>1</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>false</hasInteractionCell>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-	</ThingDef>
-
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_PowerConduit</defName>
+		<defName>SSR_Building_PowerConduit</defName>
 		<label>安全线缆</label>
 		<description>安全线缆是一种被外壳保护的加固线缆，以防止物理损伤和环境影响，从而降低电气风险并提高系统的安全性。</description>
 		<graphicData>
@@ -64,11 +46,564 @@
 		</comps>
 	</ThingDef>
 
+	<!--<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_LightingRod</defName>
+		<label>避雷针</label>
+		<description>避雷针。</description>
+		<thingClass>Building</thingClass>
+		<tickerType>Never</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Power/LightningRod/LightningRod-Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Power/LightningRod/LightningRod</uiIconPath>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+			<WorkToBuild>50000</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<SSR_Item_StandardConstructionElement>25</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>30</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>0</basePowerConsumption>
+			</li>
+			<li Class= "FS_SSR.Power.TCP_LightingRod">
+				<energyPerBolt>20000</energyPerBolt>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				<overlay>
+					<texPath>Things/Building/Power/LightningRod/LightningRod-Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1,2)</drawSize>
+					<drawOffset>(0,0,1.35)</drawOffset>
+					<shadowData>
+						<volume>(0.6, 1.0, 4.2)</volume>
+						<offset>(-0.1,0,-0.08)</offset>
+					</shadowData>
+				</overlay>
+			</li>
+		</comps>
+	</ThingDef>-->
+
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_PortableGenerator</defName>
+		<defName>SSR_Building_MediumSmalBattery</defName>
+		<label>中级小型电池</label>
+		<description>中级小型电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/MediumSmalBattery/MediumSmalBattery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(1,1)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T1-小-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.9, 0.85, 0.2)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.12, 0.39)</size>
+						<offset>(0.0, +5.0, +0.075)</offset>
+						<rotation>North</rotation>
+						<margin_OuterFrame>0.04</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>6</boxCount>
+					</dataNorth>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>1200</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_MiddleBattery</defName>
+		<label>中级电池</label>
+		<description>中级电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/MiddleBattery/MiddleBattery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(2,1)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T1-中-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.9, 0.85, 0.2)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.25, 1.24)</size>
+						<offset>(0.0, +5.0, +0.2)</offset>
+						<rotation>West</rotation>
+						<offset_battery>(-0.49, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataNorth>
+					<dataSouth>
+						<size>(0.25, 1.24)</size>
+						<offset>(0.0, +5.0, +0.2)</offset>
+						<rotation>East</rotation>
+						<offset_battery>(-0.49, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataSouth>
+					<dataEast>
+						<size>(0.32, 0.78)</size>
+						<offset>(0.0, +5.0, +0.32)</offset>
+						<rotation>South</rotation>
+						<margin_OuterFrame>0.03</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataEast>
+					<dataWest>
+						<size>(0.32, 0.78)</size>
+						<offset>(0.0, +5.0, +0.32)</offset>
+						<rotation>North</rotation>
+						<margin_OuterFrame>0.03</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataWest>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>2500</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_MiddleBigBattery</defName>
+		<label>中级大型电池</label>
+		<description>中级大型电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/MiddleBigBattery/MiddleBigBattery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(2,2)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T1-大-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.9, 0.85, 0.2)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.24, 1.1)</size>
+						<offset>(0.0, +5.0, +0.238)</offset>
+						<rotation>West</rotation>
+						<offset_battery>(-0.43, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>11</boxCount>
+					</dataNorth>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>5500</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_AdvancedSmallBattery</defName>
+		<label>高级小型电池</label>
+		<description>高级小型电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/AdvancedSmallBattery/AdvancedSmallBattery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(1,1)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T2-小-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.31, 1, 1)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.12, 0.39)</size>
+						<offset>(0.0, +5.0, +0.075)</offset>
+						<rotation>North</rotation>
+						<margin_OuterFrame>0.04</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>6</boxCount>
+					</dataNorth>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>2400</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_Medium-levelPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_AdvancedBattery</defName>
+		<label>高级电池</label>
+		<description>高级电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/AdvancedBattery/AdvancedBattery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(2,1)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T2-中-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.31, 1, 1)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.26, 1.25)</size>
+						<offset>(0.0, +5.0, +0.22)</offset>
+						<rotation>West</rotation>
+						<offset_battery>(-0.49, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataNorth>
+					<dataSouth>
+						<size>(0.26, 1.25)</size>
+						<offset>(0.0, +5.0, +0.22)</offset>
+						<rotation>East</rotation>
+						<offset_battery>(-0.49, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataSouth>
+					<dataEast>
+						<size>(0.32, 0.81)</size>
+						<offset>(0.0, +5.0, +0.35)</offset>
+						<rotation>South</rotation>
+						<margin_OuterFrame>0.03</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataEast>
+					<dataWest>
+						<size>(0.32, 0.81)</size>
+						<offset>(0.0, +5.0, +0.35)</offset>
+						<rotation>North</rotation>
+						<margin_OuterFrame>0.03</margin_OuterFrame>
+						<margin_SeptalLine>0.01</margin_SeptalLine>
+						<boxCount>14</boxCount>
+					</dataWest>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>5000</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_Medium-levelPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_AdvancedBigBattery</defName>
+		<label>高级大型电池</label>
+		<description>高级大型电池。</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery/AdvancedBigBattery/AdvancedBigBattery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<size>(2,2)</size>
+		<passability>Standable</passability>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<!--T2-大-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.31, 1, 1)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.35, 1.0)</size>
+						<offset>(+0.005, +5.0, +0.155)</offset>
+						<rotation>West</rotation>
+						<offset_battery>(-0.33, 0.0, 0.0)</offset_battery>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>9</boxCount>
+					</dataNorth>
+				</drawData>
+			</li>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>12500</storedEnergyMax>
+				<efficiency>1</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>SSR_Research_Medium-levelPowerTechnology</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_Building_PortableGenerator</defName>
 		<label>便携式发电机</label>
 		<description>便携式发电机是一种小型、轻便的电力供应设备，设计用于在没有主电源的情况下消耗化合燃料以提供临时电力。</description>
-		<thingClass>Building</thingClass>
+		<thingClass>FS_SSR.Industry.Production.Thing_SSRGenerator</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -108,13 +643,13 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
-				<compClass>CompPowerPlantSteam</compClass>
+				<compClass>CompPowerPlant</compClass>
 				<basePowerConsumption>-900</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
@@ -127,6 +662,21 @@
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<!--便携-->
+			<li Class="FS_SSR.Production.CompProperties_BatteryCapacityDisplay">
+				<backgroundColor>(0.3, 0.3, 0.3)</backgroundColor>
+				<displayColor>(0.9, 0.85, 0.2)</displayColor>
+				<drawData>
+					<dataNorth>
+						<size>(0.25, 0.25)</size>
+						<offset>(-0.17, +5.0, +0.2)</offset>
+						<rotation>West</rotation>
+						<margin_OuterFrame>0.05</margin_OuterFrame>
+						<margin_SeptalLine>0.02</margin_SeptalLine>
+						<boxCount>4</boxCount>
+					</dataNorth>
+				</drawData>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
@@ -159,7 +709,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_ThermalPowerPlant</defName>
+		<defName>SSR_Building_ThermalPowerPlant</defName>
 		<label>火力发电站</label>
 		<description>火力发电站通过燃烧各类可燃物推动蒸汽轮机运转从而获得电力，值得一提的是用火力发电站焚毁有毒垃圾将造成环境污染。</description>
 		<thingClass>Building</thingClass>
@@ -198,9 +748,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>70</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>20</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>70</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>10</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -217,30 +767,30 @@
 				<fuelFilter />
 				<fuel>
 					<li>
-						<def>WoodLog</def><!--燃料的def-->
-						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>WoodLog</def>						<!--燃料的def-->
+						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>Chemfuel</def><!--燃料的def-->
-						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>Chemfuel</def>						<!--燃料的def-->
+						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>SSR_Carbon</def><!--燃料的def-->
-						<fuelValue>2</fuelValue><!--每个算多少燃料值-->
-						<pollution>0</pollution><!--这种燃料多少污染-->
+						<def>SSR_Item_Carbon</def>						<!--燃料的def-->
+						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
 					<li>
-						<def>Wastepack</def><!--燃料的def-->
-						<fuelValue>1</fuelValue><!--每个算多少燃料值-->
-						<pollution>4</pollution><!--这种燃料多少污染-->
+						<def>Wastepack</def>						<!--燃料的def-->
+						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>4</pollution>						<!--这种燃料多少污染-->
 					</li>
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
-				<maxPollution>100</maxPollution><!--到达多少污染会下酸雨-->
-				<acidRainDuration>36000</acidRainDuration><!--酸雨持续时间-->
+				<maxPollution>100</maxPollution>				<!--到达多少污染会下酸雨-->
+				<acidRainDuration>36000</acidRainDuration>				<!--酸雨持续时间-->
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
@@ -268,7 +818,7 @@
 							<requireMaterial>true</requireMaterial>
 							<materials>
 								<li>
-									<item>SSR_SpecialSteel</item>
+									<item>SSR_Item_SpecialSteel</item>
 									<amount>10</amount>
 								</li>
 								<li>
@@ -288,10 +838,16 @@
 					</li>
 				</levels>
 			</li>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/ThermalPower.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/ThermalPower.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -305,7 +861,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Medium-levelSolarGenerator</defName>
+		<defName>SSR_Building_MediumSolarGenerator</defName>
 		<label>中级太阳能板</label>
 		<description>中级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以较低功率进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -339,9 +895,9 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>15</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>20</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>15</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -364,7 +920,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_AdvancedSolarGenerator</defName>
+		<defName>SSR_Building_AdvancedSolarGenerator</defName>
 		<label>高级太阳能板</label>
 		<description>高级太阳能板利用恒星光照进行发电，在夜间等微光环境下仍能以一定功率进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -398,9 +954,9 @@
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<costList>
-			<SSR_Carbyne>20</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>80</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>20</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>80</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
@@ -423,7 +979,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Medium-levelVerticalAxisWindTurbine</defName>
+		<defName>SSR_Building_MediumVerticalAxisWindTurbine</defName>
 		<label>中级垂直风力发电机</label>
 		<description>中级垂直风力发电机也是一种利用风能转换成电力的装置，其设计呈现垂直状态，相较于传统风电它的占地面积更小。</description>
 		<thingClass>Building</thingClass>
@@ -436,9 +992,9 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/Medium-levelVerticalAxisWindTurbine/Medium-levelVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>25</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>20</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>25</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<fillPercent>0.5</fillPercent>
@@ -457,10 +1013,16 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT1.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/WindTurbineT1.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -484,7 +1046,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_AdvancedVerticalAxisWindTurbine</defName>
+		<defName>SSR_Building_AdvancedVerticalAxisWindTurbine</defName>
 		<label>高级垂直风力发电机</label>
 		<description>高级垂直风力发电机相较于前一个版本，对扇叶外形和发动机设计进行了升级，大大增强了其发电效率。</description>
 		<thingClass>Building</thingClass>
@@ -497,9 +1059,9 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Power/AdvancedVerticalAxisWindTurbine/AdvancedVerticalAxisWindTurbine</uiIconPath>
 		<costList>
-			<SSR_Carbyne>30</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>60</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>3</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>30</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>60</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<fillPercent>0.5</fillPercent>
@@ -518,10 +1080,16 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
 		<comps>
-			<li Class="SSR.Effect.CompProperties_SinglePerfabDrawer">
-				<leveledPerfabPaths>
-					<li>Assets/SSR/Perfab/WindTurbineT2.prefab</li>
-				</leveledPerfabPaths>
+			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
+				<assetDefs>
+					<li>SSR_Animate_Prefab_Linux</li>
+					<li>SSR_Animate_Prefab_MacOS</li>
+					<li>SSR_Animate_Prefab_Windows</li>
+				</assetDefs>
+				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/WindTurbineT2.prefab</li>
+				</leveledPrefabPaths>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -545,7 +1113,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Medium-levelGeothermalGenerator</defName>
+		<defName>SSR_Building_MediumGeothermalGenerator</defName>
 		<label>中级地热发电机</label>
 		<description>在新型材料的加持下，中级地热发电机相较于普通的地热发电机有着更高的能量转换效率。</description>
 		<thingClass>Building</thingClass>
@@ -576,9 +1144,9 @@
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<SSR_StandardConstructionElement>20</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>60</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>20</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
@@ -586,6 +1154,10 @@
 				<compClass>CompPowerPlantSteam</compClass>
 				<basePowerConsumption>-5500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -598,7 +1170,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -610,7 +1181,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_AdvancedGeothermalGenerator</defName>
+		<defName>SSR_Building_AdvancedGeothermalGenerator</defName>
 		<label>高级地热发电机</label>
 		<description>得益于技术的进步，高级地热发电机可以将几乎全部的地热能转化为电能。</description>
 		<thingClass>Building</thingClass>
@@ -641,9 +1212,9 @@
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
 		<costList>
-			<SSR_Carbyne>30</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>120</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>5</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>30</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
@@ -651,6 +1222,10 @@
 				<compClass>CompPowerPlantSteam</compClass>
 				<basePowerConsumption>-7500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_AmbientSound">
+				<sound>GeothermalPlant_Ambience</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
 			</li>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -663,7 +1238,6 @@
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -675,7 +1249,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_NuclearFissionReactor</defName>
+		<defName>SSR_Building_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
 		<description>核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。</description>
 		<thingClass>Building</thingClass>
@@ -713,11 +1287,11 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>120</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>175</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>15</SSR_SuperconductingMaterial>
+			<SSR_Item_StandardConstructionElement>120</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>175</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>15</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -730,7 +1304,7 @@
 				<fuelCapacity>30.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFissionFuelRod</li>
+						<li>SSR_Item_NuclearFissionFuelRod</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -767,7 +1341,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_NuclearFusionReactor</defName>
+		<defName>SSR_Building_NuclearFusionReactor</defName>
 		<label>核聚变反应堆</label>
 		<description>核聚变反应堆是一种通过磁约束利用核聚变过程产生巨大能量的设备，需要进行电火才能启动。</description>
 		<thingClass>Building</thingClass>
@@ -805,12 +1379,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
-			<SSR_SpecialSteel>375</SSR_SpecialSteel>
-			<SSR_SuperconductingMaterial>20</SSR_SuperconductingMaterial>
-			<SSR_StrongElectromagnet>20</SSR_StrongElectromagnet>
+			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>375</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>20</SSR_Item_SuperconductingMaterial>
+			<SSR_Item_StrongElectromagnet>20</SSR_Item_StrongElectromagnet>
 			<ComponentIndustrial>15</ComponentIndustrial>
-			<SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -826,7 +1400,7 @@
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFusionFuelStorageTank</li>
+						<li>SSR_Item_NuclearFusionFuelStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -860,7 +1434,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_Small-scaleNuclearFusionReactor</defName>
+		<defName>SSR_Building_SmallNuclearFusionReactor</defName>
 		<label>小型核聚变反应堆</label>
 		<description>使用惯性约束技术的小型核聚变反应堆，以更小的体积完成核聚变控制的同时释放了更多的能量。</description>
 		<thingClass>Building</thingClass>
@@ -898,12 +1472,12 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_Carbyne>80</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>7</SSR_SuperconductingMaterial>
-			<SSR_HighenergyLaserEmitter>5</SSR_HighenergyLaserEmitter>
+			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>240</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>7</SSR_Item_SuperconductingMaterial>
+			<SSR_Item_HighenergyLaserEmitter>5</SSR_Item_HighenergyLaserEmitter>
 			<ComponentSpacer>3</ComponentSpacer>
-			<SSR_ArtificialIntelligenceChip>5</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>5</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="FS_SSR.TCP_IgnitedPowerTrader">
@@ -919,7 +1493,7 @@
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_NuclearFusionFuelStorageTank</li>
+						<li>SSR_Item_NuclearFusionFuelStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -952,7 +1526,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_AntimatterReactor</defName>
+		<defName>SSR_Building_AntimatterReactor</defName>
 		<label>反物质反应堆</label>
 		<description>反物质反应堆利用正反物质的湮灭产生能量，其释放的能量远超其他的发电设备，也正是如此，反物质反应堆的安全保障会成为殖民地的重中之重。</description>
 		<thingClass>Building</thingClass>
@@ -990,9 +1564,9 @@
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>
-			<SSR_FermiMaterial>2000</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>30</SSR_ExtremeComponent>
-			<SSR_AdvancedArtificialIntelligenceChip>10</SSR_AdvancedArtificialIntelligenceChip>
+			<SSR_Item_FermiMaterial>2000</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>30</SSR_Item_ExtremeComponent>
+			<SSR_Item_AdvancedArtificialIntelligenceChip>10</SSR_Item_AdvancedArtificialIntelligenceChip>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -1005,7 +1579,7 @@
 				<fuelCapacity>60.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>SSR_AntimatterStorageTank</li>
+						<li>SSR_Item_AntimatterStorageTank</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -1042,7 +1616,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_WirelessPowerBroadcaster</defName>
+		<defName>SSR_Building_WirelessPowerBroadcaster</defName>
 		<label>无线输电塔</label>
 		<description>无线输电塔通过在发送和接收装置之间建立一个磁场，实现覆盖整个殖民地的能量无线传输，为用电设备与机械族供电的同时还能引雷与抵御太阳耀斑对殖民地电网的干扰。</description>
 		<thingClass>Building</thingClass>
@@ -1079,11 +1653,11 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Carbyne>80</SSR_Carbyne>
-			<SSR_NanoandMicroMechanicalComposite>240</SSR_NanoandMicroMechanicalComposite>
-			<SSR_SuperconductingMaterial>10</SSR_SuperconductingMaterial>
+			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
+			<SSR_Item_NanoandMicroMechanicalComposite>240</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_SuperconductingMaterial>10</SSR_Item_SuperconductingMaterial>
 			<ComponentSpacer>5</ComponentSpacer>
-			<SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 		</costList>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<building>
@@ -1125,6 +1699,7 @@
 		</comps>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_MapUniqueBuilding</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>SSR_Research_Medium-levelPowerTechnology</li>
@@ -1132,7 +1707,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
-		<defName>SSR_PowerReceiverTower</defName>
+		<defName>SSR_Building_PowerReceiverTower</defName>
 		<label>电力接收塔</label>
 		<description>电力接收塔是一种需要与无线输电塔进行绑定连接的远程电力接受装置，这种经过特殊设计的装置可以在整个星球范围接受到无线输电塔的电力信号。</description>
 		<thingClass>Building</thingClass>
@@ -1169,8 +1744,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_FermiMaterial>700</SSR_FermiMaterial>
-			<SSR_ExtremeComponent>5</SSR_ExtremeComponent>
+			<SSR_Item_FermiMaterial>700</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>5</SSR_Item_ExtremeComponent>
 		</costList>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<building>

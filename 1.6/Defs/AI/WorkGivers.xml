@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		
+
 	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_ConstructUpgradableBuilding</defName>
 		<label>进行建筑升级</label>
@@ -28,7 +28,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef-->
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_OperateBuildingGeneric</defName>
 		<label>操作建筑</label>
@@ -50,7 +50,7 @@
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillBuildingGeneric</defName>
 		<label>搬运材料</label>
@@ -65,20 +65,12 @@
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
-	<JobDef>
-		<defName>SSR_Job_FillBuildingGeneric</defName>
-		<driverClass>FS_SSR.Generic.JobDriver_RefuelGeneric</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
 	<!-- ==================================== 矿井 =====================================-->
 
 	<!--WorkGiverDef>
 		<defName>SSR_WorkGiver_PalmineDeliverMaterial</defName>
 		<label>fill awb</label>
-		<giverClass>FS_SSR.Palmine.WorkGiver_PalMineDeliverMaterial</giverClass>
+		<giverClass>FS_SSR.PalMine.WorkGiver_PalMineDeliverMaterial</giverClass>
 		<workType>Hauling</workType>
 		<emergency>false</emergency>
 		<verb>fill awb...</verb>
@@ -104,7 +96,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
-	
+
 	<WorkGiverDef>
 		<defName>SSR_WorkGiver_FillLaundryRepair</defName>
 		<label>修理衣物</label>
@@ -118,14 +110,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
-	
-	<JobDef>
-		<defName>SSR_Job_FillLaundryUnited</defName>
-		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryUnited</driverClass>
-		<reportString>请填写工作描述</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
+
 	<!-- ==================================== 装备整备台 =====================================-->
 
 	<WorkGiverDef>
@@ -140,6 +125,24 @@
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
 		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<!-- ==================================== 复制机 ===================================== -->
+
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillReplicator</defName>
+		<label>复制物品</label>
+		<giverClass>FS_SSR.Production.WorkGiver_FillReplicator</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>复制物品</verb>
+		<gerund>复制物品</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
 	</WorkGiverDef>
 
 </Defs>

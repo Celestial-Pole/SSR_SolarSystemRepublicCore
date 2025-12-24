@@ -1,27 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Furniture" Abstract="True">
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
-			</li>
-		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>1</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-	</ThingDef>
-
 	<ThingDef ParentName="SSR_BuildingBase_Furniture">
-		<defName>SSR_WashingMachine</defName>
+		<defName>SSR_Building_Laundry</defName>
 		<label>洗衣机</label>
 		<description>一台可以洗去死者衣物标记的洗衣机。</description>
-		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Furniture/WashingMachine/WashingMachine</texPath>
@@ -31,7 +14,6 @@
 		<size>(2,2)</size>
 		<rotatable>true</rotatable>
 		<castEdgeShadows>false</castEdgeShadows>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<thingCategories>
@@ -44,9 +26,12 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_SpecialSteel>10</SSR_SpecialSteel>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
+		<researchPrerequisites>
+			<li>SSR_Research_EFBuilding</li>
+		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -80,15 +65,6 @@
 				<btnITabItemKey>洗衣机</btnITabItemKey>
 			</li>
 		</comps>
-		<researchPrerequisites>
-			<li>SSR_Research_EFBuilding</li>
-		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 </Defs>

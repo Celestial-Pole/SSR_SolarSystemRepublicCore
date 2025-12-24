@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<FS_UGUIFramework.ConfigDef>
 		<defName>SSR_Config</defName>
 		<defaultFont>SSR_Font_YouYuan</defaultFont>
 		<label>ssr ui config core</label>
 		<EVSystem>SSR_Prefab_EventSystem</EVSystem>
 	</FS_UGUIFramework.ConfigDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_EventSystem</defName>
 		<label>event system</label>
@@ -15,25 +15,45 @@
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>EventSystem</modelName>
 	</AK_DLL.UIPrefabDef>
-	
-	<AK_DLL.UIPrefabDef>
-		<defName>SSR_Prefab_PalmineConsole</defName>
+
+	<!-- 矿井 -->
+	<!--AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineConsole</defName>
 		<label>palmine console</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>Palmine</modelName>
-		<UIClass>FS_SSR.UI.SSRWindow_PalmineConsole</UIClass>
-	</AK_DLL.UIPrefabDef>
-	
-	<AK_DLL.UIPrefabDef>
-		<defName>SSR_Prefab_PalmineStorage</defName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
+	</AK_DLL.UIPrefabDef-->
+
+	<!--AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineStorage</defName>
 		<label>palmine storage</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>StoreHouse UI</modelName>
-		<UIClass>FS_SSR.UI.SSRWindow_PalmineStorage</UIClass>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
+	</AK_DLL.UIPrefabDef-->
+
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineConsole</defName>
+		<label>palmine console ui</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>palmineui</assetBundle>
+		<modelName>MineUIConsole</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineStorage</defName>
+		<label>palmine storage</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>palmineui</assetBundle>
+		<modelName>MineUIStorage</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
+	</AK_DLL.UIPrefabDef>
+	<!---->
+
 	<AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_SatelliteConsole</defName>
 		<label>satellite console</label>
@@ -42,5 +62,13 @@
 		<modelName>Satellite UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_SatelliteConsole</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_MarsStorage</defName>
+		<label>火星仓库</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>New Mars Storehouse UI</modelName>
+		<UIClass>FS_SSR.Storage.UI.SSRWindow_MarsStorage</UIClass>
+	</AK_DLL.UIPrefabDef>
 </Defs>
