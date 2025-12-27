@@ -171,4 +171,10 @@
 	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
 
 	<SSR_NextHarvest>距离下次收获: {0}</SSR_NextHarvest>
+
+	<SSR_NanoDup>纳米微械复材自增殖</SSR_NanoDup>
+	<SSR_NanoDupDesc>指定一个物体，将其消耗变成等重纳米材料</SSR_NanoDupDesc>
+	<SSR_NanoExceedLimit>达到增殖质量上限</SSR_NanoExceedLimit>
+	<SSR_NanoDupTargetReject>无法指定生物</SSR_NanoDupTargetReject>
+
 </LanguageData>
