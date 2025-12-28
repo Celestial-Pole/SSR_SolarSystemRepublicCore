@@ -1026,6 +1026,7 @@
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
+			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
@@ -1604,6 +1605,7 @@
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
+			<li>SSR_Research_Medium-levelWarehouseLogisticsTechnology</li>
 			<li>SSR_Research_BasicSpaceApplication</li>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>
 		</prerequisites>
