@@ -26,6 +26,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
+		<hasInteractionCell>false</hasInteractionCell>
 		<size>(1,1)</size>
 		<building>
 			<isEdifice>true</isEdifice>
@@ -2663,6 +2664,7 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<hasInteractionCell>false</hasInteractionCell>
 		<placeWorkers>
 			<li>FS_SSR.Generic.PW_WorldUnique</li>
 			<li>PlaceWorker_InvalidOverSubstructure</li>
