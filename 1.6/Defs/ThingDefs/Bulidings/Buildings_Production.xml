@@ -2624,7 +2624,7 @@
 		</graphicData>
 		<alterGraphic>
 			<li>
-				<key>1</key>
+				<key>2</key>
 				<value>
 					<texPath>Things/Building/Production/Mine/T2Mine</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -2632,7 +2632,7 @@
 				</value>
 			</li>
 			<li>
-				<key>2</key>
+				<key>3</key>
 				<value>
 					<texPath>Things/Building/Production/Mine/T3Mine</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
