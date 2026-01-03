@@ -2144,6 +2144,7 @@
 			</li>
 		</comps>
 		<rotatable>false</rotatable>
+		<hasInteractionCell>false</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<uiOrder>2110</uiOrder>
 		<placeWorkers>
@@ -2273,6 +2274,7 @@
 			<Mass>30</Mass>
 			<WorkToBuild>3600</WorkToBuild>
 		</statBases>
+		<hasInteractionCell>false</hasInteractionCell>
 		<receivesSignals>true</receivesSignals>
 		<blockWind>true</blockWind>
 		<tickerType>Normal</tickerType>
