@@ -56,7 +56,7 @@
 		<graphicData>
 			<texPath>Things/Building/Power/LightningRod/LightningRod-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
+			<drawSize>(2,4)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
