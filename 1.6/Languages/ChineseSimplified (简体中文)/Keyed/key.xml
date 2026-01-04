@@ -116,6 +116,10 @@
 	<SSR_工作派遣>工作派遣</SSR_工作派遣>
 	<SSR_停止工作>停止工作</SSR_停止工作>
 	<SSR_取消升级>取消升级</SSR_取消升级>
+	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
+	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
+	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
+	<SSR_PalMine_NextTunnelProgess>矿道 {0}-{1} 挖掘进度</SSR_PalMine_NextTunnelProgess>
 
 	<!-- 火星仓库 -->
 	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>

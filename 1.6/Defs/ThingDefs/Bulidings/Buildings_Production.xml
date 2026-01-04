@@ -2613,7 +2613,7 @@
 		<label>标准化垂直矿井</label>
 		<description>标准化垂直矿井是一种高效、安全的采矿设施，设计用于深地开采。它们通过垂直井道直达矿床，优化了运输和提升过程。</description>
 		<thingClass>FS_SSR.PalMine.Building_PalMine</thingClass>
-		<tickerType>Long</tickerType>
+		<tickerType>Rare</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mine/Mine</texPath>
