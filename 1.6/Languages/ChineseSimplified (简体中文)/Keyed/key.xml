@@ -20,7 +20,7 @@
 	<SSR_SwitchRepeatModeDesc>切换重复模式</SSR_SwitchRepeatModeDesc>
 	<SSR_CrtRepeatMode>当前重复模式</SSR_CrtRepeatMode>
 	<SSR_CurrentPlant>当前设备</SSR_CurrentPlant>
-	<SSR_CurrentLayer>当前等级</SSR_CurrentLayer>
+	<SSR_CurrentLv>当前等级</SSR_CurrentLv>
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
