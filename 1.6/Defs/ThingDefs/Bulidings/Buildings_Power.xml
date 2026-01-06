@@ -56,7 +56,7 @@
 		<graphicData>
 			<texPath>Things/Building/Power/LightningRod/LightningRod-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,4)</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -103,8 +103,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/LightningRod/LightningRod-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(2,4)</drawSize>
-					<drawOffset>(0,0,1.05)</drawOffset>
+					<drawSize>(2,2)</drawSize>
+					<drawOffset>(0,0,1.7)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
