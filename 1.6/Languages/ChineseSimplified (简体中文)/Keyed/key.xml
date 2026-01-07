@@ -100,26 +100,27 @@
 	<DrillProgress>开采进度: {2}%</DrillProgress>
 
 	<!-- 标准化垂直矿井 -->
-	<SSR_打开矿井UI>标准化垂直矿井UI</SSR_打开矿井UI>
-	<SSR_打开矿井UIDesc>打开/关闭标准化垂直矿井UI</SSR_打开矿井UIDesc>
+	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
+	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
-	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
-	<SSR_Palminer_Layer>标准化垂直矿井-矿层工作：{0}</SSR_Palminer_Layer>
-	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_Palminer_Palmine>
-	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_Palminer_TunnelDig>
+	<SSR_PalMine_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_PalMine_CentreUpgrade>
+	<SSR_PalMine_Layer>标准化垂直矿井-矿层工作：{0}</SSR_PalMine_Layer>
+	<SSR_PalMine_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_PalMine_Palmine>
+	<SSR_PalMine_TunnelDug>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_PalMine_TunnelDug>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
-	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
-	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
-	<SSR_挖掘矿道升级>挖掘矿道升级</SSR_挖掘矿道升级>
-	<SSR_挖掘矿道>挖掘矿道</SSR_挖掘矿道>
-	<SSR_升级挖机>升级挖机</SSR_升级挖机>
-	<SSR_工作派遣>工作派遣</SSR_工作派遣>
-	<SSR_停止工作>停止工作</SSR_停止工作>
-	<SSR_取消升级>取消升级</SSR_取消升级>
+	<SSR_PalMine_UpDigLayer>挖掘矿层升级</SSR_PalMine_UpDigLayer>
+	<SSR_PalMine_DigLayer>挖掘矿层</SSR_PalMine_DigLayer>
+	<SSR_PalMine_UpDigTunnel>挖掘矿道升级</SSR_PalMine_UpDigTunnel>
+	<SSR_PalMine_DigTunnel>挖掘矿道</SSR_PalMine_DigTunnel>
+	<SSR_PalMine_UpMineralExcavator>升级挖机</SSR_PalMine_UpMineralExcavator>
+	<SSR_WorkDispatch>工作派遣</SSR_WorkDispatch>
+	<SSR_InterruptWork>停止工作</SSR_InterruptWork>
+	<SSR_CancelUpgrade>取消升级</SSR_CancelUpgrade>
 	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
 	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
 	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
 	<SSR_PalMine_NextTunnelProgess>矿道 {0}-{1} 挖掘进度</SSR_PalMine_NextTunnelProgess>
+	<SSR_WorkFinished>{0} 已完成工作: {1} </SSR_WorkFinished>
 
 	<!-- 火星仓库 -->
 	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
