@@ -394,8 +394,8 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<!-- <RecipeDef>
-		<defName>SSR_Recipe_HundredCarbon</defName>
+	<RecipeDef>
+		<defName>SSR_Recipe_GarbageBlock</defName>
 		<label>制造垃圾块</label>
 		<description>制造垃圾块。</description>
 		<jobString>正在制造垃圾块。</jobString>
@@ -410,7 +410,7 @@
 						<li>Apparel</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -427,11 +427,82 @@
 			<li>AllowNonBurnableApparel</li>
 		</forceHiddenSpecialFilters>
 		<products>
-			<SSR_GarbageBlock>1</SSR_GarbageBlock>
+			<SSR_Item_GarbageBlock>1</SSR_Item_GarbageBlock>
 		</products>
-		<recipeUsers>
-			<li>ElectricCrematorium</li>
-		</recipeUsers>
-	</RecipeDef> -->
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_TenGarbageBlock</defName>
+		<label>制造垃圾块 x10</label>
+		<description>制造十个垃圾块。</description>
+		<jobString>正在制造十个垃圾块。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowNonSmeltableApparel</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<forceHiddenSpecialFilters>
+			<li>AllowSmeltableApparel</li>
+			<li>AllowBurnableApparel</li>
+			<li>AllowNonBurnableApparel</li>
+		</forceHiddenSpecialFilters>
+		<products>
+			<SSR_Item_GarbageBlock>10</SSR_Item_GarbageBlock>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_HundredGarbageBlock</defName>
+		<label>制造垃圾块 x100</label>
+		<description>制造一百个垃圾块。</description>
+		<jobString>正在制造一百个垃圾块。</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>60000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+				<count>500</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowNonSmeltableApparel</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<forceHiddenSpecialFilters>
+			<li>AllowSmeltableApparel</li>
+			<li>AllowBurnableApparel</li>
+			<li>AllowNonBurnableApparel</li>
+		</forceHiddenSpecialFilters>
+		<products>
+			<SSR_Item_GarbageBlock>100</SSR_Item_GarbageBlock>
+		</products>
+	</RecipeDef>
 
 </Defs>
