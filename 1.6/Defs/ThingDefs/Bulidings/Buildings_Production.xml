@@ -2489,7 +2489,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_BuildingBase_Production">
+	<!--ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_TeleportationBeacon</defName>
 		<label>传送信标</label>
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
@@ -2539,7 +2539,7 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicSpaceApplication</li>
 		</researchPrerequisites>
-	</ThingDef>
+	</ThingDef-->
 
 	<!--========矿井========-->
 	<ThingDef ParentName="SSR_BuildingBase_Production">
