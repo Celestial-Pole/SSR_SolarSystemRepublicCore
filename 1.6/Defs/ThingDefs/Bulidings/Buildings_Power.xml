@@ -46,16 +46,17 @@
 		</comps>
 	</ThingDef>
 
-	<!--<ThingDef ParentName="SSR_BuildingBase_Power">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_LightingRod</defName>
 		<label>避雷针</label>
 		<description>避雷针。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Never</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Power/LightningRod/LightningRod-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -102,8 +103,8 @@
 				<overlay>
 					<texPath>Things/Building/Power/LightningRod/LightningRod-Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1,2)</drawSize>
-					<drawOffset>(0,0,1.35)</drawOffset>
+					<drawSize>(2,2)</drawSize>
+					<drawOffset>(0,0,1.7)</drawOffset>
 					<shadowData>
 						<volume>(0.6, 1.0, 4.2)</volume>
 						<offset>(-0.1,0,-0.08)</offset>
@@ -111,7 +112,7 @@
 				</overlay>
 			</li>
 		</comps>
-	</ThingDef>-->
+	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MediumSmalBattery</defName>
@@ -808,6 +809,11 @@
 					</li>
 					<li>
 						<def>SSR_Item_Carbon</def>						<!--燃料的def-->
+						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
+						<pollution>0</pollution>						<!--这种燃料多少污染-->
+					</li>
+					<li>
+						<def>SSR_Item_GarbageBlock</def>						<!--燃料的def-->
 						<fuelValue>2</fuelValue>						<!--每个算多少燃料值-->
 						<pollution>0</pollution>						<!--这种燃料多少污染-->
 					</li>
