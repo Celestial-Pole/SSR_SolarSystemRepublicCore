@@ -116,6 +116,7 @@
 			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
 		</researchPrerequisites>
 		<comps>
+		    <li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffsetPerLevel>
 					<li>5000</li>
