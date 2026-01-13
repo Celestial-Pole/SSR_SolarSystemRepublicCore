@@ -336,9 +336,9 @@
 				</maxQualityByLevel>-->
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -680,9 +680,9 @@
 					<li>Legendary</li>
 				</maxQualityByLevel>
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -848,9 +848,9 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1006,9 +1006,9 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1196,9 +1196,9 @@
 					<li>Legendary</li>
 				</maxQualityByLevel>
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1355,9 +1355,9 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1516,9 +1516,9 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1672,9 +1672,9 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
 					<li>5</li>
+					<li>10</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -1871,8 +1871,8 @@
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
 				<productionFactorsUpgraded>
-					<li>1</li>
-					<li>3</li>
+					<li>2</li>
+					<li>5</li>
 				</productionFactorsUpgraded>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
