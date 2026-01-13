@@ -9,7 +9,7 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
-		<workAmount>400</workAmount>
+		<workAmount>100</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -42,7 +42,7 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
-		<workAmount>4000</workAmount>
+		<workAmount>800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -75,7 +75,7 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
-		<workAmount>40000</workAmount>
+		<workAmount>6500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -108,7 +108,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>300</workAmount>
+		<workAmount>200</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -159,7 +159,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>3000</workAmount>
+		<workAmount>1800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -210,7 +210,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>30000</workAmount>
+		<workAmount>15000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -261,7 +261,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>600</workAmount>
+		<workAmount>200</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -292,7 +292,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>6000</workAmount>
+		<workAmount>1800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -323,7 +323,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>60000</workAmount>
+		<workAmount>15000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -354,7 +354,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>600</workAmount>
+		<workAmount>200</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -385,7 +385,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>6000</workAmount>
+		<workAmount>1800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -416,7 +416,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>60000</workAmount>
+		<workAmount>15000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -447,7 +447,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>500</workAmount>
+		<workAmount>220</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -478,7 +478,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>5000</workAmount>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -509,7 +509,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>50000</workAmount>
+		<workAmount>18000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -540,7 +540,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>700</workAmount>
+		<workAmount>300</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -571,7 +571,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>7000</workAmount>
+		<workAmount>2700</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -602,7 +602,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>70000</workAmount>
+		<workAmount>25000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -633,7 +633,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>5000</workAmount>
+		<workAmount>2400</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -674,7 +674,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>50000</workAmount>
+		<workAmount>20000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -715,7 +715,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>500000</workAmount>
+		<workAmount>150000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -756,7 +756,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>700</workAmount>
+		<workAmount>300</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -796,7 +796,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>7000</workAmount>
+		<workAmount>2700</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -836,7 +836,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>70000</workAmount>
+		<workAmount>25000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -876,7 +876,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>10000</workAmount>
+		<workAmount>5000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -907,7 +907,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>100000</workAmount>
+		<workAmount>40000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -938,7 +938,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000000</workAmount>
+		<workAmount>350000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1000,7 +1000,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000</workAmount>
+		<workAmount>800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1031,7 +1031,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>10000</workAmount>
+		<workAmount>7500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
