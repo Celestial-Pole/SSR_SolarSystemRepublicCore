@@ -24,6 +24,53 @@
 			<innerStorageCapacity>1000000</innerStorageCapacity>
 		</palmineDefaultMineralProp>
 		<mentalDefenseTechRequire>SSR_Research_MentalProtectionTechnology</mentalDefenseTechRequire>		<!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
+		<marsStorage>
+			<storageGroupTag>MarsStorage</storageGroupTag>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<!--li>Corpses</li-->
+						<!--li>Chunks</li-->
+						<li>Plants</li>
+						<li>Buildings</li>
+					</disallowedCategories>
+					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					</disallowedThingDefs>
+					<specialFiltersToDisallow>
+						<li>AllowLargeCorpses</li>
+						<li>AllowUnfinished</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+					</categories>
+					<specialFiltersToDisallow>
+						<li>AllowCorpsesColonist</li>
+						<li>AllowCorpsesStranger</li>
+						<li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">AllowCorpsesMechFriendly</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">AllowCorpsesMechEnemy</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">AllowCorpsesUnnatural</li>
+						<li>AllowUnfinished</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</defaultStorageSettings>
+		</marsStorage>
 	</Def>
 
 </Defs>

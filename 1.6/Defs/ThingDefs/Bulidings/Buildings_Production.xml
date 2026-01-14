@@ -5,7 +5,7 @@
 		<defName>SSR_Building_RemoteAccessTerminal</defName>
 		<label>远程存取终端</label>
 		<description>用于与中央存储单元进行交互的存取终端，可通过存取终端从中央存储单元中存取物品。</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Storage.Building_MarsStorage</thingClass><drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/RemoteAccessTerminal/RemoteAccessTerminal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -13,7 +13,6 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
-		<thingClass>Building</thingClass>
 		<blockWind>true</blockWind>
 		<fillPercent>0</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -32,6 +31,9 @@
 			<isEdifice>true</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
 		<costList>
 			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
@@ -78,7 +80,7 @@
 		<defName>SSR_Building_CentralStorageUnit</defName>
 		<label>中央存储单元</label>
 		<description>使用智能仓储与物流系统构建的模块化存储单元，通过科学整理与技术手段压缩了物品所需的存储空间，从而能够存储大量的物品。</description>
-		<thingClass>Building</thingClass>
+		<thingClass>FS_SSR.Storage.Building_MarsStorage</thingClass>
 		<!--tickerType>Normal</tickerType-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -105,6 +107,9 @@
 			<isEdifice>true</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
 		<costList>
 			<SSR_Item_SpecialSteel>300</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
@@ -116,7 +121,7 @@
 			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
 		</researchPrerequisites>
 		<comps>
-		    <li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
+			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffsetPerLevel>
 					<li>5000</li>
