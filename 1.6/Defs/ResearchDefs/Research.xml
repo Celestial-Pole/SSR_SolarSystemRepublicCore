@@ -128,8 +128,8 @@
 			<li>FlatscreenTelevision</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>15.00</researchViewX>
-		<researchViewY>1.50</researchViewY>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
 		<!-- <modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
