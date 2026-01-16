@@ -5,7 +5,9 @@
 		<defName>SSR_Building_RemoteAccessTerminal</defName>
 		<label>远程存取终端</label>
 		<description>用于与中央存储单元进行交互的存取终端，可通过存取终端从中央存储单元中存取物品。</description>
-		<thingClass>FS_SSR.Storage.Building_MarsStorage</thingClass><drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>FS_SSR.Storage.Building_MarsStorage</thingClass>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/RemoteAccessTerminal/RemoteAccessTerminal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -14,7 +16,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
 		<blockWind>true</blockWind>
-		<fillPercent>0</fillPercent>
+		<fillPercent>0.5</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -23,7 +25,6 @@
 			<Flammability>0</Flammability>
 			<Beauty>1</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
 		<hasInteractionCell>false</hasInteractionCell>
 		<size>(1,1)</size>
@@ -92,7 +93,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
 		<blockWind>true</blockWind>
-		<fillPercent>0</fillPercent>
+		<fillPercent>0.5</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<canOverlapZones>false</canOverlapZones>

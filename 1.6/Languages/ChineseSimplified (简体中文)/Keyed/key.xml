@@ -123,6 +123,7 @@
 	<SSR_WorkFinished>{0} 已完成工作: {1} </SSR_WorkFinished>
 
 	<!-- 火星仓库 -->
+	<SSR_MarsStorage>火星仓库</SSR_MarsStorage>
 	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
 
 	<!-- 科研替代需求 -->
