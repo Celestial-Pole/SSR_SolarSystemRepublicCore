@@ -119,9 +119,9 @@
 		    <li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffsetPerLevel>
-					<li>5000</li>
-					<li>10000</li>
-					<li>50000</li>
+					<li>30000</li>
+					<li>100000</li>
+					<li>500000</li>
 				</capacityOffsetPerLevel>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
