@@ -62,16 +62,21 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<comps>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Furniture</innerCategory>
 			</li>
 		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>1</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
 	</ThingDef>
 
 	<!-- Power -->
@@ -79,18 +84,23 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>1</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
 		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<comps>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Production -->
@@ -98,19 +108,24 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.7</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<comps>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
 				<innerCategory>SSR_DesignationInnerCategory_Production</innerCategory>
 			</li>
 		</modExtensions>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
