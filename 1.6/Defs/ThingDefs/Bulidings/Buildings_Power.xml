@@ -68,7 +68,6 @@
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
@@ -181,7 +180,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -284,7 +282,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -362,7 +359,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -439,7 +435,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -542,7 +537,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -620,7 +614,6 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<constructEffect>ConstructMetal</constructEffect>
 		<designationHotKey>Misc4</designationHotKey>
@@ -657,9 +650,8 @@
 			<li>BuildingsPower</li>
 		</thingCategories>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -761,8 +753,7 @@
 			</damageData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
-		<fillPercent>0.9</fillPercent>
-		<pathCost>50</pathCost>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<blockWind>true</blockWind>
 		<!-- <staticSunShadowHeight>1</staticSunShadowHeight> -->
@@ -917,7 +908,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
@@ -976,7 +966,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
@@ -1044,7 +1033,6 @@
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
-		<pathCost>50</pathCost>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
@@ -1111,7 +1099,6 @@
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
-		<pathCost>50</pathCost>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<staticSunShadowHeight>3</staticSunShadowHeight>
@@ -1307,9 +1294,8 @@
 			</shadowData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -1399,9 +1385,8 @@
 			</shadowData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -1492,9 +1477,8 @@
 			</shadowData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -1584,9 +1568,8 @@
 			</shadowData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>1</fillPercent>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -1678,7 +1661,6 @@
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
@@ -1708,9 +1690,6 @@
 			<li Class="FS_SSR.Generic.TCP_Alias" />
 			<li Class="FS_SSR.TCP_SolarFlareMapShield">
 				<limitLevel>Map</limitLevel>
-			</li>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_MapImmueMentalStates">
 				<immuneMentalStates>true</immuneMentalStates>
@@ -1769,7 +1748,6 @@
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<pathCost>50</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>

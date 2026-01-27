@@ -25,7 +25,7 @@
 			<Flammability>0</Flammability>
 			<Beauty>1</Beauty>
 		</statBases>
-		<canOverlapZones>false</canOverlapZones>
+		<canOverlapZones>true</canOverlapZones>
 		<hasInteractionCell>false</hasInteractionCell>
 		<size>(1,1)</size>
 		<building>
@@ -96,7 +96,7 @@
 		<fillPercent>0.5</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
-		<canOverlapZones>false</canOverlapZones>
+		<canOverlapZones>true</canOverlapZones>
 		<hasInteractionCell>false</hasInteractionCell>
 		<statBases>
 			<MaxHitPoints>3500</MaxHitPoints>
