@@ -104,7 +104,7 @@
 	</ThingDef>
 
 	<!-- Research -->
-	<!--<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Power" Abstract="True">
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Research" Abstract="True">
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
@@ -120,12 +120,12 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">-->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-	<!--<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
 			</li>
 		</modExtensions>
-	</ThingDef>-->
+	</ThingDef>
 
 	<!-- Production -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Production" Abstract="True">
@@ -166,7 +166,8 @@
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li>			<!-- 可以升级的建筑必须多带这个place worker -->
+			<li>FS_SSR.UI.PW_FrameLevel</li>
+			<!-- 可以升级的建筑必须多带这个place worker -->
 		</placeWorkers>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
