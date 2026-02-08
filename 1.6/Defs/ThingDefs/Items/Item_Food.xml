@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef>
+		<defName>SSR_SyntheticMeat</defName>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<altitudeLayer>Item</altitudeLayer>
+		<label>合成肉</label>
+		<description>合成肉是一种由植物蛋白和人工营养素制成的替代肉类食品，具有与真实肉类相似的口感和营养价值。</description>
+		<graphicData>
+			<texPath>Things/Item/Food/SyntheticMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<selectable>true</selectable>
+		<alwaysHaulable>true</alwaysHaulable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>0.05</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.03</Mass>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<equippedAngleOffset>-180</equippedAngleOffset>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<maxNumToIngestAtOnce>10</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>-10</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<preferability>MealAwful</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2</daysToRotStart>
+			</li>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+	</ThingDef>
+
+</Defs>
