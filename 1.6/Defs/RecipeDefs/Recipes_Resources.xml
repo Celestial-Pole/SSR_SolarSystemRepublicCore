@@ -505,4 +505,292 @@
 		</products>
 	</RecipeDef>
 
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksSandstone</defName>
+		<label>制作砂岩砖x5</label>
+		<description>制作砂岩砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSandstone</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSandstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>100</BlocksSandstone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksGranite</defName>
+		<label>制作花岗岩砖x5</label>
+		<description>制作花岗岩砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkGranite</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkGranite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGranite>100</BlocksGranite>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksLimestone</defName>
+		<label>制作石灰岩砖x5</label>
+		<description>制作石灰岩砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLimestone</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLimestone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLimestone>100</BlocksLimestone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksSlate</defName>
+		<label>制作板岩砖x5</label>
+		<description>制作板岩砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSlate</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSlate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSlate>100</BlocksSlate>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksMarble</defName>
+		<label>制作大理石砖x5</label>
+		<description>制作大理石砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkMarble</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMarble>100</BlocksMarble>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_FiveStoneBlocksVacstone</defName>
+		<label>制作真空岩砖x5</label>
+		<description>制作真空岩砖x5</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkVacstone</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkVacstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksVacstone>100</BlocksVacstone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksSandstone</defName>
+		<label>制作砂岩砖x10</label>
+		<description>制作砂岩砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSandstone</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSandstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>200</BlocksSandstone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksGranite</defName>
+		<label>制作花岗岩砖x10</label>
+		<description>制作花岗岩砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkGranite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkGranite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGranite>200</BlocksGranite>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksLimestone</defName>
+		<label>制作石灰岩砖x10</label>
+		<description>制作石灰岩砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLimestone</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLimestone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLimestone>200</BlocksLimestone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksSlate</defName>
+		<label>制作板岩砖x10</label>
+		<description>制作板岩砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSlate</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSlate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSlate>200</BlocksSlate>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksMarble</defName>
+		<label>制作大理石砖x10</label>
+		<description>制作大理石砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkMarble</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMarble>200</BlocksMarble>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>SSR_Recipe_Make_TenStoneBlocksVacstone</defName>
+		<label>制作真空岩砖x10</label>
+		<description>制作真空岩砖x10</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkVacstone</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkVacstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksVacstone>200</BlocksVacstone>
+		</products>
+	</RecipeDef>
+
 </Defs>

@@ -247,6 +247,18 @@
 			<li>Make_StoneBlocksSlate</li>
 			<li>Make_StoneBlocksMarble</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksSandstone</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksGranite</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksLimestone</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksSlate</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_FiveStoneBlocksVacstone</li>
+			<li>SSR_Recipe_Make_TenStoneBlocksSandstone</li>
+			<li>SSR_Recipe_Make_TenStoneBlocksGranite</li>
+			<li>SSR_Recipe_Make_TenStoneBlocksLimestone</li>
+			<li>SSR_Recipe_Make_TenStoneBlocksSlate</li>
+			<li>SSR_Recipe_Make_TenStoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_TenStoneBlocksVacstone</li>
 			<li>SSR_Recipe_GarbageBlock</li>
 			<li>SSR_Recipe_TenGarbageBlock</li>
 			<li>SSR_Recipe_HundredGarbageBlock</li>
@@ -1325,6 +1337,9 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+			<li>SSR_Recipe_SyntheticMeat</li>
+			<li>SSR_Recipe_TenSyntheticMeat</li>
+			<li>SSR_Recipe_HundredSyntheticMeat</li>
 			<li>CookMealSimple</li>
 			<li>CookMealSimpleBulk</li>
 			<li>CookMealFine</li>
