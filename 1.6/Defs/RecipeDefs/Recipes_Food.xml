@@ -25,7 +25,7 @@
 						<li>RawFungus</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>0.05</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -67,7 +67,7 @@
 						<li>RawFungus</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>0.5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -109,7 +109,7 @@
 						<li>RawFungus</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
