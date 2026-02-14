@@ -25,7 +25,7 @@
 			<Nutrition>0.05</Nutrition>
 			<Flammability>0.5</Flammability>
 			<Mass>0.03</Mass>
-			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<thingCategories>
