@@ -35,8 +35,8 @@
 					<disallowedCategories>
 						<!--li>Corpses</li-->
 						<!--li>Chunks</li-->
-						<li>Plants</li>
-						<li>Buildings</li>
+						<!--li>Plants</li>
+						<li>Buildings</li-->
 					</disallowedCategories>
 					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
 						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
@@ -58,6 +58,7 @@
 						<li>Weapons</li>
 						<li>Apparel</li>
 						<li>BodyParts</li>
+						<li>SSR</li>
 					</categories>
 					<specialFiltersToDisallow>
 						<li>AllowCorpsesColonist</li>

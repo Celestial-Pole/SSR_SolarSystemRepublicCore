@@ -125,6 +125,7 @@
 	<!-- 火星仓库 -->
 	<SSR_MarsStorage>仓储系统</SSR_MarsStorage>
 	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
+	<SSR_RemainingCapacity>剩余储存容量: {0} / {1}</SSR_RemainingCapacity>
 
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
