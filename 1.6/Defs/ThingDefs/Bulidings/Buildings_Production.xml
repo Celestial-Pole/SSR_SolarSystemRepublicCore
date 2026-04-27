@@ -45,7 +45,9 @@
 			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
 		</researchPrerequisites>
 		<comps>
-			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
+			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor">
+				<teleportLevel>1</teleportLevel>
+			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
 				<levels>
 					<li>
