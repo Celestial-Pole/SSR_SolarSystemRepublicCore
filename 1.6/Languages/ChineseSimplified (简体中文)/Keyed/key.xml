@@ -82,6 +82,8 @@
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
 	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
+	<SSR_Lv>等级: {0}</SSR_Lv>
+	<SSR_ExtraMaterialByLevel>该等级需要的额外材料</SSR_ExtraMaterialByLevel>
 
 	<!-- 叙事者 -->
 	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
