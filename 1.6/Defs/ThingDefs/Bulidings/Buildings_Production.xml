@@ -261,6 +261,9 @@
 			<li>SSR_Recipe_Make_TenStoneBlocksSlate</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksMarble</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_TenStoneBlocksVacstone</li>
+            <li>SSR_Recipe_GeneralStone</li>
+            <li>SSR_Recipe_TenGeneralStone</li>
+            <li>SSR_Recipe_HundredGeneralStone</li>
 			<li>SSR_Recipe_GarbageBlock</li>
 			<li>SSR_Recipe_TenGarbageBlock</li>
 			<li>SSR_Recipe_HundredGarbageBlock</li>
