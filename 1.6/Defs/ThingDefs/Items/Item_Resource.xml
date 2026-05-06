@@ -89,7 +89,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="StoneBlocksBase">
+	<ThingDef ParentName="ChunkRockBase">
 		<defName>SSR_Item_GeneralStone</defName>
 		<label>通用石材</label>
 		<description>通用石材</description>
@@ -98,25 +98,11 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<Mass>1.25</Mass>
+			<Mass>20</Mass>
 		</statBases>
-		<stuffProps>
-			<color>(132,135,132)</color>
-			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
-			<statFactors>
-				<Beauty>1.35</Beauty>
-				<MaxHitPoints>1.2</MaxHitPoints>
-				<WorkToBuild>5.5</WorkToBuild>
-				<WorkToMake>1.15</WorkToMake>
-			</statFactors>
-			<statOffsets>
-				<Beauty>1</Beauty>
-			</statOffsets>
-			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
-		</stuffProps>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 
 </Defs>
