@@ -894,9 +894,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_ChunkSandstone</defName>
-		<label>制作砂岩</label>
-		<description>制作一单位砂岩。</description>
-		<jobString>正在制作一单位砂岩。</jobString>
+		<label>分拣砂岩</label>
+		<description>分拣一块砂岩。</description>
+		<jobString>正在分拣出一块砂岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -927,9 +927,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_ChunkGranite</defName>
-		<label>制作花岗岩</label>
-		<description>制作一单位花岗岩。</description>
-		<jobString>正在制作一单位花岗岩。</jobString>
+		<label>分拣花岗岩</label>
+		<description>分拣一块花岗岩。</description>
+		<jobString>正在分拣出一块花岗岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -960,9 +960,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_ChunkLimestone</defName>
-		<label>制作石灰岩</label>
-		<description>制作一单位石灰岩。</description>
-		<jobString>正在制作一单位石灰岩。</jobString>
+		<label>分拣石灰岩</label>
+		<description>分拣一块石灰岩。</description>
+		<jobString>正在分拣出一块石灰岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -993,9 +993,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_ChunkSlate</defName>
-		<label>制作板岩</label>
-		<description>制作一单位板岩。</description>
-		<jobString>正在制作一单位板岩。</jobString>
+		<label>分拣板岩</label>
+		<description>分拣一块板岩。</description>
+		<jobString>正在分拣出一块板岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1026,9 +1026,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_ChunkMarble</defName>
-		<label>制作大理石</label>
-		<description>制作一单位大理石。</description>
-		<jobString>正在制作一单位大理石。</jobString>
+		<label>分拣大理石</label>
+		<description>分拣一块大理石。</description>
+		<jobString>正在分拣出一块大理石。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1058,43 +1058,10 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_ChunkVacstone</defName>
-		<label>制作真空岩</label>
-		<description>制作一单位真空岩。</description>
-		<jobString>正在制作一单位真空岩。</jobString>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<workAmount>10</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_Item_GeneralStone</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>SSR_Item_GeneralStone</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ChunkVacstone>1</ChunkVacstone>
-		</products>
-		<recipeUsers>
-			<li>TableStonecutter</li>
-		</recipeUsers>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-	<RecipeDef>
 		<defName>SSR_Recipe_TenChunkSandstone</defName>
-		<label>制作砂岩x10</label>
-		<description>制作十单位砂岩。</description>
-		<jobString>正在制作十单位砂岩。</jobString>
+		<label>分拣砂岩x10</label>
+		<description>分拣十块砂岩。</description>
+		<jobString>正在分拣出十块砂岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1125,9 +1092,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenChunkGranite</defName>
-		<label>制作花岗岩x10</label>
-		<description>制作十单位花岗岩。</description>
-		<jobString>正在制作十单位花岗岩。</jobString>
+		<label>分拣花岗岩x10</label>
+		<description>分拣十块花岗岩。</description>
+		<jobString>正在分拣出十块花岗岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1158,9 +1125,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenChunkLimestone</defName>
-		<label>制作石灰岩x10</label>
-		<description>制作十单位石灰岩。</description>
-		<jobString>正在制作十单位石灰岩。</jobString>
+		<label>分拣石灰岩x10</label>
+		<description>分拣十块石灰岩。</description>
+		<jobString>正在分拣出十块石灰岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1191,9 +1158,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenChunkSlate</defName>
-		<label>制作板岩x10</label>
-		<description>制作十单位板岩。</description>
-		<jobString>正在制作十单位板岩。</jobString>
+		<label>分拣板岩x10</label>
+		<description>分拣十块板岩。</description>
+		<jobString>正在分拣出十块板岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1224,9 +1191,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenChunkMarble</defName>
-		<label>制作大理石x10</label>
-		<description>制作十单位大理石。</description>
-		<jobString>正在制作十单位大理石。</jobString>
+		<label>分拣大理石x10</label>
+		<description>分拣十块大理石。</description>
+		<jobString>正在分拣出十块大理石。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1256,43 +1223,10 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>SSR_Recipe_TenChunkVacstone</defName>
-		<label>制作真空岩x10</label>
-		<description>制作十单位真空岩。</description>
-		<jobString>正在制作十单位真空岩。</jobString>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<workAmount>100</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_Item_GeneralStone</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>SSR_Item_GeneralStone</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ChunkVacstone>10</ChunkVacstone>
-		</products>
-		<recipeUsers>
-			<li>TableStonecutter</li>
-		</recipeUsers>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-	<RecipeDef>
 		<defName>SSR_Recipe_HundredChunkSandstone</defName>
-		<label>制作砂岩x100</label>
-		<description>制作一百单位砂岩。</description>
-		<jobString>正在制作一百单位砂岩。</jobString>
+		<label>分拣砂岩x100</label>
+		<description>分拣一百块砂岩。</description>
+		<jobString>正在分拣出一百块砂岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1323,9 +1257,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredChunkGranite</defName>
-		<label>制作花岗岩x100</label>
-		<description>制作一百单位花岗岩。</description>
-		<jobString>正在制作一百单位花岗岩。</jobString>
+		<label>分拣花岗岩x100</label>
+		<description>分拣一百块花岗岩。</description>
+		<jobString>正在分拣出一百块花岗岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1356,9 +1290,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredChunkLimestone</defName>
-		<label>制作石灰岩x100</label>
-		<description>制作一百单位石灰岩。</description>
-		<jobString>正在制作一百单位石灰岩。</jobString>
+		<label>分拣石灰岩x100</label>
+		<description>分拣一百块石灰岩。</description>
+		<jobString>正在分拣出一百块石灰岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1389,9 +1323,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredChunkSlate</defName>
-		<label>制作板岩x100</label>
-		<description>制作一百单位板岩。</description>
-		<jobString>正在制作一百单位板岩。</jobString>
+		<label>分拣板岩x100</label>
+		<description>分拣一百块板岩。</description>
+		<jobString>正在分拣出一百块板岩。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1422,9 +1356,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredChunkMarble</defName>
-		<label>制作大理石x100</label>
-		<description>制作一百单位大理石。</description>
-		<jobString>正在制作一百单位大理石。</jobString>
+		<label>分拣大理石x100</label>
+		<description>分拣一百块大理石。</description>
+		<jobString>正在分拣出一百块大理石。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -1446,39 +1380,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<ChunkMarble>100</ChunkMarble>
-		</products>
-		<recipeUsers>
-			<li>TableStonecutter</li>
-		</recipeUsers>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-	<RecipeDef>
-		<defName>SSR_Recipe_HundredChunkVacstone</defName>
-		<label>制作真空岩x100</label>
-		<description>制作一百单位真空岩。</description>
-		<jobString>正在制作一百单位真空岩。</jobString>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<workAmount>1000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SSR_Item_GeneralStone</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>SSR_Item_GeneralStone</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ChunkVacstone>100</ChunkVacstone>
 		</products>
 		<recipeUsers>
 			<li>TableStonecutter</li>
