@@ -3042,6 +3042,13 @@
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
+		<autoTransferLimit>
+			<li>(1,500)</li>
+			<li>(2,500)</li>
+			<li>(3,500)</li>
+			<li>(4,500)</li>
+			<li>(5,500)</li>
+		</autoTransferLimit>
 	</ThingDef>
 
 </Defs>
