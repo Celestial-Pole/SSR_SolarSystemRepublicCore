@@ -91,8 +91,8 @@
 
 	<ThingDef ParentName="ChunkRockBase">
 		<defName>SSR_Item_GeneralStone</defName>
-		<label>通用石材</label>
-		<description>通用石材</description>
+		<label>粗石料</label>
+		<description>粗石料</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/GeneralStone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

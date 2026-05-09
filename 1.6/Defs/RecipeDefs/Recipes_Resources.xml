@@ -795,9 +795,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_GeneralStone</defName>
-		<label>制作通用石材</label>
-		<description>制作一单位通用石材。</description>
-		<jobString>正在制作一单位通用石材。</jobString>
+		<label>制作粗石料</label>
+		<description>制作一单位粗石料。</description>
+		<jobString>正在制作一单位粗石料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -828,9 +828,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenGeneralStone</defName>
-		<label>制作通用石材x10</label>
-		<description>制作十单位通用石材。</description>
-		<jobString>正在制作十单位通用石材。</jobString>
+		<label>制作粗石料x10</label>
+		<description>制作十单位粗石料。</description>
+		<jobString>正在制作十单位粗石料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -861,9 +861,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredGeneralStone</defName>
-		<label>制作通用石材x100</label>
-		<description>制作一百单位通用石材。</description>
-		<jobString>正在制作一百单位通用石材。</jobString>
+		<label>制作粗石料x100</label>
+		<description>制作一百单位粗石料。</description>
+		<jobString>正在制作一百单位粗石料。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
