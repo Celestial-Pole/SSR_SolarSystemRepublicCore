@@ -6,7 +6,7 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "Queue"="Transparent-99"}
+        Tags { "RenderType"="Opaque" "Queue"="Transparent"}
         LOD 100
         Blend Zero One
         ZTest Always
@@ -29,7 +29,7 @@
             struct v2f
             {
                 float2 uv : TEXCOORD0;
-                float4 model : TEXCOORD1;
+                float3 view : TEXCOORD1;
                 float4 vertex : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID 
             };
@@ -43,9 +43,9 @@
                 v2f o;
                 UNITY_SETUP_INSTANCE_ID(v);
                 UNITY_TRANSFER_INSTANCE_ID(v, o);
-                o.vertex = UnityObjectToClipPos(v.vertex);
+                o.view = UnityObjectToViewPos(v.vertex);
+                o.vertex = UnityViewToClipPos(o.view);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                o.model = v.vertex;
                 return o;
             }
 
@@ -55,9 +55,9 @@
                 UNITY_SETUP_INSTANCE_ID(i);
                 float4 col = tex2D(_MainTex, i.uv);
                 if(col.w <= 0.0) discard;
-                i.model.y -= (col.x - 0.5) * col.w; 
-                i.model = UnityObjectToClipPos(i.model);
-                depth = i.model.z / i.model.w;
+                i.view.z -= (col.x - 0.5) * col.w; 
+                i.vertex = UnityViewToClipPos(i.view);
+                depth = i.vertex.z / i.vertex.w;
                 // apply fog
                 return depth;
             }

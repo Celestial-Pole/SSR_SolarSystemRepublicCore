@@ -11,9 +11,9 @@ Material:
   m_Shader: {fileID: 4800000, guid: 7c245bb3c9dc75d4e808bf345f04c226, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - ENABLE_REL2ANIM
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -52,6 +52,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 81b837864bb20ae48ab4987861f4972a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MatTex:
+        m_Texture: {fileID: 2800000, guid: 6b570849ca2553f488f90c69b42b23a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -68,6 +72,7 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DepthFactor: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1

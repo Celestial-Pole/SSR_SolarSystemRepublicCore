@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -63,7 +63,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -89,13 +89,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "Transfrom/Lifter/Cable/\u5E73\u9762.005"
+    path: "Transfrom_Z/Transfrom_X/Lifter/Cable/\u5E73\u9762.005"
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.646, y: -100, z: 1.593}
+        value: {x: 0.976, y: -95.387, z: -0.858}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -104,7 +104,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: -1.646, y: -100, z: 1.593}
+        value: {x: 0.976, y: -95.387, z: -0.858}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -114,7 +114,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -139,7 +139,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -340,7 +340,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Transfrom/Lifter/Cable/Main
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Main
   m_FloatCurves:
   - serializedVersion: 2
     curve:
@@ -368,7 +368,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
     classID: 23
     script: {fileID: 0}
     flags: 16
@@ -428,7 +428,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 23
     script: {fileID: 0}
     flags: 16
@@ -651,7 +651,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2102226930
+      path: 4141679897
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 23
@@ -669,7 +669,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4085113436
+      path: 3719291654
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 23
@@ -741,7 +741,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4269662465
+      path: 2976430460
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -750,7 +750,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4085113436
+      path: 3719291654
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -759,7 +759,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2102226930
+      path: 4141679897
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -831,7 +831,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4085113436
+      path: 3719291654
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -840,7 +840,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1418382336
+      path: 2384708165
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -849,7 +849,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4224475222
+      path: 2646653739
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -905,7 +905,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
     classID: 23
     script: {fileID: 0}
     flags: 16
@@ -965,7 +965,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: Transfrom/Lifter/Cable/Main
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Main
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -995,7 +995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: Transfrom/Lifter/Cable/Main
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Main
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1025,7 +1025,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: Transfrom/Lifter/Cable/Main
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Main
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1055,7 +1055,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: "Transfrom/Lifter/Cable/\u5E73\u9762.005"
+    path: "Transfrom_Z/Transfrom_X/Lifter/Cable/\u5E73\u9762.005"
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1085,7 +1085,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: "Transfrom/Lifter/Cable/\u5E73\u9762.005"
+    path: "Transfrom_Z/Transfrom_X/Lifter/Cable/\u5E73\u9762.005"
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1115,7 +1115,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: "Transfrom/Lifter/Cable/\u5E73\u9762.005"
+    path: "Transfrom_Z/Transfrom_X/Lifter/Cable/\u5E73\u9762.005"
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1125,7 +1125,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -1.646
+        value: 0.976
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1134,7 +1134,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -1.646
+        value: 0.976
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1145,7 +1145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1155,7 +1155,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -100
+        value: -95.387
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1164,7 +1164,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -100
+        value: -95.387
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1175,7 +1175,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1185,7 +1185,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.593
+        value: -0.858
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1194,7 +1194,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1.593
+        value: -0.858
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1205,7 +1205,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1235,7 +1235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1265,7 +1265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1295,7 +1295,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1325,7 +1325,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1355,7 +1355,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1385,7 +1385,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1415,7 +1415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 23
     script: {fileID: 0}
     flags: 16
@@ -1445,7 +1445,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1475,7 +1475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -1505,7 +1505,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Transfrom/Lifter/Cable/CoverA
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/CoverA
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -2358,7 +2358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2370,7 +2370,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2382,7 +2382,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Transfrom/Lifter
+    path: Transfrom_Z/Transfrom_X/Lifter
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2394,7 +2394,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2406,7 +2406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2418,7 +2418,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Transfrom/Lifter/Cable/Cargo
+    path: Transfrom_Z/Transfrom_X/Lifter/Cable/Cargo
     classID: 4
     script: {fileID: 0}
     flags: 0
