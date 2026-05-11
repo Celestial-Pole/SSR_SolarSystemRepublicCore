@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="SSR_Recipe_Gun_EmpLauncher"]/products/Gun_EmpLauncher</xpath>
+        <value>
+            <Ammo_40x46mmGrenade_EMP>1</Ammo_40x46mmGrenade_EMP>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="SSR_Recipe_Gun_SmokeLauncher"]/products/Gun_SmokeLauncher</xpath>
+        <value>
+            <Ammo_40x46mmGrenade_Smoke>1</Ammo_40x46mmGrenade_Smoke>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="SSR_Recipe_Gun_ToxbombLauncher"]/products/Gun_ToxbombLauncher</xpath>
+        <value>
+            <Ammo_40x46mmGrenade_Tox>1</Ammo_40x46mmGrenade_Tox>
+        </value>
+    </Operation>
+
+</Patch>

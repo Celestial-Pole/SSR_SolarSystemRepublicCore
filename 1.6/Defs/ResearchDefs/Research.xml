@@ -28,7 +28,7 @@
 						<li>
 							<item>SSR_Building_PhotonicComputingCluster</item>
 							<amount>1</amount>							<!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_Building_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
 							<sourceLevel>World</sourceLevel>							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique>							<!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel>							<!-- 处理研究需求时的搜索等级 -->
@@ -58,7 +58,7 @@
 						<li>
 							<item>SSR_Building_PhotonicComputingCluster</item>
 							<amount>1</amount>							<!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_Building_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
 							<sourceLevel>World</sourceLevel>							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique>							<!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel>							<!-- 处理研究需求时的搜索等级 -->
@@ -68,7 +68,7 @@
 						<li>
 							<item>SSR_Building_LHC</item>
 							<amount>1</amount>							<!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_Building_LHC</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
 							<sourceLevel>World</sourceLevel>							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique>							<!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel>							<!-- 处理研究需求时的搜索等级 -->
@@ -90,7 +90,7 @@
 						<li>
 							<item>SSR_Building_PhotonicComputingCluster</item>
 							<amount>1</amount>							<!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_Building_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<quantityLimitedBuildingID>SSR_PhotonicComputingCluster</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
 							<sourceLevel>World</sourceLevel>							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique>							<!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel>							<!-- 处理研究需求时的搜索等级 -->
@@ -100,7 +100,7 @@
 						<li>
 							<item>SSR_Building_LHC</item>
 							<amount>1</amount>							<!-- 需要多少 -->
-							<quantityLimitedBuildingID>SSR_Building_LHC</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
+							<quantityLimitedBuildingID>SSR_LHC</quantityLimitedBuildingID>							<!-- 需要物品的id，一般情况是thingdef的defname -->
 							<sourceLevel>World</sourceLevel>							<!-- 只能填World或者Map，默认(不填此项)是Optional -->
 							<sourceUnique>false</sourceUnique>							<!-- 被需求物品是否独特 -->
 							<searchLevel>Map</searchLevel>							<!-- 处理研究需求时的搜索等级 -->
@@ -128,8 +128,8 @@
 			<li>FlatscreenTelevision</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>15.00</researchViewX>
-		<researchViewY>1.50</researchViewY>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
 		<!-- <modExtensions>
 			<li Class="FS_SSR.Research.Ext_AlterRequireLinked">
 				<alternativeRequires>
@@ -1026,6 +1026,7 @@
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
+			<li>SSR_Research_BasicWarehouseLogisticsTechnology</li>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</prerequisites>
 		<baseCost>2000</baseCost>
@@ -1604,6 +1605,7 @@
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
+			<li>SSR_Research_Medium-levelWarehouseLogisticsTechnology</li>
 			<li>SSR_Research_BasicSpaceApplication</li>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>
 		</prerequisites>

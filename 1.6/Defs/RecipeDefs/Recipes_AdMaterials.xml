@@ -41,7 +41,7 @@
 		<label>制作加固炮管 x5</label>
 		<description>制作五根加固炮管。</description>
 		<jobString>正在制作五根加固炮管。</jobString>
-		<workAmount>9000</workAmount>
+		<workAmount>7500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -68,7 +68,7 @@
 		<label>制作加固炮管 x10</label>
 		<description>制作十根加固炮管。</description>
 		<jobString>正在制作十根加固炮管。</jobString>
-		<workAmount>18000</workAmount>
+		<workAmount>15000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -95,7 +95,7 @@
 		<label>制作零部件 x5</label>
 		<description>制作五个零部件。</description>
 		<jobString>正在制作五个零部件。</jobString>
-		<workAmount>25000</workAmount>
+		<workAmount>22500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -124,7 +124,7 @@
 		<label>制作零部件 x10</label>
 		<description>制作十个零部件。</description>
 		<jobString>正在制作十个零部件。</jobString>
-		<workAmount>50000</workAmount>
+		<workAmount>42000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -153,7 +153,7 @@
 		<label>制作高级零部件 x5</label>
 		<description>制作五个高级零部件。</description>
 		<jobString>正在制作五个高级零部件。</jobString>
-		<workAmount>50000</workAmount>
+		<workAmount>45000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -210,7 +210,7 @@
 		<label>制作高级零部件 x10</label>
 		<description>制作十个高级零部件。</description>
 		<jobString>正在制作十个高级零部件。</jobString>
-		<workAmount>100000</workAmount>
+		<workAmount>70000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -296,7 +296,7 @@
 		<label>制作精密镜片 x5</label>
 		<description>制作五片精密镜片。</description>
 		<jobString>正在制作五片精密镜片。</jobString>
-		<workAmount>9000</workAmount>
+		<workAmount>7500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -325,7 +325,7 @@
 		<label>制作精密镜片 x10</label>
 		<description>制作十片精密镜片。</description>
 		<jobString>正在制作十片精密镜片。</jobString>
-		<workAmount>18000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -392,7 +392,7 @@
 		<label>制作超导材料 x5</label>
 		<description>制作五个超导材料。</description>
 		<jobString>正在制作五个超导材料。</jobString>
-		<workAmount>9000</workAmount>
+		<workAmount>7500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -430,7 +430,7 @@
 		<label>制作超导材料 x10</label>
 		<description>制作十个超导材料。</description>
 		<jobString>正在制作十个超导材料。</jobString>
-		<workAmount>18000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -497,7 +497,7 @@
 		<label>制作强电磁铁 x5</label>
 		<description>制作五个强电磁铁。</description>
 		<jobString>正在制作五个强电磁铁。</jobString>
-		<workAmount>9000</workAmount>
+		<workAmount>7500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -526,7 +526,7 @@
 		<label>制作强电磁铁 x10</label>
 		<description>制作十个强电磁铁。</description>
 		<jobString>正在制作十个强电磁铁。</jobString>
-		<workAmount>18000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -610,7 +610,7 @@
 		<label>制作量子计算核心 x5</label>
 		<description>制作五个量子计算核心。</description>
 		<jobString>正在制作五个量子计算核心。</jobString>
-		<workAmount>12000</workAmount>
+		<workAmount>10000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -665,7 +665,7 @@
 		<label>制作量子计算核心 x10</label>
 		<description>制作十个量子计算核心。</description>
 		<jobString>正在制作十个量子计算核心。</jobString>
-		<workAmount>24000</workAmount>
+		<workAmount>19000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -749,7 +749,7 @@
 		<label>制作核裂变燃料棒 x5</label>
 		<description>制作五根核裂变燃料棒。</description>
 		<jobString>正在制作五根核裂变燃料棒。</jobString>
-		<workAmount>12000</workAmount>
+		<workAmount>10000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -778,7 +778,7 @@
 		<label>制作核裂变燃料棒 x10</label>
 		<description>制作十根核裂变燃料棒。</description>
 		<jobString>正在制作十根核裂变燃料棒。</jobString>
-		<workAmount>24000</workAmount>
+		<workAmount>19000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -854,7 +854,7 @@
 		<label>制作人工智能芯片 x5</label>
 		<description>制作五个人工智能芯片</description>
 		<jobString>正在制作五个人工智能芯片。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -901,7 +901,7 @@
 		<label>制作人工智能芯片 x10</label>
 		<description>制作十个人工智能芯片</description>
 		<jobString>正在制作十个人工智能芯片。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1011,7 +1011,7 @@
 		<label>制作集成化量子计算框架 x5</label>
 		<description>制作五个集成化量子计算框架</description>
 		<jobString>正在制作五个集成化量子计算框架。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1074,7 +1074,7 @@
 		<label>制作集成化量子计算框架 x10</label>
 		<description>制作十个集成化量子计算框架</description>
 		<jobString>正在制作十个集成化量子计算框架。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1183,7 +1183,7 @@
 		<label>制作高密度电池 x5</label>
 		<description>制作五个高密度电池</description>
 		<jobString>正在制作五个高密度电池。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1229,7 +1229,7 @@
 		<label>制作高密度电池 x10</label>
 		<description>制作十个高密度电池</description>
 		<jobString>正在制作十个高密度电池。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1339,7 +1339,7 @@
 		<label>制作高能激光发射器 x5</label>
 		<description>制作五个高能激光发射器</description>
 		<jobString>正在制作五个高能激光发射器。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1403,7 +1403,7 @@
 		<label>制作高能激光发射器 x10</label>
 		<description>制作十个高能激光发射器</description>
 		<jobString>正在制作十个高能激光发射器。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1514,7 +1514,7 @@
 		<label>制作高级人工智能芯片 x5</label>
 		<description>制作五个高级人工智能芯片</description>
 		<jobString>正在制作五个高级人工智能芯片。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1561,7 +1561,7 @@
 		<label>制作高级人工智能芯片 x10</label>
 		<description>制作十个高级人工智能芯片</description>
 		<jobString>正在制作十个高级人工智能芯片。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1655,7 +1655,7 @@
 		<label>制作光子计算核心 x5</label>
 		<description>制作五个光子计算核心</description>
 		<jobString>正在制作五个光子计算核心。</jobString>
-		<workAmount>15000</workAmount>
+		<workAmount>12000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1702,7 +1702,7 @@
 		<label>制作光子计算核心 x10</label>
 		<description>制作十个光子计算核心</description>
 		<jobString>正在制作十个光子计算核心。</jobString>
-		<workAmount>30000</workAmount>
+		<workAmount>22000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1787,7 +1787,7 @@
 		<label>制作极致零部件 x5</label>
 		<description>制作五个极致零部件</description>
 		<jobString>正在制作五个极致零部件。</jobString>
-		<workAmount>5000</workAmount>
+		<workAmount>3500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1825,7 +1825,7 @@
 		<label>制作极致零部件 x10</label>
 		<description>制作十个极致零部件</description>
 		<jobString>正在制作十个极致零部件。</jobString>
-		<workAmount>10000</workAmount>
+		<workAmount>6000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1919,7 +1919,7 @@
 		<label>制作微型聚变装置 x5</label>
 		<description>制作五个微型聚变装置</description>
 		<jobString>正在制作五个微型聚变装置。</jobString>
-		<workAmount>20000</workAmount>
+		<workAmount>18000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -1975,7 +1975,7 @@
 		<label>制作微型聚变装置 x10</label>
 		<description>制作十个微型聚变装置</description>
 		<jobString>正在制作十个微型聚变装置。</jobString>
-		<workAmount>40000</workAmount>
+		<workAmount>32500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -2078,7 +2078,7 @@
 		<label>制作高能粒子约束装置 x5</label>
 		<description>制作五个高能粒子约束装置</description>
 		<jobString>正在制作五个高能粒子约束装置。</jobString>
-		<workAmount>20000</workAmount>
+		<workAmount>18000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -2125,7 +2125,7 @@
 		<label>制作高能粒子约束装置 x10</label>
 		<description>制作十个高能粒子约束装置</description>
 		<jobString>正在制作十个高能粒子约束装置。</jobString>
-		<workAmount>40000</workAmount>
+		<workAmount>32500</workAmount>
 		<ingredients>
 			<li>
 				<filter>

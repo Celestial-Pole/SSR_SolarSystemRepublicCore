@@ -20,7 +20,7 @@
 	<SSR_SwitchRepeatModeDesc>切换重复模式</SSR_SwitchRepeatModeDesc>
 	<SSR_CrtRepeatMode>当前重复模式</SSR_CrtRepeatMode>
 	<SSR_CurrentPlant>当前设备</SSR_CurrentPlant>
-	<SSR_CurrentLayer>当前等级</SSR_CurrentLayer>
+	<SSR_CurrentLv>当前等级</SSR_CurrentLv>
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
@@ -82,6 +82,8 @@
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
 	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
+	<SSR_Lv>等级: {0}</SSR_Lv>
+	<SSR_ExtraMaterialByLevel>该等级需要的额外材料</SSR_ExtraMaterialByLevel>
 
 	<!-- 叙事者 -->
 	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
@@ -100,25 +102,32 @@
 	<DrillProgress>开采进度: {2}%</DrillProgress>
 
 	<!-- 标准化垂直矿井 -->
-	<SSR_打开矿井UI>标准化垂直矿井UI</SSR_打开矿井UI>
-	<SSR_打开矿井UIDesc>打开/关闭标准化垂直矿井UI</SSR_打开矿井UIDesc>
+	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
+	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
-	<SSR_Palminer_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_Palminer_CentreUpgrade>
-	<SSR_Palminer_Layer>标准化垂直矿井-矿层工作：{0}</SSR_Palminer_Layer>
-	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_Palminer_Palmine>
-	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_Palminer_TunnelDig>
+	<SSR_PalMine_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_PalMine_CentreUpgrade>
+	<SSR_PalMine_Layer>标准化垂直矿井-矿层工作：{0}</SSR_PalMine_Layer>
+	<SSR_PalMine_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_PalMine_Palmine>
+	<SSR_PalMine_TunnelDug>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_PalMine_TunnelDug>
 	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
-	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
-	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
-	<SSR_挖掘矿道升级>挖掘矿道升级</SSR_挖掘矿道升级>
-	<SSR_挖掘矿道>挖掘矿道</SSR_挖掘矿道>
-	<SSR_升级挖机>升级挖机</SSR_升级挖机>
-	<SSR_工作派遣>工作派遣</SSR_工作派遣>
-	<SSR_停止工作>停止工作</SSR_停止工作>
-	<SSR_取消升级>取消升级</SSR_取消升级>
+	<SSR_PalMine_UpDigLayer>挖掘矿层升级</SSR_PalMine_UpDigLayer>
+	<SSR_PalMine_DigLayer>挖掘矿层</SSR_PalMine_DigLayer>
+	<SSR_PalMine_UpDigTunnel>挖掘矿道升级</SSR_PalMine_UpDigTunnel>
+	<SSR_PalMine_DigTunnel>挖掘矿道</SSR_PalMine_DigTunnel>
+	<SSR_PalMine_UpMineralExcavator>升级挖机</SSR_PalMine_UpMineralExcavator>
+	<SSR_WorkDispatch>工作派遣</SSR_WorkDispatch>
+	<SSR_InterruptWork>停止工作</SSR_InterruptWork>
+	<SSR_CancelUpgrade>取消升级</SSR_CancelUpgrade>
+	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
+	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
+	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
+	<SSR_PalMine_NextTunnelProgess>矿道 {0}-{1} 挖掘进度</SSR_PalMine_NextTunnelProgess>
+	<SSR_WorkFinished>{0} 已完成工作: {1} </SSR_WorkFinished>
 
 	<!-- 火星仓库 -->
+	<SSR_MarsStorage>仓储系统</SSR_MarsStorage>
 	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
+	<SSR_RemainingCapacity>剩余储存容量: {0} / {1}</SSR_RemainingCapacity>
 
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
@@ -171,4 +180,12 @@
 	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
 
 	<SSR_NextHarvest>距离下次收获: {0}</SSR_NextHarvest>
+
+	<SSR_NanoDup>纳米微械复材自增殖</SSR_NanoDup>
+	<SSR_NanoDupDesc>指定一个物体，将其消耗变成等重纳米材料</SSR_NanoDupDesc>
+	<SSR_NanoExceedLimit>达到增殖质量上限</SSR_NanoExceedLimit>
+	<SSR_TargetReject>无法指定 {0}</SSR_TargetReject>
+
+	<SSR_WorkEfficiency>工作效率</SSR_WorkEfficiency>
+
 </LanguageData>

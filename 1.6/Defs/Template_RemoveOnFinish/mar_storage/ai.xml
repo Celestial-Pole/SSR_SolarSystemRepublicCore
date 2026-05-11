@@ -12,13 +12,13 @@
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByMechs>false</canBeDoneByMechs>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
 	<JobDef>
 		<defName>SSR_Job_HaulToMars</defName>
 		<driverClass>FS_SSR.Storage.JobDriver_HaulMarsStore</driverClass>
-		<reportString>desc</reportString>
+		<reportString>向仓库搬运</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>

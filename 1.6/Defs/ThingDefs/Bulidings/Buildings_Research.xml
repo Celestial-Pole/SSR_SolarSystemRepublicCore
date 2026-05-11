@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_DataTerminal</defName>
 		<label>数据终端</label>
 		<description>数据终端是一种科研专用设备，通过共和国标准通讯协议接收来自公共科研数据库的信息。</description>
@@ -12,16 +12,11 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -46,9 +41,6 @@
 				<basePowerConsumption>1000</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
 					<ResearchSpeedFactor>0.6</ResearchSpeedFactor>
@@ -63,15 +55,9 @@
 		<researchPrerequisites>
 			<li>SSR_Research_BasicTech</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_QuantumComputingCluster</defName>
 		<label>量子计算机组</label>
 		<description>量子计算机组实现了更大规模的量子信息处理和存储。它们通过量子纠缠和量子通信技术协同工作，大幅提升计算能力和效率。</description>
@@ -82,16 +68,11 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -116,9 +97,6 @@
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>1</researchSpeedOffset>
@@ -133,15 +111,9 @@
 		<researchPrerequisites>
 			<li>SSR_Research_Supercomputer</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_PhotonicComputingCluster</defName>
 		<label>光子计算机组</label>
 		<description>光子计算机组实现了更强大的并行处理能力。它们利用光子的高速和低能耗特性，实现超快速的数据处理能力,通过分布式计算架构，增加了系统的可靠性和灵活性。</description>
@@ -152,16 +124,11 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -186,9 +153,6 @@
 				<basePowerConsumption>2000</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
 			<li Class="FS_SSR.Research.TCP_GroupedResearchComputer" />
 			<li Class="FS_SSR.Research.TCP_GlobalResearchSpeedOffset">
 				<researchSpeedOffset>3</researchSpeedOffset>
@@ -208,15 +172,9 @@
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedComputationalScience</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_DataProcessingHub</defName>
 		<label>数据处理中枢</label>
 		<description>数据处理中枢是专门设计用来汇总和整理计算机组处理过的数据的关键设施。它们确保复杂计算结果的高效管理和分析，为科学研究提供支持。</description>
@@ -243,10 +201,7 @@
 			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
 			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.3</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<statBases>
 			<WorkToBuild>18000</WorkToBuild>
 			<MaxHitPoints>700</MaxHitPoints>
@@ -260,12 +215,8 @@
 			<buildingSizeCategory>Medium</buildingSizeCategory>
 			<paintable>false</paintable>
 		</building>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<passability>PassThroughOnly</passability>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<pathCost>50</pathCost>
 		<!-- <hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
 		<surfaceType>Item</surfaceType>
@@ -278,9 +229,6 @@
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>1500</basePowerConsumption>
-			</li>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_FacilityAutoResearch">
 				<researchSpeed>1</researchSpeed>
@@ -312,15 +260,9 @@
 		<researchPrerequisites>
 			<li>SSR_Research_StandardizedArtificialIntelligence</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_LHC</defName>
 		<label>强子对撞机</label>
 		<description>强子对撞机是一种高能物理实验设备，用于加速并使原子核中的粒子相互碰撞，以推进对基本粒子和力的理解。</description>
@@ -332,16 +274,12 @@
 		<uiIconScale>0.85</uiIconScale>
 		<size>(9,9)</size>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<tickerType>Normal</tickerType>
 		<fillPercent>1</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<statBases>
 			<MaxHitPoints>10000</MaxHitPoints>
 			<WorkToBuild>150000</WorkToBuild>
@@ -389,15 +327,9 @@
 		<researchPrerequisites>
 			<li>SSR_Research_LHC</li>
 		</researchPrerequisites>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="SSR_BuildingBase_Research">
 		<defName>SSR_Building_ParticleCollectionDevice</defName>
 		<label>粒子收集装置</label>
 		<description>粒子收集装置。</description>
@@ -408,17 +340,12 @@
 		</graphicData>
 		<size>(3,1)</size>
 		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Rare</tickerType>
-		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -447,9 +374,6 @@
 					<ResearchSpeedFactor>1</ResearchSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
-			</li>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
 				<requiredLinkBuilding>SSR_Building_LHC</requiredLinkBuilding>
@@ -488,10 +412,6 @@
 				<thingDef>SSR_Building_LHC</thingDef>
 				<failReason>连接建立失败</failReason>
 				<!--填如果不满足条件时左上的提示。这里填的翻译遵照别的def的翻译格式。默认是SSR_PlaceAdjacentFailReason，默认需要用keyed翻译。-->
-			</li>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Research</innerCategory>
 			</li>
 		</modExtensions>
 	</ThingDef>
