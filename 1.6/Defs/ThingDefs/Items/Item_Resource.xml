@@ -22,6 +22,21 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="ChunkBase" Name="SSR_ChunkRockBase" Abstract="True">
+		<thingCategories>
+			<li>SSR_Material</li>
+		</thingCategories>
+		<statBases>
+			<Beauty>0</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>0</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 	<ThingDef ParentName="SSR_ResourceBase">
 		<defName>SSR_Item_Sand</defName>
 		<label>沙子</label>
@@ -87,6 +102,22 @@
 			<Mass>3</Mass>
 			<Flammability>1</Flammability>
 		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_ChunkRockBase">
+		<defName>SSR_Item_GeneralStone</defName>
+		<label>粗石料</label>
+		<description>粗石料</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/GeneralStone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>20</Mass>
+		</statBases>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 
 </Defs>
