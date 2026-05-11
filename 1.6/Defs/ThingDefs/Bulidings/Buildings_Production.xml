@@ -265,22 +265,22 @@
             <li>SSR_Recipe_TenGeneralStone</li>
             <li>SSR_Recipe_HundredGeneralStone</li>
 			<li>SSR_Recipe_ChunkSandstone</li>
-            <li>SSR_Recipe_ChunkGranite</li>
-            <li>SSR_Recipe_ChunkLimestone</li>
-			<li>SSR_Recipe_ChunkSlate</li>
-            <li>SSR_Recipe_ChunkMarble</li>
-            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
 			<li>SSR_Recipe_TenChunkSandstone</li>
-            <li>SSR_Recipe_TenChunkGranite</li>
-            <li>SSR_Recipe_TenChunkLimestone</li>
-			<li>SSR_Recipe_TenChunkSlate</li>
-            <li>SSR_Recipe_TenChunkMarble</li>
-            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
 			<li>SSR_Recipe_HundredChunkSandstone</li>
-            <li>SSR_Recipe_HundredChunkGranite</li>
-            <li>SSR_Recipe_HundredChunkLimestone</li>
+            <li>SSR_Recipe_ChunkGranite</li>
+			<li>SSR_Recipe_TenChunkGranite</li>
+			<li>SSR_Recipe_HundredChunkGranite</li>
+            <li>SSR_Recipe_ChunkLimestone</li>
+			<li>SSR_Recipe_TenChunkLimestone</li>
+			<li>SSR_Recipe_HundredChunkLimestone</li>
+			<li>SSR_Recipe_ChunkSlate</li>
+			<li>SSR_Recipe_TenChunkSlate</li>
 			<li>SSR_Recipe_HundredChunkSlate</li>
-            <li>SSR_Recipe_HundredChunkMarble</li>
+            <li>SSR_Recipe_ChunkMarble</li>
+			<li>SSR_Recipe_TenChunkMarble</li>
+			<li>SSR_Recipe_HundredChunkMarble</li>
+            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
+            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
             <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_HundredChunkVacstone</li-->
 			<li>SSR_Recipe_GarbageBlock</li>
 			<li>SSR_Recipe_TenGarbageBlock</li>
@@ -3043,11 +3043,11 @@
 			</li>
 		</manualMineralProperties>
 		<autoTransferLimit>
-			<li>(1,500)</li>
-			<li>(2,500)</li>
-			<li>(3,500)</li>
-			<li>(4,500)</li>
-			<li>(5,500)</li>
+			<li>(1,2000)</li>
+			<li>(2,2000)</li>
+			<li>(3,2000)</li>
+			<li>(4,2000)</li>
+			<li>(5,2000)</li>
 		</autoTransferLimit>
 	</ThingDef>
 
