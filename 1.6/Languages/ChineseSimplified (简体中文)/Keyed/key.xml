@@ -37,8 +37,10 @@
 	<SSR_副桶>副桶</SSR_副桶>
 	<SSR_弹出内容物>弹出内容物</SSR_弹出内容物>
 	<SSR_副桶弹出内容物>副桶弹出内容物</SSR_副桶弹出内容物>
-	<SSR_升级建筑Desc>升级建筑</SSR_升级建筑Desc>
-	<SSR_升级建筑>升级建筑</SSR_升级建筑>
+	<SSR_UpBuilding>升级建筑</SSR_UpBuilding>
+	<SSR_UpBuildingDesc>升级建筑</SSR_UpBuildingDesc>
+	<SSR_CancelUpBuilding>取消升级</SSR_CancelUpBuilding>
+	<SSR_CancelUpBuildingDesc>取消升级</SSR_CancelUpBuildingDesc>
 	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>

@@ -155,27 +155,27 @@
 	<ThingDef ParentName="SSR_BuildingBase_Production" Name="SSR_BuildingBase_AutoBenchUpgradable" Abstract="True">
 		<thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
 		<tickerType>Normal</tickerType>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<modExtensions>
-			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
-		</modExtensions>
-		<comps>
-			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
-			<li Class="CompProperties_Flickable"/>
-		</comps>
-		<placeWorkers>
-			<li>FS_SSR.UI.PW_FrameLevel</li>
-			<!-- 可以升级的建筑必须多带这个place worker -->
-		</placeWorkers>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<placeWorkers>
+			<li>FS_SSR.UI.PW_FrameLevel</li>
+			<!-- 可以升级的建筑必须多带这个place worker -->
+		</placeWorkers>
+		<comps>
+			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
+		</modExtensions>
 	</ThingDef>
 
 </Defs>
