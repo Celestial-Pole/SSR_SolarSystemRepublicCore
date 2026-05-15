@@ -189,5 +189,9 @@
 	<SSR_TargetReject>无法指定 {0}</SSR_TargetReject>
 
 	<SSR_WorkEfficiency>工作效率</SSR_WorkEfficiency>
+	<SSR_ToggleCommandSwitch>打开/关闭{0}</SSR_ToggleCommandSwitch>
+
+	<SSR_SwitchHadronCollision>开始/停止粒子对撞</SSR_SwitchHadronCollision>
+	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
 
 </LanguageData>

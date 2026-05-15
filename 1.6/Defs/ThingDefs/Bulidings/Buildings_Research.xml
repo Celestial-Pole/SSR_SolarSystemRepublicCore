@@ -311,6 +311,8 @@
 			</li>
 			<li Class="FS_SSR.Research.TCP_AutoSwitchPowerTrader">
 				<standbyPower>1</standbyPower>
+				<switchLabel>SSR_SwitchHadronCollision</switchLabel>
+				<switchDesc>SSR_SwitchHadronCollisionDesc</switchDesc>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
