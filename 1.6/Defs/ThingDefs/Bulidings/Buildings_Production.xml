@@ -2409,12 +2409,12 @@
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<interval>1</interval>
-				<intervalUnit>day</intervalUnit>
+				<intervalUnit>hour</intervalUnit>
 				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
-						<amount>375</amount>
+						<amount>20</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
@@ -2502,12 +2502,12 @@
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
 				<interval>1</interval>
-				<intervalUnit>day</intervalUnit>
+				<intervalUnit>hour</intervalUnit>
 				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
-						<amount>375</amount>
+						<amount>20</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
