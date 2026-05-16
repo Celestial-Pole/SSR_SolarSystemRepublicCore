@@ -104,6 +104,7 @@
 	<DrillProgress>开采进度: {2}%</DrillProgress>
 
 	<!-- 标准化垂直矿井 -->
+	<SSR_PalMine>矿井</SSR_PalMine>
 	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
 	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
