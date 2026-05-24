@@ -195,4 +195,6 @@
 	<SSR_SwitchHadronCollision>开始/停止粒子对撞</SSR_SwitchHadronCollision>
 	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
 
+	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
+
 </LanguageData>

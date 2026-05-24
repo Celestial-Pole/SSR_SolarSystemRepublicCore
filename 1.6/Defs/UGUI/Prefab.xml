@@ -52,6 +52,15 @@
 		<modelName>MineUIStorage</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PowerPlantFuel</defName>
+		<label>thermal power plant</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>powerplantui</assetBundle>
+		<modelName>PowerPlantFuelUI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PowerPlantFuel</UIClass>
+	</AK_DLL.UIPrefabDef>
 	<!---->
 
 	<AK_DLL.UIPrefabDef>
@@ -69,6 +78,6 @@
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
 		<modelName>New Mars Storehouse UI</modelName>
-		<UIClass>FS_SSR.Storage.UI.SSRWindow_MarsStorage</UIClass>
+		<UIClass>FS_SSR.UI.SSRWindow_MarsStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
 </Defs>
