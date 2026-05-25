@@ -49,7 +49,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_LightingRod</defName>
 		<label>避雷针</label>
-		<description>避雷针。</description>
+		<description>避雷针能够吸引劈下的闪电，保护人员与其他建筑免于雷击的伤害。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Never</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -116,7 +116,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MediumSmalBattery</defName>
 		<label>中级小型电池</label>
-		<description>中级小型电池。</description>
+		<description>中级小型电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -192,7 +192,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MiddleBattery</defName>
 		<label>中级电池</label>
-		<description>中级电池。</description>
+		<description>中级电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -294,7 +294,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MiddleBigBattery</defName>
 		<label>中级大型电池</label>
-		<description>中级大型电池。</description>
+		<description>中级大型电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -371,7 +371,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedSmallBattery</defName>
 		<label>高级小型电池</label>
-		<description>高级小型电池。</description>
+		<description>高级小型电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -447,7 +447,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedBattery</defName>
 		<label>高级电池</label>
-		<description>高级电池。</description>
+		<description>高级电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -549,7 +549,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedBigBattery</defName>
 		<label>高级大型电池</label>
-		<description>高级大型电池。</description>
+		<description>高级大型电池可储存多余的电力并在电力供给不足时释放电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
