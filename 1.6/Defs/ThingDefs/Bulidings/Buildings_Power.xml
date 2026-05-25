@@ -813,13 +813,13 @@
 						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
 						<pollution>4</pollution>						<!--这种燃料多少污染-->
 					</li>
-					<li>
+					<!--<li>
 						<group>Corpse</group>
 						<label>FoodTypeFlags_Corpse</label>
 						<texPath>Things/Item/Skull/Skull_a</texPath>
 						<fuelValue>1</fuelValue>
 						<pollution>0</pollution>
-					</li>
+					</li>-->
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
