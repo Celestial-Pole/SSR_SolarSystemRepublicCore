@@ -2678,7 +2678,7 @@
 		</graphicData>
 		<alterGraphic>
 			<li>
-				<key>1</key>
+				<key>2</key>
 				<value>
 					<texPath>Things/Building/Production/Mine/T2Mine</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -2686,7 +2686,7 @@
 				</value>
 			</li>
 			<li>
-				<key>2</key>
+				<key>3</key>
 				<value>
 					<texPath>Things/Building/Production/Mine/T3Mine</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -2748,6 +2748,7 @@
 					<li>SSR_Animate_Prefab_Windows</li>
 				</assetDefs>
 				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT2.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT3.prefab</li>
