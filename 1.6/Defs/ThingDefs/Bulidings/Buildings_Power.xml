@@ -818,7 +818,7 @@
 						<category>CorpsesHumanlike</category>
 						<label>FoodTypeFlags_Corpse</label>
 						<texPath>Things/Item/Skull/Skull_a</texPath>
-						<fuelValue>1</fuelValue>
+						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
 					</li>
 					<li>
@@ -826,7 +826,7 @@
 						<category>CorpsesAnimal</category>
 						<label>FoodTypeFlags_Corpse</label>
 						<texPath>Things/Item/Skull/Skull_a</texPath>
-						<fuelValue>1</fuelValue>
+						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
 					</li>
 				</fuel>
