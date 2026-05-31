@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1076178861
+CRC: 2942251788
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8cdb06390cc361c45fb3fe85491f6802
+    Hash: 23df6e46fde1d8019307aeaf8c4b7208
   TypeTreeHash:
     serializedVersion: 2
     Hash: 68250b473803ae4188c848abca49b533
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 8cdb06390cc361c45fb3fe85491f6802
+    Hash: 23df6e46fde1d8019307aeaf8c4b7208
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -122,10 +122,11 @@ Assets:
 - Assets/SSR/Material/MinerT2/Foundation.mat
 - Assets/SSR/Material/MinerT2/WireFrame.mat
 - Assets/SSR/Animate/LandDigger/EndWorking.anim
-- Assets/SSR/Texture/MinerT2/DoorParts/Door5.png
+- Assets/SSR/Animate/ThermalPower/Idel.anim
 - Assets/SSR/Texture/ThermalPower/Fans.png
 - Assets/SSR/Material/MinerT1/DoorParts/Door0.mat
 - Assets/SSR/Texture/WaterDigger/South/UpBuilding.png
+- Assets/SSR/Texture/MinerT2/DoorParts/Door5.png
 - Assets/SSR/Animate/LandDigger/LandDigger.controller
 - Assets/SSR/Texture/ThermalPower/Foundation.png
 - Assets/SSR/Material/MinerT1/LifterPartC.mat
@@ -178,6 +179,7 @@ Assets:
 - Assets/SSR/Texture/MinerT1/DoorParts/Door6.png
 - Assets/SSR/Texture/LandDigger/West/Fundation.png
 - Assets/SSR/Texture/MinerT2/DoorParts/Door6.png
+- Assets/SSR/Material/ThermalPower/Smoke.mat
 - Assets/SSR/Material/WindTurbineT2/Pole.mat
 - Assets/SSR/Texture/RocketMK1/LunchPad.png
 - Assets/SSR/Material/MinerT2/LifterPartA.mat
