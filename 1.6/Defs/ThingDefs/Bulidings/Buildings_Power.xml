@@ -882,6 +882,7 @@
 				</levels>
 			</li>
 			<li Class="FS_SSR.TCP_SinglePrefabDrawer">
+				<compClass>FS_SSR.TC_PrefabDrawerControlByGlower</compClass>
 				<shaderForTestAssetBundle>Assets/SSR/Add.shader</shaderForTestAssetBundle>
 				<assetDefs>
 					<li>SSR_Animate_Prefab_Linux</li>
