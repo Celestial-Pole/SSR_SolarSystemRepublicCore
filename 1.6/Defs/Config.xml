@@ -38,8 +38,8 @@
 						<!--li>Plants</li>
 						<li>Buildings</li-->
 					</disallowedCategories>
-					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
-						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+					<disallowedThingDefs>
+						<!--li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li-->
 					</disallowedThingDefs>
 					<specialFiltersToDisallow>
 						<li>AllowLargeCorpses</li>
