@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
@@ -54,8 +54,7 @@
 						<key>1</key>
 						<value>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
+								<texPath>Things/Building/Production/RemoteAccessTerminal/T3RemoteAccessTerminal</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>1</drawSize>
 							</graphicData>
@@ -139,8 +138,7 @@
 						<key>1</key>
 						<value>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/CentralStorageUnit/T2CentralStorageUnit</texPath>
+								<texPath>Things/Building/Production/CentralStorageUnit/T2CentralStorageUnit</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>3</drawSize>
 							</graphicData>
@@ -175,8 +173,7 @@
 						<key>2</key>
 						<value>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/CentralStorageUnit/T3CentralStorageUnit</texPath>
+								<texPath>Things/Building/Production/CentralStorageUnit/T3CentralStorageUnit</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>3</drawSize>
 							</graphicData>
@@ -282,12 +279,9 @@
 			<li>SSR_Recipe_ChunkMarble</li>
 			<li>SSR_Recipe_TenChunkMarble</li>
 			<li>SSR_Recipe_HundredChunkMarble</li>
-			<!--li
-			MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
-			<!--li
-			MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
-			<!--li
-			MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_HundredChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_HundredChunkVacstone</li-->
 			<li>SSR_Recipe_GarbageBlock</li>
 			<li>SSR_Recipe_TenGarbageBlock</li>
 			<li>SSR_Recipe_HundredGarbageBlock</li>
@@ -333,8 +327,7 @@
 			<li>SSR_Recipe_NuclearFissionFuelRod</li>
 			<li>SSR_Recipe_FiveNuclearFissionFuelRod</li>
 			<li>SSR_Recipe_TenNuclearFissionFuelRod</li>
-			<!--tech
-			level 2-->
+			<!--tech level 2-->
 			<li>SSR_Recipe_Carbyne</li>
 			<li>SSR_Recipe_TenCarbyne</li>
 			<li>SSR_Recipe_HundredCarbyne</li>
@@ -347,8 +340,7 @@
 			<li>SSR_Recipe_HighenergyLaserEmitter</li>
 			<li>SSR_Recipe_FiveHighenergyLaserEmitter</li>
 			<li>SSR_Recipe_TenHighenergyLaserEmitter</li>
-			<!--tech
-			level 3-->
+			<!--tech level 3-->
 			<li>SSR_Recipe_FermiMaterial</li>
 			<li>SSR_Recipe_TenFermiMaterial</li>
 			<li>SSR_Recipe_HundredFermiMaterial</li>
@@ -360,8 +352,7 @@
 			<li>SSR_Recipe_TenHighenergyParticleConfinementDevice</li>
 		</recipes>
 		<comps>
-			<!--<li
-			Class="CompProperties_Power">
+			<!--<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>700</basePowerConsumption>
@@ -418,8 +409,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -456,8 +446,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
+								<texPath>Things/Building/Production/MaterialSynthesizer/T2MaterialSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -512,8 +501,7 @@
 		<label>数控加工中心</label>
 		<description>数控加工中心是一种高度自动化的机床，能够通过计算机程序乃至人工智能控制进行复杂的金属加工。</description>
 		<graphicData>
-			<texPath>
-				Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
+			<texPath>Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 			<damageData>
@@ -617,8 +605,7 @@
 			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetCataphract</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphract</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphractPhoenix</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">
-				SSR_Recipe_Apparel_ArmorHelmetCataphractPrestige</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorHelmetCataphractPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_ArmorCataphractPrestige</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">SSR_Recipe_Apparel_Gunlink</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly">SSR_Recipe_Apparel_CultistMask</li>
@@ -770,8 +757,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
+								<texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -804,8 +790,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
+								<texPath>Things/Building/Production/NumericalControlledMachineTool/T2NumericalControlledMachineTool</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -841,8 +826,7 @@
 		<label>集成化芯片制造机</label>
 		<description>集成化芯片制造机是一种高科技设备，用于生产复杂的芯片。它通过精密的光刻、蚀刻和掺杂工艺，实现微米甚至纳米级别的芯片制造。</description>
 		<graphicData>
-			<texPath>
-				Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
+			<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 			<damageData>
@@ -875,16 +859,14 @@
 			<li>SSR_Recipe_QuantumComputingCore</li>
 			<li>SSR_Recipe_FiveQuantumComputingCore</li>
 			<li>SSR_Recipe_TenQuantumComputingCore</li>
-			<!--tech
-			level 2-->
+			<!--tech level 2-->
 			<li>SSR_Recipe_ArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_FiveArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_TenArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_IntegratedQuantumComputingFramework</li>
 			<li>SSR_Recipe_FiveIntegratedQuantumComputingFramework</li>
 			<li>SSR_Recipe_TenIntegratedQuantumComputingFramework</li>
-			<!--tech
-			level 3-->
+			<!--tech level 3-->
 			<li>SSR_Recipe_AdvancedArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_FiveAdvancedArtificialIntelligenceChip</li>
 			<li>SSR_Recipe_TenAdvancedArtificialIntelligenceChip</li>
@@ -939,8 +921,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -973,8 +954,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
+								<texPath>Things/Building/Production/IntegratedChipManufacturingMachine/T2IntegratedChipManufacturingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1103,8 +1083,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1137,8 +1116,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSlaughterMachine/T2AutomaticSlaughterMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1295,8 +1273,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1329,8 +1306,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticSewingMachine/T2AutomaticSewingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1459,8 +1435,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1493,8 +1468,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
+								<texPath>Things/Building/Production/AutomaticCookingMachine/T2AutomaticCookingMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1622,8 +1596,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1656,8 +1629,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
+								<texPath>Things/Building/Production/VacuumInductionFurnace/T2VacuumInductionFurnace</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1682,8 +1654,7 @@
 		<label>多功能化学合成仪</label>
 		<description>多功能化学合成仪是一种先进的化学加工设备，能够自动执行多种化学合成和反应过程。它通过精密控制反应条件，提高合成效率和产物纯度。</description>
 		<graphicData>
-			<texPath>
-				Things/Building/Production/MultifunctionalChemicalSynthesizer/MultifunctionalChemicalSynthesizer</texPath>
+			<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/MultifunctionalChemicalSynthesizer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 			<damageData>
@@ -1781,8 +1752,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
+								<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1815,8 +1785,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
+								<texPath>Things/Building/Production/MultifunctionalChemicalSynthesizer/T2MultifunctionalChemicalSynthesizer</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -1981,8 +1950,7 @@
 							<workAmt>200</workAmt>
 							<requirePawnWork>true</requirePawnWork>
 							<graphicData>
-								<texPath>
-									Things/Building/Production/CoalLiquefactionMachine/T2CoalLiquefactionMachine</texPath>
+								<texPath>Things/Building/Production/CoalLiquefactionMachine/T2CoalLiquefactionMachine</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<drawSize>(3,2)</drawSize>
 							</graphicData>
@@ -2051,8 +2019,7 @@
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
-			<!--<li
-			Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->
+			<!--<li Class="FS_SSR.Generic.TCP_ThingContainerManager" />-->
 			<!--单建筑多内容栏时需要-->
 			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
@@ -2085,8 +2052,7 @@
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>
-				Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 			<damageData>
@@ -2165,8 +2131,7 @@
 		<thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>
-				Things/Building/Production/NuclearFusionFuelExtractionStation/NuclearFusionFuelExtractionStationGE</texPath>
+			<texPath>Things/Building/Production/NuclearFusionFuelExtractionStation/NuclearFusionFuelExtractionStationGE</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
@@ -2245,8 +2210,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!--<ThingDef
-	ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<defName>SSR_FMIAExtractStationW</defName>
 		<label>聚变材料提取站（水力）</label>
 		<description>聚变材料提取站（水力）</description>
@@ -2574,8 +2538,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--ThingDef
-	ParentName="SSR_BuildingBase_Production">
+	<!--ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_TeleportationBeacon</defName>
 		<label>传送信标</label>
 		<description>传送信标是一种高科技设备，能够将原材料传送给有需求的自动工作台。</description>
@@ -2770,8 +2733,7 @@
 				<basePowerConsumption>5000</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_UniqueMarker" />
-			<!--li
-			Class="FS_SSR.Generic.TCP_Limited">
+			<!--li Class="FS_SSR.Generic.TCP_Limited">
 				<unique>true</unique>
 			</li-->
 			<li Class="FS_SSR.Generic.TCP_ICMR" />
