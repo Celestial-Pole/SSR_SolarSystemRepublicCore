@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 672473030
+CRC: 3381012231
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e64c1790894f955649b0020c8a416ebe
+    Hash: 01cf8d621ace897703503348944f467c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7af69d20a612469d549e41c9b60b4aa3
+    Hash: 355b7722a3d5337701808217559a7d25
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e64c1790894f955649b0020c8a416ebe
+    Hash: 01cf8d621ace897703503348944f467c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,11 +29,23 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 7b1eba142633647488fb9f1f2bdd099e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98cc5d0699a547be91d192d50e9205e9, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: fe0b46d099041bc4d929c4e9efeb2221, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
@@ -45,13 +57,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0dee2639e0d630f47a9052ba1485367e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0dee2639e0d630f47a9052ba1485367e, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 98cc5d0699a547be91d192d50e9205e9, type: 3}
+  Script: {fileID: 11500000, guid: ab16ac25de5e4e72bb892ae7f4adb30b, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -84,6 +96,16 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/OnChangeEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SubmitEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TextSelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TouchScreenKeyboardEvent
+- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
@@ -112,7 +134,10 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Scrollbar/ScrollEvent
 - AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Prefabs/PowerPlantFuel/PowerPlantFuelUI.prefab
+- Assets/Prefabs/PowerTransfer/PowerTransferDialog.prefab
 Dependencies: []
