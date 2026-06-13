@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Def Class="FS_SSR.UI.DesignationCategoryInnerDef">
+		<defName>SSR_DesignationInnerCategory_Satellite</defName>
+		<label>卫星</label>
+		<description>卫星</description>
+		<sortOrder>6</sortOrder>
+		<iconPath>UI/DesignationInnerCategory/Satellite</iconPath>
+	</Def>
+
+</Defs>

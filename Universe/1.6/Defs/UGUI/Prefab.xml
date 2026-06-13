@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_SatelliteConsole</defName>
+		<label>satellite console</label>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>Satellite UI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_SatelliteConsole</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+</Defs>

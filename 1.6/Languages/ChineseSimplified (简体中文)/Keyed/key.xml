@@ -24,6 +24,13 @@
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
+
+	<SSR_EjectBill>中断当前配方</SSR_EjectBill>
+	<SSR_AutoWorkbench_ToggleStorage>开关仓储对接</SSR_AutoWorkbench_ToggleStorage>
+	<SSR_AutoWorkbench_ToggleStorageDesc>当地图上存在仓储建筑时，是否将产物自动送入仓储</SSR_AutoWorkbench_ToggleStorageDesc>
+	<SSR_AutoWorkbench_WaitingForBill>等待可行配方……</SSR_AutoWorkbench_WaitingForBill>
+	<SSR_AutoWorkbench_WaitingForIngredient>等待材料：{0} × {1}</SSR_AutoWorkbench_WaitingForIngredient>
+
 	<SSR_目标品质>目标品质：</SSR_目标品质>
 	<SSR_切换至>切换至：</SSR_切换至>
 	<SSR_没有配方>没有配方：</SSR_没有配方>
@@ -46,41 +53,7 @@
 	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>
 	<SSR_DupMapBuilding>当前地图内重复的建筑</SSR_DupMapBuilding>
 	<SSR_显示消防花洒层>显示消防花洒层</SSR_显示消防花洒层>
-	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
-	<SSR_SatelliteFoundDeepMineDesc>卫星发现深矿井</SSR_SatelliteFoundDeepMineDesc>
-	<SSR_RocketSelected>已选择火箭：{0}</SSR_RocketSelected>
-	<SSR_SelectRocket>选择火箭：{0}</SSR_SelectRocket>
-	<SSR_DelSatellite>删除卫星</SSR_DelSatellite>
-	<SSR_SelectSatellite>选择卫星：{0}</SSR_SelectSatellite>
-	<SSR_Shuttle_LackElevator>缺少电梯</SSR_Shuttle_LackElevator>
-	<SSR_Shuttle_ReachMax>到达最大值</SSR_Shuttle_ReachMax>
-	<SSR_ShuttleActiveDesc>穿梭机到达</SSR_ShuttleActiveDesc>
-	<SSR_ShuttleActive>穿梭机到达</SSR_ShuttleActive>
-	<SSR_ShuttleActivedDesc>穿梭机：{0} 已到达</SSR_ShuttleActivedDesc>
-	<SSR_ShuttleActived>穿梭机：{0} 已到达</SSR_ShuttleActived>
-	<SSR_NoSpaceElevator>没有太空电梯</SSR_NoSpaceElevator>
-	<SSR_ShuttleBayFull>穿梭机舱已满</SSR_ShuttleBayFull>
-	<SSR_DisassembleRocketDesc>可拆卸火箭</SSR_DisassembleRocketDesc>
-	<SSR_LaunchRocketDesc>发射火箭</SSR_LaunchRocketDesc>
-	<SSR_DisassembleRocket>可拆卸火箭</SSR_DisassembleRocket>
-	<SSR_ChosenSate>选择的卫星：{0}</SSR_ChosenSate>
-	<SSR_EmptySateCell>空的卫星单元</SSR_EmptySateCell>
-	<SSR_EmptySateCellDesc>空的卫星单元</SSR_EmptySateCellDesc>
-	<SSR_NoSelectedRocketDesc>没有已选中的火箭</SSR_NoSelectedRocketDesc>
-	<SSR_NoSelectedRocket>没有已选中的火箭</SSR_NoSelectedRocket>
-	<SSR_LaunchRocket>发射火箭</SSR_LaunchRocket>
 	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
-	<SSR_RaidType>袭击类型：{0}</SSR_RaidType>
-	<SSR_OrbitalBomb_NoMap>轨道轰炸：没有地图</SSR_OrbitalBomb_NoMap>
-	<SSR_Recon_EmptyCell>侦查：空单元格</SSR_Recon_EmptyCell>
-	<SSR_Recon_HasMap>侦查：有地图</SSR_Recon_HasMap>
-	<SSR_BombCD>炸弹CD：{0}</SSR_BombCD>
-	<SSR_RaidPt>袭击PT：{0}</SSR_RaidPt>
-	<SSR_Hangar_Empty>机库空置</SSR_Hangar_Empty>
-	<SSR_Sate_GeoUnlock>地理解锁：{0}</SSR_Sate_GeoUnlock>
-	<SSR_Sate_WeatherUnlock_Regular>一般天气解锁：{0}</SSR_Sate_WeatherUnlock_Regular>
-	<SSR_Sate_ReconUnlock>侦查解锁：{0}</SSR_Sate_ReconUnlock>
-	<SSR_Sate_WeatherUnlock_Ex>额外天气解锁：{0}</SSR_Sate_WeatherUnlock_Ex>
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
 	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
@@ -159,9 +132,6 @@
 	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 
-	<!-- 卫星控制台 -->
-	<SSR_打开卫星UI>卫星控制台UI</SSR_打开卫星UI>
-	<SSR_打开卫星UIDesc>打开/关闭卫星控制台UI</SSR_打开卫星UIDesc>
 
 	<!-- 洗衣机 -->
 	<SSR_开关洗衣机>洗衣机开关</SSR_开关洗衣机>
