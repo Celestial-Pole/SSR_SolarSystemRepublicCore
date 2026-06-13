@@ -829,6 +829,14 @@
 						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
 					</li>
+					<!--li MayRequire="Ludeon.RimWorld.Anomaly">
+						<group>Corpse</group>
+						<category>CorpsesEntity</category>
+						<label>FoodTypeFlags_Corpse</label>
+						<texPath>Things/Item/Skull/Skull_a</texPath>
+						<fuelValue>2</fuelValue>
+						<pollution>0</pollution>
+					</li-->
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
@@ -890,6 +898,7 @@
 					<li>SSR_Animate_Prefab_Windows</li>
 				</assetDefs>
 				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/ThermalPower.prefab</li>
 					<li>Assets/SSR/Prefab/ThermalPower.prefab</li>
 				</leveledPrefabPaths>
 			</li>
