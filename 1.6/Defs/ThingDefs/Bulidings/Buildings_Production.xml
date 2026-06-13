@@ -261,27 +261,27 @@
 			<li>SSR_Recipe_Make_TenStoneBlocksSlate</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksMarble</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_TenStoneBlocksVacstone</li>
-            <li>SSR_Recipe_GeneralStone</li>
-            <li>SSR_Recipe_TenGeneralStone</li>
-            <li>SSR_Recipe_HundredGeneralStone</li>
+			<li>SSR_Recipe_GeneralStone</li>
+			<li>SSR_Recipe_TenGeneralStone</li>
+			<li>SSR_Recipe_HundredGeneralStone</li>
 			<li>SSR_Recipe_ChunkSandstone</li>
 			<li>SSR_Recipe_TenChunkSandstone</li>
 			<li>SSR_Recipe_HundredChunkSandstone</li>
-            <li>SSR_Recipe_ChunkGranite</li>
+			<li>SSR_Recipe_ChunkGranite</li>
 			<li>SSR_Recipe_TenChunkGranite</li>
 			<li>SSR_Recipe_HundredChunkGranite</li>
-            <li>SSR_Recipe_ChunkLimestone</li>
+			<li>SSR_Recipe_ChunkLimestone</li>
 			<li>SSR_Recipe_TenChunkLimestone</li>
 			<li>SSR_Recipe_HundredChunkLimestone</li>
 			<li>SSR_Recipe_ChunkSlate</li>
 			<li>SSR_Recipe_TenChunkSlate</li>
 			<li>SSR_Recipe_HundredChunkSlate</li>
-            <li>SSR_Recipe_ChunkMarble</li>
+			<li>SSR_Recipe_ChunkMarble</li>
 			<li>SSR_Recipe_TenChunkMarble</li>
 			<li>SSR_Recipe_HundredChunkMarble</li>
-            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
-            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
-            <!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_HundredChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_ChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_TenChunkVacstone</li-->
+			<!--li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_HundredChunkVacstone</li-->
 			<li>SSR_Recipe_GarbageBlock</li>
 			<li>SSR_Recipe_TenGarbageBlock</li>
 			<li>SSR_Recipe_HundredGarbageBlock</li>
@@ -1132,7 +1132,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
-			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower"/>
+			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
 		</modExtensions>
 	</ThingDef>
 
@@ -2015,7 +2015,7 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -2096,7 +2096,7 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -2178,7 +2178,7 @@
 				<sound>GeothermalPlant_Ambience</sound>
 				<disabledOnUnpowered>true</disabledOnUnpowered>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -2334,7 +2334,7 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>300</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
@@ -2401,18 +2401,20 @@
 			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
+				<interval>1</interval>
+				<intervalUnit>hour</intervalUnit>
 				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
-						<amount>375</amount>
+						<amount>20</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
@@ -2492,18 +2494,20 @@
 			<li>SSR_Research_BasicManufacturingTechnology</li>
 		</researchPrerequisites>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="FS_SSR.Production.TCP_AutoResourceCollector">
+				<interval>1</interval>
+				<intervalUnit>hour</intervalUnit>
 				<radius>(2,2)</radius>
 				<innateProducts>
 					<li>
 						<item>SSR_Item_Sand</item>
-						<amount>375</amount>
+						<amount>20</amount>
 					</li>
 				</innateProducts>
 				<validTerrainsList>
@@ -2639,8 +2643,8 @@
 			<Mass>35</Mass>
 		</statBases>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>200</basePowerConsumption>
@@ -2744,6 +2748,7 @@
 					<li>SSR_Animate_Prefab_Windows</li>
 				</assetDefs>
 				<leveledPrefabPaths>
+					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT1.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT2.prefab</li>
 					<li>Assets/SSR/Prefab/MinerT3.prefab</li>
@@ -3042,13 +3047,14 @@
 				<stockPerTunnel>10000000</stockPerTunnel>
 			</li>
 		</manualMineralProperties>
-		<autoTransferLimit>
+		<defaultTransferLimit>500</defaultTransferLimit>
+		<autoLayerTransferLimit>
 			<li>(1,2000)</li>
 			<li>(2,2000)</li>
 			<li>(3,2000)</li>
 			<li>(4,2000)</li>
 			<li>(5,2000)</li>
-		</autoTransferLimit>
+		</autoLayerTransferLimit>
 	</ThingDef>
 
 </Defs>

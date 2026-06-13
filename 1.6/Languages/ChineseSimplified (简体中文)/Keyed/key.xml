@@ -37,8 +37,10 @@
 	<SSR_副桶>副桶</SSR_副桶>
 	<SSR_弹出内容物>弹出内容物</SSR_弹出内容物>
 	<SSR_副桶弹出内容物>副桶弹出内容物</SSR_副桶弹出内容物>
-	<SSR_升级建筑Desc>升级建筑</SSR_升级建筑Desc>
-	<SSR_升级建筑>升级建筑</SSR_升级建筑>
+	<SSR_UpBuilding>升级建筑</SSR_UpBuilding>
+	<SSR_UpBuildingDesc>升级建筑</SSR_UpBuildingDesc>
+	<SSR_CancelUpBuilding>取消升级</SSR_CancelUpBuilding>
+	<SSR_CancelUpBuildingDesc>取消升级</SSR_CancelUpBuildingDesc>
 	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>
@@ -102,6 +104,7 @@
 	<DrillProgress>开采进度: {2}%</DrillProgress>
 
 	<!-- 标准化垂直矿井 -->
+	<SSR_PalMine>矿井</SSR_PalMine>
 	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
 	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
@@ -187,5 +190,11 @@
 	<SSR_TargetReject>无法指定 {0}</SSR_TargetReject>
 
 	<SSR_WorkEfficiency>工作效率</SSR_WorkEfficiency>
+	<SSR_ToggleCommandSwitch>打开/关闭{0}</SSR_ToggleCommandSwitch>
+
+	<SSR_SwitchHadronCollision>开始/停止粒子对撞</SSR_SwitchHadronCollision>
+	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
+
+	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
 
 </LanguageData>
