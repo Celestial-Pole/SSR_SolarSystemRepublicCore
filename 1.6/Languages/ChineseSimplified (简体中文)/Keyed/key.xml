@@ -26,7 +26,7 @@
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
 
 	<SSR_EjectBill>中断当前配方</SSR_EjectBill>
-	<SSR_AutoWorkbench_ToggleStorage>开关仓储对接</SSR_AutoWorkbench_ToggleStorage>
+	<SSR_AutoWorkbench_ToggleStorage>打开/关闭仓储对接</SSR_AutoWorkbench_ToggleStorage>
 	<SSR_AutoWorkbench_ToggleStorageDesc>当地图上存在仓储建筑时，是否将产物自动送入仓储</SSR_AutoWorkbench_ToggleStorageDesc>
 	<SSR_AutoWorkbench_WaitingForBill>等待可行配方……</SSR_AutoWorkbench_WaitingForBill>
 	<SSR_AutoWorkbench_WaitingForIngredient>等待材料：{0} × {1}</SSR_AutoWorkbench_WaitingForIngredient>
