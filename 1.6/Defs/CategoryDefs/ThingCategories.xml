@@ -30,11 +30,11 @@
 		<iconPath>UI/ThingCategories/Furniture</iconPath>
 	</ThingCategoryDef>
 
-	<ThingCategoryDef>
+	<!--ThingCategoryDef>
 		<defName>SSR_Satellite</defName>
 		<label>卫星</label>
 		<parent>SSR</parent>
 		<iconPath>UI/TempIcon</iconPath>
-	</ThingCategoryDef>
+	</ThingCategoryDef-->
 
 </Defs>

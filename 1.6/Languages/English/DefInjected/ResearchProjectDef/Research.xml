@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: 地球联邦家具 -->
@@ -181,15 +181,7 @@
   <!-- EN: 量子计算机的强大算力让原本无法破解的加密方式也向我们敞开了大门。 -->
   <SSR_Research_EncryptionSystemCracking.description>TODO</SSR_Research_EncryptionSystemCracking.description>
   
-  <!-- EN: 地质扫描卫星 -->
-  <SSR_Research_GeologicalScanSatellite.label>TODO</SSR_Research_GeologicalScanSatellite.label>
-  <!-- EN: 地质扫描卫星是一种专门用于探测和分析地表及地下结构的太空传感器，它们利用雷达、光学成像和光谱技术来识别地质特征和矿物分布。 -->
-  <SSR_Research_GeologicalScanSatellite.description>TODO</SSR_Research_GeologicalScanSatellite.description>
   
-  <!-- EN: 重型火箭建造技术 -->
-  <SSR_Research_HeavyRocketConstructionTechnology.label>TODO</SSR_Research_HeavyRocketConstructionTechnology.label>
-  <!-- EN: 重型火箭带来的载荷量提升为探索和利用宇宙提供了更多可能。 -->
-  <SSR_Research_HeavyRocketConstructionTechnology.description>TODO</SSR_Research_HeavyRocketConstructionTechnology.description>
   
   <!-- EN: 高密度电池 -->
   <SSR_Research_HighDensityBattery.label>TODO</SSR_Research_HighDensityBattery.label>
@@ -276,40 +268,20 @@
   <!-- EN: 通过人工智能的实时分析和调整，释放特定频率的电磁波来抵消形形色色不怀好意的心灵场，我们得以防御来自外界对个体心理和神经系统的直接攻击。 -->
   <SSR_Research_MentalProtectionTechnology.description>TODO</SSR_Research_MentalProtectionTechnology.description>
   
-  <!-- EN: 气象卫星 -->
-  <SSR_Research_MeteorologicalSatellite.label>TODO</SSR_Research_MeteorologicalSatellite.label>
-  <!-- EN: 气象卫星是专门用于监测地球大气层和表面条件的太空设备，这些卫星对天气预报、气候研究和灾害监测至关重要。 -->
-  <SSR_Research_MeteorologicalSatellite.description>TODO</SSR_Research_MeteorologicalSatellite.description>
   
   <!-- EN: 核能小型化 -->
   <SSR_Research_MiniaturizationOfNuclearPower.label>TODO</SSR_Research_MiniaturizationOfNuclearPower.label>
   <!-- EN: 使用惯性聚变原理的小型核聚变反应堆设计。 -->
   <SSR_Research_MiniaturizationOfNuclearPower.description>TODO</SSR_Research_MiniaturizationOfNuclearPower.description>
   
-  <!-- EN: 一箭多星技术 -->
-  <SSR_Research_Multi-SatelliteLaunch.label>TODO</SSR_Research_Multi-SatelliteLaunch.label>
-  <!-- EN: 一箭多星技术允许单次发射将多个卫星送入预定轨道，显著提高了航天发射的效率和经济性。 -->
-  <SSR_Research_Multi-SatelliteLaunch.description>TODO</SSR_Research_Multi-SatelliteLaunch.description>
   
   <!-- EN: 核物理 -->
   <SSR_Research_NuclearPhysics.label>TODO</SSR_Research_NuclearPhysics.label>
   <!-- EN: 原子核的结构和变化规律；粒子束的产生、探测和分析技术；以及与核能、核技术应用有关的物理理论。 -->
   <SSR_Research_NuclearPhysics.description>TODO</SSR_Research_NuclearPhysics.description>
   
-  <!-- EN: 轨道轰炸卫星 -->
-  <SSR_Research_OrbitalBombingSatellite.label>TODO</SSR_Research_OrbitalBombingSatellite.label>
-  <!-- EN: 轨道轰炸卫星是一种部署在近地轨道上的军事系统，这种卫星能够携带各类武器，以便对地面目标进行快速打击，具有全球打击能力。 -->
-  <SSR_Research_OrbitalBombingSatellite.description>TODO</SSR_Research_OrbitalBombingSatellite.description>
   
-  <!-- EN: 轨道防御平台 -->
-  <SSR_Research_OrbitDefensePlatform.label>TODO</SSR_Research_OrbitDefensePlatform.label>
-  <!-- EN: 轨道防御平台是一种太空防御设施，旨在保护星球免受来自太空的威胁。 -->
-  <SSR_Research_OrbitDefensePlatform.description>TODO</SSR_Research_OrbitDefensePlatform.description>
   
-  <!-- EN: 轨道粒子收集平台 -->
-  <SSR_Research_OrbitParticleCollectionPlatform.label>TODO</SSR_Research_OrbitParticleCollectionPlatform.label>
-  <!-- EN: 轨道粒子收集平台被设计用于在星球轨道上捕获来自深空的各类粒子。 -->
-  <SSR_Research_OrbitParticleCollectionPlatform.description>TODO</SSR_Research_OrbitParticleCollectionPlatform.description>
   
   <!-- EN: 粒子储存技术 -->
   <SSR_Research_ParticleConfinementTechnology.label>TODO</SSR_Research_ParticleConfinementTechnology.label>
@@ -326,35 +298,15 @@
   <!-- EN: 光学理论及精密光学仪器的设计知识。 -->
   <SSR_Research_PrecisionOptics.description>TODO</SSR_Research_PrecisionOptics.description>
   
-  <!-- EN: 可重复使用火箭技术 -->
-  <SSR_Research_ReusableRocketTechnology.label>TODO</SSR_Research_ReusableRocketTechnology.label>
-  <!-- EN: 低廉的单位载荷成本拓宽了利用宇宙的道路。 -->
-  <SSR_Research_ReusableRocketTechnology.description>TODO</SSR_Research_ReusableRocketTechnology.description>
   
   <!-- EN: 室温超导 -->
   <SSR_Research_RoomTemperatureSuperconductivity.label>TODO</SSR_Research_RoomTemperatureSuperconductivity.label>
   <!-- EN: 室温超导材料及其商业化应用技术。 -->
   <SSR_Research_RoomTemperatureSuperconductivity.description>TODO</SSR_Research_RoomTemperatureSuperconductivity.description>
   
-  <!-- EN: 侦察卫星 -->
-  <SSR_Research_ScoutingSatellite.label>TODO</SSR_Research_ScoutingSatellite.label>
-  <!-- EN: 侦查卫星是专门设计用于从近地轨道收集地面情报的航天器。它们装备有高分辨率相机和其他传感器，能够提供军事和地理空间信息。 -->
-  <SSR_Research_ScoutingSatellite.description>TODO</SSR_Research_ScoutingSatellite.description>
   
-  <!-- EN: 穿梭机机库 -->
-  <SSR_Research_ShuttleHangar.label>TODO</SSR_Research_ShuttleHangar.label>
-  <!-- EN: 穿梭机机库是专为穿梭机设计的太空基础设施，用于在轨维护、补给和停靠。这种机库具备微重力环境下的操作能力，能够支持穿梭机的重复往返任务。 -->
-  <SSR_Research_ShuttleHangar.description>TODO</SSR_Research_ShuttleHangar.description>
   
-  <!-- EN: 太阳能发电卫星 -->
-  <SSR_Research_SolarPowerSatellite.label>TODO</SSR_Research_SolarPowerSatellite.label>
-  <!-- EN: 利用太阳能发电卫星发电并将其通过无线输电将电力传输至地面站的全套技术。 -->
-  <SSR_Research_SolarPowerSatellite.description>TODO</SSR_Research_SolarPowerSatellite.description>
   
-  <!-- EN: 太空电梯 -->
-  <SSR_Research_SpaceElevator.label>TODO</SSR_Research_SpaceElevator.label>
-  <!-- EN: 太空电梯是让物资和人员可以直接从地球表面进入太空的运输系统，这种建筑可以大幅降低太空旅行的成本。 -->
-  <SSR_Research_SpaceElevator.description>TODO</SSR_Research_SpaceElevator.description>
   
   <!-- EN: 规范化人工智能 -->
   <SSR_Research_StandardizedArtificialIntelligence.label>TODO</SSR_Research_StandardizedArtificialIntelligence.label>
