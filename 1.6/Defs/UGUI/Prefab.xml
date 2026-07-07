@@ -22,9 +22,17 @@
 	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
 		<defName>SSR_Prefab_MusicPlayer</defName>
 		<label>music player</label>
-		<assetBundle>musicplayerui</assetBundle>
+		<assetBundle>musicplayerui_win</assetBundle>
 		<modelName>MusicPlayer (IMGUI)</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_MusicPlayer</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MainMenuBG</defName>
+		<label>main menu background</label>
+		<assetBundle>mainmenubg_win</assetBundle>
+		<modelName>MainMenuBG (IMGUI)</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MainMenuBG</UIClass>
 	</AK_DLL.UIPrefabDef>
 
 	<!-- 矿井 -->
