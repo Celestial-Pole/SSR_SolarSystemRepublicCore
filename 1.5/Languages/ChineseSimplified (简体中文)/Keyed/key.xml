@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<SSR_开关生物编码洗衣机desc>打开/关闭生物编码破解功能</SSR_开关生物编码洗衣机desc>
-	<SSR_开关生物编码洗衣机副桶desc>打开/关闭装备维修功能</SSR_开关生物编码洗衣机副桶desc>
-	<SSR_开关生物编码洗衣机>生物编码破解功能开关</SSR_开关生物编码洗衣机>
-	<SSR_开关生物编码洗衣机副桶>装备维修功能开关</SSR_开关生物编码洗衣机副桶>
-	<SSR_副桶清洁中>装备维修中</SSR_副桶清洁中>
-	<SSR_副桶待机中>维修作业待机中</SSR_副桶待机中>
-	<SSR_此建筑不可和屋顶挂载灭火器放在同一格>此建筑不可和屋顶挂载灭火器放在同一格</SSR_此建筑不可和屋顶挂载灭火器放在同一格>
-	<SSR_灭火器必须挂载于屋顶下>灭火器必须挂载于屋顶下</SSR_灭火器必须挂载于屋顶下>
-	<SSR_灭火器必须建在可通行的区域>灭火器必须建在可通行的区域</SSR_灭火器必须建在可通行的区域>
-	<SSR_此建筑必须和屋顶挂载灭火器放在同一格>此建筑必须和屋顶挂载灭火器放在同一格</SSR_此建筑必须和屋顶挂载灭火器放在同一格>
+	<SSR_Laundry_ToggleBiocodeDesc>打开/关闭生物编码破解功能</SSR_Laundry_ToggleBiocodeDesc>
+	<SSR_Laundry_ToggleRepairDesc>打开/关闭装备维修功能</SSR_Laundry_ToggleRepairDesc>
+	<SSR_Laundry_ToggleBiocode>生物编码破解功能开关</SSR_Laundry_ToggleBiocode>
+	<SSR_Laundry_ToggleRepair>装备维修功能开关</SSR_Laundry_ToggleRepair>
+	<SSR_Laundry_Repairing>装备维修中</SSR_Laundry_Repairing>
+	<SSR_Laundry_RepairIdle>维修作业待机中</SSR_Laundry_RepairIdle>
+	<SSR_RoofExtinguisher_IncompatibleBuilding>此建筑不可和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_IncompatibleBuilding>
+	<SSR_RoofExtinguisher_MustBeUnderRoof>灭火器必须挂载于屋顶下</SSR_RoofExtinguisher_MustBeUnderRoof>
+	<SSR_RoofExtinguisher_MustBeWalkable>灭火器必须建在可通行的区域</SSR_RoofExtinguisher_MustBeWalkable>
+	<SSR_RoofExtinguisher_RequiresExtinguisher>此建筑必须和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_RequiresExtinguisher>
 	<SSR_Message_SpaceElevDestry>信息：太空电梯被摧毁</SSR_Message_SpaceElevDestry>
-	<SSR_被摧毁>被摧毁</SSR_被摧毁>
+	<SSR_Destroyed>被摧毁</SSR_Destroyed>
 	<SSR_SelectPlant>选择设备</SSR_SelectPlant>
 	<SSR_Unselected>未选中</SSR_Unselected>
 	<SSR_SelectPlantDesc>请选择设备</SSR_SelectPlantDesc>
@@ -24,26 +24,26 @@
 	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
 	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
-	<SSR_目标品质>目标品质：</SSR_目标品质>
-	<SSR_切换至>切换至：</SSR_切换至>
-	<SSR_没有配方>没有配方：</SSR_没有配方>
-	<SSR_已连接至>已连接至：</SSR_已连接至>
-	<SSR_断开连接></SSR_断开连接>
-	<SSR_连接至>连接至：</SSR_连接至>
-	<SSR_变更别称描述>变更别称</SSR_变更别称描述>
-	<SSR_变更别称>变更别称</SSR_变更别称>
-	<SSR_激活此节点>激活此节点</SSR_激活此节点>
-	<SSR_禁用此节点>禁用此节点</SSR_禁用此节点>
-	<SSR_副桶>副桶</SSR_副桶>
-	<SSR_弹出内容物>弹出内容物</SSR_弹出内容物>
-	<SSR_副桶弹出内容物>副桶弹出内容物</SSR_副桶弹出内容物>
+	<SSR_TargetQuality>目标品质：</SSR_TargetQuality>
+	<SSR_SwitchTo>切换至：</SSR_SwitchTo>
+	<SSR_NoRecipe>没有配方：</SSR_NoRecipe>
+	<SSR_ConnectedTo>已连接至：</SSR_ConnectedTo>
+	<SSR_Disconnect></SSR_Disconnect>
+	<SSR_ConnectTo>连接至：</SSR_ConnectTo>
+	<SSR_ChangeAliasDesc>变更别称</SSR_ChangeAliasDesc>
+	<SSR_ChangeAlias>变更别称</SSR_ChangeAlias>
+	<SSR_ActivateNode>激活此节点</SSR_ActivateNode>
+	<SSR_DisableNode>禁用此节点</SSR_DisableNode>
+	<SSR_SecondaryContainer>副桶</SSR_SecondaryContainer>
+	<SSR_EjectContents>弹出内容物</SSR_EjectContents>
+	<SSR_EjectSecondaryContents>副桶弹出内容物</SSR_EjectSecondaryContents>
 	<SSR_升级建筑Desc>升级建筑</SSR_升级建筑Desc>
 	<SSR_升级建筑>升级建筑</SSR_升级建筑>
-	<SSR_升级建筑debug>升级建筑</SSR_升级建筑debug>
+	<SSR_DebugUpgradeBuilding>升级建筑</SSR_DebugUpgradeBuilding>
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>复制世界建筑</SSR_DupWorldBuilding>
 	<SSR_DupMapBuilding>复制当前地图建筑</SSR_DupMapBuilding>
-	<SSR_显示消防花洒层>显示消防花洒层</SSR_显示消防花洒层>
+	<SSR_ShowFireSprinklerLayer>显示消防花洒层</SSR_ShowFireSprinklerLayer>
 	<SSR_SatelliteFoundDeepMine>卫星发现深矿井</SSR_SatelliteFoundDeepMine>
 	<SSR_SatelliteFoundDeepMineDesc>卫星发现深矿井</SSR_SatelliteFoundDeepMineDesc>
 	<SSR_RocketSelected>已选择火箭：{0}</SSR_RocketSelected>
@@ -104,7 +104,7 @@
 	<SSR_Palminer_Layer>标准化垂直矿井-等级：{0}</SSR_Palminer_Layer>
 	<SSR_Palminer_Palmine>标准化垂直矿井-作业人员：{0}</SSR_Palminer_Palmine>
 	<SSR_Palminer_TunnelDig>标准化垂直矿井-隧道挖掘：{0}</SSR_Palminer_TunnelDig>
-	<SSR_矿井最大坑道数量>矿井最大坑道数量：</SSR_矿井最大坑道数量>
+	<SSR_PalMine_MaxTunnelCount>矿井最大坑道数量：</SSR_PalMine_MaxTunnelCount>
 	<SSR_挖掘矿层升级>挖掘矿层升级</SSR_挖掘矿层升级>
 	<SSR_挖掘矿层>挖掘矿层</SSR_挖掘矿层>
 	<SSR_挖掘矿道升级>挖掘矿道升级</SSR_挖掘矿道升级>
@@ -112,7 +112,7 @@
 	<SSR_升级挖机>升级挖机</SSR_升级挖机>
 	<SSR_工作派遣>工作派遣</SSR_工作派遣>
 	<SSR_停止工作>停止工作</SSR_停止工作>
-	
+
 	<!-- 科研替代需求 -->
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
 	<SSR_MustHavMapCntAny>地图内必须满足其中一项</SSR_MustHavMapCntAny>
@@ -132,11 +132,11 @@
 	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
 
 	<!-- 无线输电塔 -->
-	<SSR_全球无线电力传输塔已激活>全球无线电力传输塔已激活</SSR_全球无线电力传输塔已激活>
-	<SSR_全球无线电力传输塔未激活>全球无线电力传输塔未激活</SSR_全球无线电力传输塔未激活>
-	<SSR_无线电力传输塔已激活>无线电力传输塔已激活</SSR_无线电力传输塔已激活>
-	<SSR_无线电力传输塔未激活>无线电力传输塔未激活</SSR_无线电力传输塔未激活>
-	
+	<SSR_GlobalWirelessPowerTower_Active>全球无线电力传输塔已激活</SSR_GlobalWirelessPowerTower_Active>
+	<SSR_GlobalWirelessPowerTower_Inactive>全球无线电力传输塔未激活</SSR_GlobalWirelessPowerTower_Inactive>
+	<SSR_WirelessPowerTower_Active>无线电力传输塔已激活</SSR_WirelessPowerTower_Active>
+	<SSR_WirelessPowerTower_Inactive>无线电力传输塔未激活</SSR_WirelessPowerTower_Inactive>
+
 	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 
@@ -145,14 +145,14 @@
 	<SSR_打开卫星UIDesc>打开/关闭卫星控制台UI</SSR_打开卫星UIDesc>
 
 	<!-- 洗衣机 -->
-	<SSR_开关洗衣机>洗衣机开关</SSR_开关洗衣机>
-	<SSR_开关洗衣机desc>打开/关闭洗衣机</SSR_开关洗衣机desc>
-	<SSR_开关脏污洗衣机>洗衣机开关</SSR_开关脏污洗衣机>
-	<SSR_开关脏污洗衣机desc>打开/关闭洗衣机</SSR_开关脏污洗衣机desc>
-	<SSR_清洁中>清洁中</SSR_清洁中>
-	<SSR_待机中>待机中</SSR_待机中>
+	<SSR_Laundry_Toggle>洗衣机开关</SSR_Laundry_Toggle>
+	<SSR_Laundry_ToggleDesc>打开/关闭洗衣机</SSR_Laundry_ToggleDesc>
+	<SSR_Laundry_ToggleDeathStain>洗衣机开关</SSR_Laundry_ToggleDeathStain>
+	<SSR_Laundry_ToggleDeathStainDesc>打开/关闭洗衣机</SSR_Laundry_ToggleDeathStainDesc>
+	<SSR_Laundry_Cleaning>清洁中</SSR_Laundry_Cleaning>
+	<SSR_Laundry_Idle>待机中</SSR_Laundry_Idle>
 	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
-	
+
 	<!-- 传送板 -->
 	<SSR_TelePadThrow>全球传送</SSR_TelePadThrow>
 	<SSR_TelePadThrowDesc>全球范围传送</SSR_TelePadThrowDesc>
