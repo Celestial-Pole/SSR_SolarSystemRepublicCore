@@ -31,7 +31,7 @@
 		<defName>SSR_Prefab_MainMenuBG</defName>
 		<label>main menu background</label>
 		<assetBundle>mainmenubg_win</assetBundle>
-		<modelName>MainMenuBG (IMGUI)</modelName>
+		<modelName>MainMenuBG_Blur (IMGUI)</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_MainMenuBG</UIClass>
 	</AK_DLL.UIPrefabDef>
 
@@ -104,4 +104,5 @@
 		<modelName>New Mars Storehouse UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_MarsStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
+
 </Defs>
