@@ -19,6 +19,22 @@
 		<modelName>EventSystem</modelName>
 	</AK_DLL.UIPrefabDef>
 
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MusicPlayer</defName>
+		<label>music player</label>
+		<assetBundle>musicplayerui_win</assetBundle>
+		<modelName>MusicPlayer (IMGUI)</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MusicPlayer</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MainMenuBG</defName>
+		<label>main menu background</label>
+		<assetBundle>mainmenubg_win</assetBundle>
+		<modelName>MainMenuBG_Blur (IMGUI)</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MainMenuBG</UIClass>
+	</AK_DLL.UIPrefabDef>
+
 	<!-- 矿井 -->
 	<!--AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineConsole</defName>
@@ -88,4 +104,5 @@
 		<modelName>New Mars Storehouse UI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_MarsStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
+
 </Defs>
