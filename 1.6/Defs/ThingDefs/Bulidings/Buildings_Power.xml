@@ -46,6 +46,46 @@
 		</comps>
 	</ThingDef>
 
+	<ThingDef ParentName="PowerConduit">
+		<defName>SSR_Building_HiddenWaterproofConduit</defName>
+		<label>水下隐藏电缆</label>
+		<description>水下隐藏电缆</description>
+		<graphicData>
+			<color>(0,0,0,0)</color>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>280</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<uiIconPath>Things/Building/Linked/HiddenConduit_MenuIcon</uiIconPath>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<constructEffect>ConstructDirt</constructEffect>
+		<building>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<isTargetable>false</isTargetable>
+			<expandHomeArea>false</expandHomeArea>
+			<canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+		</building>
+		<terrainAffordanceNeeded>WaterproofConduitable</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<comps>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_LightingRod</defName>
 		<label>避雷针</label>
