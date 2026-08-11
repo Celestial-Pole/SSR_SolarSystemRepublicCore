@@ -1338,6 +1338,80 @@
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
+		<defName>SSR_HydroGenerator</defName>
+		<label>潮汐发电机</label>
+		<description>利用水力发电，流动水域可提升发电效率。</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<uiIconPath>Things/Building/Power/HydroGenerator/HydroGenerator</uiIconPath>
+		<graphicData>
+			<texPath>Things/Building/Power/HydroGenerator/HydroGeneratorUpper</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>4000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3,3)</size>
+		<costList>
+			<WoodLog>280</WoodLog>
+			<Steel>80</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<bringAlongOnGravship>false</bringAlongOnGravship>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded />
+		<placeWorkers>
+			<li>FS_SSR.PW_HydroGenerator</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc6</designationHotKey>
+		<researchPrerequisites>
+			<li>SSR_Research_Medium-levelCleanEnergyGeneration</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<comps>
+			<li Class="FS_SSR.TCP_HydroGenerator">
+				<basePowerConsumption>-1100</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
+				<underwaterGraphic>
+					<texPath>Things/Building/Power/HydroGenerator/HydroGeneratorLower</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</underwaterGraphic>
+				<underwaterColor>(0.55, 0.78, 0.9, 0.45)</underwaterColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<useLargeEMPEffecter>true</useLargeEMPEffecter>
+				<empEffecterDimensions>(2.0,0,1.6)</empEffecterDimensions>
+				<empChancePerTick>0.5</empChancePerTick>
+				<affectedDamageDefs>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_NuclearFissionReactor</defName>
 		<label>核裂变反应堆</label>
 		<description>核裂变反应堆是一种利用核裂变连锁反应产生能量的设备。它通过控制铀等易裂变材料的裂变过程，释放出大量热能并以此进行发电。</description>
