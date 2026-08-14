@@ -40,7 +40,6 @@
             <li Class="FS_SSR.TCP_AirConditionerIndoor">
                 <energyPerSecond>-42</energyPerSecond><!--制冷能力-->
                 <lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor><!--待机功耗系数-->
-                <maxPowerConsumption>200</maxPowerConsumption>
                 <levelSettings>
                     <li>
                         <!-- T1制冷效率 -->
