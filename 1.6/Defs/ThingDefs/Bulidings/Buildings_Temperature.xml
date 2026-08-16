@@ -10,6 +10,7 @@
             <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
             <drawSize>2</drawSize>
+            <drawOffset>(0,0,0.5)</drawOffset>
         </graphicData>
         <size>(1,1)</size>
         <passability>PassThroughOnly</passability>
