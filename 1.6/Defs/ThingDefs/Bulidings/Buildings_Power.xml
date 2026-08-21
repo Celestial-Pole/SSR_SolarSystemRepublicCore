@@ -16,19 +16,27 @@
 				<rect>(0,0.35,1,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Power/PowerConduit/PowerConduit-Icon</uiIconPath>
-		<uiIconScale>0.7</uiIconScale>
-		<building>
-			<blueprintGraphicData>
-				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
-			</blueprintGraphicData>
-		</building>
 		<statBases>
 			<WorkToBuild>70</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
+		<uiIconPath>Things/Building/Power/PowerConduit/PowerConduit-Icon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<uiOrder>10</uiOrder>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<isTargetable>false</isTargetable>
+			<expandHomeArea>false</expandHomeArea>
+			<canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+			<canConstructInCorner>true</canConstructInCorner>
+		</building>
 		<useHitPoints>false</useHitPoints>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<costList>
 			<Steel>1</Steel>
 		</costList>
@@ -46,44 +54,54 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="PowerConduit">
+	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_HiddenWaterproofConduit</defName>
 		<label>水下隐藏电缆</label>
 		<description>水下隐藏电缆</description>
 		<graphicData>
+			<texPath>Things/Building/Linked/PowerConduit_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Transmitter</linkType>
 			<color>(0,0,0,0)</color>
 			<shaderType>Transparent</shaderType>
+			<linkFlags>
+				<li>PowerConduit</li>
+			</linkFlags>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>280</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
 		<uiIconPath>Things/Building/Linked/HiddenConduit_MenuIcon</uiIconPath>
+		<uiOrder>20</uiOrder>
 		<costList>
 			<Steel>1</Steel>
 		</costList>
 		<constructEffect>ConstructDirt</constructEffect>
 		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
 			<ai_neverTrashThis>true</ai_neverTrashThis>
 			<isTargetable>false</isTargetable>
 			<expandHomeArea>false</expandHomeArea>
 			<canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+			<canConstructInCorner>true</canConstructInCorner>
 		</building>
+		<useHitPoints>false</useHitPoints>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<terrainAffordanceNeeded>WaterproofConduitable</terrainAffordanceNeeded>
-		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
 		<comps>
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
-				<innerCategory>SSR_DesignationInnerCategory_Power</innerCategory>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
@@ -111,6 +129,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
+		<uiOrder>50</uiOrder>
 		<statBases>
 			<MaxHitPoints>700</MaxHitPoints>
 			<WorkToBuild>50000</WorkToBuild>
@@ -185,6 +204,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>60</uiOrder>
 		<costList>
 			<SSR_Item_SpecialSteel>5</SSR_Item_SpecialSteel>
 			<SSR_Item_SuperconductingMaterial>1</SSR_Item_SuperconductingMaterial>
@@ -261,6 +281,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>70</uiOrder>
 		<costList>
 			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
 			<SSR_Item_SuperconductingMaterial>2</SSR_Item_SuperconductingMaterial>
@@ -363,6 +384,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>80</uiOrder>
 		<costList>
 			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
 			<SSR_Item_SuperconductingMaterial>4</SSR_Item_SuperconductingMaterial>
@@ -440,6 +462,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>90</uiOrder>
 		<costList>
 			<SSR_Item_NanoandMicroMechanicalComposite>20</SSR_Item_NanoandMicroMechanicalComposite>
 			<SSR_Item_SuperconductingMaterial>1</SSR_Item_SuperconductingMaterial>
@@ -516,6 +539,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>100</uiOrder>
 		<costList>
 			<SSR_Item_NanoandMicroMechanicalComposite>40</SSR_Item_NanoandMicroMechanicalComposite>
 			<SSR_Item_SuperconductingMaterial>2</SSR_Item_SuperconductingMaterial>
@@ -618,6 +642,7 @@
 		<passability>Standable</passability>
 		<surfaceType>Item</surfaceType>
 		<tickerType>Normal</tickerType>
+		<uiOrder>110</uiOrder>
 		<costList>
 			<SSR_Item_NanoandMicroMechanicalComposite>60</SSR_Item_NanoandMicroMechanicalComposite>
 			<SSR_Item_SuperconductingMaterial>3</SSR_Item_SuperconductingMaterial>
@@ -702,6 +727,7 @@
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(1,1)</size>
+		<uiOrder>120</uiOrder>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -944,7 +970,7 @@
 			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<uiOrder>2100</uiOrder>
+		<uiOrder>130</uiOrder>
 		<designationHotKey>Misc4</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -1002,7 +1028,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<uiOrder>2100</uiOrder>
+		<uiOrder>140</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -1060,7 +1086,7 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 		</comps>
-		<uiOrder>2100</uiOrder>
+		<uiOrder>150</uiOrder>
 		<designationHotKey>Misc5</designationHotKey>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -1095,7 +1121,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<uiOrder>2520</uiOrder>
+		<uiOrder>160</uiOrder>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -1161,7 +1187,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
-		<uiOrder>2520</uiOrder>
+		<uiOrder>170</uiOrder>
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<drawerType>RealtimeOnly</drawerType>
@@ -1232,6 +1258,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
+		<uiOrder>180</uiOrder>
 		<costList>
 			<SSR_Item_StandardConstructionElement>20</SSR_Item_StandardConstructionElement>
 			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
@@ -1300,6 +1327,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<size>(6,6)</size>
+		<uiOrder>190</uiOrder>
 		<costList>
 			<SSR_Item_Carbyne>30</SSR_Item_Carbyne>
 			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
@@ -1351,7 +1379,7 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>400</MaxHitPoints>
+			<MaxHitPoints>1500</MaxHitPoints>
 			<WorkToBuild>4000</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-20</Beauty>
@@ -1366,9 +1394,11 @@
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(3,3)</size>
+		<uiOrder>200</uiOrder>
 		<costList>
-			<WoodLog>280</WoodLog>
-			<Steel>80</Steel>
+			<SSR_Item_StandardConstructionElement>10</SSR_Item_StandardConstructionElement>
+			<SSR_Item_SpecialSteel>30</SSR_Item_SpecialSteel>
+			<SSR_Item_SuperconductingMaterial>5</SSR_Item_SuperconductingMaterial>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<bringAlongOnGravship>false</bringAlongOnGravship>
@@ -1389,7 +1419,7 @@
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<comps>
 			<li Class="FS_SSR.TCP_HydroGenerator">
-				<basePowerConsumption>-1100</basePowerConsumption>
+				<basePowerConsumption>-3500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 				<soundAmbientProducingPower>WaterMill_Ambience</soundAmbientProducingPower>
 				<underwaterGraphic>
@@ -1400,14 +1430,6 @@
 				<underwaterColor>(0.55, 0.78, 0.9, 0.45)</underwaterColor>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<useLargeEMPEffecter>true</useLargeEMPEffecter>
-				<empEffecterDimensions>(2.0,0,1.6)</empEffecterDimensions>
-				<empChancePerTick>0.5</empChancePerTick>
-				<affectedDamageDefs>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
 		</comps>
 	</ThingDef>
 
@@ -1445,6 +1467,7 @@
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(3,3)</size>
+		<uiOrder>210</uiOrder>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -1536,6 +1559,7 @@
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(5,5)</size>
+		<uiOrder>220</uiOrder>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -1628,6 +1652,7 @@
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(3,3)</size>
+		<uiOrder>230</uiOrder>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -1719,6 +1744,7 @@
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(5,5)</size>
+		<uiOrder>240</uiOrder>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -1805,6 +1831,7 @@
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<uiOrder>30</uiOrder>
 		<statBases>
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>36000</WorkToBuild>
@@ -1892,6 +1919,7 @@
 		<fillPercent>1</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<uiOrder>40</uiOrder>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
