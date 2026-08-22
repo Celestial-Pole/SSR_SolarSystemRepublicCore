@@ -133,10 +133,10 @@
             <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
             <drawSize>(1.125,0.75)</drawSize>
-            <drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
-            <drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
-            <drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
-            <drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+            <drawOffsetNorth>(0,0,0.738)</drawOffsetNorth>
+            <drawOffsetSouth>(0,0,-0.351)</drawOffsetSouth>
+            <drawOffsetWest>(-0.548,0,0)</drawOffsetWest>
+            <drawOffsetEast>(0.634,0,0)</drawOffsetEast>
         </graphicData>
         <size>(1,1)</size>
         <altitudeLayer>BuildingOnTop</altitudeLayer>
