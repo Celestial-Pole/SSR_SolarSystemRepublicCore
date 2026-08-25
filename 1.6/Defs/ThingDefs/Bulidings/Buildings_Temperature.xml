@@ -55,18 +55,18 @@
 				</linkableBuildings>
 				<levelSettings>
 					<li>
-						<coolingEnergyPerSecond>-42</coolingEnergyPerSecond>
+						<heatExchangeEnergyPerSecond>42</heatExchangeEnergyPerSecond>
 						<maxPowerConsumption>200</maxPowerConsumption>
 						<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
-						<heatRejectionFactor>1.25</heatRejectionFactor>
+						<hotSideEnergyFactor>1.25</hotSideEnergyFactor>
 						<efficiencyLossPerDegreeDiff>0.007692308</efficiencyLossPerDegreeDiff>
 						<powerResponseExponent>1</powerResponseExponent>
 					</li>
 					<li>
-						<coolingEnergyPerSecond>-42</coolingEnergyPerSecond>
+						<heatExchangeEnergyPerSecond>42</heatExchangeEnergyPerSecond>
 						<maxPowerConsumption>200</maxPowerConsumption>
 						<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
-						<heatRejectionFactor>1.25</heatRejectionFactor>
+						<hotSideEnergyFactor>1.25</hotSideEnergyFactor>
 						<efficiencyLossPerDegreeDiff>0.007692308</efficiencyLossPerDegreeDiff>
 						<powerResponseExponent>1</powerResponseExponent>
 					</li>
@@ -168,13 +168,13 @@
         </building>
         <comps>
             <li Class="FS_SSR.TCP_AirConditionerIndoor">
-                <energyPerSecond>-42</energyPerSecond>
+                <energyPerSecond>42</energyPerSecond>
                 <levelSettings>
                     <li>
-                        <coolingFactor>2</coolingFactor>
+                        <heatExchangeFactor>2</heatExchangeFactor>
                     </li>
                     <li>
-                        <coolingFactor>6</coolingFactor>
+                        <heatExchangeFactor>6</heatExchangeFactor>
                     </li>
                 </levelSettings>
             </li>
@@ -276,14 +276,14 @@
 		</building>
 		<comps>
 			<li Class="FS_SSR.TCP_AirConditionerIndoor">
-				<energyPerSecond>-42</energyPerSecond>
+				<energyPerSecond>42</energyPerSecond>
 				<!--制冷能力-->
 				<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
 				<!--待机功耗系数-->
 				<levelSettings>
 					<li>
 						<!-- T1制冷效率 -->
-						<coolingFactor>4</coolingFactor>
+						<heatExchangeFactor>4</heatExchangeFactor>
 					</li>
 				</levelSettings>
 			</li>
