@@ -63,8 +63,8 @@
 						<powerResponseExponent>1</powerResponseExponent>
 					</li>
 					<li>
-						<heatExchangeEnergyPerSecond>42</heatExchangeEnergyPerSecond>
-						<maxPowerConsumption>200</maxPowerConsumption>
+						<heatExchangeEnergyPerSecond>84</heatExchangeEnergyPerSecond>
+						<maxPowerConsumption>300</maxPowerConsumption>
 						<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
 						<hotSideEnergyFactor>1.25</hotSideEnergyFactor>
 						<efficiencyLossPerDegreeDiff>0.007692308</efficiencyLossPerDegreeDiff>
@@ -139,6 +139,7 @@
 			<drawOffsetEast>(0.634,0,0)</drawOffsetEast>
 		</graphicData>
 		<size>(1,1)</size>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
 		<terrainAffordanceNeeded IsNull="True" />
@@ -151,7 +152,7 @@
 			<li>SSR_Furniture</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>15</Mass>
 			<Flammability>0</Flammability>
@@ -250,6 +251,7 @@
 			<drawOffset>(0,0,0.5)</drawOffset>
 		</graphicData>
 		<size>(1,1)</size>
+		<uiIconScale>0.75</uiIconScale>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.35</fillPercent>
 		<pathCost>30</pathCost>
@@ -260,7 +262,7 @@
 			<li>SSR_Furniture</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>180</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
 			<Mass>35</Mass>
 			<Flammability>0</Flammability>
@@ -285,12 +287,49 @@
 						<!-- T1制冷效率 -->
 						<heatExchangeFactor>4</heatExchangeFactor>
 					</li>
+					<li>
+						<heatExchangeFactor>12</heatExchangeFactor>
+					</li>
 				</levelSettings>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>SSR_Building_AirConditionerOutdoor</li>
 				</linkableFacilities>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Temperature/AirCondition/IDU/Cabinet/T2Cabinet</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<shaderType>CutoutComplex</shaderType>
+								<drawSize>2</drawSize>
+								<drawOffset>(0,0,0.5)</drawOffset>
+							</graphicData>
+							<workAmt>1000</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<requireResearch>SSR_Research_Medium-levelPowerTechnology</requireResearch>
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>20</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>30</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>4</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+				</levels>
 			</li>
 		</comps>
 		<placeWorkers>
