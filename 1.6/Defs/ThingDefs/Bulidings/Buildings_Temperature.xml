@@ -123,120 +123,120 @@
 		</modExtensions>
 	</ThingDef>
 
-    <ThingDef ParentName="SSR_BuildingBase_Furniture">
-        <defName>SSR_Building_AirConditionerWallIndoor</defName>
-        <label>壁式空调内机</label>
-        <description>安装在室内墙面上的空调内机。需要与一台空调外机连接才能工作。</description>
-        <tickerType>Rare</tickerType>
-        <graphicData>
-            <texPath>Things/Building/Temperature/AirCondition/IDU/WallMounted/WallMounted</texPath>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-            <drawSize>(1.125,0.75)</drawSize>
-            <drawOffsetNorth>(0,0,0.738)</drawOffsetNorth>
-            <drawOffsetSouth>(0,0,-0.351)</drawOffsetSouth>
-            <drawOffsetWest>(-0.548,0,0)</drawOffsetWest>
-            <drawOffsetEast>(0.634,0,0)</drawOffsetEast>
-        </graphicData>
-        <size>(1,1)</size>
-        <altitudeLayer>BuildingOnTop</altitudeLayer>
-        <passability>Standable</passability>
-        <terrainAffordanceNeeded IsNull="True" />
-        <fillPercent>0.1</fillPercent>
-        <pathCost>0</pathCost>
-        <castEdgeShadows>false</castEdgeShadows>
-        <canOverlapZones>true</canOverlapZones>
-        <minifiedDef>MinifiedThing</minifiedDef>
-        <thingCategories>
-            <li>SSR_Furniture</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <WorkToBuild>800</WorkToBuild>
-            <Mass>15</Mass>
-            <Flammability>0</Flammability>
-        </statBases>
-        <costList>
-            <SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <building>
-            <isEdifice>false</isEdifice>
-            <isAttachment>true</isAttachment>
-            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
-            <buildingSizeCategory>Small</buildingSizeCategory>
-        </building>
-        <comps>
-            <li Class="FS_SSR.TCP_AirConditionerIndoor">
-                <energyPerSecond>42</energyPerSecond>
-                <levelSettings>
-                    <li>
-                        <heatExchangeFactor>2</heatExchangeFactor>
-                    </li>
-                    <li>
-                        <heatExchangeFactor>6</heatExchangeFactor>
-                    </li>
-                </levelSettings>
-            </li>
-            <li Class="CompProperties_AffectedByFacilities">
-                <linkableFacilities>
-                    <li>SSR_Building_AirConditionerOutdoor</li>
-                </linkableFacilities>
-            </li>
-            <li Class="FS_SSR.Generic.TCP_Upgradable">
-                <levels>
-                    <li>
-                        <key>1</key>
-                        <value>
-                            <graphicData>
-                                <texPath>Things/Building/Temperature/AirCondition/IDU/WallMounted/T2WallMounted</texPath>
-                                <graphicClass>Graphic_Multi</graphicClass>
-                                <shaderType>CutoutComplex</shaderType>
-                                <drawSize>(1.125,0.75)</drawSize>
-                                <drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
-                                <drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
-                                <drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
-                                <drawOffsetEast>(0.9,0,0)</drawOffsetEast>
-                            </graphicData>
-                            <workAmt>800</workAmt>
-                            <requireMaterial>true</requireMaterial>
-                            <requirePawnWork>true</requirePawnWork>
-                            <requireResearch>SSR_Research_Medium-levelPowerTechnology</requireResearch>
-                            <materials>
-                                <li>
-                                    <item>SSR_Item_Carbyne</item>
-                                    <amount>10</amount>
-                                </li>
-                                <li>
-                                    <item>SSR_Item_NanoandMicroMechanicalComposite</item>
-                                    <amount>15</amount>
-                                </li>
-                                <li>
-                                    <item>ComponentSpacer</item>
-                                    <amount>2</amount>
-                                </li>
-                            </materials>
-                        </value>
-                    </li>
-                </levels>
-            </li>
-        </comps>
-        <placeWorkers>
-            <li>FS_SSR.PW_AirConditionerIndoorWall</li>
-            <li>PlaceWorker_ShowFacilitiesConnections</li>
-            <li>FS_SSR.UI.PW_FrameLevel</li>
-        </placeWorkers>
-        <researchPrerequisites>
-            <li>SSR_Research_BasicPowerTechnology</li>
-        </researchPrerequisites>
-        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-        <uiOrder>20</uiOrder>
-        <modExtensions Inherit="False">
-            <li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
-                <innerCategory>SSR_DesignationInnerCategory_Temperature</innerCategory>
-            </li>
-        </modExtensions>
-    </ThingDef>
+	<ThingDef ParentName="SSR_BuildingBase_Furniture">
+		<defName>SSR_Building_AirConditionerWallIndoor</defName>
+		<label>壁式空调内机</label>
+		<description>安装在室内墙面上的空调内机。需要与一台空调外机连接才能工作。</description>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Temperature/AirCondition/IDU/WallMounted/WallMounted</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.125,0.75)</drawSize>
+			<drawOffsetNorth>(0,0,0.738)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.351)</drawOffsetSouth>
+			<drawOffsetWest>(-0.548,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.634,0,0)</drawOffsetEast>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<fillPercent>0.1</fillPercent>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<canOverlapZones>true</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>SSR_Furniture</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<SSR_Item_SpecialSteel>10</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isAttachment>true</isAttachment>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+			<buildingSizeCategory>Small</buildingSizeCategory>
+		</building>
+		<comps>
+			<li Class="FS_SSR.TCP_AirConditionerIndoor">
+				<energyPerSecond>42</energyPerSecond>
+				<levelSettings>
+					<li>
+						<heatExchangeFactor>2</heatExchangeFactor>
+					</li>
+					<li>
+						<heatExchangeFactor>6</heatExchangeFactor>
+					</li>
+				</levelSettings>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>SSR_Building_AirConditionerOutdoor</li>
+				</linkableFacilities>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<graphicData>
+								<texPath>Things/Building/Temperature/AirCondition/IDU/WallMounted/T2WallMounted</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<shaderType>CutoutComplex</shaderType>
+								<drawSize>(1.125,0.75)</drawSize>
+								<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+								<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+								<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+								<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+							</graphicData>
+							<workAmt>800</workAmt>
+							<requireMaterial>true</requireMaterial>
+							<requirePawnWork>true</requirePawnWork>
+							<requireResearch>SSR_Research_Medium-levelPowerTechnology</requireResearch>
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>10</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>15</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>2</amount>
+								</li>
+							</materials>
+						</value>
+					</li>
+				</levels>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>FS_SSR.PW_AirConditionerIndoorWall</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>FS_SSR.UI.PW_FrameLevel</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiOrder>20</uiOrder>
+		<modExtensions Inherit="False">
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<innerCategory>SSR_DesignationInnerCategory_Temperature</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Furniture">
 		<defName>SSR_Building_AirConditionerCabinetIndoor</defName>
@@ -304,6 +304,71 @@
 		<uiOrder>30</uiOrder>
 		<modExtensions Inherit="False">
 			<!--TODO-->
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<innerCategory>SSR_DesignationInnerCategory_Temperature</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="SSR_BuildingBase_Furniture">
+		<defName>SSR_Building_TemperatureController</defName>
+		<label>温度控制装置</label>
+		<description>desc。</description>
+		<thingClass>FS_SSR.Building_SingleTempController</thingClass>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Temperature/TempController/TempController_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.35</fillPercent>
+		<pathCost>30</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>SSR_Furniture</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<building>
+			<isEdifice>false</isEdifice>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+			<buildingSizeCategory>Small</buildingSizeCategory>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="FS_SSR.TCP_SingleTempController">
+				<!--功耗 x10 =实际制冷效果-->
+				<coefficientOfPerformance>10</coefficientOfPerformance>
+				<defaultTargetTemperature>21</defaultTargetTemperature>
+				<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
+			</li>
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<researchPrerequisites>
+			<li>SSR_Research_BasicPowerTechnology</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiOrder>40</uiOrder>
+		<modExtensions Inherit="False">
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<innerCategory>SSR_DesignationInnerCategory_Temperature</innerCategory>
 			</li>
