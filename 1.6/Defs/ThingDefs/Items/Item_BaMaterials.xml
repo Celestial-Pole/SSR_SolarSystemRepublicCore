@@ -21,6 +21,7 @@
                 <Flammability>0</Flammability>
             </statFactors>
             <commonality>0</commonality>
+            <isAirtight>true</isAirtight>
             <categories>
                 <li>Metallic</li>
             </categories>

@@ -13,6 +13,7 @@
 	<SSR_RoofExtinguisher_MustBeUnderRoof>灭火器必须挂载于屋顶下</SSR_RoofExtinguisher_MustBeUnderRoof>
 	<SSR_RoofExtinguisher_MustBeWalkable>灭火器必须建在可通行的区域</SSR_RoofExtinguisher_MustBeWalkable>
 	<SSR_RoofExtinguisher_RequiresExtinguisher>此建筑必须和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_RequiresExtinguisher>
+	<SSR_HydroGenerator_MustBeOnWater>水力发电机必须全部占地位于水体中。</SSR_HydroGenerator_MustBeOnWater>
 	<SSR_Message_SpaceElevDestry>信息：太空电梯被摧毁</SSR_Message_SpaceElevDestry>
 	<SSR_Destroyed>被摧毁</SSR_Destroyed>
 	<SSR_SelectPlant>选择设备</SSR_SelectPlant>
@@ -168,5 +169,10 @@
 	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
 
 	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
+
+	<!-- 空调 -->
+	<SSR_AirConditionerIndoor_MustBeIndoors>空调内机必须放置在室内。</SSR_AirConditionerIndoor_MustBeIndoors>
+	<SSR_AirConditionerOutdoor_MustBeOutdoors>空调外机必须放置在室外。</SSR_AirConditionerOutdoor_MustBeOutdoors>
+	<SSR_AirConditionerIndoor_Connect>外机连接：{0}</SSR_AirConditionerIndoor_Connect>
 
 </LanguageData>
