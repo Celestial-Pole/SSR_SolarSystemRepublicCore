@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
 
-	<v1.5>
+	<!--v1.5>
 		<li IfModNotActive="MIS.Framework">SoftRely/1.5/AKFrameNotActive</li>
 		<li>1.5</li>
 		<li IfModActive="CETeam.CombatExtended">SoftRely/1.5/CombatExtended</li>
 		<li>/</li>
-	</v1.5>
+	</v1.5-->
 	<v1.6>
 		<li IfModNotActive="MIS.Framework">SoftRely/1.6/AKFrameNotActive</li>
 		<li>1.6</li>
