@@ -227,7 +227,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Plasteel>150</Plasteel>
+			<Steel>150</Steel>
+			<Plasteel>50</Plasteel>
 			<ComponentIndustrial>15</ComponentIndustrial>
 		</costList>
 		<statBases>
