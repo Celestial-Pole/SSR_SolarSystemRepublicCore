@@ -19,9 +19,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>SSR_Furniture</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1600</WorkToBuild>
@@ -148,9 +145,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>true</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>SSR_Furniture</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
@@ -258,9 +252,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>SSR_Furniture</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
@@ -369,9 +360,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>SSR_Furniture</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
