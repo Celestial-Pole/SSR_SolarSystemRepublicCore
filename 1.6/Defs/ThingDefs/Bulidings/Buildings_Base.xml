@@ -66,6 +66,9 @@
 		<fillPercent>1</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
+		<thingCategories>
+			<li>SSR_Furniture</li>
+		</thingCategories>
 		<comps>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
