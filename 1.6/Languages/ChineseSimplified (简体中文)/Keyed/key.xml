@@ -2,6 +2,14 @@
 <LanguageData>
 
 	<SSR_SetBackgroundImage>背景图片设置</SSR_SetBackgroundImage>
+	<SSR_BG_Shuffle>随机播放</SSR_BG_Shuffle>
+	<SSR_BG_Sequential>顺序播放</SSR_BG_Sequential>
+	<SSR_BG_Selected>已设置当前背景：{0}</SSR_BG_Selected>
+	<SSR_BG_LoadFailed>无法加载背景：{0}。请检查图片文件，详细原因见日志。</SSR_BG_LoadFailed>
+	<SSR_BG_PleaseWait>背景仍在准备中，请稍后保存。</SSR_BG_PleaseWait>
+	<SSR_BG_Saved>背景设置已保存。</SSR_BG_Saved>
+	<SSR_BG_SaveFailed>背景设置保存失败，请查看日志。</SSR_BG_SaveFailed>
+	<SSR_BG_UnknownMod>未知模组</SSR_BG_UnknownMod>
 
 	<SSR_Laundry_ToggleBiocodeDesc>打开/关闭生物编码破解功能</SSR_Laundry_ToggleBiocodeDesc>
 	<SSR_Laundry_ToggleRepairDesc>打开/关闭装备维修功能</SSR_Laundry_ToggleRepairDesc>
