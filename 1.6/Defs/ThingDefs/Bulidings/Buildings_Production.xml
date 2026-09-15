@@ -2030,98 +2030,80 @@
 				<requiredLevel>0</requiredLevel>
 				<containerIndex>1</containerIndex>
 			</li>
-			<li Class="FS_SSR.Generic.TCP_ThingContainer">
-				<capacity>5</capacity>
-				<showEjectGizmo>true</showEjectGizmo>
-				<uniqueID>1</uniqueID>
-				<gizmoEjectLabel>弹出维修平台内容物</gizmoEjectLabel>
-				<gizmoEjectDesc>弹出维修平台内容物</gizmoEjectDesc>
-				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
-				<btnITabLabel>维修平台</btnITabLabel>
-				<btnITabItemKey>装备整备台</btnITabItemKey>
-			</li>
-		</comps>
-		<researchPrerequisites>
-			<li>SSR_Research_StandardizedMaintenanceOperationsTechnology</li>
-		</researchPrerequisites>
-	</ThingDef>
-
-	<ThingDef ParentName="SSR_BuildingBase_Production">
-		<defName>SSR_Building_EquipmentPreparationStation</defName>
-		<label>装备整备台</label>
-		<description>装备整备台是专用于装备编码与绑定破解的工作台。</description>
-		<thingClass>Building</thingClass>
-		<tickerType>Normal</tickerType>
-		<graphicData>
-			<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,2)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<size>(3,2)</size>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<castEdgeShadows>true</castEdgeShadows>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<canOverlapZones>false</canOverlapZones>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
-		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>7200</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<costList>
-			<SSR_Item_Carbyne>60</SSR_Item_Carbyne>
-			<SSR_Item_NanoandMicroMechanicalComposite>120</SSR_Item_NanoandMicroMechanicalComposite>
-			<ComponentSpacer>12</ComponentSpacer>
-			<SSR_Item_IntegratedQuantumComputingFramework>3</SSR_Item_IntegratedQuantumComputingFramework>
-			<SSR_Item_ArtificialIntelligenceChip>1</SSR_Item_ArtificialIntelligenceChip>
-		</costList>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-		<building>
-			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-		</building>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable" />
-			<li>
-				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
-			</li>
-			<li Class="FS_SSR.Generic.TCP_ThingContainerExtraITab" />
 			<li Class="FS_SSR.Laundry.TCP_Laundry">
 				<compClass>FS_SSR.Laundry.TC_LaundryBiocode</compClass>
 				<interval>500</interval>
 				<effect>10</effect>
-				<requiredLevel>0</requiredLevel>
+				<requiredLevel>1</requiredLevel>
+				<containerIndex>1</containerIndex>
+			</li>
+			<li Class="FS_SSR.Laundry.TCP_Laundry">
+				<compClass>FS_SSR.Laundry.TC_LaundryBladeLinkOverwrite</compClass>
+				<interval>500</interval>
+				<effect>10</effect>
+				<requiredLevel>1</requiredLevel>
 				<containerIndex>1</containerIndex>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_ThingContainer">
 				<capacity>5</capacity>
 				<showEjectGizmo>true</showEjectGizmo>
 				<uniqueID>1</uniqueID>
-				<gizmoEjectLabel>弹出整备台内容物</gizmoEjectLabel>
-				<gizmoEjectDesc>弹出整备台内容物</gizmoEjectDesc>
+				<gizmoEjectLabel>弹出平台内容物</gizmoEjectLabel>
+				<gizmoEjectDesc>弹出平台内容物</gizmoEjectDesc>
 				<gizmoEjectUIIconPath>UI/EjectContents</gizmoEjectUIIconPath>
-				<btnITabLabel>整备台</btnITabLabel>
+				<btnITabLabel>整备平台</btnITabLabel>
 				<btnITabItemKey>装备整备台</btnITabItemKey>
+			</li>
+			<li Class="FS_SSR.Generic.TCP_Upgradable">
+				<levels>
+					<li>
+						<key>1</key>
+						<value>
+							<requireMaterial>true</requireMaterial>
+							<materials>
+								<li>
+									<item>SSR_Item_Carbyne</item>
+									<amount>60</amount>
+								</li>
+								<li>
+									<item>SSR_Item_NanoandMicroMechanicalComposite</item>
+									<amount>120</amount>
+								</li>
+								<li>
+									<item>ComponentSpacer</item>
+									<amount>12</amount>
+								</li>
+								<li>
+									<item>SSR_Item_IntegratedQuantumComputingFramework</item>
+									<amount>3</amount>
+								</li>
+								<li>
+									<item>SSR_Item_ArtificialIntelligenceChip</item>
+									<amount>1</amount>
+								</li>
+							</materials>
+							<workAmt>7200</workAmt>
+							<requirePawnWork>true</requirePawnWork>
+							<graphicData>
+								<texPath>Things/Building/Production/EquipmentPreparationStation/EquipmentPreparationStation</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(3,2)</drawSize>
+								<damageData>
+									<cornerTL>Damage/Corner</cornerTL>
+									<cornerTR>Damage/Corner</cornerTR>
+									<cornerBL>Damage/Corner</cornerBL>
+									<cornerBR>Damage/Corner</cornerBR>
+								</damageData>
+							</graphicData>
+							<requireResearch>SSR_Research_EncryptionSystemCracking</requireResearch>
+							<showUpgradeGizmo>true</showUpgradeGizmo>
+						</value>
+					</li>
+				</levels>
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>SSR_Research_EncryptionSystemCracking</li>
+			<li>SSR_Research_StandardizedMaintenanceOperationsTechnology</li>
 		</researchPrerequisites>
 	</ThingDef>
 

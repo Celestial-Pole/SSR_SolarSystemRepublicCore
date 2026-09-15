@@ -15,6 +15,10 @@
 	<SSR_Laundry_ToggleRepairDesc>打开/关闭装备维修功能</SSR_Laundry_ToggleRepairDesc>
 	<SSR_Laundry_ToggleBiocode>生物编码破解功能开关</SSR_Laundry_ToggleBiocode>
 	<SSR_Laundry_ToggleRepair>装备维修功能开关</SSR_Laundry_ToggleRepair>
+	<SSR_Laundry_ToggleBladeLink>人格修改功能开关</SSR_Laundry_ToggleBladeLink>
+	<SSR_Laundry_ToggleBladeLinkDesc>打开/关闭人格武器特质修改功能</SSR_Laundry_ToggleBladeLinkDesc>
+	<SSR_SelectBladeLink>人格特质 {0}：{1}</SSR_SelectBladeLink>
+	<SSR_Laundry_NoTargetItem>无符合条件的待处理物品</SSR_Laundry_NoTargetItem>
 	<SSR_Laundry_Repairing>装备维修中</SSR_Laundry_Repairing>
 	<SSR_Laundry_RepairIdle>维修作业待机中</SSR_Laundry_RepairIdle>
 	<SSR_RoofExtinguisher_IncompatibleBuilding>此建筑不可和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_IncompatibleBuilding>
