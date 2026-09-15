@@ -154,6 +154,15 @@
 		<baseCost>800</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
+		<!-- 科技联动解锁配置 -->
+		<!--<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>SSR_Research_BasicMachineryManufacturing</li>
+					<li>Smithing</li>
+				</unlockResearchs>
+			</li>
+		</modExtensions>-->
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">

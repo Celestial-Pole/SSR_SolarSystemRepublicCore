@@ -156,6 +156,7 @@
 			</li>
 			<li Class="FS_SSR.Power.TCP_LightingRod">
 				<energyPerBolt>20000</energyPerBolt>
+				<strikeOffset>(0, 0, 2.65)</strikeOffset>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
@@ -1824,6 +1825,7 @@
 			</li>
 			<li Class="FS_SSR.Power.TCP_LightingRod">
 				<energyPerBolt>3000</energyPerBolt>
+				<strikeOffset>(0, 0, 2.75)</strikeOffset>
 			</li>
 			<li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
