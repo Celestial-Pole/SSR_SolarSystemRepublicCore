@@ -142,6 +142,8 @@
 
 	<!-- 电力接收塔 -->
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
+	<SSR_PowerReceiver_SetRequestedPower>设定请求电力</SSR_PowerReceiver_SetRequestedPower>
+	<SSR_PowerReceiver_SetRequestedPowerDesc>设定从无线输电塔请求传输的电量。</SSR_PowerReceiver_SetRequestedPowerDesc>
 
 
 	<!-- 洗衣机 -->
@@ -177,10 +179,17 @@
 	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
 
 	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
+	<SSR_Fuel_CorpsesEntity>实体尸体</SSR_Fuel_CorpsesEntity>
 
 	<!-- 空调 -->
 	<SSR_AirConditionerIndoor_MustBeIndoors>空调内机必须放置在室内。</SSR_AirConditionerIndoor_MustBeIndoors>
 	<SSR_AirConditionerOutdoor_MustBeOutdoors>空调外机必须放置在室外。</SSR_AirConditionerOutdoor_MustBeOutdoors>
 	<SSR_AirConditionerIndoor_Connect>外机连接：{0}</SSR_AirConditionerIndoor_Connect>
+
+	<!-- 音乐播放器 -->
+	<SSR_MusicCategory_Entry>主菜单音乐</SSR_MusicCategory_Entry>
+	<SSR_MusicCategory_Combat>战斗音乐</SSR_MusicCategory_Combat>
+	<SSR_MusicCategory_Other>其他音乐</SSR_MusicCategory_Other>
+	<SSR_MusicCategory_EndCredits>结局音乐</SSR_MusicCategory_EndCredits>
 
 </LanguageData>

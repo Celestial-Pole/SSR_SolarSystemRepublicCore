@@ -84,9 +84,6 @@
 			<isEdifice>false</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
-		<costList>
-			<Steel>1</Steel>
-		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>SSR_DesignationCategory</designationCategory>
 		<uiOrder>2100</uiOrder>

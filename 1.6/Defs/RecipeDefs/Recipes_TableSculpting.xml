@@ -7,25 +7,42 @@
         <description>制作制作小雕塑。</description>
         <jobString>正在制作制作小雕塑。</jobString>
         <workAmount>18000</workAmount>
+        <productHasIngredientStuff>true</productHasIngredientStuff>
         <ingredients>
             <li>
                 <filter>
-                    <categories>
+                    <stuffCategoriesToAllow>
                         <li>Metallic</li>
                         <li>Woody</li>
                         <li>Stony</li>
-                    </categories>
+                    </stuffCategoriesToAllow>
                 </filter>
                 <count>50</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
-            <categories>
+            <stuffCategoriesToAllow>
                 <li>Metallic</li>
                 <li>Woody</li>
                 <li>Stony</li>
-            </categories>
+            </stuffCategoriesToAllow>
         </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Plasteel</li>
+                <li>Jade</li>
+                <li>Uranium</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">Obsidian</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
         <products>
             <SculptureSmall>1</SculptureSmall>
         </products>
@@ -37,25 +54,42 @@
         <description>制作制作大雕塑。</description>
         <jobString>正在制作制作大雕塑。</jobString>
         <workAmount>30000</workAmount>
+        <productHasIngredientStuff>true</productHasIngredientStuff>
         <ingredients>
             <li>
                 <filter>
-                    <categories>
+                    <stuffCategoriesToAllow>
                         <li>Metallic</li>
                         <li>Woody</li>
                         <li>Stony</li>
-                    </categories>
+                    </stuffCategoriesToAllow>
                 </filter>
                 <count>100</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
-            <categories>
+            <stuffCategoriesToAllow>
                 <li>Metallic</li>
                 <li>Woody</li>
                 <li>Stony</li>
-            </categories>
+            </stuffCategoriesToAllow>
         </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Plasteel</li>
+                <li>Jade</li>
+                <li>Uranium</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">Obsidian</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
         <products>
             <SculptureLarge>1</SculptureLarge>
         </products>
@@ -67,61 +101,95 @@
         <description>制作制作宏伟雕塑。</description>
         <jobString>正在制作制作宏伟雕塑。</jobString>
         <workAmount>105000</workAmount>
+        <productHasIngredientStuff>true</productHasIngredientStuff>
         <ingredients>
             <li>
                 <filter>
-                    <categories>
+                    <stuffCategoriesToAllow>
                         <li>Metallic</li>
                         <li>Woody</li>
                         <li>Stony</li>
-                    </categories>
+                    </stuffCategoriesToAllow>
                 </filter>
                 <count>400</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
-            <categories>
+            <stuffCategoriesToAllow>
                 <li>Metallic</li>
                 <li>Woody</li>
                 <li>Stony</li>
-            </categories>
+            </stuffCategoriesToAllow>
         </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Plasteel</li>
+                <li>Jade</li>
+                <li>Uranium</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">Obsidian</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
         <products>
             <SculptureGrand>1</SculptureGrand>
         </products>
     </RecipeDef>
 
-    <RecipeDef ParentName="SSR_RecipeCoreMachining">
+    <RecipeDef ParentName="SSR_RecipeCoreMachining" MayRequire="Ludeon.RimWorld.Ideology">
         <defName>SSR_Recipe_SculptureTerror</defName>
         <label>制作制作可怖的雕像</label>
         <description>制作制作可怖的雕像。</description>
         <jobString>正在制作制作可怖的雕像。</jobString>
         <workAmount>30000</workAmount>
+        <productHasIngredientStuff>true</productHasIngredientStuff>
         <ingredients>
             <li>
                 <filter>
-                    <categories>
+                    <stuffCategoriesToAllow>
                         <li>Metallic</li>
                         <li>Woody</li>
                         <li>Stony</li>
-                    </categories>
+                    </stuffCategoriesToAllow>
                 </filter>
                 <count>100</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
-            <categories>
+            <stuffCategoriesToAllow>
                 <li>Metallic</li>
                 <li>Woody</li>
                 <li>Stony</li>
-            </categories>
+            </stuffCategoriesToAllow>
         </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Plasteel</li>
+                <li>Jade</li>
+                <li>Uranium</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">Obsidian</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
         <products>
             <SculptureTerror>1</SculptureTerror>
         </products>
     </RecipeDef>
 
-    <RecipeDef ParentName="SSR_RecipeCoreMachining">
+    <RecipeDef ParentName="SSR_RecipeCoreMachining" MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>SSR_Recipe_VoidSculpture</defName>
         <label>制作制作虚空雕塑</label>
         <description>制作制作虚空雕塑。</description>
@@ -147,31 +215,48 @@
         </products>
     </RecipeDef>
 
-    <RecipeDef ParentName="SSR_RecipeCoreMachining">
+    <RecipeDef ParentName="SSR_RecipeCoreMachining" MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>SSR_Recipe_Statue</defName>
         <label>制作制作雕像</label>
         <description>制作制作雕像。</description>
         <jobString>正在制作制作雕像。</jobString>
         <workAmount>21000</workAmount>
+        <productHasIngredientStuff>true</productHasIngredientStuff>
         <ingredients>
             <li>
                 <filter>
-                    <categories>
+                    <stuffCategoriesToAllow>
                         <li>Metallic</li>
                         <li>Woody</li>
                         <li>Stony</li>
-                    </categories>
+                    </stuffCategoriesToAllow>
                 </filter>
                 <count>65</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
-            <categories>
+            <stuffCategoriesToAllow>
                 <li>Metallic</li>
                 <li>Woody</li>
                 <li>Stony</li>
-            </categories>
+            </stuffCategoriesToAllow>
         </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Plasteel</li>
+                <li>Jade</li>
+                <li>Uranium</li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">Obsidian</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
         <products>
             <Statue>1</Statue>
         </products>

@@ -895,14 +895,14 @@
 						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
 					</li>
-					<!--li MayRequire="Ludeon.RimWorld.Anomaly">
+					<li MayRequire="Ludeon.RimWorld.Anomaly">
 						<group>Corpse</group>
 						<category>CorpsesEntity</category>
-						<label>FoodTypeFlags_Corpse</label>
-						<texPath>Things/Item/Skull/Skull_a</texPath>
+						<label>SSR_Fuel_CorpsesEntity</label>
+						<texPath>UI/CodexEntries/Fleshbeasts</texPath>
 						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
-					</li-->
+					</li>
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
