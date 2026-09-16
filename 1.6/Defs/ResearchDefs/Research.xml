@@ -220,6 +220,14 @@
 		<baseCost>500</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>MicroelectronicsBasics</li><!-- 微电子基础 -->
+					<li>MultiAnalyzer</li><!-- 多元分析仪 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -238,6 +246,18 @@
 		<researchViewY>0</researchViewY>
 		<modExtensions>
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv" />
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>Brewing</li><!-- 酿酒 -->
+					<li>Stonecutting</li><!-- 岩石切割 -->
+					<li>Smithing</li><!-- 锻造 -->
+					<li>DrugProduction</li><!-- 成瘾品生产 -->
+					<li>Machining</li><!-- 机械加工 -->
+					<li>BiofuelRefining</li><!-- 精炼技术 -->
+					<li>Fabrication</li><!-- 精密装配 -->
+					<li>AdvancedFabrication</li><!-- 高级精密装配 -->
+				</unlockResearchs>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -319,6 +339,16 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>Electricity</li><!-- 电力 -->
+					<li>AirConditioning</li><!-- 空调 -->
+					<li>Batteries</li><!-- 蓄电池 -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">ToxifierGenerator</li><!-- 污染性发电 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -351,6 +381,15 @@
 		<baseCost>2000</baseCost>
 		<researchViewX>4</researchViewX>
 		<researchViewY>0.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>GeothermalPower</li><!-- 地热能 -->
+					<li>SolarPanels</li><!-- 太阳能板 -->
+					<li>WatermillGenerator</li><!-- 水轮发电机 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -594,6 +633,13 @@
 		<baseCost>2000</baseCost>
 		<researchViewX>4</researchViewX>
 		<researchViewY>4.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>DeepDrilling</li><!-- 深钻井 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
