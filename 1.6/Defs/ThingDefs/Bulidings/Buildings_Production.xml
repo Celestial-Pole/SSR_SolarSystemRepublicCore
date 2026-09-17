@@ -2173,6 +2173,7 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
+			<li Class="FS_SSR.Storage.TCP_MarsDocking" />
 		</comps>
 		<rotatable>false</rotatable>
 		<hasInteractionCell>false</hasInteractionCell>
@@ -2329,6 +2330,7 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
+			<li Class="FS_SSR.Storage.TCP_MarsDocking" />
 		</comps>
 		<researchPrerequisites>
 			<li>SSR_Research_BasicMedicine</li>

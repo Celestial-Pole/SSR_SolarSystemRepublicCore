@@ -176,6 +176,7 @@
 		<comps>
 			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
 			<li Class="CompProperties_Flickable"/>
+			<li Class="FS_SSR.Storage.TCP_MarsDocking" />
 		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
