@@ -35,6 +35,7 @@
 			<texPath>Things/Item/Chunk/ChunkStone</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
+		<designateHaulable>true</designateHaulable>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_ResourceBase">
@@ -104,10 +105,10 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="SSR_ChunkRockBase">
+	<ThingDef ParentName="SSR_ResourceBase">
 		<defName>SSR_Item_GeneralStone</defName>
 		<label>粗石料</label>
-		<description>粗石料</description>
+		<description>由石块打包而成的粗石料，为运输与加工提供便利。</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/GeneralStone</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
