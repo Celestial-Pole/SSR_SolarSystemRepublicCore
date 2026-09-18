@@ -156,6 +156,7 @@
 			</li>
 			<li Class="FS_SSR.Power.TCP_LightingRod">
 				<energyPerBolt>20000</energyPerBolt>
+				<strikeOffset>(0, 0, 2.65)</strikeOffset>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				<overlay>
@@ -895,14 +896,14 @@
 						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
 					</li>
-					<!--li MayRequire="Ludeon.RimWorld.Anomaly">
+					<li MayRequire="Ludeon.RimWorld.Anomaly">
 						<group>Corpse</group>
 						<category>CorpsesEntity</category>
-						<label>FoodTypeFlags_Corpse</label>
-						<texPath>Things/Item/Skull/Skull_a</texPath>
+						<label>SSR_Fuel_CorpsesEntity</label>
+						<texPath>UI/CodexEntries/Fleshbeasts</texPath>
 						<fuelValue>2</fuelValue>
 						<pollution>0</pollution>
-					</li-->
+					</li>
 				</fuel>
 				<fuelCapacity>100.0</fuelCapacity>
 				<fuelConsumptionRate>5</fuelConsumptionRate>
@@ -1824,6 +1825,7 @@
 			</li>
 			<li Class="FS_SSR.Power.TCP_LightingRod">
 				<energyPerBolt>3000</energyPerBolt>
+				<strikeOffset>(0, 0, 2.75)</strikeOffset>
 			</li>
 			<li Class="FS_SSR.TCP_GlobalPowerBroadcast" />
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">

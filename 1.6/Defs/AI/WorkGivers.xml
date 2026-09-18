@@ -127,6 +127,20 @@
 		<canBeDoneByMechs>true</canBeDoneByMechs>
 	</WorkGiverDef>
 
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillLaundryBladeLink</defName>
+		<label>整备人格武器</label>
+		<giverClass>FS_SSR.Laundry.WorkGiver_FillLaundryBladeLink</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>整备</verb>
+		<gerund>整备</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
+
 	<!-- ==================================== 复制机 ===================================== -->
 
 	<WorkGiverDef>

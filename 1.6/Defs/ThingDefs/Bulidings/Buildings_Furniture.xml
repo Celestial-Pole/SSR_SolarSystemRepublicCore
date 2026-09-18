@@ -16,9 +16,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
-		<thingCategories>
-			<li>BuildingsMisc</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>3000</WorkToBuild>

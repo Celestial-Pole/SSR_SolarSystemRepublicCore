@@ -66,6 +66,9 @@
 		<fillPercent>1</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<pathCost>50</pathCost>
+		<thingCategories>
+			<li>SSR_Furniture</li>
+		</thingCategories>
 		<comps>
 			<li>
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
@@ -173,6 +176,7 @@
 		<comps>
 			<li Class="FS_SSR.Generic.TCP_RefuableQueue" />
 			<li Class="CompProperties_Flickable"/>
+			<li Class="FS_SSR.Storage.TCP_MarsDocking" />
 		</comps>
 		<modExtensions>
 			<li Class="FS_SSR.Industry.Production.Ext_IgnoreSkillReq" />
