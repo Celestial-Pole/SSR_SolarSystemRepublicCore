@@ -1968,8 +1968,8 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_EquipmentRepairStation</defName>
-		<label>装备维修台</label>
-		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
+		<label>装备整备台</label>
+		<description>装备整备台是一种用于对武器进行维护改造的工作台。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
