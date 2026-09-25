@@ -124,6 +124,7 @@
 	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
 	<SSR_MustHavMapCntAny>地图内必须满足其中一项</SSR_MustHavMapCntAny>
 	<SSR_MustHavLinkedAny>必须有其中一项被科研台链接</SSR_MustHavLinkedAny>
+	<SSR_LinkedResearchUnlocks>联动解锁科技</SSR_LinkedResearchUnlocks>
 
 	<!-- 数据处理中枢 -->
 	<SSR_DataCenterOverseerName>数据处理中枢</SSR_DataCenterOverseerName>
