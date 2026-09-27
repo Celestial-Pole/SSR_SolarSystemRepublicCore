@@ -514,8 +514,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -839,8 +839,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -1013,8 +1013,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1154,8 +1154,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1344,8 +1344,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1506,8 +1506,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1667,8 +1667,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -2694,7 +2694,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_StandardConstructionElement>150</SSR_Item_StandardConstructionElement>
 			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>30</ComponentIndustrial>
 		</costList>
@@ -2743,7 +2743,7 @@
 			<materials>
 				<li>
 					<item>SSR_Item_StandardConstructionElement</item>
-					<amount>150</amount>
+					<amount>100</amount>
 				</li>
 				<li>
 					<item>SSR_Item_SpecialSteel</item>
@@ -2760,7 +2760,7 @@
 			<materials>
 				<li>
 					<item>SSR_Item_StandardConstructionElement</item>
-					<amount>80</amount>
+					<amount>50</amount>
 				</li>
 				<li>
 					<item>SSR_Item_SpecialSteel</item>

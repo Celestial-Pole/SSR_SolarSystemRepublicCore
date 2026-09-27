@@ -57,7 +57,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_HiddenWaterproofConduit</defName>
 		<label>水下隐藏电缆</label>
-		<description>水下隐藏电缆</description>
+		<description>能铺设在浅水或泥地下的隐藏式电缆。</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/PowerConduit_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
