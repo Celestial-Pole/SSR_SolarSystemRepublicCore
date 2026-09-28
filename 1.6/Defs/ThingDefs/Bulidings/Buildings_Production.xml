@@ -818,6 +818,13 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>
+					<li MayRequire="example.author.mod">ExampleMod_AnotherWorkbenchDefName</li>
+				</sourceWorktables>
+			</li>-->
 		</modExtensions>
 	</ThingDef>
 
@@ -1329,6 +1336,9 @@
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_Building_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
+		<building>
+			<isMealSource>true</isMealSource>
+		</building>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticCookingMachine/AutomaticCookingMachine</texPath>

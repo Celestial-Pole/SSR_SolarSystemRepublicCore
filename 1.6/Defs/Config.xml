@@ -42,9 +42,12 @@
 						<!--li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li-->
 					</disallowedThingDefs>
 					<specialFiltersToDisallow>
-						<li>AllowLargeCorpses</li>
 						<li>AllowUnfinished</li>
 					</specialFiltersToDisallow>
+					<!-- 大型尸体筛选与原版储存区一致，仅隐藏，不禁止；未完成品仍禁止入库。 -->
+					<hiddenSpecialFilters>
+						<li>AllowLargeCorpses</li>
+					</hiddenSpecialFilters>
 				</filter>
 			</fixedStorageSettings>
 			<defaultStorageSettings>
@@ -58,14 +61,13 @@
 						<li>Weapons</li>
 						<li>Apparel</li>
 						<li>BodyParts</li>
+						<li>CorpsesMechanoid</li>
 						<li>SSR</li>
 					</categories>
 					<specialFiltersToDisallow>
 						<li>AllowCorpsesColonist</li>
 						<li>AllowCorpsesStranger</li>
 						<li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">AllowCorpsesMechFriendly</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">AllowCorpsesMechEnemy</li>
 						<li MayRequire="Ludeon.RimWorld.Anomaly">AllowCorpsesUnnatural</li>
 						<li>AllowUnfinished</li>
 					</specialFiltersToDisallow>

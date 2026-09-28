@@ -12,3 +12,4 @@
 # **/*_UnitTest/
 # *.pdb
 **/*.log
+/.decompile
