@@ -114,7 +114,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<costList>
-			<SSR_Item_SpecialSteel>300</SSR_Item_SpecialSteel>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
@@ -227,9 +227,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>50</Plasteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<Steel>120</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToBuild>5400</WorkToBuild>
@@ -515,8 +514,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -840,8 +839,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -1014,8 +1013,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1155,8 +1154,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1345,8 +1344,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1507,8 +1506,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1668,8 +1667,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
-			<SSR_Item_SpecialSteel>120</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>70</SSR_Item_SpecialSteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1886,7 +1885,7 @@
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<statBases>
@@ -1969,8 +1968,8 @@
 
 	<ThingDef ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_EquipmentRepairStation</defName>
-		<label>装备维修台</label>
-		<description>装备维修台是一种专用工作站，设计用于快速修复和维护各种装备和武器。</description>
+		<label>装备整备台</label>
+		<description>装备整备台是一种用于对武器进行维护改造的工作台。</description>
 		<thingClass>Building</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -2003,7 +2002,7 @@
 		</statBases>
 		<costList>
 			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<SSR_Item_QuantumComputingCore>1</SSR_Item_QuantumComputingCore>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -2149,7 +2148,7 @@
 		<costList>
 			<SSR_Item_SpecialSteel>50</SSR_Item_SpecialSteel>
 			<SSR_Item_StandardConstructionElement>80</SSR_Item_StandardConstructionElement>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -2695,7 +2694,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Item_StandardConstructionElement>300</SSR_Item_StandardConstructionElement>
+			<SSR_Item_StandardConstructionElement>150</SSR_Item_StandardConstructionElement>
 			<SSR_Item_SpecialSteel>100</SSR_Item_SpecialSteel>
 			<ComponentIndustrial>30</ComponentIndustrial>
 		</costList>
@@ -2744,7 +2743,7 @@
 			<materials>
 				<li>
 					<item>SSR_Item_StandardConstructionElement</item>
-					<amount>150</amount>
+					<amount>100</amount>
 				</li>
 				<li>
 					<item>SSR_Item_SpecialSteel</item>
@@ -2761,7 +2760,7 @@
 			<materials>
 				<li>
 					<item>SSR_Item_StandardConstructionElement</item>
-					<amount>80</amount>
+					<amount>50</amount>
 				</li>
 				<li>
 					<item>SSR_Item_SpecialSteel</item>

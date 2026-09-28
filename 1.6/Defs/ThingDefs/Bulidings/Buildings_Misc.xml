@@ -133,9 +133,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
-			<SSR_Item_StandardConstructionElement>50</SSR_Item_StandardConstructionElement>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>30</SSR_Item_StandardConstructionElement>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>
@@ -207,9 +207,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Item_SpecialSteel>60</SSR_Item_SpecialSteel>
-			<SSR_Item_StandardConstructionElement>50</SSR_Item_StandardConstructionElement>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
+			<SSR_Item_StandardConstructionElement>30</SSR_Item_StandardConstructionElement>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<building>

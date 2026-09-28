@@ -57,7 +57,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_HiddenWaterproofConduit</defName>
 		<label>水下隐藏电缆</label>
-		<description>水下隐藏电缆</description>
+		<description>能铺设在浅水或泥地下的隐藏式电缆。</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/PowerConduit_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -176,7 +176,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MediumSmalBattery</defName>
 		<label>中级小型电池</label>
-		<description>中级小型电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>中级小型电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存1200w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -253,7 +253,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MiddleBattery</defName>
 		<label>中级电池</label>
-		<description>中级电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>中级电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存2500w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -356,7 +356,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_MiddleBigBattery</defName>
 		<label>中级大型电池</label>
-		<description>中级大型电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>中级大型电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存5500w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -434,7 +434,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedSmallBattery</defName>
 		<label>高级小型电池</label>
-		<description>高级小型电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>高级小型电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存2400w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -511,7 +511,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedBattery</defName>
 		<label>高级电池</label>
-		<description>高级电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>高级电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存5000w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
@@ -614,7 +614,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Power">
 		<defName>SSR_Building_AdvancedBigBattery</defName>
 		<label>高级大型电池</label>
-		<description>高级大型电池可储存多余的电力并在电力供给不足时释放电力。</description>
+		<description>高级大型电池可储存多余的电力并在电力供给不足时释放电力，可稳定储存12500w电力。</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingClass>FS_SSR.Industry.Production.SSR_Building_Battery</thingClass>
 		<graphicData>
