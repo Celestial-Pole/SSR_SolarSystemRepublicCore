@@ -18,7 +18,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>SSR_Research</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -74,7 +74,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>SSR_Research</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>700</MaxHitPoints>
@@ -130,7 +130,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>SSR_Research</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>900</MaxHitPoints>
@@ -222,7 +222,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>SSR_Research</li>
 		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -349,7 +349,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>SSR_Research</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>

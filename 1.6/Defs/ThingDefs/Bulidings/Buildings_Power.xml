@@ -880,6 +880,11 @@
 						<fuelValue>1</fuelValue>						<!--每个算多少燃料值-->
 						<pollution>4</pollution>						<!--这种燃料多少污染-->
 					</li>
+					<li MayRequire="fxz.glitterworlddestroyer.mk5">
+						<def>Wastepack_Red</def>
+						<fuelValue>5</fuelValue>
+						<pollution>20</pollution>
+					</li>
 					<li>
 						<group>Corpse</group>
 						<category>CorpsesHumanlike</category>

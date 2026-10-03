@@ -24,6 +24,13 @@
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
+		<defName>SSR_Research</defName>
+		<label>科研建筑</label>
+		<parent>SSR</parent>
+		<iconPath>UI/ThingCategories/Research</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>SSR_Furniture</defName>
 		<label>家具</label>
 		<parent>SSR</parent>

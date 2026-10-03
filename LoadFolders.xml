@@ -10,7 +10,8 @@
 	<v1.6>
 		<li IfModNotActive="MIS.Framework">SoftRely/1.6/AKFrameNotActive</li>
 		<li>1.6</li>
-		<li IfModActive="CETeam.CombatExtended">SoftRely/1.6/CombatExtended</li>
+		<li IfModActive="CETeam.CombatExtended">SoftRely/1.6/OtherMod/CombatExtended</li>
+		<li IfModActive="Aoba.DeadManSwitch.Core">SoftRely/1.6/OtherMod/TheDeadMan'sSwitch</li>
 		<li>/</li>
 	</v1.6>
 

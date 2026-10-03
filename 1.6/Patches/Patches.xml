@@ -62,6 +62,17 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SimpleResearchBench"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>SSR_Building_DataTerminal</li>
+				</linkableFacilities>
+			</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Steel"]/stuffProps/statFactors/Flammability</xpath>
 		<value>

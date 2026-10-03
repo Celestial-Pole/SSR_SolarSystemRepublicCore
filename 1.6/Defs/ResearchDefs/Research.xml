@@ -149,7 +149,6 @@
 		<label>太阳系共和国技术基础</label>
 		<description>允许接入太阳系共和国的数据网络备份，从中学习接下来的科技。</description>
 		<techLevel>Spacer</techLevel>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<!--<techprintCount>1</techprintCount>-->
 		<baseCost>800</baseCost>
 		<researchViewX>0</researchViewX>
@@ -169,7 +168,6 @@
 		<defName>SSR_Research_BasicPhysics</defName>
 		<label>基础物理学</label>
 		<description>基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论，能使派系的科技水平提升至工业时代。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -194,7 +192,6 @@
 		<defName>SSR_Research_BasicMaterialsScience</defName>
 		<label>基础材料学</label>
 		<description>初级的材料科学，简述了常规的材料学技术，包含了一些基础的材料制造工艺。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -204,13 +201,19 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Material</li><!-- 失能机关 先进材料学 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_BasicComputationalScience</defName>
 		<label>基础计算科学</label>
 		<description>基础的计算科学理论，包含了计算机语言、软件开发与硬件设计的知识。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -234,7 +237,6 @@
 		<defName>SSR_Research_BasicManufacturingTechnology</defName>
 		<label>基础制造技术</label>
 		<description>基础的工业自动化机器与生产流程设计知识。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -256,6 +258,8 @@
 					<li>BiofuelRefining</li><!-- 精炼技术 -->
 					<li>Fabrication</li><!-- 精密装配 -->
 					<li>AdvancedFabrication</li><!-- 高级精密装配 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_MechBasis</li><!-- 失能机关 机甲齿轮 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Autofacturer</li><!-- 失能机关 量产制程 -->
 				</unlockResearchs>
 			</li>
 		</modExtensions>
