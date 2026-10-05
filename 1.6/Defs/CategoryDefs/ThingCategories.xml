@@ -24,6 +24,12 @@
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
+		<defName>SSR_Apparel</defName>
+		<label>服装</label>
+		<parent>SSR</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>SSR_Research</defName>
 		<label>科研建筑</label>
 		<parent>SSR</parent>

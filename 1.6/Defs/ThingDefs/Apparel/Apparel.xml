@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingCategoryDef>
-		<defName>SSR_Apparel</defName>
-		<label>太阳系共和国服装</label>
-		<parent>Apparel</parent>
-	</ThingCategoryDef>
-
 	<ThingDef Name="SSR_ApparelCustomBase" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<category>Item</category>
@@ -471,6 +465,7 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		</recipeMaker>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<tags>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
@@ -522,6 +517,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<tags>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
@@ -560,7 +556,6 @@
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -617,7 +612,6 @@
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -674,7 +668,6 @@
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -731,7 +724,6 @@
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -788,7 +780,6 @@
 			<EquipDelay>0.01</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -853,7 +844,6 @@
 			<EquipDelay>0.03</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -930,6 +920,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<tags>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
@@ -964,7 +955,6 @@
 			<EquipDelay>0.3</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 			</bodyPartGroups>
@@ -1026,7 +1016,6 @@
 			<EquipDelay>0.3</EquipDelay>
 		</statBases>
 		<apparel>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 			</bodyPartGroups>
