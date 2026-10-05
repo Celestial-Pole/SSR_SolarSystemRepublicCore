@@ -35,6 +35,14 @@
 		<UIClass>FS_SSR.UI.SSRWindow_MainMenuBG</UIClass>
 	</AK_DLL.UIPrefabDef>
 
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_Replicator</defName>
+		<label>replicator</label>
+		<assetBundle>Replicator/replicatorui</assetBundle>
+		<modelName>ReplicatorUI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_Replicator</UIClass>
+	</AK_DLL.UIPrefabDef>
+
 	<!-- 矿井 -->
 	<!--AK_DLL.UIPrefabDef>
 		<defName>SSR_Prefab_PalMineConsole</defName>

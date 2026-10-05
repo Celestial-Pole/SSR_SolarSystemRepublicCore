@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- 复制机 -->
+	<SSR_Replicator_OpenUI>复制机界面</SSR_Replicator_OpenUI>
+	<SSR_Replicator_OpenUIDesc>打开复制机，查看当前复制任务与材料状态。</SSR_Replicator_OpenUIDesc>
+	<SSR_Replicator_Title>复制机</SSR_Replicator_Title>
+	<SSR_Replicator_QueueTitle>生产队列</SSR_Replicator_QueueTitle>
+	<SSR_Replicator_Unlocked>已解锁配方物品</SSR_Replicator_Unlocked>
+	<SSR_Replicator_Replicable>可复制物品</SSR_Replicator_Replicable>
+	<SSR_Replicator_Search>搜索物品…</SSR_Replicator_Search>
+	<SSR_Replicator_Empty>没有符合条件的配方</SSR_Replicator_Empty>
+	<SSR_Replicator_EmptyQueue>暂无生产任务</SSR_Replicator_EmptyQueue>
+	<SSR_Replicator_ModeTitle>生产模式</SSR_Replicator_ModeTitle>
+	<SSR_Replicator_FixedMode>固定数量</SSR_Replicator_FixedMode>
+	<SSR_Replicator_MaintainMode>维持数量</SSR_Replicator_MaintainMode>
+	<SSR_Replicator_InfiniteMode>无限生产</SSR_Replicator_InfiniteMode>
+	<SSR_Replicator_Count>制造数量</SSR_Replicator_Count>
+	<SSR_Replicator_Time>时间</SSR_Replicator_Time>
+	<SSR_Replicator_Cost>费米消耗量</SSR_Replicator_Cost>
+	<SSR_Replicator_MaintainCount>维持数量</SSR_Replicator_MaintainCount>
+	<SSR_Replicator_Balance>■ 费米余量</SSR_Replicator_Balance>
+	<SSR_Replicator_PauseResume>暂停 / 继续</SSR_Replicator_PauseResume>
+	<SSR_Replicator_Remove>移除任务</SSR_Replicator_Remove>
+	<SSR_Replicator_All>全部</SSR_Replicator_All>
+	<SSR_Replicator_OutputBlocked>产物出口被阻挡，请清理复制机附近空间。</SSR_Replicator_OutputBlocked>
+
+	<!-- 背景设置 -->
+	<SSR_SetBackgroundImage>背景图片设置</SSR_SetBackgroundImage>
+	<SSR_BG_Shuffle>随机播放</SSR_BG_Shuffle>
+	<SSR_BG_Sequential>顺序播放</SSR_BG_Sequential>
+	<SSR_BG_Selected>已设置当前背景：{0}</SSR_BG_Selected>
+	<SSR_BG_LoadFailed>无法加载背景：{0}。请检查图片文件，详细原因见日志。</SSR_BG_LoadFailed>
+	<SSR_BG_PleaseWait>背景仍在准备中，请稍后保存。</SSR_BG_PleaseWait>
+	<SSR_BG_Saved>背景设置已保存。</SSR_BG_Saved>
+	<SSR_BG_SaveFailed>背景设置保存失败，请查看日志。</SSR_BG_SaveFailed>
+	<SSR_BG_UnknownMod>未知模组</SSR_BG_UnknownMod>
+	<SSR_SelectBG>选择背景图</SSR_SelectBG>
+	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
+	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
+	<SSR_RandBG>随机背景图</SSR_RandBG>
+	<SSR_RandBGDesc>随机背景图</SSR_RandBGDesc>
+
+	<!-- 火星仓储 -->
+	<SSR_MarsStorage>仓储系统</SSR_MarsStorage>
+	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
+
+	<!-- 音乐播放器 -->
+	<SSR_MusicCategory_Entry>主菜单音乐</SSR_MusicCategory_Entry>
+	<SSR_MusicCategory_Combat>战斗音乐</SSR_MusicCategory_Combat>
+	<SSR_MusicCategory_Other>其他音乐</SSR_MusicCategory_Other>
+	<SSR_MusicCategory_EndCredits>结局音乐</SSR_MusicCategory_EndCredits>
+	<SSR_ResetMusicQuickMenuSize>恢复音乐播放器 QuickMenu 默认大小</SSR_ResetMusicQuickMenuSize>
+
+	<!-- 矿井控制台 -->
+	<SSR_PalMine>矿井</SSR_PalMine>
+	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
+	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
+	<SSR_PalMine_UpDigLayer>挖掘矿层升级</SSR_PalMine_UpDigLayer>
+	<SSR_PalMine_DigLayer>挖掘矿层</SSR_PalMine_DigLayer>
+	<SSR_PalMine_UpDigTunnel>挖掘矿道升级</SSR_PalMine_UpDigTunnel>
+	<SSR_PalMine_DigTunnel>挖掘矿道</SSR_PalMine_DigTunnel>
+	<SSR_PalMine_UpMineralExcavator>升级挖机</SSR_PalMine_UpMineralExcavator>
+	<SSR_WorkDispatch>工作派遣</SSR_WorkDispatch>
+	<SSR_InterruptWork>停止工作</SSR_InterruptWork>
+	<SSR_CancelUpgrade>取消升级</SSR_CancelUpgrade>
+
+	<!-- 燃料配置 -->
+	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
+	<SSR_Fuel_CorpsesEntity>实体尸体</SSR_Fuel_CorpsesEntity>
+
+	<!-- 电力传输 -->
+	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
+	<SSR_PowerReceiver_SetRequestedPower>设定请求电力</SSR_PowerReceiver_SetRequestedPower>
+	<SSR_PowerReceiver_SetRequestedPowerDesc>设定从无线输电塔请求传输的电量。</SSR_PowerReceiver_SetRequestedPowerDesc>
+
+</LanguageData>

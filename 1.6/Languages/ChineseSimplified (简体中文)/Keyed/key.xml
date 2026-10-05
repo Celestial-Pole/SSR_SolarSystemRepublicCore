@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<SSR_SetBackgroundImage>背景图片设置</SSR_SetBackgroundImage>
-	<SSR_BG_Shuffle>随机播放</SSR_BG_Shuffle>
-	<SSR_BG_Sequential>顺序播放</SSR_BG_Sequential>
-	<SSR_BG_Selected>已设置当前背景：{0}</SSR_BG_Selected>
-	<SSR_BG_LoadFailed>无法加载背景：{0}。请检查图片文件，详细原因见日志。</SSR_BG_LoadFailed>
-	<SSR_BG_PleaseWait>背景仍在准备中，请稍后保存。</SSR_BG_PleaseWait>
-	<SSR_BG_Saved>背景设置已保存。</SSR_BG_Saved>
-	<SSR_BG_SaveFailed>背景设置保存失败，请查看日志。</SSR_BG_SaveFailed>
-	<SSR_BG_UnknownMod>未知模组</SSR_BG_UnknownMod>
 
 	<SSR_Laundry_ToggleBiocodeDesc>打开/关闭生物编码破解功能</SSR_Laundry_ToggleBiocodeDesc>
 	<SSR_Laundry_ToggleRepairDesc>打开/关闭装备维修功能</SSR_Laundry_ToggleRepairDesc>
@@ -78,12 +69,6 @@
 	<!-- 叙事者 -->
 	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
 
-	<!-- 背景图 -->
-	<SSR_SelectBG>选择背景图</SSR_SelectBG>
-	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
-	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
-	<SSR_RandBG>随机背景图</SSR_RandBG>
-	<SSR_RandBGDesc>随机背景图</SSR_RandBGDesc>
 
 	<!-- icmr -->
 	<SSR_ICMR>{0} 号请求材料:</SSR_ICMR>
@@ -92,23 +77,12 @@
 	<DrillProgress>开采进度: {2}%</DrillProgress>
 
 	<!-- 标准化垂直矿井 -->
-	<SSR_PalMine>矿井</SSR_PalMine>
-	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
-	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_Occupied>使用中...</SSR_Occupied>
 	<SSR_PalMine_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_PalMine_CentreUpgrade>
 	<SSR_PalMine_Layer>标准化垂直矿井-矿层工作：{0}</SSR_PalMine_Layer>
 	<SSR_PalMine_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_PalMine_Palmine>
 	<SSR_PalMine_TunnelDug>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_PalMine_TunnelDug>
 	<SSR_PalMine_MaxTunnelCount>矿井最大坑道数量：</SSR_PalMine_MaxTunnelCount>
-	<SSR_PalMine_UpDigLayer>挖掘矿层升级</SSR_PalMine_UpDigLayer>
-	<SSR_PalMine_DigLayer>挖掘矿层</SSR_PalMine_DigLayer>
-	<SSR_PalMine_UpDigTunnel>挖掘矿道升级</SSR_PalMine_UpDigTunnel>
-	<SSR_PalMine_DigTunnel>挖掘矿道</SSR_PalMine_DigTunnel>
-	<SSR_PalMine_UpMineralExcavator>升级挖机</SSR_PalMine_UpMineralExcavator>
-	<SSR_WorkDispatch>工作派遣</SSR_WorkDispatch>
-	<SSR_InterruptWork>停止工作</SSR_InterruptWork>
-	<SSR_CancelUpgrade>取消升级</SSR_CancelUpgrade>
 	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
 	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
 	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
@@ -116,8 +90,6 @@
 	<SSR_WorkFinished>{0} 已完成工作: {1} </SSR_WorkFinished>
 
 	<!-- 火星仓库 -->
-	<SSR_MarsStorage>仓储系统</SSR_MarsStorage>
-	<SSR_OpenMarsStore>打开仓储UI</SSR_OpenMarsStore>
 	<SSR_RemainingCapacity>剩余储存容量: {0} / {1}</SSR_RemainingCapacity>
 
 	<!-- 科研替代需求 -->
@@ -145,10 +117,6 @@
 	<SSR_WirelessPowerTower_Active>无线电力传输塔已激活</SSR_WirelessPowerTower_Active>
 	<SSR_WirelessPowerTower_Inactive>无线电力传输塔未激活</SSR_WirelessPowerTower_Inactive>
 
-	<!-- 电力接收塔 -->
-	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
-	<SSR_PowerReceiver_SetRequestedPower>设定请求电力</SSR_PowerReceiver_SetRequestedPower>
-	<SSR_PowerReceiver_SetRequestedPowerDesc>设定从无线输电塔请求传输的电量。</SSR_PowerReceiver_SetRequestedPowerDesc>
 
 
 	<!-- 洗衣机 -->
@@ -183,18 +151,11 @@
 	<SSR_SwitchHadronCollision>开始/停止粒子对撞</SSR_SwitchHadronCollision>
 	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
 
-	<SSR_SelectFuelList>配置可用燃料</SSR_SelectFuelList>
-	<SSR_Fuel_CorpsesEntity>实体尸体</SSR_Fuel_CorpsesEntity>
 
 	<!-- 空调 -->
 	<SSR_AirConditionerIndoor_MustBeIndoors>空调内机必须放置在室内。</SSR_AirConditionerIndoor_MustBeIndoors>
 	<SSR_AirConditionerOutdoor_MustBeOutdoors>空调外机必须放置在室外。</SSR_AirConditionerOutdoor_MustBeOutdoors>
 	<SSR_AirConditionerIndoor_Connect>外机连接：{0}</SSR_AirConditionerIndoor_Connect>
 
-	<!-- 音乐播放器 -->
-	<SSR_MusicCategory_Entry>主菜单音乐</SSR_MusicCategory_Entry>
-	<SSR_MusicCategory_Combat>战斗音乐</SSR_MusicCategory_Combat>
-	<SSR_MusicCategory_Other>其他音乐</SSR_MusicCategory_Other>
-	<SSR_MusicCategory_EndCredits>结局音乐</SSR_MusicCategory_EndCredits>
 
 </LanguageData>
