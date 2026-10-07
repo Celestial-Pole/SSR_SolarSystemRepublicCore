@@ -12,9 +12,6 @@
 	<SSR_Replicator_Empty>没有符合条件的配方</SSR_Replicator_Empty>
 	<SSR_Replicator_EmptyQueue>暂无生产任务</SSR_Replicator_EmptyQueue>
 	<SSR_Replicator_ModeTitle>生产模式</SSR_Replicator_ModeTitle>
-	<SSR_Replicator_FixedMode>固定数量</SSR_Replicator_FixedMode>
-	<SSR_Replicator_MaintainMode>维持数量</SSR_Replicator_MaintainMode>
-	<SSR_Replicator_InfiniteMode>无限生产</SSR_Replicator_InfiniteMode>
 	<SSR_Replicator_Count>制造数量</SSR_Replicator_Count>
 	<SSR_Replicator_Time>时间</SSR_Replicator_Time>
 	<SSR_Replicator_Cost>费米消耗量</SSR_Replicator_Cost>
@@ -23,7 +20,6 @@
 	<SSR_Replicator_PauseResume>暂停 / 继续</SSR_Replicator_PauseResume>
 	<SSR_Replicator_Remove>移除任务</SSR_Replicator_Remove>
 	<SSR_Replicator_All>全部</SSR_Replicator_All>
-	<SSR_Replicator_OutputBlocked>产物出口被阻挡，请清理复制机附近空间。</SSR_Replicator_OutputBlocked>
 
 	<!-- 背景设置 -->
 	<SSR_SetBackgroundImage>背景图片设置</SSR_SetBackgroundImage>

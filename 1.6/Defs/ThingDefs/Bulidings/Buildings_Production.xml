@@ -1844,9 +1844,7 @@
 		</graphicData>
 		<size>(3,2)</size>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>Standable</passability>
 		<blockWind>true</blockWind>
-		<fillPercent>0</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<canOverlapZones>false</canOverlapZones>
@@ -1858,7 +1856,6 @@
 			<Beauty>1</Beauty>
 		</statBases>
 		<building>
-			<isEdifice>false</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>

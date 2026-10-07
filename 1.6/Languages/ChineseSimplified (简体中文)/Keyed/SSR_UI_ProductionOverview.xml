@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <SSR_Production_Title>生产总览</SSR_Production_Title>
+    <SSR_Production_AllSources>全部来源</SSR_Production_AllSources>
+    <SSR_Production_Idle>空闲</SSR_Production_Idle>
+    <SSR_Production_Search>搜索…</SSR_Production_Search>
+    <SSR_Production_LastDay>库存与日产量</SSR_Production_LastDay>
+
+    <!-- 配方与属性 -->
+    <SSR_Production_MoreIngredients>共 {0} 项原料</SSR_Production_MoreIngredients>
+
+    <!-- 清单生产模式 -->
+    <SSR_Production_FixedCount>做 X 次</SSR_Production_FixedCount>
+    <SSR_Production_TargetCount>维持 X 个</SSR_Production_TargetCount>
+    <SSR_Production_Forever>不限次数</SSR_Production_Forever>
+    <SSR_Production_Suspended>工作\n暂停</SSR_Production_Suspended>
+
+    <!-- 清单配置项与小人指派 -->
+    <SSR_Production_SkillRange>工作者技能范围</SSR_Production_SkillRange>
+    <SSR_Production_Automatic>自动生产，无需工作者</SSR_Production_Automatic>
+    <SSR_Production_MarsDestination>火星仓储直传</SSR_Production_MarsDestination>
+    <SSR_Production_MarsBuildingScope>火星仓储直传已启用。</SSR_Production_MarsBuildingScope>
+
+    <!-- 列表空状态提示 -->
+    <SSR_Production_EmptyFacilities>没有符合条件的工作台</SSR_Production_EmptyFacilities>
+    <SSR_Production_EmptySources>暂无工作台来源</SSR_Production_EmptySources>
+    <SSR_Production_EmptyResources>暂无资源储量或产量记录</SSR_Production_EmptyResources>
+    <SSR_Production_EmptyRecipes>没有符合条件的配方</SSR_Production_EmptyRecipes>
+    <SSR_Production_EmptyBills>暂无生产清单</SSR_Production_EmptyBills>
+    <SSR_Production_EmptyWorkers>没有符合条件的工作者</SSR_Production_EmptyWorkers>
+    <SSR_Production_EmptyPresets>暂无预设</SSR_Production_EmptyPresets>
+
+    <!-- 清单反馈 -->
+    <SSR_Production_BillLimit>工作台清单已满，最多 {0} 项。</SSR_Production_BillLimit>
+    <SSR_Production_Copied>已复制 {0} 项清单。</SSR_Production_Copied>
+    <SSR_Production_Applied>已添加 {0} 项清单，跳过 {1} 项（不可用、重复或清单已满）。</SSR_Production_Applied>
+
+    <!-- 预设操作与反馈 -->
+    <SSR_Production_Presets>清单预设</SSR_Production_Presets>
+    <SSR_Production_PresetName>预设名称</SSR_Production_PresetName>
+    <SSR_Production_SavePreset>保存为预设</SSR_Production_SavePreset>
+    <SSR_Production_ApplyPreset>应用预设</SSR_Production_ApplyPreset>
+    <SSR_Production_DeletePreset>删除预设</SSR_Production_DeletePreset>
+    <SSR_Production_PresetScope>保存配方与生产设置，同名预设将被覆盖。应用时追加清单。</SSR_Production_PresetScope>
+    <SSR_Production_InvalidPresetName>预设名称无效或包含非法字符。</SSR_Production_InvalidPresetName>
+    <SSR_Production_InvalidPreset>预设内容无效或格式不受支持，请检查或重新保存预设。</SSR_Production_InvalidPreset>
+    <SSR_Production_PresetSaved>已保存预设：{0}</SSR_Production_PresetSaved>
+    <SSR_Production_PresetDeleted>已删除预设：{0}</SSR_Production_PresetDeleted>
+    <SSR_Production_PresetError>预设文件读写失败。</SSR_Production_PresetError>
+    <SSR_Production_PresetAccessDenied>没有权限访问预设文件。</SSR_Production_PresetAccessDenied>
+
+    <!-- 使用说明 -->
+    <SSR_Production_HelpTitle>生产总览使用说明</SSR_Production_HelpTitle>
+    <SSR_Production_HelpText>查看全局玩家工作台，可按模组来源多选筛选。单击工作台进入清单管理。\n\n单击配方查看属性，双击配方或点击“添加清单”创建任务。长按清单后拖动可调整顺序；双击清单或点击详情可设置生产模式、工作者和产物去向。按 Esc 键返回上一层。\n\n资源区显示跨地图库存（含火星仓储）和最近一个游戏日的实际产量。\n\n可将当前工作台的清单保存为预设，再向支持相应配方的工作台追加清单。</SSR_Production_HelpText>
+
+</LanguageData>

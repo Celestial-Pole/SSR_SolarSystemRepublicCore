@@ -27,8 +27,6 @@
 	<SSR_CrtRepeatMode>当前重复模式</SSR_CrtRepeatMode>
 	<SSR_CurrentPlant>当前设备</SSR_CurrentPlant>
 	<SSR_CurrentLv>当前等级</SSR_CurrentLv>
-	<SSR_WorkAmtLeft>剩余工作量：</SSR_WorkAmtLeft>
-	<SSR_WorkAmtLeftArg>剩余工作量：{0}</SSR_WorkAmtLeftArg>
 	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
 
 	<SSR_EjectBill>中断当前配方</SSR_EjectBill>
@@ -48,7 +46,6 @@
 	<SSR_ActivateNode>激活此节点</SSR_ActivateNode>
 	<SSR_DisableNode>禁用此节点</SSR_DisableNode>
 	<SSR_SecondaryContainer>副桶</SSR_SecondaryContainer>
-	<SSR_EjectContents>弹出内容物</SSR_EjectContents>
 	<SSR_EjectSecondaryContents>副桶弹出内容物</SSR_EjectSecondaryContents>
 	<SSR_UpBuilding>升级建筑</SSR_UpBuilding>
 	<SSR_UpBuildingDesc>升级建筑</SSR_UpBuildingDesc>
@@ -64,6 +61,7 @@
 	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
 	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
 	<SSR_Lv>等级: {0}</SSR_Lv>
+	<SSR_SelectBuildingLevel>选择等级: {0}</SSR_SelectBuildingLevel>
 	<SSR_ExtraMaterialByLevel>该等级需要的额外材料</SSR_ExtraMaterialByLevel>
 
 	<!-- 叙事者 -->
@@ -83,6 +81,8 @@
 	<SSR_PalMine_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_PalMine_Palmine>
 	<SSR_PalMine_TunnelDug>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_PalMine_TunnelDug>
 	<SSR_PalMine_MaxTunnelCount>矿井最大坑道数量：</SSR_PalMine_MaxTunnelCount>
+	<SSR_PalMine_MarsStorageFull>[SSR]矿井尝试优先向仓库存入货物，但仓库容量不足，请尝试扩建仓库</SSR_PalMine_MarsStorageFull>
+	<SSR_PalMine_WithdrawalBlocked>[SSR]矿井在提款时周围过于拥挤，已中止</SSR_PalMine_WithdrawalBlocked>
 	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
 	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
 	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
@@ -116,6 +116,8 @@
 	<SSR_GlobalWirelessPowerTower_Inactive>全球无线电力传输塔未激活</SSR_GlobalWirelessPowerTower_Inactive>
 	<SSR_WirelessPowerTower_Active>无线电力传输塔已激活</SSR_WirelessPowerTower_Active>
 	<SSR_WirelessPowerTower_Inactive>无线电力传输塔未激活</SSR_WirelessPowerTower_Inactive>
+	<SSR_WirelessPowerTower_ActualConsumption>实际消耗电力:{0}</SSR_WirelessPowerTower_ActualConsumption>
+	<SSR_WirelessPowerTower_MentalDefenseActive>精神防护已开启</SSR_WirelessPowerTower_MentalDefenseActive>
 
 
 
