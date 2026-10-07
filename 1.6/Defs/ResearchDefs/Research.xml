@@ -205,6 +205,7 @@
 			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
 				<unlockResearchs>
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Material</li><!-- 失能机关 先进材料学 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Plasfiber</li><!-- 失能机关 人工纤维 -->
 				</unlockResearchs>
 			</li>
 		</modExtensions>
@@ -253,13 +254,16 @@
 					<li>Brewing</li><!-- 酿酒 -->
 					<li>Stonecutting</li><!-- 岩石切割 -->
 					<li>Smithing</li><!-- 锻造 -->
+					<li>PlateArmor</li><!-- 板甲 -->
 					<li>DrugProduction</li><!-- 成瘾品生产 -->
 					<li>Machining</li><!-- 机械加工 -->
 					<li>BiofuelRefining</li><!-- 精炼技术 -->
 					<li>Fabrication</li><!-- 精密装配 -->
 					<li>AdvancedFabrication</li><!-- 高级精密装配 -->
-					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_MechBasis</li><!-- 失能机关 机甲齿轮 -->
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Autofacturer</li><!-- 失能机关 量产制程 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_MechBasis</li><!-- 失能机关 机甲齿轮 -->
+					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_VacuumMaterial</li><!-- 失能机关短征 真空处理 -->
+					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_Microgravity</li><!-- 失能机关短征 微重力生产 -->
 				</unlockResearchs>
 			</li>
 		</modExtensions>
@@ -349,6 +353,7 @@
 					<li>Electricity</li><!-- 电力 -->
 					<li>AirConditioning</li><!-- 空调 -->
 					<li>Batteries</li><!-- 蓄电池 -->
+					<li>Autodoors</li><!-- 自动门 -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">ToxifierGenerator</li><!-- 污染性发电 -->
 				</unlockResearchs>
 			</li>
@@ -772,6 +777,19 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>5.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>PsychiteRefining</li><!-- 精神叶制品提炼 -->
+					<li>WakeUpProduction</li><!-- 清醒丸制作 -->
+					<li>GoJuiceProduction</li><!-- 活力水制作 -->
+					<li>PenoxycylineProduction</li><!-- 佩诺西林制作 -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">FertilityProcedures</li><!-- 生育规范 -->
+					<li>MedicineProduction</li><!-- 医药生产 -->
+					<li>HospitalBed</li><!-- 医疗床 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
