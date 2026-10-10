@@ -35,6 +35,12 @@
 		<parent>SSR</parent>
 		<iconPath>UI/ThingCategories/Research</iconPath>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>SSR_Temperature</defName>
+		<label>温控建筑</label>
+		<parent>SSR</parent>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>SSR_Furniture</defName>

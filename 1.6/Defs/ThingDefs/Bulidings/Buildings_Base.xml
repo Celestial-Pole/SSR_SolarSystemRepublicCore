@@ -170,6 +170,33 @@
 		</modExtensions>
 	</ThingDef>
 
+	<!-- Power -->
+	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Temperature" Abstract="True">
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>false</hasInteractionCell>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<thingCategories>
+			<li>SSR_Temperature</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
+				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
+				<innerCategory>SSR_DesignationInnerCategory_Temperature</innerCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<!-- Furniture -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Furniture" Abstract="True">
 		<passability>PassThroughOnly</passability>

@@ -467,7 +467,7 @@
         <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
-	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
+	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_EFBuilding</defName>
 		<label>地球联邦家具</label>
 		<description>地球联邦风格的家具。</description>
@@ -481,7 +481,7 @@
 		<baseCost>500</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>1.5</researchViewY>
-	</ResearchProjectDef>-->
+	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_EFClothing</defName>
