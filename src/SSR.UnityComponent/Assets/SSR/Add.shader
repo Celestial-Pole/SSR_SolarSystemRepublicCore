@@ -63,7 +63,13 @@
                 if(col.a <= 0.0) discard;
                 i.model.y -= tex2D(_DepthTex, i.uvDepth).x - 0.5;
                 i.model = UnityObjectToClipPos(i.model);
-                depth = i.model.z / i.model.w;
+                // SV_DEPTH expects 0..1 window depth, while OpenGL-style platforms use a -1..1 clip space z/w.
+                float ndcDepth = i.model.z / i.model.w;
+#if UNITY_REVERSED_Z
+                depth = ndcDepth;
+#else
+                depth = ndcDepth * 0.5 + 0.5;
+#endif
 
                 // apply fog
                 return col;

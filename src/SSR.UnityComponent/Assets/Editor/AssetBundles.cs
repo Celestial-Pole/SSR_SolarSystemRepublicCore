@@ -12,75 +12,185 @@ namespace Assets.Editor
 {
     public class AssetBundles
     {
+        /// <summary>被打包的资源根目录，该文件夹上已指定 AssetBundle 名。</summary>
+        const string BundleSourceRoot = "Assets/SSR";
+
+        /// <summary>Bundle 名前缀，实际文件名为 <c>ssr_&lt;平台后缀&gt;</c>。</summary>
+        const string BundleNamePrefix = "ssr";
+
+        sealed class BundlePlatform
+        {
+            public BuildTarget Target;
+            public string Suffix;
+            public string Folder;
+
+            public string BundleName
+            {
+                get { return BundleNamePrefix + "_" + Suffix; }
+            }
+
+            public string OutputDirectory
+            {
+                get { return Path.Combine(OutputRoot, Folder); }
+            }
+        }
+
+        /// <summary>
+        /// 仓库根目录下的 Asset 输出目录。不再用相对路径定位，因为构建进程的工作目录并不固定
+        /// （从命令行启动时就是启动目录）。
+        /// </summary>
+        static string OutputRoot
+        {
+            get
+            {
+                string projectDirectory = Path.GetDirectoryName(Application.dataPath);
+                string repositoryDirectory = Path.GetDirectoryName(Path.GetDirectoryName(projectDirectory));
+                return Path.Combine(repositoryDirectory, "Asset");
+            }
+        }
+
+        static readonly BundlePlatform[] Platforms =
+        {
+            new BundlePlatform { Target = BuildTarget.StandaloneWindows64, Suffix = "windows", Folder = "Windows" },
+            new BundlePlatform { Target = BuildTarget.StandaloneLinux64, Suffix = "linux", Folder = "Linux" },
+            new BundlePlatform { Target = BuildTarget.StandaloneOSX, Suffix = "macos", Folder = "MacOS" },
+        };
+
         /// <summary>
         /// 打包生成所有的AssetBundles（包）
         /// </summary>
         [MenuItem("Assets/Build All Asset Bundles")]
-        public static void BuildAllAB() {
-            // 打包AB输出路径
-            string strABOutPAthDir = "../../Asset";
-
-            // 获取“StreamingAssets”文件夹路径（不一定这个文件夹，可自定义）
-            // strABOutPAthDir = Application.streamingAssetsPath;
-
-            // 判断文件夹是否存在，不存在则新建
-            if (Directory.Exists(strABOutPAthDir) == false)
+        public static void BuildAllAB()
+        {
+            foreach (BundlePlatform platform in Platforms)
             {
-                Directory.CreateDirectory(strABOutPAthDir);
+                BuildPlatform(platform);
             }
-            strABOutPAthDir = "../../Asset/Windows";
-            if (Directory.Exists(strABOutPAthDir) == false)
+        }
+
+        /// <summary>
+        /// 命令行/CI 入口：只打包 <c>-buildTarget</c> 指定的平台，不切换 Active Build Target。
+        /// BuildAssetBundles 会因为目标不同而切换 Active Build Target，而切换会重建编辑器窗口的
+        /// 图形上下文（GUIView::RecreateContext），在 Vulkan 编辑器上这一步会崩溃；批处理模式没有
+        /// 编辑器窗口，因此不会走到这条路径。
+        /// </summary>
+        public static void BuildFromCommandLine()
+        {
+            try
             {
-                Directory.CreateDirectory(strABOutPAthDir);
-            }
-            BuildPipeline.BuildAssetBundles(strABOutPAthDir, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
-            DirectoryInfo diWindows = new DirectoryInfo(strABOutPAthDir);
-            Debug.Log(diWindows.FullName);
-            foreach (FileInfo file in diWindows.GetFiles())
-            {
-                if (!file.Name.ToLower().Contains("_windows"))
+                BundlePlatform platform = FindPlatform(EditorUserBuildSettings.activeBuildTarget);
+                if (platform == null)
                 {
-                    Debug.Log(file.Name);
-                    file.Delete();
+                    Debug.LogErrorFormat("不支持的构建目标：{0}", EditorUserBuildSettings.activeBuildTarget);
+                    EditorApplication.Exit(1);
+                    return;
+                }
+
+                BuildPlatform(platform);
+                EditorApplication.Exit(0);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogError(exception);
+                EditorApplication.Exit(1);
+            }
+        }
+
+        static BundlePlatform FindPlatform(BuildTarget target)
+        {
+            return Platforms.FirstOrDefault(platform => platform.Target == target);
+        }
+
+        static void BuildPlatform(BundlePlatform platform)
+        {
+            string[] assets = ResolveBundleAssets();
+            if (assets.Length == 0)
+            {
+                throw new InvalidOperationException(
+                    "没有找到可打包的资源，请确认 " + BundleSourceRoot + " 上的 AssetBundle 名已设置。");
+            }
+
+            Directory.CreateDirectory(platform.OutputDirectory);
+
+            var build = new AssetBundleBuild
+            {
+                assetBundleName = platform.BundleName,
+                assetNames = assets,
+            };
+
+            AssetBundleManifest manifest = BuildPipeline.BuildAssetBundles(
+                platform.OutputDirectory, new[] { build }, BuildAssetBundleOptions.None, platform.Target);
+
+            if (manifest == null)
+            {
+                throw new InvalidOperationException("BuildAssetBundles 失败：" + platform.BundleName);
+            }
+
+            RemoveStrayFiles(platform);
+            Debug.LogFormat("[AssetBundles] {0} -> {1} （{2} 个资源）",
+                platform.BundleName, platform.OutputDirectory, assets.Length);
+        }
+
+        /// <summary>
+        /// BuildAssetBundles 还会写出以输出目录命名的清单文件，这里只保留
+        /// <c>ssr_&lt;平台&gt;</c> 及其 .manifest，避免把刚构建出来的包删掉。
+        /// </summary>
+        static void RemoveStrayFiles(BundlePlatform platform)
+        {
+            string bundleName = platform.BundleName.ToLowerInvariant();
+            foreach (string file in Directory.GetFiles(platform.OutputDirectory))
+            {
+                string fileName = Path.GetFileName(file).ToLowerInvariant();
+                if (fileName == bundleName || fileName == bundleName + ".manifest")
+                {
+                    continue;
+                }
+
+                Debug.Log("[AssetBundles] 删除多余文件：" + Path.GetFileName(file));
+                File.Delete(file);
+            }
+        }
+
+        /// <summary>取 <see cref="BundleSourceRoot"/> 下需要打包的资源。</summary>
+        static string[] ResolveBundleAssets()
+        {
+            AssetImporter importer = AssetImporter.GetAtPath(BundleSourceRoot);
+            string bundleName = importer == null ? null : importer.assetBundleName;
+            if (!string.IsNullOrEmpty(bundleName))
+            {
+                string[] assigned = AssetDatabase.GetAssetPathsFromAssetBundle(bundleName);
+                if (assigned.Length > 0)
+                {
+                    return Normalize(assigned);
                 }
             }
 
-            strABOutPAthDir = "../../Asset/Linux";
-            if (Directory.Exists(strABOutPAthDir) == false)
+            return Normalize(AssetDatabase.FindAssets(string.Empty, new[] { BundleSourceRoot })
+                .Select(AssetDatabase.GUIDToAssetPath));
+        }
+
+        static string[] Normalize(IEnumerable<string> paths)
+        {
+            return paths.Where(IsBundleableAsset)
+                .Distinct()
+                .OrderBy(path => path, StringComparer.Ordinal)
+                .ToArray();
+        }
+
+        /// <summary>文件夹和 Editor-only 资源（.asmdef 等）不能进 AssetBundle。</summary>
+        static bool IsBundleableAsset(string path)
+        {
+            if (string.IsNullOrEmpty(path) || AssetDatabase.IsValidFolder(path))
             {
-                Directory.CreateDirectory(strABOutPAthDir);
-            }
-            BuildPipeline.BuildAssetBundles(strABOutPAthDir, BuildAssetBundleOptions.None, BuildTarget.StandaloneLinux64);
-            DirectoryInfo diLinux = new DirectoryInfo(strABOutPAthDir);
-            Debug.Log(diWindows.FullName);
-            foreach (FileInfo file in diLinux.GetFiles())
-            {
-                if (!file.Name.ToLower().Contains("_linux"))
-                {
-                    Debug.Log(file.Name);
-                    file.Delete();
-                }
+                return false;
             }
 
-            strABOutPAthDir = "../../Asset/MacOS";
-            if (Directory.Exists(strABOutPAthDir) == false)
+            if (path.EndsWith(".asmdef", StringComparison.OrdinalIgnoreCase))
             {
-                Directory.CreateDirectory(strABOutPAthDir);
-            }
-            BuildPipeline.BuildAssetBundles(strABOutPAthDir, BuildAssetBundleOptions.None, BuildTarget.StandaloneOSX);
-            DirectoryInfo diMacOS = new DirectoryInfo(strABOutPAthDir);
-            Debug.Log(diWindows.FullName);
-            foreach (FileInfo file in diMacOS.GetFiles())
-            {
-                if (!file.Name.ToLower().Contains("_macos"))
-                {
-                    Debug.Log(file.Name);
-                    file.Delete();
-                }
+                return false;
             }
 
-            // 打包生成AB包 (目标平台根据需要设置即可)
-
+            return !path.Split('/').Any(segment => segment.Equals("Editor", StringComparison.OrdinalIgnoreCase));
         }
     }
 

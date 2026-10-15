@@ -58,7 +58,13 @@
                 if(col.w <= 0.0) discard;
                 i.view.z -= (col.x - 0.5) * col.w;
                 i.vertex = UnityViewToClipPos(i.view);
-                depth = i.vertex.z / i.vertex.w;
+                // SV_DEPTH expects 0..1 window depth, while OpenGL-style platforms use a -1..1 clip space z/w.
+                float ndcDepth = i.vertex.z / i.vertex.w;
+#if UNITY_REVERSED_Z
+                depth = ndcDepth;
+#else
+                depth = ndcDepth * 0.5 + 0.5;
+#endif
                 // apply fog
                 return depth;
             }

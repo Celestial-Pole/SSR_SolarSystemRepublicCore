@@ -96,7 +96,13 @@
                 if(col.a < 0.5) discard;
                 i.viewPos.z -= (tex2D(_DepthTex, i.uvDepth).x - 0.5) * _DepthFactor;
                 i.vertex = UnityViewToClipPos(i.viewPos);
-                depth = i.vertex.z / i.vertex.w;
+                // SV_DEPTH expects 0..1 window depth, while OpenGL-style platforms use a -1..1 clip space z/w.
+                float ndcDepth = i.vertex.z / i.vertex.w;
+#if UNITY_REVERSED_Z
+                depth = ndcDepth;
+#else
+                depth = ndcDepth * 0.5 + 0.5;
+#endif
 
                 float4 outColor = float4(col.rgb * ShadingByMatTex(i.normal, i.viewDir).rgb, col.a);
                 // apply fog

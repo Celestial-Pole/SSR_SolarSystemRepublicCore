@@ -183,7 +183,13 @@
                 float2 deeperVert = UnityViewToClipPos(float3(0,0,i.transposVert.z + 10 * sqrt(disSq) * sign(i.transposVert.z))).zw;
                 // float2 deeperVert = UnityViewToClipPos(float3(0,0,i.transposVert.z + (10 * sqrt(disSq) + _OutlineWidth) * sign(i.transposVert.z))).zw;
                 // float2 deeperVert = UnityViewToClipPos(i.transposVert + float3(0,0,10 * (_OutlineWidth - sqrt(outlineWidthSq - disSq)) * sign(i.transposVert.z))).zw;
-                depth = deeperVert.x / deeperVert.y;
+                // SV_DEPTH expects 0..1 window depth, while OpenGL-style platforms use a -1..1 clip space z/w.
+                float ndcDepth = deeperVert.x / deeperVert.y;
+#if UNITY_REVERSED_Z
+                depth = ndcDepth;
+#else
+                depth = ndcDepth * 0.5 + 0.5;
+#endif
 
                 // return i.color;
                 return float4(0,0,0,1);
