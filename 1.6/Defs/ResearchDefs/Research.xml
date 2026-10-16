@@ -264,6 +264,10 @@
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_MechBasis</li><!-- 失能机关 机甲齿轮 -->
 					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_VacuumMaterial</li><!-- 失能机关短征 真空处理 -->
 					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_Microgravity</li><!-- 失能机关短征 微重力生产 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Carpentry</li><!-- 鼠族本体 鼠族木工 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Smithing</li><!-- 鼠族本体 鼠族锻造 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Metallurgy</li><!-- 鼠族本体 鼠族冶金 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_RatkinEngineering</li><!-- 鼠族本体 鼠族机械加工 -->
 				</unlockResearchs>
 			</li>
 		</modExtensions>
@@ -880,6 +884,11 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
 				<bonus>2</bonus>
 			</li>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_FieldTheory</li><!-- 米莉拉本体 场理论 -->
+				</unlockResearchs>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -1425,6 +1434,15 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
 				<techLevel>3</techLevel>
 			</li>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_TailoringBench</li><!-- 米莉拉本体 缝纫工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_UniversalPrinter</li><!-- 米莉拉本体 通用工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_Drones</li><!-- 米莉拉本体 无人机 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace_Build</li><!-- 米莉拉本体 太阳熔炉 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace_Use</li><!-- 米莉拉本体 太阳熔炉锻造 -->
+				</unlockResearchs>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -1443,6 +1461,16 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_SunLightFuelPoweredGenerator</li><!-- 米莉拉本体 日光发电 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunLightFuelGenerator</li><!-- 米莉拉本体 熔盐燃料站 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_ImprovedEnergyConcentrationCircuit</li><!-- 米莉拉本体 改良式聚热回路 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_EffectivePhotoelectricTransform</li><!-- 米莉拉本体 高效光电转化 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">

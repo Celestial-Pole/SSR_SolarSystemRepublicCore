@@ -822,8 +822,13 @@
 			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
 				<sourceWorktables>
 					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
-					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableMachinePrinter</li>
 					<!--<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableAmmoPrinter</li>-->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableMachinePrinter</li><!-- 失能机关 机械冲压机 -->
+					<li MayRequire="BreadMo.Cinders">Cinder_AncientWorkstation</li><!-- 余烬花园的灰姑娘 远古工作站 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricSmithy</li><!-- 鼠族本体 鼠族锻造台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_UniversalBench</li><!-- 米莉拉本体 米莉拉通用工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_DroneBench</li><!-- 米莉拉本体 米莉拉无人机打印架 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace</li><!-- 米莉拉本体 太阳熔炉 -->
 				</sourceWorktables>
 			</li>
 		</modExtensions>
@@ -1331,6 +1336,13 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricTailoringBench</li><!-- 鼠族本体 鼠族裁缝台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_TailoringBench</li><!-- 米莉拉本体 米莉拉缝纫台 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1659,8 +1671,7 @@
 			<!--排他性兼容其他模组工作台配方-->
 			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
 				<sourceWorktables>
-					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
-					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Furnace</li>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Furnace</li><!-- 失能机关 烧结炉 -->
 				</sourceWorktables>
 			</li>
 		</modExtensions>
@@ -1822,9 +1833,8 @@
 			<!--排他性兼容其他模组工作台配方-->
 			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
 				<sourceWorktables>
-					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
-					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_ReactionChamber</li>
-					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableArtifuscle</li>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_ReactionChamber</li><!-- 失能机关 高压反应釜 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableArtifuscle</li><!-- 失能机关 生物培养装置 -->
 				</sourceWorktables>
 			</li>
 		</modExtensions>
