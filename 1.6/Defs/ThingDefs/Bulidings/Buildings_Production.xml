@@ -535,9 +535,11 @@
 			<li>Make_ComponentIndustrial</li>
 			<li>SSR_Recipe_FiveComponentIndustrial</li>
 			<li>SSR_Recipe_TenComponentIndustrial</li>
+			<li>SSR_Recipe_FiftyComponentIndustrial</li>
 			<li>Make_ComponentSpacer</li>
 			<li>SSR_Recipe_FiveComponentSpacer</li>
 			<li>SSR_Recipe_TenComponentSpacer</li>
+			<li>SSR_Recipe_FiftyComponentSpacer</li>
 			<li>SSR_Recipe_ExtremeComponent</li>
 			<li>SSR_Recipe_FiveExtremeComponent</li>
 			<li>SSR_Recipe_TenExtremeComponent</li>
