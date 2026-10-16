@@ -2,7 +2,9 @@
 <Defs>
 	<ResearchTabDef>
 		<defName>SSR_Research</defName>
-		<label>太阳系共和国</label>
+		<label>援助技术目录</label>
+		<generalTitle>太阳系共和国第二十三远航舰队援助技术目录</generalTitle>
+		<generalDescription>来自遥远深空中由共和国第二十三远航舰队传播的体系化科技树，毫无保留地分享着人类文明最宝贵的知识。尽管如此，绝大部分信号接收依旧不相信远航舰队传播这些技术仅仅是因为其声称的人道主义援助，即便他们已经从中获益，而另一部分人则基于同样的顾虑拒绝接收这份来自深空的馈赠，身处边缘世界的你会作何选择呢？</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Name="SSR_ResearchProjectIndustrial" Abstract="true">
@@ -147,7 +149,7 @@
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_BasicTech</defName>
 		<label>太阳系共和国技术基础</label>
-		<description>允许接入太阳系共和国的数据网络备份，从中学习接下来的科技。</description>
+		<description>允许接入太阳系共和国第二十三远航舰队建立的人道主义援助数据网络，从中学习接下来的科技。</description>
 		<techLevel>Spacer</techLevel>
 		<!--<techprintCount>1</techprintCount>-->
 		<baseCost>800</baseCost>
