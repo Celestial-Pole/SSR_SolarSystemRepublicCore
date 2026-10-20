@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 高级人工智能芯片 -->
+  <SSR_AdvancedArtificialIntelligenceChip.label>TODO</SSR_AdvancedArtificialIntelligenceChip.label>
+  <!-- EN: 高级人工智能芯片能够承载完整的强人工智能系统，能够进行复杂的决策、学习和自然语言交互，是人工智能技术的巅峰造物。 -->
+  <SSR_AdvancedArtificialIntelligenceChip.description>TODO</SSR_AdvancedArtificialIntelligenceChip.description>
+  
+  <!-- EN: 反物质储罐 -->
+  <SSR_AntimatterStorageTank.label>TODO</SSR_AntimatterStorageTank.label>
+  <!-- EN: 反物质储罐是一种特殊容器，其中储存和隔离着带反物质，防止它们与其他物质发生反应。 -->
+  <SSR_AntimatterStorageTank.description>TODO</SSR_AntimatterStorageTank.description>
+  
+  <!-- EN: 人工智能芯片 -->
+  <SSR_ArtificialIntelligenceChip.label>TODO</SSR_ArtificialIntelligenceChip.label>
+  <!-- EN: 人工智能芯片可以集成完整的人工智能系统，具备高度自主性和智能处理能力，它们是智能设备和自动化系统的大脑。 -->
+  <SSR_ArtificialIntelligenceChip.description>TODO</SSR_ArtificialIntelligenceChip.description>
+  
+  <!-- EN: 带电粒子储罐 -->
+  <SSR_ChargedParticleStorageTank.label>TODO</SSR_ChargedParticleStorageTank.label>
+  <!-- EN: 带电粒子储罐是一种特殊容器，其中储存和隔离着带电粒子，防止它们与其他物质发生反应。 -->
+  <SSR_ChargedParticleStorageTank.description>TODO</SSR_ChargedParticleStorageTank.description>
+  
+  <!-- EN: 极致零部件 -->
+  <SSR_ExtremeComponent.label>TODO</SSR_ExtremeComponent.label>
+  <!-- EN: 极致零部件是制造精度极高、性能卓越的小型机械或计算组件，是构建最复杂机械设备的关键。 -->
+  <SSR_ExtremeComponent.description>TODO</SSR_ExtremeComponent.description>
+  
+  <!-- EN: 高密度电池 -->
+  <SSR_HighDensityBattery.label>TODO</SSR_HighDensityBattery.label>
+  <!-- EN: 高密度电池通过先进的材料和设计，提供更高的能量存储密度，它们能在较小的体积和重量下存储更多电能。 -->
+  <SSR_HighDensityBattery.description>TODO</SSR_HighDensityBattery.description>
+  
+  <!-- EN: 高能激光发射器 -->
+  <SSR_HighenergyLaserEmitter.label>TODO</SSR_HighenergyLaserEmitter.label>
+  <!-- EN: 高能激光发射器是一种能够产生极高功率激光束的设备，它们能在极短时间内集中巨大能量，实现远距离精确打击或高效率材料加工。 -->
+  <SSR_HighenergyLaserEmitter.description>TODO</SSR_HighenergyLaserEmitter.description>
+  
+  <!-- EN: 高能粒子约束装置 -->
+  <SSR_HighenergyParticleConfinementDevice.label>TODO</SSR_HighenergyParticleConfinementDevice.label>
+  <!-- EN: 高能粒子约束装置是一种先进的科学设备，专门设计用于捕捉和储存高能微观粒子，这些装置能够在极端条件下安全地隔离和维持这些难以捉摸的粒子。 -->
+  <SSR_HighenergyParticleConfinementDevice.description>TODO</SSR_HighenergyParticleConfinementDevice.description>
+  
+  <!-- EN: 集成化量子计算框架 -->
+  <SSR_IntegratedQuantumComputingFramework.label>TODO</SSR_IntegratedQuantumComputingFramework.label>
+  <!-- EN: 集成化量子计算框架是一种将量子计算硬件与软件集成的系统，旨在实现更高效、更可靠的量子信息处理。 -->
+  <SSR_IntegratedQuantumComputingFramework.description>TODO</SSR_IntegratedQuantumComputingFramework.description>
+  
+  <!-- EN: 微型聚变装置 -->
+  <SSR_MiniatureNuclearFusionDevice.label>TODO</SSR_MiniatureNuclearFusionDevice.label>
+  <!-- EN: 微型聚变装置利用惯性聚变原理，能够在极小的空间内实现核聚变反应，产生巨大的能量。 -->
+  <SSR_MiniatureNuclearFusionDevice.description>TODO</SSR_MiniatureNuclearFusionDevice.description>
+  
+  <!-- EN: 中性粒子储罐 -->
+  <SSR_NeutralParticleStorageTank.label>TODO</SSR_NeutralParticleStorageTank.label>
+  <!-- EN: 中性粒子储罐是一种特殊容器，其中储存和隔离着中性粒子，防止它们与其他物质发生反应。 -->
+  <SSR_NeutralParticleStorageTank.description>TODO</SSR_NeutralParticleStorageTank.description>
+  
+  <!-- EN: 核裂变燃料棒 -->
+  <SSR_NuclearFissionFuelRod.label>TODO</SSR_NuclearFissionFuelRod.label>
+  <!-- EN: 核裂变燃料棒是核反应堆中的关键组件，通过受控的核裂变反应释放能量。 -->
+  <SSR_NuclearFissionFuelRod.description>TODO</SSR_NuclearFissionFuelRod.description>
+  
+  <!-- EN: 核聚变燃料储罐 -->
+  <SSR_NuclearFusionFuelStorageTank.label>TODO</SSR_NuclearFusionFuelStorageTank.label>
+  <!-- EN: 核聚变燃料储罐储存着聚变反应所需的氢同位素。 -->
+  <SSR_NuclearFusionFuelStorageTank.description>TODO</SSR_NuclearFusionFuelStorageTank.description>
+  
+  <!-- EN: 光子计算核心 -->
+  <SSR_PhotonComputingCore.label>TODO</SSR_PhotonComputingCore.label>
+  <!-- EN: 光子计算核心利用光子而非电子进行信息处理，能够提供远超量子计算机的速度和效率。 -->
+  <SSR_PhotonComputingCore.description>TODO</SSR_PhotonComputingCore.description>
+  
+  <!-- EN: 精密镜片 -->
+  <SSR_PrecisionLens.label>TODO</SSR_PrecisionLens.label>
+  <!-- EN: 精密镜片是利用高精度技术制造的光学元件，具有极高的表面平滑度和几何精度。它们广泛应用于显微镜、望远镜、相机镜头和激光系统等精密光学设备中。 -->
+  <SSR_PrecisionLens.description>TODO</SSR_PrecisionLens.description>
+  
+  <!-- EN: 量子计算核心 -->
+  <SSR_QuantumComputingCore.label>TODO</SSR_QuantumComputingCore.label>
+  <!-- EN: 量子计算核心利用量子位进行信息处理，通过量子叠加和量子纠缠实现超越传统计算机的计算能力。 -->
+  <SSR_QuantumComputingCore.description>TODO</SSR_QuantumComputingCore.description>
+  
+  <!-- EN: 强电磁铁 -->
+  <SSR_StrongElectromagnet.label>TODO</SSR_StrongElectromagnet.label>
+  <!-- EN: 强电磁铁是一种利用电流产生强大磁场的装置，能够快速吸引或排斥磁性材料，实现精确控制。 -->
+  <SSR_StrongElectromagnet.description>TODO</SSR_StrongElectromagnet.description>
+  
+  <!-- EN: 超导材料 -->
+  <SSR_SuperconductingMaterial.label>TODO</SSR_SuperconductingMaterial.label>
+  <!-- EN: 超导材料是一种在室温条件下能够实现零电阻和完全抗磁性的材料。 -->
+  <SSR_SuperconductingMaterial.description>TODO</SSR_SuperconductingMaterial.description>
+  
+  <!-- EN: 快子储罐 -->
+  <SSR_TachyonStorageTank.label>TODO</SSR_TachyonStorageTank.label>
+  <!-- EN: 快子储罐是一种特殊容器，其中储存和隔离着带快子，防止它们与其他物质发生反应。 -->
+  <SSR_TachyonStorageTank.description>TODO</SSR_TachyonStorageTank.description>
+  
+</LanguageData>

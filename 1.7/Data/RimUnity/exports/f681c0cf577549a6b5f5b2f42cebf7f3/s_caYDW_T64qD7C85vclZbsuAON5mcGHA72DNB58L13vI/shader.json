@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/ColorOnly",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_Color",
+      "displayName": "Color",
+      "type": "Color",
+      "attributes": [],
+      "defaultValue": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_MatTex",
+      "displayName": "Material Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "white",
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Opaque",
+    "Queue": "Transparent"
+  },
+  "states": {
+    "LOD": "100",
+    "Cull": "Off"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "INSTANCING_ON"
+    ]
+  ],
+  "approximations": []
+}

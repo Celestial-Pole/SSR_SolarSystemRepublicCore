@@ -13,3 +13,12 @@
 # *.pdb
 **/*.log
 /.decompile
+
+# 本地开发文件不纳入版本管理
+/Source/
+/Tools/
+/Build-1.7.cmd
+/Docs/
+
+# 资源导出的临时锁文件
+/1.7/Data/RimUnity/.export.lock

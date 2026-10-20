@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "shaderName": "FS_SSR/UI/SharedGrabBlur",
+  "profile": "ui",
+  "uiMasks": true,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_MainTex",
+      "displayName": "Sprite Texture",
+      "type": "2D",
+      "attributes": [
+        "PerRendererData"
+      ],
+      "defaultValue": null,
+      "defaultTexture": "white",
+      "range": null
+    },
+    {
+      "name": "_Color",
+      "displayName": "Tint",
+      "type": "Color",
+      "attributes": [],
+      "defaultValue": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_BlurPercent",
+      "displayName": "Blur Percent",
+      "type": "Range",
+      "attributes": [],
+      "defaultValue": [
+        50
+      ],
+      "defaultTexture": null,
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "_StencilComp",
+      "displayName": "Stencil Comparison",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        8
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_Stencil",
+      "displayName": "Stencil ID",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        0
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_StencilOp",
+      "displayName": "Stencil Operation",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        0
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_StencilWriteMask",
+      "displayName": "Stencil Write Mask",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        255
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_StencilReadMask",
+      "displayName": "Stencil Read Mask",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        255
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_ColorMask",
+      "displayName": "Color Mask",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        15
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_UseUIAlphaClip",
+      "displayName": "Use Alpha Clip",
+      "type": "Float",
+      "attributes": [
+        "Toggle ( UNITY_UI_ALPHACLIP )"
+      ],
+      "defaultValue": [
+        0
+      ],
+      "defaultTexture": null,
+      "range": null
+    }
+  ],
+  "tags": {
+    "Queue": "Transparent",
+    "RenderType": "Transparent"
+  },
+  "states": {
+    "Cull": "Off",
+    "ZWrite": "Off",
+    "ZTest": "Always",
+    "Blend": "SrcAlpha OneMinusSrcAlpha"
+  },
+  "keywords": [],
+  "keywordGroups": [],
+  "approximations": []
+}

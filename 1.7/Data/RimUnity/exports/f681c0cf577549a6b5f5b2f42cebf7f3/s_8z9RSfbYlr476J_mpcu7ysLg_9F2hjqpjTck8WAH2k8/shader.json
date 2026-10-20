@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/Wireframe",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": "triangle-edges",
+  "vertexEntry": "RU_EdgeVertex",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_EqualWidthStroke",
+      "displayName": "Equal width stroke",
+      "type": "Float",
+      "attributes": [
+        "Toggle ( ENABLE_EWS )"
+      ],
+      "defaultValue": [
+        0
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_OutlineWidth",
+      "displayName": "Outline Width",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        0.015625
+      ],
+      "defaultTexture": null,
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Opaque",
+    "Queue": "Transparent-100"
+  },
+  "states": {
+    "LOD": "100",
+    "Cull": "Off",
+    "ZWrite": "Off"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "INSTANCING_ON"
+    ],
+    [
+      "ENABLE_EWS"
+    ]
+  ],
+  "approximations": []
+}

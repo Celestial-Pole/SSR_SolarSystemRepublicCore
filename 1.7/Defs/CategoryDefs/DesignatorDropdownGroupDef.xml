@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>SSR_Designator_ArmouredFloor</defName>
+		<label>装甲地板</label>
+		<iconSource>Placed</iconSource>
+		<useGridMenu>false</useGridMenu>
+	</DesignatorDropdownGroupDef>
+
+</Defs>

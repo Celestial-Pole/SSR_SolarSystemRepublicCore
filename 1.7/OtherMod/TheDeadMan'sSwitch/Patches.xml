@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Things_item/DMS_Recipe[ defName="DMS_Make_Artifuscle"]/recipeUsers</xpath>
+		<value>
+			<li>SSR_Building_MultifunctionalChemicalSynthesizer</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Things_item/DMS_Recipe[ defName="DMS_Make_ArtifuscleMass"]/recipeUsers</xpath>
+		<value>
+			<li>SSR_Building_MultifunctionalChemicalSynthesizer</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Things_item/DMS_Recipe[ defName="DMS_Make_WetWare"]/recipeUsers</xpath>
+		<value>
+			<li>SSR_Building_MultifunctionalChemicalSynthesizer</li>
+		</value>
+	</Operation>-->
+
+</Patch>

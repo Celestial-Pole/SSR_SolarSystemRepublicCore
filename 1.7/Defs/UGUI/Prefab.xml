@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FS_UGUIFramework.ConfigDef>
+		<defName>SSR_Config</defName>
+		<defaultFont>SSR_Font_YouYuan</defaultFont>
+		<label>ssr ui config core</label>
+		<EVSystem>SSR_Prefab_EventSystem</EVSystem>
+	</FS_UGUIFramework.ConfigDef>
+
+	<AK_DLL.UIPrefabDef Name="SSR_UIPrefabBase" Abstract="True">
+		<modID>SSR.Core</modID>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_EventSystem</defName>
+		<label>event system</label>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>EventSystem</modelName>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MusicPlayer</defName>
+		<label>music player</label>
+		<assetBundle>musicplayerui_win</assetBundle>
+		<modelName>MusicPlayer (IMGUI)</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MusicPlayer</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MainMenuBG</defName>
+		<label>main menu background</label>
+		<assetBundle>mainmenubg_win</assetBundle>
+		<modelName>MainMenuBG_Blur (IMGUI)</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MainMenuBG</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_Replicator</defName>
+		<label>replicator</label>
+		<assetBundle>Replicator/replicatorui</assetBundle>
+		<modelName>ReplicatorUI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_Replicator</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<!-- 矿井 -->
+	<!--AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineConsole</defName>
+		<label>palmine console</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>Palmine</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
+	</AK_DLL.UIPrefabDef-->
+
+	<!--AK_DLL.UIPrefabDef>
+		<defName>SSR_Prefab_PalMineStorage</defName>
+		<label>palmine storage</label>
+		<modID>SSR.Core</modID>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>StoreHouse UI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
+	</AK_DLL.UIPrefabDef-->
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_PalMineConsole</defName>
+		<label>palmine console ui</label>
+		<assetBundle>palmineui</assetBundle>
+		<modelName>MineUIConsole</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineConsole</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_PalMineStorage</defName>
+		<label>palmine storage</label>
+		<assetBundle>palmineui</assetBundle>
+		<modelName>MineUIStorage</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PalMineStorage</UIClass>
+	</AK_DLL.UIPrefabDef>
+	<!---->
+
+	<!-- 电力 -->
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_PowerPlantFuel</defName>
+		<label>thermal power plant</label>
+		<assetBundle>powerplantui</assetBundle>
+		<modelName>PowerPlantFuelUI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PowerPlantFuel</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_PowerTransferDialog</defName>
+		<label>power transfer dialog</label>
+		<assetBundle>powerplantui</assetBundle>
+		<modelName>PowerTransferDialog</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_PowerTransferDialog</UIClass>
+	</AK_DLL.UIPrefabDef>
+	<!---->
+
+	<!--AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_SatelliteConsole</defName>
+		<label>satellite console</label>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>Satellite UI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_SatelliteConsole</UIClass>
+	</AK_DLL.UIPrefabDef-->
+
+	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+		<defName>SSR_Prefab_MarsStorage</defName>
+		<label>火星仓库</label>
+		<assetBundle>ssrpalmineui</assetBundle>
+		<modelName>New Mars Storehouse UI</modelName>
+		<UIClass>FS_SSR.UI.SSRWindow_MarsStorage</UIClass>
+	</AK_DLL.UIPrefabDef>
+
+</Defs>

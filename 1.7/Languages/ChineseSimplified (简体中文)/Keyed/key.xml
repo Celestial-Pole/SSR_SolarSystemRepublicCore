@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+	<SSR_Laundry_ToggleBiocodeDesc>打开/关闭生物编码破解功能</SSR_Laundry_ToggleBiocodeDesc>
+	<SSR_Laundry_ToggleRepairDesc>打开/关闭装备维修功能</SSR_Laundry_ToggleRepairDesc>
+	<SSR_Laundry_ToggleBiocode>生物编码破解功能开关</SSR_Laundry_ToggleBiocode>
+	<SSR_Laundry_ToggleRepair>装备维修功能开关</SSR_Laundry_ToggleRepair>
+	<SSR_Laundry_ToggleBladeLink>人格修改功能开关</SSR_Laundry_ToggleBladeLink>
+	<SSR_Laundry_ToggleBladeLinkDesc>打开/关闭人格武器特质修改功能</SSR_Laundry_ToggleBladeLinkDesc>
+	<SSR_SelectBladeLink>人格特质 {0}：{1}</SSR_SelectBladeLink>
+	<SSR_Laundry_NoTargetItem>无符合条件的待处理物品</SSR_Laundry_NoTargetItem>
+	<SSR_Laundry_Repairing>装备维修中</SSR_Laundry_Repairing>
+	<SSR_Laundry_RepairIdle>维修作业待机中</SSR_Laundry_RepairIdle>
+	<SSR_RoofExtinguisher_IncompatibleBuilding>此建筑不可和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_IncompatibleBuilding>
+	<SSR_RoofExtinguisher_MustBeUnderRoof>灭火器必须挂载于屋顶下</SSR_RoofExtinguisher_MustBeUnderRoof>
+	<SSR_RoofExtinguisher_MustBeWalkable>灭火器必须建在可通行的区域</SSR_RoofExtinguisher_MustBeWalkable>
+	<SSR_RoofExtinguisher_RequiresExtinguisher>此建筑必须和屋顶挂载灭火器放在同一格</SSR_RoofExtinguisher_RequiresExtinguisher>
+	<SSR_HydroGenerator_MustBeOnWater>水力发电机必须全部占地位于水体中。</SSR_HydroGenerator_MustBeOnWater>
+	<SSR_Message_SpaceElevDestry>信息：太空电梯被摧毁</SSR_Message_SpaceElevDestry>
+	<SSR_Destroyed>被摧毁</SSR_Destroyed>
+	<SSR_SelectPlant>选择设备</SSR_SelectPlant>
+	<SSR_Unselected>未选中</SSR_Unselected>
+	<SSR_SelectPlantDesc>请选择设备</SSR_SelectPlantDesc>
+	<SSR_SwitchLayerDesc>切换等级</SSR_SwitchLayerDesc>
+	<SSR_SwitchRepeatModeDesc>切换重复模式</SSR_SwitchRepeatModeDesc>
+	<SSR_CrtRepeatMode>当前重复模式</SSR_CrtRepeatMode>
+	<SSR_CurrentPlant>当前设备</SSR_CurrentPlant>
+	<SSR_CurrentLv>当前等级</SSR_CurrentLv>
+	<SSR_WorkAmtGenericArg>工作量：{0} / {1}</SSR_WorkAmtGenericArg>
+
+	<SSR_EjectBill>中断当前配方</SSR_EjectBill>
+	<SSR_AutoWorkbench_ToggleStorage>打开/关闭仓储对接</SSR_AutoWorkbench_ToggleStorage>
+	<SSR_AutoWorkbench_ToggleStorageDesc>当地图上存在仓储建筑时，是否将产物自动送入仓储</SSR_AutoWorkbench_ToggleStorageDesc>
+	<SSR_AutoWorkbench_WaitingForBill>等待可行配方……</SSR_AutoWorkbench_WaitingForBill>
+	<SSR_AutoWorkbench_WaitingForIngredient>等待材料：{0} × {1}</SSR_AutoWorkbench_WaitingForIngredient>
+
+	<SSR_TargetQuality>目标品质：</SSR_TargetQuality>
+	<SSR_SwitchTo>切换至：</SSR_SwitchTo>
+	<SSR_NoRecipe>没有配方：</SSR_NoRecipe>
+	<SSR_ConnectedTo>已连接至：</SSR_ConnectedTo>
+	<SSR_Disconnect></SSR_Disconnect>
+	<SSR_ConnectTo>连接至：</SSR_ConnectTo>
+	<SSR_ChangeAliasDesc>变更别称</SSR_ChangeAliasDesc>
+	<SSR_ChangeAlias>变更别称</SSR_ChangeAlias>
+	<SSR_ActivateNode>激活此节点</SSR_ActivateNode>
+	<SSR_DisableNode>禁用此节点</SSR_DisableNode>
+	<SSR_SecondaryContainer>副桶</SSR_SecondaryContainer>
+	<SSR_EjectSecondaryContents>副桶弹出内容物</SSR_EjectSecondaryContents>
+	<SSR_UpBuilding>升级建筑</SSR_UpBuilding>
+	<SSR_UpBuildingDesc>升级建筑</SSR_UpBuildingDesc>
+	<SSR_CancelUpBuilding>取消升级</SSR_CancelUpBuilding>
+	<SSR_CancelUpBuildingDesc>取消升级</SSR_CancelUpBuildingDesc>
+	<SSR_DebugUpgradeBuilding>升级建筑</SSR_DebugUpgradeBuilding>
+	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
+	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>
+	<SSR_DupMapBuilding>当前地图内重复的建筑</SSR_DupMapBuilding>
+	<SSR_ShowFireSprinklerLayer>显示消防花洒层</SSR_ShowFireSprinklerLayer>
+	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
+	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>
+	<SSR_Info_GlobalReseachSpd>全局科研加成：{0}</SSR_Info_GlobalReseachSpd>
+	<SSR_CantPlaceCategory>不能直接建造分类，请选择需要建造的建筑再放置蓝图</SSR_CantPlaceCategory>
+	<SSR_Lv>等级: {0}</SSR_Lv>
+	<SSR_SelectBuildingLevel>选择等级: {0}</SSR_SelectBuildingLevel>
+	<SSR_ExtraMaterialByLevel>该等级需要的额外材料</SSR_ExtraMaterialByLevel>
+
+	<!-- 叙事者 -->
+	<SSR_Notify_DailyReseachBonus>由于推进了 {0} 点研究进度，获得了来自雅典娜的奖励。</SSR_Notify_DailyReseachBonus>
+
+
+	<!-- icmr -->
+	<SSR_ICMR>{0} 号请求材料:</SSR_ICMR>
+
+	<!-- 自动深钻井 -->
+	<DrillProgress>开采进度: {2}%</DrillProgress>
+
+	<!-- 标准化垂直矿井 -->
+	<SSR_Occupied>使用中...</SSR_Occupied>
+	<SSR_PalMine_CentreUpgrade>标准化垂直矿井-中心升级：{0}</SSR_PalMine_CentreUpgrade>
+	<SSR_PalMine_Layer>标准化垂直矿井-矿层工作：{0}</SSR_PalMine_Layer>
+	<SSR_PalMine_Palmine>标准化垂直矿井-作业人员：{0}层 {1}隧道</SSR_PalMine_Palmine>
+	<SSR_PalMine_TunnelDug>标准化垂直矿井-隧道挖掘：{0}层 {1}隧道</SSR_PalMine_TunnelDug>
+	<SSR_PalMine_MaxTunnelCount>矿井最大坑道数量：</SSR_PalMine_MaxTunnelCount>
+	<SSR_PalMine_MarsStorageFull>[SSR]矿井尝试优先向仓库存入货物，但仓库容量不足，请尝试扩建仓库</SSR_PalMine_MarsStorageFull>
+	<SSR_PalMine_WithdrawalBlocked>[SSR]矿井在提款时周围过于拥挤，已中止</SSR_PalMine_WithdrawalBlocked>
+	<SSR_PalMine_UpProgress>挖掘矿层自动化升级进度</SSR_PalMine_UpProgress>
+	<SSR_PalMine_NextLayerProgess>下个矿层 ({0}) 挖掘进度</SSR_PalMine_NextLayerProgess>
+	<SSR_PalMine_UpLayerProgess>矿层({0}) 自动化升级进度</SSR_PalMine_UpLayerProgess>
+	<SSR_PalMine_NextTunnelProgess>矿道 {0}-{1} 挖掘进度</SSR_PalMine_NextTunnelProgess>
+	<SSR_WorkFinished>{0} 已完成工作: {1} </SSR_WorkFinished>
+
+	<!-- 火星仓库 -->
+	<SSR_RemainingCapacity>剩余储存容量: {0} / {1}</SSR_RemainingCapacity>
+
+	<!-- 科研替代需求 -->
+	<SSR_MustSatisfyAll>必须满足以下所有</SSR_MustSatisfyAll>
+	<SSR_MustHavMapCntAny>地图内必须满足其中一项</SSR_MustHavMapCntAny>
+	<SSR_MustHavLinkedAny>必须有其中一项被科研台链接</SSR_MustHavLinkedAny>
+	<SSR_LinkedResearchUnlocks>联动解锁科技</SSR_LinkedResearchUnlocks>
+
+	<!-- 数据处理中枢 -->
+	<SSR_DataCenterOverseerName>数据处理中枢</SSR_DataCenterOverseerName>
+	<SSR_AutoPushNextResearchProj>自动科研开关</SSR_AutoPushNextResearchProj>
+	<SSR_AutoPushNextResearchProjDesc>打开/关闭自动科研功能</SSR_AutoPushNextResearchProjDesc>
+	<SSR_RemoveMechDesc>移除机械族</SSR_RemoveMechDesc>
+	<SSR_SelectMechAllDesc>选择全部机械族</SSR_SelectMechAllDesc>
+	<SSR_SelectMechDesc>选择机械族</SSR_SelectMechDesc>
+	<SSR_RemoveMech>移除机械族</SSR_RemoveMech>
+	<SSR_RemoveMechAll>移除全部机械族</SSR_RemoveMechAll>
+	<SSR_SelectMechAll>选择全部机械族</SSR_SelectMechAll>
+	<SSR_SelectMech>选择机械族</SSR_SelectMech>
+	<SSR_CommandSelectMech>选择机械族：{0}</SSR_CommandSelectMech>
+
+	<!-- 无线输电塔 -->
+	<SSR_GlobalWirelessPowerTower_Active>全球无线电力传输塔已激活</SSR_GlobalWirelessPowerTower_Active>
+	<SSR_GlobalWirelessPowerTower_Inactive>全球无线电力传输塔未激活</SSR_GlobalWirelessPowerTower_Inactive>
+	<SSR_WirelessPowerTower_Active>无线电力传输塔已激活</SSR_WirelessPowerTower_Active>
+	<SSR_WirelessPowerTower_Inactive>无线电力传输塔未激活</SSR_WirelessPowerTower_Inactive>
+	<SSR_WirelessPowerTower_ActualConsumption>实际消耗电力:{0}</SSR_WirelessPowerTower_ActualConsumption>
+	<SSR_WirelessPowerTower_MentalDefenseActive>精神防护已开启</SSR_WirelessPowerTower_MentalDefenseActive>
+
+
+
+	<!-- 洗衣机 -->
+	<SSR_Laundry_Toggle>洗衣机开关</SSR_Laundry_Toggle>
+	<SSR_Laundry_ToggleDesc>打开/关闭洗衣机</SSR_Laundry_ToggleDesc>
+	<SSR_Laundry_ToggleDeathStain>洗衣机开关</SSR_Laundry_ToggleDeathStain>
+	<SSR_Laundry_ToggleDeathStainDesc>打开/关闭洗衣机</SSR_Laundry_ToggleDeathStainDesc>
+	<SSR_Laundry_Cleaning>清洁中</SSR_Laundry_Cleaning>
+	<SSR_Laundry_Idle>待机中</SSR_Laundry_Idle>
+	<SSR_LaundryWork>工作进度 {0} / {1}</SSR_LaundryWork>
+
+	<!-- 传送板 -->
+	<SSR_TelePadThrow>全球传送</SSR_TelePadThrow>
+	<SSR_TelePadThrowDesc>全球范围传送</SSR_TelePadThrowDesc>
+	<SSR_TelePadThrowLocal>本地传送</SSR_TelePadThrowLocal>
+	<SSR_TelePadThrowLocalDesc>本地图内传送</SSR_TelePadThrowLocalDesc>
+	<SSR_TelePadRetrieve>全球回传</SSR_TelePadRetrieve>
+	<SSR_TelePadRetrieveDesc>全球范围回传目标</SSR_TelePadRetrieveDesc>
+	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
+	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
+
+	<SSR_NextHarvest>距离下次收获: {0}</SSR_NextHarvest>
+
+	<SSR_NanoDup>纳米微械复材自增殖</SSR_NanoDup>
+	<SSR_NanoDupDesc>指定一个物体，将其消耗变成等重纳米材料</SSR_NanoDupDesc>
+	<SSR_NanoExceedLimit>达到增殖质量上限</SSR_NanoExceedLimit>
+	<SSR_TargetReject>无法指定 {0}</SSR_TargetReject>
+
+	<SSR_WorkEfficiency>工作效率</SSR_WorkEfficiency>
+	<SSR_ToggleCommandSwitch>打开/关闭{0}</SSR_ToggleCommandSwitch>
+
+	<SSR_SwitchHadronCollision>开始/停止粒子对撞</SSR_SwitchHadronCollision>
+	<SSR_SwitchHadronCollisionDesc>开始/停止粒子对撞</SSR_SwitchHadronCollisionDesc>
+
+
+	<!-- 空调 -->
+	<SSR_AirConditionerIndoor_MustBeIndoors>空调内机必须放置在室内。</SSR_AirConditionerIndoor_MustBeIndoors>
+	<SSR_AirConditionerOutdoor_MustBeOutdoors>空调外机必须放置在室外。</SSR_AirConditionerOutdoor_MustBeOutdoors>
+	<SSR_AirConditionerIndoor_Connect>外机连接：{0}</SSR_AirConditionerIndoor_Connect>
+
+
+</LanguageData>

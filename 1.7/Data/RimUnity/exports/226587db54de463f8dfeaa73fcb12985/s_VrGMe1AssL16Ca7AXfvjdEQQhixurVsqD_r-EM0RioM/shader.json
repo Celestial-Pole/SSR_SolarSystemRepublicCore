@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/CutOut",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_MainTex",
+      "displayName": "Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "white",
+      "range": null
+    },
+    {
+      "name": "_MatTex",
+      "displayName": "Material Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "white",
+      "range": null
+    },
+    {
+      "name": "_DepthTex",
+      "displayName": "Depth Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "gray",
+      "range": null
+    },
+    {
+      "name": "_DepthFactor",
+      "displayName": "Depth Factor",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Opaque",
+    "Queue": "Transparent"
+  },
+  "states": {
+    "LOD": "100",
+    "Cull": "Off"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "INSTANCING_ON"
+    ]
+  ],
+  "approximations": []
+}

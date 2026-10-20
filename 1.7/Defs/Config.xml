@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Def Class="FS_SSR.ConfigDef">
+		<defName>SSR_Config</defName>
+		<predictableIncidents>			<!-- 可被预知卫星预知的事件 -->
+			<li>ToxicFallout</li>
+		</predictableIncidents>
+		<particleSatelliteAwards>			<!-- 粒子收集卫星出货的权重 -->
+			<li>
+				<item>Steel</item>
+				<amount>20</amount>
+				<weight>1</weight>
+			</li>
+		</particleSatelliteAwards>
+		<interceptableSkyfaller>			<!-- 可被拦截卫星拦截的天坠物 -->
+			<!--<li>DropPodIncomingMechanoid</li>-->
+			<li>ShipChunkIncoming</li>
+		</interceptableSkyfaller>
+		<palmineDefaultMineralProp>			<!-- 帕鲁矿井的矿物的默认属性 -->
+			<workAmount>7500</workAmount>
+			<yield>75</yield>
+			<stockPerTunnel>50000</stockPerTunnel>
+			<innerStorageCapacity>1000000</innerStorageCapacity>
+		</palmineDefaultMineralProp>
+		<mentalDefenseTechRequire>SSR_Research_MentalProtectionTechnology</mentalDefenseTechRequire>		<!-- TCP_MapImmueMentalStates需要有这个科技才生效 -->
+		<marsStorage>
+			<storageGroupTag>MarsStorage</storageGroupTag>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<!--li>Corpses</li-->
+						<!--li>Chunks</li-->
+						<!--li>Plants</li>
+						<li>Buildings</li-->
+					</disallowedCategories>
+					<disallowedThingDefs>
+						<!--li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li-->
+					</disallowedThingDefs>
+					<specialFiltersToDisallow>
+						<li>AllowUnfinished</li>
+					</specialFiltersToDisallow>
+					<!-- 大型尸体筛选与原版储存区一致，仅隐藏，不禁止；未完成品仍禁止入库。 -->
+					<hiddenSpecialFilters>
+						<li>AllowLargeCorpses</li>
+					</hiddenSpecialFilters>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>Manufactured</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Weapons</li>
+						<li>Apparel</li>
+						<li>BodyParts</li>
+						<li>CorpsesMechanoid</li>
+						<li>SSR</li>
+					</categories>
+					<specialFiltersToDisallow>
+						<li>AllowCorpsesColonist</li>
+						<li>AllowCorpsesStranger</li>
+						<li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">AllowCorpsesUnnatural</li>
+						<li>AllowUnfinished</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</defaultStorageSettings>
+		</marsStorage>
+	</Def>
+
+</Defs>

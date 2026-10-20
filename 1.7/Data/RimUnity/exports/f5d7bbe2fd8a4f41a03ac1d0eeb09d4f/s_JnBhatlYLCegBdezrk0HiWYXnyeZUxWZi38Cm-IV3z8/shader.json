@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/WormHole",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": "background",
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_MainTex",
+      "displayName": "Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "black",
+      "range": null
+    },
+    {
+      "name": "warpMap",
+      "displayName": "warpMap",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "white",
+      "range": null
+    },
+    {
+      "name": "sizeIn",
+      "displayName": "size in",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        0.5
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "sizeOut",
+      "displayName": "size out",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Transparent"
+  },
+  "states": {
+    "LOD": "100"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "FOG_LINEAR",
+      "FOG_EXP",
+      "FOG_EXP2"
+    ]
+  ],
+  "approximations": [
+    "GrabPass 按渲染队列共享一次场景快照，不逐对象重复抓取。"
+  ]
+}

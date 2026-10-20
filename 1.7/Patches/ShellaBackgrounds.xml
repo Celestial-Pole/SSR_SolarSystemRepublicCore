@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Royalty" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Royalty"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Royalty</defName>
+							<label>Shella Royalty</label>
+							<texPath>MenuBG_Royalty</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Ideology" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Ideology"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Ideology</defName>
+							<label>Shella Ideology</label>
+							<texPath>MenuBG_Ideology</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Biotech" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Biotech"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Biotech</defName>
+							<label>Shella Biotech</label>
+							<texPath>MenuBG_Biotech</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Anomaly" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Anomaly"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Anomaly</defName>
+							<label>Shella Anomaly</label>
+							<texPath>MenuBG_Anomaly</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Rabbie_Dragonian" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Rabbie_Dragonian"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Rabbie_Dragonian</defName>
+							<label>Shella Rabbie and Dragonian</label>
+							<texPath>MenuBG_Rab_and_Dra</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Mincho_Moyo" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Mincho_Moyo"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Mincho_Moyo</defName>
+							<label>Shella Mincho and Moyo</label>
+							<texPath>MenuBG_Mincho_Moyo</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Kiiro_Miho" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Kiiro_Miho"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Kiiro_Miho</defName>
+							<label>Shella Kiiro and Miho</label>
+							<texPath>MenuBG_Kiiro_Miho</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Kurin_Ratkin" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Kurin_Ratkin"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Kurin_Ratkin</defName>
+							<label>Shella Kurin and Ratkin</label>
+							<texPath>MenuBG_Kurin_Ratkin</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_R_D_K" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_R_D_K"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_R_D_K</defName>
+							<label>Shella Kurin Dragonian Ratkin</label>
+							<texPath>MenuBG_R&amp;D&amp;K</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Milira_MoeLotl" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Milira_MoeLotl"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Milira_MoeLotl</defName>
+							<label>Shella Milira and MoeLotl</label>
+							<texPath>MenuBG_Milira_MoeLotl</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Moosesian_Crowju" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Moosesian_Crowju"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Moosesian_Crowju</defName>
+							<label>Shella Moosesian and Crowju</label>
+							<texPath>MenuBG_Moosesian_Crowju</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_DMS_Cinders" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_DMS_Cinders"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_DMS_Cinders</defName>
+							<label>Shella DMS and Cinders</label>
+							<texPath>MenuBG_DMS_Cinders</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Erica_Aquila_Maru" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Erica_Aquila_Maru"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Erica_Aquila_Maru</defName>
+							<label>Shella Erica Aquila Maru</label>
+							<texPath>MenuBG_Erica_Aquila_Maru</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ShellaBackgrounds.Shella_BackgroundDef[defName="Shella_Odyssey" and not(/Defs/FS_SSR.Backgrounds.MainMenuBGDef[defName="SSR_BG_Shella_Odyssey"])]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FS_SSR.Backgrounds.MainMenuBGDef>
+							<modID>stm.ShellaBackgrounds</modID>
+							<defName>SSR_BG_Shella_Odyssey</defName>
+							<label>Shella Odyssey</label>
+							<texPath>MenuBG_Odyssey</texPath>
+						</FS_SSR.Backgrounds.MainMenuBGDef>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 制造超织物 x100 -->
+  <SSR_Recipe_HundredHyperweave.label>TODO</SSR_Recipe_HundredHyperweave.label>
+  <!-- EN: 制造一百块超织物。 -->
+  <SSR_Recipe_HundredHyperweave.description>TODO</SSR_Recipe_HundredHyperweave.description>
+  <!-- EN: 正在制造一百块超织物。 -->
+  <SSR_Recipe_HundredHyperweave.jobString>TODO</SSR_Recipe_HundredHyperweave.jobString>
+  
+  <!-- EN: 制造玻璃钢 x100 -->
+  <SSR_Recipe_HundredPlasteel.label>TODO</SSR_Recipe_HundredPlasteel.label>
+  <!-- EN: 制造一百块玻璃钢。 -->
+  <SSR_Recipe_HundredPlasteel.description>TODO</SSR_Recipe_HundredPlasteel.description>
+  <!-- EN: 正在制造一百块玻璃钢。 -->
+  <SSR_Recipe_HundredPlasteel.jobString>TODO</SSR_Recipe_HundredPlasteel.jobString>
+  
+  <!-- EN: 制造合成纤维 x100 -->
+  <SSR_Recipe_HundredSynthread.label>TODO</SSR_Recipe_HundredSynthread.label>
+  <!-- EN: 制造一百块合成纤维。 -->
+  <SSR_Recipe_HundredSynthread.description>TODO</SSR_Recipe_HundredSynthread.description>
+  <!-- EN: 正在制造一百块合成纤维。 -->
+  <SSR_Recipe_HundredSynthread.jobString>TODO</SSR_Recipe_HundredSynthread.jobString>
+  
+  <!-- EN: 制造超织物 -->
+  <SSR_Recipe_Hyperweave.label>TODO</SSR_Recipe_Hyperweave.label>
+  <!-- EN: 制造超织物。 -->
+  <SSR_Recipe_Hyperweave.description>TODO</SSR_Recipe_Hyperweave.description>
+  <!-- EN: 正在制造超织物。 -->
+  <SSR_Recipe_Hyperweave.jobString>TODO</SSR_Recipe_Hyperweave.jobString>
+  
+  <!-- EN: 制造玻璃钢 -->
+  <SSR_Recipe_Plasteel.label>TODO</SSR_Recipe_Plasteel.label>
+  <!-- EN: 制造玻璃钢。 -->
+  <SSR_Recipe_Plasteel.description>TODO</SSR_Recipe_Plasteel.description>
+  <!-- EN: 正在制造玻璃钢。 -->
+  <SSR_Recipe_Plasteel.jobString>TODO</SSR_Recipe_Plasteel.jobString>
+  
+  <!-- EN: 制造合成纤维 -->
+  <SSR_Recipe_Synthread.label>TODO</SSR_Recipe_Synthread.label>
+  <!-- EN: 制造合成纤维。 -->
+  <SSR_Recipe_Synthread.description>TODO</SSR_Recipe_Synthread.description>
+  <!-- EN: 正在制造合成纤维。 -->
+  <SSR_Recipe_Synthread.jobString>TODO</SSR_Recipe_Synthread.jobString>
+  
+  <!-- EN: 制造超织物 x10 -->
+  <SSR_Recipe_TenHyperweave.label>TODO</SSR_Recipe_TenHyperweave.label>
+  <!-- EN: 制造十块超织物。 -->
+  <SSR_Recipe_TenHyperweave.description>TODO</SSR_Recipe_TenHyperweave.description>
+  <!-- EN: 正在制造十块超织物。 -->
+  <SSR_Recipe_TenHyperweave.jobString>TODO</SSR_Recipe_TenHyperweave.jobString>
+  
+  <!-- EN: 制造玻璃钢 x10 -->
+  <SSR_Recipe_TenPlasteel.label>TODO</SSR_Recipe_TenPlasteel.label>
+  <!-- EN: 制造十块玻璃钢。 -->
+  <SSR_Recipe_TenPlasteel.description>TODO</SSR_Recipe_TenPlasteel.description>
+  <!-- EN: 正在制造十块玻璃钢。 -->
+  <SSR_Recipe_TenPlasteel.jobString>TODO</SSR_Recipe_TenPlasteel.jobString>
+  
+  <!-- EN: 制造合成纤维 x10 -->
+  <SSR_Recipe_TenSynthread.label>TODO</SSR_Recipe_TenSynthread.label>
+  <!-- EN: 制造十块合成纤维。 -->
+  <SSR_Recipe_TenSynthread.description>TODO</SSR_Recipe_TenSynthread.description>
+  <!-- EN: 正在制造十块合成纤维。 -->
+  <SSR_Recipe_TenSynthread.jobString>TODO</SSR_Recipe_TenSynthread.jobString>
+  
+</LanguageData>

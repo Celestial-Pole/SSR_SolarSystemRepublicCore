@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 搬运材料 -->
+  <SSR_WorkGiver_FillBuildingGeneric.label>TODO</SSR_WorkGiver_FillBuildingGeneric.label>
+  <!-- EN: 搬运 -->
+  <SSR_WorkGiver_FillBuildingGeneric.gerund>TODO</SSR_WorkGiver_FillBuildingGeneric.gerund>
+  <!-- EN: 搬运 -->
+  <SSR_WorkGiver_FillBuildingGeneric.verb>TODO</SSR_WorkGiver_FillBuildingGeneric.verb>
+  
+  <!-- EN: 清除生物编码 -->
+  <SSR_WorkGiver_FillLaundryBiocode.label>TODO</SSR_WorkGiver_FillLaundryBiocode.label>
+  <!-- EN: 清除生物编码 -->
+  <SSR_WorkGiver_FillLaundryBiocode.gerund>TODO</SSR_WorkGiver_FillLaundryBiocode.gerund>
+  <!-- EN: 清除生物编码 -->
+  <SSR_WorkGiver_FillLaundryBiocode.verb>TODO</SSR_WorkGiver_FillLaundryBiocode.verb>
+  
+  <!-- EN: 修理衣物 -->
+  <SSR_WorkGiver_FillLaundryRepair.label>TODO</SSR_WorkGiver_FillLaundryRepair.label>
+  <!-- EN: 修理衣物 -->
+  <SSR_WorkGiver_FillLaundryRepair.gerund>TODO</SSR_WorkGiver_FillLaundryRepair.gerund>
+  <!-- EN: 修理衣物 -->
+  <SSR_WorkGiver_FillLaundryRepair.verb>TODO</SSR_WorkGiver_FillLaundryRepair.verb>
+  
+  <!-- EN: 清洗衣物 -->
+  <SSR_WorkGiver_FillLaundryStain.label>TODO</SSR_WorkGiver_FillLaundryStain.label>
+  <!-- EN: 清洗衣物 -->
+  <SSR_WorkGiver_FillLaundryStain.gerund>TODO</SSR_WorkGiver_FillLaundryStain.gerund>
+  <!-- EN: 清洗衣物 -->
+  <SSR_WorkGiver_FillLaundryStain.verb>TODO</SSR_WorkGiver_FillLaundryStain.verb>
+  
+  <!-- EN: 操作建筑 -->
+  <SSR_WorkGiver_OperateBuildingGeneric.label>TODO</SSR_WorkGiver_OperateBuildingGeneric.label>
+  <!-- EN: 操作 -->
+  <SSR_WorkGiver_OperateBuildingGeneric.gerund>TODO</SSR_WorkGiver_OperateBuildingGeneric.gerund>
+  <!-- EN: 操作 -->
+  <SSR_WorkGiver_OperateBuildingGeneric.verb>TODO</SSR_WorkGiver_OperateBuildingGeneric.verb>
+  
+</LanguageData>

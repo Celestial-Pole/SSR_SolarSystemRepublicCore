@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/DepthMaskForce",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_MainTex",
+      "displayName": "Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "gray",
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Opaque",
+    "Queue": "Transparent"
+  },
+  "states": {
+    "LOD": "100",
+    "Blend": "Zero One",
+    "ZTest": "Always"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "INSTANCING_ON"
+    ]
+  ],
+  "approximations": []
+}

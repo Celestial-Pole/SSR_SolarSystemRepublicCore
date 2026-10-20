@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 火星接入点 -->
+  <SSR_building_marsaccessor.label>TODO</SSR_building_marsaccessor.label>
+  <!-- EN: 可以超空间把物品送到火星 -->
+  <SSR_building_marsaccessor.description>TODO</SSR_building_marsaccessor.description>
+  
+  <!-- EN: 拆除消防喷淋器 -->
+  <SSR_DeconsSprayFireExtinguishingDevice.label>TODO</SSR_DeconsSprayFireExtinguishingDevice.label>
+  <!-- EN: 拆除消防喷淋器。 -->
+  <SSR_DeconsSprayFireExtinguishingDevice.description>TODO</SSR_DeconsSprayFireExtinguishingDevice.description>
+  
+  <!-- EN: 深井填埋机 -->
+  <SSR_DeepWellFillBurialMachine.label>TODO</SSR_DeepWellFillBurialMachine.label>
+  <!-- EN: 深井填埋机是用于填埋蒸汽间歇喷泉的专用设备。 -->
+  <SSR_DeepWellFillBurialMachine.description>TODO</SSR_DeepWellFillBurialMachine.description>
+  
+  <!-- EN: 消防喷淋器 -->
+  <SSR_SprayFireExtinguishingDevice.label>TODO</SSR_SprayFireExtinguishingDevice.label>
+  <!-- EN: 消防喷淋器是一种自动灭火系统，通过检测火灾时的高温或烟雾来触发喷水， -->
+  <SSR_SprayFireExtinguishingDevice.description>TODO</SSR_SprayFireExtinguishingDevice.description>
+  
+  <!-- EN: 垂直钻井机 -->
+  <SSR_VerticalDrillingRig.label>TODO</SSR_VerticalDrillingRig.label>
+  <!-- EN: 垂直钻井机是一种用于钻探深井的重型设备，具有高塔架和旋转钻头，能够钻探出深层的地热资源。 -->
+  <SSR_VerticalDrillingRig.description>TODO</SSR_VerticalDrillingRig.description>
+  
+</LanguageData>

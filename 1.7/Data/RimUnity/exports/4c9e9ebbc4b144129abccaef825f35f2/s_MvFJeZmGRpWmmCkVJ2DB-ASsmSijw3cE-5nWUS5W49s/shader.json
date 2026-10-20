@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "shaderName": "Unlit/JetFlow",
+  "profile": "world",
+  "uiMasks": false,
+  "colorSpace": "Gamma",
+  "grabTexture": null,
+  "geometry": null,
+  "vertexEntry": "vert",
+  "fragmentEntry": "frag",
+  "vertexFile": "shader.vert.glsl",
+  "fragmentFile": "shader.frag.glsl",
+  "arrays": {},
+  "properties": [
+    {
+      "name": "_DepthTex",
+      "displayName": "Depth Texture",
+      "type": "2D",
+      "attributes": [],
+      "defaultValue": null,
+      "defaultTexture": "gray",
+      "range": null
+    },
+    {
+      "name": "_Seed",
+      "displayName": "Seed",
+      "type": "Int",
+      "attributes": [],
+      "defaultValue": [
+        64
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_DiskCount",
+      "displayName": "Disk Count",
+      "type": "Int",
+      "attributes": [],
+      "defaultValue": [
+        4
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_ExpendCurve",
+      "displayName": "Expend Curve",
+      "type": "Float",
+      "attributes": [],
+      "defaultValue": [
+        0.5
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_DiskStart",
+      "displayName": "Disk Start",
+      "type": "Range",
+      "attributes": [],
+      "defaultValue": [
+        0.2
+      ],
+      "defaultTexture": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "_DiskEnd",
+      "displayName": "Disk End",
+      "type": "Range",
+      "attributes": [],
+      "defaultValue": [
+        0.5
+      ],
+      "defaultTexture": null,
+      "range": [
+        0,
+        0.5
+      ]
+    },
+    {
+      "name": "_InColor",
+      "displayName": "In Color",
+      "type": "Color",
+      "attributes": [],
+      "defaultValue": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    },
+    {
+      "name": "_OutColor",
+      "displayName": "Out Color",
+      "type": "Color",
+      "attributes": [],
+      "defaultValue": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "defaultTexture": null,
+      "range": null
+    }
+  ],
+  "tags": {
+    "RenderType": "Transparent",
+    "Queue": "Transparent"
+  },
+  "states": {
+    "LOD": "100",
+    "Blend": "One One",
+    "ZWrite": "Off",
+    "Cull": "Off"
+  },
+  "keywords": [],
+  "keywordGroups": [
+    [
+      "INSTANCING_ON"
+    ]
+  ],
+  "approximations": []
+}

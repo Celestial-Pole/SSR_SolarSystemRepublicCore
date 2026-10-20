@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
+        <defName>SSR_Prefab_ProductionOverview</defName>
+        <label>production overview</label>
+        <assetBundle>ProductionOverview/productionoverviewui</assetBundle>
+        <modelName>ProductionOverviewUI</modelName>
+        <UIClass>FS_SSR.UI.SSRWindow_ProductionOverview</UIClass>
+    </AK_DLL.UIPrefabDef>
+    <!-- 入口 -->
+    <MainButtonDef>
+        <defName>SSR_MainButton_ProductionOverview</defName>
+        <label>生产总览</label>
+        <description>生产总览Desc.</description>
+        <workerClass>FS_SSR.UI.MainButtonWorker_ProductionOverview</workerClass>
+        <order>66</order>
+        <closesWorldView>true</closesWorldView>
+    </MainButtonDef>
+
+</Defs>
