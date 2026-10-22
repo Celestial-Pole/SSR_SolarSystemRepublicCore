@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SSR_MechanicalArmBase" ParentName="SSR_BuildingBase_Production">
+    <defName>SSR_Building_MechanicalArm</defName>
+    <label>机械臂</label>
+    <description>无需供电的精密机械臂。自动拿取可达材料，为炮塔和自动工作台补料，执行普通工作台订单，并建造或维修附近建筑。墙体、关闭的门和关节极限会限制实际工作范围。</description>
+    <thingClass>SSR.Automation.Building_MechanicalArm</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Building/MechanicalArm/MechanicalArm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <hasInteractionCell>false</hasInteractionCell>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+    </statBases>
+    <costList>
+      <SSR_Item_SpecialSteel>40</SSR_Item_SpecialSteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <isEdifice>true</isEdifice>
+    </building>
+    <comps>
+      <li Class="SSR.Automation.CompProperties_MechanicalArm">
+        <workRadius>2.5</workRadius>
+        <armCount>1</armCount>
+        <skillLevel>20</skillLevel>
+        <skills />
+        <reloadTurret>
+          <enabled>true</enabled>
+          <showButton>true</showButton>
+          <maxConcurrent>1</maxConcurrent>
+        </reloadTurret>
+        <supplyWorkbench>
+          <enabled>true</enabled>
+          <showButton>true</showButton>
+          <maxConcurrent>1</maxConcurrent>
+        </supplyWorkbench>
+        <craft>
+          <enabled>true</enabled>
+          <showButton>true</showButton>
+          <maxConcurrent>1</maxConcurrent>
+        </craft>
+        <construct>
+          <enabled>true</enabled>
+          <showButton>true</showButton>
+          <maxConcurrent>1</maxConcurrent>
+        </construct>
+        <repair>
+          <enabled>true</enabled>
+          <showButton>true</showButton>
+          <maxConcurrent>1</maxConcurrent>
+        </repair>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
