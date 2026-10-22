@@ -119,7 +119,7 @@
 		<uiOrder>10</uiOrder>
 	</ThingDef>
 
-	<!--<ThingDef ParentName="SSR_BuildingBase_Temperature">
+	<ThingDef ParentName="SSR_BuildingBase_Temperature">
 		<defName>SSR_Building_LargeAirConditionerOutdoor</defName>
 		<label>大型空调外机</label>
 		<description>空调系统的室外机组，为内机提供制冷能力。</description>
@@ -228,7 +228,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<uiOrder>20</uiOrder>
-	</ThingDef>-->
+	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Temperature">
 		<defName>SSR_Building_AirConditionerWallIndoor</defName>
@@ -286,6 +286,7 @@
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>SSR_Building_AirConditionerOutdoor</li>
+					<li>SSR_Building_LargeAirConditionerOutdoor</li>
 				</linkableFacilities>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -390,6 +391,7 @@
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>SSR_Building_AirConditionerOutdoor</li>
+					<li>SSR_Building_LargeAirConditionerOutdoor</li>
 				</linkableFacilities>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">

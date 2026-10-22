@@ -108,8 +108,8 @@
 	<AK_DLL.UIPrefabDef ParentName="SSR_UIPrefabBase">
 		<defName>SSR_Prefab_MarsStorage</defName>
 		<label>火星仓库</label>
-		<assetBundle>ssrpalmineui</assetBundle>
-		<modelName>New Mars Storehouse UI</modelName>
+		<assetBundle>MarsStorage/marsstorageui</assetBundle>
+		<modelName>MarsStorageUI</modelName>
 		<UIClass>FS_SSR.UI.SSRWindow_MarsStorage</UIClass>
 	</AK_DLL.UIPrefabDef>
 

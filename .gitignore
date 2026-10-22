@@ -13,3 +13,6 @@
 # *.pdb
 **/*.log
 /.decompile
+BuildAssetBundles.sh
+UpdateDLL.bat
+UpdateDLLRaw.bat

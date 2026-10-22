@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SSR_MarsStorage_Title>仓储</SSR_MarsStorage_Title>
+  <SSR_MarsStorage_All>全部</SSR_MarsStorage_All>
+  <SSR_MarsStorage_Search>搜索物品</SSR_MarsStorage_Search>
+  <SSR_MarsStorage_Empty>暂无符合条件的物品</SSR_MarsStorage_Empty>
+  <SSR_MarsStorage_NoSelection>未选择物品</SSR_MarsStorage_NoSelection>
+  <SSR_MarsStorage_Minimum>最小</SSR_MarsStorage_Minimum>
+  <SSR_MarsStorage_Maximum>最大</SSR_MarsStorage_Maximum>
+  <SSR_MarsStorage_Retrieve>收取</SSR_MarsStorage_Retrieve>
+  <SSR_MarsStorage_Capacity>{0} / {1}</SSR_MarsStorage_Capacity>
+  <SSR_MarsStorage_RetrieveFailed>提取失败：请确认仓储终端仍在地图上，且所选物品仍有库存。</SSR_MarsStorage_RetrieveFailed>
+</LanguageData>
