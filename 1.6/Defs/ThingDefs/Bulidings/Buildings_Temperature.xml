@@ -45,7 +45,6 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable" />
-			<li Class="CompProperties_Breakdownable" />
 			<li Class="FS_SSR.TCP_AirConditionerOutdoor">
 				<maxSimultaneous>1</maxSimultaneous>
 				<maxDistance>999</maxDistance>
@@ -156,7 +155,6 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable" />
-			<li Class="CompProperties_Breakdownable" />
 			<li Class="FS_SSR.TCP_AirConditionerOutdoor">
 				<maxSimultaneous>1</maxSimultaneous>
 				<maxDistance>999</maxDistance>

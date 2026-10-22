@@ -46,7 +46,7 @@
 	<JobDef>
 		<defName>SSR_Job_OperateBuildingGeneric</defName>
 		<driverClass>FS_SSR.Generic.JobDriver_BuildingOperatableGeneric</driverClass>
-		<reportString>desc</reportString>
+		<reportString>正在操作TargetA。</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>

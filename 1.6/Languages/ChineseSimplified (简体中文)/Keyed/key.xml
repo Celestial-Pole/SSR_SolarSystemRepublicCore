@@ -139,6 +139,7 @@
 	<SSR_TelePadRetrieveDesc>全球范围回传目标</SSR_TelePadRetrieveDesc>
 	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
 	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
+	<SSR_TelePad_RetrieveNoSpace>传送板附近空间不足，{0} 个目标的未传送部分已留在原处。</SSR_TelePad_RetrieveNoSpace>
 
 	<SSR_NextHarvest>距离下次收获: {0}</SSR_NextHarvest>
 
