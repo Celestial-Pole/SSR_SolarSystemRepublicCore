@@ -127,7 +127,7 @@
 			<texPath>Things/Building/Temperature/AirCondition/ODU/LargeOutdoorUnit</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.2</drawSize>
+			<drawSize>2</drawSize>
 		</graphicData>
 		<size>(2,1)</size>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -156,7 +156,7 @@
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="FS_SSR.TCP_AirConditionerOutdoor">
-				<maxSimultaneous>1</maxSimultaneous>
+				<maxSimultaneous>6</maxSimultaneous>
 				<maxDistance>999</maxDistance>
 				<requiresLOS>false</requiresLOS>
 				<linkableBuildings>
@@ -191,7 +191,7 @@
 								<texPath>Things/Building/Temperature/AirCondition/ODU/T2LargeOutdoorUnit</texPath>
 								<graphicClass>Graphic_Multi</graphicClass>
 								<shaderType>CutoutComplex</shaderType>
-								<drawSize>(1.3,1.3)</drawSize>
+								<drawSize>2</drawSize>
 							</graphicData>
 							<workAmt>1600</workAmt>
 							<requireMaterial>true</requireMaterial>
@@ -486,7 +486,6 @@
 				<defaultTargetTemperature>21</defaultTargetTemperature>
 				<lowPowerConsumptionFactor>0.1</lowPowerConsumptionFactor>
 			</li>
-			<li Class="CompProperties_Breakdownable" />
 		</comps>
 		<researchPrerequisites>
 			<li>SSR_Research_BasicPowerTechnology</li>
