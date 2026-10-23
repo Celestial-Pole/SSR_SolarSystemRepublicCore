@@ -107,6 +107,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
+			<li>Placeworker_AttachedToWall</li>
 			<li>FS_SSR.PW_AirConditionerOutdoor</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>FS_SSR.UI.PW_FrameLevel</li>

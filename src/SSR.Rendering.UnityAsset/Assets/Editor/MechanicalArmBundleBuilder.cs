@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using UnityEditor;
@@ -95,7 +95,7 @@ namespace SSR.Rendering.Editor
             icon.ReadPixels(new Rect(0, 0, 512, 512), 0, 0);
             icon.Apply();
             string path = Path.GetFullPath(Path.Combine(Application.dataPath,
-                "../../../1.6/Textures/Things/Building/MechanicalArm/MechanicalArm.png"));
+                "../../../Textures/Things/Building/MechanicalArm/MechanicalArm.png"));
             Directory.CreateDirectory(Path.GetDirectoryName(path));
             File.WriteAllBytes(path, icon.EncodeToPNG());
             RenderTexture.active = null;

@@ -26,6 +26,7 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Structure/GlassWall/GlassWall_MenuIcon</uiIconPath>
+		<drawStyleCategory>Walls</drawStyleCategory>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
