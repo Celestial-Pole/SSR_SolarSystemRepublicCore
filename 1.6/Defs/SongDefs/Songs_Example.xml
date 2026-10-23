@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--
+	音乐播放器添加歌曲示例，当前全部注释，不会注册歌曲或加载占位音频。
+	使用方法：放入音频、修改 defName 和 clipPath，再取消对应 SongDef 外层的注释。
+	每首音乐使用一个 SongDef，defName 必须唯一，建议沿用 SSR_Song_ 前缀。
+	-->
+
+	<!-- 日常音乐完整示例 -->
+	<!--
+	<SongDef>
+		<defName>SSR_Song_ExamplePeaceful</defName>
+		<label>日常音乐</label>
+		<clipPath>Songs/SSR/ExamplePeaceful</clipPath>
+		<volume>0.7</volume>
+		<commonality>1</commonality>
+		<playOnMap>true</playOnMap>
+		<tense>false</tense>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<modExtensions>
+			<li Class="FS_SSR.MusicPlayer.DefExt_SongCategory">
+				<category>Other</category>
+			</li>
+		</modExtensions>
+	</SongDef>
+	-->
+
+	<!-- 战斗音乐完整示例 -->
+	<!--
+	<SongDef>
+		<defName>SSR_Song_ExampleCombat</defName>
+		<label>战斗音乐</label>
+		<clipPath>Songs/SSR/ExampleCombat</clipPath>
+		<volume>0.7</volume>
+		<commonality>1</commonality>
+		<playOnMap>true</playOnMap>
+		<tense>true</tense>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<modExtensions>
+			<li Class="FS_SSR.MusicPlayer.DefExt_SongCategory">
+				<category>Combat</category>
+			</li>
+		</modExtensions>
+	</SongDef>
+	-->
+	
+</Defs>
