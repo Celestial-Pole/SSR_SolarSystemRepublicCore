@@ -132,7 +132,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>120</count>
+				<count>115</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -142,6 +142,35 @@
 		</fixedIngredientFilter>
 		<products>
 			<ComponentIndustrial>10</ComponentIndustrial>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SSR_Recipe_Base">
+		<defName>SSR_Recipe_FiftyComponentIndustrial</defName>
+		<label>制作零部件 x50</label>
+		<description>制作五十个零部件。</description>
+		<jobString>正在制作五十个零部件。</jobString>
+		<workAmount>200000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>550</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ComponentIndustrial>50</ComponentIndustrial>
 		</products>
 		<skillRequirements>
 			<Crafting>8</Crafting>
@@ -218,7 +247,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -226,7 +255,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>180</count>
 			</li>
 			<li>
 				<filter>
@@ -234,7 +263,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -242,7 +271,7 @@
 						<li>Gold</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -255,6 +284,63 @@
 		</fixedIngredientFilter>
 		<products>
 			<ComponentSpacer>10</ComponentSpacer>
+		</products>
+		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SSR_Recipe_FiftyComponentSpacer</defName>
+		<label>制作高级零部件 x50</label>
+		<description>制作五十个高级零部件。</description>
+		<jobString>正在制作五十个高级零部件。</jobString>
+		<workAmount>300000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>850</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>350</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ComponentSpacer>50</ComponentSpacer>
 		</products>
 		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
 		<skillRequirements>
@@ -571,7 +657,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -618,7 +704,7 @@
 						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>45</count>
 			</li>
 			<li>
 				<filter>
@@ -626,7 +712,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -634,7 +720,7 @@
 						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
-				<count>35</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -642,7 +728,7 @@
 						<li>Gold</li>
 					</thingDefs>
 				</filter>
-				<count>1.5</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -673,7 +759,7 @@
 						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -681,7 +767,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
@@ -689,7 +775,7 @@
 						<li>SSR_Item_Silicon</li>
 					</thingDefs>
 				</filter>
-				<count>70</count>
+				<count>55</count>
 			</li>
 			<li>
 				<filter>
@@ -697,7 +783,7 @@
 						<li>Gold</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -862,7 +948,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -870,7 +956,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>400</count>
+				<count>375</count>
 			</li>
 			<li>
 				<filter>
@@ -878,7 +964,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -909,7 +995,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -917,7 +1003,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>800</count>
+				<count>730</count>
 			</li>
 			<li>
 				<filter>
@@ -925,7 +1011,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>110</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1019,7 +1105,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
@@ -1027,7 +1113,7 @@
 						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -1035,7 +1121,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
@@ -1043,7 +1129,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>45</count>
 			</li>
 			<li>
 				<filter>
@@ -1051,7 +1137,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>8</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1082,7 +1168,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1090,7 +1176,7 @@
 						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -1098,7 +1184,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1106,7 +1192,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>85</count>
 			</li>
 			<li>
 				<filter>
@@ -1114,7 +1200,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>15</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1191,7 +1277,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>22</count>
 			</li>
 			<li>
 				<filter>
@@ -1199,7 +1285,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>45</count>
 			</li>
 			<li>
 				<filter>
@@ -1207,7 +1293,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>12</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1237,7 +1323,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -1245,7 +1331,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>85</count>
 			</li>
 			<li>
 				<filter>
@@ -1253,7 +1339,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1347,7 +1433,7 @@
 						<li>SSR_Item_PrecisionLens</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
@@ -1355,7 +1441,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1363,7 +1449,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -1371,7 +1457,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
@@ -1379,7 +1465,7 @@
 						<li>SSR_Item_HighDensityBattery</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1411,7 +1497,7 @@
 						<li>SSR_Item_PrecisionLens</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1419,7 +1505,7 @@
 						<li>SSR_Item_Carbyne</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>35</count>
 			</li>
 			<li>
 				<filter>
@@ -1427,7 +1513,7 @@
 						<li>SSR_Item_NanoandMicroMechanicalComposite</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>150</count>
 			</li>
 			<li>
 				<filter>
@@ -1435,7 +1521,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1443,7 +1529,7 @@
 						<li>SSR_Item_HighDensityBattery</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1522,7 +1608,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>45</count>
 			</li>
 			<li>
 				<filter>
@@ -1530,7 +1616,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -1538,7 +1624,7 @@
 						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1569,7 +1655,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>85</count>
 			</li>
 			<li>
 				<filter>
@@ -1577,7 +1663,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>35</count>
 			</li>
 			<li>
 				<filter>
@@ -1585,7 +1671,7 @@
 						<li>SSR_Item_ArtificialIntelligenceChip</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1632,7 +1718,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1663,7 +1749,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>175</count>
+				<count>150</count>
 			</li>
 			<li>
 				<filter>
@@ -1671,7 +1757,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 			<li>
 				<filter>
@@ -1679,7 +1765,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1710,7 +1796,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>350</count>
+				<count>275</count>
 			</li>
 			<li>
 				<filter>
@@ -1718,7 +1804,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>110</count>
 			</li>
 			<li>
 				<filter>
@@ -1726,7 +1812,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1765,7 +1851,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1795,7 +1881,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>65</count>
 			</li>
 			<li>
 				<filter>
@@ -1803,7 +1889,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>12</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1833,7 +1919,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>120</count>
 			</li>
 			<li>
 				<filter>
@@ -1841,7 +1927,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1887,7 +1973,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -1895,7 +1981,7 @@
 						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1927,7 +2013,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>250</count>
+				<count>220</count>
 			</li>
 			<li>
 				<filter>
@@ -1935,7 +2021,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -1943,7 +2029,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>18</count>
 			</li>
 			<li>
 				<filter>
@@ -1951,7 +2037,7 @@
 						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1983,7 +2069,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>500</count>
+				<count>400</count>
 			</li>
 			<li>
 				<filter>
@@ -1991,7 +2077,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>150</count>
 			</li>
 			<li>
 				<filter>
@@ -1999,7 +2085,7 @@
 						<li>SSR_Item_HighenergyLaserEmitter</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -2007,7 +2093,7 @@
 						<li>SSR_Item_PhotonComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -2086,7 +2172,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>120</count>
 			</li>
 			<li>
 				<filter>
@@ -2094,7 +2180,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>45</count>
 			</li>
 			<li>
 				<filter>
@@ -2102,7 +2188,7 @@
 						<li>SSR_Item_StrongElectromagnet</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>65</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -2133,7 +2219,7 @@
 						<li>SSR_Item_FermiMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>300</count>
+				<count>220</count>
 			</li>
 			<li>
 				<filter>
@@ -2141,7 +2227,7 @@
 						<li>SSR_Item_SuperconductingMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>85</count>
 			</li>
 			<li>
 				<filter>
@@ -2149,7 +2235,7 @@
 						<li>SSR_Item_StrongElectromagnet</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>120</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

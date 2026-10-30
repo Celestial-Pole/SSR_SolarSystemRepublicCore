@@ -627,9 +627,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_NanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材 x40</label>
-		<description>制造四十单位纳米微械复材。</description>
-		<jobString>正在制造四十单位纳米微械复材。</jobString>
+		<label>制造纳米微械复材 x80</label>
+		<description>制造八十单位纳米微械复材。</description>
+		<jobString>正在制造八十单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -660,7 +660,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Item_NanoandMicroMechanicalComposite>40</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>80</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -668,7 +668,7 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_TenNanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材 x400</label>
+		<label>制造纳米微械复材 x800</label>
 		<description>制造四百单位纳米微械复材。</description>
 		<jobString>正在制造四百单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -682,7 +682,7 @@
 						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>180</count>
 			</li>
 			<li>
 				<filter>
@@ -690,7 +690,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>7</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -701,7 +701,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Item_NanoandMicroMechanicalComposite>400</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>800</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -709,9 +709,9 @@
 
 	<RecipeDef>
 		<defName>SSR_Recipe_HundredNanoandMicroMechanicalComposite</defName>
-		<label>制造纳米微械复材 x4000</label>
-		<description>制造四千单位纳米微械复材。</description>
-		<jobString>正在制造四千单位纳米微械复材。</jobString>
+		<label>制造纳米微械复材 x8000</label>
+		<description>制造八千单位纳米微械复材。</description>
+		<jobString>正在制造八千单位纳米微械复材。</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -723,7 +723,7 @@
 						<li>SSR_Item_SpecialSteel</li>
 					</thingDefs>
 				</filter>
-				<count>2000</count>
+				<count>1500</count>
 			</li>
 			<li>
 				<filter>
@@ -731,7 +731,7 @@
 						<li>SSR_Item_QuantumComputingCore</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>65</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -742,7 +742,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SSR_Item_NanoandMicroMechanicalComposite>4000</SSR_Item_NanoandMicroMechanicalComposite>
+			<SSR_Item_NanoandMicroMechanicalComposite>8000</SSR_Item_NanoandMicroMechanicalComposite>
 		</products>
 		<researchPrerequisite>SSR_Research_Medium-levelMaterialsScience</researchPrerequisite>
 		<workSkill>Crafting</workSkill>
@@ -772,7 +772,7 @@
 						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -804,7 +804,7 @@
 						<li>Hyperweave</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>85</count>
 			</li>
 			<li>
 				<filter>
@@ -812,7 +812,7 @@
 						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>25</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -844,7 +844,7 @@
 						<li>Hyperweave</li>
 					</thingDefs>
 				</filter>
-				<count>1000</count>
+				<count>800</count>
 			</li>
 			<li>
 				<filter>
@@ -852,7 +852,7 @@
 						<li>SSR_Item_Graphene</li>
 					</thingDefs>
 				</filter>
-				<count>500</count>
+				<count>200</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
