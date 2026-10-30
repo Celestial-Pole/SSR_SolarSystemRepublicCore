@@ -23,6 +23,7 @@
         </subSounds>
     </SoundDef>
 
+    <![CDATA[
     <StyleCategoryDef>
         <defName>SSR_Style</defName>
         <label>共产主义文化</label>
@@ -32,5 +33,6 @@
         <thingDefStyles>
         </thingDefStyles>
     </StyleCategoryDef>
+    ]]>
 
 </Defs>

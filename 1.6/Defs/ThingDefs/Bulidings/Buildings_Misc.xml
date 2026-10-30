@@ -111,6 +111,9 @@
 			<drawOffset>(0,0,1.5)</drawOffset>
 		</graphicData>
 		<uiIconPath>Things/Building/Misc/VerticalDrillingRig/VerticalDrillingRig</uiIconPath>
+		<placeWorkers>
+			<li>FS_SSR.PW_VerticalDrillingRig</li>
+		</placeWorkers>
 		<size>(4,4)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<castEdgeShadows>false</castEdgeShadows>

@@ -4,9 +4,9 @@
 	<TerrainDef ParentName="SSR_ArmouredFloorBase">
 		<defName>SSR_Floor_Armoured</defName>
 		<label>装甲地板</label>
+		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
 		<texturePath>Things/Building/Floor/SSRArmouredFloor</texturePath>
 		<renderPrecedence>240</renderPrecedence>
-		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
 		<statBases>
 			<WorkToBuild>800</WorkToBuild>
 			<Beauty>0</Beauty>
@@ -21,9 +21,9 @@
 	<TerrainDef ParentName="SSR_ArmouredFloorBase">
 		<defName>SSR_Floor_ArmouredII</defName>
 		<label>装甲地板</label>
+		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
 		<texturePath>Things/Building/Floor/SSRArmouredFloorII</texturePath>
 		<renderPrecedence>240</renderPrecedence>
-		<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
 		<statBases>
 			<WorkToBuild>800</WorkToBuild>
 			<Beauty>0</Beauty>

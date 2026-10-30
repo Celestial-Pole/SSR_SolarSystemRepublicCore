@@ -2,7 +2,9 @@
 <Defs>
 	<ResearchTabDef>
 		<defName>SSR_Research</defName>
-		<label>太阳系共和国</label>
+		<label>援助技术目录</label>
+		<generalTitle>太阳系共和国第二十三远航舰队援助技术目录</generalTitle>
+		<generalDescription>来自遥远深空中由共和国第二十三远航舰队传播的体系化科技树，毫无保留地分享着人类文明最宝贵的知识。尽管如此，绝大部分信号接收依旧不相信远航舰队传播这些技术仅仅是因为其声称的人道主义援助，即便他们已经从中获益，而另一部分人则基于同样的顾虑拒绝接收这份来自深空的馈赠，身处边缘世界的你会作何选择呢？</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Name="SSR_ResearchProjectIndustrial" Abstract="true">
@@ -147,9 +149,8 @@
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_BasicTech</defName>
 		<label>太阳系共和国技术基础</label>
-		<description>允许接入太阳系共和国的数据网络备份，从中学习接下来的科技。</description>
+		<description>允许接入太阳系共和国第二十三远航舰队建立的人道主义援助数据网络，从中学习接下来的科技。</description>
 		<techLevel>Spacer</techLevel>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<!--<techprintCount>1</techprintCount>-->
 		<baseCost>800</baseCost>
 		<researchViewX>0</researchViewX>
@@ -169,7 +170,6 @@
 		<defName>SSR_Research_BasicPhysics</defName>
 		<label>基础物理学</label>
 		<description>基础的物理学体系，包含了从经典物理到相对论与量子力学的物理学理论，能使派系的科技水平提升至工业时代。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -194,7 +194,6 @@
 		<defName>SSR_Research_BasicMaterialsScience</defName>
 		<label>基础材料学</label>
 		<description>初级的材料科学，简述了常规的材料学技术，包含了一些基础的材料制造工艺。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -204,13 +203,20 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Material</li><!-- 失能机关 先进材料学 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Plasfiber</li><!-- 失能机关 人工纤维 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
 		<defName>SSR_Research_BasicComputationalScience</defName>
 		<label>基础计算科学</label>
 		<description>基础的计算科学理论，包含了计算机语言、软件开发与硬件设计的知识。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -234,7 +240,6 @@
 		<defName>SSR_Research_BasicManufacturingTechnology</defName>
 		<label>基础制造技术</label>
 		<description>基础的工业自动化机器与生产流程设计知识。</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>SSR_Building_DataTerminal</li>
 		</requiredResearchFacilities>
@@ -251,11 +256,20 @@
 					<li>Brewing</li><!-- 酿酒 -->
 					<li>Stonecutting</li><!-- 岩石切割 -->
 					<li>Smithing</li><!-- 锻造 -->
+					<li>PlateArmor</li><!-- 板甲 -->
 					<li>DrugProduction</li><!-- 成瘾品生产 -->
 					<li>Machining</li><!-- 机械加工 -->
 					<li>BiofuelRefining</li><!-- 精炼技术 -->
 					<li>Fabrication</li><!-- 精密装配 -->
 					<li>AdvancedFabrication</li><!-- 高级精密装配 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Autofacturer</li><!-- 失能机关 量产制程 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_MechBasis</li><!-- 失能机关 机甲齿轮 -->
+					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_VacuumMaterial</li><!-- 失能机关短征 真空处理 -->
+					<li MayRequire="Aoba.DeadManSwitch.Expedition">DMSE_Microgravity</li><!-- 失能机关短征 微重力生产 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Carpentry</li><!-- 鼠族本体 鼠族木工 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Smithing</li><!-- 鼠族本体 鼠族锻造 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_Metallurgy</li><!-- 鼠族本体 鼠族冶金 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_Research_RatkinEngineering</li><!-- 鼠族本体 鼠族机械加工 -->
 				</unlockResearchs>
 			</li>
 		</modExtensions>
@@ -345,6 +359,7 @@
 					<li>Electricity</li><!-- 电力 -->
 					<li>AirConditioning</li><!-- 空调 -->
 					<li>Batteries</li><!-- 蓄电池 -->
+					<li>Autodoors</li><!-- 自动门 -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">ToxifierGenerator</li><!-- 污染性发电 -->
 				</unlockResearchs>
 			</li>
@@ -768,6 +783,19 @@
 		<baseCost>1000</baseCost>
 		<researchViewX>2</researchViewX>
 		<researchViewY>5.5</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li>PsychiteRefining</li><!-- 精神叶制品提炼 -->
+					<li>WakeUpProduction</li><!-- 清醒丸制作 -->
+					<li>GoJuiceProduction</li><!-- 活力水制作 -->
+					<li>PenoxycylineProduction</li><!-- 佩诺西林制作 -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">FertilityProcedures</li><!-- 生育规范 -->
+					<li>MedicineProduction</li><!-- 医药生产 -->
+					<li>HospitalBed</li><!-- 医疗床 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectIndustrial">
@@ -857,6 +885,11 @@
 			</li>
 			<li Class="FS_SSR.Research.DefExt_RPE_ResearchSpdBonus">
 				<bonus>2</bonus>
+			</li>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_FieldTheory</li><!-- 米莉拉本体 场理论 -->
+				</unlockResearchs>
 			</li>
 		</modExtensions>
 	</ResearchProjectDef>
@@ -1403,6 +1436,15 @@
 			<li Class="FS_SSR.Research.DefExt_RPE_SetManufactLv">
 				<techLevel>3</techLevel>
 			</li>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_TailoringBench</li><!-- 米莉拉本体 缝纫工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_UniversalPrinter</li><!-- 米莉拉本体 通用工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_Drones</li><!-- 米莉拉本体 无人机 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace_Build</li><!-- 米莉拉本体 太阳熔炉 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace_Use</li><!-- 米莉拉本体 太阳熔炉锻造 -->
+				</unlockResearchs>
+			</li>
 		</modExtensions>
 	</ResearchProjectDef>
 
@@ -1421,6 +1463,16 @@
 		<baseCost>15000</baseCost>
 		<researchViewX>14</researchViewX>
 		<researchViewY>0</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.Ext_PRE_UnlockResearchs">
+				<unlockResearchs>
+					<li MayRequire="Ancot.MiliraRace">Milira_SunLightFuelPoweredGenerator</li><!-- 米莉拉本体 日光发电 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunLightFuelGenerator</li><!-- 米莉拉本体 熔盐燃料站 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_ImprovedEnergyConcentrationCircuit</li><!-- 米莉拉本体 改良式聚热回路 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_EffectivePhotoelectricTransform</li><!-- 米莉拉本体 高效光电转化 -->
+				</unlockResearchs>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="SSR_ResearchProjectUltra">

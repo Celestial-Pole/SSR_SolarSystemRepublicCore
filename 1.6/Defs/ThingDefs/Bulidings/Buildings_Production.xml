@@ -127,9 +127,9 @@
 			<li Class="FS_SSR.Storage.TCP_MarsStoreAccessor" />
 			<li Class="FS_SSR.Storage.TCP_MarsCapacityExtender">
 				<capacityOffsetPerLevel>
-					<li>30000</li>
-					<li>100000</li>
-					<li>500000</li>
+					<li>50000</li>
+					<li>300000</li>
+					<li>1000000</li>
 				</capacityOffsetPerLevel>
 			</li>
 			<li Class="FS_SSR.Generic.TCP_Upgradable">
@@ -244,22 +244,22 @@
 		<recipes>
 			<li>Make_StoneBlocksAny</li>
 			<li>Make_StoneBlocksSandstone</li>
-			<li>Make_StoneBlocksGranite</li>
-			<li>Make_StoneBlocksLimestone</li>
-			<li>Make_StoneBlocksSlate</li>
-			<li>Make_StoneBlocksMarble</li>
-			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
 			<li>SSR_Recipe_Make_FiveStoneBlocksSandstone</li>
-			<li>SSR_Recipe_Make_FiveStoneBlocksGranite</li>
-			<li>SSR_Recipe_Make_FiveStoneBlocksLimestone</li>
-			<li>SSR_Recipe_Make_FiveStoneBlocksSlate</li>
-			<li>SSR_Recipe_Make_FiveStoneBlocksMarble</li>
-			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_FiveStoneBlocksVacstone</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksSandstone</li>
+			<li>Make_StoneBlocksGranite</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksGranite</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksGranite</li>
+			<li>Make_StoneBlocksLimestone</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksLimestone</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksLimestone</li>
+			<li>Make_StoneBlocksSlate</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksSlate</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksSlate</li>
+			<li>Make_StoneBlocksMarble</li>
+			<li>SSR_Recipe_Make_FiveStoneBlocksMarble</li>
 			<li>SSR_Recipe_Make_TenStoneBlocksMarble</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Make_StoneBlocksVacstone</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_FiveStoneBlocksVacstone</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">SSR_Recipe_Make_TenStoneBlocksVacstone</li>
 			<li>SSR_Recipe_GeneralStone</li>
 			<li>SSR_Recipe_TenGeneralStone</li>
@@ -535,9 +535,11 @@
 			<li>Make_ComponentIndustrial</li>
 			<li>SSR_Recipe_FiveComponentIndustrial</li>
 			<li>SSR_Recipe_TenComponentIndustrial</li>
+			<li>SSR_Recipe_FiftyComponentIndustrial</li>
 			<li>Make_ComponentSpacer</li>
 			<li>SSR_Recipe_FiveComponentSpacer</li>
 			<li>SSR_Recipe_TenComponentSpacer</li>
+			<li>SSR_Recipe_FiftyComponentSpacer</li>
 			<li>SSR_Recipe_ExtremeComponent</li>
 			<li>SSR_Recipe_FiveExtremeComponent</li>
 			<li>SSR_Recipe_TenExtremeComponent</li>
@@ -818,6 +820,19 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
+					<!--<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableAmmoPrinter</li>-->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableMachinePrinter</li><!-- 失能机关 机械冲压机 -->
+					<li MayRequire="BreadMo.Cinders">Cinder_AncientWorkstation</li><!-- 余烬花园的灰姑娘 远古工作站 -->
+					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricSmithy</li><!-- 鼠族本体 鼠族锻造台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_UniversalBench</li><!-- 米莉拉本体 米莉拉通用工作台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_DroneBench</li><!-- 米莉拉本体 米莉拉无人机打印架 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace</li><!-- 米莉拉本体 太阳熔炉 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1323,12 +1338,22 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricTailoringBench</li><!-- 鼠族本体 鼠族裁缝台 -->
+					<li MayRequire="Ancot.MiliraRace">Milira_TailoringBench</li><!-- 米莉拉本体 米莉拉缝纫台 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_AutoBenchUpgradable">
 		<defName>SSR_Building_AutomaticCookingMachine</defName>
 		<label>自动烹饪机</label>
+		<building>
+			<isMealSource>true</isMealSource>
+		</building>
 		<description>自动烹饪机是一种智能厨房设备，能够自动完成食物的烹饪过程。它通过预设的程序控制烹饪时间和温度，确保食物美味且均匀。</description>
 		<graphicData>
 			<texPath>Things/Building/Production/AutomaticCookingMachine/AutomaticCookingMachine</texPath>
@@ -1534,7 +1559,6 @@
 			<li>BurnApparel</li>
 			<li>BurnWeapon</li>
 			<li>BurnDrugs</li>
-
 			<li>SSR_Recipe_Glass</li>
 			<li>SSR_Recipe_TenGlass</li>
 			<li>SSR_Recipe_HundredGlass</li>
@@ -1646,6 +1670,12 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_Furnace</li><!-- 失能机关 烧结炉 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1802,6 +1832,13 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_ReactionChamber</li><!-- 失能机关 高压反应釜 -->
+					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableArtifuscle</li><!-- 失能机关 生物培养装置 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1819,9 +1856,7 @@
 		</graphicData>
 		<size>(3,2)</size>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>Standable</passability>
 		<blockWind>true</blockWind>
-		<fillPercent>0</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<canOverlapZones>false</canOverlapZones>
@@ -1833,7 +1868,6 @@
 			<Beauty>1</Beauty>
 		</statBases>
 		<building>
-			<isEdifice>false</isEdifice>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<costList>

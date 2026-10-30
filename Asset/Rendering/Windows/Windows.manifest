@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1965241424
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ssr_rendering
+      Dependencies: {}

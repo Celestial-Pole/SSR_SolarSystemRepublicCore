@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3168366829
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ssr_mechanicalarm
+      Dependencies: {}
