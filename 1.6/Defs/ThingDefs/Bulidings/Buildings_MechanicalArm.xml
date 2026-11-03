@@ -13,6 +13,9 @@
       <drawSize>(1,1)</drawSize>
       <shaderType>Cutout</shaderType>
     </graphicData>
+    <uiIconPath>Things/Building/MechanicalArm/MechanicalArm_Isometric</uiIconPath>
+    <uiIconScale>1</uiIconScale>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
     <size>(1,1)</size>
     <rotatable>false</rotatable>
     <hasInteractionCell>false</hasInteractionCell>
@@ -33,6 +36,13 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <isEdifice>true</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/Building/MechanicalArm/MechanicalArm_Blueprint</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2.280328,2.280328)</drawSize>
+        <drawOffset>(-0.032324,0,0.684177)</drawOffset>
+      </blueprintGraphicData>
     </building>
     <comps>
       <li Class="SSR.Automation.CompProperties_MechanicalArm">
