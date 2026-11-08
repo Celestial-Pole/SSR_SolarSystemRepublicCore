@@ -6,7 +6,7 @@
 		<label>三级制造技术加成</label>
 		<labelNoun>三级制造技术加成</labelNoun>
 		<isBad>false</isBad>
-		<description>三级制造技术加成desc</description>
+		<description>三级制造技术加成</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<removeOnRedressChanceByDaysCurve Inherit = "false">
 		</removeOnRedressChanceByDaysCurve>

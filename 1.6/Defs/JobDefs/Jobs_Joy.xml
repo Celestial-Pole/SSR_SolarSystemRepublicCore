@@ -5,7 +5,7 @@
     <JobDef>
         <defName>SSR_Job_DataProcessingHub</defName>
         <driverClass>JobDriver_WatchBuilding</driverClass>
-        <reportString>和雅典娜聊天</reportString>
+        <reportString>和数据处理中枢聊天</reportString>
         <joyDuration>4000</joyDuration>
         <joyMaxParticipants>1</joyMaxParticipants>
         <joySkill>Intellectual</joySkill>
