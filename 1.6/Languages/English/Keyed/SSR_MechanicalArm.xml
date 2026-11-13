@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SSR_Arm_Name>Mechanical arm</SSR_Arm_Name>
+  <SSR_Arm_Status>Arms: {0}/{1}; search radius: {2} cells\nActual reach depends on joint pose and obstacles</SSR_Arm_Status>
+  <SSR_Arm_Task>Arm {0}: {1}, {2}</SSR_Arm_Task>
+  <SSR_Arm_FunctionDesc>Enable or disable this automatic job. The target, materials, and entire travel path must be reachable.</SSR_Arm_FunctionDesc>
+  <SSR_Arm_Work_ReloadTurret>Reload turrets</SSR_Arm_Work_ReloadTurret>
+  <SSR_Arm_Work_SupplyWorkbench>Supply automatic workbenches</SSR_Arm_Work_SupplyWorkbench>
+  <SSR_Arm_Work_Craft>Use workbenches</SSR_Arm_Work_Craft>
+  <SSR_Arm_Work_Construct>Construct</SSR_Arm_Work_Construct>
+  <SSR_Arm_Work_Repair>Repair</SSR_Arm_Work_Repair>
+  <SSR_Arm_Phase_Idle>idle</SSR_Arm_Phase_Idle>
+  <SSR_Arm_Phase_Reach>reaching for materials</SSR_Arm_Phase_Reach>
+  <SSR_Arm_Phase_Close>gripping materials</SSR_Arm_Phase_Close>
+  <SSR_Arm_Phase_Carry>carrying</SSR_Arm_Phase_Carry>
+  <SSR_Arm_Phase_Release>releasing</SSR_Arm_Phase_Release>
+  <SSR_Arm_Phase_Operate>working</SSR_Arm_Phase_Operate>
+  <SSR_Arm_Phase_Output>moving products</SSR_Arm_Phase_Output>
+  <SSR_Arm_Phase_Return>returning</SSR_Arm_Phase_Return>
+  <SSR_Arm_CraftQuality>Craft quality: {0}</SSR_Arm_CraftQuality>
+  <SSR_Arm_CraftQualityDesc>Choose the quality of items produced by this arm.</SSR_Arm_CraftQualityDesc>
+  <SSR_Arm_BuildQuality>Build quality: {0}</SSR_Arm_BuildQuality>
+  <SSR_Arm_BuildQualityDesc>Choose the quality of buildings constructed by this arm.</SSR_Arm_BuildQualityDesc>
+  <SSR_Arm_Unload>Unload items</SSR_Arm_Unload>
+  <SSR_Arm_UnloadDesc>Place items held by idle arms on nearby ground.</SSR_Arm_UnloadDesc>
+  <SSR_Arm_OutOfRange>Outside the search radius</SSR_Arm_OutOfRange>
+  <SSR_Arm_ArmLength>Beyond the arm's reach with the current gripper pose</SSR_Arm_ArmLength>
+  <SSR_Arm_TooClose>Too close to the pivot for the links to fold into position</SSR_Arm_TooClose>
+  <SSR_Arm_JointLimit>Required joint angle exceeds its limit</SSR_Arm_JointLimit>
+  <SSR_Arm_GripMismatch>The gripper cannot accurately contact this point</SSR_Arm_GripMismatch>
+  <SSR_Arm_BelowGround>A joint or the gripper would enter the ground</SSR_Arm_BelowGround>
+  <SSR_Arm_WallBlocked>A link is blocked by a wall, closed door, or map edge</SSR_Arm_WallBlocked>
+  <SSR_Arm_ReturnBlocked>Return path blocked: </SSR_Arm_ReturnBlocked>
+  <SSR_Arm_OutputBlocked>Product destination unreachable: </SSR_Arm_OutputBlocked>
+  <SSR_Arm_BlockedSite>: construction site blocked</SSR_Arm_BlockedSite>
+  <SSR_Arm_BlockedBlueprint>The blueprint is blocked and construction cannot start</SSR_Arm_BlockedBlueprint>
+  <SSR_Arm_SkillRequired>: insufficient skill</SSR_Arm_SkillRequired>
+  <SSR_Arm_MissingMaterial>: missing reachable material: </SSR_Arm_MissingMaterial>
+  <SSR_Arm_IncompleteFrame>Construction materials are incomplete</SSR_Arm_IncompleteFrame>
+  <SSR_Arm_Deconstructing>The target is marked for deconstruction; repair stopped</SSR_Arm_Deconstructing>
+  <SSR_Arm_UnusableTable>: currently unusable</SSR_Arm_UnusableTable>
+  <SSR_Arm_NoBill>: no executable bill</SSR_Arm_NoBill>
+  <SSR_Arm_RottenIngredients>Ingredients have rotted; crafting stopped</SSR_Arm_RottenIngredients>
+  <SSR_Arm_CannotFinish>Unable to finish the current product</SSR_Arm_CannotFinish>
+  <SSR_Arm_ContentsHeld>Still holding items that could not be placed</SSR_Arm_ContentsHeld>
+  <SSR_Arm_Disabled>This job type is disabled</SSR_Arm_Disabled>
+  <SSR_Arm_TargetLost>The work target was lost</SSR_Arm_TargetLost>
+  <SSR_Arm_BillChanged>The workbench bill has changed</SSR_Arm_BillChanged>
+  <SSR_Arm_PickupFailed>Unable to pick up materials</SSR_Arm_PickupFailed>
+  <SSR_Arm_MaterialLost>Materials to be collected were lost</SSR_Arm_MaterialLost>
+  <SSR_Arm_OutputFailed>Unable to place the product</SSR_Arm_OutputFailed>
+  <SSR_Arm_DeliveryFailed>Unable to deliver construction materials</SSR_Arm_DeliveryFailed>
+  <SSR_Arm_LoadTargetLost>The target is reserved; the previous task was cancelled</SSR_Arm_LoadTargetLost>
+  <SSR_Arm_Removed>The mechanical arm was removed</SSR_Arm_Removed>
+  <SSR_Arm_ModelFailed>Failed to load or draw the mechanical arm model</SSR_Arm_ModelFailed>
+  <SSR_Arm_WorkStopped>The mechanical arm stopped due to an error</SSR_Arm_WorkStopped>
+  <SSR_Arm_WorkError>An error occurred during work</SSR_Arm_WorkError>
+</LanguageData>

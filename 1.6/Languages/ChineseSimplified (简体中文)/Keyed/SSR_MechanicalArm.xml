@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SSR_Arm_Name>机械臂</SSR_Arm_Name>
+  <SSR_Arm_Status>机械臂：{0}/{1}；搜索半径：{2} 格\n实际可达范围受关节姿态与障碍限制</SSR_Arm_Status>
+  <SSR_Arm_Task>机械臂 {0}：{1}，{2}</SSR_Arm_Task>
+  <SSR_Arm_FunctionDesc>启用或停用这项自动工作。目标、材料和移动路径均须在机械臂实际可达范围内。</SSR_Arm_FunctionDesc>
+  <SSR_Arm_Work_ReloadTurret>装填炮塔</SSR_Arm_Work_ReloadTurret>
+  <SSR_Arm_Work_SupplyWorkbench>补给自动工作台</SSR_Arm_Work_SupplyWorkbench>
+  <SSR_Arm_Work_Craft>使用工作台</SSR_Arm_Work_Craft>
+  <SSR_Arm_Work_Construct>建造</SSR_Arm_Work_Construct>
+  <SSR_Arm_Work_Repair>维修</SSR_Arm_Work_Repair>
+  <SSR_Arm_Phase_Idle>待机</SSR_Arm_Phase_Idle>
+  <SSR_Arm_Phase_Reach>接近材料</SSR_Arm_Phase_Reach>
+  <SSR_Arm_Phase_Close>夹取材料</SSR_Arm_Phase_Close>
+  <SSR_Arm_Phase_Carry>搬运</SSR_Arm_Phase_Carry>
+  <SSR_Arm_Phase_Release>放下</SSR_Arm_Phase_Release>
+  <SSR_Arm_Phase_Operate>工作中</SSR_Arm_Phase_Operate>
+  <SSR_Arm_Phase_Output>移出产物</SSR_Arm_Phase_Output>
+  <SSR_Arm_Phase_Return>收回</SSR_Arm_Phase_Return>
+  <SSR_Arm_CraftQuality>制作品质：{0}</SSR_Arm_CraftQuality>
+  <SSR_Arm_CraftQualityDesc>设置机械臂制作物品时的品质。</SSR_Arm_CraftQualityDesc>
+  <SSR_Arm_BuildQuality>建造品质：{0}</SSR_Arm_BuildQuality>
+  <SSR_Arm_BuildQualityDesc>设置机械臂建造建筑时的品质。</SSR_Arm_BuildQualityDesc>
+  <SSR_Arm_Unload>卸下物品</SSR_Arm_Unload>
+  <SSR_Arm_UnloadDesc>将空闲机械臂持有的物品放回附近地面。</SSR_Arm_UnloadDesc>
+  <SSR_Arm_OutOfRange>超出搜索半径</SSR_Arm_OutOfRange>
+  <SSR_Arm_ArmLength>超出当前夹爪姿态的臂长范围</SSR_Arm_ArmLength>
+  <SSR_Arm_TooClose>目标过于靠近转轴，连杆无法折叠到该位置</SSR_Arm_TooClose>
+  <SSR_Arm_JointLimit>所需关节角度超出允许范围</SSR_Arm_JointLimit>
+  <SSR_Arm_GripMismatch>夹爪无法准确接触目标位置</SSR_Arm_GripMismatch>
+  <SSR_Arm_BelowGround>关节或夹爪会进入地面</SSR_Arm_BelowGround>
+  <SSR_Arm_WallBlocked>连杆被墙体、关闭的门或地图边界阻挡</SSR_Arm_WallBlocked>
+  <SSR_Arm_ReturnBlocked>收回路径受阻：</SSR_Arm_ReturnBlocked>
+  <SSR_Arm_OutputBlocked>产物放置位置不可达：</SSR_Arm_OutputBlocked>
+  <SSR_Arm_BlockedSite>施工位置被占用</SSR_Arm_BlockedSite>
+  <SSR_Arm_BlockedBlueprint>蓝图位置被阻挡，无法开始施工</SSR_Arm_BlockedBlueprint>
+  <SSR_Arm_SkillRequired>所需技能不足</SSR_Arm_SkillRequired>
+  <SSR_Arm_MissingMaterial>缺少可达材料：</SSR_Arm_MissingMaterial>
+  <SSR_Arm_IncompleteFrame>施工材料尚未备齐</SSR_Arm_IncompleteFrame>
+  <SSR_Arm_Deconstructing>目标已被标记拆除，停止维修</SSR_Arm_Deconstructing>
+  <SSR_Arm_UnusableTable>当前无法使用</SSR_Arm_UnusableTable>
+  <SSR_Arm_NoBill>没有可执行的订单</SSR_Arm_NoBill>
+  <SSR_Arm_RottenIngredients>原料已腐坏，停止制作</SSR_Arm_RottenIngredients>
+  <SSR_Arm_CannotFinish>无法完成当前制作</SSR_Arm_CannotFinish>
+  <SSR_Arm_ContentsHeld>仍持有未能放下的物品</SSR_Arm_ContentsHeld>
+  <SSR_Arm_Disabled>对应工作已停用</SSR_Arm_Disabled>
+  <SSR_Arm_TargetLost>工作目标已丢失</SSR_Arm_TargetLost>
+  <SSR_Arm_BillChanged>工作台订单已变化</SSR_Arm_BillChanged>
+  <SSR_Arm_PickupFailed>无法夹取材料</SSR_Arm_PickupFailed>
+  <SSR_Arm_MaterialLost>待取材料已丢失</SSR_Arm_MaterialLost>
+  <SSR_Arm_OutputFailed>无法放下产物</SSR_Arm_OutputFailed>
+  <SSR_Arm_DeliveryFailed>无法交付施工材料</SSR_Arm_DeliveryFailed>
+  <SSR_Arm_LoadTargetLost>工作目标已被占用，取消原任务</SSR_Arm_LoadTargetLost>
+  <SSR_Arm_Removed>机械臂已移除</SSR_Arm_Removed>
+  <SSR_Arm_ModelFailed>机械臂模型加载或绘制失败</SSR_Arm_ModelFailed>
+  <SSR_Arm_WorkStopped>机械臂因错误停止工作</SSR_Arm_WorkStopped>
+  <SSR_Arm_WorkError>工作发生错误</SSR_Arm_WorkError>
+</LanguageData>
