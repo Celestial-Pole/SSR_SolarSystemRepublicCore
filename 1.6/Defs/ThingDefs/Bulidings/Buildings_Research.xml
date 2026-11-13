@@ -375,7 +375,7 @@
 				<statOffsets>
 					<ResearchSpeedFactor>1</ResearchSpeedFactor>
 				</statOffsets>
-				<maxSimultaneous>1</maxSimultaneous>
+				<maxSimultaneous>9</maxSimultaneous>
 			</li>
 			<li Class="FS_SSR.Research.TCP_LHCParticleCollector">
 				<requiredLinkBuilding>SSR_Building_LHC</requiredLinkBuilding>

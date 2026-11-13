@@ -33,7 +33,7 @@
 	<JobDef>
 		<defName>SSR_Job_EnterPalmine</defName>
 		<driverClass>FS_SSR.PalMine.JobDriver_EnterMine</driverClass>
-		<reportString>desc</reportString>
+		<reportString>进入标准化垂直矿井</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
@@ -76,7 +76,17 @@
 	<JobDef>
 		<defName>SSR_Job_DeliverReplicator</defName>
 		<driverClass>FS_SSR.Production.JobDriver_DeliverReplicator</driverClass>
-		<reportString>desc</reportString>
+		<reportString>向复制机搬运</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<!-- ==================================== 火星仓库 ===================================== -->
+
+	<JobDef>
+		<defName>SSR_Job_HaulToMars</defName>
+		<driverClass>FS_SSR.Storage.JobDriver_HaulMarsStore</driverClass>
+		<reportString>向仓库搬运</reportString>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>

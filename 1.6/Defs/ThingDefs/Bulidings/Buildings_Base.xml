@@ -25,7 +25,42 @@
 	<!-- Structure -->
 	<ThingDef ParentName="BuildingBase" Name="SSR_BuildingBase_Structure" Abstract="True">
 		<designationCategory>SSR_DesignationCategory</designationCategory>
+		<graphicData>
+			<linkType>CornerFiller</linkType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<holdsRoof>true</holdsRoof>
 		<useHitPoints>True</useHitPoints>
+		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
+			<isInert>true</isInert>
+			<isWall>true</isWall>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
+			<isStuffableAirtight>true</isStuffableAirtight>
+			<relatedBuildCommands>
+				<li>Door</li>
+				<li>Autodoor</li>
+				<li>OrnateDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">VacBarrier</li>
+				<li>Cooler</li>
+				<li>Vent</li>
+			</relatedBuildCommands>
+		</building>
 		<modExtensions>
 			<li Class="FS_SSR.UI.Ext_DesignationCategoryInner">
 				<!-- SSR_DesignationCategory分类的必须带此ext注明子分类 -->
