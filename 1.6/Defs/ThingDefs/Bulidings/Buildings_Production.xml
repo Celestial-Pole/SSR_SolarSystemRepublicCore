@@ -572,6 +572,14 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
+					<!--<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableAmmoPrinter</li>-->
+					<li MayRequire="aoba.fortress.industrial">FT_TableConcreteMixer</li><!-- 防御工事 - 工业 混凝土加工机 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1916,6 +1924,7 @@
 				<sourceWorktables>
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_ReactionChamber</li><!-- 失能机关 高压反应釜 -->
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableArtifuscle</li><!-- 失能机关 生物培养装置 -->
+					<li MayRequire="aoba.fortress.industrial">FT_TableChemistry</li><!-- 防御工事 - 工业 化学制造桌 -->
 				</sourceWorktables>
 			</li>
 		</modExtensions>

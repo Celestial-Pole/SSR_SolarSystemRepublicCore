@@ -31,6 +31,7 @@
 		<li>aoba.deadmanswitch.core</li>
 		<li>ancot.milirarace</li>
 		<li>solaris.ratkinracemod</li>
+		<li>aoba.fortress.industrial</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>ratys.rtsolarflareshield</li>
