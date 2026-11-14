@@ -212,7 +212,7 @@
 	<ThingDef Name="SSR_MechanicalArmBase" ParentName="SSR_BuildingBase_Production">
 		<defName>SSR_Building_MechanicalArm</defName>
 		<label>机械臂</label>
-		<description>无需供电的精密机械臂。自动拿取可达材料，为炮塔和自动工作台补料，执行普通工作台订单，并建造或维修附近建筑。墙体、关闭的门和关节极限会限制实际工作范围。</description>
+		<description>无需供电的精密机械臂。自动拿取可达材料，为炮塔和自动工作台补料，执行普通工作台订单，搬开施工位置的物品，并建造、维修或拆除已标记的附近建筑。墙体、关闭的门和关节极限会限制实际工作范围。</description>
 		<thingClass>SSR.Automation.Building_MechanicalArm</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>

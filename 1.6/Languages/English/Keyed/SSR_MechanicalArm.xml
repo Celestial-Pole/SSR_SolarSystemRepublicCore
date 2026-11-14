@@ -7,7 +7,7 @@
   <SSR_Arm_Work_ReloadTurret>Reload turrets</SSR_Arm_Work_ReloadTurret>
   <SSR_Arm_Work_SupplyWorkbench>Supply automatic workbenches</SSR_Arm_Work_SupplyWorkbench>
   <SSR_Arm_Work_Craft>Use workbenches</SSR_Arm_Work_Craft>
-  <SSR_Arm_Work_Construct>Construct</SSR_Arm_Work_Construct>
+  <SSR_Arm_Work_Construct>Construct / deconstruct</SSR_Arm_Work_Construct>
   <SSR_Arm_Work_Repair>Repair</SSR_Arm_Work_Repair>
   <SSR_Arm_Phase_Idle>idle</SSR_Arm_Phase_Idle>
   <SSR_Arm_Phase_Reach>reaching for materials</SSR_Arm_Phase_Reach>
@@ -55,4 +55,8 @@
   <SSR_Arm_ModelFailed>Failed to load or draw the mechanical arm model</SSR_Arm_ModelFailed>
   <SSR_Arm_WorkStopped>The mechanical arm stopped due to an error</SSR_Arm_WorkStopped>
   <SSR_Arm_WorkError>An error occurred during work</SSR_Arm_WorkError>
+  <SSR_Arm_ClearItemUnavailable>Site clearing: item cannot be moved or is reserved: {0}</SSR_Arm_ClearItemUnavailable>
+  <SSR_Arm_ClearNoSpace>Site clearing: no reachable drop location outside construction sites</SSR_Arm_ClearNoSpace>
+  <SSR_Arm_DeconstructCancelled>Deconstruction designation removed; stopping work</SSR_Arm_DeconstructCancelled>
+  <SSR_Arm_DeconstructUnavailable>Target cannot currently be deconstructed: {0}</SSR_Arm_DeconstructUnavailable>
 </LanguageData>

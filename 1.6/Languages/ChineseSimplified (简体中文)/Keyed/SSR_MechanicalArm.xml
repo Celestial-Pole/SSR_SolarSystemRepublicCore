@@ -7,7 +7,7 @@
   <SSR_Arm_Work_ReloadTurret>装填炮塔</SSR_Arm_Work_ReloadTurret>
   <SSR_Arm_Work_SupplyWorkbench>补给自动工作台</SSR_Arm_Work_SupplyWorkbench>
   <SSR_Arm_Work_Craft>使用工作台</SSR_Arm_Work_Craft>
-  <SSR_Arm_Work_Construct>建造</SSR_Arm_Work_Construct>
+  <SSR_Arm_Work_Construct>建造/拆除</SSR_Arm_Work_Construct>
   <SSR_Arm_Work_Repair>维修</SSR_Arm_Work_Repair>
   <SSR_Arm_Phase_Idle>待机</SSR_Arm_Phase_Idle>
   <SSR_Arm_Phase_Reach>接近材料</SSR_Arm_Phase_Reach>
@@ -55,4 +55,8 @@
   <SSR_Arm_ModelFailed>机械臂模型加载或绘制失败</SSR_Arm_ModelFailed>
   <SSR_Arm_WorkStopped>机械臂因错误停止工作</SSR_Arm_WorkStopped>
   <SSR_Arm_WorkError>工作发生错误</SSR_Arm_WorkError>
+  <SSR_Arm_ClearItemUnavailable>施工清场：无法搬动或物品已被占用：{0}</SSR_Arm_ClearItemUnavailable>
+  <SSR_Arm_ClearNoSpace>施工清场：工作范围内没有可达且不占用施工区的落点</SSR_Arm_ClearNoSpace>
+  <SSR_Arm_DeconstructCancelled>拆除标记已取消，停止拆除</SSR_Arm_DeconstructCancelled>
+  <SSR_Arm_DeconstructUnavailable>目标当前不能拆除：{0}</SSR_Arm_DeconstructUnavailable>
 </LanguageData>
