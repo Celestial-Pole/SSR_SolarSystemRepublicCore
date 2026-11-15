@@ -449,11 +449,11 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<!--<maxQualityByLevel>
+				<maxQualityByLevel>
 					<li>Excellent</li>
 					<li>Masterwork</li>
 					<li>Legendary</li>
-				</maxQualityByLevel>-->
+				</maxQualityByLevel>
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
 					<li>5</li>
@@ -912,6 +912,8 @@
 				<sourceWorktables>
 					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
 					<!--<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableAmmoPrinter</li>-->
+					<li >TableMachining</li><!-- 核心 机械加工台 -->
+					<li >FabricationBench</li><!-- 核心 精密装配台 -->
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableMachinePrinter</li><!-- 失能机关 机械冲压机 -->
 					<li MayRequire="BreadMo.Cinders">Cinder_AncientWorkstation</li><!-- 余烬花园的灰姑娘 远古工作站 -->
 					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricSmithy</li><!-- 鼠族本体 鼠族锻造台 -->
