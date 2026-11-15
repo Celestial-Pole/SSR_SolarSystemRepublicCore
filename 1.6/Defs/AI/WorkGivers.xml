@@ -33,7 +33,7 @@
 		<defName>SSR_WorkGiver_OperateBuildingGeneric</defName>
 		<label>操作建筑</label>
 		<giverClass>FS_SSR.Generic.WorkGiver_BuildingOperateGeneric</giverClass>
-		<workType>Hauling</workType>
+		<workType>Construction</workType>
 		<emergency>false</emergency>
 		<verb>操作</verb>
 		<gerund>操作</gerund>
