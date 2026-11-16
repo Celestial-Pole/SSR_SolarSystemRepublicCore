@@ -113,7 +113,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_EFF_LandTrainingClothes</defName>
 		<label>地球联邦陆军作训服</label>
-		<description>地球联邦陆军作训服</description>
+		<description>地球联邦时代早期的陆军作训服，面料结实耐磨，但是对枪弹没有什么防护效果。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_TrainingClothes/EF_LandForce_TrainingClothes</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -163,7 +163,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_EFF_SpaceTrainingClothes</defName>
 		<label>地球联邦太空军作训服</label>
-		<description>地球联邦太空军作训服</description>
+		<description>地球联邦时代早期的太空军作训服，面料结实耐磨，但是对枪弹没有什么防护效果。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_TrainingClothes/EF_SpaceForce_TrainingClothes</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -213,7 +213,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_EFF_LandDressUniform</defName>
 		<label>地球联邦陆军军礼服</label>
-		<description>地球联邦陆军军礼服</description>
+		<description>地球联邦时代早期的陆军军礼服，美观实用且拥有较好的保暖效果。</description>
 		<costList>
 			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
@@ -264,7 +264,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_EFF_SpaceDressUniform</defName>
 		<label>地球联邦太空军军礼服</label>
-		<description>地球联邦太空军军礼服</description>
+		<description>地球联邦时代早期的太空军军礼服，美观实用且拥有较好的保暖效果。</description>
 		<costList>
 			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
@@ -315,7 +315,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_MedicalClothing</defName>
 		<label>外科手术衣</label>
-		<description>外科手术衣</description>
+		<description>经过消毒的无菌外科手术衣。</description>
 		<costList>
 			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
@@ -371,7 +371,7 @@
 	<ThingDef ParentName="SSR_ApparelCustomBase">
 		<defName>SSR_Apparel_MiningCothing</defName>
 		<label>矿工制服</label>
-		<description>矿工制服</description>
+		<description>地球联邦时代早期统一发放的标准矿工制服。</description>
 		<costList>
 			<SSR_Item_Graphene>7</SSR_Item_Graphene>
 		</costList>
@@ -535,7 +535,7 @@
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_Apparel_EFF_LandTrainingHat</defName>
 		<label>地球联邦陆军作训服帽子</label>
-		<description>地球联邦陆军作训服帽子</description>
+		<description>地球联邦时代早期的陆军作训服帽子。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_TrainingClothes_helmet/EF_LandForce_TrainingClothes_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -591,7 +591,7 @@
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_Apparel_EFF_SpaceTrainingHat</defName>
 		<label>地球联邦太空军作训服帽子</label>
-		<description>地球联邦太空军作训服帽子</description>
+		<description>地球联邦时代早期的太空军作训服帽子。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_TrainingClothes_helmet/EF_SpaceForce_TrainingClothes_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -647,7 +647,7 @@
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_Apparel_EFF_LandDressHat</defName>
 		<label>地球联邦陆军军礼服帽子</label>
-		<description>地球联邦陆军军礼服帽子</description>
+		<description>地球联邦时代早期的陆军军礼服帽子。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_LandForce_DressUniform_helmet/EF_LandForce_DressUniform_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -703,7 +703,7 @@
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_Apparel_EFF_SpaceDressHat</defName>
 		<label>地球联邦太空军军礼服帽子</label>
-		<description>地球联邦太空军军礼服帽子</description>
+		<description>地球联邦时代早期的太空军军礼服帽子。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_SpaceForce_DressUniform_helmet/EF_SpaceForce_DressUniform_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -759,7 +759,7 @@
 	<ThingDef ParentName="SSR_HatBase">
 		<defName>SSR_Apparel_EFF_MedicalHat</defName>
 		<label>外科手术衣帽子</label>
-		<description>外科手术衣帽子</description>
+		<description>经过消毒的外科手术衣帽子。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MedicalClothing_helmet/EF_MedicalClothing_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -823,7 +823,7 @@
 	<ThingDef ParentName="SSR_HelmetBase">
 		<defName>SSR_Apparel_EFF_MiningHelmet</defName>
 		<label>矿工头盔</label>
-		<description>矿工头盔</description>
+		<description>地球联邦时代早期统一发放的标准矿工头盔。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MiningCothing_helmet/EF_MiningCothing_helmet</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -938,7 +938,7 @@
 	<ThingDef ParentName="SSR_UAVBase">
 		<defName>SSR_Apparel_EFF_MedicaUAV</defName>
 		<label>医疗无人机</label>
-		<description>医疗无人机</description>
+		<description>地球联邦时代早期使用的辅助用医疗无人机，可协助医生处理伤口或进行手术。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MedicaUAV/EF_MedicaUAV</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -999,7 +999,7 @@
 	<ThingDef ParentName="SSR_UAVBase">
 		<defName>SSR_Apparel_EFF_MiningUAV</defName>
 		<label>采矿无人机</label>
-		<description>采矿无人机</description>
+		<description>地球联邦时代早期使用的辅助用采矿无人机，可用于协助矿工进行简单的采矿作业。</description>
 		<graphicData>
 			<texPath>Things/Apparel/EF_MiningUAV/EF_MiningUAV</texPath>
 			<shaderType>CutoutComplex</shaderType>

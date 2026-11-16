@@ -442,7 +442,7 @@
 	<ThingDef ParentName="SSR_BuildingBase_Temperature">
 		<defName>SSR_Building_TemperatureController</defName>
 		<label>温度控制装置</label>
-		<description>desc。</description>
+		<description>温度控制器通过实时修正空间内粒子的运动速度以达到控制房间温度的效果。</description>
 		<thingClass>FS_SSR.Building_SingleTempController</thingClass>
 		<tickerType>Rare</tickerType>
 		<graphicData>
@@ -466,8 +466,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<SSR_Item_SpecialSteel>20</SSR_Item_SpecialSteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<SSR_Item_FermiMaterial>20</SSR_Item_FermiMaterial>
+			<SSR_Item_ExtremeComponent>3</SSR_Item_ExtremeComponent>
 		</costList>
 		<building>
 			<isEdifice>false</isEdifice>
