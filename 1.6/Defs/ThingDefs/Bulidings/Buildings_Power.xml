@@ -1796,7 +1796,6 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>36000</WorkToBuild>
 			<Flammability>0</Flammability>
-			<Mass>3</Mass>
 		</statBases>
 		<costList>
 			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
@@ -1890,6 +1889,7 @@
 			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
 			<Flammability>0</Flammability>
+			<Mass>3</Mass>
 		</statBases>
 		<costList>
 			<SSR_Item_FermiMaterial>700</SSR_Item_FermiMaterial>

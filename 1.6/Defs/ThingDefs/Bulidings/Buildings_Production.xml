@@ -449,11 +449,11 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQualityByLevel>
+				<!--<maxQualityByLevel>
 					<li>Excellent</li>
 					<li>Masterwork</li>
 					<li>Legendary</li>
-				</maxQualityByLevel>
+				</maxQualityByLevel>-->
 				<!--<productionFactor>5</productionFactor>-->
 				<productionFactorsUpgraded>
 					<li>5</li>
@@ -1851,6 +1851,11 @@
 				<compClass>FS_SSR.TC_SolarFlareLocalShield</compClass>
 			</li>
 			<li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQualityByLevel>
+					<li>Excellent</li>
+					<li>Masterwork</li>
+					<li>Legendary</li>
+				</maxQualityByLevel>
 				<productionFactorsUpgraded>
 					<li>5</li>
 					<li>10</li>
