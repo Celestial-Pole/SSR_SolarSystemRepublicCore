@@ -198,7 +198,7 @@
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
-			<Mass>20</Mass>
+			<Mass>5</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -274,7 +274,7 @@
 		<statBases>
 			<MaxHitPoints>750</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
-			<Mass>20</Mass>
+			<Mass>10</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -453,7 +453,7 @@
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
-			<Mass>20</Mass>
+			<Mass>5</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -529,7 +529,7 @@
 		<statBases>
 			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
-			<Mass>20</Mass>
+			<Mass>10</Mass>
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -719,7 +719,7 @@
 			<WorkToBuild>20000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>10</Beauty>
-			<Mass>20</Mass>
+			<Mass>5</Mass>
 		</statBases>
 		<canOverlapZones>false</canOverlapZones>
 		<size>(1,1)</size>
@@ -1796,6 +1796,7 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>36000</WorkToBuild>
 			<Flammability>0</Flammability>
+			<Mass>3</Mass>
 		</statBases>
 		<costList>
 			<SSR_Item_Carbyne>80</SSR_Item_Carbyne>
