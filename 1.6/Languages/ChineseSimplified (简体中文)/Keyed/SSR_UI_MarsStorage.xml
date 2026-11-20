@@ -5,6 +5,8 @@
   <SSR_MarsStorage_Search>搜索物品</SSR_MarsStorage_Search>
   <SSR_MarsStorage_Empty>暂无符合条件的物品</SSR_MarsStorage_Empty>
   <SSR_MarsStorage_NoSelection>未选择物品</SSR_MarsStorage_NoSelection>
+  <SSR_MarsStorage_SelectedStacks>已选 {0} 堆</SSR_MarsStorage_SelectedStacks>
+  <SSR_MarsStorage_RetrieveSelected>整堆收取</SSR_MarsStorage_RetrieveSelected>
   <SSR_MarsStorage_Minimum>最小</SSR_MarsStorage_Minimum>
   <SSR_MarsStorage_Maximum>最大</SSR_MarsStorage_Maximum>
   <SSR_MarsStorage_Retrieve>收取</SSR_MarsStorage_Retrieve>
