@@ -912,6 +912,8 @@
 				<sourceWorktables>
 					<!--<li MayRequire="example.author.mod">ExampleMod_WorkbenchDefName</li>-->
 					<!--<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableAmmoPrinter</li>-->
+					<li >FueledSmithy</li><!-- 核心 锻造台（燃料） -->
+					<li >ElectricSmithy</li><!-- 核心 锻造台（电力） -->
 					<li >TableMachining</li><!-- 核心 机械加工台 -->
 					<li >FabricationBench</li><!-- 核心 精密装配台 -->
 					<li MayRequire="Aoba.DeadManSwitch.Core">DMS_TableMachinePrinter</li><!-- 失能机关 机械冲压机 -->
@@ -1237,6 +1239,12 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li>TableButcher</li><!-- 核心 屠宰台 -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1430,6 +1438,8 @@
 			<!--排他性兼容其他模组工作台配方-->
 			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
 				<sourceWorktables>
+					<li>HandTailoringBench</li><!-- 核心 裁缝台（手工） -->
+					<li>ElectricTailoringBench</li><!-- 核心 裁缝台（电力） -->
 					<li MayRequire="Solaris.RatkinRaceMod">RK_ElectricTailoringBench</li><!-- 鼠族本体 鼠族裁缝台 -->
 					<li MayRequire="Ancot.MiliraRace">Milira_TailoringBench</li><!-- 米莉拉本体 米莉拉缝纫台 -->
 				</sourceWorktables>
@@ -1599,6 +1609,13 @@
 		<modExtensions>
 			<li Class="FS_SSR.DefExt_NoRecipeSort" />
 			<li Class="FS_SSR.Power.Ext_CountAsConnectToPower" />
+			<!--排他性兼容其他模组工作台配方-->
+			<li Class="FS_SSR.Ext_AutoWorkbenchRecipes">
+				<sourceWorktables>
+					<li>FueledStove</li><!-- 核心 炉灶（燃料） -->
+					<li>ElectricStove</li><!-- 核心 炉灶（电力） -->
+				</sourceWorktables>
+			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -1948,7 +1965,6 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
-		<rotatable>false</rotatable>
 		<canOverlapZones>false</canOverlapZones>
 		<hasInteractionCell>false</hasInteractionCell>
 		<statBases>
