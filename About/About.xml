@@ -32,6 +32,7 @@
 		<li>ancot.milirarace</li>
 		<li>solaris.ratkinracemod</li>
 		<li>aoba.fortress.industrial</li>
+		<li>rimthunder.core</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>ratys.rtsolarflareshield</li>

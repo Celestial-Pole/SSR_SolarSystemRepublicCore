@@ -922,6 +922,7 @@
 					<li MayRequire="Ancot.MiliraRace">Milira_UniversalBench</li><!-- 米莉拉本体 米莉拉通用工作台 -->
 					<li MayRequire="Ancot.MiliraRace">Milira_DroneBench</li><!-- 米莉拉本体 米莉拉无人机打印架 -->
 					<li MayRequire="Ancot.MiliraRace">Milira_SunBlastFurnace</li><!-- 米莉拉本体 太阳熔炉 -->
+					<li MayRequire="rimthunder.core">RT_AssemblyBench</li><!-- RimThunder - Core 重型组装平台 -->
 				</sourceWorktables>
 			</li>
 		</modExtensions>
