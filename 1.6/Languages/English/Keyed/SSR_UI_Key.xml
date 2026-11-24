@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SSR_PalMine_MissingMineral>Layer paused ({0} is missing)</SSR_PalMine_MissingMineral>
+  <SSR_Replicator_AwaitingSample>Sample needed</SSR_Replicator_AwaitingSample>
+  <SSR_Replicator_DeliveringSample>Sample on the way</SSR_Replicator_DeliveringSample>
+  <SSR_Replicator_SampleInTransit>{1} is bringing {0} to this replicator.</SSR_Replicator_SampleInTransit>
+  <SSR_Replicator_SlotsFull>All replicator sample slots are full</SSR_Replicator_SlotsFull>
+  <SSR_Replicator_SlotsForbidden>Reachable replicators with an empty slot are forbidden to this colonist</SSR_Replicator_SlotsForbidden>
+  <SSR_Replicator_SlotsUnreachable>No path to a replicator with an empty sample slot</SSR_Replicator_SlotsUnreachable>
+  <SSR_Replicator_SlotsReserved>Available replicators with an empty slot are reserved</SSR_Replicator_SlotsReserved>
+  <SSR_Replicator_DeliverMapSample>Select a colonist who can haul, right-click {0} on the ground, and choose the replication order to have them deliver it to a replicator with an empty sample slot.</SSR_Replicator_DeliverMapSample>
+  <SSR_Replicator_DeliverMarsSample>Withdraw one {0} from Mars storage. Select a colonist who can haul, right-click the item, and choose the replication order to have them deliver it to a replicator with an empty sample slot.</SSR_Replicator_DeliverMarsSample>
+</LanguageData>

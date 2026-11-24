@@ -2006,6 +2006,7 @@
 				<interval>1000</interval>
 				<drawExtraOverlay>true</drawExtraOverlay>
 			</li>
+			<li Class="FS_SSR.Storage.TCP_MarsDocking" />
 		</comps>
 		<researchPrerequisites>
 			<li>SSR_Research_AdvancedArtificialIntelligence</li>

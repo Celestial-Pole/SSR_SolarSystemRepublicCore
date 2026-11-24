@@ -8,6 +8,15 @@
 	<SSR_Replicator_QueueTitle>生产队列</SSR_Replicator_QueueTitle>
 	<SSR_Replicator_Unlocked>已解锁配方物品</SSR_Replicator_Unlocked>
 	<SSR_Replicator_Replicable>可复制物品</SSR_Replicator_Replicable>
+	<SSR_Replicator_AwaitingSample>待送样</SSR_Replicator_AwaitingSample>
+	<SSR_Replicator_DeliveringSample>送样中</SSR_Replicator_DeliveringSample>
+	<SSR_Replicator_SampleInTransit>{1}正在把{0}送往这台复制机。</SSR_Replicator_SampleInTransit>
+	<SSR_Replicator_SlotsFull>没有空的样品槽</SSR_Replicator_SlotsFull>
+	<SSR_Replicator_SlotsForbidden>可到达的空槽复制机均被禁用或位于该殖民者的允许区域外</SSR_Replicator_SlotsForbidden>
+	<SSR_Replicator_SlotsUnreachable>没有通往空槽复制机的路线</SSR_Replicator_SlotsUnreachable>
+	<SSR_Replicator_SlotsReserved>可使用的空槽复制机已被占用</SSR_Replicator_SlotsReserved>
+	<SSR_Replicator_DeliverMapSample>选中能搬运的殖民者，右键地上的{0}，选择“复制物品”，将样品送入空槽复制机。</SSR_Replicator_DeliverMapSample>
+	<SSR_Replicator_DeliverMarsSample>先从火星仓储取出一件{0}。选中能搬运的殖民者，右键取出的物品，选择“复制物品”，将样品送入空槽复制机。</SSR_Replicator_DeliverMarsSample>
 	<SSR_Replicator_Search>搜索物品…</SSR_Replicator_Search>
 	<SSR_Replicator_Empty>没有符合条件的配方</SSR_Replicator_Empty>
 	<SSR_Replicator_EmptyQueue>暂无生产任务</SSR_Replicator_EmptyQueue>
@@ -51,6 +60,7 @@
 	<!-- 矿井控制台 -->
 	<SSR_PalMine>矿井</SSR_PalMine>
 	<SSR_PalMine_OpenUI>标准化垂直矿井UI</SSR_PalMine_OpenUI>
+	<SSR_PalMine_MissingMineral>缺少矿物 {0}，本层已暂停</SSR_PalMine_MissingMineral>
 	<SSR_PalMine_OpenUIDesc>打开/关闭标准化垂直矿井UI</SSR_PalMine_OpenUIDesc>
 	<SSR_PalMine_UpDigLayer>挖掘矿层升级</SSR_PalMine_UpDigLayer>
 	<SSR_PalMine_DigLayer>挖掘矿层</SSR_PalMine_DigLayer>
