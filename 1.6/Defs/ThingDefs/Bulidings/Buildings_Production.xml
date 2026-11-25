@@ -959,7 +959,6 @@
 		</statBases>
 		<size>(3,2)</size>
 		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
@@ -1973,11 +1972,16 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<hasInteractionCell>false</hasInteractionCell>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>3000</MaxHitPoints>
 			<WorkToBuild>18000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>1</Beauty>
+			<Mass>200</Mass>
 		</statBases>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
