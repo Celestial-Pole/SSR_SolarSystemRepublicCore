@@ -40,6 +40,7 @@
 	<SSR_BG_Saved>背景设置已保存。</SSR_BG_Saved>
 	<SSR_BG_SaveFailed>背景设置保存失败，请查看日志。</SSR_BG_SaveFailed>
 	<SSR_BG_UnknownMod>未知模组</SSR_BG_UnknownMod>
+	<SSR_BG_SearchMod>搜索模组…</SSR_BG_SearchMod>
 	<SSR_SelectBG>选择背景图</SSR_SelectBG>
 	<SSR_EnableBG>启用的背景图</SSR_EnableBG>
 	<SSR_EnableBGDesc>启用的背景图</SSR_EnableBGDesc>
@@ -79,5 +80,9 @@
 	<SSR_PowerTransmit>请求远程传输 {0} W电力</SSR_PowerTransmit>
 	<SSR_PowerReceiver_SetRequestedPower>设定请求电力</SSR_PowerReceiver_SetRequestedPower>
 	<SSR_PowerReceiver_SetRequestedPowerDesc>设定从无线输电塔请求传输的电量。</SSR_PowerReceiver_SetRequestedPowerDesc>
+
+	<!-- 全局 UI -->
+	<SSR_UIScale>UI缩放设置</SSR_UIScale>
+	<SSR_UIScaleDesc>*数值越大，UI元素占比越大</SSR_UIScaleDesc>
 
 </LanguageData>

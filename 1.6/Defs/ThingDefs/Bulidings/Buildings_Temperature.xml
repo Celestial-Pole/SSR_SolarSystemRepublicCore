@@ -129,6 +129,8 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2</drawSize>
+			<drawOffsetNorth>(0,0,0.34)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,0.34)</drawOffsetSouth>
 		</graphicData>
 		<size>(2,1)</size>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -193,6 +195,8 @@
 								<graphicClass>Graphic_Multi</graphicClass>
 								<shaderType>CutoutComplex</shaderType>
 								<drawSize>2</drawSize>
+								<drawOffsetNorth>(0,0,0.34)</drawOffsetNorth>
+								<drawOffsetSouth>(0,0,0.34)</drawOffsetSouth>
 							</graphicData>
 							<workAmt>1600</workAmt>
 							<requireMaterial>true</requireMaterial>

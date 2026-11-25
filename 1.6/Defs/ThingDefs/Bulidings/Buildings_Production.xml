@@ -2331,6 +2331,7 @@
 		<uiOrder>2110</uiOrder>
 		<placeWorkers>
 			<li>PlaceWorker_OnSteamGeyser</li>
+			<li>FS_SSR.PW_VerticalDrillingRig</li>
 		</placeWorkers>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>

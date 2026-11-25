@@ -978,6 +978,9 @@
 			<li>SSR_Research_BasicPowerTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>FS_SSR.PW_VerticalDrillingRig</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
@@ -1758,6 +1761,9 @@
 			<li>SSR_Research_AntimatterApplicationsTechnology</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>FS_SSR.PW_VerticalDrillingRig</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="SSR_BuildingBase_Power">
