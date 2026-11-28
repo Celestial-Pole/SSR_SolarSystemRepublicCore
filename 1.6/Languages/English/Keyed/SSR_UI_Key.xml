@@ -13,4 +13,8 @@
   <SSR_Replicator_DeliverMarsSample>Withdraw one {0} from Mars storage. Select a colonist who can haul, right-click the item, and choose the replication order to have them deliver it to a replicator with an empty sample slot.</SSR_Replicator_DeliverMarsSample>
   <SSR_UIScale>UI Scale</SSR_UIScale>
   <SSR_UIScaleDesc>*Higher values increase UI element screen coverage</SSR_UIScaleDesc>
+  <SSR_TelePad_NoPawn>Teleporting to an ungenerated world tile requires at least one pawn in range to form a caravan.</SSR_TelePad_NoPawn>
+  <SSR_TelePad_NoTarget>No pawns or haulable items in teleport range.</SSR_TelePad_NoTarget>
+  <SSR_TelePad_DestinationNoStandable>Target cell is not standable.</SSR_TelePad_DestinationNoStandable>
+  <SSR_TelePad_NoCaravan>No caravan at the target tile to retrieve.</SSR_TelePad_NoCaravan>
 </LanguageData>

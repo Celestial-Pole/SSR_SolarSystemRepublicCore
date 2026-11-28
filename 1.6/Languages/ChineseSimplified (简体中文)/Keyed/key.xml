@@ -139,6 +139,10 @@
 	<SSR_TelePadRetrieveDesc>全球范围回传目标</SSR_TelePadRetrieveDesc>
 	<SSR_TelePadRetrieveLocal>本地回传</SSR_TelePadRetrieveLocal>
 	<SSR_TelePadRetrieveLocalDesc>本地图内回传目标</SSR_TelePadRetrieveLocalDesc>
+	<SSR_TelePad_NoPawn>传送至无地图的世界格需要范围内至少有一个单位以组建远行队。</SSR_TelePad_NoPawn>
+	<SSR_TelePad_NoTarget>传送范围内没有可传送的单位或物品。</SSR_TelePad_NoTarget>
+	<SSR_TelePad_DestinationNoStandable>目标位置不可站立，无法传送。</SSR_TelePad_DestinationNoStandable>
+	<SSR_TelePad_NoCaravan>目标格没有可回传的远行队。</SSR_TelePad_NoCaravan>
 	<SSR_TelePad_RetrieveNoSpace>传送板附近空间不足，{0} 个目标的未传送部分已留在原处。</SSR_TelePad_RetrieveNoSpace>
 
 	<SSR_NextHarvest>距离下次收获: {0}</SSR_NextHarvest>
