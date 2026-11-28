@@ -2856,7 +2856,8 @@
 		</building>
 		<hasInteractionCell>false</hasInteractionCell>
 		<placeWorkers>
-			<li>FS_SSR.Generic.PW_WorldUnique</li>
+			<li>FS_SSR.Generic.PW_MapUnique</li>
+			<li>FS_SSR.Generic.PW_NotInPocketMap</li>
 			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<researchPrerequisites>
@@ -2868,7 +2869,6 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>5000</basePowerConsumption>
 			</li>
-			<li Class="FS_SSR.Generic.TCP_UniqueMarker" />
 			<!--li Class="FS_SSR.Generic.TCP_Limited">
 				<unique>true</unique>
 			</li-->

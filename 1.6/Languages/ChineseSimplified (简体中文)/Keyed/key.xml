@@ -55,6 +55,7 @@
 	<SSR_UniqueBuildingWorkerUsedOnNonBuilding>独特的建筑工人用于非建筑</SSR_UniqueBuildingWorkerUsedOnNonBuilding>
 	<SSR_DupWorldBuilding>重复的世界建筑</SSR_DupWorldBuilding>
 	<SSR_DupMapBuilding>当前地图内重复的建筑</SSR_DupMapBuilding>
+	<SSR_CantPlaceInPocketMap>不能在口袋地图中建造</SSR_CantPlaceInPocketMap>
 	<SSR_ShowFireSprinklerLayer>显示消防花洒层</SSR_ShowFireSprinklerLayer>
 	<AK_Option_selectFont>选择字体</AK_Option_selectFont>
 	<SSR_Info_CGL>当前组网级别：{0}\n网络中计算机组数量：{1}\n全局科研加成：{2}</SSR_Info_CGL>

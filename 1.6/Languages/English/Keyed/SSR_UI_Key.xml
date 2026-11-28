@@ -17,4 +17,5 @@
   <SSR_TelePad_NoTarget>No pawns or haulable items in teleport range.</SSR_TelePad_NoTarget>
   <SSR_TelePad_DestinationNoStandable>Target cell is not standable.</SSR_TelePad_DestinationNoStandable>
   <SSR_TelePad_NoCaravan>No caravan at the target tile to retrieve.</SSR_TelePad_NoCaravan>
+  <SSR_CantPlaceInPocketMap>Cannot be built in pocket maps</SSR_CantPlaceInPocketMap>
 </LanguageData>
